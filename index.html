@@ -1,16 +1,1641 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>https://ivanays.github.io</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="/js/lib/jquery/jquery.min.js"></script>
+  <script defer src="/js/lib/dayjs/dayjs.min.js"></script>
+  <script defer src="/js/lib/dayjs/locale_ru.js"></script>
+  <script defer src="/js/lib/dayjs/add_locale_ru.js"></script>
+  <script defer src="/js/lib/lodash/lodash.js"></script>
+  <script defer src="/js/tabs.js"></script>
+  <script defer src="/js/slider-body.js"></script>
+  <script defer src="/js/slider-face.js"></script>
+  <script defer src="/js/slider-info.js"></script>
+  <script defer src="/js/slider-certificates.js"></script>
+  <script defer src="/js/slider-stock.js"></script>
+  <script defer src="/js/popup.js"></script>
+  <script defer src="/js/buttons-sidebar.js"></script>
+  <script defer src="/js/scroll.js"></script>
+  <script defer src="/js/links.js"></script>
+  <script defer src="/js/info.js"></script>
+  <title>snv-site3.local</title>
 </head>
+
 <body>
-    <main class="main">
-        <section class="section">
-            <h1 class="title">https://ivanays.github.io</h1>
-        </section>
-    </main>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__left">
+            <div class="header__inner header__inner-left">
+              <div class="header__logo">
+                <a href="adminka-login.html" class="header__link header__link-logo">
+                  <img src="/img/logo/logo-header.svg" alt="SNV" class="logo logo-header">
+                </a>
+              </div>
+              <div class="header__title">
+                <h1 class="title title-header">Аппаратная коррекция фигуры</h1>
+              </div>
+            </div>
+            <div class="header__line"></div>
+          </div>
+          <div class="header__right">
+            <div class="header__inner header__inner-right">
+              <div class="header__menu">
+                <menu class="menu menu-header">
+                  <li class="menu__item menu__item-header">
+                    <a href="#popup-g" class="menu__link menu__link-header popup-link">Выезд на
+                      дом</a>
+                  </li>
+                  <li class="menu__item menu__item-header">
+                    <a href="#" class="menu__link menu__link-header menu__link-block"
+                      data-block="#procedures">Услуги</a>
+                  </li>
+                  <li class="menu__item menu__item-header">
+                    <a href="#popup-f" class="menu__link menu__link-header popup-link">Акции</a>
+                  </li>
+                  <li class="menu__item menu__item-header">
+                    <a href="#popup-b" class="menu__link menu__link-header popup-link">Окна</a>
+                  </li>
+                  <li class="menu__item menu__item-header">
+                    <a href="#popup-h" class="menu__link menu__link-header popup-link">Отзывы</a>
+                  </li>
+                </menu>
+              </div>
+              <div class="header__burger">
+                <a href="#" class="header__link header__link-burger">
+                  <img src="/img/burger/burger-header744.svg" alt="SNV" class="burger burger-header">
+                </a>
+              </div>
+              <div class="header__phone">
+                <!-- <a href="tel:+79182669130" class="header__link-phone">+7 918 266 91 30</a> -->
+                <a href="tel:+79182669130" class="header__link-phone">
+                  <span class="header__span header__span-block">+7</span>
+                  <span class="header__span">9</span>
+                  <span class="header__span">1</span>
+                  <span class="header__span header__span-block">8</span>
+                  <span class="header__span">2</span>
+                  <span class="header__span">6</span>
+                  <span class="header__span header__span-block">6</span>
+                  <span class="header__span">9</span>
+                  <span class="header__span header__span-block">1</span>
+                  <span class="header__span">3</span>
+                  <span class="header__span header__span-block">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="main__inner">
+        <div class="main__sidebar">
+          <menu class="sidebar sidebar-main">
+            <li class="sidebar__item sidebar__item-main">
+              <menu class="sidebar sidebar-sub">
+                <li class="sidebar__item sidebar__item-sub">
+                  <a href="#popup-b" class="sidebar__link sidebar__link-sub popup-link">Окна</a>
+                </li>
+                <li class="sidebar__item sidebar__item-sub">
+                  <a href="#popup-f" class="sidebar__link sidebar__link-sub popup-link">Акции</a>
+                </li>
+              </menu>
+            </li>
+            <li class="sidebar__item sidebar__item-main">
+              <a href="#popup-c" class="sidebar__link sidebar__link-main popup-link">Позвонить</a>
+            </li>
+          </menu>
+        </div>
+        <div class="main__icons">
+          <menu class="icons icons-main">
+            <li class="icons__item icons__item-main">
+              <a href="#" class="icons__link icons__link-main">
+                <img src="/img/icons/whatsapp-review.svg" alt="WhatsApp-icon" class="icons__main icons__main-icon"
+                  id="main-whatsapp-icon">
+                <img src="/img/icons/whatsapp-shadow.svg" alt="WhatsApp-shadom" class="icons__main icons__main-shadow"
+                  id="main-whatsapp-shadow">
+              </a>
+            </li>
+            <li class="icons__item icons__item-main">
+              <a href="#" class="icons__link icons__link-main">
+                <img src="/img/icons/telegram-review.svg" alt="Telegram-icon" class="icons__main icons__main-icon"
+                  id="main-telegram-icon">
+                <img src="/img/icons/telegram-shadow.svg" alt="Telegram-shadow" class="icons__main icons__main-shadow"
+                  id="main-telegram-shadow">
+              </a>
+            </li>
+            <li class="icons__item icons__item-main">
+              <a href="#popup-d" class="icons__link icons__link-main popup-link">
+                <img src="/img/icons/checkmark-review.svg" alt="Checkmark-icon" class="icons__main icons__main-icon"
+                  id="main-checkmark-icon">
+                <img src="/img/icons/checkmark-shadow.svg" alt="Checkmark-shadow" class="icons__main icons__main-shadow"
+                  id="main-checkmark-shadow">
+              </a>
+            </li>
+          </menu>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper wrapper__procedures">
+    <section id="procedures" class="procedures">
+      <div class="container container-procedures">
+        <div class="procedures__tabs">
+          <div class="procedures__menu">
+            <menu class="menu menu-procedures">
+              <li class="menu__item menu__item-tab">
+                <a href="#tab-b" class="menu__link menu__link-tab">Для тела</a>
+              </li>
+              <li class="menu__item menu__item-tab">
+                <a href="#tab-f" class="menu__link menu__link-tab">Для лица</a>
+              </li>
+            </menu>
+          </div>
+          <div id="tab-b" class="tabs tabs-procedures tabs-active">
+            <div class="tabs__body">
+              <div class="tabs__slider">
+                <div class="slider slider-procedures slider-body">
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body1.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body2.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body3.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body4.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body5.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body6.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-body">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/body/body7.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                </div>
+                <div class="dots">
+                  <div class="dots__body dots__body-procedure dots__body-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-f" class="tabs tabs-procedures">
+            <div class="tabs__body">
+              <div class="tabs__slider">
+                <div class="slider slider-procedures slider-face">
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face1.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face2.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face3.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face4.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face5.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face6.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face7.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face8.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face9.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face10.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face11.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face12.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face13.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-procedures slider__slide-face">
+                    <a href="#popup-a" class="slider__link slider__link-procedures popup-link">
+                      <img src="/img/procedures/face/face14.png" alt="Процедура"
+                        class="slider__card slider__card-procedures">
+                    </a>
+                  </div>
+                </div>
+                <div class="dots">
+                  <div class="dots__body dots__body-procedure dots__body-face">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section class="companies">
+      <div class="container container-companies">
+        <ul class="companies__list">
+          <li class="companies__item companies__item-mychway">
+            <div class="companies__frame companies__frame-mychway">
+              <div class="companies__group companies__group-mychway">
+                <h2 class="companies__name companies__name-mychway">Mychway</h2>
+                <p class="companies__blur companies__blur-mychway">Mychway</p>
+              </div>
+            </div>
+          </li>
+          <li class="companies__item companies__item-auro">
+            <div class="companies__frame companies__frame-auro">
+              <div class="companies__group companies__group-auro">
+                <h2 class="companies__name companies__name-auro">AURO</h2>
+                <p class="companies__blur companies__blur-auro">AURO</p>
+              </div>
+            </div>
+          </li>
+          <li class="companies__item companies__item-salonart">
+            <div class="companies__frame companies__frame-salonart">
+              <div class="companies__group companies__group-salonart">
+                <h2 class="companies__name companies__name-salonart">SalonArt</h2>
+                <p class="companies__blur companies__blur-salonart">SalonArt</p>
+              </div>
+            </div>
+          </li>
+          <li class="companies__item companies__item-vibro">
+            <div class="companies__frame companies__frame-vibro">
+              <div class="companies__group companies__group-vibro">
+                <h2 class="companies__name companies__name-vibro">Vibro</h2>
+                <p class="companies__blur companies__blur-vibro">Vibro</p>
+              </div>
+            </div>
+          </li>
+          <li class="companies__item companies__item-drceuracle">
+            <div class="companies__frame companies__frame-drceuracle">
+              <div class="companies__group companies__group-drceuracle">
+                <h2 class="companies__name companies__name-drceuracle">Dr.Ceuracle</h2>
+                <p class="companies__blur companies__blur-drceuracle">Dr.Ceuracle</p>
+              </div>
+            </div>
+        </ul>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container container-info">
+        <div class="info__slider">
+          <div class="slider slider-info">
+            <div class="slider__items slider__items-info">
+              <div class="slider__item slider__item-info">
+                <div class="slider__inner slider-info__inner">
+                  <div class="slider__slide slider__slide-info">
+
+                    <a href="#" class="slider__link slider__link-info">
+
+                      <svg id="info-svg1" class="slider__svg slider__svg-info" x="0" y="0" width="440" height="290"
+                        viewBox="0 0 440 290" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+                        <defs>
+
+                          <g id="svg-group1">
+                            <path id="path1-1"
+                              d="M32.5 51C32.5 39.1259 42.1259 29.5 54 29.5H402C405.038 29.5 407.5 31.9624 407.5 35V239C407.5 250.874 397.874 260.5 386 260.5H38C34.9624 260.5 32.5 258.038 32.5 255V51Z"
+                              fill="url(#paint0_linear_167_1734)" stroke="url(#paint1_linear_167_1734)" />
+
+                            <path id="path-circle1"
+                              d="M0,0 L 0,-86 C 0,-86 0,-92 -6,-92 L -353,-92 C -353,-92 -375,-92 -375,-70" fill="none"
+                              ctroke="none" />
+
+                            <path id="path-circle2"
+                              d="M0,0 L -184,0 C -184,0 -190,0 -190,-6 L -190,-209 C -190,-209 -190,-231 -168,-231.5"
+                              fill="none" ctroke="none" />
+
+                            <rect id="rect1-1" x="18.75" y="15.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint2_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <rect id="rect2-1" x="0.75" y="0.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint3_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <circle id="circle1-1" cx="407" cy="121" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+                            </circle>
+
+                            <animateMotion xlink:href="#circle1-1" dur="8.5s" repeatCount="indefinite" begin="0s"
+                              fill="remove" restart="whenNotActive" id="circle1-1-animpath">
+                              <mpath xlink:href="#path-circle1"></mpath>
+                            </animateMotion>
+
+                            <animate xlink:href="#circle1-1" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" dur="8.5s"
+                              begin="0s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="circle1-1-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle1-1" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="0s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle1-1-animfill">
+                            </animate>
+
+                            <circle id="circle2-1" cx="222" cy="260" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+
+                            </circle>
+
+                            <animatemotion xlink:href="#circle2-1" dur="8.5s" repeatCount="indefinite" begin="0s"
+                              fill="remove" restart="whenNotActive" id="circle2-1-animpath">
+                              <mpath xlink:href="#path-circle2"></mpath>
+                            </animatemotion>
+
+                            <animate xlink:href="#circle2-1" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" begin="0s"
+                              repeatcount="indefinite" fill="remove" restart="whenNotActive" dur="8.5s"
+                              id="circle2-1-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle2-1" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="0s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle2-1-animfill">
+                            </animate>
+
+                            <animate xlink:href="#rect1-1" attributetype="XML" attributename="x" from="18.75" to="18.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="10s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-1-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect1-1" attributetype="XML" attributename="y" from="15.75" to="15.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="10s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-1-animy">
+                            </animate>
+
+                            <animate xlink:href="#rect2-1" attributetype="XML" attributename="x" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="10s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-1-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect2-1" attributetype="XML" attributename="y" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="10s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-1-animy">
+                            </animate>
+
+
+                            <animate xlink:href="#title1-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                              values="220; 226; 216; 224; 218; 222; 220; 220" dur="8.5s" begin="8.5s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="title1-1-animx"></animate>
+                            
+                            <animate xlink:href="#text1-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1" values="220; 218; 220; 222; 224; 222; 220; 220" dur="8.5s" begin="8.5s"
+                              repeatcount="indefinite" fill="remove" restart="whenNotActive" id="text1-1-animx"></animate>
+                            
+                            <animate xlink:href="#title1-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1" values="220; 222; 224; 226; 228; 230; 220; 220" dur="8.5s" begin="8.5s"
+                              repeatcount="indefinite" fill="remove" restart="whenNotActive" id="title1-2-animx"></animate>
+                            
+                            <animate xlink:href="#text1-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1" values="220; 214; 216; 218; 220; 222; 220; 220" dur="8.5s" begin="8.5s"
+                              repeatcount="indefinite" fill="remove" restart="whenNotActive" id="text1-2-animx"></animate>
+
+                          </g>
+
+                          <g id="svg-group2">
+                            <path id="path1-2"
+                              d="M32.5 51C32.5 39.1259 42.1259 29.5 54 29.5H402C405.038 29.5 407.5 31.9624 407.5 35V239C407.5 250.874 397.874 260.5 386 260.5H38C34.9624 260.5 32.5 258.038 32.5 255V51Z"
+                              fill="url(#paint0_linear_167_1734)" stroke="url(#paint1_linear_167_1734)" />
+
+                            <rect id="rect1-2" x="18.75" y="15.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint2_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <rect id="rect2-2" x="0.75" y="0.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint3_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <circle id="circle1-2" cx="407" cy="121" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+                            </circle>
+
+                            <animateMotion xlink:href="#circle1-2" dur="8.5s" repeatCount="indefinite" begin="3s"
+                              fill="remove" restart="whenNotActive" id="circle1-2-animpath">
+                              <mpath xlink:href="#path-circle1"></mpath>
+                            </animateMotion>
+
+                            <animate xlink:href="#circle1-2" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" dur="8.5s"
+                              begin="3s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="circle1-2-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle1-2" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="3s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle1-2-animfill">
+                            </animate>
+
+                            <circle id="circle2-2" cx="222" cy="260" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+                            </circle>
+
+                            <animateMotion xlink:href="#circle2-2" dur="8.5s" repeatCount="indefinite" begin="3s"
+                              fill="remove" restart="whenNotActive" id="circle2-2-animpath">
+                              <mpath xlink:href="#path-circle2"></mpath>
+                            </animateMotion>
+
+                            <animate xlink:href="#circle2-2" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" dur="8.5s"
+                              begin="3s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="circle2-2-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle2-2" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="3s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle2-2-animfill">
+                            </animate>
+
+                            <animate xlink:href="#rect1-2" attributetype="XML" attributename="x" from="18.75" to="18.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="11s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-2-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect1-2" attributetype="XML" attributename="y" from="15.75" to="15.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="11s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-2-animy">
+                            </animate>
+
+
+                            <animate xlink:href="#rect2-2" attributetype="XML" attributename="x" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="11s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-2-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect2-2" attributetype="XML" attributename="y" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="11s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-2-animy">
+                            </animate>
+
+
+                            <animate xlink:href="#title2-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                              values="220; 226; 216; 224; 218; 222; 220; 220" dur="8.5s" begin="11.5s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="title2-1-animx"></animate>
+                            
+                            <animate xlink:href="#text2-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                              values="220; 218; 220; 222; 224; 222; 220; 220" dur="8.5s" begin="11.5s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="text2-1-animx"></animate>
+                            
+                            <animate xlink:href="#title2-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                              values="220; 222; 224; 226; 228; 230; 220; 220" dur="8.5s" begin="11.5s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="title2-2-animx"></animate>
+                            
+                            <animate xlink:href="#text2-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                              values="220; 214; 216; 218; 220; 222; 220; 220" dur="8.5s" begin="11.5s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="text2-2-animx"></animate>
+
+                          </g>
+
+                          <g id="svg-group3">
+                            <path id="path1-3"
+                              d="M32.5 51C32.5 39.1259 42.1259 29.5 54 29.5H402C405.038 29.5 407.5 31.9624 407.5 35V239C407.5 250.874 397.874 260.5 386 260.5H38C34.9624 260.5 32.5 258.038 32.5 255V51Z"
+                              fill="url(#paint0_linear_167_1734)" stroke="url(#paint1_linear_167_1734)" />
+
+                            <rect id="rect1-3" x="18.75" y="15.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint2_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <rect id="rect2-3" x="0.75" y="0.75" width="420.5" height="273.5" rx="34.25"
+                              stroke="url(#paint3_linear_167_1734)" stroke-width="1.5">
+                            </rect>
+
+                            <circle id="circle1-3" cx="407" cy="121" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+                            </circle>
+
+                            <animateMotion xlink:href="#circle1-3" dur="8.5s" repeatCount="indefinite" begin="6s"
+                              fill="remove" restart="whenNotActive" id="circle1-3-animpath">
+                              <mpath xlink:href="#path-circle1"></mpath>
+                            </animateMotion>
+
+                            <animate xlink:href="#circle1-3" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" dur="8.5s"
+                              begin="6s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="circle1-3-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle1-3" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="6s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle1-3-animfill">
+                            </animate>
+
+                            <circle id="circle2-3" cx="222" cy="260" r="0.5" fill="#841799" stroke="#841799"
+                              stroke-width="0.5">
+                            </circle>
+
+                            <animateMotion xlink:href="#circle2-3" dur="8.5s" repeatCount="indefinite" begin="6s"
+                              fill="remove" restart="whenNotActive" id="circle2-3-animpath">
+                              <mpath xlink:href="#path-circle2"></mpath>
+                            </animateMotion>
+
+                            <animate xlink:href="#circle2-3" attributeType="XML" attributeName="r"
+                              keytimes="0; 0.1; 0.95; 0.96; 0.97; 1" values="0.5; 2; 2; 10; 0.1; 0.1" dur="8.5s"
+                              begin="6s" repeatcount="indefinite" fill="remove" restart="whenNotActive"
+                              id="circle2-3-animr">
+                            </animate>
+
+                            <animate xlink:href="#circle2-3" attributeType="XML" attributeName="fill" from="#841799"
+                              to="#fff" dur="8.5s" begin="6s" repeatcount="indefinite" fill="remove"
+                              restart="whenNotActive" id="circle2-3-animfill">
+                            </animate>
+
+                            <animate xlink:href="#rect1-3" attributetype="XML" attributename="x" from="18.75" to="18.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="12s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-3-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect1-3" attributetype="XML" attributename="y" from="15.75" to="15.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="12s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect1-3-animy">
+                            </animate>
+
+                            <animate xlink:href="#rect2-3" attributetype="XML" attributename="x" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="12s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-3-animx">
+                            </animate>
+
+                            <animate xlink:href="#rect2-3" attributetype="XML" attributename="y" from="0.75" to="0.75"
+                              values="" keytimes="0; 0.5; 1" keysplines=".42 0 1 1; 0 0 .59 1;" dur="12s" begin="0s"
+                              repeatcount="indefinite" fill="freeze" restart="whenNotActive" id="rect2-3-animy">
+                            </animate>
+
+
+                          <animate xlink:href="#title3-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                            values="220; 226; 216; 224; 218; 222; 220; 220" dur="14.5s" begin="8.5s" repeatcount="indefinite" fill="remove"
+                            restart="whenNotActive" id="title3-1-animx"></animate>
+                          
+                          <animate xlink:href="#text3-1" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                            values="220; 218; 220; 222; 224; 222; 220; 220" dur="14.5s" begin="8.5s" repeatcount="indefinite" fill="remove"
+                            restart="whenNotActive" id="text3-1-animx"></animate>
+                          
+                          <animate xlink:href="#title3-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                            values="220; 222; 224; 226; 228; 230; 220; 220" dur="14.5s" begin="8.5s" repeatcount="indefinite" fill="remove"
+                            restart="whenNotActive" id="title3-2-animx"></animate>
+                          
+                          <animate xlink:href="#text3-2" attributeType="XML" attributeName="x" keytime="0; 0.01; 0.02; 0.03; 0.04; 0.05; 0.06; 1"
+                            values="220; 214; 216; 218; 220; 222; 220; 220" dur="14.5s" begin="8.5s" repeatcount="indefinite" fill="remove"
+                            restart="whenNotActive" id="text3-2-animx"></animate>
+
+                          </g>
+
+                          <linearGradient id="paint0_linear_167_1734" x1="220" y1="29" x2="220" y2="261"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E8CCEE" />
+                            <stop offset="0.387873" stop-color="#F0E1F4" />
+                            <stop offset="0.490872" stop-color="#F2E7F6" />
+                            <stop offset="0.599364" stop-color="#F0E1F3" />
+                            <stop offset="1" stop-color="#E8CCEE" />
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_167_1734" x1="-376.696" y1="-228.268" x2="282.892"
+                            y2="646.91" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.461286" stop-color="#841799" />
+                            <stop offset="0.684967" stop-color="#831598" stop-opacity="0" />
+                            <stop offset="0.685008" stop-color="#831598" />
+                          </linearGradient>
+                          <linearGradient id="paint2_linear_167_1734" x1="-440.696" y1="-289.951" x2="351.893"
+                            y2="705.801" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.461286" stop-color="#841799" />
+                            <stop offset="0.659701" stop-color="#831598" stop-opacity="0" />
+                            <stop offset="0.660524" stop-color="#831598" />
+                          </linearGradient>
+                          <linearGradient id="paint3_linear_167_1734" x1="-458.696" y1="-304.951" x2="333.893"
+                            y2="690.801" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.461286" stop-color="#841799" />
+                            <stop offset="0.702083" stop-color="#831598" stop-opacity="0" />
+                            <stop offset="0.702183" stop-color="#831598" />
+                          </linearGradient>
+
+                        </defs>
+
+                        <use xlink:href="#svg-group1" x="0" y="0" viewBox="0 0 440 290"></use>
+
+                        <text id="title1-1" text-anchor="middle" x="220" y="94" class="slider__svg-title">
+                          Продолжительность
+                        </text>
+                        <text id="text1-1" text-anchor="middle" x="220" y="124" class="slider__svg-text">
+                          от 25 до 60 мин
+                        </text>
+                        <text id="title1-2" text-anchor="middle" x="220" y="174" class="slider__svg-title">
+                          Рекомендуемый курс
+                        </text>
+                        <text id="text1-2" text-anchor="middle" x="220" y="204" class="slider__svg-text">
+                          12-16 сеансов
+                        </text>
+                      </svg>
+
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-info">
+                    <a href="#" class="slider__link slider__link-info">
+
+                      <svg class="slider__svg slider__svg-info" x="0" y="0" width="440" height="290"
+                        viewBox="0 0 440 290" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+                        <use xlink:href="#svg-group2" x="0" y="0" viewBox="0 0 440 290"></use>
+
+                        <text id="title2-1" text-anchor="middle" x="220" y="94" class="slider__svg-title">
+                          Анестезия
+                        </text>
+                        <text id="text2-1" text-anchor="middle" x="220" y="124" class="slider__svg-text">
+                          Не требуется
+                        </text>
+                        <text id="title2-2" text-anchor="middle" x="220" y="174" class="slider__svg-title">
+                          Препараты
+                        </text>
+                        <text id="text2-2" text-anchor="middle" x="220" y="204" class="slider__svg-text">
+                          Не используются
+                        </text>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="slider__slide slider__slide-info">
+                    <a href="#" class="slider__link slider__link-info">
+
+                      <svg class="slider__svg slider__svg-info" x="0" y="0" width="440" height="290"
+                        viewBox="0 0 440 290" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+                        <use xlink:href="#svg-group3" x="0" y="0" viewBox="0 0 440 290"></use>
+
+                        <text id="title3-1" text-anchor="middle" x="220" y="94" class="slider__svg-title">
+                          Периодичность
+                        </text>
+                        <text id="text3-1" text-anchor="middle" x="220" y="124" class="slider__svg-text">
+                          4 раза в неделю
+                        </text>
+                        <text id="title3-2" text-anchor="middle" x="220" y="174" class="slider__svg-title">
+                          Эффект наступает
+                        </text>
+                        <text id="text3-2" text-anchor="middle" x="220" y="204" class="slider__svg-text">
+                          в течении курса
+                        </text>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dots dots-info">
+            <div class="dots__body dots__body-info"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper wrapper__certificares">
+    <section class="certificates">
+      <div class="container container-certificates">
+        <div class="certificates__slider">
+          <div class="slider slider-certificates">
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate1.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate2.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate3.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate4.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate5.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate6.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate7.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate8.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate9.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate10.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate11.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate12.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+            <div class="slider__slide slider__slide-certificates">
+              <a href="#popup-e" class="slider__link slider__link-certificates popup-link">
+                <img src="/img/certificate/certificate13.jpg" alt="" class="slider__card slider__card-certificates">
+              </a>
+            </div>
+          </div>
+          <div class="dots">
+            <div class="dots__body dots__body-certificates">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper">
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__reletive">
+          <div class="footer__section1">
+            <div class="footer__menu">
+              <div class="footer__inner footer__inner-column">
+                <div class="footer__column footer__column-1">
+                  <menu class="menu menu-footer">
+                    <li class="menu__item menu__item-section1">
+                      <a href="#popup-h" class="menu__link menu__link-section1 popup-link">Отзывы</a>
+                    </li>
+                  </menu>
+                </div>
+                <div class="footer__column footer__column-2">
+                  <menu class="menu menu-footer">
+                    <li class="menu__item menu__item-section1">
+                      <a href="#" class="menu__link menu__link-section1 menu__link-block" data-block="#procedures"
+                        data-tab="href='#tab-b'">
+                        Услуги для тела
+                      </a>
+                    </li>
+                    <li class="menu__item menu__item-section1">
+                      <a href="#" class="menu__link menu__link-section1 menu__link-block" data-block="#procedures"
+                        data-tab="href='#tab-f'">
+                        Услуги для лица
+                      </a>
+                    </li>
+                  </menu>
+                </div>
+                <div class="footer__column footer__column-3">
+                  <menu class="menu menu-footer">
+                    <li class="menu__item menu__item-section1">
+                      <a href="#popup-b" class="menu__link menu__link-section1 popup-link">Свободные
+                        окошки</a>
+                    </li>
+                    <li class="menu__item menu__item-section1">
+                      <a href="#popup-g" class="menu__link menu__link-section1 popup-link">Выезд
+                        на дом</a>
+                    </li>
+                    <li class="menu__item menu__item-section1">
+                      <a href="#popup-f" class="menu__link menu__link-section1 popup-link">Акции</a>
+                    </li>
+                  </menu>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__section2">
+            <div class="footer__inner footer__inner-section2">
+              <div class="footer__copyright">
+                <div class="footer__inner footer__inner-left">
+                  <div class="footer__logo">
+                    <a href="adminka-panel.html" class="footer__link footer__link-logo">
+                      <img src="/img/logo/logo-footer.png" alt="SNV" class="logo logo-footer">
+                    </a>
+                  </div>
+                  <div class="footer__copy">
+                    <p class="footer__p footer__p-copy">&#169 <span id="year" class="footer__year">2024</span> SNV -
+                      аппаратная коррекция фигуры</p>
+                    <p class="footer__p footer__p-copy">Все права защищены</p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__warning">
+                <div class="footer__inner footer__inner-warning">
+                  <p class="footer__p footer__p-warning">Имеются противопоказания.</p>
+                  <p class="footer__p footer__p-warning">Необходима консультация специалиста.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__section3">
+            <div class="footer__icons">
+              <menu class="icons icons-footer">
+                <li class="icons__item icons__item-footer icons__item-whatsapp">
+                  <a href="#" class="icons__link icons__link-footer icons__link-whatsapp"></a>
+                  <div class="icons__line icons__line-footer" id="icon-line-watsapp"></div>
+                </li>
+                <li class="icons__item icons__item-footer icons__item-telegram">
+                  <a href="#" class="icons__link icons__link-footer icons__link-telegram"></a>
+                  <div class="icons__line icons__line-footer" id="icon-line-telegram"></div>
+                </li>
+                <li class="icons__item icons__item-footer icons__item-checkmark">
+                  <a href="#popup-d" class="icons__link icons__link-footer icons__link-checkmark popup-link"></a>
+                  <div class="icons__line icons__line-footer" id="icon-line-checkmark"></div>
+                </li>
+              </menu>
+            </div>
+          </div>
+          <div class="footer__section4">
+            <div class="footer__phone">
+              <a href="tel:+79182669130" class="footer__link-phone">+7 918 266 91 30</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <section class="popups">
+    <div id="popup-a" class="popup">
+      <div class="popup__body popup__body-a">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__article">
+                <article id="article-procedure" class="article">
+                  <div class="article__body">
+                    <h2 id="article-title" class="article__title">Прокачка мышц</h2>
+                    <div class="article__content">
+                      <div id="procedure" class="article__block">
+                        <h3 id="procedure-title" class="article__title article__title-sub article__title-procedure">
+                          Микроигольчатый RF
+                          лифтин</h3>
+                        <div id="procedure-content" class="article__procedure">
+                          <p id="procedure-p" class="article__p">
+                            <span class="article__span article__span-machine">EMS (Electric
+                              Mio Stimulation)</span>
+                            Данный аппарат помогает создать более стройное тело, сделать его
+                            подтянутым, проработать контуры, а также
+                            уменьшить
+                            жировые отложения , одновременно прокачивая мышцы, скрывающиеся
+                            под ними.
+                          </p>
+                        </div>
+                      </div>
+                      <div id="image" class="article__block">
+                        <h3 id="procedure-title" class="article__title article__title-sub"></h3>
+                        <div id="image-content" class="article__image">
+                          <img src="/img/procedures/body/fr-lifting.png" alt="" id="image-procedre"
+                            class="article__image">
+                        </div>
+                      </div>
+                      <div id="indications" class="article__block">
+                        <h3 id="indications-title" class="article__title article__title-sub">
+                          Преимущества</h3>
+                        <div id="indications-content" class="article__indications">
+                          <ul id="indications-items" class="article__items">
+                            <li id="indications-item1" class="article__item">
+                              <p id="indications-p1" class="article__p article__p-item">
+                                улучшение состояния мышц
+                              </p>
+                            </li>
+                            <li id="indications-item2" class="article__item">
+                              <p id="indications-p2" class="article__p article__p-item">
+                                устранение излишков жировых отложений в области
+                                живота,ягодиц,рук и ног
+                              </p>
+                            </li>
+                            <li id="indications-item3" class="article__item">
+                              <p id="indications-p3" class="article__p article__p-item">
+                                живота,ягодиц,рук и ног
+                              </p>
+                            </li>
+                            <li id="indications-item4" class="article__item">
+                              <p id="indications-p4" class="article__p article__p-item">
+                                укрепление мышц живота после родов
+                              </p>
+                            </li>
+                            <li id="indications-item5" class="article__item">
+                              <p id="indications-p5" class="article__p article__p-item">
+                                не требует реабилитации
+                              </p>
+                            </li>
+                            <li id="indications-item6" class="article__item">
+                              <p id="indications-p6" class="article__p article__p-item">
+                                длительность процедуры 30 минут
+                              </p>
+                            </li>
+                            <li id="indications-item7" class="article__item">
+                              <p id="indications-p7" class="article__p article__p-item">
+                                изменения уже после первой процедуры
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div id="contraindications" class="article__block">
+                        <h3 id="contraindications-title" class="article__title article__title-sub">
+                          Противопоказания
+                        </h3>
+                        <div id="contraindications-content" class="article__contraindications">
+                          <ul id="contraindications-items" class="article__items">
+                            <li id="contraindications-item1" class="article__item">
+                              <p id="contraindications-p1" class="article__p article__p-item">
+                                наличие кардиостимулятора
+                              </p>
+                            </li>
+                            <li id="contraindications-item2" class="article__item">
+                              <p id="contraindications-p2" class="article__p article__p-item">
+                                электронные и металические импланты
+                              </p>
+                            </li>
+                            <li id="contraindications-item3" class="article__item">
+                              <p id="contraindications-p3" class="article__p article__p-item">
+                                лёгочная недостаточность
+                              </p>
+                            </li>
+                            <li id="contraindications-item4" class="article__item">
+                              <p id="contraindications-p4" class="article__p article__p-item">
+                                беременность
+                              </p>
+                            </li>
+                            <li id="contraindications-item5" class="article__item">
+                              <p id="contraindications-p5" class="article__p article__p-item">
+                                недавно проведённые хирургические операции
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div id="price" class="article__block">
+                        <h3 id="price-title" class="article__title article__title-sub">
+                          Прайс
+                        </h3>
+                        <div id="price-content" class="article__price">
+                          <ul id="price-items" class="article__items">
+                            <li id="price-item1" class="article__item article__item-price">
+                              <p id="price-p1" class="article__p article__p-item">
+                                1 Процедура
+                              </p>
+                              <p id="price-p11" class="article__p article__p-item">
+                                2 500
+                              </p>
+                            </li>
+                            <li id="price-item2" class="article__item article__item-price">
+                              <p id="price-p2" class="article__p article__p-item">
+                                5 Процедур
+                              </p>
+                              <p id="price-p21" class="article__p article__p-item">
+                                10 000
+                              </p>
+                            </li>
+                            <li id="price-item3" class="article__item article__item-price">
+                              <p id="price-p3" class="article__p article__p-item">
+                                10 Процедур
+                              </p>
+                              <p id="price-p31" class="article__p article__p-item">
+                                22 000
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <div id="content-article" class="content__wranning content__wranning-article">
+                  <div class="content__inner-article">
+                    <p id="p-article" class="content__p content__p-article">
+                      Уточняйте информацию по телефону
+                    </p>
+                    <phone id="phone-article" class="content__phone content__phone-article">
+                      <a href="tel:+79182669130" class="content__number content__number-article">+7 918 266 91 30</a>
+                    </phone>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-b" class="popup">
+      <div class="popup__body popup__body-b">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__table">
+                <table id="table-windows" class="table">
+                  <caption id="caption-windows" class="table__caption table__caption-windows">
+                    Свободные окошки
+                  </caption>
+                  <thead class="table__header table__header-windows">
+                    <tr class="table__tr table__tr-header">
+                      <th class="table__th table__th-corner table__th-topleft table__th-sticky">
+                      </th>
+                      <th class="table__th table__th-header table__th-sticky">ПН</th>
+                      <th class="table__th table__th-header table__th-sticky">ВТ</th>
+                      <th class="table__th table__th-header table__th-sticky">СР</th>
+                      <th class="table__th table__th-header table__th-sticky">ЧТ</th>
+                      <th class="table__th table__th-header table__th-sticky">ПТ</th>
+                      <th class="table__th table__th-header table__th-sticky">СБ</th>
+                      <th class="table__th table__th-header table__th-sticky">ВС</th>
+                      <th id="th-topright" class="table__th table__th-corner table__th-topright table__th-sticky">
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody-windows" class="table__body table__body-windows">
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">|
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom">
+                        13<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        9<sup class="table__sup-body">30</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__border-bottom table__th-first">||
+                      </th>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <td class="table__td table__td-body table__border-bottom"></td>
+                      <th class="table__th table__th-last table__border-bottom"></th>
+                    </tr>
+                    <tr class="table__tr table__tr-body">
+                      <th class="table__th table__th-body table__th-first">||</th>
+                      <td class="table__td table__td-body"></td>
+                      <td class="table__td table__td-body"></td>
+                      <td class="table__td table__td-body"></td>
+                      <td class="table__td table__td-body">
+                        15<sup class="table__sup-body">00</sup>
+                      </td>
+                      <td class="table__td table__td-body"></td>
+                      <td class="table__td table__td-body"></td>
+                      <td class="table__td table__td-body"></td>
+                      <th class="table__th table__th-last"></th>
+                    </tr>
+                  </tbody>
+                  <tfoot class="table__footer table__footer-windows">
+                    <tr class="table__tr table__tr-footer">
+                      <th class="table__th table__th-corner table__th-bottomleft table__th-sticky">
+                      </th>
+                      <th class="table__th table__th-footer table__th-sticky">12.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">13.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">14.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">15.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">16.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">17.02</th>
+                      <th class="table__th table__th-footer table__th-sticky">18.02</th>
+                      <th id="th-bottomright" class="table__th table__th-corner table__th-bottomright table__th-sticky">
+                      </th>
+                    </tr>
+                  </tfoot>
+                </table>
+                <div id="content-windows" class="content__wranning content__wranning-windows">
+                  <div class="content__inner content__inner-windows">
+                    <p id="p-windows" class="content__p content__p-windows">
+                      Уточняйте информацию по телефону
+                    </p>
+                    <phone id="phone-windows" class="content__phone content__phone-windows">
+                      <a href="tel:+79182669130" class="content__number content__number-windows">+7 918 266 91 30</a>
+                    </phone>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-c" class="popup">
+      <div class="popup__body popup__body-c">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__phone">
+                <div id="phone" class="phone">
+                  <div class="phone__inner">
+                    <div class="phone__icon">
+                      <img src="/img/icons/icon-popup-c.svg" alt="" id="phone-img" class="phone__img">
+                    </div>
+                    <phone class="phone__items">
+                      <a href="tel:+79182669130" class="phone__number">+7 918 266 91 30</a>
+                    </phone>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-d" class="popup">
+      <div class="popup__body popup__body-d">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__message">
+                <div id="message" class="message">
+                  <div class="message__inner">
+                    <div class="message__icon">
+                      <img src="/img/icons/icon-popup-d.svg" alt="" id="messege-img" class="message__img">
+                    </div>
+                    <div class="message__content">
+                      <p id="message-p" class="message__p">
+                        Не отклдывай на завтра то, что можно начать сегодня.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-e" class="popup">
+      <div class="popup__body popup__body-e">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__image">
+                <div id="image" class="image">
+                  <div class="image__content">
+                    <img src="/img/certificate/certificate6.jpg" alt="" id="image-img" class="image__img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="popup-f" class="popup">
+      <div class="popup__body popup__body-f">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__stock">
+                <div id="stock" class="stock">
+                  <h2 id="stock-title" class="stock__title">Акция</h2>
+                  <div class="stock__slider">
+                    <div class="slider slider-stock">
+                      <div class="slider__items slider__items-stock">
+                        <div class="slider__item slider__item-stock">
+                          <div class="slider__slide slider__slide-stock">
+                            <div class="slide slide-stock">
+                              <div class="slide__content slide__content-stock">
+                                <p id="slide-stock1" class="slide__stock">
+                                  Жёнам военных или участников СВО скидка
+                                </p>
+                                <p id="slide-value1" class="slide__value">
+                                  <span class="slide__span slide__span-num">10</span>
+                                  <span class="slide__span slide__span-symbol">%</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="slider__slide slider__slide-stock">
+                            <div class="slide slide-stock">
+                              <div class="slide__content slide__content-stock">
+                                <p id="slide-stock1" class="slide__stock">
+                                  Первый раз у нас! Сэкономь
+                                </p>
+                                <p id="slide-value1" class="slide__value">
+                                  <span class="slide__span slide__span-num">15</span>
+                                  <span class="slide__span slide__span-symbol">%</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="slider__slide slider__slide-stock">
+                            <div class="slide slide-stock">
+                              <div class="slide__content slide__content-stock">
+                                <p id="slide-stock1" class="slide__stock">
+                                  С Днём Рождения! Получи скидку в подарок
+                                </p>
+                                <p id="slide-value1" class="slide__value">
+                                  <span class="slide__span slide__span-num">20</span>
+                                  <span class="slide__span slide__span-symbol">%</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="content-stock" class="content__wranning content__wranning-stock">
+                  <div class="content__inner content__inner-stock">
+                    <p id="p-stock" class="content__p content__p-stock">
+                      Уточняйте информацию по телефону
+                    </p>
+                    <phone id="phone-stock" class="content__phone content__phone-stock">
+                      <a href="tel:+79182669130" class="content__number content__number-stock">+7
+                        918 266 91 30</a>
+                    </phone>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-g" class="popup">
+      <div class="popup__body popup__body-g">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__home">
+                <div id="home" class="home">
+                  <div class="home__body">
+                    <h2 id="home-title" class="home__title">Выезд на дом</h2>
+                    <div class="home__content">
+                      <div class="home__block">
+                        <h3 class="home__title home__title-sub">Массаж1</h3>
+                        <p class="home__p">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                          nulla quo, sequi quasi necessitatibus unde
+                          reiciendis voluptate dolores natus, officiis odit eaque repellendus
+                          obcaecati ipsum nemo temporibus sit
+                          corrupti saepe?
+                        </p>
+                        <img src="/img/procedures/body/fr-lifting.png" alt="" class="home__image">
+                      </div>
+                      <div class="home__block">
+                        <h3 class="home__title home__title-sub">Массаж2</h3>
+                        <p class="home__p">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                          nulla quo, sequi quasi necessitatibus unde
+                          reiciendis voluptate dolores natus, officiis odit eaque repellendus
+                          obcaecati ipsum nemo temporibus sit
+                          corrupti
+                          saepe?
+                        </p>
+                        <img src="/img/procedures/body/fr-lifting.png" alt="" class="home__image">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="content-home" class="content__wranning content__wranning-home">
+                  <div class="content__inner content__inner-home">
+                    <p id="p-home" class="content__p content__p-home">
+                      Уточняйте информацию по телефону
+                    </p>
+                    <phone id="phone-home" class="content__phone content__phone-home">
+                      <a href="tel:+79182669130" class="content__number content__number-home">+7
+                        918 266 91 30</a>
+                    </phone>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup-h" class="popup">
+      <div class="popup__body popup__body-h">
+        <div class="popup__close">
+          <a href="#" class="popup__link popup__link-close popup-close">
+            <img src="/img/icons/popup-close.svg" alt="закрыть" class="popup__icon popup__icon-close">
+          </a>
+        </div>
+        <div class="popup__content">
+          <div class="content">
+            <div class="content__body">
+              <div class="content__reviews">
+                <div id="reviews" class="reviews">
+                  <div class="reviews__body">
+                    <h2 id="reviews-title" class="reviews__title">Отзывы</h2>
+                    <div class="reviews__content">
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Александр
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Ефим
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Алла
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Алексей
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Екатерина
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                      <div class="reviews__block">
+                        <h3 id="user1" class="reviews__title reviews__title-sub">
+                          Аслан
+                        </h3>
+                        <p id="reviews1" class="reviews__p">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Consequuntur, accusamus ipsa doloribus commodi eaque iure ratione
+                          delectus voluptatem. Incidunt sed repellendus est aut veritatis
+                          officia laborum voluptate deleniti quidem esse.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="content-reviews" class="content__wranning content__wranning-reviews">
+                <div class="content__inner content__inner-reviews">
+                  <p id="p-reviews" class="content__p content__p-reviews">
+                    Будем рады Вашим отзывам в наших соц. сетях.
+                  </p>
+                  <div class="content__icons content__icons-reviews">
+                    <div class="content__inner content__inner-icots">
+                      <div class="content__icon">
+                        <a href="" class="content__link content__link-reviews" id="reviews-whatsapp-link">
+                          <img src="/img/icons/whatsapp-review.svg" alt="" id="reviews-whatsapp-img"
+                            class="content__img content__img-whatsapp">
+                        </a>
+                      </div>
+                      <div class="content__icon">
+                        <a href="" class="content__link content__link-reviews" id="reviews-telegram-link">
+                          <img src="/img/icons/telegram-review.svg" alt="" id="reviews-telegram-img"
+                            class="content__img content__img-telegram">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </body>
+
 </html>
