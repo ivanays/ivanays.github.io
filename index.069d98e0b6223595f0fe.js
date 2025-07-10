@@ -2390,16 +2390,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   if (slidesRef === null || sliderRef === null) throw new Error('ERROR_PROC_SLIDER_REFS');
   if (viewportWidth === null && typeof viewportWidth === 'undefined' || viewportHeight === null && typeof viewportHeight === 'undefined') throw new Error('ERROR_PROC_SLIDER_VIEWPORT');
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
-    id: "slider",
-    className: sliderClass,
-    style: {
-      width: "".concat(sliderWidth, "px"),
-      height: "".concat(sliderHeight, "px")
-    },
-    onTouchStart: handleTouchStart,
-    onTouchMove: handleTouchMove
-  }, /*#__PURE__*/react.createElement(ProcSliderContext.Provider, {
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(ProcSliderContext.Provider, {
     value: valueModelProvider
   }, /*#__PURE__*/react.createElement("div", {
     id: "slider-procedures",
@@ -2442,7 +2433,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     className: dotsClass
   }, /*#__PURE__*/react.createElement(SliderProcDots, null)), /*#__PURE__*/react.createElement(SliderProcButtons, {
     typeButtons: 'next'
-  })) : null)));
+  })) : null));
 };
 ProcSliderProvider.propTypes = {
   autoPlay: (prop_types_default()).bool,
