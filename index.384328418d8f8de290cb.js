@@ -17,6 +17,8 @@ var react = __webpack_require__(6540);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
 // EXTERNAL MODULE: ./node_modules/gsap/index.js
@@ -130,17 +132,19 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var ProceduresTabs = function ProceduresTabs(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var proceduresTabsClass = classnames_default()({
     'procedures__tabs': media1728 === true,
     'procedures--1133__tabs': media1133 === true,
@@ -553,12 +557,14 @@ function Procedures_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 function Procedures(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var proceduresClass = classnames_default()({
     'procedures': media1728 === true,
     'procedures--1133': media1133 === true,

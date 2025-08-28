@@ -18,6 +18,8 @@ var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 ;// ./src/images/popup-close.svg
 const popup_close_namespaceObject = __webpack_require__.p + "icons/popup-close.406a97666414a1f83bce.svg";
 // EXTERNAL MODULE: ./src/components/ui/index.js + 16 modules
@@ -30,12 +32,14 @@ var ui = __webpack_require__(8690);
 
 
 
+
 var ModalClose = function ModalClose(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var popupCloseClass = classnames_default()({
     'popup__close': media1728 === true,
     'popup--1133__close': media1133 === true,
@@ -129,18 +133,22 @@ var hooks = __webpack_require__(7597);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 ;// ./src/components/modals/modal/modal_content/modal_content-a/modal_content-a-b/ModalContentAB0.jsx
 
 
 
 
 
+
 var ModalContentAB0 = function ModalContentAB0(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -455,12 +463,14 @@ var ModalContentAB0 = function ModalContentAB0(props) {
 
 
 
+
 var ModalContentAB1 = function ModalContentAB1(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -775,12 +785,14 @@ var ModalContentAB1 = function ModalContentAB1(props) {
 
 
 
+
 var ModalContentAB2 = function ModalContentAB2(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -1095,12 +1107,14 @@ var ModalContentAB2 = function ModalContentAB2(props) {
 
 
 
+
 var ModalContentAB3 = function ModalContentAB3(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -1415,12 +1429,14 @@ var ModalContentAB3 = function ModalContentAB3(props) {
 
 
 
+
 var ModalContentAB4 = function ModalContentAB4(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -1735,12 +1751,14 @@ var ModalContentAB4 = function ModalContentAB4(props) {
 
 
 
+
 var ModalContentAB5 = function ModalContentAB5(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -2055,12 +2073,14 @@ var ModalContentAB5 = function ModalContentAB5(props) {
 
 
 
+
 var ModalContentAB6 = function ModalContentAB6(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -2375,12 +2395,14 @@ var ModalContentAB6 = function ModalContentAB6(props) {
 
 
 
+
 var ModalContentAF0 = function ModalContentAF0(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -2695,12 +2717,14 @@ var ModalContentAF0 = function ModalContentAF0(props) {
 
 
 
+
 var ModalContentAF1 = function ModalContentAF1(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -3015,12 +3039,14 @@ var ModalContentAF1 = function ModalContentAF1(props) {
 
 
 
+
 var ModalContentAF2 = function ModalContentAF2(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -3335,12 +3361,14 @@ var ModalContentAF2 = function ModalContentAF2(props) {
 
 
 
+
 var ModalContentAF3 = function ModalContentAF3(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -3655,12 +3683,14 @@ var ModalContentAF3 = function ModalContentAF3(props) {
 
 
 
+
 var ModalContentAF4 = function ModalContentAF4(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -3975,12 +4005,14 @@ var ModalContentAF4 = function ModalContentAF4(props) {
 
 
 
+
 var ModalContentAF5 = function ModalContentAF5(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -4295,12 +4327,14 @@ var ModalContentAF5 = function ModalContentAF5(props) {
 
 
 
+
 var ModalContentAF6 = function ModalContentAF6(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -4615,12 +4649,14 @@ var ModalContentAF6 = function ModalContentAF6(props) {
 
 
 
+
 var ModalContentAF7 = function ModalContentAF7(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -4935,12 +4971,14 @@ var ModalContentAF7 = function ModalContentAF7(props) {
 
 
 
+
 var ModalContentAF8 = function ModalContentAF8(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -5255,12 +5293,14 @@ var ModalContentAF8 = function ModalContentAF8(props) {
 
 
 
+
 var ModalContentAF9 = function ModalContentAF9(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -5575,12 +5615,14 @@ var ModalContentAF9 = function ModalContentAF9(props) {
 
 
 
+
 var ModalContentAF10 = function ModalContentAF10(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -5895,12 +5937,14 @@ var ModalContentAF10 = function ModalContentAF10(props) {
 
 
 
+
 var ModalContentAF11 = function ModalContentAF11(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -6215,12 +6259,14 @@ var ModalContentAF11 = function ModalContentAF11(props) {
 
 
 
+
 var ModalContentAF12 = function ModalContentAF12(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -6535,12 +6581,14 @@ var ModalContentAF12 = function ModalContentAF12(props) {
 
 
 
+
 var ModalContentAF13 = function ModalContentAF13(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
@@ -6886,12 +6934,14 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 
 
 
+
 var ModalContentA = function ModalContentA(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentArticleClass = classnames_default()({
     'content__article': media1728 === true,
     'content--1133__article': media1133 === true,
@@ -7016,12 +7066,14 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var ModalContentBTbody = function ModalContentBTbody(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var tableBodyClass = classnames_default()({
     'table__body': media1728 === true,
     'table--1133__body': media1133 === true,
@@ -7377,12 +7429,14 @@ function ModalContentB_extends() { return ModalContentB_extends = Object.assign 
 
 
 
+
 var ModalContentB = function ModalContentB(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentTableClass = classnames_default()({
     'content__table': media1728 === true,
     'content--1133__table': media1133 === true,
@@ -7699,12 +7753,14 @@ const icon_popup_c_namespaceObject = __webpack_require__.p + "icons/icon-popup-c
 
 
 
+
 var ModalContentC = function ModalContentC(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
@@ -7802,12 +7858,14 @@ const icon_popup_d_namespaceObject = __webpack_require__.p + "icons/icon-popup-d
 
 
 
+
 var ModalContentD = function ModalContentD(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentMessageClass = classnames_default()({
     'content__message': media1728 === true,
     'content--1133__message': media1133 === true,
@@ -7924,12 +7982,14 @@ var certificate13 = __webpack_require__(3399);
 
 
 
+
 var ModalContentE = function ModalContentE(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentImageClass = classnames_default()({
     'content__image': media1728 === true,
     'content--1133__image': media1133 === true,
@@ -8033,12 +8093,14 @@ function ModalContentF_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var ModalContentF = function ModalContentF(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentStockClass = classnames_default()({
     'content__stock': media1728 === true,
     'content--1133__stock': media1133 === true,
@@ -8400,12 +8462,14 @@ function ModalContentG_extends() { return ModalContentG_extends = Object.assign 
 
 
 
+
 var ModalContentG = function ModalContentG(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentHomeClass = classnames_default()({
     'content__home': media1728 === true,
     'content--1133__home': media1133 === true,
@@ -8613,12 +8677,14 @@ var telegram_review = __webpack_require__(1615);
 
 
 
+
 var ModalContentH = function ModalContentH(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var contentReviewsClass = classnames_default()({
     'content__reviews': media1728 === true,
     'content--1133__reviews': media1133 === true,
@@ -9150,6 +9216,8 @@ var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 // EXTERNAL MODULE: ./src/components/modals/modal/modal_close/index.js + 2 modules
 var modal_close = __webpack_require__(5662);
 // EXTERNAL MODULE: ./src/contexts/index.js
@@ -9175,12 +9243,14 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Modal = function Modal(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var popupClass = classnames_default()({
     'popup': media1728 === true,
     'popup--1133': media1133 === true,
@@ -9382,6 +9452,8 @@ var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 // EXTERNAL MODULE: ./node_modules/gsap/index.js
 var gsap = __webpack_require__(738);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
@@ -9415,14 +9487,16 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
   var id = _ref.id,
     numberFirstSlideViewport = _ref.numberFirstSlideViewport;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var buttonViewportClass = classnames_default()({
     'button-viewport': media1728 === true,
     'button-viewport--1133': media1133 === true,
@@ -9474,13 +9548,15 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
 
 
 
+
 var SliderProcButtons = function SliderProcButtons(_ref) {
   var typeButtons = _ref.typeButtons;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var buttonsViewportClass = classnames_default()({
     'buttons-viewport': media1728 === true,
     'buttons-viewport--1133': media1133 === true,
@@ -9569,13 +9645,15 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
 
 
 
+
 var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
   var number = _ref.number;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var dotsDotClass = classnames_default()({
     'dots__dot': media1728 === true,
     'dots--1133__dot': media1133 === true,
@@ -9643,12 +9721,14 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
 
 
 
+
 var SliderProcDots = function SliderProcDots(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var dotsBodyClass = classnames_default()({
     'dots__body': media1728 === true,
     'dots--1133__body': media1133 === true,
@@ -9733,17 +9813,19 @@ function ProcSliderContextProvider_arrayWithHoles(r) { if (Array.isArray(r)) ret
 
 
 
+
 var delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var ProcSliderProvider = function ProcSliderProvider(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderClass = classnames_default()({
     'slider': media1728 === true,
     'slider--1133': media1133 === true,
@@ -10477,6 +10559,26 @@ var propsData = function propsData(props) {
   return propsAll.data;
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (propsData);
+
+/***/ }),
+
+/***/ 2622:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var funcQueryMedia = function funcQueryMedia() {
+  return {
+    query1728: "(min-width: 1728px)",
+    query1133: "(min-width: 1133px) and (max-width: 1727px)",
+    query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
+    query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
+    query375: "(min-width: 375px) and (max-width: 743px)"
+  };
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryMedia);
 
 /***/ }),
 
@@ -34052,7 +34154,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"ef9fcdd24f9597b5671b"}[chunkId] + ".js";
+/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"384328418d8f8de290cb"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -34797,6 +34899,8 @@ var CSSPlugin = __webpack_require__(2650);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 // EXTERNAL MODULE: ./src/contexts/ModalContext/index.js + 5 modules
 var ModalContext = __webpack_require__(9309);
 // EXTERNAL MODULE: ./src/components/modals/modal/modal_content/index.js + 42 modules
@@ -34863,12 +34967,14 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var SliderCert = function SliderCert(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderCertificatesClass = classnames_default()({
     'slider-certificates': media1728 === true,
     'slider-certificates--1133': media1133 === true,
@@ -35217,12 +35323,14 @@ function Certificates_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Certificates = function Certificates() {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var certificatesClass = classnames_default()({
     'certificates': media1728 === true,
     'certificates--1133': media1133 === true,
@@ -35323,12 +35431,14 @@ function Companies_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Companies = function Companies(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var companiesClass = classnames_default()({
     'companies': media1728 === true,
     'companies--1133': media1133 === true,
@@ -35730,17 +35840,19 @@ function _asyncToGenerator(n) { return function () { var t = this, e = arguments
 
 
 
+
 var delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var FooterSection1 = function FooterSection1(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerMenuClass = classnames_default()({
     'footer__menu': media1728 === true,
     'footer--1133__menu': media1133 === true,
@@ -35975,12 +36087,14 @@ function FooterLogoImg_extends() { return FooterLogoImg_extends = Object.assign 
 
 
 
+
 var FooterLogoImg = function FooterLogoImg(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var logoClass = classnames_default()({
     'logo': media1728 === true,
     'logo--1133': media1133 === true,
@@ -36017,12 +36131,14 @@ function FooterLogo_extends() { return FooterLogo_extends = Object.assign ? Obje
 
 
 
+
 var FooterLogo = function FooterLogo(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerLinkClass = classnames_default()({
     'footer__link': media1728 === true,
     'footer--1133__link': media1133 === true,
@@ -36066,12 +36182,14 @@ function getYearsOnFooter(year) {
 
 
 
+
 var FooterSection2 = function FooterSection2() {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerInnerClass = classnames_default()({
     'footer__inner': media1728 === true,
     'footer--1133__inner': media1133 === true,
@@ -36191,12 +36309,14 @@ function FooterSection3_extends() { return FooterSection3_extends = Object.assig
 
 
 
+
 var FooterSection3 = function FooterSection3(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerIconsClass = classnames_default()({
     'footer__icons': media1728 === true,
     'footer--1133__icons': media1133 === true,
@@ -36419,12 +36539,14 @@ function FooterSection4_extends() { return FooterSection4_extends = Object.assig
 
 
 
+
 var FooterSection4 = function FooterSection4(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerPhoneClass = classnames_default()({
     'footer__phone': media1728 === true,
     'footer--1133__phone': media1133 === true,
@@ -36498,6 +36620,7 @@ const dataFooterSection4_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"foote
 
 
 
+
 // import FooterBg375 from '../../../images/bg-footer375_231.png';
 // import FooterBg375 from '../../../images/bg-footer375.png';
 
@@ -36506,11 +36629,12 @@ const dataFooterSection4_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"foote
 
 
 var Footer = function Footer(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var footerClass = classnames_default()({
     'footer': media1728 === true,
     'footer--1133': media1133 === true,
@@ -36599,79 +36723,6 @@ var Footer = function Footer(props) {
 };
 ;// ./src/components/sections/footer/index.js
 
-;// ./src/data/data_header/data_header_menu/dataHeaderMenu.json
-const dataHeaderMenu_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-menu-link-0","href":"#popup-g","dataBlock":"","children":"Выезд на дом"},{"id":"header-menu-link-1","href":"#","dataBlock":"#procedures","children":"Услуги"},{"id":"header-menu-link-2","href":"#popup-f","dataBlock":"","children":"Акции"},{"id":"header-menu-link-3","href":"#popup-b","dataBlock":"","children":"Окна"},{"id":"header-menu-link-4","href":"#popup-h","dataBlock":"","children":"Отзывы"}]');
-;// ./src/components/modals/modal/modal_content/modal_content-i/ModalContentI.jsx
-
-
-
-
-
-
-var ModalContentI = function ModalContentI(props) {
-  var media1728 = useMediaQuery("(min-width: 1728px)");
-  var media1133 = useMediaQuery("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = useMediaQuery("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = useMediaQuery("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = useMediaQuery("(min-width: 375px) and (max-width: 743px)");
-  var contentBurgerClass = classNames({
-    'content__burger': media1728 === true,
-    'content--1133__burger': media1133 === true,
-    'content--744__burger': media744 === true,
-    'content--744l__burger': media744l === true,
-    'content--375__burger': media375 === true
-  });
-  var messageClass = classNames({
-    'message': media1728 === true,
-    'message--1133': media1133 === true,
-    'message--744': media744 === true,
-    'message--744l': media744l === true,
-    'message--375': media375 === true
-  });
-  var messageInnerClass = classNames({
-    'message__inner': media1728 === true,
-    'message--1133__inner': media1133 === true,
-    'message--744__inner': media744 === true,
-    'message--744l__inner': media744l === true,
-    'message--375__inner': media375 === true
-  });
-  var messageIconClass = classNames({
-    'message__icon': media1728 === true,
-    'message--1133__icon': media1133 === true,
-    'message--744__icon': media744 === true,
-    'message--744l__icon': media744l === true,
-    'message--375__icon': media375 === true
-  });
-  var messageImgClass = classNames({
-    'message__img': media1728 === true,
-    'message--1133__img': media1133 === true,
-    'message--744__img': media744 === true,
-    'message--744l__img': media744l === true,
-    'message--375__img': media375 === true
-  });
-  var messageContentClass = classNames({
-    'message__content': media1728 === true,
-    'message--1133__content': media1133 === true,
-    'message--744__content': media744 === true,
-    'message--__content': media744l === true,
-    'message--375__content': media375 === true
-  });
-  var messagePClass = classNames({
-    'message__p': media1728 === true,
-    'message--1133__p': media1133 === true,
-    'message--744__p': media744 === true,
-    'message--744l__p': media744l === true,
-    'message--375__p': media375 === true
-  });
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
-    className: contentBurgerClass
-  }, /*#__PURE__*/React.createElement(HeaderMenu
-  // callback={loadCallback}
-  // scroll={props.scroll}
-  , {
-    data: dataHeaderMenu
-  })));
-};
 ;// ./src/images/burger-header744.svg
 const burger_header744_namespaceObject = __webpack_require__.p + "icons/burger-header744.c9d8acf81b93d3d55607.svg";
 ;// ./src/components/sections/header/header_burger/header_burger_img/HeaderBurgerImg.jsx
@@ -36683,12 +36734,14 @@ function HeaderBurgerImg_extends() { return HeaderBurgerImg_extends = Object.ass
 
 
 
+
 var HeaderBurgerImg = function HeaderBurgerImg(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
@@ -36736,11 +36789,12 @@ var HeaderBurger = function HeaderBurger(props) {
     isToggled = _useContext.isToggled;
   var modalId = 'popup-';
   var modalBodyClassName = 'popup__body popup__body-';
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var headerBurgerClass = classnames_default()({
     'header__burger': media1728 === true,
     'header--1133__burger': media1133 === true,
@@ -36789,12 +36843,14 @@ function HeaderLogoImg_extends() { return HeaderLogoImg_extends = Object.assign 
 
 
 
+
 var HeaderLogoImg = function HeaderLogoImg(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var logoHeaderClass = classnames_default()({
     'logo-header': media1728 === true,
     'logo-header--1133': media1133 === true,
@@ -36855,12 +36911,14 @@ var HeaderLogo = function HeaderLogo(props) {
 
 
 
-var HeaderMenu_HeaderMenu = function HeaderMenu(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+
+var HeaderMenu = function HeaderMenu(props) {
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
@@ -37012,17 +37070,19 @@ function HeaderPhone_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var HeaderPhone_delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var HeaderPhone = function HeaderPhone(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
@@ -37180,12 +37240,14 @@ function HeaderPhoneIconImg_extends() { return HeaderPhoneIconImg_extends = Obje
 
 
 
+
 var HeaderPhoneIconImg = function HeaderPhoneIconImg(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
@@ -37221,17 +37283,19 @@ const dataHeaderPhoneIconImg_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"
 
 
 
+
 var HeaderPhoneIcon_delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
@@ -37268,12 +37332,14 @@ var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
 
 
 
+
 var HeaderTitle = function HeaderTitle(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var headerTitleClass = classnames_default()({
     'header__title': media1728 === true,
     'header--1133__title': media1133 === true,
@@ -37335,6 +37401,8 @@ const bg_header375_namespaceObject = __webpack_require__.p + "images/bg-header37
 const dataHeaderLogo_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-logo-link-0","href":"https://ivanays.github.io/","className":"header__link header__link-logo"}]');
 ;// ./src/data/data_header/data_header_title/dataHeaderTitle.json
 const dataHeaderTitle_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-logo-title-0","children":"Аппаратная коррекция фигуры"}]');
+;// ./src/data/data_header/data_header_menu/dataHeaderMenu.json
+const dataHeaderMenu_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-menu-link-0","href":"#popup-g","dataBlock":"","children":"Выезд на дом"},{"id":"header-menu-link-1","href":"#","dataBlock":"#procedures","children":"Услуги"},{"id":"header-menu-link-2","href":"#popup-f","dataBlock":"","children":"Акции"},{"id":"header-menu-link-3","href":"#popup-b","dataBlock":"","children":"Окна"},{"id":"header-menu-link-4","href":"#popup-h","dataBlock":"","children":"Отзывы"}]');
 ;// ./src/data/data_header/data_header_burger/dataHeaderBurger.json
 const dataHeaderBurger_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-burger-link-0"}]');
 ;// ./src/data/data_header/data_header_phone/dataHeaderPhone.json
@@ -37348,6 +37416,7 @@ function Header_unsupportedIterableToArray(r, a) { if (r) { if ("string" == type
 function Header_arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function Header_iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function Header_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
 
 
 
@@ -37378,11 +37447,12 @@ var color = "#C975D8";
 
 
 var Header = function Header(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var headerClass = classnames_default()({
     'header': media1728 === true,
     'header--1133': media1133 === true,
@@ -37582,7 +37652,7 @@ var Header = function Header(props) {
   }, isToggled ? /*#__PURE__*/react.createElement(modal_close/* ModalClose */.O, {
     data: dataModalClose,
     handleClose: handleClose
-  }) : null, /*#__PURE__*/react.createElement(HeaderMenu_HeaderMenu, {
+  }) : null, /*#__PURE__*/react.createElement(HeaderMenu, {
     callback: loadCallback,
     scroll: props.scroll,
     data: dataHeaderMenu_namespaceObject
@@ -38406,6 +38476,7 @@ var InfoSvg330Group2 = function InfoSvg330Group2() {
 
 
 
+
 var InfoSvg330 = function InfoSvg330(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -38417,11 +38488,12 @@ var InfoSvg330 = function InfoSvg330(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
@@ -38570,6 +38642,7 @@ var InfoSvg330 = function InfoSvg330(_ref) {
 
 
 
+
 var InfoSvg330l = function InfoSvg330l(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -38581,11 +38654,12 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
@@ -39552,6 +39626,7 @@ var InfoSvg440Group2 = function InfoSvg440Group2() {
 
 
 
+
 var InfoSvg440 = function InfoSvg440(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -39563,11 +39638,12 @@ var InfoSvg440 = function InfoSvg440(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
@@ -39716,6 +39792,7 @@ var InfoSvg440 = function InfoSvg440(_ref) {
 
 
 
+
 var InfoSvg440l = function InfoSvg440l(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -39727,11 +39804,12 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
@@ -39929,12 +40007,14 @@ function Info_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Info = function Info(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var infoClass = classnames_default()({
     'info': media1728 === true,
     'info--1133': media1133 === true,
@@ -40180,12 +40260,14 @@ function MainSidebar_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var MainSidebar = function MainSidebar(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var mainSidebarClass = classnames_default()({
     'main__sidebar': media1728 === true,
     'main--1133__sidebar': media1133 === true,
@@ -40468,12 +40550,14 @@ function MainIconsIcon_extends() { return MainIconsIcon_extends = Object.assign 
 
 
 
+
 var MainIconsIcon = function MainIconsIcon(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var iconsMainClass = classnames_default()({
     'icons__main': media1728 === true,
     'icons--1133__main': media1133 === true,
@@ -40583,12 +40667,14 @@ function MainIcons_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var MainIcons = function MainIcons(props) {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var mainIconsClass = classnames_default()({
     'main__icons': media1728 === true,
     'main--1133__icons': media1133 === true,
@@ -40835,12 +40921,14 @@ const dataMainIcons_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"main-icon
 
 
 
+
 var Main = function Main() {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var mainClass = classnames_default()({
     'main': media1728 === true,
     'main--1133': media1133 === true,
@@ -41012,6 +41100,7 @@ var Procedures = /*#__PURE__*/(0,react.lazy)(function () {
 
 
 
+
 var app_override = {
   display: 'block',
   margin: '0 auto',
@@ -41019,11 +41108,12 @@ var app_override = {
 };
 var app_color = "#C975D8";
 function App() {
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1728px)");
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 1133px) and (max-width: 1727px)");
-  var media744 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)");
-  var media744l = (0,hooks/* useMediaQuery */.Ub)("(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)");
-  var media375 = (0,hooks/* useMediaQuery */.Ub)("(min-width: 375px) and (max-width: 743px)");
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var wrapperClass = classnames_default()({
     'wrapper': media1728 === true,
     'wrapper--1133': media1133 === true,
