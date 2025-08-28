@@ -10572,11 +10572,19 @@ var propsData = function propsData(props) {
 var funcQueryMedia = function funcQueryMedia() {
   return {
     query1728: "(min-width: 1728px)",
-    query1133: "(min-width: 1133px) and (max-width: 1727px)",
-    query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
-    query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
-    query375: "(min-width: 375px) and (max-width: 743px)"
+    query1133: "(min-width: 1182px) and (max-width: 1727px)",
+    query744: "(min-width: 784px) and (max-width: 1181px) and (min-height: 745px)",
+    query744l: "(min-width: 784px) and (max-width: 1181px) and (max-height: 744px)",
+    query375: "(min-width: 446px) and (max-width: 783px)"
   };
+
+  // return {
+  //     query1728: "(min-width: 1728px)",
+  //     query1133: "(min-width: 1133px) and (max-width: 1727px)",
+  //     query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
+  //     query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
+  //     query375: "(min-width: 375px) and (max-width: 743px)",
+  // }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryMedia);
 
