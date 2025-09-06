@@ -40,40 +40,46 @@ var ModalClose = function ModalClose(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var popupCloseClass = classnames_default()({
     'popup__close': media1728 === true,
     'popup--1133__close': media1133 === true,
     'popup--744__close': media744 === true,
     'popup--744l__close': media744l === true,
-    'popup--375__close': media375 === true
+    'popup--375__close': media375 === true,
+    'popup--275__close': media275 === true
   });
   var popupLinkClass = classnames_default()({
     'popup__link': media1728 === true,
     'popup--1133__link': media1133 === true,
     'popup--744__link': media744 === true,
     'popup--744l__link': media744l === true,
-    'popup--375__link': media375 === true
+    'popup--375__link': media375 === true,
+    'popup--275__link': media275 === true
   });
   var popupLinkCloseClass = classnames_default()({
     'popup__link-close': media1728 === true,
     'popup--1133__link-close': media1133 === true,
     'popup--744__link-close': media744 === true,
     'popup--744l__link-close': media744l === true,
-    'popup--375__link-close': media375 === true
+    'popup--375__link-close': media375 === true,
+    'popup--275__link-close': media275 === true
   });
   var popupIconClass = classnames_default()({
     'popup__icon': media1728 === true,
     'popup--1133__icon': media1133 === true,
     'popup--744__icon': media744 === true,
     'popup--744l__icon': media744l === true,
-    'popup--375__icon': media375 === true
+    'popup--375__icon': media375 === true,
+    'popup--275__icon': media275 === true
   });
   var popupIconCloseClass = classnames_default()({
     'popup__icon-close': media1728 === true,
     'popup--1133__icon-close': media1133 === true,
     'popup--744__icon-close': media744 === true,
     'popup--744l__icon-close': media744l === true,
-    'popup--375__icon-close': media375 === true
+    'popup--375__icon-close': media375 === true,
+    'popup--275__icon-close': media275 === true
   });
   (0,hooks/* useBodyScrollLock */.yJ)();
   var propsData = function propsData(props) {
@@ -149,138 +155,158 @@ var ModalContentAB0 = function ModalContentAB0(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -471,138 +497,158 @@ var ModalContentAB1 = function ModalContentAB1(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -793,138 +839,158 @@ var ModalContentAB2 = function ModalContentAB2(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1115,138 +1181,158 @@ var ModalContentAB3 = function ModalContentAB3(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1437,138 +1523,158 @@ var ModalContentAB4 = function ModalContentAB4(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1759,138 +1865,158 @@ var ModalContentAB5 = function ModalContentAB5(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2081,138 +2207,158 @@ var ModalContentAB6 = function ModalContentAB6(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2403,138 +2549,158 @@ var ModalContentAF0 = function ModalContentAF0(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2725,138 +2891,158 @@ var ModalContentAF1 = function ModalContentAF1(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3047,138 +3233,158 @@ var ModalContentAF2 = function ModalContentAF2(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3369,138 +3575,158 @@ var ModalContentAF3 = function ModalContentAF3(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3691,139 +3917,160 @@ var ModalContentAF4 = function ModalContentAF4(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
+  2;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -4013,138 +4260,158 @@ var ModalContentAF5 = function ModalContentAF5(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -4335,138 +4602,158 @@ var ModalContentAF6 = function ModalContentAF6(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -4657,138 +4944,158 @@ var ModalContentAF7 = function ModalContentAF7(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -4979,138 +5286,158 @@ var ModalContentAF8 = function ModalContentAF8(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5288,6 +5615,10 @@ var ModalContentAF8 = function ModalContentAF8(props) {
   }, "22 000")))))))));
 };
 ;// ./src/components/modals/modal/modal_content/modal_content-a/modal_content-a-f/ModalContentAF9.jsx
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -5301,138 +5632,157 @@ var ModalContentAF9 = function ModalContentAF9(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var articleClass = classnames_default()({
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var articleClass = classnames_default()(_defineProperty({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true
-  });
+  }, "article--375", media275 === true));
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5623,138 +5973,158 @@ var ModalContentAF10 = function ModalContentAF10(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5945,138 +6315,158 @@ var ModalContentAF11 = function ModalContentAF11(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -6267,138 +6657,158 @@ var ModalContentAF12 = function ModalContentAF12(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -6589,138 +6999,158 @@ var ModalContentAF13 = function ModalContentAF13(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
+    'article--375': media375 === true,
+    'article--275': media275 === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
-    'article--375__body': media375 === true
+    'article--375__body': media375 === true,
+    'article--275__body': media275 === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
     'article--1133__title': media1133 === true,
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
-    'article--375__title': media375 === true
+    'article--375__title': media375 === true,
+    'article--275__title': media275 === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
     'article--1133__title-sub': media1133 === true,
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true
+    'article--375__title-sub': media375 === true,
+    'article--275__title-sub': media275 === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
     'article--1133__title-procedure': media1133 === true,
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true
+    'article--375__title-procedure': media375 === true,
+    'article--275__title-procedure': media275 === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
     'article--1133__content': media1133 === true,
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
-    'article--375__content': media375 === true
+    'article--375__content': media375 === true,
+    'article--275__content': media275 === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
     'article--1133__block': media1133 === true,
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
-    'article--375__block': media375 === true
+    'article--375__block': media375 === true,
+    'article--275__block': media275 === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
     'article--1133__procedure': media1133 === true,
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true
+    'article--375__procedure': media375 === true,
+    'article--275__procedure': media275 === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
     'article--1133__p': media1133 === true,
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
-    'article--375__p': media375 === true
+    'article--375__p': media375 === true,
+    'article--275__p': media275 === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
     'article--1133__span': media1133 === true,
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
-    'article--375__span': media375 === true
+    'article--375__span': media375 === true,
+    'article--275__span': media275 === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
     'article--1133__span-machine': media1133 === true,
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true
+    'article--375__span-machine': media375 === true,
+    'article--275__span-machine': media275 === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
     'article--1133__image': media1133 === true,
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
-    'article--375__image': media375 === true
+    'article--375__image': media375 === true,
+    'article--275__image': media275 === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
     'article--1133__indications': media1133 === true,
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true
+    'article--375__indications': media375 === true,
+    'article--275__indications': media275 === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
     'article--1133__items': media1133 === true,
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
-    'article--375__items': media375 === true
+    'article--375__items': media375 === true,
+    'article--275__items': media275 === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
     'article--1133__item': media1133 === true,
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
-    'article--375__item': media375 === true
+    'article--375__item': media375 === true,
+    'article--275__item': media275 === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
     'article--1133__p-item': media1133 === true,
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true
+    'article--375__p-item': media375 === true,
+    'article--275__p-item': media275 === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
     'article--1133__contraindications': media1133 === true,
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true
+    'article--375__contraindications': media375 === true,
+    'article--275__contraindications': media275 === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
     'article--1133__price': media1133 === true,
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
-    'article--375__price': media375 === true
+    'article--375__price': media375 === true,
+    'article--275__price': media275 === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
     'article--1133__item-price': media1133 === true,
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true
+    'article--375__item-price': media375 === true,
+    'article--275__item-price': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -6942,82 +7372,94 @@ var ModalContentA = function ModalContentA(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentArticleClass = classnames_default()({
     'content__article': media1728 === true,
     'content--1133__article': media1133 === true,
     'content--744__article': media744 === true,
     'content--744l__article': media744l === true,
-    'content--375__article': media375 === true
+    'content--375__article': media375 === true,
+    'content--275__article': media275 === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
     'content--1133__wranning': media1133 === true,
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true
+    'content--375__wranning': media375 === true,
+    'content--275__wranning': media275 === true
   });
   var contentWranningArticleClass = classnames_default()({
     'content__wranning-home': media1728 === true,
     'content--1133__wranning-home': media1133 === true,
     'content--744__wranning-home': media744 === true,
     'content--744l__wranning-home': media744l === true,
-    'content--375__wranning-home': media375 === true
+    'content--375__wranning-home': media375 === true,
+    'content--275__wranning-home': media275 === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
     'content--1133__inner': media1133 === true,
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true
+    'content--375__inner': media375 === true,
+    'content--275__inner': media275 === true
   });
   var contentInnerArticleClass = classnames_default()({
     'content__inner-home': media1728 === true,
     'content--1133__inner-home': media1133 === true,
     'content--744__inner-home': media744 === true,
     'content--744l__inner-home': media744l === true,
-    'content--375__inner-home': media375 === true
+    'content--375__inner-home': media375 === true,
+    'content--275__inner-home': media275 === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
     'content--1133__p': media1133 === true,
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
-    'content--375__p': media375 === true
+    'content--375__p': media375 === true,
+    'content--275__p': media275 === true
   });
   var contentPArticleClass = classnames_default()({
     'content__p-home': media1728 === true,
     'content--1133__p-home': media1133 === true,
     'content--744__p-home': media744 === true,
     'content--744l__p-home': media744l === true,
-    'content--375__p-home': media375 === true
+    'content--375__p-home': media375 === true,
+    'content--275__p-home': media275 === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true
+    'content--375__phone': media375 === true,
+    'content--275__phone': media275 === true
   });
   var contentPhoneArticleClass = classnames_default()({
     'content__phone-home': media1728 === true,
     'content--1133__phone-home': media1133 === true,
     'content--744__phone-home': media744 === true,
     'content--744l__phone-home': media744l === true,
-    'content--375__phone-home': media375 === true
+    'content--375__phone-home': media375 === true,
+    'content--275__phone-home': media275 === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
     'content--1133__number': media1133 === true,
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
-    'content--375__number': media375 === true
+    'content--375__number': media375 === true,
+    'content--275__number': media275 === true
   });
   var contentNumberArticleClass = classnames_default()({
     'content__number-home': media1728 === true,
     'content--1133__number-home': media1133 === true,
     'content--744__number-home': media744 === true,
     'content--744l__number-home': media744l === true,
-    'content--375__number-home': media375 === true
+    'content--375__number-home': media375 === true,
+    'content--275__number-home': media275 === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -7035,8 +7477,8 @@ var ModalContentA = function ModalContentA(props) {
     id: "content-article",
     className: "".concat(contentWranningClass, " ").concat(contentWranningArticleClass)
   }, /*#__PURE__*/react.createElement("div", {
-    className: media375 ? contentInnerArticleClass : contentInnerClass
-  }, /*#__PURE__*/react.createElement("p", {
+    className: media275 || media375 ? contentInnerArticleClass : contentInnerClass
+  }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-article",
     className: "".concat(contentPClass, " ").concat(contentPArticleClass)
   }, "\u0423\u0442\u043E\u0447\u043D\u044F\u0439\u0442\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443"), /*#__PURE__*/react.createElement("phone", {
@@ -7074,96 +7516,110 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var tableBodyClass = classnames_default()({
     'table__body': media1728 === true,
     'table--1133__body': media1133 === true,
     'table--744__body': media744 === true,
     'table--744l__body': media744l === true,
-    'table--375__body': media375 === true
+    'table--375__body': media375 === true,
+    'table--275__body': media275 === true
   });
   var tableBodyWindowsClass = classnames_default()({
     'table__body-windows': media1728 === true,
     'table--1133__body-windows': media1133 === true,
     'table--744__body-windows': media744 === true,
     'table--744l__body-windows': media744l === true,
-    'table--375__body-windows': media375 === true
+    'table--375__body-windows': media375 === true,
+    'table--275__body-windows': media275 === true
   });
   var tableTrClass = classnames_default()({
     'table__tr': media1728 === true,
     'table--1133__tr': media1133 === true,
     'table--744__tr': media744 === true,
     'table--744l__tr': media744l === true,
-    'table--375__tr': media375 === true
+    'table--375__tr': media375 === true,
+    'table--275__tr': media275 === true
   });
   var tableTrBodyClass = classnames_default()({
     'table__tr-body': media1728 === true,
     'table--1133__tr-body': media1133 === true,
     'table--744__tr-body': media744 === true,
     'table--744l__tr-body': media744l === true,
-    'table--375__tr-body': media375 === true
+    'table--375__tr-body': media375 === true,
+    'table--275__tr-body': media275 === true
   });
   var tableThClass = classnames_default()({
     'table__th': media1728 === true,
     'table--1133__th': media1133 === true,
     'table--744__th': media744 === true,
     'table--744l__th': media744l === true,
-    'table--375__th': media375 === true
+    'table--375__th': media375 === true,
+    'table--275__th': media275 === true
   });
   var tableThBodyClass = classnames_default()({
     'table__th-body': media1728 === true,
     'table--1133__th-body': media1133 === true,
     'table--744__th-body': media744 === true,
     'table--744l__th-body': media744l === true,
-    'table--375__th-body': media375 === true
+    'table--375__th-body': media375 === true,
+    'table--275__th-body': media275 === true
   });
   var tableBorderBottomClass = classnames_default()({
     'table__border-bottom': media1728 === true,
     'table--1133__border-bottom': media1133 === true,
     'table--744__border-bottom': media744 === true,
     'table--744l__border-bottom': media744l === true,
-    'table--375__border-bottom': media375 === true
+    'table--375__border-bottom': media375 === true,
+    'table--275__border-bottom': media275 === true
   });
   var tableThFirstClass = classnames_default()({
     'table__th-first': media1728 === true,
     'table--1133__th-first': media1133 === true,
     'table--744__th-first': media744 === true,
     'table--744l__th-first': media744l === true,
-    'table--375__th-first': media375 === true
+    'table--375__th-first': media375 === true,
+    'table--275__th-first': media275 === true
   });
   var tableTdClass = classnames_default()({
     'table__td': media1728 === true,
     'table--1133__td': media1133 === true,
     'table--744__td': media744 === true,
     'table--744l__td': media744l === true,
-    'table--375__td': media375 === true
+    'table--375__td': media375 === true,
+    'table--275__td': media275 === true
   });
   var tableTdBodyClass = classnames_default()({
     'table__td-body': media1728 === true,
     'table--1133__td-body': media1133 === true,
     'table--744__td-body': media744 === true,
     'table--744l__td-body': media744l === true,
-    'table--375__td-body': media375 === true
+    'table--375__td-body': media375 === true,
+    'table--275__td-body': media275 === true
   });
   var tableSubBodyClass = classnames_default()({
     'table__sub-body': media1728 === true,
     'table--1133__sub-body': media1133 === true,
     'table--744__sub-body': media744 === true,
     'table--744l__sub-body': media744l === true,
-    'table--375__sub-body': media375 === true
+    'table--375__sub-body': media375 === true,
+    'table--275__sub-body': media275 === true
   });
   var tableSupBodyClass = classnames_default()({
     'table__sup-body': media1728 === true,
     'table--1133__sup-body': media1133 === true,
     'table--744__sup-body': media744 === true,
     'table--744l__sup-body': media744l === true,
-    'table--375__sup-body': media375 === true
+    'table--375__sup-body': media375 === true,
+    'table--275__sup-body': media275 === true
   });
   var tableThLastClass = classnames_default()({
     'table__th-last': media1728 === true,
     'table--1133__th-last': media1133 === true,
     'table--744__th-last': media744 === true,
     'table--744l__th-last': media744l === true,
-    'table--375__th-last': media375 === true
+    'table--375__th-last': media375 === true,
+    'table--275__th-last': media275 === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     modalOpened = _useContext.modalOpened;
@@ -7437,222 +7893,254 @@ var ModalContentB = function ModalContentB(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentTableClass = classnames_default()({
     'content__table': media1728 === true,
     'content--1133__table': media1133 === true,
     'content--744__table': media744 === true,
     'content--744l__table': media744l === true,
-    'content--375__table': media375 === true
+    'content--375__table': media375 === true,
+    'content--275__table': media275 === true
   });
   var tableClass = classnames_default()({
     'table': media1728 === true,
     'table--1133': media1133 === true,
     'table--744': media744 === true,
     'table--744l': media744l === true,
-    'table--375': media375 === true
+    'table--375': media375 === true,
+    'table--275': media275 === true
   });
   var tableCaptionClass = classnames_default()({
     'table__caption': media1728 === true,
     'table--1133__caption': media1133 === true,
     'table--744__caption': media744 === true,
     'table--744l__caption': media744l === true,
-    'table--375__caption': media375 === true
+    'table--375__caption': media375 === true,
+    'table--275__caption': media275 === true
   });
   var tableCaptionWindowsClass = classnames_default()({
     'table__caption-windows': media1728 === true,
     'table--1133__caption-windows': media1133 === true,
     'table--744__caption-windows': media744 === true,
     'table--744l__caption-windows': media744l === true,
-    'table--375__caption-windows': media375 === true
+    'table--375__caption-windows': media375 === true,
+    'table--275__caption-windows': media275 === true
   });
   var tableHeaderClass = classnames_default()({
     'table__header': media1728 === true,
     'table--1133__header': media1133 === true,
     'table--744__header': media744 === true,
     'table--744l__header': media744l === true,
-    'table--375__header': media375 === true
+    'table--375__header': media375 === true,
+    'table--275__header': media275 === true
   });
   var tableHeaderWindowsClass = classnames_default()({
     'table__header-windows': media1728 === true,
     'table--1133__header-windows': media1133 === true,
     'table--744__header-windows': media744 === true,
     'table--744l__header-windows': media744l === true,
-    'table--375__header-windows': media375 === true
+    'table--375__header-windows': media375 === true,
+    'table--275__header-windows': media275 === true
   });
   var tableTrClass = classnames_default()({
     'table__tr': media1728 === true,
     'table--1133__tr': media1133 === true,
     'table--744__tr': media744 === true,
     'table--744l__tr': media744l === true,
-    'table--375__tr': media375 === true
+    'table--375__tr': media375 === true,
+    'table--275__tr': media275 === true
   });
   var tableTrHeaderClass = classnames_default()({
     'table__tr-header': media1728 === true,
     'table--1133__tr-header': media1133 === true,
     'table--744__tr-header': media744 === true,
     'table--744l__tr-header': media744l === true,
-    'table--375__tr-header': media375 === true
+    'table--375__tr-header': media375 === true,
+    'table--275__tr-header': media275 === true
   });
   var tableThClass = classnames_default()({
     'table__th': media1728 === true,
     'table--1133__th': media1133 === true,
     'table--744__th': media744 === true,
     'table--744l__th': media744l === true,
-    'table--375__th': media375 === true
+    'table--375__th': media375 === true,
+    'table--275__th': media275 === true
   });
   var tableThCornerClass = classnames_default()({
     'table__th-corner': media1728 === true,
     'table--1133__th-corner': media1133 === true,
     'table--744__th-corner': media744 === true,
     'table--744l__th-corner': media744l === true,
-    'table--375__th-corner': media375 === true
+    'table--375__th-corner': media375 === true,
+    'table--275__th-corner': media275 === true
   });
   var tableThTopleftClass = classnames_default()({
     'table__th-topleft': media1728 === true,
     'table--1133__th-topleft': media1133 === true,
     'table--744__th-topleft': media744 === true,
     'table--744l__th-topleft': media744l === true,
-    'table--375__th-topleft': media375 === true
+    'table--375__th-topleft': media375 === true,
+    'table--275__th-topleft': media275 === true
   });
   var tableThHeaderClass = classnames_default()({
     'table__th-header': media1728 === true,
     'table--1133__th-header': media1133 === true,
     'table--744__th-header': media744 === true,
     'table--744l__th-header': media744l === true,
-    'table--375__th-header': media375 === true
+    'table--375__th-header': media375 === true,
+    'table--275__th-header': media275 === true
   });
   var tableThStickyClass = classnames_default()({
     'table__th-sticky': media1728 === true,
     'table--1133__th-sticky': media1133 === true,
     'table--744__th-sticky': media744 === true,
     'table--744l__th-sticky': media744l === true,
-    'table--375__th-sticky': media375 === true
+    'table--375__th-sticky': media375 === true,
+    'table--275__th-sticky': media275 === true
   });
   var tableThToprightClass = classnames_default()({
     'table__th-topright': media1728 === true,
     'table--1133__th-topright': media1133 === true,
     'table--744__th-topright': media744 === true,
     'table--744l__th-topright': media744l === true,
-    'table--375__th-topright': media375 === true
+    'table--375__th-topright': media375 === true,
+    'table--275__th-topright': media275 === true
   });
   var tableFooterClass = classnames_default()({
     'table__footer': media1728 === true,
     'table--1133__footer': media1133 === true,
     'table--744__footer': media744 === true,
     'table--744l__footer': media744l === true,
-    'table--375__footer': media375 === true
+    'table--375__footer': media375 === true,
+    'table--275__footer': media275 === true
   });
   var tableFooterWindowsClass = classnames_default()({
     'table__footer-windows': media1728 === true,
     'table--1133__footer-windows': media1133 === true,
     'table--744__footer-windows': media744 === true,
     'table--744l__footer-windows': media744l === true,
-    'table--375__footer-windows': media375 === true
+    'table--375__footer-windows': media375 === true,
+    'table--275__footer-windows': media275 === true
   });
   var tableTrFooterClass = classnames_default()({
     'table__tr-footer': media1728 === true,
     'table--1133__tr-footer': media1133 === true,
     'table--744__tr-footer': media744 === true,
     'table--744l__tr-footer': media744l === true,
-    'table--375__tr-footer': media375 === true
+    'table--375__tr-footer': media375 === true,
+    'table--275__tr-footer': media275 === true
   });
   var tableThBottomleftClass = classnames_default()({
     'table__th-bottomleft': media1728 === true,
     'table--1133__th-bottomleft': media1133 === true,
     'table--744__th-bottomleft': media744 === true,
     'table--744l__th-bottomleft': media744l === true,
-    'table--375__th-bottomleft': media375 === true
+    'table--375__th-bottomleft': media375 === true,
+    'table--275__th-bottomleft': media275 === true
   });
   var tableThFooterClass = classnames_default()({
     'table__th-footer': media1728 === true,
     'table--1133__th-footer': media1133 === true,
     'table--744__th-footer': media744 === true,
     'table--744l__th-footer': media744l === true,
-    'table--375__th-footer': media375 === true
+    'table--375__th-footer': media375 === true,
+    'table--275__th-footer': media275 === true
   });
   var tableThBottomrightClass = classnames_default()({
     'table__th-bottomright': media1728 === true,
     'table--1133__th-bottomright': media1133 === true,
     'table--744__th-bottomright': media744 === true,
     'table--744l__th-bottomright': media744l === true,
-    'table--375__th-bottomright': media375 === true
+    'table--375__th-bottomright': media375 === true,
+    'table--275__th-bottomright': media275 === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
     'content--1133__wranning': media1133 === true,
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true
+    'content--375__wranning': media375 === true,
+    'content--275__wranning': media275 === true
   });
   var contentWranningWindowsClass = classnames_default()({
     'content__wranning-windows': media1728 === true,
     'content--1133__wranning-windows': media1133 === true,
     'content--744__wranning-windows': media744 === true,
     'content--744l__wranning-windows': media744l === true,
-    'content--375__wranning-windows': media375 === true
+    'content--375__wranning-windows': media375 === true,
+    'content--275__wranning-windows': media275 === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
     'content--1133__inner': media1133 === true,
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true
+    'content--375__inner': media375 === true,
+    'content--275__inner': media275 === true
   });
   var contentInnerWindowsClass = classnames_default()({
     'content__inner-windows': media1728 === true,
     'content--1133__inner-windows': media1133 === true,
     'content--744__inner-windows': media744 === true,
     'content--744l__inner-windows': media744l === true,
-    'content--375__inner-windows': media375 === true
+    'content--375__inner-windows': media375 === true,
+    'content--275__inner-windows': media275 === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
     'content--1133__p': media1133 === true,
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
-    'content--375__p': media375 === true
+    'content--375__p': media375 === true,
+    'content--275__p': media275 === true
   });
   var contentPWindowsClass = classnames_default()({
     'content__p-windows': media1728 === true,
     'content--1133__p-windows': media1133 === true,
     'content--744__p-windows': media744 === true,
     'content--744l__p-windows': media744l === true,
-    'content--375__p-windows': media375 === true
+    'content--375__p-windows': media375 === true,
+    'content--275__p-windows': media275 === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true
+    'content--375__phone': media375 === true,
+    'content--275__phone': media275 === true
   });
   var contentPhoneWindowsClass = classnames_default()({
     'content__phone-windows': media1728 === true,
     'content--1133__phone-windows': media1133 === true,
     'content--744__phone-windows': media744 === true,
     'content--744l__phone-windows': media744l === true,
-    'content--375__phone-windows': media375 === true
+    'content--375__phone-windows': media375 === true,
+    'content--275__phone-windows': media275 === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
     'content--1133__number': media1133 === true,
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
-    'content--375__number': media375 === true
+    'content--375__number': media375 === true,
+    'content--275__number': media275 === true
   });
   var contentNumberWindowsClass = classnames_default()({
     'content__number-windows': media1728 === true,
     'content--1133__number-windows': media1133 === true,
     'content--744__number-windows': media744 === true,
     'content--744l__number-windows': media744l === true,
-    'content--375__number-windows': media375 === true
+    'content--375__number-windows': media375 === true,
+    'content--275__number-windows': media275 === true
   });
   var tableScrollXClass = classnames_default()({
     'table__scroll-x': media1728 === true,
     'table--1133__scroll-x': media1133 === true,
     'table--744__scroll-x': media744 === true,
     'table--744l__scroll-x': media744l === true,
-    'table--375__scroll-x': media375 === true
+    'table--375__scroll-x': media375 === true,
+    'table--275__scroll-x': media275 === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -7724,8 +8212,8 @@ var ModalContentB = function ModalContentB(props) {
     id: "content-windows",
     className: "".concat(contentWranningClass, " ").concat(contentWranningWindowsClass)
   }, /*#__PURE__*/react.createElement("div", {
-    className: media375 || media744l ? contentInnerWindowsClass : contentInnerClass
-  }, /*#__PURE__*/react.createElement("p", {
+    className: media275 || media375 || media744l ? contentInnerWindowsClass : contentInnerClass
+  }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-windows",
     className: "".concat(contentPClass, " ").concat(contentPWindowsClass)
   }, "\u0423\u0442\u043E\u0447\u043D\u044F\u0439\u0442\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443"), /*#__PURE__*/react.createElement("phone", {
@@ -7761,54 +8249,62 @@ var ModalContentC = function ModalContentC(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true
+    'content--375__phone': media375 === true,
+    'content--275__phone': media275 === true
   });
   var phoneClass = classnames_default()({
     'phone': media1728 === true,
     'phone--1133': media1133 === true,
     'phone--744': media744 === true,
     'phone--744l': media744l === true,
-    'phone--375': media375 === true
+    'phone--375': media375 === true,
+    'phone--275': media275 === true
   });
   var phoneInnerClass = classnames_default()({
     'phone__inner': media1728 === true,
     'phone--1133__inner': media1133 === true,
     'phone--744__inner': media744 === true,
     'phone--744l__inner': media744l === true,
-    'phone--375__inner': media375 === true
+    'phone--375__inner': media375 === true,
+    'phone--275__inner': media275 === true
   });
   var phoneIconClass = classnames_default()({
     'phone__icon': media1728 === true,
     'phone--1133__icon': media1133 === true,
     'phone--744__icon': media744 === true,
     'phone--744l__icon': media744l === true,
-    'phone--375__icon': media375 === true
+    'phone--375__icon': media375 === true,
+    'phone--275__icon': media275 === true
   });
   var phoneItemsClass = classnames_default()({
     'phone__items': media1728 === true,
     'phone--1133__items': media1133 === true,
     'phone--744__items': media744 === true,
     'phone--744l__items': media744l === true,
-    'phone--375__items': media375 === true
+    'phone--375__items': media375 === true,
+    'phone--275__items': media275 === true
   });
   var phoneNumberClass = classnames_default()({
     'phone__number': media1728 === true,
     'phone--1133__number': media1133 === true,
     'phone--744__number': media744 === true,
     'phone--744l__number': media744l === true,
-    'phone--375__number': media375 === true
+    'phone--375__number': media375 === true,
+    'phone--275__number': media275 === true
   });
   var phoneImgClass = classnames_default()({
     'phone__img': media1728 === true,
     'phone--1133__img': media1133 === true,
     'phone--744__img': media744 === true,
     'phone--744l__img': media744l === true,
-    'phone--375__img': media375 === true
+    'phone--375__img': media375 === true,
+    'phone--275__img': media275 === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -7866,54 +8362,62 @@ var ModalContentD = function ModalContentD(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentMessageClass = classnames_default()({
     'content__message': media1728 === true,
     'content--1133__message': media1133 === true,
     'content--744__message': media744 === true,
     'content--744l__message': media744l === true,
-    'content--375__message': media375 === true
+    'content--375__message': media375 === true,
+    'content--275__message': media275 === true
   });
   var messageClass = classnames_default()({
     'message': media1728 === true,
     'message--1133': media1133 === true,
     'message--744': media744 === true,
     'message--744l': media744l === true,
-    'message--375': media375 === true
+    'message--375': media375 === true,
+    'message--275': media275 === true
   });
   var messageInnerClass = classnames_default()({
     'message__inner': media1728 === true,
     'message--1133__inner': media1133 === true,
     'message--744__inner': media744 === true,
     'message--744l__inner': media744l === true,
-    'message--375__inner': media375 === true
+    'message--375__inner': media375 === true,
+    'message--275__inner': media275 === true
   });
   var messageIconClass = classnames_default()({
     'message__icon': media1728 === true,
     'message--1133__icon': media1133 === true,
     'message--744__icon': media744 === true,
     'message--744l__icon': media744l === true,
-    'message--375__icon': media375 === true
+    'message--375__icon': media375 === true,
+    'message--275__icon': media275 === true
   });
   var messageImgClass = classnames_default()({
     'message__img': media1728 === true,
     'message--1133__img': media1133 === true,
     'message--744__img': media744 === true,
     'message--744l__img': media744l === true,
-    'message--375__img': media375 === true
+    'message--375__img': media375 === true,
+    'message--275__img': media275 === true
   });
   var messageContentClass = classnames_default()({
     'message__content': media1728 === true,
     'message--1133__content': media1133 === true,
     'message--744__content': media744 === true,
     'message--__content': media744l === true,
-    'message--375__content': media375 === true
+    'message--375__content': media375 === true,
+    'message--275__content': media275 === true
   });
   var messagePClass = classnames_default()({
     'message__p': media1728 === true,
     'message--1133__p': media1133 === true,
     'message--744__p': media744 === true,
     'message--744l__p': media744l === true,
-    'message--375__p': media375 === true
+    'message--375__p': media375 === true,
+    'message--275__p': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentMessageClass
@@ -7990,33 +8494,38 @@ var ModalContentE = function ModalContentE(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentImageClass = classnames_default()({
     'content__image': media1728 === true,
     'content--1133__image': media1133 === true,
     'content--744__image': media744 === true,
     'content--744l__image': media744l === true,
-    'content--375__image': media375 === true
+    'content--375__image': media375 === true,
+    'content--275__image': media275 === true
   });
   var imageClass = classnames_default()({
     'image': media1728 === true,
     'image--1133': media1133 === true,
     'image--744': media744 === true,
     'image--744l': media744l === true,
-    'image--375': media375 === true
+    'image--375': media375 === true,
+    'image--275': media275 === true
   });
   var imageContentClass = classnames_default()({
     'image__content': media1728 === true,
     'image--1133__content': media1133 === true,
     'image--744__content': media744 === true,
     'image--744l__content': media744l === true,
-    'image--375__content': media375 === true
+    'image--375__content': media375 === true,
+    'image--275__content': media275 === true
   });
   var imageImgClass = classnames_default()({
     'image__img': media1728 === true,
     'image--1133__img': media1133 === true,
     'image--744__img': media744 === true,
     'image--744l__img': media744l === true,
-    'image--375__img': media375 === true
+    'image--375__img': media375 === true,
+    'image--275__img': media275 === true
   });
   var image;
   switch (props.number) {
@@ -8101,208 +8610,238 @@ var ModalContentF = function ModalContentF(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentStockClass = classnames_default()({
     'content__stock': media1728 === true,
     'content--1133__stock': media1133 === true,
     'content--744__stock': media744 === true,
     'content--744l__stock': media744l === true,
-    'content--375__stock': media375 === true
+    'content--375__stock': media375 === true,
+    'content--275__stock': media275 === true
   });
   var stockClass = classnames_default()({
     'stock': media1728 === true,
     'stock--1133': media1133 === true,
     'stock--744': media744 === true,
     'stock--744l': media744l === true,
-    'stock--375': media375 === true
+    'stock--375': media375 === true,
+    'stock--275': media275 === true
   });
   var stockTitleClass = classnames_default()({
     'stock__title': media1728 === true,
     'stock--1133__title': media1133 === true,
     'stock--744__title': media744 === true,
     'stock--744l__title': media744l === true,
-    'stock--375__title': media375 === true
+    'stock--375__title': media375 === true,
+    'stock--275__title': media275 === true
   });
   var stockSliderClass = classnames_default()({
     'stock__slider': media1728 === true,
     'stock--1133__slider': media1133 === true,
     'stock--744__slider': media744 === true,
     'stock--744l__slider': media744l === true,
-    'stock--375__slider': media375 === true
+    'stock--375__slider': media375 === true,
+    'stock--275__slider': media275 === true
   });
   var sliderStockClass = classnames_default()({
     'slider-stock': media1728 === true,
     'slider-stock--1133': media1133 === true,
     'slider-stock--744': media744 === true,
     'slider-stock--744l': media744l === true,
-    'slider-stock--375': media375 === true
+    'slider-stock--375': media375 === true,
+    'slider-stock--275': media275 === true
   });
   var sliderItemsClass = classnames_default()({
     'slider__items': media1728 === true,
     'slider--1133__items': media1133 === true,
     'slider--744__items': media744 === true,
     'slider--744l__items': media744l === true,
-    'slider--375__items': media375 === true
+    'slider--375__items': media375 === true,
+    'slider--275__items': media275 === true
   });
   var sliderItemsStockClass = classnames_default()({
     'slider__items-stock': media1728 === true,
     'slider--1133__items-stock': media1133 === true,
     'slider--744__items-stock': media744 === true,
     'slider--744l__items-stock': media744l === true,
-    'slider--375__items-stock': media375 === true
+    'slider--375__items-stock': media375 === true,
+    'slider--275__items-stock': media275 === true
   });
   var sliderItemClass = classnames_default()({
     'slider__item': media1728 === true,
     'slider--1133__item': media1133 === true,
     'slider--744__item': media744 === true,
     'slider--744l__item': media744l === true,
-    'slider--375__item': media375 === true
+    'slider--375__item': media375 === true,
+    'slider--275__item': media275 === true
   });
   var sliderItemStockClass = classnames_default()({
     'slider__item-stock': media1728 === true,
     'slider--1133__item-stock': media1133 === true,
     'slider--744__item-stock': media744 === true,
     'slider--744l__item-stock': media744l === true,
-    'slider--375__item-stock': media375 === true
+    'slider--375__item-stock': media375 === true,
+    'slider--275__item-stock': media275 === true
   });
   var sliderSlideStockClass = classnames_default()({
     'slider__slide-stock': media1728 === true,
     'slider--1133__slide-stock': media1133 === true,
     'slider--744__slide-stock': media744 === true,
     'slider--744l__slide-stock': media744l === true,
-    'slider--375__slide-stock': media375 === true
+    'slider--375__slide-stock': media375 === true,
+    'slider--275__slide-stock': media275 === true
   });
   var slideClass = classnames_default()({
     'slide': media1728 === true,
     'slide--1133': media1133 === true,
     'slide--744': media744 === true,
     'slide--744l': media744l === true,
-    'slide--375': media375 === true
+    'slide--375': media375 === true,
+    'slide--275': media275 === true
   });
   var slideStockClass = classnames_default()({
     'slide-stock': media1728 === true,
     'slide-stock--1133': media1133 === true,
     'slide-stock--744': media744 === true,
     'slide-stock--744l': media744l === true,
-    'slide-stock--375': media375 === true
+    'slide-stock--375': media375 === true,
+    'slide-stock--275': media275 === true
   });
   var slideContentClass = classnames_default()({
     'slide__content': media1728 === true,
     'slide--1133__content': media1133 === true,
     'slide--744__content': media744 === true,
     'slide--744l__content': media744l === true,
-    'slide--375__content': media375 === true
+    'slide--375__content': media375 === true,
+    'slide--275__content': media275 === true
   });
   var slideContentStockClass = classnames_default()({
     'slide__content-stock': media1728 === true,
     'slide--1133__content-stock': media1133 === true,
     'slide--744__content-stock': media744 === true,
     'slide--744l__content-stock': media744l === true,
-    'slide--375__content-stock': media375 === true
+    'slide--375__content-stock': media375 === true,
+    'slide--275__content-stock': media275 === true
   });
   var slideStock1Class = classnames_default()({
     'slide__stock': media1728 === true,
     'slide--1133__stock': media1133 === true,
     'slide--744__stock': media744 === true,
     'slide--744l__stock': media744l === true,
-    'slide--375__stock': media375 === true
+    'slide--375__stock': media375 === true,
+    'slide--275__stock': media275 === true
   });
   var slideValueClass = classnames_default()({
     'slide__value': media1728 === true,
     'slide--1133__value': media1133 === true,
     'slide--744__value': media744 === true,
     'slide--744l__value': media744l === true,
-    'slide--375__value': media375 === true
+    'slide--375__value': media375 === true,
+    'slide--275__value': media275 === true
   });
   var slideSpanClass = classnames_default()({
     'slide__span': media1728 === true,
     'slide--1133__span': media1133 === true,
     'slide--744__span': media744 === true,
     'slide--744l__span': media744l === true,
-    'slide--375__span': media375 === true
+    'slide--375__span': media375 === true,
+    'slide--275__span': media275 === true
   });
   var slideSpanNumClass = classnames_default()({
     'slide__span-num': media1728 === true,
     'slide--1133__span-num': media1133 === true,
     'slide--744__span-num': media744 === true,
     'slide--744l__span-num': media744l === true,
-    'slide--375__span-num': media375 === true
+    'slide--375__span-num': media375 === true,
+    'slide--275__span-num': media275 === true
   });
   var slideSpanSymbolClass = classnames_default()({
     'slide__span-symbol': media1728 === true,
     'slide--1133__span-symbol': media1133 === true,
     'slide--744__span-symbol': media744 === true,
     'slide--744l__span-symbol': media744l === true,
-    'slide--375__span-symbol': media375 === true
+    'slide--375__span-symbol': media375 === true,
+    'slide--275__span-symbol': media275 === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
     'content--1133__wranning': media1133 === true,
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true
+    'content--375__wranning': media375 === true,
+    'content--275__wranning': media275 === true
   });
   var contentWranningStockClass = classnames_default()({
     'content__wranning-stock': media1728 === true,
     'content--1133__wranning-stock': media1133 === true,
     'content--744__wranning-stock': media744 === true,
     'content--744l__wranning-stock': media744l === true,
-    'content--375__wranning-stock': media375 === true
+    'content--375__wranning-stock': media375 === true,
+    'content--275__wranning-stock': media275 === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
     'content--1133__inner': media1133 === true,
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true
+    'content--375__inner': media375 === true,
+    'content--275__inner': media275 === true
   });
   var contentInnerStockClass = classnames_default()({
     'content__inner-stock': media1728 === true,
     'content--1133__inner-stock': media1133 === true,
     'content--744__inner-stock': media744 === true,
     'content--744l__inner-stock': media744l === true,
-    'content--375__inner-stock': media375 === true
+    'content--375__inner-stock': media375 === true,
+    'content--275__inner-stock': media275 === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
     'content--1133__p': media1133 === true,
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
-    'content--375__p': media375 === true
+    'content--375__p': media375 === true,
+    'content--275__p': media275 === true
   });
   var contentPStockClass = classnames_default()({
     'content__p-stock': media1728 === true,
     'content--1133__p-stock': media1133 === true,
     'content--744__p-stock': media744 === true,
     'content--744l__p-stock': media744l === true,
-    'content--375__p-stock': media375 === true
+    'content--375__p-stock': media375 === true,
+    'content--275__p-stock': media275 === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true
+    'content--375__phone': media375 === true,
+    'content--275__phone': media275 === true
   });
   var contentPhoneStockClass = classnames_default()({
     'content__phone-stock': media1728 === true,
     'content--1133__phone-stock': media1133 === true,
     'content--744__phone-stock': media744 === true,
     'content--744l__phone-stock': media744l === true,
-    'content--375__phone-stock': media375 === true
+    'content--375__phone-stock': media375 === true,
+    'content--275__phone-stock': media275 === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
     'content--1133__number': media1133 === true,
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
-    'content--375__number': media375 === true
+    'content--375__number': media375 === true,
+    'content--275__number': media275 === true
   });
   var contentNumberStockClass = classnames_default()({
     'content__number-stock': media1728 === true,
     'content--1133__number-stock': media1133 === true,
     'content--744__number-stock': media744 === true,
     'content--744l__number-stock': media744l === true,
-    'content--375__number-stock': media375 === true
+    'content--375__number-stock': media375 === true,
+    'content--275__number-stock': media275 === true
   });
   var _useState = (0,react.useState)(0),
     _useState2 = ModalContentF_slicedToArray(_useState, 2),
@@ -8312,8 +8851,16 @@ var ModalContentF = function ModalContentF(props) {
   // const slides = document.querySelectorAll('.slider__slide-stock');
 
   var slideStock, slideStockActive;
-  media1728 === true ? slideStock = 'slider__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : null;
-  media1728 === true ? slideStockActive = 'slider__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : media744l === true ? slideStockActive = 'slider--744l__slide-stock-active' : media375 === true ? slideStockActive = 'slider--375__slide-stock-active' : null;
+  media1728 === true ? slideStock = 'slider__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : media275 === true ? slideStock = 'slider--275__slide-stock' : null;
+  media1728 === true ? slideStockActive = 'slider__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : null;
+
+  // (media1728 === true) ? slideStockActive = 'slider__slide-stock-active' :
+  //     (media1133 === true) ? slideStockActive = 'slider--1133__slide-stock-active' :
+  //         (media744 === true) ? slideStockActive = 'slider--744__slide-stock-active' :
+  //             (media744l === true) ? slideStockActive = 'slider--744l__slide-stock-active' :
+  //                 (media375 === true) ? slideStockActive = 'slider--375__slide-stock-active' :
+  //                     (media275 === true) ? slideStockActive = 'slider--275__slide-stock-active' : null;
+
   var removeActiveSlides = function removeActiveSlides() {
     var slides = document.querySelectorAll(".".concat(slideStock));
     for (var i = 0; i < slides.length; i++) {
@@ -8339,7 +8886,7 @@ var ModalContentF = function ModalContentF(props) {
     activeSlide(index);
   };
   (0,react.useEffect)(function () {
-    if (media375 || media744l) return;
+    if (media275 || media375 || media744l) return;
     var timeout = setTimeout(function () {
       defaultSlide();
       setIndex(index + 1);
@@ -8349,7 +8896,7 @@ var ModalContentF = function ModalContentF(props) {
     };
   }, []);
   (0,react.useEffect)(function () {
-    if (media375 || media744l) return;
+    if (media275 || media375 || media744l) return;
     var interval = setInterval(function () {
       nextSlide();
     }, 6000);
@@ -8435,8 +8982,8 @@ var ModalContentF = function ModalContentF(props) {
     id: "content-stock",
     className: "".concat(contentWranningClass, " ").concat(contentWranningStockClass)
   }, /*#__PURE__*/react.createElement("div", {
-    className: media375 || media744l ? contentInnerStockClass : contentInnerClass
-  }, /*#__PURE__*/react.createElement("p", {
+    className: media275 || media375 || media744l ? contentInnerStockClass : contentInnerClass
+  }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-stock",
     className: "".concat(contentPClass, " ").concat(contentPStockClass)
   }, "\u0423\u0442\u043E\u0447\u043D\u044F\u0439\u0442\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443"), /*#__PURE__*/react.createElement("phone", {
@@ -8470,138 +9017,158 @@ var ModalContentG = function ModalContentG(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentHomeClass = classnames_default()({
     'content__home': media1728 === true,
     'content--1133__home': media1133 === true,
     'content--744__home': media744 === true,
     'content--744l__home': media744l === true,
-    'content--375__home': media375 === true
+    'content--375__home': media375 === true,
+    'content--275__home': media275 === true
   });
   var homeClass = classnames_default()({
     'home': media1728 === true,
     'home--1133': media1133 === true,
     'home--744': media744 === true,
     'home--744l': media744l === true,
-    'home--375': media375 === true
+    'home--375': media375 === true,
+    'home--275': media275 === true
   });
   var homeBodyClass = classnames_default()({
     'home__body': media1728 === true,
     'home--1133__body': media1133 === true,
     'home--744__body': media744 === true,
     'home--744l__body': media744l === true,
-    'home--375__body': media375 === true
+    'home--375__body': media375 === true,
+    'home--275__body': media275 === true
   });
   var homeTitleClass = classnames_default()({
     'home__title': media1728 === true,
     'home--1133__title': media1133 === true,
     'home--744__title': media744 === true,
     'home--744l__title': media744l === true,
-    'home--375__title': media375 === true
+    'home--375__title': media375 === true,
+    'home--275__title': media275 === true
   });
   var homeTitleSubClass = classnames_default()({
     'home__title-sub': media1728 === true,
     'home--1133__title-sub': media1133 === true,
     'home--744__title-sub': media744 === true,
     'home--744l__title-sub': media744l === true,
-    'home--375__title-sub': media375 === true
+    'home--375__title-sub': media375 === true,
+    'home--275__title-sub': media275 === true
   });
   var homeContentClass = classnames_default()({
     'home__content': media1728 === true,
     'home--1133__content': media1133 === true,
     'home--744__content': media744 === true,
     'home--744l__content': media744l === true,
-    'home--375__content': media375 === true
+    'home--375__content': media375 === true,
+    'home--275__content': media275 === true
   });
   var homeBlockClass = classnames_default()({
     'home__block': media1728 === true,
     'home--1133__block': media1133 === true,
     'home--744__block': media744 === true,
     'home--744l__block': media744l === true,
-    'home--375__block': media375 === true
+    'home--375__block': media375 === true,
+    'home--275__block': media275 === true
   });
   var homePClass = classnames_default()({
     'home__p': media1728 === true,
     'home--1133__p': media1133 === true,
     'home--744__p': media744 === true,
     'home--744l__p': media744l === true,
-    'home--375__p': media375 === true
+    'home--375__p': media375 === true,
+    'home--275__p': media275 === true
   });
   var homeImageClass = classnames_default()({
     'home__image': media1728 === true,
     'home--1133__image': media1133 === true,
     'home--744__image': media744 === true,
     'home--744l__image': media744l === true,
-    'home--375__image': media375 === true
+    'home--375__image': media375 === true,
+    'home--275__image': media275 === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
     'content--1133__wranning': media1133 === true,
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true
+    'content--375__wranning': media375 === true,
+    'content--275__wranning': media275 === true
   });
   var contentWranningHomeClass = classnames_default()({
     'content__wranning-home': media1728 === true,
     'content--1133__wranning-home': media1133 === true,
     'content--744__wranning-home': media744 === true,
     'content--744l__wranning-home': media744l === true,
-    'content--375__wranning-home': media375 === true
+    'content--375__wranning-home': media375 === true,
+    'content--275__wranning-home': media275 === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
     'content--1133__inner': media1133 === true,
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true
+    'content--375__inner': media375 === true,
+    'content--275__inner': media275 === true
   });
   var contentInnerHomeClass = classnames_default()({
     'content__inner-home': media1728 === true,
     'content--1133__inner-home': media1133 === true,
     'content--744__inner-home': media744 === true,
     'content--744l__inner-home': media744l === true,
-    'content--375__inner-home': media375 === true
+    'content--375__inner-home': media375 === true,
+    'content--275__inner-home': media275 === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
     'content--1133__p': media1133 === true,
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
-    'content--375__p': media375 === true
+    'content--375__p': media375 === true,
+    'content--275__p': media275 === true
   });
   var contentPHomeClass = classnames_default()({
     'content__p-home': media1728 === true,
     'content--1133__p-home': media1133 === true,
     'content--744__p-home': media744 === true,
     'content--744l__p-home': media744l === true,
-    'content--375__p-home': media375 === true
+    'content--375__p-home': media375 === true,
+    'content--275__p-home': media275 === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true
+    'content--375__phone': media375 === true,
+    'content--275__phone': media275 === true
   });
   var contentPhoneHomeClass = classnames_default()({
     'content__phone-home': media1728 === true,
     'content--1133__phone-home': media1133 === true,
     'content--744__phone-home': media744 === true,
     'content--744l__phone-home': media744l === true,
-    'content--375__phone-home': media375 === true
+    'content--375__phone-home': media375 === true,
+    'content--275__phone-home': media275 === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
     'content--1133__number': media1133 === true,
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
-    'content--375__number': media375 === true
+    'content--375__number': media375 === true,
+    'content--275__number': media275 === true
   });
   var contentNumberHomeClass = classnames_default()({
     'content__number-home': media1728 === true,
     'content--1133__number-home': media1133 === true,
     'content--744__number-home': media744 === true,
     'content--744l__number-home': media744l === true,
-    'content--375__number-home': media375 === true
+    'content--375__number-home': media375 === true,
+    'content--275__number-home': media275 === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -8649,8 +9216,8 @@ var ModalContentG = function ModalContentG(props) {
     id: "content-home",
     className: contentWranningHomeClass
   }, /*#__PURE__*/react.createElement("div", {
-    className: media375 ? contentInnerHomeClass : contentInnerClass
-  }, /*#__PURE__*/react.createElement("p", {
+    className: media275 || media375 ? contentInnerHomeClass : contentInnerClass
+  }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-home",
     className: "".concat(contentPClass, " ").concat(contentPHomeClass)
   }, "\u0423\u0442\u043E\u0447\u043D\u044F\u0439\u0442\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443"), /*#__PURE__*/react.createElement("phone", {
@@ -8685,166 +9252,190 @@ var ModalContentH = function ModalContentH(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var contentReviewsClass = classnames_default()({
     'content__reviews': media1728 === true,
     'content--1133__reviews': media1133 === true,
     'content--744__reviews': media744 === true,
     'content--744l__reviews': media744l === true,
-    'content--375__reviews': media375 === true
+    'content--375__reviews': media375 === true,
+    'content--275__reviews': media275 === true
   });
   var reviewsClass = classnames_default()({
     'reviews': media1728 === true,
     'reviews--1133': media1133 === true,
     'reviews--744': media744 === true,
     'reviews--744l': media744l === true,
-    'reviews--375': media375 === true
+    'reviews--375': media375 === true,
+    'reviews--275': media275 === true
   });
   var reviewsBodyClass = classnames_default()({
     'reviews__body': media1728 === true,
     'reviews--1133__body': media1133 === true,
     'reviews--744__body': media744 === true,
     'reviews--744l__body': media744l === true,
-    'reviews--375__body': media375 === true
+    'reviews--375__body': media375 === true,
+    'reviews--275__body': media275 === true
   });
   var reviewsContentClass = classnames_default()({
     'reviews__content': media1728 === true,
     'reviews--1133__content': media1133 === true,
     'reviews--744__content': media744 === true,
     'reviews--744l__content': media744l === true,
-    'reviews--375__content': media375 === true
+    'reviews--375__content': media375 === true,
+    'reviews--275__content': media275 === true
   });
   var reviewsBlockClass = classnames_default()({
     'reviews__block': media1728 === true,
     'reviews--1133__block': media1133 === true,
     'reviews--744__block': media744 === true,
     'reviews--744l__block': media744l === true,
-    'reviews--375__block': media375 === true
+    'reviews--375__block': media375 === true,
+    'reviews--275__block': media275 === true
   });
   var reviewsTitleClass = classnames_default()({
     'reviews__title': media1728 === true,
     'reviews--1133__title': media1133 === true,
     'reviews--744__title': media744 === true,
     'reviews--744l__title': media744l === true,
-    'reviews--375__title': media375 === true
+    'reviews--375__title': media375 === true,
+    'reviews--275__title': media275 === true
   });
   var reviewsTitleSubClass = classnames_default()({
     'reviews__title-sub': media1728 === true,
     'reviews--1133__title-sub': media1133 === true,
     'reviews--744__title-sub': media744 === true,
     'reviews--744l__title-sub': media744l === true,
-    'reviews--375__title-sub': media375 === true
+    'reviews--375__title-sub': media375 === true,
+    'reviews--275__title-sub': media275 === true
   });
   var reviewsPClass = classnames_default()({
     'reviews__p': media1728 === true,
     'reviews--1133__p': media1133 === true,
     'reviews--744__p': media744 === true,
     'reviews--744l__p': media744l === true,
-    'reviews--375__p': media375 === true
+    'reviews--375__p': media375 === true,
+    'reviews--275__p': media275 === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
     'content--1133__wranning': media1133 === true,
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true
+    'content--375__wranning': media375 === true,
+    'content--275__wranning': media275 === true
   });
   var contentWranningReviewsClass = classnames_default()({
     'content__wranning-reviews': media1728 === true,
     'content--1133__wranning-reviews': media1133 === true,
     'content--744__wranning-reviews': media744 === true,
     'content--744l__wranning-reviews': media744l === true,
-    'content--375__wranning-reviews': media375 === true
+    'content--375__wranning-reviews': media375 === true,
+    'content--275__wranning-reviews': media275 === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
     'content--1133__inner': media1133 === true,
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true
+    'content--375__inner': media375 === true,
+    'content--275__inner': media275 === true
   });
   var contentInnerReviewsClass = classnames_default()({
     'content__inner-reviews': media1728 === true,
     'content--1133__inner-reviews': media1133 === true,
     'content--744__inner-reviews': media744 === true,
     'content--744l__inner-reviews': media744l === true,
-    'content--375__inner-reviews': media375 === true
+    'content--375__inner-reviews': media375 === true,
+    'content--275__inner-reviews': media275 === true
   });
   var contentInnerIconsClass = classnames_default()({
     'content__inner-icons': media1728 === true,
     'content--1133__inner-icons': media1133 === true,
     'content--744__inner-icons': media744 === true,
     'content--744l__inner-icons': media744l === true,
-    'content--375__inner-icons': media375 === true
+    'content--375__inner-icons': media375 === true,
+    'content--275__inner-icons': media275 === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
     'content--1133__p': media1133 === true,
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
-    'content--375__p': media375 === true
+    'content--375__p': media375 === true,
+    'content--275__p': media275 === true
   });
   var contentPReviewsClass = classnames_default()({
     'content__p-reviews': media1728 === true,
     'content--1133__p-reviews': media1133 === true,
     'content--744__p-reviews': media744 === true,
     'content--744l__p-reviews': media744l === true,
-    'content--375__p-reviews': media375 === true
+    'content--375__p-reviews': media375 === true,
+    'content--275__p-reviews': media275 === true
   });
   var contentIconsClass = classnames_default()({
     'content__icons': media1728 === true,
     'content--1133__icons': media1133 === true,
     'content--744__icons': media744 === true,
     'content--744l__icons': media744l === true,
-    'content--375__icons': media375 === true
+    'content--375__icons': media375 === true,
+    'content--275__icons': media275 === true
   });
   var contentIconsReviewsClass = classnames_default()({
     'content__icons-reviews': media1728 === true,
     'content--1133__icons-reviews': media1133 === true,
     'content--744__icons-reviews': media744 === true,
     'content--744l__icons-reviews': media744l === true,
-    'content--375__icons-reviews': media375 === true
+    'content--375__icons-reviews': media375 === true,
+    'content--275__icons-reviews': media275 === true
   });
   var contentIconClass = classnames_default()({
     'content__icon': media1728 === true,
     'content--1133__icon': media1133 === true,
     'content--744__icon': media744 === true,
     'content--744l__icon': media744l === true,
-    'content--375__icon': media375 === true
+    'content--375__icon': media375 === true,
+    'content--275__icon': media275 === true
   });
   var contentLinkClass = classnames_default()({
     'content__link': media1728 === true,
     'content--1133__link': media1133 === true,
     'content--744__link': media744 === true,
     'content--744l__link': media744l === true,
-    'content--375__link': media375 === true
+    'content--375__link': media375 === true,
+    'content--275__link': media275 === true
   });
   var contentLinkReviewsClass = classnames_default()({
     'content__link-reviews': media1728 === true,
     'content--1133__link-reviews': media1133 === true,
     'content--744__link-reviews': media744 === true,
     'content--744l__link-reviews': media744l === true,
-    'content--375__link-reviews': media375 === true
+    'content--375__link-reviews': media375 === true,
+    'content--275__link-reviews': media275 === true
   });
   var contentImgClass = classnames_default()({
     'content__img': media1728 === true,
     'content--1133__img': media1133 === true,
     'content--744__img': media744 === true,
     'content--744l__img': media744l === true,
-    'content--375__img': media375 === true
+    'content--375__img': media375 === true,
+    'content--275__img': media275 === true
   });
   var contentImgWhatsappClass = classnames_default()({
     'content__img-whatsapp': media1728 === true,
     'content--1133__img-whatsapp': media1133 === true,
     'content--744__img-whatsapp': media744 === true,
     'content--744l__img-whatsapp': media744l === true,
-    'content--375__img-whatsapp': media375 === true
+    'content--375__img-whatsapp': media375 === true,
+    'content--275__img-whatsapp': media275 === true
   });
   var contentImgTelegramClass = classnames_default()({
     'content__img-telegram': media1728 === true,
     'content--1133__img-telegram': media1133 === true,
     'content--744__img-telegram': media744 === true,
     'content--744l__img-telegram': media744l === true,
-    'content--375__img-telegram': media375 === true
+    'content--375__img-telegram': media375 === true,
+    'content--275__img-telegram': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentReviewsClass
@@ -8914,7 +9505,7 @@ var ModalContentH = function ModalContentH(props) {
   }, /*#__PURE__*/react.createElement("p", {
     id: "p-reviews",
     className: "".concat(contentPClass, " ").concat(contentPReviewsClass)
-  }, "\u0411\u0443\u0434\u0435\u043C \u0440\u0430\u0434\u044B \u0412\u0430\u0448\u0438\u043C \u043E\u0442\u0437\u044B\u0432\u0430\u043C"), /*#__PURE__*/react.createElement("div", {
+  }, media275 ? " " : "Будем рады Вашим отзывам"), /*#__PURE__*/react.createElement("div", {
     className: "".concat(contentIconsClass, " ").concat(contentIconsReviewsClass)
   }, /*#__PURE__*/react.createElement("div", {
     className: contentInnerClass
@@ -9251,47 +9842,54 @@ var Modal = function Modal(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var popupClass = classnames_default()({
     'popup': media1728 === true,
     'popup--1133': media1133 === true,
     'popup--744': media744 === true,
     'popup--744l': media744l === true,
-    'popup--375': media375 === true
+    'popup--375': media375 === true,
+    'popup--275': media275 === true
   });
   var popupContentClass = classnames_default()({
     'popup__content': media1728 === true,
     'popup--1133__content': media1133 === true,
     'popup--744__content': media744 === true,
     'popup--744l__content': media744l === true,
-    'popup--375__content': media375 === true
+    'popup--375__content': media375 === true,
+    'popup--275__content': media275 === true
   });
   var contentClass = classnames_default()({
     'content': media1728 === true,
     'content--1133': media1133 === true,
     'content--744': media744 === true,
     'content--744l': media744l === true,
-    'content--375': media375 === true
+    'content--375': media375 === true,
+    'content--275': media275 === true
   });
   var contentBodyClass = classnames_default()({
     'content__body': media1728 === true,
     'content--1133__body': media1133 === true,
     'content--744__body': media744 === true,
     'content--744l__body': media744l === true,
-    'content--375__body': media375 === true
+    'content--375__body': media375 === true,
+    'content--275__body': media275 === true
   });
   var popupBodyHideClass = classnames_default()({
     'popup__body-hide': media1728 === true,
     'popup--1133__body-hide': media1133 === true,
     'popup--744__body-hide': media744 === true,
     'popup--744l__body-hide': media744l === true,
-    'popup--375__body-hide': media375 === true
+    'popup--375__body-hide': media375 === true,
+    'popup--275__body-hide': media275 === true
   });
   var popupHideClass = classnames_default()({
     'popup-hide': media1728 === true,
     'popup-hide--1133': media1133 === true,
     'popup-hide--744': media744 === true,
     'popup-hide--744l': media744l === true,
-    'popup-hide--375': media375 === true
+    'popup-hide--375': media375 === true,
+    'popup-hide--275': media275 === true
   });
 
   // useBodyScrollLock();
@@ -9497,12 +10095,14 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var buttonViewportClass = classnames_default()({
     'button-viewport': media1728 === true,
     'button-viewport--1133': media1133 === true,
     'button-viewport--744': media744 === true,
     'button-viewport--744l': media744l === true,
-    'button-viewport--375': media375 === true
+    'button-viewport--375': media375 === true,
+    'button-viewport--275': media275 === true
   });
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
@@ -9517,7 +10117,8 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
     'button-viewport-hover--1133': isHoverButton && media1133 === true,
     'button-viewport-hover--744': isHoverButton && media744 === true,
     'button-viewport-hover--744l': isHoverButton && media744l === true,
-    'button-viewport-hover--375': isHoverButton && media375 === true
+    'button-viewport-hover--375': isHoverButton && media375 === true,
+    'button-viewport-hover--275': isHoverButton && media275 === true
   });
   var handleButtonMouseEnter = function handleButtonMouseEnter() {
     setIsHoverButton(true);
@@ -9557,26 +10158,30 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var buttonsViewportClass = classnames_default()({
     'buttons-viewport': media1728 === true,
     'buttons-viewport--1133': media1133 === true,
     'buttons-viewport--744': media744 === true,
     'buttons-viewport--744l': media744l === true,
-    'buttons-viewport--375': media375 === true
+    'buttons-viewport--375': media375 === true,
+    'buttons-viewport--275': media275 === true
   });
   var buttonsPreClass = classnames_default()({
     'buttons-pre': media1728 === true,
     'buttons-pre--1133': media1133 === true,
     'buttons-pre--744': media744 === true,
     'buttons-pre--744l': media744l === true,
-    'buttons-pre--375': media375 === true
+    'buttons-pre--375': media375 === true,
+    'buttons-pre--275': media275 === true
   });
   var buttonsNextClass = classnames_default()({
     'buttons-next': media1728 === true,
     'buttons-next--1133': media1133 === true,
     'buttons-next--744': media744 === true,
     'buttons-next--744l': media744l === true,
-    'buttons-next--375': media375 === true
+    'buttons-next--375': media375 === true,
+    'buttons-next--275': media275 === true
   });
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
@@ -9654,26 +10259,30 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var dotsDotClass = classnames_default()({
     'dots__dot': media1728 === true,
     'dots--1133__dot': media1133 === true,
     'dots--744__dot': media744 === true,
     'dots--744l__dot': media744l === true,
-    'dots--375__dot': media375 === true
+    'dots--375__dot': media375 === true,
+    'dots--275__dot': media275 === true
   });
   var dotsDotProceduresClass = classnames_default()({
     'dots__dot': media1728 === true,
     'dots--1133__dot': media1133 === true,
     'dots--744__dot': media744 === true,
     'dots--744l__dot': media744l === true,
-    'dots--375__dot': media375 === true
+    'dots--375__dot': media375 === true,
+    'dots--275__dot': media275 === true
   });
   var dotsDotBodyClass = classnames_default()({
     'dots__dot-body': media1728 === true,
     'dots--1133__dot-body': media1133 === true,
     'dots--744__dot-body': media744 === true,
     'dots--744l__dot-body': media744l === true,
-    'dots--375__dot-body': media375 === true
+    'dots--375__dot-body': media375 === true,
+    'dots--275__dot-body': media275 === true
   });
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
@@ -9729,26 +10338,30 @@ var SliderProcDots = function SliderProcDots(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var dotsBodyClass = classnames_default()({
     'dots__body': media1728 === true,
     'dots--1133__body': media1133 === true,
     'dots--744__body': media744 === true,
     'dots--744l__body': media744l === true,
-    'dots--375__body': media375 === true
+    'dots--375__body': media375 === true,
+    'dots--275__body': media275 === true
   });
   var dotsBodyProceduresClass = classnames_default()({
     'dots__body-procedures': media1728 === true,
     'dots--1133__body-procedures': media1133 === true,
     'dots--744__body-procedures': media744 === true,
     'dots--744l__body-procedures': media744l === true,
-    'dots--375__body-procedures': media375 === true
+    'dots--375__body-procedures': media375 === true,
+    'dots--275__body-procedures': media275 === true
   });
   var dotsBodyBodyClass = classnames_default()({
     'dots__body-body': media1728 === true,
     'dots--1133__body-body': media1133 === true,
     'dots--744__body-body': media744 === true,
     'dots--744l__body-body': media744l === true,
-    'dots--375__body-body': media375 === true
+    'dots--375__body-body': media375 === true,
+    'dots--275__body-body': media275 === true
   });
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
@@ -9826,96 +10439,110 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderClass = classnames_default()({
     'slider': media1728 === true,
     'slider--1133': media1133 === true,
     'slider--744': media744 === true,
     'slider--744l': media744l === true,
-    'slider--375': media375 === true
+    'slider--375': media375 === true,
+    'slider--275': media275 === true
   });
   var sliderProceduresClass = classnames_default()({
     'slider-procedures': media1728 === true,
     'slider-procedures--1133': media1133 === true,
     'slider-procedures--744': media744 === true,
     'slider-procedures--744l': media744l === true,
-    'slider-procedures--375': media375 === true
+    'slider-procedures--375': media375 === true,
+    'slider-procedures--275': media275 === true
   });
   var sliderBodyClass = classnames_default()({
     'slider-body': media1728 === true,
     'slider-body--1133': media1133 === true,
     'slider-body--744': media744 === true,
     'slider-body--744l': media744l === true,
-    'slider-body--375': media375 === true
+    'slider-body--375': media375 === true,
+    'slider-body--275': media275 === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
     'slider--1133__slide': media1133 === true,
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true
+    'slider--375__slide': media375 === true,
+    'slider--275__slide': media275 === true
   });
   var sliderSlideProceduresClass = classnames_default()({
     'slider__slide-procedures': media1728 === true,
     'slider--1133__slide-procedures': media1133 === true,
     'slider--744__slide-procedures': media744 === true,
     'slider--744l__slide-procedures': media744l === true,
-    'slider--375__slide-procedures': media375 === true
+    'slider--375__slide-procedures': media375 === true,
+    'slider--275__slide-procedures': media275 === true
   });
   var sliderSlideBodyActiveClass = classnames_default()({
     'slider__slide-body-active': media1728 === true,
     'slider--1133__slide-body-active': media1133 === true,
     'slider--744__slide-body-active': media744 === true,
     'slider--744l__slide-body-active': media744l === true,
-    'slider--375__slide-body-active': media375 === true
+    'slider--375__slide-body-active': media375 === true,
+    'slider--275__slide-body-active': media275 === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
     'slider--1133__link': media1133 === true,
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true
+    'slider--375__link': media375 === true,
+    'slider--275__link': media275 === true
   });
   var sliderLinkProceduresClass = classnames_default()({
     'slider__link-procedures': media1728 === true,
     'slider--1133__link-procedures': media1133 === true,
     'slider--744__link-procedures': media744 === true,
     'slider--744l__link-procedures': media744l === true,
-    'slider--375__link-procedures': media375 === true
+    'slider--375__link-procedures': media375 === true,
+    'slider--275__link-procedures': media275 === true
   });
   var sliderCardClass = classnames_default()({
     'slider__card': media1728 === true,
     'slider--1133__card': media1133 === true,
     'slider--744__card': media744 === true,
     'slider--744l__card': media744l === true,
-    'slider--375__card': media375 === true
+    'slider--375__card': media375 === true,
+    'slider--275__card': media275 === true
   });
   var sliderCardProceduresClass = classnames_default()({
     'slider__card-procedures': media1728 === true,
     'slider--1133__card-procedures': media1133 === true,
     'slider--744__card-procedures': media744 === true,
     'slider--744l__card-procedures': media744l === true,
-    'slider--375__card-procedures': media375 === true
+    'slider--375__card-procedures': media375 === true,
+    'slider--275__card-procedures': media275 === true
   });
   var buttonsClass = classnames_default()({
     'buttons': media1728 === true,
     'buttons--1133': media1133 === true,
     'buttons--744': media744 === true,
     'buttons--744l': media744l === true,
-    'buttons--375': media375 === true
+    'buttons--375': media375 === true,
+    'buttons--275': media275 === true
   });
   var dotsClass = classnames_default()({
     'dots': media1728 === true,
     'dots--1133': media1133 === true,
     'dots--744': media744 === true,
     'dots--744l': media744l === true,
-    'dots--375': media375 === true
+    'dots--375': media375 === true,
+    'dots--275': media275 === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var _useState = (0,react.useState)([]),
     _useState2 = ProcSliderContextProvider_slicedToArray(_useState, 2),
@@ -9987,7 +10614,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   // const countSlides = 4;
 
   var countSlides;
-  media1728 === true ? countSlides = 4 : media1133 === true ? countSlides = 3 : media744 === true ? countSlides = 2 : media744l === true ? countSlides = 3 : media375 === true ? countSlides = 2 : null;
+  media1728 === true ? countSlides = 4 : media1133 === true ? countSlides = 3 : media744 === true ? countSlides = 2 : media744l === true ? countSlides = 3 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
   var _useContext = (0,react.useContext)(ModalContext/* ModalContext */.V),
     openModal = _useContext.openModal,
     closeModal = _useContext.closeModal,
@@ -10038,7 +10665,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var slidesAllActive = function slidesAllActive() {
     var current;
-    media744l === true ? current = '.slider--744l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : null;
+    media744l === true ? current = '.slider--744l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : media275 === true ? current = '.slider--275__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSlidesAllActive(current);
   };
@@ -10047,7 +10674,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       setItems(props.images);
     };
     loadData();
-    if (media744l || media375) {
+    if (media744l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10075,8 +10702,8 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     // let widthSlide = 336;
     var widthSlide;
     var heightSlide;
-    media1728 || media1133 || media744 ? widthSlide = 336 : media744l || media375 ? widthSlide = 204 : null;
-    media1728 || media1133 || media744 ? heightSlide = 364 : media744l || media375 ? heightSlide = 222 : null;
+    media1728 || media1133 || media744 ? widthSlide = 336 : media744l || media375 || media275 ? widthSlide = 204 : null;
+    media1728 || media1133 || media744 ? heightSlide = 364 : media744l || media375 || media275 ? heightSlide = 222 : null;
     for (var i = 0; i < items.length; i++) {
       // widthSlide = slidesRef.current[i].current.offsetWidth;
       var width = widthSlide + 30;
@@ -10189,7 +10816,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media375) {
+    if (media744l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10329,7 +10956,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   (0,react.useEffect)(function () {
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media375) {
+    if (media744l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10570,21 +11197,23 @@ var propsData = function propsData(props) {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var funcQueryMedia = function funcQueryMedia() {
-  return {
-    query1728: "(min-width: 1728px)",
-    query1133: "(min-width: 1182px) and (max-width: 1727px)",
-    query744: "(min-width: 784px) and (max-width: 1181px) and (min-height: 745px)",
-    query744l: "(min-width: 784px) and (max-width: 1181px) and (max-height: 744px)",
-    query375: "(min-width: 446px) and (max-width: 783px)"
-  };
-
   // return {
   //     query1728: "(min-width: 1728px)",
-  //     query1133: "(min-width: 1133px) and (max-width: 1727px)",
-  //     query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
-  //     query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
-  //     query375: "(min-width: 375px) and (max-width: 743px)",
+  //     query1133: "(min-width: 1182px) and (max-width: 1727px)",
+  //     query744: "(min-width: 784px) and (max-width: 1181px) and (min-height: 745px)",
+  //     query744l: "(min-width: 784px) and (max-width: 1181px) and (max-height: 744px)",
+  //     query375: "(min-width: 446px) and (max-width: 783px)",
+  //     query275: "(min-width: 275px) and (max-width: 445px)",
   // }
+
+  return {
+    query1728: "(min-width: 1728px)",
+    query1133: "(min-width: 1133px) and (max-width: 1727px)",
+    query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
+    query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
+    query375: "(min-width: 375px) and (max-width: 743px)",
+    query275: "(min-width: 275px) and (max-width: 374px)"
+  };
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryMedia);
 
@@ -34162,7 +34791,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"384328418d8f8de290cb"}[chunkId] + ".js";
+/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"e956fcca99380a0ba6a8"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -34171,7 +34800,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + "68af6f6a3455f52c2923" + ".css";
+/******/ 			return "" + chunkId + "." + "2f2a6f83ae08d2952c98" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -34983,68 +35612,78 @@ var SliderCert = function SliderCert(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderCertificatesClass = classnames_default()({
     'slider-certificates': media1728 === true,
     'slider-certificates--1133': media1133 === true,
     'slider-certificates--744': media744 === true,
     'slider-certificates--744l': media744l === true,
-    'slider-certificates--375': media375 === true
+    'slider-certificates--375': media375 === true,
+    'slider-certificates--275': media275 === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
     'slider--1133__slide': media1133 === true,
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true
+    'slider--375__slide': media375 === true,
+    'slider--275__slide': media275 === true
   });
   var sliderSlideCertificatesClass = classnames_default()({
     'slider__slide-certificates': media1728 === true,
     'slider--1133__slide-certificates': media1133 === true,
     'slider--744__slide-certificates': media744 === true,
     'slider--744l__slide-certificates': media744l === true,
-    'slider--375__slide-certificates': media375 === true
+    'slider--375__slide-certificates': media375 === true,
+    'slider--275__slide-certificates': media275 === true
   });
   var sliderSlideCertificatesMobileClass = classnames_default()({
     'slider__slide-certificates-mobile': media1728 === true,
     'slider--1133__slide-certificates-mobile': media1133 === true,
     'slider--744__slide-certificates-mobile': media744 === true,
     'slider--744l__slide-certificates-mobile': media744l === true,
-    'slider--375__slide-certificates-mobile': media375 === true
+    'slider--375__slide-certificates-mobile': media375 === true,
+    'slider--275__slide-certificates-mobile': media275 === true
   });
   var sliderSlideCertificatesActiveClass = classnames_default()({
     'slider__slide-certificates-active': media1728 === true,
     'slider--1133__slide-certificates-active': media1133 === true,
     'slider--744__slide-certificates-active': media744 === true,
     'slider--744l__slide-certificates-active': media744l === true,
-    'slider--375__slide-certificates-active': media375 === true
+    'slider--375__slide-certificates-active': media375 === true,
+    'slider--275__slide-certificates-active': media275 === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
     'slider--1133__link': media1133 === true,
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true
+    'slider--375__link': media375 === true,
+    'slider--275__link': media275 === true
   });
   var sliderLinkCertificatesClass = classnames_default()({
     'slider__link-certificates': media1728 === true,
     'slider--1133__link-certificates': media1133 === true,
     'slider--744__link-certificates': media744 === true,
     'slider--744l__link-certificates': media744l === true,
-    'slider--375__link-certificates': media375 === true
+    'slider--375__link-certificates': media375 === true,
+    'slider--275__link-certificates': media275 === true
   });
   var sliderCardClass = classnames_default()({
     'slider__card': media1728 === true,
     'slider--1133__card': media1133 === true,
     'slider--744__card': media744 === true,
     'slider--744l__card': media744l === true,
-    'slider--375__card': media375 === true
+    'slider--375__card': media375 === true,
+    'slider--275__card': media275 === true
   });
   var sliderCardCertificatesClass = classnames_default()({
     'slider__card-certificates': media1728 === true,
     'slider--1133__card-certificates': media1133 === true,
     'slider--744__card-certificates': media744 === true,
     'slider--744l__card-certificates': media744l === true,
-    'slider--375__card-certificates': media375 === true
+    'slider--375__card-certificates': media375 === true,
+    'slider--275__card-certificates': media275 === true
   });
   var images = [certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11, certificate12, certificate13];
   var _useState = (0,react.useState)([]),
@@ -35096,7 +35735,8 @@ var SliderCert = function SliderCert(props) {
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var modalId = 'popup-';
   var modalBodyClassName = "".concat(popupBodyClass, " ").concat(popupBodyClass, "-");
@@ -35203,7 +35843,7 @@ var SliderCert = function SliderCert(props) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
       }
-      if (media744l === true || media375 === true) {
+      if (media744l === true || media375 === true || media275 === true) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
         slides[i].classList.add(sliderSlideCertificatesMobileClass);
@@ -35216,13 +35856,13 @@ var SliderCert = function SliderCert(props) {
     };
     loadData();
     slidesDefault();
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
     var currentSlide = sliderSlide(0);
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   }, []);
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
     slidesDefault();
     var slideNumber = 0;
     if (slide + direction < 0) {
@@ -35235,7 +35875,7 @@ var SliderCert = function SliderCert(props) {
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   };
   (0,react.useEffect)(function () {
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
     var interval = setInterval(function () {
       changeSlide(1);
     }, 4000);
@@ -35262,7 +35902,7 @@ var SliderCert = function SliderCert(props) {
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: sliderCertificatesClass,
     ref: sliderRef,
-    style: media744l === true || media375 === true ? {
+    style: media744l === true || media375 === true || media275 === true ? {
       width: "".concat(sliderWidth, "px"),
       height: "".concat(sliderHeight, "px")
     } : null,
@@ -35339,26 +35979,30 @@ var Certificates = function Certificates() {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var certificatesClass = classnames_default()({
     'certificates': media1728 === true,
     'certificates--1133': media1133 === true,
     'certificates--744': media744 === true,
     'certificates--744l': media744l === true,
-    'certificates--375': media375 === true
+    'certificates--375': media375 === true,
+    'certificates--275': media275 === true
   });
   var containerCertificatesClass = classnames_default()({
     'container-certificates': media1728 === true,
     'container-certificates--1133': media1133 === true,
     'container-certificates--744': media744 === true,
     'container-certificates--744l': media744l === true,
-    'container-certificates--375': media375 === true
+    'container-certificates--375': media375 === true,
+    'container-certificates--275': media275 === true
   });
   var certificatesSliderClass = classnames_default()({
     'certificates__slider': media1728 === true,
     'certificates--1133__slider': media1133 === true,
     'certificates--744__slider': media744 === true,
     'certificates--744l__slider': media744l === true,
-    'certificates--375__slider': media375 === true
+    'certificates--375__slider': media375 === true,
+    'certificates--275__slider': media275 === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -35378,27 +36022,6 @@ var Certificates = function Certificates() {
       delay: -1
     });
   };
-
-  // useLayoutEffect(() => {
-  //     const headerHeight = 120;
-  //     const handleScroll = () => {
-
-  //         if (sliderCert.current.getBoundingClientRect().top < headerHeight) {
-  //             isSliderCert === true ? animationScaleY(sliderCert.current, 0, 0, 0, 2) : null;
-  //             setIsSliderCert(false);
-  //         } else {
-  //             isSliderCert === false ? animationScaleY(sliderCert.current, 1, 1, 202, 2) : null;
-  //             setIsSliderCert(true);
-  //         }
-
-  //     };
-  //     window.addEventListener('scroll', handleScroll, { passive: true });
-
-  //     return () => {
-  //         window.removeEventListener('scroll', handleScroll);
-  //     };
-  // }, [isScrolling]);
-
   var imagesCertificates = SliderCertContent;
   var containerRef = (0,react.useRef)(null);
   var _useState3 = (0,react.useState)(0),
@@ -35447,243 +36070,278 @@ var Companies = function Companies(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var companiesClass = classnames_default()({
     'companies': media1728 === true,
     'companies--1133': media1133 === true,
     'companies--744': media744 === true,
     'companies--744l': media744l === true,
-    'companies--375': media375 === true
+    'companies--375': media375 === true,
+    'companies--275': media275 === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
     'container--1133': media1133 === true,
     'container--744': media744 === true,
     'container--744l': media744l === true,
-    'container--375': media375 === true
+    'container--375': media375 === true,
+    'container--275': media275 === true
   });
   var containerCompaniesClass = classnames_default()({
     'container-companies': media1728 === true,
     'container-companies--1133': media1133 === true,
     'container-companies--744': media744 === true,
     'container-companies--744l': media744l === true,
-    'container-companies--375': media375 === true
+    'container-companies--375': media375 === true,
+    'container-companies--275': media275 === true
   });
   var companiesListClass = classnames_default()({
     'companies__list': media1728 === true,
     'companies--1133__list': media1133 === true,
     'companies--744__list': media744 === true,
     'companies--744l__list': media744l === true,
-    'companies--375__list': media375 === true
+    'companies--375__list': media375 === true,
+    'companies--275__list': media275 === true
   });
   var companiesItemClass = classnames_default()({
     'companies__item': media1728 === true,
     'companies--1133__item': media1133 === true,
     'companies--744__item': media744 === true,
     'companies--744l__item': media744l === true,
-    'companies--375__item': media375 === true
+    'companies--375__item': media375 === true,
+    'companies--275__item': media275 === true
   });
   var companiesItemMychwayClass = classnames_default()({
     'companies__item-mychway': media1728 === true,
     'companies--1133__item-mychway': media1133 === true,
     'companies--744__item-mychway': media744 === true,
     'companies--744l__item-mychway': media744l === true,
-    'companies--375__item-mychway': media375 === true
+    'companies--375__item-mychway': media375 === true,
+    'companies--275__item-mychway': media275 === true
   });
   var companiesFrameClass = classnames_default()({
     'companies__frame': media1728 === true,
     'companies--1133__frame': media1133 === true,
     'companies--744__frame': media744 === true,
     'companies--744l__frame': media744l === true,
-    'companies--375__frame': media375 === true
+    'companies--375__frame': media375 === true,
+    'companies--275__frame': media275 === true
   });
   var companiesFrameMychwayClass = classnames_default()({
     'companies__frame-mychway': media1728 === true,
     'companies--1133__frame-mychway': media1133 === true,
     'companies--744__frame-mychway': media744 === true,
     'companies--744l__frame-mychway': media744l === true,
-    'companies--375__frame-mychway': media375 === true
+    'companies--375__frame-mychway': media375 === true,
+    'companies--275__frame-mychway': media275 === true
   });
   var companiesGroupClass = classnames_default()({
     'companies__group': media1728 === true,
     'companies--1133__group': media1133 === true,
     'companies--744__group': media744 === true,
     'companies--744l__group': media744l === true,
-    'companies--375__group': media375 === true
+    'companies--375__group': media375 === true,
+    'companies--275__group': media275 === true
   });
   var companiesGroupMychwayClass = classnames_default()({
     'companies__group-mychway': media1728 === true,
     'companies--1133__group-mychway': media1133 === true,
     'companies--744__group-mychway': media744 === true,
     'companies--744l__group-mychway': media744l === true,
-    'companies--375__group-mychway': media375 === true
+    'companies--375__group-mychway': media375 === true,
+    'companies--275__group-mychway': media275 === true
   });
   var companiesItemAuroClass = classnames_default()({
     'companies__item-auro': media1728 === true,
     'companies--1133__item-auro': media1133 === true,
     'companies--744__item-auro': media744 === true,
     'companies--744l__item-auro': media744l === true,
-    'companies--375__item-auro': media375 === true
+    'companies--375__item-auro': media375 === true,
+    'companies--275__item-auro': media275 === true
   });
   var companiesItemSalonartClass = classnames_default()({
     'companies__item-salonart': media1728 === true,
     'companies--1133__item-salonart': media1133 === true,
     'companies--744__item-salonart': media744 === true,
     'companies--744l__item-salonart': media744l === true,
-    'companies--375__item-salonart': media375 === true
+    'companies--375__item-salonart': media375 === true,
+    'companies--275__item-salonart': media275 === true
   });
   var companiesItemVibroClass = classnames_default()({
     'companies__item-vibro': media1728 === true,
     'companies--1133__item-vibro': media1133 === true,
     'companies--744__item-vibro': media744 === true,
     'companies--744l__item-vibro': media744l === true,
-    'companies--375__item-vibro': media375 === true
+    'companies--375__item-vibro': media375 === true,
+    'companies--275__item-vibro': media275 === true
   });
   var companiesItemDrceuracleClass = classnames_default()({
     'companies__item-drceuracle': media1728 === true,
     'companies--1133__item-drceuracle': media1133 === true,
     'companies--744__item-drceuracle': media744 === true,
     'companies--744l__item-drceuracle': media744l === true,
-    'companies--375__item-drceuracle': media375 === true
+    'companies--375__item-drceuracle': media375 === true,
+    'companies--275__item-drceuracle': media275 === true
   });
   var companiesFrameAuroClass = classnames_default()({
     'companies__frame-auro': media1728 === true,
     'companies--1133__frame-auro': media1133 === true,
     'companies--744__frame-auro': media744 === true,
     'companies--744l__frame-auro': media744l === true,
-    'companies--375__frame-auro': media375 === true
+    'companies--375__frame-auro': media375 === true,
+    'companies--275__frame-auro': media275 === true
   });
   var companiesFrameSalonartClass = classnames_default()({
     'companies__frame-salonart': media1728 === true,
     'companies--1133__frame-salonart': media1133 === true,
     'companies--744__frame-salonart': media744 === true,
     'companies--744l__frame-salonart': media744l === true,
-    'companies--375__frame-salonart': media375 === true
+    'companies--375__frame-salonart': media375 === true,
+    'companies--275__frame-salonart': media275 === true
   });
   var companiesFrameVibroClass = classnames_default()({
     'companies__frame-vibro': media1728 === true,
     'companies--1133__frame-vibro': media1133 === true,
     'companies--744__frame-vibro': media744 === true,
     'companies--744l__frame-vibro': media744l === true,
-    'companies--375__frame-vibro': media375 === true
+    'companies--375__frame-vibro': media375 === true,
+    'companies--275__frame-vibro': media275 === true
   });
   var companiesFrameDrceuracleClass = classnames_default()({
     'companies__frame-drceuracle': media1728 === true,
     'companies--1133__frame-drceuracle': media1133 === true,
     'companies--744__frame-drceuracle': media744 === true,
     'companies--744l__frame-drceuracle': media744l === true,
-    'companies--375__frame-drceuracle': media375 === true
+    'companies--375__frame-drceuracle': media375 === true,
+    'companies--275__frame-drceuracle': media275 === true
   });
   var companiesGroupAuroClass = classnames_default()({
     'companies__group-auro': media1728 === true,
     'companies--1133__group-auro': media1133 === true,
     'companies--744__group-auro': media744 === true,
     'companies--744l__group-auro': media744l === true,
-    'companies--375__group-auro': media375 === true
+    'companies--375__group-auro': media375 === true,
+    'companies--275__group-auro': media275 === true
   });
   var companiesGroupSalonartClass = classnames_default()({
     'companies__group-salonart': media1728 === true,
     'companies--1133__group-salonart': media1133 === true,
     'companies--744__group-salonart': media744 === true,
     'companies--744l__group-salonart': media744l === true,
-    'companies--375__group-salonart': media375 === true
+    'companies--375__group-salonart': media375 === true,
+    'companies--275__group-salonart': media275 === true
   });
   var companiesGroupVibroClass = classnames_default()({
     'companies__group-vibro': media1728 === true,
     'companies--1133__group-vibro': media1133 === true,
     'companies--744__group-vibro': media744 === true,
     'companies--744l__group-vibro': media744l === true,
-    'companies--375__group-vibro': media375 === true
+    'companies--375__group-vibro': media375 === true,
+    'companies--275__group-vibro': media275 === true
   });
   var companiesGroupDrceuracleClass = classnames_default()({
     'companies__group-drceuracle': media1728 === true,
     'companies--1133__group-drceuracle': media1133 === true,
     'companies--744__group-drceuracle': media744 === true,
     'companies--744l__group-drceuracle': media744l === true,
-    'companies--375__group-drceuracle': media375 === true
+    'companies--375__group-drceuracle': media375 === true,
+    'companies--275__group-drceuracle': media275 === true
   });
   var companiesNameClass = classnames_default()({
     'companies__name': media1728 === true,
     'companies--1133__name': media1133 === true,
     'companies--744__name': media744 === true,
     'companies--744l__name': media744l === true,
-    'companies--375__name': media375 === true
+    'companies--375__name': media375 === true,
+    'companies--275__name': media275 === true
   });
   var companiesNameMychwayClass = classnames_default()({
     'companies__name-mychway': media1728 === true,
     'companies--1133__name-mychway': media1133 === true,
     'companies--744__name-mychway': media744 === true,
     'companies--744l__name-mychway': media744l === true,
-    'companies--375__name-mychway': media375 === true
+    'companies--375__name-mychway': media375 === true,
+    'companies--275__name-mychway': media275 === true
   });
   var companiesNameAuroClass = classnames_default()({
     'companies__name-auro': media1728 === true,
     'companies--1133__name-auro': media1133 === true,
     'companies--744__name-auro': media744 === true,
     'companies--744l__name-auro': media744l === true,
-    'companies--375__name-auro': media375 === true
+    'companies--375__name-auro': media375 === true,
+    'companies--275__name-auro': media275 === true
   });
   var companiesNameSalonartClass = classnames_default()({
     'companies__name-salonart': media1728 === true,
     'companies--1133__name-salonart': media1133 === true,
     'companies--744__name-salonart': media744 === true,
     'companies--744l__name-salonart': media744l === true,
-    'companies--375__name-salonart': media375 === true
+    'companies--375__name-salonart': media375 === true,
+    'companies--275__name-salonart': media275 === true
   });
   var companiesNameVibroClass = classnames_default()({
     'companies__name-vibro': media1728 === true,
     'companies--1133__name-vibro': media1133 === true,
     'companies--744__name-vibro': media744 === true,
     'companies--744l__name-vibro': media744l === true,
-    'companies--375__name-vibro': media375 === true
+    'companies--375__name-vibro': media375 === true,
+    'companies--275__name-vibro': media275 === true
   });
   var companiesNameDrceuracleClass = classnames_default()({
     'companies__name-drceuracle': media1728 === true,
     'companies--1133__name-drceuracle': media1133 === true,
     'companies--744__name-drceuracle': media744 === true,
     'companies--744l__name-drceuracle': media744l === true,
-    'companies--375__name-drceuracle': media375 === true
+    'companies--375__name-drceuracle': media375 === true,
+    'companies--275__name-drceuracle': media275 === true
   });
   var companiesBlurClass = classnames_default()({
     'companies__blur': media1728 === true,
     'companies--1133__blur': media1133 === true,
     'companies--744__blur': media744 === true,
     'companies--744l__blur': media744l === true,
-    'companies--375__blur': media375 === true
+    'companies--375__blur': media375 === true,
+    'companies--275__blur': media275 === true
   });
   var companiesBlurMychwayClass = classnames_default()({
     'companies__blur-mychway': media1728 === true,
     'companies--1133__blur-mychway': media1133 === true,
     'companies--744__blur-mychway': media744 === true,
     'companies--744l__blur-mychway': media744l === true,
-    'companies--375__blur-mychway': media375 === true
+    'companies--375__blur-mychway': media375 === true,
+    'companies--275__blur-mychway': media275 === true
   });
   var companiesBlurAuroClass = classnames_default()({
     'companies__blur-auro': media1728 === true,
     'companies--1133__blur-auro': media1133 === true,
     'companies--744__blur-auro': media744 === true,
     'companies--744l__blur-auro': media744l === true,
-    'companies--375__blur-auro': media375 === true
+    'companies--375__blur-auro': media375 === true,
+    'companies--275__blur-auro': media275 === true
   });
   var companiesBlurSalonartClass = classnames_default()({
     'companies__blur-salonart': media1728 === true,
     'companies--1133__blur-salonart': media1133 === true,
     'companies--744__blur-salonart': media744 === true,
     'companies--744l__blur-salonart': media744l === true,
-    'companies--375__blur-salonart': media375 === true
+    'companies--375__blur-salonart': media375 === true,
+    'companies--275__blur-salonart': media275 === true
   });
   var companiesBlurVibroClass = classnames_default()({
     'companies__blur-vibro': media1728 === true,
     'companies--1133__blur-vibro': media1133 === true,
     'companies--744__blur-vibro': media744 === true,
     'companies--744l__blur-vibro': media744l === true,
-    'companies--375__blur-vibro': media375 === true
+    'companies--375__blur-vibro': media375 === true,
+    'companies--275__blur-vibro': media275 === true
   });
   var companiesBlurDrceuracleClass = classnames_default()({
     'companies__blur-drceuracle': media1728 === true,
     'companies--1133__blur-drceuracle': media1133 === true,
     'companies--744__blur-drceuracle': media744 === true,
     'companies--744l__blur-drceuracle': media744l === true,
-    'companies--375__blur-drceuracle': media375 === true
+    'companies--375__blur-drceuracle': media375 === true,
+    'companies--275__blur-drceuracle': media275 === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -35861,89 +36519,102 @@ var FooterSection1 = function FooterSection1(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerMenuClass = classnames_default()({
     'footer__menu': media1728 === true,
     'footer--1133__menu': media1133 === true,
     'footer--744__menu': media744 === true,
     'footer--744l__menu': media744l === true,
-    'footer--375__menu': media375 === true
+    'footer--375__menu': media375 === true,
+    'footer--275__menu': media275 === true
   });
   var footerInnerClass = classnames_default()({
     'footer__inner': media1728 === true,
     'footer--1133__inner': media1133 === true,
     'footer--744__inner': media744 === true,
     'footer--744l__inner': media744l === true,
-    'footer--375__inner': media375 === true
+    'footer--375__inner': media375 === true,
+    'footer--275__inner': media275 === true
   });
   var footerInnerColumnClass = classnames_default()({
     'footer__inner-column': media1728 === true,
     'footer--1133__inner-column': media1133 === true,
     'footer--744__inner-column': media744 === true,
     'footer--744l__inner-column': media744l === true,
-    'footer--375__inner-column': media375 === true
+    'footer--375__inner-column': media375 === true,
+    'footer--275__inner-column': media275 === true
   });
   var footerColumnClass = classnames_default()({
     'footer__column': media1728 === true,
     'footer--1133__column': media1133 === true,
     'footer--744__column': media744 === true,
     'footer--744l__column': media744l === true,
-    'footer--375__column': media375 === true
+    'footer--375__column': media375 === true,
+    'footer--275__column': media275 === true
   });
   var footerColumn1Class = classnames_default()({
     'footer__column-1': media1728 === true,
     'footer--1133__column-1': media1133 === true,
     'footer--744__column-1': media744 === true,
     'footer--744l__column-1': media744l === true,
-    'footer--375__column-1': media375 === true
+    'footer--375__column-1': media375 === true,
+    'footer--275__column-1': media275 === true
   });
   var footerColumn2Class = classnames_default()({
     'footer__column-2': media1728 === true,
     'footer--1133__column-2': media1133 === true,
     'footer--744__column-2': media744 === true,
     'footer--744l__column-2': media744l === true,
-    'footer--375__column-2': media375 === true
+    'footer--375__column-2': media375 === true,
+    'footer--275__column-2': media275 === true
   });
   var footerColumn3Class = classnames_default()({
     'footer__column-3': media1728 === true,
     'footer--1133__column-3': media1133 === true,
     'footer--744__column-3': media744 === true,
     'footer--744l__column-3': media744l === true,
-    'footer--375__column-3': media375 === true
+    'footer--375__column-3': media375 === true,
+    'footer--275__column-3': media275 === true
   });
   var menuFooterClass = classnames_default()({
     'menu-footer': media1728 === true,
     'menu-footer--1133': media1133 === true,
     'menu-footer--744': media744 === true,
     'menu-footer--744l': media744l === true,
-    'menu-footer--375': media375 === true
+    'menu-footer--375': media375 === true,
+    'menu-footer--275': media275 === true
   });
   var menuItemClass = classnames_default()({
     'menu__item': media1728 === true,
     'menu--1133__item': media1133 === true,
     'menu--744__item': media744 === true,
     'menu--744l__item': media744l === true,
-    'menu--375__item': media375 === true
+    'menu--375__item': media375 === true,
+    'menu--275__item': media275 === true
   });
   var menuItemSection1Class = classnames_default()({
     'menu__item-section1': media1728 === true,
     'menu--1133__item-section1': media1133 === true,
     'menu--744__item-section1': media744 === true,
     'menu--744l__item-section1': media744l === true,
-    'menu--375__item-section1': media375 === true
+    'menu--375__item-section1': media375 === true,
+    'menu--275__item-section1': media275 === true
   });
   var menuLinkSection1Class = classnames_default()({
     'menu__link-section1': media1728 === true,
     'menu--1133__link-section1': media1133 === true,
     'menu--744__link-section1': media744 === true,
     'menu--744l__link-section1': media744l === true,
-    'menu--375__link-section1': media375 === true
+    'menu--375__link-section1': media375 === true,
+    'menu--275__link-section1': media275 === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
@@ -36065,7 +36736,7 @@ var FooterSection1 = function FooterSection1(props) {
       id: prop.id,
       className: menuLinkSection1Class,
       onClick: i === 0 ? handleClickBody : i === 1 ? handleClickFace : null
-    }, prop.children)));
+    }, media275 && i === 0 ? "Тело" : media275 && i === 1 ? "Лицо" : prop.children)));
   }))), /*#__PURE__*/react.createElement("div", {
     className: "".concat(footerColumnClass, " ").concat(footerColumn3Class)
   }, /*#__PURE__*/react.createElement("menu", {
@@ -36103,19 +36774,22 @@ var FooterLogoImg = function FooterLogoImg(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var logoClass = classnames_default()({
     'logo': media1728 === true,
     'logo--1133': media1133 === true,
     'logo--744': media744 === true,
     'logo--744l': media744l === true,
-    'logo--375': media375 === true
+    'logo--375': media375 === true,
+    'logo--275': media275 === true
   });
   var logoFooterClass = classnames_default()({
     'logo-footer': media1728 === true,
     'logo-footer--1133': media1133 === true,
     'logo-footer--744': media744 === true,
     'logo-footer--744l': media744l === true,
-    'logo-footer--375': media375 === true
+    'logo-footer--375': media375 === true,
+    'logo-footer--275': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [logo_footer_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, FooterLogoImg_extends({
@@ -36147,19 +36821,22 @@ var FooterLogo = function FooterLogo(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerLinkClass = classnames_default()({
     'footer__link': media1728 === true,
     'footer--1133__link': media1133 === true,
     'footer--744__link': media744 === true,
     'footer--744l__link': media744l === true,
-    'footer--375__link': media375 === true
+    'footer--375__link': media375 === true,
+    'footer--275__link': media275 === true
   });
   var footerLinkLogoClass = classnames_default()({
     'footer__link-logo': media1728 === true,
     'footer--1133__link-logo': media1133 === true,
     'footer--744__link-logo': media744 === true,
     'footer--744l__link-logo': media744l === true,
-    'footer--375__link-logo': media375 === true
+    'footer--375__link-logo': media375 === true,
+    'footer--275__link-logo': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiLink */.bQ, FooterLogo_extends({
@@ -36198,82 +36875,94 @@ var FooterSection2 = function FooterSection2() {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerInnerClass = classnames_default()({
     'footer__inner': media1728 === true,
     'footer--1133__inner': media1133 === true,
     'footer--744__inner': media744 === true,
     'footer--744l__inner': media744l === true,
-    'footer--375__inner': media375 === true
+    'footer--375__inner': media375 === true,
+    'footer--275__inner': media275 === true
   });
   var footerInnerSection2Class = classnames_default()({
     'footer__inner-section2': media1728 === true,
     'footer--1133__inner-section2': media1133 === true,
     'footer--744__inner-section2': media744 === true,
     'footer--744l__inner-section2': media744l === true,
-    'footer--375__inner-section2': media375 === true
+    'footer--375__inner-section2': media375 === true,
+    'footer--275__inner-section2': media275 === true
   });
   var footerInnerLeftClass = classnames_default()({
     'footer__inner-left': media1728 === true,
     'footer--1133__inner-left': media1133 === true,
     'footer--744__inner-left': media744 === true,
     'footer--744l__inner-left': media744l === true,
-    'footer--375__inner-left': media375 === true
+    'footer--375__inner-left': media375 === true,
+    'footer--275__inner-left': media275 === true
   });
   var footerInnerWarningClass = classnames_default()({
     'footer__inner-warning': media1728 === true,
     'footer--1133__inner-warning': media1133 === true,
     'footer--744__inner-warning': media744 === true,
     'footer--744l__inner-warning': media744l === true,
-    'footer--375__inner-warning': media375 === true
+    'footer--375__inner-warning': media375 === true,
+    'footer--275__inner-warning': media275 === true
   });
   var footerCopyrightClass = classnames_default()({
     'footer__copyright': media1728 === true,
     'footer--1133__copyright': media1133 === true,
     'footer--744__copyright': media744 === true,
     'footer--744l__copyright': media744l === true,
-    'footer--375__copyright': media375 === true
+    'footer--375__copyright': media375 === true,
+    'footer--275__copyright': media275 === true
   });
   var footerLogoClass = classnames_default()({
     'footer__logo': media1728 === true,
     'footer--1133__logo': media1133 === true,
     'footer--744__logo': media744 === true,
     'footer--744l__logo': media744l === true,
-    'footer--375__logo': media375 === true
+    'footer--375__logo': media375 === true,
+    'footer--275__logo': media275 === true
   });
   var footerCopyClass = classnames_default()({
     'footer__copy': media1728 === true,
     'footer--1133__copy': media1133 === true,
     'footer--744__copy': media744 === true,
     'footer--744l__copy': media744l === true,
-    'footer--375__copy': media375 === true
+    'footer--375__copy': media375 === true,
+    'footer--275__copy': media275 === true
   });
   var footerPClass = classnames_default()({
     'footer__p': media1728 === true,
     'footer--1133__p': media1133 === true,
     'footer--744__p': media744 === true,
     'footer--744l__p': media744l === true,
-    'footer--375__p': media375 === true
+    'footer--375__p': media375 === true,
+    'footer--275__p': media275 === true
   });
   var footerPCopyClass = classnames_default()({
     'footer__p-copy': media1728 === true,
     'footer--1133__p-copy': media1133 === true,
     'footer--744__p-copy': media744 === true,
     'footer--744l__p-copy': media744l === true,
-    'footer--375__p-copy': media375 === true
+    'footer--375__p-copy': media375 === true,
+    'footer--275__p-copy': media275 === true
   });
   var footerPWarningClass = classnames_default()({
     'footer__p-warning': media1728 === true,
     'footer--1133__p-warning': media1133 === true,
     'footer--744__p-warning': media744 === true,
     'footer--744l__p-warning': media744l === true,
-    'footer--375__p-warning': media375 === true
+    'footer--375__p-warning': media375 === true,
+    'footer--275__p-warning': media275 === true
   });
   var footerWarningClass = classnames_default()({
     'footer__warning': media1728 === true,
     'footer--1133__warning': media1133 === true,
     'footer--744__warning': media744 === true,
     'footer--744l__warning': media744l === true,
-    'footer--375__warning': media375 === true
+    'footer--375__warning': media375 === true,
+    'footer--275__warning': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: "".concat(footerInnerClass, " ").concat(footerInnerSection2Class)
@@ -36300,7 +36989,7 @@ var FooterSection2 = function FooterSection2() {
     className: "".concat(footerInnerClass, " ").concat(footerInnerWarningClass)
   }, /*#__PURE__*/react.createElement("p", {
     className: "".concat(footerPClass, " ").concat(footerPWarningClass)
-  }, "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u044F \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430."), /*#__PURE__*/react.createElement("p", {
+  }, media275 ? "Нужна консультация специалиста." : "Необходима консультация специалиста."), /*#__PURE__*/react.createElement("p", {
     className: "".concat(footerPClass, " ").concat(footerPWarningClass)
   }, "\u0418\u043C\u0435\u044E\u0442\u0441\u044F \u043F\u0440\u043E\u0442\u0438\u0432\u043E\u043F\u043E\u043A\u0430\u0437\u0430\u043D\u0438\u044F.")))));
 };
@@ -36325,117 +37014,134 @@ var FooterSection3 = function FooterSection3(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerIconsClass = classnames_default()({
     'footer__icons': media1728 === true,
     'footer--1133__icons': media1133 === true,
     'footer--744__icons': media744 === true,
     'footer--744l__icons': media744l === true,
-    'footer--375__icons': media375 === true
+    'footer--375__icons': media375 === true,
+    'footer--275__icons': media275 === true
   });
   var iconsClass = classnames_default()({
     'icons': media1728 === true,
     'icons--1133': media1133 === true,
     'icons--744': media744 === true,
     'icons--744l': media744l === true,
-    'icons--375': media375 === true
+    'icons--375': media375 === true,
+    'icons--275': media275 === true
   });
   var iconsFooterClass = classnames_default()({
     'icons-footer': media1728 === true,
     'icons-footer--1133': media1133 === true,
     'icons-footer--744': media744 === true,
     'icons-footer--744l': media744l === true,
-    'icons-footer--375': media375 === true
+    'icons-footer--375': media375 === true,
+    'icons-footer--275': media275 === true
   });
   var iconsItemClass = classnames_default()({
     'icons__item': media1728 === true,
     'icons--1133__item': media1133 === true,
     'icons--744__item': media744 === true,
     'icons--744l__item': media744l === true,
-    'icons--375__item': media375 === true
+    'icons--375__item': media375 === true,
+    'icons--275__item': media275 === true
   });
   var iconsItemFooterClass = classnames_default()({
     'icons__item-footer': media1728 === true,
     'icons--1133__item-footer': media1133 === true,
     'icons--744__item-footer': media744 === true,
     'icons--744l__item-footer': media744l === true,
-    'icons--375__item-footer': media375 === true
+    'icons--375__item-footer': media375 === true,
+    'icons--275__item-footer': media275 === true
   });
   var iconsItemWhatsappClass = classnames_default()({
     'icons__item-whatsapp': media1728 === true,
     'icons--1133__item-whatsapp': media1133 === true,
     'icons--744__item-whatsapp': media744 === true,
     'icons--744l__item-whatsapp': media744l === true,
-    'icons--375__item-whatsapp': media375 === true
+    'icons--375__item-whatsapp': media375 === true,
+    'icons--275__item-whatsapp': media275 === true
   });
   var iconsItemTelegramClass = classnames_default()({
     'icons__item-telegram': media1728 === true,
     'icons--1133__item-telegram': media1133 === true,
     'icons--744__item-telegram': media744 === true,
     'icons--744l__item-telegram': media744l === true,
-    'icons--375__item-telegram': media375 === true
+    'icons--375__item-telegram': media375 === true,
+    'icons--275__item-telegram': media275 === true
   });
   var iconsItemCheckmarkClass = classnames_default()({
     'icons__item-checkmark': media1728 === true,
     'icons--1133__item-checkmark': media1133 === true,
     'icons--744__item-checkmark': media744 === true,
     'icons--744l__item-checkmark': media744l === true,
-    'icons--375__item-checkmark': media375 === true
+    'icons--375__item-checkmark': media375 === true,
+    'icons--275__item-checkmark': media275 === true
   });
   var iconsLinkClass = classnames_default()({
     'icons__link': media1728 === true,
     'icons--1133__link': media1133 === true,
     'icons--744__link': media744 === true,
     'icons--744l__link': media744l === true,
-    'icons--375__link': media375 === true
+    'icons--375__link': media375 === true,
+    'icons--275__link': media275 === true
   });
   var iconsLinkFooterClass = classnames_default()({
     'icons__link-footer': media1728 === true,
     'icons--1133__link-footer': media1133 === true,
     'icons--744__link-footer': media744 === true,
     'icons--744l__link-footer': media744l === true,
-    'icons--375__link-footer': media375 === true
+    'icons--375__link-footer': media375 === true,
+    'icons--275__link-footer': media275 === true
   });
   var iconsLinkWhatsappClass = classnames_default()({
     'icons__link-whatsapp': media1728 === true,
     'icons--1133__link-whatsapp': media1133 === true,
     'icons--744__link-whatsapp': media744 === true,
     'icons--744l__link-whatsapp': media744l === true,
-    'icons--375__link-whatsapp': media375 === true
+    'icons--375__link-whatsapp': media375 === true,
+    'icons--275__link-whatsapp': media275 === true
   });
   var iconsLinkTelegramClass = classnames_default()({
     'icons__link-telegram': media1728 === true,
     'icons--1133__link-telegram': media1133 === true,
     'icons--744__link-telegram': media744 === true,
     'icons--744l__link-telegram': media744l === true,
-    'icons--375__link-telegram': media375 === true
+    'icons--375__link-telegram': media375 === true,
+    'icons--275__link-telegram': media275 === true
   });
   var iconsLinkCheckmarkClass = classnames_default()({
     'icons__link-checkmark': media1728 === true,
     'icons--1133__link-checkmark': media1133 === true,
     'icons--744__link-checkmark': media744 === true,
     'icons--744l__link-checkmark': media744l === true,
-    'icons--375__link-checkmark': media375 === true
+    'icons--375__link-checkmark': media375 === true,
+    'icons--275__link-checkmark': media275 === true
   });
   var iconsLineClass = classnames_default()({
     'icons__line': media1728 === true,
     'icons--1133__line': media1133 === true,
     'icons--744__line': media744 === true,
     'icons--744l__line': media744l === true,
-    'icons--375__line': media375 === true
+    'icons--375__line': media375 === true,
+    'icons--275__line': media275 === true
   });
   var iconsLineFooterClass = classnames_default()({
     'icons__line-footer': media1728 === true,
     'icons--1133__line-footer': media1133 === true,
     'icons--744__line-footer': media744 === true,
     'icons--744l__line-footer': media744l === true,
-    'icons--375__line-footer': media375 === true
+    'icons--375__line-footer': media375 === true,
+    'icons--275__line-footer': media275 === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var iconsLinkRef = (0,react.useRef)(props.data[1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -36555,19 +37261,22 @@ var FooterSection4 = function FooterSection4(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerPhoneClass = classnames_default()({
     'footer__phone': media1728 === true,
     'footer--1133__phone': media1133 === true,
     'footer--744__phone': media744 === true,
     'footer--744l__phone': media744l === true,
-    'footer--375__phone': media375 === true
+    'footer--375__phone': media375 === true,
+    'footer--275__phone': media275 === true
   });
   var footerLinkPhoneClass = classnames_default()({
     'footer__link-phone': media1728 === true,
     'footer--1133__link-phone': media1133 === true,
     'footer--744__link-phone': media744 === true,
     'footer--744l__link-phone': media744l === true,
-    'footer--375__link-phone': media375 === true
+    'footer--375__link-phone': media375 === true,
+    'footer--275__link-phone': media275 === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -36583,8 +37292,9 @@ var FooterSection4 = function FooterSection4(props) {
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_call375_namespaceObject);
+  var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_call375_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: footerPhoneClass,
     style: {
@@ -36608,6 +37318,8 @@ const bg_footer1133_namespaceObject = __webpack_require__.p + "images/bg-footer1
 const bg_footer744_namespaceObject = __webpack_require__.p + "images/bg-footer744.c3b9c89e0188f786ed51.png";
 ;// ./src/images/bg-footer375_214.png
 const bg_footer375_214_namespaceObject = __webpack_require__.p + "images/bg-footer375_214.dfd73d7f883bc38cfe8c.png";
+;// ./src/images/bg-footer275_212.png
+const bg_footer275_212_namespaceObject = __webpack_require__.p + "images/bg-footer275_212.99065c97a4b64b92c46e.png";
 ;// ./src/data/data_footer/data_footer_section-1/dataFooterSection1.json
 const dataFooterSection1_namespaceObject = /*#__PURE__*/JSON.parse('[[{"id":"footer-section1-column1-link-0","className":"menu__link-section1 popup-link","children":"Отзывы"}],[{"id":"footer-section1-column2-link-0","className":"menu__link-section1 menu__link-block","children":"Услуги для тела"},{"id":"footer-section1-column2-link-1","className":"menu__link-section1 menu__link-block","children":"Услуги для лица"}],[{"id":"footer-section1-column3-link-0","className":"menu__link-section1 popup-link","children":"Свободные окошки"},{"id":"footer-section1-column3-link-1","className":"menu__link-section1 popup-link","children":"Выезд на дом"},{"id":"footer-section1-column3-link-2","className":"menu__link-section1 popup-link","children":"Акции"}]]');
 ;// ./src/data/data_footer/data_footer_section-3/dataFooterSection3.json
@@ -36629,7 +37341,7 @@ const dataFooterSection4_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"foote
 
 
 
-// import FooterBg375 from '../../../images/bg-footer375_231.png';
+
 // import FooterBg375 from '../../../images/bg-footer375.png';
 
 
@@ -36643,61 +37355,70 @@ var Footer = function Footer(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var footerClass = classnames_default()({
     'footer': media1728 === true,
     'footer--1133': media1133 === true,
     'footer--744': media744 === true,
     'footer--744l': media744l === true,
-    'footer--375': media375 === true
+    'footer--375': media375 === true,
+    'footer--275': media275 === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
     'container--1133': media1133 === true,
     'container--744': media744 === true,
     'container--744l': media744l === true,
-    'container--375': media375 === true
+    'container--375': media375 === true,
+    'container--275': media275 === true
   });
   var footerRelativeClass = classnames_default()({
     'footer__relative': media1728 === true,
     'footer--1133__relative': media1133 === true,
     'footer--744__relative': media744 === true,
     'footer--744l__relative': media744l === true,
-    'footer--375__relative': media375 === true
+    'footer--375__relative': media375 === true,
+    'footer--275__relative': media275 === true
   });
   var footerSection1Class = classnames_default()({
     'footer__section1': media1728 === true,
     'footer--1133__section1': media1133 === true,
     'footer--744__section1': media744 === true,
     'footer--744l__section1': media744l === true,
-    'footer--375__section1': media375 === true
+    'footer--375__section1': media375 === true,
+    'footer--275__section1': media275 === true
   });
   var footerSection2Class = classnames_default()({
     'footer__section2': media1728 === true,
     'footer--1133__section2': media1133 === true,
     'footer--744__section2': media744 === true,
     'footer--744l__section2': media744l === true,
-    'footer--375__section2': media375 === true
+    'footer--375__section2': media375 === true,
+    'footer--275__section2': media275 === true
   });
   var footerSection3Class = classnames_default()({
     'footer__section3': media1728 === true,
     'footer--1133__section3': media1133 === true,
     'footer--744__section3': media744 === true,
     'footer--744l__section3': media744l === true,
-    'footer--375__section3': media375 === true
+    'footer--375__section3': media375 === true,
+    'footer--275__section3': media275 === true
   });
   var footerSection4Class = classnames_default()({
     'footer__section4': media1728 === true,
     'footer--1133__section4': media1133 === true,
     'footer--744__section4': media744 === true,
     'footer--744l__section4': media744l === true,
-    'footer--375__section4': media375 === true
+    'footer--375__section4': media375 === true,
+    'footer--275__section4': media275 === true
   });
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_footer_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_footer1133_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_footer744_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_footer375_214_namespaceObject);
+  var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_footer275_212_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("footer", {
     className: footerClass,
     style: {
@@ -36750,19 +37471,22 @@ var HeaderBurgerImg = function HeaderBurgerImg(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
     'burger--744': media744 === true,
     'burger--744l': media744l === true,
-    'burger--375': media375 === true
+    'burger--375': media375 === true,
+    'burger--275': media275 === true
   });
   var burgerHeaderClass = classnames_default()({
     'burger-header': media1728 === true,
     'burger-header--1133': media1133 === true,
     'burger-header--744': media744 === true,
     'burger-header--744l': media744l === true,
-    'burger-header--375': media375 === true
+    'burger-header--375': media375 === true,
+    'burger-header--275': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [burger_header744_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderBurgerImg_extends({
@@ -36803,26 +37527,30 @@ var HeaderBurger = function HeaderBurger(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var headerBurgerClass = classnames_default()({
     'header__burger': media1728 === true,
     'header--1133__burger': media1133 === true,
     'header--744__burger': media744 === true,
     'header--744l__burger': media744l === true,
-    'header--375__burger': media375 === true
+    'header--375__burger': media375 === true,
+    'header--275__burger': media275 === true
   });
   var headerLinkClass = classnames_default()({
     'header__link': media1728 === true,
     'header--1133__link': media1133 === true,
     'header--744__link': media744 === true,
     'header--744l__link': media744l === true,
-    'header--375__link': media375 === true
+    'header--375__link': media375 === true,
+    'header--275__link': media275 === true
   });
   var headerLinkBurgerClass = classnames_default()({
     'header__link-burger': media1728 === true,
     'header--1133__link-burger': media1133 === true,
     'header--744__link-burger': media744 === true,
     'header--744l__link-burger': media744l === true,
-    'header--375__link-burger': media375 === true
+    'header--375__link-burger': media375 === true,
+    'header--275__link-burger': media275 === true
   });
   var handleClickBurger = function handleClickBurger() {
     handleToggle();
@@ -36859,12 +37587,14 @@ var HeaderLogoImg = function HeaderLogoImg(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var logoHeaderClass = classnames_default()({
     'logo-header': media1728 === true,
     'logo-header--1133': media1133 === true,
     'logo-header--744': media744 === true,
     'logo-header--744l': media744l === true,
-    'logo-header--375': media375 === true
+    'logo-header--375': media375 === true,
+    'logo-header--275': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [logo_header_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderLogoImg_extends({
@@ -36927,61 +37657,70 @@ var HeaderMenu = function HeaderMenu(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var headerMenuClass = classnames_default()({
     'header__menu': media1728 === true,
     'header--1133__menu': media1133 === true,
     'header--744__menu': media744 === true,
     'header--744l__menu': media744l === true,
-    'header--375__menu': media375 === true
+    'header--375__menu': media375 === true,
+    'header--275__menu': media275 === true
   });
   var menuClass = classnames_default()({
     'menu': media1728 === true,
     'menu--1133': media1133 === true,
     'menu--744': media744 === true,
     'menu--744l': media744l === true,
-    'menu--375': media375 === true
+    'menu--375': media375 === true,
+    'menu--275': media275 === true
   });
   var menuItemClass = classnames_default()({
     'menu__item': media1728 === true,
     'menu--1133__item': media1133 === true,
     'menu--744__item': media744 === true,
     'menu--744l__item': media744l === true,
-    'menu--375__item': media375 === true
+    'menu--375__item': media375 === true,
+    'menu--275__item': media275 === true
   });
   var menuItemHeaderClass = classnames_default()({
     'menu__item-header': media1728 === true,
     'menu--1133__item-header': media1133 === true,
     'menu--744__item-header': media744 === true,
     'menu--744l__item-header': media744l === true,
-    'menu--375__item-header': media375 === true
+    'menu--375__item-header': media375 === true,
+    'menu--275__item-header': media275 === true
   });
   var menuLinkClass = classnames_default()({
     'menu__link': media1728 === true,
     'menu--1133__link': media1133 === true,
     'menu--744__link': media744 === true,
     'menu--744l__link': media744l === true,
-    'menu--375__link': media375 === true
+    'menu--375__link': media375 === true,
+    'menu--275__link': media275 === true
   });
   var menuLinkHeaderClass = classnames_default()({
     'menu__link-header': media1728 === true,
     'menu--1133__link-header': media1133 === true,
     'menu--744__link-header': media744 === true,
     'menu--744l__link-header': media744l === true,
-    'menu--375__link-header': media375 === true
+    'menu--375__link-header': media375 === true,
+    'menu--275__link-header': media275 === true
   });
   var menuHeaderClass = classnames_default()({
     'menu-header': media1728 === true,
     'menu-header--1133': media1133 === true,
     'menu-header--744': media744 === true,
     'menu-header--744l': media744l === true,
-    'menu-header--375': media375 === true
+    'menu-header--375': media375 === true,
+    'menu-header--275': media275 === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal,
@@ -37037,7 +37776,7 @@ var HeaderMenu = function HeaderMenu(props) {
     className: headerMenuClass
   }, /*#__PURE__*/react.createElement("menu", {
     className: "".concat(menuClass, " ").concat(menuHeaderClass),
-    style: media375 || media744 || media744l ? {
+    style: media275 || media375 || media744 || media744l ? {
       flexDirection: 'column',
       alignItems: 'end'
     } : {
@@ -37091,12 +37830,14 @@ var HeaderPhone = function HeaderPhone(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
     'header--744__phone': media744 === true,
     'header--744l__phone': media744l === true,
-    'header--375__phone': media375 === true
+    'header--375__phone': media375 === true,
+    'header--275__phone': media275 === true
   });
   var propsData = function propsData(props) {
     var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
@@ -37256,19 +37997,22 @@ var HeaderPhoneIconImg = function HeaderPhoneIconImg(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
     'burger--744': media744 === true,
     'burger--744l': media744l === true,
-    'burger--375': media375 === true
+    'burger--375': media375 === true,
+    'burger--275': media275 === true
   });
   var burgerHeaderClass = classnames_default()({
     'burger-header': media1728 === true,
     'burger-header--1133': media1133 === true,
     'burger-header--744': media744 === true,
     'burger-header--744l': media744l === true,
-    'burger-header--375': media375 === true
+    'burger-header--375': media375 === true,
+    'burger-header--275': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [icon_header_phone_white_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderPhoneIconImg_extends({
@@ -37304,19 +38048,22 @@ var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
     'header--744__phone': media744 === true,
     'header--744l__phone': media744l === true,
-    'header--375__phone': media375 === true
+    'header--375__phone': media375 === true,
+    'header--275__phone': media275 === true
   });
   var headerLinkPhoneClass = classnames_default()({
     'header__link-phone': media1728 === true,
     'header--1133__link-phone': media1133 === true,
     'header--744__link-phone': media744 === true,
     'header--744l__link-phone': media744l === true,
-    'header--375__link-phone': media375 === true
+    'header--375__link-phone': media375 === true,
+    'header--275__link-phone': media275 === true
   });
   var headerLinkPhoneRef = (0,react.useRef)();
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
@@ -37348,19 +38095,22 @@ var HeaderTitle = function HeaderTitle(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var headerTitleClass = classnames_default()({
     'header__title': media1728 === true,
     'header--1133__title': media1133 === true,
     'header--744__title': media744 === true,
     'header--744l__title': media744l === true,
-    'header--375__title': media375 === true
+    'header--375__title': media375 === true,
+    'header--275__title': media275 === true
   });
   var titleClass = classnames_default()({
     'title': media1728 === true,
     'title--1133': media1133 === true,
     'title--744': media744 === true,
     'title--744l': media744l === true,
-    'title--375': media375 === true
+    'title--375': media375 === true,
+    'title--275': media275 === true
   });
   var headerTitle = (0,react.useRef)(null);
   var animationHeaderTitle = function animationHeaderTitle() {
@@ -37405,6 +38155,8 @@ const bg_header1133_namespaceObject = __webpack_require__.p + "images/bg-header1
 const bg_header744_namespaceObject = __webpack_require__.p + "images/bg-header744.fb7ea78a240619e52782.png";
 ;// ./src/images/bg-header375.png
 const bg_header375_namespaceObject = __webpack_require__.p + "images/bg-header375.6b5b698e0ddc4a87bb23.png";
+;// ./src/images/bg-header275_60.png
+const bg_header275_60_namespaceObject = __webpack_require__.p + "images/bg-header275_60.2a7a1f4551672e5ea6d4.png";
 ;// ./src/data/data_header/data_header_logo/dataHeaderLogo.json
 const dataHeaderLogo_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-logo-link-0","href":"https://ivanays.github.io/","className":"header__link header__link-logo"}]');
 ;// ./src/data/data_header/data_header_title/dataHeaderTitle.json
@@ -37454,6 +38206,7 @@ var color = "#C975D8";
 
 
 
+
 var Header = function Header(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -37461,82 +38214,94 @@ var Header = function Header(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var headerClass = classnames_default()({
     'header': media1728 === true,
     'header--1133': media1133 === true,
     'header--744': media744 === true,
     'header--744l': media744l === true,
-    'header--375': media375 === true
+    'header--375': media375 === true,
+    'header--275': media275 === true
   });
   var headerInnerClass = classnames_default()({
     'header__inner': media1728 === true,
     'header--1133__inner': media1133 === true,
     'header--744__inner': media744 === true,
     'header--744l__inner': media744l === true,
-    'header--375__inner': media375 === true
+    'header--375__inner': media375 === true,
+    'header--275__inner': media275 === true
   });
   var headerLeftClass = classnames_default()({
     'header__left': media1728 === true,
     'header--1133__left': media1133 === true,
     'header--744__left': media744 === true,
     'header--744l__left': media744l === true,
-    'header--375__left': media375 === true
+    'header--375__left': media375 === true,
+    'header--275__left': media275 === true
   });
   var headerInnerLeftClass = classnames_default()({
     'header__inner-left': media1728 === true,
     'header--1133__inner-left': media1133 === true,
     'header--744__inner-left': media744 === true,
     'header--744l__inner-left': media744l === true,
-    'header--375__inner-left': media375 === true
+    'header--375__inner-left': media375 === true,
+    'header--275__inner-left': media275 === true
   });
   var headerLineClass = classnames_default()({
     'header__line': media1728 === true,
     'header--1133__line': media1133 === true,
     'header--744__line': media744 === true,
     'header--744l__line': media744l === true,
-    'header--375__line': media375 === true
+    'header--375__line': media375 === true,
+    'header--275__line': media275 === true
   });
   var headerRightClass = classnames_default()({
     'header__right': media1728 === true,
     'header--1133__right': media1133 === true,
     'header--744__right': media744 === true,
     'header--744l__right': media744l === true,
-    'header--375__right': media375 === true
+    'header--375__right': media375 === true,
+    'header--275__right': media275 === true
   });
   var headerInnerRightClass = classnames_default()({
     'header__inner-right': media1728 === true,
     'header--1133__inner-right': media1133 === true,
     'header--744__inner-right': media744 === true,
     'header--744l__inner-right': media744l === true,
-    'header--375__inner-right': media375 === true
+    'header--375__inner-right': media375 === true,
+    'header--275__inner-right': media275 === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
     'container--1133': media1133 === true,
     'container--744': media744 === true,
     'container--744l': media744l === true,
-    'container--375': media375 === true
+    'container--375': media375 === true,
+    'container--275': media275 === true
   });
   var blockClass = classnames_default()({
     'block': media1728 === true,
     'block--1133': media1133 === true,
     'block--744': media744 === true,
     'block--744l': media744l === true,
-    'block--375': media375 === true
+    'block--375': media375 === true,
+    'block--275': media275 === true
   });
   var blockLockClass = classnames_default()({
     'block-lock': media1728 === true,
     'block-lock--1133': media1133 === true,
     'block-lock--744': media744 === true,
     'block-lock--744l': media744l === true,
-    'block-lock--375': media375 === true
+    'block-lock--375': media375 === true,
+    'block-lock--275': media275 === true
   });
   var blockBodyClass = classnames_default()({
     'block__body': media1728 === true,
     'block--1133__body': media1133 === true,
     'block--744__body': media744 === true,
     'block--744l__body': media744l === true,
-    'block--375__body': media375 === true
+    'block--375__body': media375 === true,
+    'block--275__body': media275 === true
   });
   var ref = (0,react.useRef)(null);
   var headerLeft = (0,react.useRef)(null);
@@ -37601,8 +38366,9 @@ var Header = function Header(props) {
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_header744_namespaceObject);
   var loadedImageBg744l = (0,hooks/* useLoadImageBg */.ws)(bg_header744_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_header375_namespaceObject);
+  var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_header275_60_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744l : media375 ? loadedImageBg = loadedImageBg375 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744l : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   var rightHeader = modalOpened ? "".concat(scrollbarWidthBody, "px") : '0px';
   var handleClose = function handleClose() {
     isToggled ? handleToggle() : null;
@@ -37666,7 +38432,7 @@ var Header = function Header(props) {
     data: dataHeaderMenu_namespaceObject
   }))), /*#__PURE__*/react.createElement(HeaderBurger, {
     data: dataHeaderBurger_namespaceObject
-  }), media375 || media744 || media744l ? /*#__PURE__*/react.createElement(HeaderPhoneIcon, {
+  }), media275 || media375 || media744 || media744l ? /*#__PURE__*/react.createElement(HeaderPhoneIcon, {
     dataPhone: dataPhone,
     data: dataHeaderPhone_namespaceObject
   }) : /*#__PURE__*/react.createElement(HeaderPhone, {
@@ -37681,6 +38447,202 @@ var Header = function Header(props) {
 
 
 
+
+;// ./src/components/sections/info/info_svg_230l/InfoSvg230l.jsx
+
+
+
+
+
+var InfoSvg230l = function InfoSvg230l(_ref) {
+  var idSvg = _ref.idSvg,
+    xlinkHref = _ref.xlinkHref,
+    idTitle1 = _ref.idTitle1,
+    idText1 = _ref.idText1,
+    idTitle2 = _ref.idTitle2,
+    idText2 = _ref.idText2,
+    childrenTitle1 = _ref.childrenTitle1,
+    childrenText1 = _ref.childrenText1,
+    childrenTitle2 = _ref.childrenTitle2,
+    childrenText2 = _ref.childrenText2;
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var sliderSvgClass = classnames_default()({
+    'slider__svg': media1728 === true,
+    'slider--1133__svg': media1133 === true,
+    'slider--744__svg': media744 === true,
+    'slider--744l__svg': media744l === true,
+    'slider--375__svg': media375 === true,
+    'slider--275__svg': media275 === true
+  });
+  var sliderSvgInfoClass = classnames_default()({
+    'slider__svg-info': media1728 === true,
+    'slider--1133__svg-info': media1133 === true,
+    'slider--744__svg-info': media744 === true,
+    'slider--744l__svg-info': media744l === true,
+    'slider--375__svg-info': media375 === true,
+    'slider--275__svg-info': media275 === true
+  });
+  var sliderSvgTitleClass = classnames_default()({
+    'slider__svg-title': media1728 === true,
+    'slider--1133__svg-title': media1133 === true,
+    'slider--744__svg-title': media744 === true,
+    'slider--744l__svg-title': media744l === true,
+    'slider--375__svg-title': media375 === true,
+    'slider--275__svg-title': media275 === true
+  });
+  var sliderSvgTextClass = classnames_default()({
+    'slider__svg-text': media1728 === true,
+    'slider--1133__svg-text': media1133 === true,
+    'slider--744__svg-text': media744 === true,
+    'slider--744l__svg-text': media744l === true,
+    'slider--375__svg-text': media375 === true,
+    'slider--275__svg-text': media275 === true
+  });
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
+    id: idSvg,
+    className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
+    x: "0",
+    y: "0",
+    width: "265",
+    height: "177",
+    viewBox: "0 0 265 177",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react.createElement("g", {
+    id: "\xD0\xB8\xD0\xBD\xD1\x84\xD0\xBE4-copy"
+  }, /*#__PURE__*/react.createElement("path", {
+    id: "Rectangle 142",
+    d: "M42 11.5H233C243.77 11.5 252.5 20.2304 252.5 31V137C252.5 152.74 239.74 165.5 224 165.5H34C22.1259 165.5 12.5 155.874 12.5 144V41C12.5 24.7076 25.7076 11.5 42 11.5Z",
+    fill: "url(#paint0_linear_1441_1571)",
+    stroke: "url(#paint1_linear_1441_1571)"
+  }), /*#__PURE__*/react.createElement("rect", {
+    id: "Rectangle 100",
+    x: "5.75",
+    y: "5.75",
+    width: "258.5",
+    height: "170.5",
+    rx: "34.25",
+    stroke: "url(#paint2_linear_1441_1571)",
+    "stroke-width": "1.5"
+  }), /*#__PURE__*/react.createElement("rect", {
+    id: "Rectangle 102",
+    x: "0.75",
+    y: "0.75",
+    width: "258.5",
+    height: "170.5",
+    rx: "34.25",
+    stroke: "url(#paint3_linear_1441_1571)",
+    "stroke-width": "1.5"
+  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+    id: "paint0_linear_1441_1571",
+    x1: "132.5",
+    y1: "11",
+    x2: "132.5",
+    y2: "166",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/react.createElement("stop", {
+    "stop-color": "#E8CCEE"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.387873",
+    "stop-color": "#F0E1F4"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.490872",
+    "stop-color": "#F2E7F6"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.599364",
+    "stop-color": "#F0E1F3"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "1",
+    "stop-color": "#E8CCEE"
+  })), /*#__PURE__*/react.createElement("linearGradient", {
+    id: "paint1_linear_1441_1571",
+    x1: "-249.957",
+    y1: "-160.882",
+    x2: "195.424",
+    y2: "406.063",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/react.createElement("stop", {
+    offset: "0.461286",
+    "stop-color": "#841799"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.684967",
+    "stop-color": "#831598",
+    "stop-opacity": "0"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.685008",
+    "stop-color": "#831598"
+  })), /*#__PURE__*/react.createElement("linearGradient", {
+    id: "paint2_linear_1441_1571",
+    x1: "-277.609",
+    y1: "-185.733",
+    x2: "219.742",
+    y2: "429.772",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/react.createElement("stop", {
+    offset: "0.461286",
+    "stop-color": "#841799"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.659701",
+    "stop-color": "#831598",
+    "stop-opacity": "0"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.660524",
+    "stop-color": "#831598"
+  })), /*#__PURE__*/react.createElement("linearGradient", {
+    id: "paint3_linear_1441_1571",
+    x1: "-282.609",
+    y1: "-190.733",
+    x2: "214.742",
+    y2: "424.772",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/react.createElement("stop", {
+    offset: "0.461286",
+    "stop-color": "#841799"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.702083",
+    "stop-color": "#831598",
+    "stop-opacity": "0"
+  }), /*#__PURE__*/react.createElement("stop", {
+    offset: "0.702183",
+    "stop-color": "#831598"
+  })))), /*#__PURE__*/react.createElement("use", {
+    xlinkHref: xlinkHref,
+    x: "0",
+    y: "0",
+    viewBox: "0 0 265 177"
+  }), /*#__PURE__*/react.createElement("text", {
+    id: idTitle1,
+    textAnchor: "middle",
+    x: "132",
+    y: "55",
+    className: sliderSvgTitleClass
+  }, childrenTitle1), /*#__PURE__*/react.createElement("text", {
+    id: idText1,
+    textAnchor: "middle",
+    x: "132",
+    y: "78",
+    className: sliderSvgTextClass
+  }, childrenText1), /*#__PURE__*/react.createElement("text", {
+    id: idTitle2,
+    textAnchor: "middle",
+    x: "132",
+    y: "109",
+    className: sliderSvgTitleClass
+  }, childrenTitle2), /*#__PURE__*/react.createElement("text", {
+    id: idText2,
+    textAnchor: "middle",
+    x: "132",
+    y: "132",
+    className: sliderSvgTextClass
+  }, childrenText2)));
+};
+;// ./src/components/sections/info/info_svg_230l/index.js
 
 ;// ./src/func/func_random/func_random_int_from_interval/funcRandomIntFromInterval.js
 var funcRandomIntFromInterval = function funcRandomIntFromInterval(min, max) {
@@ -38502,33 +39464,38 @@ var InfoSvg330 = function InfoSvg330(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true
+    'slider--375__svg': media375 === true,
+    'slider--275__svg': media275 === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
     'slider--1133__svg-info': media1133 === true,
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true
+    'slider--375__svg-info': media375 === true,
+    'slider--275__svg-info': media275 === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
     'slider--1133__svg-title': media1133 === true,
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true
+    'slider--375__svg-title': media375 === true,
+    'slider--275__svg-title': media275 === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
     'slider--1133__svg-text': media1133 === true,
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true
+    'slider--375__svg-text': media375 === true,
+    'slider--275__svg-text': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -38668,33 +39635,38 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true
+    'slider--375__svg': media375 === true,
+    'slider--275__svg': media275 === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
     'slider--1133__svg-info': media1133 === true,
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true
+    'slider--375__svg-info': media375 === true,
+    'slider--275__svg-info': media275 === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
     'slider--1133__svg-title': media1133 === true,
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true
+    'slider--375__svg-title': media375 === true,
+    'slider--275__svg-title': media275 === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
     'slider--1133__svg-text': media1133 === true,
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true
+    'slider--375__svg-text': media375 === true,
+    'slider--275__svg-text': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -38707,36 +39679,36 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/react.createElement("g", {
-    id: "\xD0\xB8\xD0\xBD\xD1\x84\xD0\xBE2-copy"
+    id: "\xD0\xB8\xD0\xBD\xD1\x84\xD0\xBE5-copy"
   }, /*#__PURE__*/react.createElement("path", {
     id: "Rectangle 142",
-    d: "M54 29.5H292C295.038 29.5 297.5 31.9624 297.5 35V169C297.5 180.874 287.874 190.5 276 190.5H38C34.9624 190.5 32.5 188.038 32.5 185V51C32.5 39.1259 42.1259 29.5 54 29.5Z",
-    fill: "url(#paint0_linear_1325_1581)",
-    stroke: "url(#paint1_linear_1325_1581)"
+    d: "M42 13.5H294C306.426 13.5 316.5 23.5736 316.5 36V178C316.5 193.188 304.188 205.5 289 205.5H34C22.6782 205.5 13.5 196.322 13.5 185V42C13.5 26.2599 26.2599 13.5 42 13.5Z",
+    fill: "url(#paint0_linear_1442_1571)",
+    stroke: "url(#paint1_linear_1442_1571)"
   }), /*#__PURE__*/react.createElement("rect", {
     id: "Rectangle 100",
-    x: "14.25",
-    y: "12.1289",
-    width: "315",
-    height: "207.121",
+    x: "6.75",
+    y: "5.75",
+    width: "322.5",
+    height: "213.5",
     rx: "34.25",
-    stroke: "url(#paint2_linear_1325_1581)",
+    stroke: "url(#paint2_linear_1442_1571)",
     "stroke-width": "1.5"
   }), /*#__PURE__*/react.createElement("rect", {
     id: "Rectangle 102",
     x: "0.75",
     y: "0.75",
-    width: "315",
-    height: "207.121",
+    width: "322.5",
+    height: "212.5",
     rx: "34.25",
-    stroke: "url(#paint3_linear_1325_1581)",
+    stroke: "url(#paint3_linear_1442_1571)",
     "stroke-width": "1.5"
   })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-    id: "paint0_linear_1325_1581",
+    id: "paint0_linear_1442_1571",
     x1: "165",
-    y1: "29",
+    y1: "13",
     x2: "165",
-    y2: "191",
+    y2: "206",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/react.createElement("stop", {
     "stop-color": "#E8CCEE"
@@ -38753,11 +39725,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     offset: "1",
     "stop-color": "#E8CCEE"
   })), /*#__PURE__*/react.createElement("linearGradient", {
-    id: "paint1_linear_1325_1581",
-    x1: "-257.13",
-    y1: "-150.644",
-    x2: "201.755",
-    y2: "466.228",
+    id: "paint1_linear_1442_1571",
+    x1: "-317.435",
+    y1: "-201.02",
+    x2: "235.393",
+    y2: "511.882",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/react.createElement("stop", {
     offset: "0.461286",
@@ -38770,11 +39742,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     offset: "0.685008",
     "stop-color": "#831598"
   })), /*#__PURE__*/react.createElement("linearGradient", {
-    id: "paint2_linear_1325_1581",
-    x1: "-330.522",
-    y1: "-219.964",
-    x2: "272.259",
-    y2: "528.722",
+    id: "paint2_linear_1442_1571",
+    x1: "-346.174",
+    y1: "-233.417",
+    x2: "275.914",
+    y2: "534.09",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/react.createElement("stop", {
     offset: "0.461286",
@@ -38787,11 +39759,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     offset: "0.660524",
     "stop-color": "#831598"
   })), /*#__PURE__*/react.createElement("linearGradient", {
-    id: "paint3_linear_1325_1581",
-    x1: "-344.022",
-    y1: "-231.342",
-    x2: "258.759",
-    y2: "517.343",
+    id: "paint3_linear_1442_1571",
+    x1: "-352.174",
+    y1: "-237.308",
+    x2: "266.417",
+    y2: "529.451",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/react.createElement("stop", {
     offset: "0.461286",
@@ -39652,33 +40624,38 @@ var InfoSvg440 = function InfoSvg440(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true
+    'slider--375__svg': media375 === true,
+    'slider--275__svg': media275 === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
     'slider--1133__svg-info': media1133 === true,
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true
+    'slider--375__svg-info': media375 === true,
+    'slider--275__svg-info': media275 === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
     'slider--1133__svg-title': media1133 === true,
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true
+    'slider--375__svg-title': media375 === true,
+    'slider--275__svg-title': media275 === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
     'slider--1133__svg-text': media1133 === true,
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true
+    'slider--375__svg-text': media375 === true,
+    'slider--275__svg-text': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -39818,33 +40795,38 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true
+    'slider--375__svg': media375 === true,
+    'slider--275__svg': media275 === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
     'slider--1133__svg-info': media1133 === true,
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true
+    'slider--375__svg-info': media375 === true,
+    'slider--275__svg-info': media275 === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
     'slider--1133__svg-title': media1133 === true,
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true
+    'slider--375__svg-title': media375 === true,
+    'slider--275__svg-title': media275 === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
     'slider--1133__svg-text': media1133 === true,
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true
+    'slider--375__svg-text': media375 === true,
+    'slider--275__svg-text': media275 === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -40016,6 +40998,7 @@ function Info_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Info = function Info(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -40023,117 +41006,134 @@ var Info = function Info(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var infoClass = classnames_default()({
     'info': media1728 === true,
     'info--1133': media1133 === true,
     'info--744': media744 === true,
     'info--744l': media744l === true,
-    'info--375': media375 === true
+    'info--375': media375 === true,
+    'info--275': media275 === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
     'container--1133': media1133 === true,
     'container--744': media744 === true,
     'container--744l': media744l === true,
-    'container--375': media375 === true
+    'container--375': media375 === true,
+    'container--275': media275 === true
   });
   var containerInfoClass = classnames_default()({
     'container-info': media1728 === true,
     'container--1133-info': media1133 === true,
     'container--744-info': media744 === true,
     'container--744l-info': media744l === true,
-    'container--375-info': media375 === true
+    'container--375-info': media375 === true,
+    'container--275-info': media275 === true
   });
   var infoSliderClass = classnames_default()({
     'info__slider': media1728 === true,
     'info--1133__slider': media1133 === true,
     'info--744__slider': media744 === true,
     'info--744l__slider': media744l === true,
-    'info--375__slider': media375 === true
+    'info--375__slider': media375 === true,
+    'info--275__slider': media275 === true
   });
   var sliderClass = classnames_default()({
     'slider': media1728 === true,
     'slider--1133': media1133 === true,
     'slider--744': media744 === true,
     'slider--744l': media744l === true,
-    'slider--375': media375 === true
+    'slider--375': media375 === true,
+    'slider--275': media275 === true
   });
   var sliderInfoClass = classnames_default()({
     'slider-info': media1728 === true,
     'slider--1133-info': media1133 === true,
     'slider--744-info': media744 === true,
     'slider--744l-info': media744l === true,
-    'slider--375-info': media375 === true
+    'slider--375-info': media375 === true,
+    'slider--275-info': media275 === true
   });
   var sliderItemsClass = classnames_default()({
     'slider__items': media1728 === true,
     'slider--1133__items': media1133 === true,
     'slider--744__items': media744 === true,
     'slider--744l__items': media744l === true,
-    'slider--375__items': media375 === true
+    'slider--375__items': media375 === true,
+    'slider--275__items': media275 === true
   });
   var sliderItemsInfoClass = classnames_default()({
     'slider__items-info': media1728 === true,
     'slider--1133__items-info': media1133 === true,
     'slider--744__items-info': media744 === true,
     'slider--744l__items-info': media744l === true,
-    'slider--375__items-info': media375 === true
+    'slider--375__items-info': media375 === true,
+    'slider--275__items-info': media275 === true
   });
   var sliderItemClass = classnames_default()({
     'slider__item': media1728 === true,
     'slider--1133__item': media1133 === true,
     'slider--744__item': media744 === true,
     'slider--744l__item': media744l === true,
-    'slider--375__item': media375 === true
+    'slider--375__item': media375 === true,
+    'slider--275__item': media275 === true
   });
   var sliderItemInfoClass = classnames_default()({
     'slider__item-info': media1728 === true,
     'slider--1133__item-info': media1133 === true,
     'slider--744__item-info': media744 === true,
     'slider--744l__item-info': media744l === true,
-    'slider--375__item-info': media375 === true
+    'slider--375__item-info': media375 === true,
+    'slider--275__item-info': media275 === true
   });
   var sliderInnerClass = classnames_default()({
     'slider__inner': media1728 === true,
     'slider--1133__inner': media1133 === true,
     'slider--744__inner': media744 === true,
     'slider--744l__inner': media744l === true,
-    'slider--375__inner': media375 === true
+    'slider--375__inner': media375 === true,
+    'slider--275__inner': media275 === true
   });
   var sliderInfoInnerClass = classnames_default()({
     'slider-info__inner': media1728 === true,
     'slider--1133-info__inner': media1133 === true,
     'slider--744-info__inner': media744 === true,
     'slider--744l-info__inner': media744l === true,
-    'slider--375-info__inner': media375 === true
+    'slider--375-info__inner': media375 === true,
+    'slider--275-info__inner': media275 === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
     'slider--1133__slide': media1133 === true,
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true
+    'slider--375__slide': media375 === true,
+    'slider--275__slide': media275 === true
   });
   var sliderSlideInfoClass = classnames_default()({
     'slider__slide-info': media1728 === true,
     'slider--1133__slide-info': media1133 === true,
     'slider--744__slide-info': media744 === true,
     'slider--744l__slide-info': media744l === true,
-    'slider--375__slide-info': media375 === true
+    'slider--375__slide-info': media375 === true,
+    'slider--275__slide-info': media275 === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
     'slider--1133__link': media1133 === true,
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true
+    'slider--375__link': media375 === true,
+    'slider--275__link': media275 === true
   });
   var sliderLinkInfoClass = classnames_default()({
     'slider__link-info': media1728 === true,
     'slider--1133__link-info': media1133 === true,
     'slider--744__link-info': media744 === true,
     'slider--744l__link-info': media744l === true,
-    'slider--375__link-info': media375 === true
+    'slider--375__link-info': media375 === true,
+    'slider--275__link-info': media275 === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -40159,7 +41159,7 @@ var Info = function Info(props) {
     });
   };
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true) return;
+    if (media744l === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (slidesInfoRef.current[0].current.getBoundingClientRect().top < headerHeight - 20 && props.bottom === false) {
@@ -40241,6 +41241,8 @@ var Info = function Info(props) {
       key: "infoSvg".concat(i)
     }, prop)) : media375 ? /*#__PURE__*/react.createElement(InfoSvg330l, Info_extends({
       key: "infoSvg".concat(i)
+    }, prop)) : media275 ? /*#__PURE__*/react.createElement(InfoSvg230l, Info_extends({
+      key: "infoSvg".concat(i)
     }, prop)) : null));
   })))))))));
 };
@@ -40276,82 +41278,94 @@ var MainSidebar = function MainSidebar(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var mainSidebarClass = classnames_default()({
     'main__sidebar': media1728 === true,
     'main--1133__sidebar': media1133 === true,
     'main--744__sidebar': media744 === true,
     'main--744l__sidebar': media744l === true,
-    'main--375__sidebar': media375 === true
+    'main--375__sidebar': media375 === true,
+    'main--275__sidebar': media275 === true
   });
   var sidebarClass = classnames_default()({
     'sidebar': media1728 === true,
     'sidebar--1133': media1133 === true,
     'sidebar--744': media744 === true,
     'sidebar--744l': media744l === true,
-    'sidebar--375': media375 === true
+    'sidebar--375': media375 === true,
+    'sidebar--275': media275 === true
   });
   var sidebarMainClass = classnames_default()({
     'sidebar-main': media1728 === true,
     'sidebar-main--1133': media1133 === true,
     'sidebar-main--744': media744 === true,
     'sidebar-main--744l': media744l === true,
-    'sidebar-main--375': media375 === true
+    'sidebar-main--375': media375 === true,
+    'sidebar-main--275': media275 === true
   });
   var sidebarItemClass = classnames_default()({
     'sidebar__item': media1728 === true,
     'sidebar--1133__item': media1133 === true,
     'sidebar--744__item': media744 === true,
     'sidebar--744l__item': media744l === true,
-    'sidebar--375__item': media375 === true
+    'sidebar--375__item': media375 === true,
+    'sidebar--275__item': media275 === true
   });
   var sidebarItemMainClass = classnames_default()({
     'sidebar__item-main': media1728 === true,
     'sidebar--1133__item-main': media1133 === true,
     'sidebar--744__item-main': media744 === true,
     'sidebar--744l__item-main': media744l === true,
-    'sidebar--375__item-main': media375 === true
+    'sidebar--375__item-main': media375 === true,
+    'sidebar--275__item-main': media275 === true
   });
   var sidebarSubClass = classnames_default()({
     'sidebar-sub': media1728 === true,
     'sidebar-sub--1133': media1133 === true,
     'sidebar-sub--744': media744 === true,
     'sidebar-sub--744l': media744l === true,
-    'sidebar-sub--375': media375 === true
+    'sidebar-sub--375': media375 === true,
+    'sidebar-sub--275': media275 === true
   });
   var sidebarItemSubClass = classnames_default()({
     'sidebar__item-sub': media1728 === true,
     'sidebar--1133__item-sub': media1133 === true,
     'sidebar--744__item-sub': media744 === true,
     'sidebar--744l__item-sub': media744l === true,
-    'sidebar--375__item-sub': media375 === true
+    'sidebar--375__item-sub': media375 === true,
+    'sidebar--275__item-sub': media275 === true
   });
   var sidebarLinkClass = classnames_default()({
     'sidebar__link': media1728 === true,
     'sidebar--1133__link': media1133 === true,
     'sidebar--744__link': media744 === true,
     'sidebar--744l__link': media744l === true,
-    'sidebar--375__link': media375 === true
+    'sidebar--375__link': media375 === true,
+    'sidebar--275__link': media275 === true
   });
   var sidebarLinkSubClass = classnames_default()({
     'sidebar__link-sub': media1728 === true,
     'sidebar--1133__link-sub': media1133 === true,
     'sidebar--744__link-sub': media744 === true,
     'sidebar--744l__link-sub': media744l === true,
-    'sidebar--375__link-sub': media375 === true
+    'sidebar--375__link-sub': media375 === true,
+    'sidebar--275__link-sub': media275 === true
   });
   var sidebarLinkMainClass = classnames_default()({
     'sidebar__link-main': media1728 === true,
     'sidebar--1133__link-main': media1133 === true,
     'sidebar--744__link-main': media744 === true,
     'sidebar--744l__link-main': media744l === true,
-    'sidebar--375__link-main': media375 === true
+    'sidebar--375__link-main': media375 === true,
+    'sidebar--275__link-main': media275 === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var buttonsSubRef = (0,react.useRef)([0, 1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -40376,7 +41390,7 @@ var MainSidebar = function MainSidebar(props) {
     isButtonMain1 = _useState6[0],
     setIsButtonMain1 = _useState6[1];
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true) return;
+    if (media744l === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (buttonsSubRef.current[0].current.getBoundingClientRect().top < headerHeight) {
@@ -40450,6 +41464,9 @@ var MainSidebar = function MainSidebar(props) {
     widthEnter = 257;
     widthLeave = 202;
   } else if (media375) {
+    widthEnter = 232;
+    widthLeave = 135;
+  } else if (media275) {
     widthEnter = 232;
     widthLeave = 135;
   }
@@ -40566,26 +41583,30 @@ var MainIconsIcon = function MainIconsIcon(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var iconsMainClass = classnames_default()({
     'icons__main': media1728 === true,
     'icons--1133__main': media1133 === true,
     'icons--744__main': media744 === true,
     'icons--744l__main': media744l === true,
-    'icons--375__main': media375 === true
+    'icons--375__main': media375 === true,
+    'icons--275__main': media275 === true
   });
   var iconsMainIconClass = classnames_default()({
     'icons__main-icon': media1728 === true,
     'icons--1133__main-icon': media1133 === true,
     'icons--744__main-icon': media744 === true,
     'icons--744l__main-icon': media744l === true,
-    'icons--375__main-icon': media375 === true
+    'icons--375__main-icon': media375 === true,
+    'icons--275__main-icon': media275 === true
   });
   var iconsMainShadowClass = classnames_default()({
     'icons__main-shadow': media1728 === true,
     'icons--1133__main-shadow': media1133 === true,
     'icons--744__main-shadow': media744 === true,
     'icons--744l__main-shadow': media744l === true,
-    'icons--375__main-shadow': media375 === true
+    'icons--375__main-shadow': media375 === true,
+    'icons--275__main-shadow': media275 === true
   });
   var iconsIconRef = (0,react.useRef)(props.images.map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -40683,61 +41704,70 @@ var MainIcons = function MainIcons(props) {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var mainIconsClass = classnames_default()({
     'main__icons': media1728 === true,
     'main--1133__icons': media1133 === true,
     'main--744__icons': media744 === true,
     'main--744l__icons': media744l === true,
-    'main--375__icons': media375 === true
+    'main--375__icons': media375 === true,
+    'main--275__icons': media275 === true
   });
   var iconsClass = classnames_default()({
     'icons': media1728 === true,
     'icons--1133': media1133 === true,
     'icons--744': media744 === true,
     'icons--744l': media744l === true,
-    'icons--375': media375 === true
+    'icons--375': media375 === true,
+    'icons--275': media275 === true
   });
   var iconsMainClass = classnames_default()({
     'icons-main': media1728 === true,
     'icons-main--1133': media1133 === true,
     'icons-main--744': media744 === true,
     'icons-main--744l': media744l === true,
-    'icons-main--375': media375 === true
+    'icons-main--375': media375 === true,
+    'icons-main--275': media275 === true
   });
   var iconsItemClass = classnames_default()({
     'icons__item': media1728 === true,
     'icons--1133__item': media1133 === true,
     'icons--744__item': media744 === true,
     'icons--744l__item': media744l === true,
-    'icons--375__item': media375 === true
+    'icons--375__item': media375 === true,
+    'icons--275__item': media275 === true
   });
   var iconsItemMainClass = classnames_default()({
     'icons__item-main': media1728 === true,
     'icons--1133__item-main': media1133 === true,
     'icons--744__item-main': media744 === true,
     'icons--744l__item-main': media744l === true,
-    'icons--375__item-main': media375 === true
+    'icons--375__item-main': media375 === true,
+    'icons--275__item-main': media275 === true
   });
   var iconsLinkClass = classnames_default()({
     'icons__link': media1728 === true,
     'icons--1133__link': media1133 === true,
     'icons--744__link': media744 === true,
     'icons--744l__link': media744l === true,
-    'icons--375__link': media375 === true
+    'icons--375__link': media375 === true,
+    'icons--275__link': media275 === true
   });
   var iconsLinkMainClass = classnames_default()({
     'icons__link-main': media1728 === true,
     'icons--1133__link-main': media1133 === true,
     'icons--744__link-main': media744 === true,
     'icons--744l__link-main': media744l === true,
-    'icons--375__link-main': media375 === true
+    'icons--375__link-main': media375 === true,
+    'icons--275__link-main': media275 === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true
+    'popup--375__body': media375 === true,
+    'popup--275__body': media275 === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
@@ -40759,7 +41789,7 @@ var MainIcons = function MainIcons(props) {
     isButtonMainIcons3 = _useState6[0],
     setIsButtonMainIcons3 = _useState6[1];
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true) return;
+    if (media744l === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (buttonsMainIconsRef.current[0].current.getBoundingClientRect().top < headerHeight) {
@@ -40937,26 +41967,30 @@ var Main = function Main() {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var mainClass = classnames_default()({
     'main': media1728 === true,
     'main--1133': media1133 === true,
     'main--744': media744 === true,
     'main--744l': media744l === true,
-    'main--375': media375 === true
+    'main--375': media375 === true,
+    'main--275': media275 === true
   });
   var mainInnerClass = classnames_default()({
     'main__inner': media1728 === true,
     'main--1133__inner': media1133 === true,
     'main--744__inner': media744 === true,
     'main--744l__inner': media744l === true,
-    'main--375__inner': media375 === true
+    'main--375__inner': media375 === true,
+    'main--275__inner': media275 === true
   });
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_main_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_main1133_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_main744_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_main375_namespaceObject);
+  var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_main375_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("section", {
     className: mainClass,
     style: {
@@ -41122,26 +42156,30 @@ function App() {
   var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
   var wrapperClass = classnames_default()({
     'wrapper': media1728 === true,
     'wrapper--1133': media1133 === true,
     'wrapper--744': media744 === true,
     'wrapper--744l': media744l === true,
-    'wrapper--375': media375 === true
+    'wrapper--375': media375 === true,
+    'wrapper--275': media275 === true
   });
   var wrapperProceduresClass = classnames_default()({
     'wrapper__procedures': media1728 === true,
-    'wrapper__procedures--1133': media1133 === true,
-    'wrapper__procedures--744': media744 === true,
-    'wrapper__procedures--744l': media744l === true,
-    'wrapper__procedures--375': media375 === true
+    'wrapper--1133__procedures': media1133 === true,
+    'wrapper--744__procedures': media744 === true,
+    'wrapper--744l__procedures': media744l === true,
+    'wrapper--375__procedures': media375 === true,
+    'wrapper--275__procedures': media275 === true
   });
   var wrapperCertificatesClass = classnames_default()({
     'wrapper__certificates': media1728 === true,
-    'wrapper__certificates--1133': media1133 === true,
-    'wrapper__certificates--744': media744 === true,
-    'wrapper__certificates--744l': media744l === true,
-    'wrapper__certificates--375': media375 === true
+    'wrapper--1133__certificates': media1133 === true,
+    'wrapper--744__certificates': media744 === true,
+    'wrapper--744l__certificates': media744l === true,
+    'wrapper--375__certificates': media375 === true,
+    'wrapper--275__certificates': media275 === true
   });
   var scrollbarWidth = (0,hooks/* useScrollbarWidth */.yR)();
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
