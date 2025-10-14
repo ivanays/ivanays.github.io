@@ -149,13 +149,21 @@ var ProceduresTabs = function ProceduresTabs(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var proceduresTabsClass = classnames_default()({
     'procedures__tabs': media1728 === true,
     'procedures--1133__tabs': media1133 === true,
     'procedures--744__tabs': media744 === true,
     'procedures--744l__tabs': media744l === true,
     'procedures--375__tabs': media375 === true,
-    'procedures--275__tabs': media275 === true
+    'procedures--275__tabs': media275 === true,
+    'procedures--1300__tabs': media1300 === true,
+    'procedures--900__tabs': media900 === true,
+    'procedures--600__tabs': media600 === true,
+    'procedures--600l__tabs': media600l === true
   });
   var proceduresMenuClass = classnames_default()({
     'procedures__menu': media1728 === true,
@@ -163,7 +171,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'procedures--744__menu': media744 === true,
     'procedures--744l__menu': media744l === true,
     'procedures--375__menu': media375 === true,
-    'procedures--275__menu': media275 === true
+    'procedures--275__menu': media275 === true,
+    'procedures--1300__menu': media1300 === true,
+    'procedures--900__menu': media900 === true,
+    'procedures--600__menu': media600 === true,
+    'procedures--600l__menu': media600l === true
   });
   var menuClass = classnames_default()({
     'menu': media1728 === true,
@@ -171,7 +183,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu--744': media744 === true,
     'menu--744l': media744l === true,
     'menu--375': media375 === true,
-    'menu--275': media275 === true
+    'menu--275': media275 === true,
+    'menu--1300': media1300 === true,
+    'menu--900': media900 === true,
+    'menu--600': media600 === true,
+    'menu--600l': media600l === true
   });
   var menuProceduresClass = classnames_default()({
     'menu-procedures': media1728 === true,
@@ -179,7 +195,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu-procedures--744': media744 === true,
     'menu-procedures--744l': media744l === true,
     'menu-procedures--375': media375 === true,
-    'menu-procedures--275': media275 === true
+    'menu-procedures--275': media275 === true,
+    'menu-procedures--1300': media1300 === true,
+    'menu-procedures--900': media900 === true,
+    'menu-procedures--600': media600 === true,
+    'menu-procedures--600l': media600l === true
   });
   var menuItemClass = classnames_default()({
     'menu__item': media1728 === true,
@@ -187,7 +207,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu--744__item': media744 === true,
     'menu--744l__item': media744l === true,
     'menu--375__item': media375 === true,
-    'menu--275__item': media275 === true
+    'menu--275__item': media275 === true,
+    'menu--1300__item': media1300 === true,
+    'menu--900__item': media900 === true,
+    'menu--600__item': media600 === true,
+    'menu--600l__item': media600l === true
   });
   var menuItemTabClass = classnames_default()({
     'menu__item-tab': media1728 === true,
@@ -195,37 +219,54 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu--744__item-tab': media744 === true,
     'menu--744l__item-tab': media744l === true,
     'menu--375__item-tab': media375 === true,
-    'menu--275__item-tab': media275 === true
+    'menu--275__item-tab': media275 === true,
+    'menu--1300__item-tab': media1300 === true,
+    'menu--900__item-tab': media900 === true,
+    'menu--600__item-tab': media600 === true,
+    'menu--600l__item-tab': media600l === true
   });
-  var menuLinkClass = classnames_default()(_defineProperty({
+  var menuLinkClass = classnames_default()(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty({
     'menu__link': media1728 === true,
     'menu--1133__link': media1133 === true,
     'menu--744__link': media744 === true,
     'menu--744l__link': media744l === true,
     'menu--375__link': media375 === true
-  }, "menu--375__link", media275 === true));
+  }, "menu--375__link", media275 === true), 'menu--1300__link', media1300 === true), 'menu--900__link', media900 === true), 'menu--600__link', media600 === true), 'menu--600l__link', media600l === true));
   var menuLinkTabClass = classnames_default()({
     'menu__link-tab': media1728 === true,
     'menu--1133__link-tab': media1133 === true,
     'menu--744__link-tab': media744 === true,
     'menu--744l__link-tab': media744l === true,
     'menu--375__link-tab': media375 === true,
-    'menu--275__link-tab': media275 === true
+    'menu--275__link-tab': media275 === true,
+    'menu--1300__link-tab': media1300 === true,
+    'menu--900__link-tab': media900 === true,
+    'menu--600__link-tab': media600 === true,
+    'menu--600l__link-tab': media600l === true
   });
-  var tabsClass = classnames_default()(_defineProperty({
+  var tabsClass = classnames_default()({
     'tabs': media1728 === true,
     'tabs--1133': media1133 === true,
     'tabs--744': media744 === true,
     'tabs--744l': media744l === true,
-    'tabs--375': media375 === true
-  }, "tabs--375", media275 === true));
+    'tabs--375': media375 === true,
+    'tabs--275': media275 === true,
+    'tabs--1300': media1300 === true,
+    'tabs--900': media900 === true,
+    'tabs--600': media600 === true,
+    'tabs--600l': media600l === true
+  });
   var tabsProceduresClass = classnames_default()({
     'tabs-procedures': media1728 === true,
     'tabs-procedures--1133': media1133 === true,
     'tabs-procedures--744': media744 === true,
     'tabs-procedures--744l': media744l === true,
     'tabs-procedures--375': media375 === true,
-    'tabs-procedures--275': media275 === true
+    'tabs-procedures--275': media275 === true,
+    'tabs-procedures--1300': media1300 === true,
+    'tabs-procedures--900': media900 === true,
+    'tabs-procedures--600': media600 === true,
+    'tabs-procedures--600l': media600l === true
   });
   var tabsBodyClass = classnames_default()({
     'tabs__body': media1728 === true,
@@ -233,7 +274,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'tabs--744__body': media744 === true,
     'tabs--744l__body': media744l === true,
     'tabs--375__body': media375 === true,
-    'tabs--275__body': media275 === true
+    'tabs--275__body': media275 === true,
+    'tabs--1300__body': media1300 === true,
+    'tabs--900__body': media900 === true,
+    'tabs--600__body': media600 === true,
+    'tabs--600l__body': media600l === true
   });
   var tabsFaceClass = classnames_default()({
     'tabs__face': media1728 === true,
@@ -241,7 +286,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'tabs--744__face': media744 === true,
     'tabs--744l__face': media744l === true,
     'tabs--375__face': media375 === true,
-    'tabs--275__face': media275 === true
+    'tabs--275__face': media275 === true,
+    'tabs--1300__face': media1300 === true,
+    'tabs--900__face': media900 === true,
+    'tabs--600__face': media600 === true,
+    'tabs--600l__face': media600l === true
   });
   var tabsSliderClass = classnames_default()({
     'tabs__slider': media1728 === true,
@@ -249,7 +298,11 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'tabs--744__slider': media744 === true,
     'tabs--744l__slider': media744l === true,
     'tabs--375__slider': media375 === true,
-    'tabs--275__slider': media275 === true
+    'tabs--275__slider': media275 === true,
+    'tabs--1300__slider': media1300 === true,
+    'tabs--900__slider': media900 === true,
+    'tabs--600__slider': media600 === true,
+    'tabs--600l__slider': media600l === true
   });
   var menuRef = (0,react.useRef)(null);
   var tabsBodyRef = (0,react.useRef)(null);
@@ -300,7 +353,7 @@ var ProceduresTabs = function ProceduresTabs(props) {
   (0,react.useLayoutEffect)(function () {
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
-      if (media1728 || media1133 || media744) {
+      if (media1728 || media1300 || media1133 || media900 || media744) {
         if (menuRef.current.getBoundingClientRect().top < headerHeight - 80) {
           setIsMenuBodyFace(false);
           isClickedButton === 'body' ? animationScaleY(tabsBodyRef.current, 0, 0, 0, 2) : isClickedButton === 'face' ? animationScaleY(tabsFaceRef.current, 0, 0, 0, 2) : null;
@@ -320,12 +373,20 @@ var ProceduresTabs = function ProceduresTabs(props) {
   var tabsBodyAllClass = classnames_default()("".concat(tabsClass), "".concat(tabsProceduresClass), {
     'tabs-active': isClickedButton === 'body' && media1728 === true,
     'tabs-disactive': isClickedButton !== 'body' && media1728 === true,
+    'tabs-active--1300': isClickedButton === 'body' && media1300 === true,
+    'tabs-disactive--1300': isClickedButton !== 'body' && media1300 === true,
     'tabs-active--1133': isClickedButton === 'body' && media1133 === true,
     'tabs-disactive--1133': isClickedButton !== 'body' && media1133 === true,
+    'tabs-active--900': isClickedButton === 'body' && media900 === true,
+    'tabs-disactive--900': isClickedButton !== 'body' && media900 === true,
     'tabs-active--744': isClickedButton === 'body' && media744 === true,
     'tabs-disactive--744': isClickedButton !== 'body' && media744 === true,
     'tabs-active--744l': isClickedButton === 'body' && media744l === true,
     'tabs-disactive--744l': isClickedButton !== 'body' && media744l === true,
+    'tabs-active--600': isClickedButton === 'body' && media600 === true,
+    'tabs-disactive--600': isClickedButton !== 'body' && media600 === true,
+    'tabs-active--600l': isClickedButton === 'body' && media600l === true,
+    'tabs-disactive--600l': isClickedButton !== 'body' && media600l === true,
     'tabs-active--375': isClickedButton === 'body' && media375 === true,
     'tabs-disactive--375': isClickedButton !== 'body' && media375 === true,
     'tabs-active--275': isClickedButton === 'body' && media275 === true,
@@ -334,12 +395,20 @@ var ProceduresTabs = function ProceduresTabs(props) {
   var tabsFaceAllClass = classnames_default()("".concat(tabsClass), "".concat(tabsProceduresClass), {
     'tabs-active': isClickedButton === 'face' && media1728 === true,
     'tabs-disactive': isClickedButton !== 'face' && media1728 === true,
+    'tabs-active--1300': isClickedButton === 'face' && media1300 === true,
+    'tabs-disactive--1300': isClickedButton !== 'face' && media1300 === true,
     'tabs-active--1133': isClickedButton === 'face' && media1133 === true,
     'tabs-disactive--1133': isClickedButton !== 'face' && media1133 === true,
+    'tabs-active--900': isClickedButton === 'face' && media900 === true,
+    'tabs-disactive--900': isClickedButton !== 'face' && media900 === true,
     'tabs-active--744': isClickedButton === 'face' && media744 === true,
     'tabs-disactive--744': isClickedButton !== 'face' && media744 === true,
     'tabs-active--744l': isClickedButton === 'face' && media744l === true,
     'tabs-disactive--744l': isClickedButton !== 'face' && media744l === true,
+    'tabs-active--600': isClickedButton === 'face' && media600 === true,
+    'tabs-disactive--600': isClickedButton !== 'face' && media600 === true,
+    'tabs-active--600l': isClickedButton === 'face' && media600l === true,
+    'tabs-disactive--600l': isClickedButton !== 'face' && media600l === true,
     'tabs-active--375': isClickedButton === 'face' && media375 === true,
     'tabs-disactive--375': isClickedButton !== 'face' && media375 === true,
     'tabs-active--275': isClickedButton === 'face' && media275 === true,
@@ -348,12 +417,20 @@ var ProceduresTabs = function ProceduresTabs(props) {
   var menuAllClass = classnames_default()("".concat(menuClass), "".concat(menuProceduresClass), {
     'menu-body': isClickedButton === 'body' && media1728 === true,
     'menu-face': isClickedButton === 'face' && media1728 === true,
+    'menu-body--1300': isClickedButton === 'body' && media1300 === true,
+    'menu-face--1300': isClickedButton === 'face' && media1300 === true,
     'menu-body--1133': isClickedButton === 'body' && media1133 === true,
     'menu-face--1133': isClickedButton === 'face' && media1133 === true,
+    'menu-body--900': isClickedButton === 'body' && media900 === true,
+    'menu-face--900': isClickedButton === 'face' && media900 === true,
     'menu-body--744': isClickedButton === 'body' && media744 === true,
     'menu-face--744': isClickedButton === 'face' && media744 === true,
     'menu-body--744l': isClickedButton === 'body' && media744l === true,
     'menu-face--744l': isClickedButton === 'face' && media744l === true,
+    'menu-body--600': isClickedButton === 'body' && media600 === true,
+    'menu-face--600': isClickedButton === 'face' && media600 === true,
+    'menu-body--600l': isClickedButton === 'body' && media600l === true,
+    'menu-face--600l': isClickedButton === 'face' && media600l === true,
     'menu-body--375': isClickedButton === 'body' && media375 === true,
     'menu-face--375': isClickedButton === 'face' && media375 === true,
     'menu-body--275': isClickedButton === 'body' && media275 === true,
@@ -363,15 +440,27 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu__tab-active': isClickedButton === 'body' && media1728 === true,
     'menu__tab-disactive': isClickedButton !== 'body' && media1728 === true,
     'menu__link-hover': isHoverBody && media1728 === true,
+    'menu--1300__tab-active': isClickedButton === 'body' && media1300 === true,
+    'menu--1300__tab-disactive': isClickedButton !== 'body' && media1300 === true,
+    'menu--1300__link-hover': isHoverBody && media1300 === true,
     'menu--1133__tab-active': isClickedButton === 'body' && media1133 === true,
     'menu--1133__tab-disactive': isClickedButton !== 'body' && media1133 === true,
     'menu--1133__link-hover': isHoverBody && media1133 === true,
+    'menu--900__tab-active': isClickedButton === 'body' && media900 === true,
+    'menu--900__tab-disactive': isClickedButton !== 'body' && media900 === true,
+    'menu--900__link-hover': isHoverBody && media900 === true,
     'menu--744__tab-active': isClickedButton === 'body' && media744 === true,
     'menu--744__tab-disactive': isClickedButton !== 'body' && media744 === true,
     'menu--744__link-hover': isHoverBody && media744 === true,
     'menu--744l__tab-active': isClickedButton === 'body' && media744l === true,
     'menu--744l__tab-disactive': isClickedButton !== 'body' && media744l === true,
     'menu--744l__link-hover': isHoverBody && media744l === true,
+    'menu--600__tab-active': isClickedButton === 'body' && media600 === true,
+    'menu--600__tab-disactive': isClickedButton !== 'body' && media600 === true,
+    'menu--600__link-hover': isHoverBody && media600 === true,
+    'menu--600l__tab-active': isClickedButton === 'body' && media600l === true,
+    'menu--600l__tab-disactive': isClickedButton !== 'body' && media600l === true,
+    'menu--600l__link-hover': isHoverBody && media600l === true,
     'menu--375__tab-active': isClickedButton === 'body' && media375 === true,
     'menu--375__tab-disactive': isClickedButton !== 'body' && media375 === true,
     'menu--375__link-hover': isHoverBody && media375 === true,
@@ -383,15 +472,27 @@ var ProceduresTabs = function ProceduresTabs(props) {
     'menu__tab-active': isClickedButton === 'face' && media1728 === true,
     'menu__tab-disactive': isClickedButton !== 'face' && media1728 === true,
     'menu__link-hover': isHoverFace && media1728 === true,
+    'menu--1300__tab-active': isClickedButton === 'face' && media1300 === true,
+    'menu--1300__tab-disactive': isClickedButton !== 'face' && media1300 === true,
+    'menu--1300__link-hover': isHoverFace && media1300 === true,
     'menu--1133__tab-active': isClickedButton === 'face' && media1133 === true,
     'menu--1133__tab-disactive': isClickedButton !== 'face' && media1133 === true,
     'menu--1133__link-hover': isHoverFace && media1133 === true,
+    'menu--900__tab-active': isClickedButton === 'face' && media900 === true,
+    'menu--900__tab-disactive': isClickedButton !== 'face' && media900 === true,
+    'menu--900__link-hover': isHoverFace && media900 === true,
     'menu--744__tab-active': isClickedButton === 'face' && media744 === true,
     'menu--744__tab-disactive': isClickedButton !== 'face' && media744 === true,
     'menu--744__link-hover': isHoverFace && media744 === true,
     'menu--744l__tab-active': isClickedButton === 'face' && media744l === true,
     'menu--744l__tab-disactive': isClickedButton !== 'face' && media744l === true,
     'menu--744l__link-hover': isHoverFace && media744l === true,
+    'menu--600__tab-active': isClickedButton === 'face' && media600 === true,
+    'menu--600__tab-disactive': isClickedButton !== 'face' && media600 === true,
+    'menu--600__link-hover': isHoverFace && media600 === true,
+    'menu--600l__tab-active': isClickedButton === 'face' && media600l === true,
+    'menu--600l__tab-disactive': isClickedButton !== 'face' && media600l === true,
+    'menu--600l__link-hover': isHoverFace && media600l === true,
     'menu--375__tab-active': isClickedButton === 'face' && media375 === true,
     'menu--375__tab-disactive': isClickedButton !== 'face' && media375 === true,
     'menu--375__link-hover': isHoverFace && media375 === true,
@@ -593,13 +694,21 @@ function Procedures(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var proceduresClass = classnames_default()({
     'procedures': media1728 === true,
     'procedures--1133': media1133 === true,
     'procedures--744': media744 === true,
     'procedures--744l': media744l === true,
     'procedures--375': media375 === true,
-    'procedures--275': media275 === true
+    'procedures--275': media275 === true,
+    'procedures--1300': media1300 === true,
+    'procedures--900': media900 === true,
+    'procedures--600': media600 === true,
+    'procedures--600l': media600l === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
@@ -607,7 +716,11 @@ function Procedures(props) {
     'container--744': media744 === true,
     'container--744l': media744l === true,
     'container--375': media375 === true,
-    'container--275': media275 === true
+    'container--275': media275 === true,
+    'container--1300': media1300 === true,
+    'container--900': media900 === true,
+    'container--600': media600 === true,
+    'container--600l': media600l === true
   });
   var containerProceduresClass = classnames_default()({
     'container-procedures': media1728 === true,
@@ -615,7 +728,11 @@ function Procedures(props) {
     'container-procedures--744': media744 === true,
     'container-procedures--744l': media744l === true,
     'container-procedures--375': media375 === true,
-    'container-procedures--275': media275 === true
+    'container-procedures--275': media275 === true,
+    'container-procedures--1300': media1300 === true,
+    'container-procedures--900': media900 === true,
+    'container-procedures--600': media600 === true,
+    'container-procedures--600l': media600l === true
   });
   var containerRef = (0,react.useRef)(null);
   var _useState = (0,react.useState)(0),

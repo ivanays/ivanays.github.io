@@ -41,13 +41,21 @@ var ModalClose = function ModalClose(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var popupCloseClass = classnames_default()({
     'popup__close': media1728 === true,
     'popup--1133__close': media1133 === true,
     'popup--744__close': media744 === true,
     'popup--744l__close': media744l === true,
     'popup--375__close': media375 === true,
-    'popup--275__close': media275 === true
+    'popup--275__close': media275 === true,
+    'popup--1300__close': media1300 === true,
+    'popup--900__close': media900 === true,
+    'popup--600__close': media600 === true,
+    'popup--600l__close': media600l === true
   });
   var popupLinkClass = classnames_default()({
     'popup__link': media1728 === true,
@@ -55,7 +63,11 @@ var ModalClose = function ModalClose(props) {
     'popup--744__link': media744 === true,
     'popup--744l__link': media744l === true,
     'popup--375__link': media375 === true,
-    'popup--275__link': media275 === true
+    'popup--275__link': media275 === true,
+    'popup--1300__link': media1300 === true,
+    'popup--900__link': media900 === true,
+    'popup--600__link': media600 === true,
+    'popup--600l__link': media600l === true
   });
   var popupLinkCloseClass = classnames_default()({
     'popup__link-close': media1728 === true,
@@ -63,7 +75,11 @@ var ModalClose = function ModalClose(props) {
     'popup--744__link-close': media744 === true,
     'popup--744l__link-close': media744l === true,
     'popup--375__link-close': media375 === true,
-    'popup--275__link-close': media275 === true
+    'popup--275__link-close': media275 === true,
+    'popup--1300__link-close': media1300 === true,
+    'popup--900__link-close': media900 === true,
+    'popup--600__link-close': media600 === true,
+    'popup--600l__link-close': media600l === true
   });
   var popupIconClass = classnames_default()({
     'popup__icon': media1728 === true,
@@ -71,7 +87,11 @@ var ModalClose = function ModalClose(props) {
     'popup--744__icon': media744 === true,
     'popup--744l__icon': media744l === true,
     'popup--375__icon': media375 === true,
-    'popup--275__icon': media275 === true
+    'popup--275__icon': media275 === true,
+    'popup--1300__icon': media1300 === true,
+    'popup--900__icon': media900 === true,
+    'popup--600__icon': media600 === true,
+    'popup--600l__icon': media600l === true
   });
   var popupIconCloseClass = classnames_default()({
     'popup__icon-close': media1728 === true,
@@ -79,7 +99,11 @@ var ModalClose = function ModalClose(props) {
     'popup--744__icon-close': media744 === true,
     'popup--744l__icon-close': media744l === true,
     'popup--375__icon-close': media375 === true,
-    'popup--275__icon-close': media275 === true
+    'popup--275__icon-close': media275 === true,
+    'popup--1300__icon-close': media1300 === true,
+    'popup--900__icon-close': media900 === true,
+    'popup--600__icon-close': media600 === true,
+    'popup--600l__icon-close': media600l === true
   });
   (0,hooks/* useBodyScrollLock */.yJ)();
   var propsData = function propsData(props) {
@@ -156,13 +180,21 @@ var ModalContentAB0 = function ModalContentAB0(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -170,7 +202,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -178,7 +214,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -186,7 +226,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -194,7 +238,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -202,7 +250,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -210,7 +262,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -218,7 +274,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -226,7 +286,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -234,7 +298,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -242,7 +310,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -250,7 +322,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -258,7 +334,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -266,7 +346,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -274,7 +358,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -282,7 +370,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -290,7 +382,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -298,7 +394,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -306,7 +406,11 @@ var ModalContentAB0 = function ModalContentAB0(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -498,13 +602,21 @@ var ModalContentAB1 = function ModalContentAB1(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -512,7 +624,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -520,7 +636,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -528,7 +648,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -536,7 +660,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -544,7 +672,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -552,7 +684,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -560,7 +696,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -568,7 +708,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -576,7 +720,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -584,7 +732,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -592,7 +744,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -600,7 +756,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -608,7 +768,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -616,7 +780,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -624,7 +792,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -632,7 +804,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -640,7 +816,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -648,7 +828,11 @@ var ModalContentAB1 = function ModalContentAB1(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -840,13 +1024,21 @@ var ModalContentAB2 = function ModalContentAB2(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -854,7 +1046,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -862,7 +1058,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -870,7 +1070,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -878,7 +1082,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -886,7 +1094,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -894,7 +1106,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -902,7 +1118,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -910,7 +1130,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -918,7 +1142,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -926,7 +1154,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -934,7 +1166,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -942,7 +1178,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -950,7 +1190,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -958,7 +1202,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -966,7 +1214,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -974,7 +1226,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -982,7 +1238,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -990,7 +1250,11 @@ var ModalContentAB2 = function ModalContentAB2(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1182,13 +1446,21 @@ var ModalContentAB3 = function ModalContentAB3(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -1196,7 +1468,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -1204,7 +1480,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -1212,7 +1492,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -1220,7 +1504,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -1228,7 +1516,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -1236,7 +1528,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -1244,7 +1540,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -1252,7 +1552,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -1260,7 +1564,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -1268,7 +1576,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -1276,7 +1588,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -1284,7 +1600,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -1292,7 +1612,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -1300,7 +1624,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -1308,7 +1636,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -1316,7 +1648,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -1324,7 +1660,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -1332,7 +1672,11 @@ var ModalContentAB3 = function ModalContentAB3(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1524,13 +1868,21 @@ var ModalContentAB4 = function ModalContentAB4(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -1538,7 +1890,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -1546,7 +1902,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -1554,7 +1914,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -1562,7 +1926,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -1570,7 +1938,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -1578,7 +1950,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -1586,7 +1962,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -1594,7 +1974,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -1602,7 +1986,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -1610,7 +1998,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -1618,7 +2010,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -1626,7 +2022,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -1634,7 +2034,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -1642,7 +2046,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -1650,7 +2058,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -1658,7 +2070,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -1666,7 +2082,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -1674,7 +2094,11 @@ var ModalContentAB4 = function ModalContentAB4(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -1866,13 +2290,21 @@ var ModalContentAB5 = function ModalContentAB5(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -1880,7 +2312,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -1888,7 +2324,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -1896,7 +2336,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -1904,7 +2348,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -1912,7 +2360,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -1920,7 +2372,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -1928,7 +2384,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -1936,7 +2396,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -1944,7 +2408,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -1952,7 +2420,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -1968,7 +2440,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -1976,7 +2452,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -1984,7 +2464,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -1992,7 +2476,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -2000,7 +2488,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -2008,7 +2500,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -2016,7 +2512,11 @@ var ModalContentAB5 = function ModalContentAB5(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2208,13 +2708,21 @@ var ModalContentAB6 = function ModalContentAB6(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -2222,7 +2730,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -2230,7 +2742,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -2238,7 +2754,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -2246,7 +2766,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -2254,7 +2778,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -2262,7 +2790,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -2270,7 +2802,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -2278,7 +2814,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -2286,7 +2826,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -2294,7 +2838,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -2302,7 +2850,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -2310,7 +2862,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -2318,7 +2874,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -2326,7 +2886,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -2334,7 +2898,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -2342,7 +2910,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -2350,7 +2922,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -2358,7 +2934,11 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2550,13 +3130,21 @@ var ModalContentAF0 = function ModalContentAF0(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -2564,7 +3152,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -2572,7 +3164,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -2580,7 +3176,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -2588,7 +3188,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -2596,7 +3200,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -2604,7 +3212,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -2612,7 +3224,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -2620,7 +3236,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -2628,7 +3248,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -2636,7 +3260,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -2644,7 +3272,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -2652,7 +3284,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -2660,7 +3296,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -2668,7 +3308,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -2676,7 +3320,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -2684,7 +3332,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -2692,7 +3344,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -2700,7 +3356,11 @@ var ModalContentAF0 = function ModalContentAF0(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -2892,13 +3552,21 @@ var ModalContentAF1 = function ModalContentAF1(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -2906,7 +3574,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -2914,7 +3586,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -2922,7 +3598,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -2930,7 +3610,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -2938,7 +3622,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -2946,7 +3634,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -2954,7 +3646,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -2962,7 +3658,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -2970,7 +3670,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -2978,7 +3682,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -2986,7 +3694,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -2994,7 +3706,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -3002,7 +3718,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -3010,7 +3730,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -3018,7 +3742,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -3026,7 +3754,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -3034,7 +3766,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -3042,7 +3778,11 @@ var ModalContentAF1 = function ModalContentAF1(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3234,13 +3974,21 @@ var ModalContentAF2 = function ModalContentAF2(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -3248,7 +3996,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -3256,7 +4008,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -3264,7 +4020,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -3272,7 +4032,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -3280,7 +4044,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -3288,7 +4056,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -3296,7 +4068,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -3304,7 +4080,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -3312,7 +4092,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -3320,7 +4104,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -3328,7 +4116,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -3336,7 +4128,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -3344,7 +4140,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -3352,7 +4152,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -3360,7 +4164,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -3368,7 +4176,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -3376,7 +4188,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -3384,7 +4200,11 @@ var ModalContentAF2 = function ModalContentAF2(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3576,13 +4396,21 @@ var ModalContentAF3 = function ModalContentAF3(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -3590,7 +4418,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -3598,7 +4430,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -3606,7 +4442,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -3614,7 +4454,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -3622,7 +4466,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -3630,7 +4478,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -3638,7 +4490,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -3646,7 +4502,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -3654,7 +4514,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -3662,7 +4526,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -3670,7 +4538,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -3678,7 +4550,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -3686,7 +4562,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -3694,7 +4574,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -3702,7 +4586,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -3710,7 +4598,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -3718,7 +4610,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -3726,7 +4622,11 @@ var ModalContentAF3 = function ModalContentAF3(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -3918,13 +4818,21 @@ var ModalContentAF4 = function ModalContentAF4(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -3932,7 +4840,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -3940,7 +4852,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -3948,7 +4864,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -3956,7 +4876,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -3964,7 +4888,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -3972,7 +4900,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -3980,7 +4912,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -3988,7 +4924,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -3996,7 +4936,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -4004,7 +4948,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -4012,7 +4960,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -4020,7 +4972,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -4028,7 +4984,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -4036,7 +4996,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -4044,7 +5008,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -4052,7 +5020,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -4060,7 +5032,11 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -4068,9 +5044,12 @@ var ModalContentAF4 = function ModalContentAF4(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
-  2;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -4261,13 +5240,21 @@ var ModalContentAF5 = function ModalContentAF5(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -4275,7 +5262,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -4283,7 +5274,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -4291,7 +5286,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -4299,7 +5298,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -4307,7 +5310,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -4315,7 +5322,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -4323,7 +5334,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -4331,7 +5346,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -4339,7 +5358,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -4347,7 +5370,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -4355,7 +5382,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -4363,7 +5394,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -4371,7 +5406,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -4379,7 +5418,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -4387,7 +5430,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -4395,7 +5442,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -4403,7 +5454,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -4411,7 +5466,11 @@ var ModalContentAF5 = function ModalContentAF5(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -4603,13 +5662,21 @@ var ModalContentAF6 = function ModalContentAF6(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -4617,7 +5684,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -4625,7 +5696,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -4633,7 +5708,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -4641,7 +5720,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -4649,7 +5732,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -4657,7 +5744,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -4665,7 +5756,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -4673,7 +5768,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -4681,7 +5780,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -4689,7 +5792,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -4697,7 +5804,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -4705,7 +5816,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -4713,7 +5828,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -4721,7 +5840,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -4729,7 +5852,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -4737,7 +5864,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -4745,7 +5876,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -4753,7 +5888,11 @@ var ModalContentAF6 = function ModalContentAF6(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -4945,13 +6084,21 @@ var ModalContentAF7 = function ModalContentAF7(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -4959,7 +6106,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -4967,7 +6118,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -4975,7 +6130,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -4983,7 +6142,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -4991,7 +6154,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -4999,7 +6166,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -5007,7 +6178,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -5015,7 +6190,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -5023,7 +6202,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -5031,7 +6214,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -5039,7 +6226,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -5047,7 +6238,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -5055,7 +6250,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -5063,7 +6262,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -5071,7 +6274,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -5079,7 +6286,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -5087,7 +6298,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -5095,7 +6310,11 @@ var ModalContentAF7 = function ModalContentAF7(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5287,13 +6506,21 @@ var ModalContentAF8 = function ModalContentAF8(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -5301,7 +6528,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -5309,7 +6540,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -5317,7 +6552,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -5325,7 +6564,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -5333,7 +6576,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -5341,7 +6588,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -5349,7 +6600,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -5357,7 +6612,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -5365,7 +6624,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -5373,7 +6636,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -5381,7 +6648,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -5389,7 +6660,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -5397,7 +6672,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -5405,7 +6684,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -5413,7 +6696,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -5421,7 +6708,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -5429,7 +6720,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -5437,7 +6732,11 @@ var ModalContentAF8 = function ModalContentAF8(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5615,10 +6914,6 @@ var ModalContentAF8 = function ModalContentAF8(props) {
   }, "22 000")))))))));
 };
 ;// ./src/components/modals/modal/modal_content/modal_content-a/modal_content-a-f/ModalContentAF9.jsx
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
-function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
-function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -5633,20 +6928,33 @@ var ModalContentAF9 = function ModalContentAF9(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var articleClass = classnames_default()(_defineProperty({
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
+  var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
-    'article--375': media375 === true
-  }, "article--375", media275 === true));
+    'article--375': media375 === true,
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
+  });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
     'article--1133__body': media1133 === true,
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -5654,7 +6962,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -5662,7 +6974,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -5670,7 +6986,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -5678,7 +6998,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -5686,7 +7010,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -5694,7 +7022,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -5702,7 +7034,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -5710,7 +7046,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -5718,7 +7058,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -5726,7 +7070,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -5734,7 +7082,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -5742,7 +7094,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -5750,7 +7106,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -5758,7 +7118,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -5766,7 +7130,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -5774,7 +7142,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -5782,7 +7154,11 @@ var ModalContentAF9 = function ModalContentAF9(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -5974,13 +7350,21 @@ var ModalContentAF10 = function ModalContentAF10(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -5988,7 +7372,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -5996,7 +7384,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -6004,7 +7396,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -6012,7 +7408,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -6020,7 +7420,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -6028,7 +7432,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -6036,7 +7444,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -6044,7 +7456,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -6052,7 +7468,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -6060,7 +7480,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -6068,7 +7492,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -6076,7 +7504,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -6084,7 +7516,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -6092,7 +7528,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -6100,7 +7540,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -6108,7 +7552,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -6116,7 +7564,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -6124,7 +7576,11 @@ var ModalContentAF10 = function ModalContentAF10(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -6316,13 +7772,21 @@ var ModalContentAF11 = function ModalContentAF11(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -6330,7 +7794,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -6338,7 +7806,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -6346,7 +7818,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -6354,7 +7830,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -6362,7 +7842,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -6370,7 +7854,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -6378,7 +7866,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -6386,7 +7878,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -6394,7 +7890,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -6402,7 +7902,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -6410,7 +7914,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -6418,7 +7926,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -6426,7 +7938,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -6434,7 +7950,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -6442,7 +7962,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -6450,7 +7974,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -6458,7 +7986,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -6466,7 +7998,11 @@ var ModalContentAF11 = function ModalContentAF11(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -6658,13 +8194,21 @@ var ModalContentAF12 = function ModalContentAF12(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -6672,7 +8216,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -6680,7 +8228,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -6688,7 +8240,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -6696,7 +8252,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -6704,7 +8264,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -6712,7 +8276,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -6720,7 +8288,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -6728,7 +8300,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -6736,7 +8312,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -6744,7 +8324,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -6752,7 +8336,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -6760,7 +8348,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -6768,7 +8360,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -6776,7 +8372,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -6784,7 +8384,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -6792,7 +8396,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -6800,7 +8408,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -6808,7 +8420,11 @@ var ModalContentAF12 = function ModalContentAF12(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -7000,13 +8616,21 @@ var ModalContentAF13 = function ModalContentAF13(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var articleClass = classnames_default()({
     'article': media1728 === true,
     'article--1133': media1133 === true,
     'article--744': media744 === true,
     'article--744l': media744l === true,
     'article--375': media375 === true,
-    'article--275': media275 === true
+    'article--275': media275 === true,
+    'article--1300': media1300 === true,
+    'article--900': media900 === true,
+    'article--600': media600 === true,
+    'article--600l': media600l === true
   });
   var articleBodyClass = classnames_default()({
     'article__body': media1728 === true,
@@ -7014,7 +8638,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__body': media744 === true,
     'article--744l__body': media744l === true,
     'article--375__body': media375 === true,
-    'article--275__body': media275 === true
+    'article--275__body': media275 === true,
+    'article--1300__body': media1300 === true,
+    'article--900__body': media900 === true,
+    'article--600__body': media600 === true,
+    'article--600l__body': media600l === true
   });
   var articleTitleClass = classnames_default()({
     'article__title': media1728 === true,
@@ -7022,7 +8650,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__title': media744 === true,
     'article--744l__title': media744l === true,
     'article--375__title': media375 === true,
-    'article--275__title': media275 === true
+    'article--275__title': media275 === true,
+    'article--1300__title': media1300 === true,
+    'article--900__title': media900 === true,
+    'article--600__title': media600 === true,
+    'article--600l__title': media600l === true
   });
   var articleTitleSubClass = classnames_default()({
     'article__title-sub': media1728 === true,
@@ -7030,7 +8662,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__title-sub': media744 === true,
     'article--744l__title-sub': media744l === true,
     'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true
+    'article--275__title-sub': media275 === true,
+    'article--1300__title-sub': media1300 === true,
+    'article--900__title-sub': media900 === true,
+    'article--600__title-sub': media600 === true,
+    'article--600l__title-sub': media600l === true
   });
   var articleTitleProcedureClass = classnames_default()({
     'article__title-procedure': media1728 === true,
@@ -7038,7 +8674,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__title-procedure': media744 === true,
     'article--744l__title-procedure': media744l === true,
     'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true
+    'article--275__title-procedure': media275 === true,
+    'article--1300__title-procedure': media1300 === true,
+    'article--900__title-procedure': media900 === true,
+    'article--600__title-procedure': media600 === true,
+    'article--600l__title-procedure': media600l === true
   });
   var articleContentClass = classnames_default()({
     'article__content': media1728 === true,
@@ -7046,7 +8686,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__content': media744 === true,
     'article--744l__content': media744l === true,
     'article--375__content': media375 === true,
-    'article--275__content': media275 === true
+    'article--275__content': media275 === true,
+    'article--1300__content': media1300 === true,
+    'article--900__content': media900 === true,
+    'article--600__content': media600 === true,
+    'article--600l__content': media600l === true
   });
   var articleBlockClass = classnames_default()({
     'article__block': media1728 === true,
@@ -7054,7 +8698,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__block': media744 === true,
     'article--744l__block': media744l === true,
     'article--375__block': media375 === true,
-    'article--275__block': media275 === true
+    'article--275__block': media275 === true,
+    'article--1300__block': media1300 === true,
+    'article--900__block': media900 === true,
+    'article--600__block': media600 === true,
+    'article--600l__block': media600l === true
   });
   var articleProcedureClass = classnames_default()({
     'article__procedure': media1728 === true,
@@ -7062,7 +8710,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__procedure': media744 === true,
     'article--744l__procedure': media744l === true,
     'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true
+    'article--275__procedure': media275 === true,
+    'article--1300__procedure': media1300 === true,
+    'article--900__procedure': media900 === true,
+    'article--600__procedure': media600 === true,
+    'article--600l__procedure': media600l === true
   });
   var articlePClass = classnames_default()({
     'article__p': media1728 === true,
@@ -7070,7 +8722,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__p': media744 === true,
     'article--744l__p': media744l === true,
     'article--375__p': media375 === true,
-    'article--275__p': media275 === true
+    'article--275__p': media275 === true,
+    'article--1300__p': media1300 === true,
+    'article--900__p': media900 === true,
+    'article--600__p': media600 === true,
+    'article--600l__p': media600l === true
   });
   var articleSpanClass = classnames_default()({
     'article__span': media1728 === true,
@@ -7078,7 +8734,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__span': media744 === true,
     'article--744l__span': media744l === true,
     'article--375__span': media375 === true,
-    'article--275__span': media275 === true
+    'article--275__span': media275 === true,
+    'article--1300__span': media1300 === true,
+    'article--900__span': media900 === true,
+    'article--600__span': media600 === true,
+    'article--600l__span': media600l === true
   });
   var articleSpanMachineClass = classnames_default()({
     'article__span-machine': media1728 === true,
@@ -7086,7 +8746,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__span-machine': media744 === true,
     'article--744l__span-machine': media744l === true,
     'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true
+    'article--275__span-machine': media275 === true,
+    'article--1300__span-machine': media1300 === true,
+    'article--900__span-machine': media900 === true,
+    'article--600__span-machine': media600 === true,
+    'article--600l__span-machine': media600l === true
   });
   var articleImageClass = classnames_default()({
     'article__image': media1728 === true,
@@ -7094,7 +8758,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__image': media744 === true,
     'article--744l__image': media744l === true,
     'article--375__image': media375 === true,
-    'article--275__image': media275 === true
+    'article--275__image': media275 === true,
+    'article--1300__image': media1300 === true,
+    'article--900__image': media900 === true,
+    'article--600__image': media600 === true,
+    'article--600l__image': media600l === true
   });
   var articleIndicationsClass = classnames_default()({
     'article__indications': media1728 === true,
@@ -7102,7 +8770,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__indications': media744 === true,
     'article--744l__indications': media744l === true,
     'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true
+    'article--275__indications': media275 === true,
+    'article--1300__indications': media1300 === true,
+    'article--900__indications': media900 === true,
+    'article--600__indications': media600 === true,
+    'article--600l__indications': media600l === true
   });
   var articleItemsClass = classnames_default()({
     'article__items': media1728 === true,
@@ -7110,7 +8782,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__items': media744 === true,
     'article--744l__items': media744l === true,
     'article--375__items': media375 === true,
-    'article--275__items': media275 === true
+    'article--275__items': media275 === true,
+    'article--1300__items': media1300 === true,
+    'article--900__items': media900 === true,
+    'article--600__items': media600 === true,
+    'article--600l__items': media600l === true
   });
   var articleItemClass = classnames_default()({
     'article__item': media1728 === true,
@@ -7118,7 +8794,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__item': media744 === true,
     'article--744l__item': media744l === true,
     'article--375__item': media375 === true,
-    'article--275__item': media275 === true
+    'article--275__item': media275 === true,
+    'article--1300__item': media1300 === true,
+    'article--900__item': media900 === true,
+    'article--600__item': media600 === true,
+    'article--600l__item': media600l === true
   });
   var articlePItemClass = classnames_default()({
     'article__p-item': media1728 === true,
@@ -7126,7 +8806,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__p-item': media744 === true,
     'article--744l__p-item': media744l === true,
     'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true
+    'article--275__p-item': media275 === true,
+    'article--1300__p-item': media1300 === true,
+    'article--900__p-item': media900 === true,
+    'article--600__p-item': media600 === true,
+    'article--600l__p-item': media600l === true
   });
   var articleContraindicationsClass = classnames_default()({
     'article__contraindications': media1728 === true,
@@ -7134,7 +8818,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__contraindications': media744 === true,
     'article--744l__contraindications': media744l === true,
     'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true
+    'article--275__contraindications': media275 === true,
+    'article--1300__contraindications': media1300 === true,
+    'article--900__contraindications': media900 === true,
+    'article--600__contraindications': media600 === true,
+    'article--600l__contraindications': media600l === true
   });
   var articlePriceClass = classnames_default()({
     'article__price': media1728 === true,
@@ -7142,7 +8830,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__price': media744 === true,
     'article--744l__price': media744l === true,
     'article--375__price': media375 === true,
-    'article--275__price': media275 === true
+    'article--275__price': media275 === true,
+    'article--1300__price': media1300 === true,
+    'article--900__price': media900 === true,
+    'article--600__price': media600 === true,
+    'article--600l__price': media600l === true
   });
   var articleItemPriceClass = classnames_default()({
     'article__item-price': media1728 === true,
@@ -7150,7 +8842,11 @@ var ModalContentAF13 = function ModalContentAF13(props) {
     'article--744__item-price': media744 === true,
     'article--744l__item-price': media744l === true,
     'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true
+    'article--275__item-price': media275 === true,
+    'article--1300__item-price': media1300 === true,
+    'article--900__item-price': media900 === true,
+    'article--600__item-price': media600 === true,
+    'article--600l__item-price': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
@@ -7373,13 +9069,21 @@ var ModalContentA = function ModalContentA(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentArticleClass = classnames_default()({
     'content__article': media1728 === true,
     'content--1133__article': media1133 === true,
     'content--744__article': media744 === true,
     'content--744l__article': media744l === true,
     'content--375__article': media375 === true,
-    'content--275__article': media275 === true
+    'content--275__article': media275 === true,
+    'content--1300__article': media1300 === true,
+    'content--900__article': media900 === true,
+    'content--600__article': media600 === true,
+    'content--600l__article': media600l === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
@@ -7387,7 +9091,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
     'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true
+    'content--275__wranning': media275 === true,
+    'content--1300__wranning': media1300 === true,
+    'content--900__wranning': media900 === true,
+    'content--600__wranning': media600 === true,
+    'content--600l__wranning': media600l === true
   });
   var contentWranningArticleClass = classnames_default()({
     'content__wranning-home': media1728 === true,
@@ -7395,7 +9103,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__wranning-home': media744 === true,
     'content--744l__wranning-home': media744l === true,
     'content--375__wranning-home': media375 === true,
-    'content--275__wranning-home': media275 === true
+    'content--275__wranning-home': media275 === true,
+    'content--1300__wranning-home': media1300 === true,
+    'content--900__wranning-home': media900 === true,
+    'content--600__wranning-home': media600 === true,
+    'content--600l__wranning-home': media600l === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
@@ -7403,7 +9115,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
     'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true
+    'content--275__inner': media275 === true,
+    'content--1300__inner': media1300 === true,
+    'content--900__inner': media900 === true,
+    'content--600__inner': media600 === true,
+    'content--600l__inner': media600l === true
   });
   var contentInnerArticleClass = classnames_default()({
     'content__inner-home': media1728 === true,
@@ -7411,7 +9127,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__inner-home': media744 === true,
     'content--744l__inner-home': media744l === true,
     'content--375__inner-home': media375 === true,
-    'content--275__inner-home': media275 === true
+    'content--275__inner-home': media275 === true,
+    'content--1300__inner-home': media1300 === true,
+    'content--900__inner-home': media900 === true,
+    'content--600__inner-home': media600 === true,
+    'content--600l__inner-home': media600l === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
@@ -7419,7 +9139,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
     'content--375__p': media375 === true,
-    'content--275__p': media275 === true
+    'content--275__p': media275 === true,
+    'content--1300__p': media1300 === true,
+    'content--900__p': media900 === true,
+    'content--600__p': media600 === true,
+    'content--600l__p': media600l === true
   });
   var contentPArticleClass = classnames_default()({
     'content__p-home': media1728 === true,
@@ -7427,7 +9151,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__p-home': media744 === true,
     'content--744l__p-home': media744l === true,
     'content--375__p-home': media375 === true,
-    'content--275__p-home': media275 === true
+    'content--275__p-home': media275 === true,
+    'content--1300__p-home': media1300 === true,
+    'content--900__p-home': media900 === true,
+    'content--600__p-home': media600 === true,
+    'content--600l__p-home': media600l === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
@@ -7435,7 +9163,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
     'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true
+    'content--275__phone': media275 === true,
+    'content--1300__phone': media1300 === true,
+    'content--900__phone': media900 === true,
+    'content--600__phone': media600 === true,
+    'content--600l__phone': media600l === true
   });
   var contentPhoneArticleClass = classnames_default()({
     'content__phone-home': media1728 === true,
@@ -7443,7 +9175,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__phone-home': media744 === true,
     'content--744l__phone-home': media744l === true,
     'content--375__phone-home': media375 === true,
-    'content--275__phone-home': media275 === true
+    'content--275__phone-home': media275 === true,
+    'content--1300__phone-home': media1300 === true,
+    'content--900__phone-home': media900 === true,
+    'content--600__phone-home': media600 === true,
+    'content--600l__phone-home': media600l === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
@@ -7451,7 +9187,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
     'content--375__number': media375 === true,
-    'content--275__number': media275 === true
+    'content--275__number': media275 === true,
+    'content--1300__number': media1300 === true,
+    'content--900__number': media900 === true,
+    'content--600__number': media600 === true,
+    'content--600l__number': media600l === true
   });
   var contentNumberArticleClass = classnames_default()({
     'content__number-home': media1728 === true,
@@ -7459,7 +9199,11 @@ var ModalContentA = function ModalContentA(props) {
     'content--744__number-home': media744 === true,
     'content--744l__number-home': media744l === true,
     'content--375__number-home': media375 === true,
-    'content--275__number-home': media275 === true
+    'content--275__number-home': media275 === true,
+    'content--1300__number-home': media1300 === true,
+    'content--900__number-home': media900 === true,
+    'content--600__number-home': media600 === true,
+    'content--600l__number-home': media600l === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -7517,13 +9261,21 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var tableBodyClass = classnames_default()({
     'table__body': media1728 === true,
     'table--1133__body': media1133 === true,
     'table--744__body': media744 === true,
     'table--744l__body': media744l === true,
     'table--375__body': media375 === true,
-    'table--275__body': media275 === true
+    'table--275__body': media275 === true,
+    'table--1300__body': media1300 === true,
+    'table--900__body': media900 === true,
+    'table--600__body': media600 === true,
+    'table--600l__body': media600l === true
   });
   var tableBodyWindowsClass = classnames_default()({
     'table__body-windows': media1728 === true,
@@ -7531,7 +9283,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__body-windows': media744 === true,
     'table--744l__body-windows': media744l === true,
     'table--375__body-windows': media375 === true,
-    'table--275__body-windows': media275 === true
+    'table--275__body-windows': media275 === true,
+    'table--1300__body-windows': media1300 === true,
+    'table--900__body-windows': media900 === true,
+    'table--600__body-windows': media600 === true,
+    'table--600l__body-windows': media600l === true
   });
   var tableTrClass = classnames_default()({
     'table__tr': media1728 === true,
@@ -7539,7 +9295,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__tr': media744 === true,
     'table--744l__tr': media744l === true,
     'table--375__tr': media375 === true,
-    'table--275__tr': media275 === true
+    'table--275__tr': media275 === true,
+    'table--1300__tr': media1300 === true,
+    'table--900__tr': media900 === true,
+    'table--600__tr': media600 === true,
+    'table--600l__tr': media600l === true
   });
   var tableTrBodyClass = classnames_default()({
     'table__tr-body': media1728 === true,
@@ -7547,7 +9307,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__tr-body': media744 === true,
     'table--744l__tr-body': media744l === true,
     'table--375__tr-body': media375 === true,
-    'table--275__tr-body': media275 === true
+    'table--275__tr-body': media275 === true,
+    'table--1300__tr-body': media1300 === true,
+    'table--900__tr-body': media900 === true,
+    'table--600__tr-body': media600 === true,
+    'table--600l__tr-body': media600l === true
   });
   var tableThClass = classnames_default()({
     'table__th': media1728 === true,
@@ -7555,7 +9319,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__th': media744 === true,
     'table--744l__th': media744l === true,
     'table--375__th': media375 === true,
-    'table--275__th': media275 === true
+    'table--275__th': media275 === true,
+    'table--1300__th': media1300 === true,
+    'table--900__th': media900 === true,
+    'table--600__th': media600 === true,
+    'table--600l__th': media600l === true
   });
   var tableThBodyClass = classnames_default()({
     'table__th-body': media1728 === true,
@@ -7563,7 +9331,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__th-body': media744 === true,
     'table--744l__th-body': media744l === true,
     'table--375__th-body': media375 === true,
-    'table--275__th-body': media275 === true
+    'table--275__th-body': media275 === true,
+    'table--1300__th-body': media1300 === true,
+    'table--900__th-body': media900 === true,
+    'table--600__th-body': media600 === true,
+    'table--600l__th-body': media600l === true
   });
   var tableBorderBottomClass = classnames_default()({
     'table__border-bottom': media1728 === true,
@@ -7571,7 +9343,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__border-bottom': media744 === true,
     'table--744l__border-bottom': media744l === true,
     'table--375__border-bottom': media375 === true,
-    'table--275__border-bottom': media275 === true
+    'table--275__border-bottom': media275 === true,
+    'table--1300__border-bottom': media1300 === true,
+    'table--900__border-bottom': media900 === true,
+    'table--600__border-bottom': media600 === true,
+    'table--600l__border-bottom': media600l === true
   });
   var tableThFirstClass = classnames_default()({
     'table__th-first': media1728 === true,
@@ -7579,7 +9355,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__th-first': media744 === true,
     'table--744l__th-first': media744l === true,
     'table--375__th-first': media375 === true,
-    'table--275__th-first': media275 === true
+    'table--275__th-first': media275 === true,
+    'table--1300__th-first': media1300 === true,
+    'table--900__th-first': media900 === true,
+    'table--600__th-first': media600 === true,
+    'table--600l__th-first': media600l === true
   });
   var tableTdClass = classnames_default()({
     'table__td': media1728 === true,
@@ -7587,7 +9367,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__td': media744 === true,
     'table--744l__td': media744l === true,
     'table--375__td': media375 === true,
-    'table--275__td': media275 === true
+    'table--275__td': media275 === true,
+    'table--1300__td': media1300 === true,
+    'table--900__td': media900 === true,
+    'table--600__td': media600 === true,
+    'table--600l__td': media600l === true
   });
   var tableTdBodyClass = classnames_default()({
     'table__td-body': media1728 === true,
@@ -7595,7 +9379,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__td-body': media744 === true,
     'table--744l__td-body': media744l === true,
     'table--375__td-body': media375 === true,
-    'table--275__td-body': media275 === true
+    'table--275__td-body': media275 === true,
+    'table--1300__td-body': media1300 === true,
+    'table--900__td-body': media900 === true,
+    'table--600__td-body': media600 === true,
+    'table--600l__td-body': media600l === true
   });
   var tableSubBodyClass = classnames_default()({
     'table__sub-body': media1728 === true,
@@ -7603,7 +9391,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__sub-body': media744 === true,
     'table--744l__sub-body': media744l === true,
     'table--375__sub-body': media375 === true,
-    'table--275__sub-body': media275 === true
+    'table--275__sub-body': media275 === true,
+    'table--1300__sub-body': media1300 === true,
+    'table--900__sub-body': media900 === true,
+    'table--600__sub-body': media600 === true,
+    'table--600l__sub-body': media600l === true
   });
   var tableSupBodyClass = classnames_default()({
     'table__sup-body': media1728 === true,
@@ -7611,7 +9403,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__sup-body': media744 === true,
     'table--744l__sup-body': media744l === true,
     'table--375__sup-body': media375 === true,
-    'table--275__sup-body': media275 === true
+    'table--275__sup-body': media275 === true,
+    'table--1300__sup-body': media1300 === true,
+    'table--900__sup-body': media900 === true,
+    'table--600__sup-body': media600 === true,
+    'table--600l__sup-body': media600l === true
   });
   var tableThLastClass = classnames_default()({
     'table__th-last': media1728 === true,
@@ -7619,7 +9415,11 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
     'table--744__th-last': media744 === true,
     'table--744l__th-last': media744l === true,
     'table--375__th-last': media375 === true,
-    'table--275__th-last': media275 === true
+    'table--275__th-last': media275 === true,
+    'table--1300__th-last': media1300 === true,
+    'table--900__th-last': media900 === true,
+    'table--600__th-last': media600 === true,
+    'table--600l__th-last': media600l === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     modalOpened = _useContext.modalOpened;
@@ -7894,13 +9694,21 @@ var ModalContentB = function ModalContentB(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentTableClass = classnames_default()({
     'content__table': media1728 === true,
     'content--1133__table': media1133 === true,
     'content--744__table': media744 === true,
     'content--744l__table': media744l === true,
     'content--375__table': media375 === true,
-    'content--275__table': media275 === true
+    'content--275__table': media275 === true,
+    'content--1300__table': media1300 === true,
+    'content--900__table': media900 === true,
+    'content--600__table': media600 === true,
+    'content--600l__table': media600l === true
   });
   var tableClass = classnames_default()({
     'table': media1728 === true,
@@ -7908,7 +9716,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744': media744 === true,
     'table--744l': media744l === true,
     'table--375': media375 === true,
-    'table--275': media275 === true
+    'table--275': media275 === true,
+    'table--1300': media1300 === true,
+    'table--900': media900 === true,
+    'table--600': media600 === true,
+    'table--600l': media600l === true
   });
   var tableCaptionClass = classnames_default()({
     'table__caption': media1728 === true,
@@ -7916,7 +9728,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__caption': media744 === true,
     'table--744l__caption': media744l === true,
     'table--375__caption': media375 === true,
-    'table--275__caption': media275 === true
+    'table--275__caption': media275 === true,
+    'table--1300__caption': media1300 === true,
+    'table--900__caption': media900 === true,
+    'table--600__caption': media600 === true,
+    'table--600l__caption': media600l === true
   });
   var tableCaptionWindowsClass = classnames_default()({
     'table__caption-windows': media1728 === true,
@@ -7924,7 +9740,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__caption-windows': media744 === true,
     'table--744l__caption-windows': media744l === true,
     'table--375__caption-windows': media375 === true,
-    'table--275__caption-windows': media275 === true
+    'table--275__caption-windows': media275 === true,
+    'table--1300__caption-windows': media1300 === true,
+    'table--900__caption-windows': media900 === true,
+    'table--600__caption-windows': media600 === true,
+    'table--600l__caption-windows': media600l === true
   });
   var tableHeaderClass = classnames_default()({
     'table__header': media1728 === true,
@@ -7932,7 +9752,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__header': media744 === true,
     'table--744l__header': media744l === true,
     'table--375__header': media375 === true,
-    'table--275__header': media275 === true
+    'table--275__header': media275 === true,
+    'table--1300__header': media1300 === true,
+    'table--900__header': media900 === true,
+    'table--600__header': media600 === true,
+    'table--600l__header': media600l === true
   });
   var tableHeaderWindowsClass = classnames_default()({
     'table__header-windows': media1728 === true,
@@ -7940,7 +9764,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__header-windows': media744 === true,
     'table--744l__header-windows': media744l === true,
     'table--375__header-windows': media375 === true,
-    'table--275__header-windows': media275 === true
+    'table--275__header-windows': media275 === true,
+    'table--1300__header-windows': media1300 === true,
+    'table--900__header-windows': media900 === true,
+    'table--600__header-windows': media600 === true,
+    'table--600l__header-windows': media600l === true
   });
   var tableTrClass = classnames_default()({
     'table__tr': media1728 === true,
@@ -7948,7 +9776,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__tr': media744 === true,
     'table--744l__tr': media744l === true,
     'table--375__tr': media375 === true,
-    'table--275__tr': media275 === true
+    'table--275__tr': media275 === true,
+    'table--1300__tr': media1300 === true,
+    'table--900__tr': media900 === true,
+    'table--600__tr': media600 === true,
+    'table--600l__tr': media600l === true
   });
   var tableTrHeaderClass = classnames_default()({
     'table__tr-header': media1728 === true,
@@ -7956,7 +9788,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__tr-header': media744 === true,
     'table--744l__tr-header': media744l === true,
     'table--375__tr-header': media375 === true,
-    'table--275__tr-header': media275 === true
+    'table--275__tr-header': media275 === true,
+    'table--1300__tr-header': media1300 === true,
+    'table--900__tr-header': media900 === true,
+    'table--600__tr-header': media600 === true,
+    'table--600l__tr-header': media600l === true
   });
   var tableThClass = classnames_default()({
     'table__th': media1728 === true,
@@ -7964,7 +9800,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th': media744 === true,
     'table--744l__th': media744l === true,
     'table--375__th': media375 === true,
-    'table--275__th': media275 === true
+    'table--275__th': media275 === true,
+    'table--1300__th': media1300 === true,
+    'table--900__th': media900 === true,
+    'table--600__th': media600 === true,
+    'table--600l__th': media600l === true
   });
   var tableThCornerClass = classnames_default()({
     'table__th-corner': media1728 === true,
@@ -7972,7 +9812,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-corner': media744 === true,
     'table--744l__th-corner': media744l === true,
     'table--375__th-corner': media375 === true,
-    'table--275__th-corner': media275 === true
+    'table--275__th-corner': media275 === true,
+    'table--1300__th-corner': media1300 === true,
+    'table--900__th-corner': media900 === true,
+    'table--600__th-corner': media600 === true,
+    'table--600l__th-corner': media600l === true
   });
   var tableThTopleftClass = classnames_default()({
     'table__th-topleft': media1728 === true,
@@ -7980,7 +9824,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-topleft': media744 === true,
     'table--744l__th-topleft': media744l === true,
     'table--375__th-topleft': media375 === true,
-    'table--275__th-topleft': media275 === true
+    'table--275__th-topleft': media275 === true,
+    'table--1300__th-topleft': media1300 === true,
+    'table--900__th-topleft': media900 === true,
+    'table--600__th-topleft': media600 === true,
+    'table--600l__th-topleft': media600l === true
   });
   var tableThHeaderClass = classnames_default()({
     'table__th-header': media1728 === true,
@@ -7988,7 +9836,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-header': media744 === true,
     'table--744l__th-header': media744l === true,
     'table--375__th-header': media375 === true,
-    'table--275__th-header': media275 === true
+    'table--275__th-header': media275 === true,
+    'table--1300__th-header': media1300 === true,
+    'table--900__th-header': media900 === true,
+    'table--600__th-header': media600 === true,
+    'table--600l__th-header': media600l === true
   });
   var tableThStickyClass = classnames_default()({
     'table__th-sticky': media1728 === true,
@@ -7996,7 +9848,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-sticky': media744 === true,
     'table--744l__th-sticky': media744l === true,
     'table--375__th-sticky': media375 === true,
-    'table--275__th-sticky': media275 === true
+    'table--275__th-sticky': media275 === true,
+    'table--1300__th-sticky': media1300 === true,
+    'table--900__th-sticky': media900 === true,
+    'table--600__th-sticky': media600 === true,
+    'table--600l__th-sticky': media600l === true
   });
   var tableThToprightClass = classnames_default()({
     'table__th-topright': media1728 === true,
@@ -8004,7 +9860,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-topright': media744 === true,
     'table--744l__th-topright': media744l === true,
     'table--375__th-topright': media375 === true,
-    'table--275__th-topright': media275 === true
+    'table--275__th-topright': media275 === true,
+    'table--1300__th-topright': media1300 === true,
+    'table--900__th-topright': media900 === true,
+    'table--600__th-topright': media600 === true,
+    'table--600l__th-topright': media600l === true
   });
   var tableFooterClass = classnames_default()({
     'table__footer': media1728 === true,
@@ -8012,7 +9872,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__footer': media744 === true,
     'table--744l__footer': media744l === true,
     'table--375__footer': media375 === true,
-    'table--275__footer': media275 === true
+    'table--275__footer': media275 === true,
+    'table--1300__footer': media1300 === true,
+    'table--900__footer': media900 === true,
+    'table--600__footer': media600 === true,
+    'table--600l__footer': media600l === true
   });
   var tableFooterWindowsClass = classnames_default()({
     'table__footer-windows': media1728 === true,
@@ -8020,7 +9884,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__footer-windows': media744 === true,
     'table--744l__footer-windows': media744l === true,
     'table--375__footer-windows': media375 === true,
-    'table--275__footer-windows': media275 === true
+    'table--275__footer-windows': media275 === true,
+    'table--1300__footer-windows': media1300 === true,
+    'table--900__footer-windows': media900 === true,
+    'table--600__footer-windows': media600 === true,
+    'table--600l__footer-windows': media600l === true
   });
   var tableTrFooterClass = classnames_default()({
     'table__tr-footer': media1728 === true,
@@ -8028,7 +9896,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__tr-footer': media744 === true,
     'table--744l__tr-footer': media744l === true,
     'table--375__tr-footer': media375 === true,
-    'table--275__tr-footer': media275 === true
+    'table--275__tr-footer': media275 === true,
+    'table--1300__tr-footer': media1300 === true,
+    'table--900__tr-footer': media900 === true,
+    'table--600__tr-footer': media600 === true,
+    'table--600l__tr-footer': media600l === true
   });
   var tableThBottomleftClass = classnames_default()({
     'table__th-bottomleft': media1728 === true,
@@ -8036,7 +9908,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-bottomleft': media744 === true,
     'table--744l__th-bottomleft': media744l === true,
     'table--375__th-bottomleft': media375 === true,
-    'table--275__th-bottomleft': media275 === true
+    'table--275__th-bottomleft': media275 === true,
+    'table--1300__th-bottomleft': media1300 === true,
+    'table--900__th-bottomleft': media900 === true,
+    'table--600__th-bottomleft': media600 === true,
+    'table--600l__th-bottomleft': media600l === true
   });
   var tableThFooterClass = classnames_default()({
     'table__th-footer': media1728 === true,
@@ -8044,7 +9920,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-footer': media744 === true,
     'table--744l__th-footer': media744l === true,
     'table--375__th-footer': media375 === true,
-    'table--275__th-footer': media275 === true
+    'table--275__th-footer': media275 === true,
+    'table--1300__th-footer': media1300 === true,
+    'table--900__th-footer': media900 === true,
+    'table--600__th-footer': media600 === true,
+    'table--600l__th-footer': media600l === true
   });
   var tableThBottomrightClass = classnames_default()({
     'table__th-bottomright': media1728 === true,
@@ -8052,7 +9932,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__th-bottomright': media744 === true,
     'table--744l__th-bottomright': media744l === true,
     'table--375__th-bottomright': media375 === true,
-    'table--275__th-bottomright': media275 === true
+    'table--275__th-bottomright': media275 === true,
+    'table--1300__th-bottomright': media1300 === true,
+    'table--900__th-bottomright': media900 === true,
+    'table--600__th-bottomright': media600 === true,
+    'table--600l__th-bottomright': media600l === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
@@ -8060,7 +9944,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
     'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true
+    'content--275__wranning': media275 === true,
+    'content--1300__wranning': media1300 === true,
+    'content--900__wranning': media900 === true,
+    'content--600__wranning': media600 === true,
+    'content--600l__wranning': media600l === true
   });
   var contentWranningWindowsClass = classnames_default()({
     'content__wranning-windows': media1728 === true,
@@ -8068,7 +9956,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__wranning-windows': media744 === true,
     'content--744l__wranning-windows': media744l === true,
     'content--375__wranning-windows': media375 === true,
-    'content--275__wranning-windows': media275 === true
+    'content--275__wranning-windows': media275 === true,
+    'content--1300__wranning-windows': media1300 === true,
+    'content--900__wranning-windows': media900 === true,
+    'content--600__wranning-windows': media600 === true,
+    'content--600l__wranning-windows': media600l === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
@@ -8076,7 +9968,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
     'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true
+    'content--275__inner': media275 === true,
+    'content--1300__inner': media1300 === true,
+    'content--900__inner': media900 === true,
+    'content--600__inner': media600 === true,
+    'content--600l__inner': media600l === true
   });
   var contentInnerWindowsClass = classnames_default()({
     'content__inner-windows': media1728 === true,
@@ -8084,7 +9980,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__inner-windows': media744 === true,
     'content--744l__inner-windows': media744l === true,
     'content--375__inner-windows': media375 === true,
-    'content--275__inner-windows': media275 === true
+    'content--275__inner-windows': media275 === true,
+    'content--1300__inner-windows': media1300 === true,
+    'content--900__inner-windows': media900 === true,
+    'content--600__inner-windows': media600 === true,
+    'content--600l__inner-windows': media600l === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
@@ -8092,7 +9992,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
     'content--375__p': media375 === true,
-    'content--275__p': media275 === true
+    'content--275__p': media275 === true,
+    'content--1300__p': media1300 === true,
+    'content--900__p': media900 === true,
+    'content--600__p': media600 === true,
+    'content--600l__p': media600l === true
   });
   var contentPWindowsClass = classnames_default()({
     'content__p-windows': media1728 === true,
@@ -8100,7 +10004,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__p-windows': media744 === true,
     'content--744l__p-windows': media744l === true,
     'content--375__p-windows': media375 === true,
-    'content--275__p-windows': media275 === true
+    'content--275__p-windows': media275 === true,
+    'content--1300__p-windows': media1300 === true,
+    'content--900__p-windows': media900 === true,
+    'content--600__p-windows': media600 === true,
+    'content--600l__p-windows': media600l === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
@@ -8108,7 +10016,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
     'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true
+    'content--275__phone': media275 === true,
+    'content--1300__phone': media1300 === true,
+    'content--900__phone': media900 === true,
+    'content--600__phone': media600 === true,
+    'content--600l__phone': media600l === true
   });
   var contentPhoneWindowsClass = classnames_default()({
     'content__phone-windows': media1728 === true,
@@ -8116,7 +10028,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__phone-windows': media744 === true,
     'content--744l__phone-windows': media744l === true,
     'content--375__phone-windows': media375 === true,
-    'content--275__phone-windows': media275 === true
+    'content--275__phone-windows': media275 === true,
+    'content--1300__phone-windows': media1300 === true,
+    'content--900__phone-windows': media900 === true,
+    'content--600__phone-windows': media600 === true,
+    'content--600l__phone-windows': media600l === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
@@ -8124,7 +10040,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
     'content--375__number': media375 === true,
-    'content--275__number': media275 === true
+    'content--275__number': media275 === true,
+    'content--1300__number': media1300 === true,
+    'content--900__number': media900 === true,
+    'content--600__number': media600 === true,
+    'content--600l__number': media600l === true
   });
   var contentNumberWindowsClass = classnames_default()({
     'content__number-windows': media1728 === true,
@@ -8132,7 +10052,11 @@ var ModalContentB = function ModalContentB(props) {
     'content--744__number-windows': media744 === true,
     'content--744l__number-windows': media744l === true,
     'content--375__number-windows': media375 === true,
-    'content--275__number-windows': media275 === true
+    'content--275__number-windows': media275 === true,
+    'content--1300__number-windows': media1300 === true,
+    'content--900__number-windows': media900 === true,
+    'content--600__number-windows': media600 === true,
+    'content--600l__number-windows': media600l === true
   });
   var tableScrollXClass = classnames_default()({
     'table__scroll-x': media1728 === true,
@@ -8140,7 +10064,11 @@ var ModalContentB = function ModalContentB(props) {
     'table--744__scroll-x': media744 === true,
     'table--744l__scroll-x': media744l === true,
     'table--375__scroll-x': media375 === true,
-    'table--275__scroll-x': media275 === true
+    'table--275__scroll-x': media275 === true,
+    'table--1300__scroll-x': media1300 === true,
+    'table--900__scroll-x': media900 === true,
+    'table--600__scroll-x': media600 === true,
+    'table--600l__scroll-x': media600l === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -8212,7 +10140,7 @@ var ModalContentB = function ModalContentB(props) {
     id: "content-windows",
     className: "".concat(contentWranningClass, " ").concat(contentWranningWindowsClass)
   }, /*#__PURE__*/react.createElement("div", {
-    className: media275 || media375 || media744l ? contentInnerWindowsClass : contentInnerClass
+    className: media275 || media375 || media600 || media600l || media744l ? contentInnerWindowsClass : contentInnerClass
   }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-windows",
     className: "".concat(contentPClass, " ").concat(contentPWindowsClass)
@@ -8250,13 +10178,21 @@ var ModalContentC = function ModalContentC(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
     'content--1133__phone': media1133 === true,
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
     'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true
+    'content--275__phone': media275 === true,
+    'content--1300__phone': media1300 === true,
+    'content--900__phone': media900 === true,
+    'content--600__phone': media600 === true,
+    'content--600l__phone': media600l === true
   });
   var phoneClass = classnames_default()({
     'phone': media1728 === true,
@@ -8264,7 +10200,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744': media744 === true,
     'phone--744l': media744l === true,
     'phone--375': media375 === true,
-    'phone--275': media275 === true
+    'phone--275': media275 === true,
+    'phone--1300': media1300 === true,
+    'phone--900': media900 === true,
+    'phone--600': media600 === true,
+    'phone--600l': media600l === true
   });
   var phoneInnerClass = classnames_default()({
     'phone__inner': media1728 === true,
@@ -8272,7 +10212,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744__inner': media744 === true,
     'phone--744l__inner': media744l === true,
     'phone--375__inner': media375 === true,
-    'phone--275__inner': media275 === true
+    'phone--275__inner': media275 === true,
+    'phone--1300__inner': media1300 === true,
+    'phone--900__inner': media900 === true,
+    'phone--600__inner': media600 === true,
+    'phone--600l__inner': media600l === true
   });
   var phoneIconClass = classnames_default()({
     'phone__icon': media1728 === true,
@@ -8280,7 +10224,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744__icon': media744 === true,
     'phone--744l__icon': media744l === true,
     'phone--375__icon': media375 === true,
-    'phone--275__icon': media275 === true
+    'phone--275__icon': media275 === true,
+    'phone--1300__icon': media1300 === true,
+    'phone--900__icon': media900 === true,
+    'phone--600__icon': media600 === true,
+    'phone--600l__icon': media600l === true
   });
   var phoneItemsClass = classnames_default()({
     'phone__items': media1728 === true,
@@ -8288,7 +10236,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744__items': media744 === true,
     'phone--744l__items': media744l === true,
     'phone--375__items': media375 === true,
-    'phone--275__items': media275 === true
+    'phone--275__items': media275 === true,
+    'phone--1300__items': media1300 === true,
+    'phone--900__items': media900 === true,
+    'phone--600__items': media600 === true,
+    'phone--600l__items': media600l === true
   });
   var phoneNumberClass = classnames_default()({
     'phone__number': media1728 === true,
@@ -8296,7 +10248,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744__number': media744 === true,
     'phone--744l__number': media744l === true,
     'phone--375__number': media375 === true,
-    'phone--275__number': media275 === true
+    'phone--275__number': media275 === true,
+    'phone--1300__number': media1300 === true,
+    'phone--900__number': media900 === true,
+    'phone--600__number': media600 === true,
+    'phone--600l__number': media600l === true
   });
   var phoneImgClass = classnames_default()({
     'phone__img': media1728 === true,
@@ -8304,7 +10260,11 @@ var ModalContentC = function ModalContentC(props) {
     'phone--744__img': media744 === true,
     'phone--744l__img': media744l === true,
     'phone--375__img': media375 === true,
-    'phone--275__img': media275 === true
+    'phone--275__img': media275 === true,
+    'phone--1300__img': media1300 === true,
+    'phone--900__img': media900 === true,
+    'phone--600__img': media600 === true,
+    'phone--600l__img': media600l === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -8363,13 +10323,21 @@ var ModalContentD = function ModalContentD(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentMessageClass = classnames_default()({
     'content__message': media1728 === true,
     'content--1133__message': media1133 === true,
     'content--744__message': media744 === true,
     'content--744l__message': media744l === true,
     'content--375__message': media375 === true,
-    'content--275__message': media275 === true
+    'content--275__message': media275 === true,
+    'content--1300__message': media1300 === true,
+    'content--900__message': media900 === true,
+    'content--600__message': media600 === true,
+    'content--600l__message': media600l === true
   });
   var messageClass = classnames_default()({
     'message': media1728 === true,
@@ -8377,7 +10345,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744': media744 === true,
     'message--744l': media744l === true,
     'message--375': media375 === true,
-    'message--275': media275 === true
+    'message--275': media275 === true,
+    'message--1300': media1300 === true,
+    'message--900': media900 === true,
+    'message--600': media600 === true,
+    'message--600l': media600l === true
   });
   var messageInnerClass = classnames_default()({
     'message__inner': media1728 === true,
@@ -8385,7 +10357,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744__inner': media744 === true,
     'message--744l__inner': media744l === true,
     'message--375__inner': media375 === true,
-    'message--275__inner': media275 === true
+    'message--275__inner': media275 === true,
+    'message--1300__inner': media1300 === true,
+    'message--900__inner': media900 === true,
+    'message--600__inner': media600 === true,
+    'message--600l__inner': media600l === true
   });
   var messageIconClass = classnames_default()({
     'message__icon': media1728 === true,
@@ -8393,7 +10369,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744__icon': media744 === true,
     'message--744l__icon': media744l === true,
     'message--375__icon': media375 === true,
-    'message--275__icon': media275 === true
+    'message--275__icon': media275 === true,
+    'message--1300__icon': media1300 === true,
+    'message--900__icon': media900 === true,
+    'message--600__icon': media600 === true,
+    'message--600l__icon': media600l === true
   });
   var messageImgClass = classnames_default()({
     'message__img': media1728 === true,
@@ -8401,7 +10381,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744__img': media744 === true,
     'message--744l__img': media744l === true,
     'message--375__img': media375 === true,
-    'message--275__img': media275 === true
+    'message--275__img': media275 === true,
+    'message--1300__img': media1300 === true,
+    'message--900__img': media900 === true,
+    'message--600__img': media600 === true,
+    'message--600l__img': media600l === true
   });
   var messageContentClass = classnames_default()({
     'message__content': media1728 === true,
@@ -8409,7 +10393,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744__content': media744 === true,
     'message--__content': media744l === true,
     'message--375__content': media375 === true,
-    'message--275__content': media275 === true
+    'message--275__content': media275 === true,
+    'message--1300__content': media1300 === true,
+    'message--900__content': media900 === true,
+    'message--600__content': media600 === true,
+    'message--600l__content': media600l === true
   });
   var messagePClass = classnames_default()({
     'message__p': media1728 === true,
@@ -8417,7 +10405,11 @@ var ModalContentD = function ModalContentD(props) {
     'message--744__p': media744 === true,
     'message--744l__p': media744l === true,
     'message--375__p': media375 === true,
-    'message--275__p': media275 === true
+    'message--275__p': media275 === true,
+    'message--1300__p': media1300 === true,
+    'message--900__p': media900 === true,
+    'message--600__p': media600 === true,
+    'message--600l__p': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentMessageClass
@@ -8495,13 +10487,21 @@ var ModalContentE = function ModalContentE(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentImageClass = classnames_default()({
     'content__image': media1728 === true,
     'content--1133__image': media1133 === true,
     'content--744__image': media744 === true,
     'content--744l__image': media744l === true,
     'content--375__image': media375 === true,
-    'content--275__image': media275 === true
+    'content--275__image': media275 === true,
+    'content--1300__image': media1300 === true,
+    'content--900__image': media900 === true,
+    'content--600__image': media600 === true,
+    'content--600l__image': media600l === true
   });
   var imageClass = classnames_default()({
     'image': media1728 === true,
@@ -8509,7 +10509,11 @@ var ModalContentE = function ModalContentE(props) {
     'image--744': media744 === true,
     'image--744l': media744l === true,
     'image--375': media375 === true,
-    'image--275': media275 === true
+    'image--275': media275 === true,
+    'image--1300': media1300 === true,
+    'image--900': media900 === true,
+    'image--600': media600 === true,
+    'image--600l': media600l === true
   });
   var imageContentClass = classnames_default()({
     'image__content': media1728 === true,
@@ -8517,7 +10521,11 @@ var ModalContentE = function ModalContentE(props) {
     'image--744__content': media744 === true,
     'image--744l__content': media744l === true,
     'image--375__content': media375 === true,
-    'image--275__content': media275 === true
+    'image--275__content': media275 === true,
+    'image--1300__content': media1300 === true,
+    'image--900__content': media900 === true,
+    'image--600__content': media600 === true,
+    'image--600l__content': media600l === true
   });
   var imageImgClass = classnames_default()({
     'image__img': media1728 === true,
@@ -8525,7 +10533,11 @@ var ModalContentE = function ModalContentE(props) {
     'image--744__img': media744 === true,
     'image--744l__img': media744l === true,
     'image--375__img': media375 === true,
-    'image--275__img': media275 === true
+    'image--275__img': media275 === true,
+    'image--1300__img': media1300 === true,
+    'image--900__img': media900 === true,
+    'image--600__img': media600 === true,
+    'image--600l__img': media600l === true
   });
   var image;
   switch (props.number) {
@@ -8611,13 +10623,21 @@ var ModalContentF = function ModalContentF(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentStockClass = classnames_default()({
     'content__stock': media1728 === true,
     'content--1133__stock': media1133 === true,
     'content--744__stock': media744 === true,
     'content--744l__stock': media744l === true,
     'content--375__stock': media375 === true,
-    'content--275__stock': media275 === true
+    'content--275__stock': media275 === true,
+    'content--1300__stock': media1300 === true,
+    'content--900__stock': media900 === true,
+    'content--600__stock': media600 === true,
+    'content--600l__stock': media600l === true
   });
   var stockClass = classnames_default()({
     'stock': media1728 === true,
@@ -8625,7 +10645,11 @@ var ModalContentF = function ModalContentF(props) {
     'stock--744': media744 === true,
     'stock--744l': media744l === true,
     'stock--375': media375 === true,
-    'stock--275': media275 === true
+    'stock--275': media275 === true,
+    'stock--1300': media1300 === true,
+    'stock--900': media900 === true,
+    'stock--600': media600 === true,
+    'stock--600l': media600l === true
   });
   var stockTitleClass = classnames_default()({
     'stock__title': media1728 === true,
@@ -8633,7 +10657,11 @@ var ModalContentF = function ModalContentF(props) {
     'stock--744__title': media744 === true,
     'stock--744l__title': media744l === true,
     'stock--375__title': media375 === true,
-    'stock--275__title': media275 === true
+    'stock--275__title': media275 === true,
+    'stock--1300__title': media1300 === true,
+    'stock--900__title': media900 === true,
+    'stock--600__title': media600 === true,
+    'stock--600l__title': media600l === true
   });
   var stockSliderClass = classnames_default()({
     'stock__slider': media1728 === true,
@@ -8641,7 +10669,11 @@ var ModalContentF = function ModalContentF(props) {
     'stock--744__slider': media744 === true,
     'stock--744l__slider': media744l === true,
     'stock--375__slider': media375 === true,
-    'stock--275__slider': media275 === true
+    'stock--275__slider': media275 === true,
+    'stock--1300__slider': media1300 === true,
+    'stock--900__slider': media900 === true,
+    'stock--600__slider': media600 === true,
+    'stock--600l__slider': media600l === true
   });
   var sliderStockClass = classnames_default()({
     'slider-stock': media1728 === true,
@@ -8649,7 +10681,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider-stock--744': media744 === true,
     'slider-stock--744l': media744l === true,
     'slider-stock--375': media375 === true,
-    'slider-stock--275': media275 === true
+    'slider-stock--275': media275 === true,
+    'slider-stock--1300': media1300 === true,
+    'slider-stock--900': media900 === true,
+    'slider-stock--600': media600 === true,
+    'slider-stock--600l': media600l === true
   });
   var sliderItemsClass = classnames_default()({
     'slider__items': media1728 === true,
@@ -8657,7 +10693,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider--744__items': media744 === true,
     'slider--744l__items': media744l === true,
     'slider--375__items': media375 === true,
-    'slider--275__items': media275 === true
+    'slider--275__items': media275 === true,
+    'slider--1300__items': media1300 === true,
+    'slider--900__items': media900 === true,
+    'slider--600__items': media600 === true,
+    'slider--600l__items': media600l === true
   });
   var sliderItemsStockClass = classnames_default()({
     'slider__items-stock': media1728 === true,
@@ -8665,7 +10705,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider--744__items-stock': media744 === true,
     'slider--744l__items-stock': media744l === true,
     'slider--375__items-stock': media375 === true,
-    'slider--275__items-stock': media275 === true
+    'slider--275__items-stock': media275 === true,
+    'slider--1300__items-stock': media1300 === true,
+    'slider--900__items-stock': media900 === true,
+    'slider--600__items-stock': media600 === true,
+    'slider--600l__items-stock': media600l === true
   });
   var sliderItemClass = classnames_default()({
     'slider__item': media1728 === true,
@@ -8673,7 +10717,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider--744__item': media744 === true,
     'slider--744l__item': media744l === true,
     'slider--375__item': media375 === true,
-    'slider--275__item': media275 === true
+    'slider--275__item': media275 === true,
+    'slider--1300__item': media1300 === true,
+    'slider--900__item': media900 === true,
+    'slider--600__item': media600 === true,
+    'slider--600l__item': media600l === true
   });
   var sliderItemStockClass = classnames_default()({
     'slider__item-stock': media1728 === true,
@@ -8681,7 +10729,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider--744__item-stock': media744 === true,
     'slider--744l__item-stock': media744l === true,
     'slider--375__item-stock': media375 === true,
-    'slider--275__item-stock': media275 === true
+    'slider--275__item-stock': media275 === true,
+    'slider--1300__item-stock': media1300 === true,
+    'slider--900__item-stock': media900 === true,
+    'slider--600__item-stock': media600 === true,
+    'slider--600l__item-stock': media600l === true
   });
   var sliderSlideStockClass = classnames_default()({
     'slider__slide-stock': media1728 === true,
@@ -8689,7 +10741,11 @@ var ModalContentF = function ModalContentF(props) {
     'slider--744__slide-stock': media744 === true,
     'slider--744l__slide-stock': media744l === true,
     'slider--375__slide-stock': media375 === true,
-    'slider--275__slide-stock': media275 === true
+    'slider--275__slide-stock': media275 === true,
+    'slider--1300__slide-stock': media1300 === true,
+    'slider--900__slide-stock': media900 === true,
+    'slider--600__slide-stock': media600 === true,
+    'slider--600l__slide-stock': media600l === true
   });
   var slideClass = classnames_default()({
     'slide': media1728 === true,
@@ -8697,7 +10753,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744': media744 === true,
     'slide--744l': media744l === true,
     'slide--375': media375 === true,
-    'slide--275': media275 === true
+    'slide--275': media275 === true,
+    'slide--1300': media1300 === true,
+    'slide--900': media900 === true,
+    'slide--600': media600 === true,
+    'slide--600l': media600l === true
   });
   var slideStockClass = classnames_default()({
     'slide-stock': media1728 === true,
@@ -8705,7 +10765,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide-stock--744': media744 === true,
     'slide-stock--744l': media744l === true,
     'slide-stock--375': media375 === true,
-    'slide-stock--275': media275 === true
+    'slide-stock--275': media275 === true,
+    'slide-stock--1300': media1300 === true,
+    'slide-stock--900': media900 === true,
+    'slide-stock--600': media600 === true,
+    'slide-stock--600l': media600l === true
   });
   var slideContentClass = classnames_default()({
     'slide__content': media1728 === true,
@@ -8713,7 +10777,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__content': media744 === true,
     'slide--744l__content': media744l === true,
     'slide--375__content': media375 === true,
-    'slide--275__content': media275 === true
+    'slide--275__content': media275 === true,
+    'slide--1300__content': media1300 === true,
+    'slide--900__content': media900 === true,
+    'slide--600__content': media600 === true,
+    'slide--600l__content': media600l === true
   });
   var slideContentStockClass = classnames_default()({
     'slide__content-stock': media1728 === true,
@@ -8721,7 +10789,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__content-stock': media744 === true,
     'slide--744l__content-stock': media744l === true,
     'slide--375__content-stock': media375 === true,
-    'slide--275__content-stock': media275 === true
+    'slide--275__content-stock': media275 === true,
+    'slide--1300__content-stock': media1300 === true,
+    'slide--900__content-stock': media900 === true,
+    'slide--600__content-stock': media600 === true,
+    'slide--600l__content-stock': media600l === true
   });
   var slideStock1Class = classnames_default()({
     'slide__stock': media1728 === true,
@@ -8729,7 +10801,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__stock': media744 === true,
     'slide--744l__stock': media744l === true,
     'slide--375__stock': media375 === true,
-    'slide--275__stock': media275 === true
+    'slide--275__stock': media275 === true,
+    'slide--1300__stock': media1300 === true,
+    'slide--900__stock': media900 === true,
+    'slide--600__stock': media600 === true,
+    'slide--600l__stock': media600l === true
   });
   var slideValueClass = classnames_default()({
     'slide__value': media1728 === true,
@@ -8737,7 +10813,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__value': media744 === true,
     'slide--744l__value': media744l === true,
     'slide--375__value': media375 === true,
-    'slide--275__value': media275 === true
+    'slide--275__value': media275 === true,
+    'slide--1300__value': media1300 === true,
+    'slide--900__value': media900 === true,
+    'slide--600__value': media600 === true,
+    'slide--600l__value': media600l === true
   });
   var slideSpanClass = classnames_default()({
     'slide__span': media1728 === true,
@@ -8745,7 +10825,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__span': media744 === true,
     'slide--744l__span': media744l === true,
     'slide--375__span': media375 === true,
-    'slide--275__span': media275 === true
+    'slide--275__span': media275 === true,
+    'slide--1300__span': media1300 === true,
+    'slide--900__span': media900 === true,
+    'slide--600__span': media600 === true,
+    'slide--600l__span': media600l === true
   });
   var slideSpanNumClass = classnames_default()({
     'slide__span-num': media1728 === true,
@@ -8753,7 +10837,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__span-num': media744 === true,
     'slide--744l__span-num': media744l === true,
     'slide--375__span-num': media375 === true,
-    'slide--275__span-num': media275 === true
+    'slide--275__span-num': media275 === true,
+    'slide--1300__span-num': media1300 === true,
+    'slide--900__span-num': media900 === true,
+    'slide--600__span-num': media600 === true,
+    'slide--600l__span-num': media600l === true
   });
   var slideSpanSymbolClass = classnames_default()({
     'slide__span-symbol': media1728 === true,
@@ -8761,7 +10849,11 @@ var ModalContentF = function ModalContentF(props) {
     'slide--744__span-symbol': media744 === true,
     'slide--744l__span-symbol': media744l === true,
     'slide--375__span-symbol': media375 === true,
-    'slide--275__span-symbol': media275 === true
+    'slide--275__span-symbol': media275 === true,
+    'slide--1300__span-symbol': media1300 === true,
+    'slide--900__span-symbol': media900 === true,
+    'slide--600__span-symbol': media600 === true,
+    'slide--600l__span-symbol': media600l === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
@@ -8769,7 +10861,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
     'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true
+    'content--275__wranning': media275 === true,
+    'content--1300__wranning': media1300 === true,
+    'content--900__wranning': media900 === true,
+    'content--600__wranning': media600 === true,
+    'content--600l__wranning': media600l === true
   });
   var contentWranningStockClass = classnames_default()({
     'content__wranning-stock': media1728 === true,
@@ -8777,7 +10873,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__wranning-stock': media744 === true,
     'content--744l__wranning-stock': media744l === true,
     'content--375__wranning-stock': media375 === true,
-    'content--275__wranning-stock': media275 === true
+    'content--275__wranning-stock': media275 === true,
+    'content--1300__wranning-stock': media1300 === true,
+    'content--900__wranning-stock': media900 === true,
+    'content--600__wranning-stock': media600 === true,
+    'content--600l__wranning-stock': media600l === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
@@ -8785,7 +10885,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
     'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true
+    'content--275__inner': media275 === true,
+    'content--1300__inner': media1300 === true,
+    'content--900__inner': media900 === true,
+    'content--600__inner': media600 === true,
+    'content--600l__inner': media600l === true
   });
   var contentInnerStockClass = classnames_default()({
     'content__inner-stock': media1728 === true,
@@ -8793,7 +10897,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__inner-stock': media744 === true,
     'content--744l__inner-stock': media744l === true,
     'content--375__inner-stock': media375 === true,
-    'content--275__inner-stock': media275 === true
+    'content--275__inner-stock': media275 === true,
+    'content--1300__inner-stock': media1300 === true,
+    'content--900__inner-stock': media900 === true,
+    'content--600__inner-stock': media600 === true,
+    'content--600l__inner-stock': media600l === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
@@ -8801,7 +10909,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
     'content--375__p': media375 === true,
-    'content--275__p': media275 === true
+    'content--275__p': media275 === true,
+    'content--1300__p': media1300 === true,
+    'content--900__p': media900 === true,
+    'content--600__p': media600 === true,
+    'content--600l__p': media600l === true
   });
   var contentPStockClass = classnames_default()({
     'content__p-stock': media1728 === true,
@@ -8809,7 +10921,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__p-stock': media744 === true,
     'content--744l__p-stock': media744l === true,
     'content--375__p-stock': media375 === true,
-    'content--275__p-stock': media275 === true
+    'content--275__p-stock': media275 === true,
+    'content--1300__p-stock': media1300 === true,
+    'content--900__p-stock': media900 === true,
+    'content--600__p-stock': media600 === true,
+    'content--600l__p-stock': media600l === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
@@ -8817,7 +10933,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
     'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true
+    'content--275__phone': media275 === true,
+    'content--1300__phone': media1300 === true,
+    'content--900__phone': media900 === true,
+    'content--600__phone': media600 === true,
+    'content--600l__phone': media600l === true
   });
   var contentPhoneStockClass = classnames_default()({
     'content__phone-stock': media1728 === true,
@@ -8825,7 +10945,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__phone-stock': media744 === true,
     'content--744l__phone-stock': media744l === true,
     'content--375__phone-stock': media375 === true,
-    'content--275__phone-stock': media275 === true
+    'content--275__phone-stock': media275 === true,
+    'content--1300__phone-stock': media1300 === true,
+    'content--900__phone-stock': media900 === true,
+    'content--600__phone-stock': media600 === true,
+    'content--600l__phone-stock': media600l === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
@@ -8833,7 +10957,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
     'content--375__number': media375 === true,
-    'content--275__number': media275 === true
+    'content--275__number': media275 === true,
+    'content--1300__number': media1300 === true,
+    'content--900__number': media900 === true,
+    'content--600__number': media600 === true,
+    'content--600l__number': media600l === true
   });
   var contentNumberStockClass = classnames_default()({
     'content__number-stock': media1728 === true,
@@ -8841,7 +10969,11 @@ var ModalContentF = function ModalContentF(props) {
     'content--744__number-stock': media744 === true,
     'content--744l__number-stock': media744l === true,
     'content--375__number-stock': media375 === true,
-    'content--275__number-stock': media275 === true
+    'content--275__number-stock': media275 === true,
+    'content--1300__number-stock': media1300 === true,
+    'content--900__number-stock': media900 === true,
+    'content--600__number-stock': media600 === true,
+    'content--600l__number-stock': media600l === true
   });
   var _useState = (0,react.useState)(0),
     _useState2 = ModalContentF_slicedToArray(_useState, 2),
@@ -8851,8 +10983,12 @@ var ModalContentF = function ModalContentF(props) {
   // const slides = document.querySelectorAll('.slider__slide-stock');
 
   var slideStock, slideStockActive;
-  media1728 === true ? slideStock = 'slider__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : media275 === true ? slideStock = 'slider--275__slide-stock' : null;
-  media1728 === true ? slideStockActive = 'slider__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : null;
+  media1728 === true ? slideStock = 'slider__slide-stock' : media1300 === true ? slideStock = 'slider--1300__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media900 === true ? slideStock = 'slider--900__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media600 === true ? slideStock = 'slider--600__slide-stock' : media600l === true ? slideStock = 'slider--600l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : media275 === true ? slideStock = 'slider--275__slide-stock' : null;
+  media1728 === true ? slideStockActive = 'slider__slide-stock-active' : media1300 === true ? slideStockActive = 'slider--1300__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media900 === true ? slideStockActive = 'slider--900__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : media744l === true ? slideStockActive = 'slider--744l__slide-stock-active' : media600 === true ? slideStockActive = 'slider--600__slide-stock-active' : media600l === true ? slideStockActive = 'slider--600l__slide-stock-active' : media375 === true ? slideStockActive = 'slider--375__slide-stock-active' : media275 === true ? slideStockActive = 'slider--275__slide-stock-active' : null;
+
+  // (media1728 === true) ? slideStockActive = 'slider__slide-stock-active' :
+  //     (media1133 === true) ? slideStockActive = 'slider--1133__slide-stock-active' :
+  //         (media744 === true) ? slideStockActive = 'slider--744__slide-stock-active' : null;
 
   // (media1728 === true) ? slideStockActive = 'slider__slide-stock-active' :
   //     (media1133 === true) ? slideStockActive = 'slider--1133__slide-stock-active' :
@@ -8886,7 +11022,7 @@ var ModalContentF = function ModalContentF(props) {
     activeSlide(index);
   };
   (0,react.useEffect)(function () {
-    if (media275 || media375 || media744l) return;
+    if (media275 || media375 || media600 || media600l || media744l) return;
     var timeout = setTimeout(function () {
       defaultSlide();
       setIndex(index + 1);
@@ -8896,7 +11032,7 @@ var ModalContentF = function ModalContentF(props) {
     };
   }, []);
   (0,react.useEffect)(function () {
-    if (media275 || media375 || media744l) return;
+    if (media275 || media375 || media600 || media600l || media744l) return;
     var interval = setInterval(function () {
       nextSlide();
     }, 6000);
@@ -8982,7 +11118,7 @@ var ModalContentF = function ModalContentF(props) {
     id: "content-stock",
     className: "".concat(contentWranningClass, " ").concat(contentWranningStockClass)
   }, /*#__PURE__*/react.createElement("div", {
-    className: media275 || media375 || media744l ? contentInnerStockClass : contentInnerClass
+    className: media275 || media375 || media600 || media600l || media744l ? contentInnerStockClass : contentInnerClass
   }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-stock",
     className: "".concat(contentPClass, " ").concat(contentPStockClass)
@@ -9018,13 +11154,21 @@ var ModalContentG = function ModalContentG(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentHomeClass = classnames_default()({
     'content__home': media1728 === true,
     'content--1133__home': media1133 === true,
     'content--744__home': media744 === true,
     'content--744l__home': media744l === true,
     'content--375__home': media375 === true,
-    'content--275__home': media275 === true
+    'content--275__home': media275 === true,
+    'content--1300__home': media1300 === true,
+    'content--900__home': media900 === true,
+    'content--600__home': media600 === true,
+    'content--600l__home': media600l === true
   });
   var homeClass = classnames_default()({
     'home': media1728 === true,
@@ -9032,7 +11176,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744': media744 === true,
     'home--744l': media744l === true,
     'home--375': media375 === true,
-    'home--275': media275 === true
+    'home--275': media275 === true,
+    'home--1300': media1300 === true,
+    'home--900': media900 === true,
+    'home--600': media600 === true,
+    'home--600l': media600l === true
   });
   var homeBodyClass = classnames_default()({
     'home__body': media1728 === true,
@@ -9040,7 +11188,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__body': media744 === true,
     'home--744l__body': media744l === true,
     'home--375__body': media375 === true,
-    'home--275__body': media275 === true
+    'home--275__body': media275 === true,
+    'home--1300__body': media1300 === true,
+    'home--900__body': media900 === true,
+    'home--600__body': media600 === true,
+    'home--600l__body': media600l === true
   });
   var homeTitleClass = classnames_default()({
     'home__title': media1728 === true,
@@ -9048,7 +11200,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__title': media744 === true,
     'home--744l__title': media744l === true,
     'home--375__title': media375 === true,
-    'home--275__title': media275 === true
+    'home--275__title': media275 === true,
+    'home--1300__title': media1300 === true,
+    'home--900__title': media900 === true,
+    'home--600__title': media600 === true,
+    'home--600l__title': media600l === true
   });
   var homeTitleSubClass = classnames_default()({
     'home__title-sub': media1728 === true,
@@ -9056,7 +11212,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__title-sub': media744 === true,
     'home--744l__title-sub': media744l === true,
     'home--375__title-sub': media375 === true,
-    'home--275__title-sub': media275 === true
+    'home--275__title-sub': media275 === true,
+    'home--1300__title-sub': media1300 === true,
+    'home--900__title-sub': media900 === true,
+    'home--600__title-sub': media600 === true,
+    'home--600l__title-sub': media600l === true
   });
   var homeContentClass = classnames_default()({
     'home__content': media1728 === true,
@@ -9064,7 +11224,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__content': media744 === true,
     'home--744l__content': media744l === true,
     'home--375__content': media375 === true,
-    'home--275__content': media275 === true
+    'home--275__content': media275 === true,
+    'home--1300__content': media1300 === true,
+    'home--900__content': media900 === true,
+    'home--600__content': media600 === true,
+    'home--600l__content': media600l === true
   });
   var homeBlockClass = classnames_default()({
     'home__block': media1728 === true,
@@ -9072,7 +11236,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__block': media744 === true,
     'home--744l__block': media744l === true,
     'home--375__block': media375 === true,
-    'home--275__block': media275 === true
+    'home--275__block': media275 === true,
+    'home--1300__block': media1300 === true,
+    'home--900__block': media900 === true,
+    'home--600__block': media600 === true,
+    'home--600l__block': media600l === true
   });
   var homePClass = classnames_default()({
     'home__p': media1728 === true,
@@ -9080,7 +11248,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__p': media744 === true,
     'home--744l__p': media744l === true,
     'home--375__p': media375 === true,
-    'home--275__p': media275 === true
+    'home--275__p': media275 === true,
+    'home--1300__p': media1300 === true,
+    'home--900__p': media900 === true,
+    'home--600__p': media600 === true,
+    'home--600l__p': media600l === true
   });
   var homeImageClass = classnames_default()({
     'home__image': media1728 === true,
@@ -9088,7 +11260,11 @@ var ModalContentG = function ModalContentG(props) {
     'home--744__image': media744 === true,
     'home--744l__image': media744l === true,
     'home--375__image': media375 === true,
-    'home--275__image': media275 === true
+    'home--275__image': media275 === true,
+    'home--1300__image': media1300 === true,
+    'home--900__image': media900 === true,
+    'home--600__image': media600 === true,
+    'home--600l__image': media600l === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
@@ -9096,7 +11272,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
     'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true
+    'content--275__wranning': media275 === true,
+    'content--1300__wranning': media1300 === true,
+    'content--900__wranning': media900 === true,
+    'content--600__wranning': media600 === true,
+    'content--600l__wranning': media600l === true
   });
   var contentWranningHomeClass = classnames_default()({
     'content__wranning-home': media1728 === true,
@@ -9104,7 +11284,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__wranning-home': media744 === true,
     'content--744l__wranning-home': media744l === true,
     'content--375__wranning-home': media375 === true,
-    'content--275__wranning-home': media275 === true
+    'content--275__wranning-home': media275 === true,
+    'content--1300__wranning-home': media1300 === true,
+    'content--900__wranning-home': media900 === true,
+    'content--600__wranning-home': media600 === true,
+    'content--600l__wranning-home': media600l === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
@@ -9112,7 +11296,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
     'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true
+    'content--275__inner': media275 === true,
+    'content--1300__inner': media1300 === true,
+    'content--900__inner': media900 === true,
+    'content--600__inner': media600 === true,
+    'content--600l__inner': media600l === true
   });
   var contentInnerHomeClass = classnames_default()({
     'content__inner-home': media1728 === true,
@@ -9120,7 +11308,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__inner-home': media744 === true,
     'content--744l__inner-home': media744l === true,
     'content--375__inner-home': media375 === true,
-    'content--275__inner-home': media275 === true
+    'content--275__inner-home': media275 === true,
+    'content--1300__inner-home': media1300 === true,
+    'content--900__inner-home': media900 === true,
+    'content--600__inner-home': media600 === true,
+    'content--600l__inner-home': media600l === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
@@ -9128,7 +11320,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
     'content--375__p': media375 === true,
-    'content--275__p': media275 === true
+    'content--275__p': media275 === true,
+    'content--1300__p': media1300 === true,
+    'content--900__p': media900 === true,
+    'content--600__p': media600 === true,
+    'content--600l__p': media600l === true
   });
   var contentPHomeClass = classnames_default()({
     'content__p-home': media1728 === true,
@@ -9136,7 +11332,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__p-home': media744 === true,
     'content--744l__p-home': media744l === true,
     'content--375__p-home': media375 === true,
-    'content--275__p-home': media275 === true
+    'content--275__p-home': media275 === true,
+    'content--1300__p-home': media1300 === true,
+    'content--900__p-home': media900 === true,
+    'content--600__p-home': media600 === true,
+    'content--600l__p-home': media600l === true
   });
   var contentPhoneClass = classnames_default()({
     'content__phone': media1728 === true,
@@ -9144,7 +11344,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__phone': media744 === true,
     'content--744l__phone': media744l === true,
     'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true
+    'content--275__phone': media275 === true,
+    'content--1300__phone': media1300 === true,
+    'content--900__phone': media900 === true,
+    'content--600__phone': media600 === true,
+    'content--600l__phone': media600l === true
   });
   var contentPhoneHomeClass = classnames_default()({
     'content__phone-home': media1728 === true,
@@ -9152,7 +11356,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__phone-home': media744 === true,
     'content--744l__phone-home': media744l === true,
     'content--375__phone-home': media375 === true,
-    'content--275__phone-home': media275 === true
+    'content--275__phone-home': media275 === true,
+    'content--1300__phone-home': media1300 === true,
+    'content--900__phone-home': media900 === true,
+    'content--600__phone-home': media600 === true,
+    'content--600l__phone-home': media600l === true
   });
   var contentNumberClass = classnames_default()({
     'content__number': media1728 === true,
@@ -9160,7 +11368,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__number': media744 === true,
     'content--744l__number': media744l === true,
     'content--375__number': media375 === true,
-    'content--275__number': media275 === true
+    'content--275__number': media275 === true,
+    'content--1300__number': media1300 === true,
+    'content--900__number': media900 === true,
+    'content--600__number': media600 === true,
+    'content--600l__number': media600l === true
   });
   var contentNumberHomeClass = classnames_default()({
     'content__number-home': media1728 === true,
@@ -9168,7 +11380,11 @@ var ModalContentG = function ModalContentG(props) {
     'content--744__number-home': media744 === true,
     'content--744l__number-home': media744l === true,
     'content--375__number-home': media375 === true,
-    'content--275__number-home': media275 === true
+    'content--275__number-home': media275 === true,
+    'content--1300__number-home': media1300 === true,
+    'content--900__number-home': media900 === true,
+    'content--600__number-home': media600 === true,
+    'content--600l__number-home': media600l === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -9216,7 +11432,7 @@ var ModalContentG = function ModalContentG(props) {
     id: "content-home",
     className: contentWranningHomeClass
   }, /*#__PURE__*/react.createElement("div", {
-    className: media275 || media375 ? contentInnerHomeClass : contentInnerClass
+    className: media275 || media375 || media600 || media600l ? contentInnerHomeClass : contentInnerClass
   }, media275 ? null : /*#__PURE__*/react.createElement("p", {
     id: "p-home",
     className: "".concat(contentPClass, " ").concat(contentPHomeClass)
@@ -9253,13 +11469,21 @@ var ModalContentH = function ModalContentH(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var contentReviewsClass = classnames_default()({
     'content__reviews': media1728 === true,
     'content--1133__reviews': media1133 === true,
     'content--744__reviews': media744 === true,
     'content--744l__reviews': media744l === true,
     'content--375__reviews': media375 === true,
-    'content--275__reviews': media275 === true
+    'content--275__reviews': media275 === true,
+    'content--1300__reviews': media1300 === true,
+    'content--900__reviews': media900 === true,
+    'content--600__reviews': media600 === true,
+    'content--600l__reviews': media600l === true
   });
   var reviewsClass = classnames_default()({
     'reviews': media1728 === true,
@@ -9267,7 +11491,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744': media744 === true,
     'reviews--744l': media744l === true,
     'reviews--375': media375 === true,
-    'reviews--275': media275 === true
+    'reviews--275': media275 === true,
+    'reviews--1300': media1300 === true,
+    'reviews--900': media900 === true,
+    'reviews--600': media600 === true,
+    'reviews--600l': media600l === true
   });
   var reviewsBodyClass = classnames_default()({
     'reviews__body': media1728 === true,
@@ -9275,7 +11503,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__body': media744 === true,
     'reviews--744l__body': media744l === true,
     'reviews--375__body': media375 === true,
-    'reviews--275__body': media275 === true
+    'reviews--275__body': media275 === true,
+    'reviews--1300__body': media1300 === true,
+    'reviews--900__body': media900 === true,
+    'reviews--600__body': media600 === true,
+    'reviews--600l__body': media600l === true
   });
   var reviewsContentClass = classnames_default()({
     'reviews__content': media1728 === true,
@@ -9283,7 +11515,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__content': media744 === true,
     'reviews--744l__content': media744l === true,
     'reviews--375__content': media375 === true,
-    'reviews--275__content': media275 === true
+    'reviews--275__content': media275 === true,
+    'reviews--1300__content': media1300 === true,
+    'reviews--900__content': media900 === true,
+    'reviews--600__content': media600 === true,
+    'reviews--600l__content': media600l === true
   });
   var reviewsBlockClass = classnames_default()({
     'reviews__block': media1728 === true,
@@ -9291,7 +11527,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__block': media744 === true,
     'reviews--744l__block': media744l === true,
     'reviews--375__block': media375 === true,
-    'reviews--275__block': media275 === true
+    'reviews--275__block': media275 === true,
+    'reviews--1300__block': media1300 === true,
+    'reviews--900__block': media900 === true,
+    'reviews--600__block': media600 === true,
+    'reviews--600l__block': media600l === true
   });
   var reviewsTitleClass = classnames_default()({
     'reviews__title': media1728 === true,
@@ -9299,7 +11539,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__title': media744 === true,
     'reviews--744l__title': media744l === true,
     'reviews--375__title': media375 === true,
-    'reviews--275__title': media275 === true
+    'reviews--275__title': media275 === true,
+    'reviews--1300__title': media1300 === true,
+    'reviews--900__title': media900 === true,
+    'reviews--600__title': media600 === true,
+    'reviews--600l__title': media600l === true
   });
   var reviewsTitleSubClass = classnames_default()({
     'reviews__title-sub': media1728 === true,
@@ -9307,7 +11551,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__title-sub': media744 === true,
     'reviews--744l__title-sub': media744l === true,
     'reviews--375__title-sub': media375 === true,
-    'reviews--275__title-sub': media275 === true
+    'reviews--275__title-sub': media275 === true,
+    'reviews--1300__title-sub': media1300 === true,
+    'reviews--900__title-sub': media900 === true,
+    'reviews--600__title-sub': media600 === true,
+    'reviews--600l__title-sub': media600l === true
   });
   var reviewsPClass = classnames_default()({
     'reviews__p': media1728 === true,
@@ -9315,7 +11563,11 @@ var ModalContentH = function ModalContentH(props) {
     'reviews--744__p': media744 === true,
     'reviews--744l__p': media744l === true,
     'reviews--375__p': media375 === true,
-    'reviews--275__p': media275 === true
+    'reviews--275__p': media275 === true,
+    'reviews--1300__p': media1300 === true,
+    'reviews--900__p': media900 === true,
+    'reviews--600__p': media600 === true,
+    'reviews--600l__p': media600l === true
   });
   var contentWranningClass = classnames_default()({
     'content__wranning': media1728 === true,
@@ -9323,7 +11575,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__wranning': media744 === true,
     'content--744l__wranning': media744l === true,
     'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true
+    'content--275__wranning': media275 === true,
+    'content--1300__wranning': media1300 === true,
+    'content--900__wranning': media900 === true,
+    'content--600__wranning': media600 === true,
+    'content--600l__wranning': media600l === true
   });
   var contentWranningReviewsClass = classnames_default()({
     'content__wranning-reviews': media1728 === true,
@@ -9331,7 +11587,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__wranning-reviews': media744 === true,
     'content--744l__wranning-reviews': media744l === true,
     'content--375__wranning-reviews': media375 === true,
-    'content--275__wranning-reviews': media275 === true
+    'content--275__wranning-reviews': media275 === true,
+    'content--1300__wranning-reviews': media1300 === true,
+    'content--900__wranning-reviews': media900 === true,
+    'content--600__wranning-reviews': media600 === true,
+    'content--600l__wranning-reviews': media600l === true
   });
   var contentInnerClass = classnames_default()({
     'content__inner': media1728 === true,
@@ -9339,7 +11599,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__inner': media744 === true,
     'content--744l__inner': media744l === true,
     'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true
+    'content--275__inner': media275 === true,
+    'content--1300__inner': media1300 === true,
+    'content--900__inner': media900 === true,
+    'content--600__inner': media600 === true,
+    'content--600l__inner': media600l === true
   });
   var contentInnerReviewsClass = classnames_default()({
     'content__inner-reviews': media1728 === true,
@@ -9347,7 +11611,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__inner-reviews': media744 === true,
     'content--744l__inner-reviews': media744l === true,
     'content--375__inner-reviews': media375 === true,
-    'content--275__inner-reviews': media275 === true
+    'content--275__inner-reviews': media275 === true,
+    'content--1300__inner-reviews': media1300 === true,
+    'content--900__inner-reviews': media900 === true,
+    'content--600__inner-reviews': media600 === true,
+    'content--600l__inner-reviews': media600l === true
   });
   var contentInnerIconsClass = classnames_default()({
     'content__inner-icons': media1728 === true,
@@ -9355,7 +11623,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__inner-icons': media744 === true,
     'content--744l__inner-icons': media744l === true,
     'content--375__inner-icons': media375 === true,
-    'content--275__inner-icons': media275 === true
+    'content--275__inner-icons': media275 === true,
+    'content--1300__inner-icons': media1300 === true,
+    'content--90__inner-icons': media900 === true,
+    'content--600__inner-icons': media600 === true,
+    'content--600l__inner-icons': media600l === true
   });
   var contentPClass = classnames_default()({
     'content__p': media1728 === true,
@@ -9363,7 +11635,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__p': media744 === true,
     'content--744l__p': media744l === true,
     'content--375__p': media375 === true,
-    'content--275__p': media275 === true
+    'content--275__p': media275 === true,
+    'content--1300__p': media1300 === true,
+    'content--900__p': media900 === true,
+    'content--600__p': media600 === true,
+    'content--600l__p': media600l === true
   });
   var contentPReviewsClass = classnames_default()({
     'content__p-reviews': media1728 === true,
@@ -9371,7 +11647,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__p-reviews': media744 === true,
     'content--744l__p-reviews': media744l === true,
     'content--375__p-reviews': media375 === true,
-    'content--275__p-reviews': media275 === true
+    'content--275__p-reviews': media275 === true,
+    'content--1300__p-reviews': media1300 === true,
+    'content--900__p-reviews': media900 === true,
+    'content--600__p-reviews': media600 === true,
+    'content--600l__p-reviews': media600l === true
   });
   var contentIconsClass = classnames_default()({
     'content__icons': media1728 === true,
@@ -9379,7 +11659,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__icons': media744 === true,
     'content--744l__icons': media744l === true,
     'content--375__icons': media375 === true,
-    'content--275__icons': media275 === true
+    'content--275__icons': media275 === true,
+    'content--1300__icons': media1300 === true,
+    'content--900__icons': media900 === true,
+    'content--600__icons': media600 === true,
+    'content--600l__icons': media600l === true
   });
   var contentIconsReviewsClass = classnames_default()({
     'content__icons-reviews': media1728 === true,
@@ -9387,7 +11671,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__icons-reviews': media744 === true,
     'content--744l__icons-reviews': media744l === true,
     'content--375__icons-reviews': media375 === true,
-    'content--275__icons-reviews': media275 === true
+    'content--275__icons-reviews': media275 === true,
+    'content--1300__icons-reviews': media1300 === true,
+    'content--900__icons-reviews': media900 === true,
+    'content--600__icons-reviews': media600 === true,
+    'content--600l__icons-reviews': media600l === true
   });
   var contentIconClass = classnames_default()({
     'content__icon': media1728 === true,
@@ -9395,7 +11683,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__icon': media744 === true,
     'content--744l__icon': media744l === true,
     'content--375__icon': media375 === true,
-    'content--275__icon': media275 === true
+    'content--275__icon': media275 === true,
+    'content--1300__icon': media1300 === true,
+    'content--900__icon': media900 === true,
+    'content--600__icon': media600 === true,
+    'content--600l__icon': media600l === true
   });
   var contentLinkClass = classnames_default()({
     'content__link': media1728 === true,
@@ -9403,7 +11695,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__link': media744 === true,
     'content--744l__link': media744l === true,
     'content--375__link': media375 === true,
-    'content--275__link': media275 === true
+    'content--275__link': media275 === true,
+    'content--1300__link': media1300 === true,
+    'content--900__link': media900 === true,
+    'content--600__link': media600 === true,
+    'content--600l__link': media600l === true
   });
   var contentLinkReviewsClass = classnames_default()({
     'content__link-reviews': media1728 === true,
@@ -9411,7 +11707,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__link-reviews': media744 === true,
     'content--744l__link-reviews': media744l === true,
     'content--375__link-reviews': media375 === true,
-    'content--275__link-reviews': media275 === true
+    'content--275__link-reviews': media275 === true,
+    'content--1300__link-reviews': media1300 === true,
+    'content--900__link-reviews': media900 === true,
+    'content--600__link-reviews': media600 === true,
+    'content--600l__link-reviews': media600l === true
   });
   var contentImgClass = classnames_default()({
     'content__img': media1728 === true,
@@ -9419,7 +11719,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__img': media744 === true,
     'content--744l__img': media744l === true,
     'content--375__img': media375 === true,
-    'content--275__img': media275 === true
+    'content--275__img': media275 === true,
+    'content--1300__img': media1300 === true,
+    'content--900__img': media900 === true,
+    'content--600__img': media600 === true,
+    'content--600l__img': media600l === true
   });
   var contentImgWhatsappClass = classnames_default()({
     'content__img-whatsapp': media1728 === true,
@@ -9427,7 +11731,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__img-whatsapp': media744 === true,
     'content--744l__img-whatsapp': media744l === true,
     'content--375__img-whatsapp': media375 === true,
-    'content--275__img-whatsapp': media275 === true
+    'content--275__img-whatsapp': media275 === true,
+    'content--1300__img-whatsapp': media1300 === true,
+    'content--900__img-whatsapp': media900 === true,
+    'content--600__img-whatsapp': media600 === true,
+    'content--600l__img-whatsapp': media600l === true
   });
   var contentImgTelegramClass = classnames_default()({
     'content__img-telegram': media1728 === true,
@@ -9435,7 +11743,11 @@ var ModalContentH = function ModalContentH(props) {
     'content--744__img-telegram': media744 === true,
     'content--744l__img-telegram': media744l === true,
     'content--375__img-telegram': media375 === true,
-    'content--275__img-telegram': media275 === true
+    'content--275__img-telegram': media275 === true,
+    'content--1300__img-telegram': media1300 === true,
+    'content--900__img-telegram': media900 === true,
+    'content--600__img-telegram': media600 === true,
+    'content--600l__img-telegram': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentReviewsClass
@@ -9843,13 +12155,21 @@ var Modal = function Modal(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var popupClass = classnames_default()({
     'popup': media1728 === true,
     'popup--1133': media1133 === true,
     'popup--744': media744 === true,
     'popup--744l': media744l === true,
     'popup--375': media375 === true,
-    'popup--275': media275 === true
+    'popup--275': media275 === true,
+    'popup--1300': media1300 === true,
+    'popup--900': media900 === true,
+    'popup--600': media600 === true,
+    'popup--600l': media600l === true
   });
   var popupContentClass = classnames_default()({
     'popup__content': media1728 === true,
@@ -9857,7 +12177,11 @@ var Modal = function Modal(props) {
     'popup--744__content': media744 === true,
     'popup--744l__content': media744l === true,
     'popup--375__content': media375 === true,
-    'popup--275__content': media275 === true
+    'popup--275__content': media275 === true,
+    'popup--1300__content': media1300 === true,
+    'popup--900__content': media900 === true,
+    'popup--600__content': media600 === true,
+    'popup--600l__content': media600l === true
   });
   var contentClass = classnames_default()({
     'content': media1728 === true,
@@ -9865,7 +12189,11 @@ var Modal = function Modal(props) {
     'content--744': media744 === true,
     'content--744l': media744l === true,
     'content--375': media375 === true,
-    'content--275': media275 === true
+    'content--275': media275 === true,
+    'content--1300': media1300 === true,
+    'content--900': media900 === true,
+    'content--600': media600 === true,
+    'content--600l': media600l === true
   });
   var contentBodyClass = classnames_default()({
     'content__body': media1728 === true,
@@ -9873,7 +12201,11 @@ var Modal = function Modal(props) {
     'content--744__body': media744 === true,
     'content--744l__body': media744l === true,
     'content--375__body': media375 === true,
-    'content--275__body': media275 === true
+    'content--275__body': media275 === true,
+    'content--1300__body': media1300 === true,
+    'content--900__body': media900 === true,
+    'content--600__body': media600 === true,
+    'content--600l__body': media600l === true
   });
   var popupBodyHideClass = classnames_default()({
     'popup__body-hide': media1728 === true,
@@ -9881,7 +12213,11 @@ var Modal = function Modal(props) {
     'popup--744__body-hide': media744 === true,
     'popup--744l__body-hide': media744l === true,
     'popup--375__body-hide': media375 === true,
-    'popup--275__body-hide': media275 === true
+    'popup--275__body-hide': media275 === true,
+    'popup--1300__body-hide': media1300 === true,
+    'popup--900__body-hide': media900 === true,
+    'popup--600__body-hide': media600 === true,
+    'popup--600l__body-hide': media600l === true
   });
   var popupHideClass = classnames_default()({
     'popup-hide': media1728 === true,
@@ -9889,7 +12225,11 @@ var Modal = function Modal(props) {
     'popup-hide--744': media744 === true,
     'popup-hide--744l': media744l === true,
     'popup-hide--375': media375 === true,
-    'popup-hide--275': media275 === true
+    'popup-hide--275': media275 === true,
+    'popup-hide--1300': media1300 === true,
+    'popup-hide--900': media900 === true,
+    'popup-hide--600': media600 === true,
+    'popup-hide--600l': media600l === true
   });
 
   // useBodyScrollLock();
@@ -10096,13 +12436,21 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var buttonViewportClass = classnames_default()({
     'button-viewport': media1728 === true,
     'button-viewport--1133': media1133 === true,
     'button-viewport--744': media744 === true,
     'button-viewport--744l': media744l === true,
     'button-viewport--375': media375 === true,
-    'button-viewport--275': media275 === true
+    'button-viewport--275': media275 === true,
+    'button-viewport--1300': media1300 === true,
+    'button-viewport--900': media900 === true,
+    'button-viewport--600': media600 === true,
+    'button-viewport--600l': media600l === true
   });
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
@@ -10118,7 +12466,11 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
     'button-viewport-hover--744': isHoverButton && media744 === true,
     'button-viewport-hover--744l': isHoverButton && media744l === true,
     'button-viewport-hover--375': isHoverButton && media375 === true,
-    'button-viewport-hover--275': isHoverButton && media275 === true
+    'button-viewport-hover--275': isHoverButton && media275 === true,
+    'button-viewport-hover--1300': isHoverButton && media1300 === true,
+    'button-viewport-hover--900': isHoverButton && media900 === true,
+    'button-viewport-hover--600': isHoverButton && media600 === true,
+    'button-viewport-hover--600l': isHoverButton && media600l === true
   });
   var handleButtonMouseEnter = function handleButtonMouseEnter() {
     setIsHoverButton(true);
@@ -10159,13 +12511,21 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var buttonsViewportClass = classnames_default()({
     'buttons-viewport': media1728 === true,
     'buttons-viewport--1133': media1133 === true,
     'buttons-viewport--744': media744 === true,
     'buttons-viewport--744l': media744l === true,
     'buttons-viewport--375': media375 === true,
-    'buttons-viewport--275': media275 === true
+    'buttons-viewport--275': media275 === true,
+    'buttons-viewport--1300': media1300 === true,
+    'buttons-viewport--900': media900 === true,
+    'buttons-viewport--600': media600 === true,
+    'buttons-viewport--600l': media600l === true
   });
   var buttonsPreClass = classnames_default()({
     'buttons-pre': media1728 === true,
@@ -10173,7 +12533,11 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
     'buttons-pre--744': media744 === true,
     'buttons-pre--744l': media744l === true,
     'buttons-pre--375': media375 === true,
-    'buttons-pre--275': media275 === true
+    'buttons-pre--275': media275 === true,
+    'buttons-pre--1300': media1300 === true,
+    'buttons-pre--900': media900 === true,
+    'buttons-pre--600': media600 === true,
+    'buttons-pre--600l': media600l === true
   });
   var buttonsNextClass = classnames_default()({
     'buttons-next': media1728 === true,
@@ -10181,7 +12545,11 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
     'buttons-next--744': media744 === true,
     'buttons-next--744l': media744l === true,
     'buttons-next--375': media375 === true,
-    'buttons-next--275': media275 === true
+    'buttons-next--275': media275 === true,
+    'buttons-next--1300': media1300 === true,
+    'buttons-next--900': media900 === true,
+    'buttons-next--600': media600 === true,
+    'buttons-next--600l': media600l === true
   });
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
@@ -10260,13 +12628,21 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var dotsDotClass = classnames_default()({
     'dots__dot': media1728 === true,
     'dots--1133__dot': media1133 === true,
     'dots--744__dot': media744 === true,
     'dots--744l__dot': media744l === true,
     'dots--375__dot': media375 === true,
-    'dots--275__dot': media275 === true
+    'dots--275__dot': media275 === true,
+    'dots--1300__dot': media1300 === true,
+    'dots--900__dot': media900 === true,
+    'dots--600__dot': media600 === true,
+    'dots--600l__dot': media600l === true
   });
   var dotsDotProceduresClass = classnames_default()({
     'dots__dot': media1728 === true,
@@ -10274,7 +12650,11 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
     'dots--744__dot': media744 === true,
     'dots--744l__dot': media744l === true,
     'dots--375__dot': media375 === true,
-    'dots--275__dot': media275 === true
+    'dots--275__dot': media275 === true,
+    'dots--1300__dot': media1300 === true,
+    'dots--900__dot': media900 === true,
+    'dots--600__dot': media600 === true,
+    'dots--600l__dot': media600l === true
   });
   var dotsDotBodyClass = classnames_default()({
     'dots__dot-body': media1728 === true,
@@ -10282,7 +12662,11 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
     'dots--744__dot-body': media744 === true,
     'dots--744l__dot-body': media744l === true,
     'dots--375__dot-body': media375 === true,
-    'dots--275__dot-body': media275 === true
+    'dots--275__dot-body': media275 === true,
+    'dots--1300__dot-body': media1300 === true,
+    'dots--900__dot-body': media900 === true,
+    'dots--600__dot-body': media600 === true,
+    'dots--600l__dot-body': media600l === true
   });
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
@@ -10339,13 +12723,21 @@ var SliderProcDots = function SliderProcDots(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var dotsBodyClass = classnames_default()({
     'dots__body': media1728 === true,
     'dots--1133__body': media1133 === true,
     'dots--744__body': media744 === true,
     'dots--744l__body': media744l === true,
     'dots--375__body': media375 === true,
-    'dots--275__body': media275 === true
+    'dots--275__body': media275 === true,
+    'dots--1300__body': media1300 === true,
+    'dots--900__body': media900 === true,
+    'dots--600__body': media600 === true,
+    'dots--600l__body': media600l === true
   });
   var dotsBodyProceduresClass = classnames_default()({
     'dots__body-procedures': media1728 === true,
@@ -10353,7 +12745,11 @@ var SliderProcDots = function SliderProcDots(props) {
     'dots--744__body-procedures': media744 === true,
     'dots--744l__body-procedures': media744l === true,
     'dots--375__body-procedures': media375 === true,
-    'dots--275__body-procedures': media275 === true
+    'dots--275__body-procedures': media275 === true,
+    'dots--1300__body-procedures': media1300 === true,
+    'dots--900__body-procedures': media900 === true,
+    'dots--600__body-procedures': media600 === true,
+    'dots--600l__body-procedures': media600l === true
   });
   var dotsBodyBodyClass = classnames_default()({
     'dots__body-body': media1728 === true,
@@ -10361,7 +12757,11 @@ var SliderProcDots = function SliderProcDots(props) {
     'dots--744__body-body': media744 === true,
     'dots--744l__body-body': media744l === true,
     'dots--375__body-body': media375 === true,
-    'dots--275__body-body': media275 === true
+    'dots--275__body-body': media275 === true,
+    'dots--1300__body-body': media1300 === true,
+    'dots--900__body-body': media900 === true,
+    'dots--600__body-body': media600 === true,
+    'dots--600l__body-body': media600l === true
   });
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
@@ -10440,13 +12840,21 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderClass = classnames_default()({
     'slider': media1728 === true,
     'slider--1133': media1133 === true,
     'slider--744': media744 === true,
     'slider--744l': media744l === true,
     'slider--375': media375 === true,
-    'slider--275': media275 === true
+    'slider--275': media275 === true,
+    'slider--1300': media1300 === true,
+    'slider--900': media900 === true,
+    'slider--600': media600 === true,
+    'slider--600l': media600l === true
   });
   var sliderProceduresClass = classnames_default()({
     'slider-procedures': media1728 === true,
@@ -10454,7 +12862,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider-procedures--744': media744 === true,
     'slider-procedures--744l': media744l === true,
     'slider-procedures--375': media375 === true,
-    'slider-procedures--275': media275 === true
+    'slider-procedures--275': media275 === true,
+    'slider-procedures--1300': media1300 === true,
+    'slider-procedures--900': media900 === true,
+    'slider-procedures--600': media600 === true,
+    'slider-procedures--600l': media600l === true
   });
   var sliderBodyClass = classnames_default()({
     'slider-body': media1728 === true,
@@ -10462,7 +12874,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider-body--744': media744 === true,
     'slider-body--744l': media744l === true,
     'slider-body--375': media375 === true,
-    'slider-body--275': media275 === true
+    'slider-body--275': media275 === true,
+    'slider-body--1300': media1300 === true,
+    'slider-body--900': media900 === true,
+    'slider-body--600': media600 === true,
+    'slider-body--600l': media600l === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
@@ -10470,7 +12886,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
     'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true
+    'slider--275__slide': media275 === true,
+    'slider--1300__slide': media1300 === true,
+    'slider--900__slide': media900 === true,
+    'slider--600__slide': media600 === true,
+    'slider--600l__slide': media600l === true
   });
   var sliderSlideProceduresClass = classnames_default()({
     'slider__slide-procedures': media1728 === true,
@@ -10478,7 +12898,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__slide-procedures': media744 === true,
     'slider--744l__slide-procedures': media744l === true,
     'slider--375__slide-procedures': media375 === true,
-    'slider--275__slide-procedures': media275 === true
+    'slider--275__slide-procedures': media275 === true,
+    'slider--1300__slide-procedures': media1300 === true,
+    'slider--900__slide-procedures': media900 === true,
+    'slider--600__slide-procedures': media600 === true,
+    'slider--600l__slide-procedures': media600l === true
   });
   var sliderSlideBodyActiveClass = classnames_default()({
     'slider__slide-body-active': media1728 === true,
@@ -10486,7 +12910,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__slide-body-active': media744 === true,
     'slider--744l__slide-body-active': media744l === true,
     'slider--375__slide-body-active': media375 === true,
-    'slider--275__slide-body-active': media275 === true
+    'slider--275__slide-body-active': media275 === true,
+    'slider--1300__slide-body-active': media1300 === true,
+    'slider--900__slide-body-active': media900 === true,
+    'slider--600__slide-body-active': media600 === true,
+    'slider--600l__slide-body-active': media600l === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
@@ -10494,7 +12922,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
     'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true
+    'slider--275__link': media275 === true,
+    'slider--1300__link': media1300 === true,
+    'slider--900__link': media900 === true,
+    'slider--600__link': media600 === true,
+    'slider--600l__link': media600l === true
   });
   var sliderLinkProceduresClass = classnames_default()({
     'slider__link-procedures': media1728 === true,
@@ -10502,7 +12934,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__link-procedures': media744 === true,
     'slider--744l__link-procedures': media744l === true,
     'slider--375__link-procedures': media375 === true,
-    'slider--275__link-procedures': media275 === true
+    'slider--275__link-procedures': media275 === true,
+    'slider--1300__link-procedures': media1300 === true,
+    'slider--900__link-procedures': media900 === true,
+    'slider--600__link-procedures': media600 === true,
+    'slider--600l__link-procedures': media600l === true
   });
   var sliderCardClass = classnames_default()({
     'slider__card': media1728 === true,
@@ -10510,7 +12946,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__card': media744 === true,
     'slider--744l__card': media744l === true,
     'slider--375__card': media375 === true,
-    'slider--275__card': media275 === true
+    'slider--275__card': media275 === true,
+    'slider--1300__card': media1300 === true,
+    'slider--900__card': media900 === true,
+    'slider--600__card': media600 === true,
+    'slider--600l__card': media600l === true
   });
   var sliderCardProceduresClass = classnames_default()({
     'slider__card-procedures': media1728 === true,
@@ -10518,7 +12958,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'slider--744__card-procedures': media744 === true,
     'slider--744l__card-procedures': media744l === true,
     'slider--375__card-procedures': media375 === true,
-    'slider--275__card-procedures': media275 === true
+    'slider--275__card-procedures': media275 === true,
+    'slider--1300__card-procedures': media1300 === true,
+    'slider--900__card-procedures': media900 === true,
+    'slider--600__card-procedures': media600 === true,
+    'slider--600l__card-procedures': media600l === true
   });
   var buttonsClass = classnames_default()({
     'buttons': media1728 === true,
@@ -10526,7 +12970,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'buttons--744': media744 === true,
     'buttons--744l': media744l === true,
     'buttons--375': media375 === true,
-    'buttons--275': media275 === true
+    'buttons--275': media275 === true,
+    'buttons--1300': media1300 === true,
+    'buttons--900': media900 === true,
+    'buttons--600': media600 === true,
+    'buttons--600l': media600l === true
   });
   var dotsClass = classnames_default()({
     'dots': media1728 === true,
@@ -10534,7 +12982,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'dots--744': media744 === true,
     'dots--744l': media744l === true,
     'dots--375': media375 === true,
-    'dots--275': media275 === true
+    'dots--275': media275 === true,
+    'dots--1300': media1300 === true,
+    'dots--900': media900 === true,
+    'dots--600': media600 === true,
+    'dots--600l': media600l === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
@@ -10542,7 +12994,11 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var _useState = (0,react.useState)([]),
     _useState2 = ProcSliderContextProvider_slicedToArray(_useState, 2),
@@ -10614,7 +13070,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   // const countSlides = 4;
 
   var countSlides;
-  media1728 === true ? countSlides = 4 : media1133 === true ? countSlides = 3 : media744 === true ? countSlides = 2 : media744l === true ? countSlides = 3 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
+  media1728 === true ? countSlides = 4 : media1300 === true ? countSlides = 3 : media1133 === true ? countSlides = 3 : media900 === true ? countSlides = 2 : media744 === true ? countSlides = 2 : media744l === true ? countSlides = 3 : media600 === true ? countSlides = 2 : media600l === true ? countSlides = 2 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
   var _useContext = (0,react.useContext)(ModalContext/* ModalContext */.V),
     openModal = _useContext.openModal,
     closeModal = _useContext.closeModal,
@@ -10659,13 +13115,13 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var sliderDefault = function sliderDefault() {
     var current;
-    media1728 === true ? current = '.slider__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : media744 === true ? current = '.slider--744__slide-body-active' : null;
+    media1728 === true ? current = '.slider__slide-body-active' : media1300 === true ? current = '.slider--1300__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : media900 === true ? current = '.slider--900__slide-body-active' : media744 === true ? current = '.slider--744__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSliderDefault(current);
   };
   var slidesAllActive = function slidesAllActive() {
     var current;
-    media744l === true ? current = '.slider--744l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : media275 === true ? current = '.slider--275__slide-body-active' : null;
+    media744l === true ? current = '.slider--744l__slide-body-active' : media600 === true ? current = '.slider--600__slide-body-active' : media600l === true ? current = '.slider--600l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : media275 === true ? current = '.slider--275__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSlidesAllActive(current);
   };
@@ -10674,7 +13130,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       setItems(props.images);
     };
     loadData();
-    if (media744l || media375 || media275) {
+    if (media744l || media600 || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10702,8 +13158,8 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     // let widthSlide = 336;
     var widthSlide;
     var heightSlide;
-    media1728 || media1133 || media744 ? widthSlide = 336 : media744l || media375 || media275 ? widthSlide = 204 : null;
-    media1728 || media1133 || media744 ? heightSlide = 364 : media744l || media375 || media275 ? heightSlide = 222 : null;
+    media1728 || media1300 || media1133 || media900 || media744 ? widthSlide = 336 : media744l || media600 || media600l || media375 || media275 ? widthSlide = 204 : null;
+    media1728 || media1300 || media1133 || media900 || media744 ? heightSlide = 364 : media744l || media600 || media600l || media375 || media275 ? heightSlide = 222 : null;
     for (var i = 0; i < items.length; i++) {
       // widthSlide = slidesRef.current[i].current.offsetWidth;
       var width = widthSlide + 30;
@@ -10816,7 +13272,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media375 || media275) {
+    if (media744l || media600 || media600l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10862,7 +13318,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     setTouchPosition(null);
   };
   (0,react.useEffect)(function () {
-    if (media1728 === true || media1133 === true || media744 === true) return;
+    if (media1728 === true || media1300 || media1133 === true || media900 === true || media744 === true) return;
     var containerWidth = props.containerWidth;
     var k = 204 - (containerWidth - Math.floor(containerWidth / 234) * 234);
     if (sliderDirection > 5) {
@@ -10924,7 +13380,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var handleChangeViewport = function handleChangeViewport(number) {
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media375) {
+    if (media744l || media600 || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -10956,7 +13412,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   (0,react.useEffect)(function () {
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media375 || media275) {
+    if (media744l || media600 || media600l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -11059,7 +13515,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
         className: "".concat(sliderCardClass, " ").concat(sliderCardProceduresClass)
       })) : null;
     })));
-  })), media1728 || media1133 || media744 ? /*#__PURE__*/react.createElement("div", {
+  })), media1728 || media1300 || media1133 || media900 || media744 ? /*#__PURE__*/react.createElement("div", {
     className: buttonsClass
   }, /*#__PURE__*/react.createElement(SliderProcButtons, {
     typeButtons: 'pre'
@@ -11197,21 +13653,16 @@ var propsData = function propsData(props) {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var funcQueryMedia = function funcQueryMedia() {
-  // return {
-  //     query1728: "(min-width: 1728px)",
-  //     query1133: "(min-width: 1182px) and (max-width: 1727px)",
-  //     query744: "(min-width: 784px) and (max-width: 1181px) and (min-height: 745px)",
-  //     query744l: "(min-width: 784px) and (max-width: 1181px) and (max-height: 744px)",
-  //     query375: "(min-width: 446px) and (max-width: 783px)",
-  //     query275: "(min-width: 275px) and (max-width: 445px)",
-  // }
-
   return {
     query1728: "(min-width: 1728px)",
-    query1133: "(min-width: 1133px) and (max-width: 1727px)",
-    query744: "(min-width: 744px) and (max-width: 1132px) and (min-height: 745px)",
-    query744l: "(min-width: 744px) and (max-width: 1132px) and (max-height: 744px)",
-    query375: "(min-width: 375px) and (max-width: 743px)",
+    query1300: "(min-width: 1300px) and (max-width: 1727px)",
+    query1133: "(min-width: 1133px) and (max-width: 1299px)",
+    query900: "(min-width: 900px) and (max-width: 1132px)",
+    query744: "(min-width: 744px) and (max-width: 899px) and (min-height: 745px)",
+    query744l: "(min-width: 744px) and (max-width: 899px) and (max-height: 744px)",
+    query600: "(min-width: 600px) and (max-width: 743px) and (min-height: 601px)",
+    query600l: "(min-width: 600px) and (max-width: 743px) and (max-height: 600px)",
+    query375: "(min-width: 375px) and (max-width: 599px)",
     query275: "(min-width: 275px) and (max-width: 374px)"
   };
 };
@@ -34791,7 +37242,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"e956fcca99380a0ba6a8"}[chunkId] + ".js";
+/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"782b968a048d30e47111"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -34800,7 +37251,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + "2f2a6f83ae08d2952c98" + ".css";
+/******/ 			return "" + chunkId + "." + "fc4a5d3d686df08b3ff1" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -35613,13 +38064,21 @@ var SliderCert = function SliderCert(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderCertificatesClass = classnames_default()({
     'slider-certificates': media1728 === true,
     'slider-certificates--1133': media1133 === true,
     'slider-certificates--744': media744 === true,
     'slider-certificates--744l': media744l === true,
     'slider-certificates--375': media375 === true,
-    'slider-certificates--275': media275 === true
+    'slider-certificates--275': media275 === true,
+    'slider-certificates--1300': media1300 === true,
+    'slider-certificates--900': media900 === true,
+    'slider-certificates--600': media600 === true,
+    'slider-certificates--600l': media600l === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
@@ -35627,7 +38086,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
     'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true
+    'slider--275__slide': media275 === true,
+    'slider--1300__slide': media1300 === true,
+    'slider--900__slide': media900 === true,
+    'slider--600__slide': media600 === true,
+    'slider--600l__slide': media600l === true
   });
   var sliderSlideCertificatesClass = classnames_default()({
     'slider__slide-certificates': media1728 === true,
@@ -35635,7 +38098,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__slide-certificates': media744 === true,
     'slider--744l__slide-certificates': media744l === true,
     'slider--375__slide-certificates': media375 === true,
-    'slider--275__slide-certificates': media275 === true
+    'slider--275__slide-certificates': media275 === true,
+    'slider--1300__slide-certificates': media1300 === true,
+    'slider--900__slide-certificates': media900 === true,
+    'slider--600__slide-certificates': media600 === true,
+    'slider--600l__slide-certificates': media600l === true
   });
   var sliderSlideCertificatesMobileClass = classnames_default()({
     'slider__slide-certificates-mobile': media1728 === true,
@@ -35643,7 +38110,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__slide-certificates-mobile': media744 === true,
     'slider--744l__slide-certificates-mobile': media744l === true,
     'slider--375__slide-certificates-mobile': media375 === true,
-    'slider--275__slide-certificates-mobile': media275 === true
+    'slider--275__slide-certificates-mobile': media275 === true,
+    'slider--1300__slide-certificates-mobile': media1300 === true,
+    'slider--900__slide-certificates-mobile': media900 === true,
+    'slider--600__slide-certificates-mobile': media600 === true,
+    'slider--600l__slide-certificates-mobile': media600l === true
   });
   var sliderSlideCertificatesActiveClass = classnames_default()({
     'slider__slide-certificates-active': media1728 === true,
@@ -35651,7 +38122,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__slide-certificates-active': media744 === true,
     'slider--744l__slide-certificates-active': media744l === true,
     'slider--375__slide-certificates-active': media375 === true,
-    'slider--275__slide-certificates-active': media275 === true
+    'slider--275__slide-certificates-active': media275 === true,
+    'slider--1300__slide-certificates-active': media1300 === true,
+    'slider--900__slide-certificates-active': media900 === true,
+    'slider--600__slide-certificates-active': media600 === true,
+    'slider--600l__slide-certificates-active': media600l === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
@@ -35659,7 +38134,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
     'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true
+    'slider--275__link': media275 === true,
+    'slider--1300__link': media1300 === true,
+    'slider--900__link': media900 === true,
+    'slider--600__link': media600 === true,
+    'slider--600l__link': media600l === true
   });
   var sliderLinkCertificatesClass = classnames_default()({
     'slider__link-certificates': media1728 === true,
@@ -35667,7 +38146,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__link-certificates': media744 === true,
     'slider--744l__link-certificates': media744l === true,
     'slider--375__link-certificates': media375 === true,
-    'slider--275__link-certificates': media275 === true
+    'slider--275__link-certificates': media275 === true,
+    'slider--1300__link-certificates': media1300 === true,
+    'slider--900__link-certificates': media900 === true,
+    'slider--600__link-certificates': media600 === true,
+    'slider--600l__link-certificates': media600l === true
   });
   var sliderCardClass = classnames_default()({
     'slider__card': media1728 === true,
@@ -35675,7 +38158,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__card': media744 === true,
     'slider--744l__card': media744l === true,
     'slider--375__card': media375 === true,
-    'slider--275__card': media275 === true
+    'slider--275__card': media275 === true,
+    'slider--1300__card': media1300 === true,
+    'slider--900__card': media900 === true,
+    'slider--600__card': media600 === true,
+    'slider--600l__card': media600l === true
   });
   var sliderCardCertificatesClass = classnames_default()({
     'slider__card-certificates': media1728 === true,
@@ -35683,7 +38170,11 @@ var SliderCert = function SliderCert(props) {
     'slider--744__card-certificates': media744 === true,
     'slider--744l__card-certificates': media744l === true,
     'slider--375__card-certificates': media375 === true,
-    'slider--275__card-certificates': media275 === true
+    'slider--275__card-certificates': media275 === true,
+    'slider--1300__card-certificates': media1300 === true,
+    'slider--900__card-certificates': media900 === true,
+    'slider--600__card-certificates': media600 === true,
+    'slider--600l__card-certificates': media600l === true
   });
   var images = [certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11, certificate12, certificate13];
   var _useState = (0,react.useState)([]),
@@ -35736,7 +38227,11 @@ var SliderCert = function SliderCert(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var modalId = 'popup-';
   var modalBodyClassName = "".concat(popupBodyClass, " ").concat(popupBodyClass, "-");
@@ -35790,7 +38285,7 @@ var SliderCert = function SliderCert(props) {
     setTouchPosition(null);
   };
   (0,react.useLayoutEffect)(function () {
-    if (media1728 === true || media1133 === true || media744 === true) return;
+    if (media1728 === true || media1300 === true || media1133 === true || media900 === true || media744 === true) return;
     var widthSlider = 0;
     var heightSlider = 0;
     var widthSlide = 281;
@@ -35805,7 +38300,7 @@ var SliderCert = function SliderCert(props) {
     setSliderHeight(heightSlide);
   }, [items]);
   (0,react.useEffect)(function () {
-    if (media1728 === true || media1133 === true || media744 === true) return;
+    if (media1728 === true || media1300 === true || media1133 === true || media900 || media744 === true) return;
     var containerWidth = props.containerWidth;
     var k = 281 - (containerWidth - Math.floor(containerWidth / 311) * 311);
     if (sliderDirection > 5) {
@@ -35839,7 +38334,7 @@ var SliderCert = function SliderCert(props) {
   var slidesDefault = function slidesDefault() {
     var slides = document.querySelectorAll(".".concat(sliderSlideCertificatesClass));
     for (var i = 0; i < slides.length; i++) {
-      if (media1728 === true || media1133 === true || media744 === true) {
+      if (media1728 === true || media1133 === true || media900 === true || media744 === true) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
       }
@@ -35856,13 +38351,13 @@ var SliderCert = function SliderCert(props) {
     };
     loadData();
     slidesDefault();
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     var currentSlide = sliderSlide(0);
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   }, []);
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     slidesDefault();
     var slideNumber = 0;
     if (slide + direction < 0) {
@@ -35875,7 +38370,7 @@ var SliderCert = function SliderCert(props) {
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   };
   (0,react.useEffect)(function () {
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === 600 || media600l === true || media375 === true || media275 === true) return;
     var interval = setInterval(function () {
       changeSlide(1);
     }, 4000);
@@ -35902,7 +38397,7 @@ var SliderCert = function SliderCert(props) {
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: sliderCertificatesClass,
     ref: sliderRef,
-    style: media744l === true || media375 === true || media275 === true ? {
+    style: media744l === true || media600 === true || media600l === true || media375 === true || media275 === true ? {
       width: "".concat(sliderWidth, "px"),
       height: "".concat(sliderHeight, "px")
     } : null,
@@ -35980,13 +38475,21 @@ var Certificates = function Certificates() {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var certificatesClass = classnames_default()({
     'certificates': media1728 === true,
     'certificates--1133': media1133 === true,
     'certificates--744': media744 === true,
     'certificates--744l': media744l === true,
     'certificates--375': media375 === true,
-    'certificates--275': media275 === true
+    'certificates--275': media275 === true,
+    'certificates--1300': media1300 === true,
+    'certificates--900': media900 === true,
+    'certificates--600': media600 === true,
+    'certificates--600l': media600l === true
   });
   var containerCertificatesClass = classnames_default()({
     'container-certificates': media1728 === true,
@@ -35994,7 +38497,11 @@ var Certificates = function Certificates() {
     'container-certificates--744': media744 === true,
     'container-certificates--744l': media744l === true,
     'container-certificates--375': media375 === true,
-    'container-certificates--275': media275 === true
+    'container-certificates--275': media275 === true,
+    'container-certificates--1300': media1300 === true,
+    'container-certificates--900': media900 === true,
+    'container-certificates--600': media600 === true,
+    'container-certificates--600l': media600l === true
   });
   var certificatesSliderClass = classnames_default()({
     'certificates__slider': media1728 === true,
@@ -36002,7 +38509,11 @@ var Certificates = function Certificates() {
     'certificates--744__slider': media744 === true,
     'certificates--744l__slider': media744l === true,
     'certificates--375__slider': media375 === true,
-    'certificates--275__slider': media275 === true
+    'certificates--275__slider': media275 === true,
+    'certificates--1300__slider': media1300 === true,
+    'certificates--900__slider': media900 === true,
+    'certificates--600__slider': media600 === true,
+    'certificates--600l__slider': media600l === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -36071,13 +38582,21 @@ var Companies = function Companies(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var companiesClass = classnames_default()({
     'companies': media1728 === true,
     'companies--1133': media1133 === true,
     'companies--744': media744 === true,
     'companies--744l': media744l === true,
     'companies--375': media375 === true,
-    'companies--275': media275 === true
+    'companies--275': media275 === true,
+    'companies--1300': media1300 === true,
+    'companies--900': media900 === true,
+    'companies--600': media600 === true,
+    'companies--600l': media600l === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
@@ -36085,7 +38604,11 @@ var Companies = function Companies(props) {
     'container--744': media744 === true,
     'container--744l': media744l === true,
     'container--375': media375 === true,
-    'container--275': media275 === true
+    'container--275': media275 === true,
+    'container--1300': media1300 === true,
+    'container--900': media900 === true,
+    'container--600': media600 === true,
+    'container--600l': media600l === true
   });
   var containerCompaniesClass = classnames_default()({
     'container-companies': media1728 === true,
@@ -36093,7 +38616,11 @@ var Companies = function Companies(props) {
     'container-companies--744': media744 === true,
     'container-companies--744l': media744l === true,
     'container-companies--375': media375 === true,
-    'container-companies--275': media275 === true
+    'container-companies--275': media275 === true,
+    'container-companies--1300': media1300 === true,
+    'container-companies--900': media900 === true,
+    'container-companies--600': media600 === true,
+    'container-companies--600l': media600l === true
   });
   var companiesListClass = classnames_default()({
     'companies__list': media1728 === true,
@@ -36101,7 +38628,11 @@ var Companies = function Companies(props) {
     'companies--744__list': media744 === true,
     'companies--744l__list': media744l === true,
     'companies--375__list': media375 === true,
-    'companies--275__list': media275 === true
+    'companies--275__list': media275 === true,
+    'companies--1300__list': media1300 === true,
+    'companies--900__list': media900 === true,
+    'companies--600__list': media600 === true,
+    'companies--600l__list': media600l === true
   });
   var companiesItemClass = classnames_default()({
     'companies__item': media1728 === true,
@@ -36109,7 +38640,11 @@ var Companies = function Companies(props) {
     'companies--744__item': media744 === true,
     'companies--744l__item': media744l === true,
     'companies--375__item': media375 === true,
-    'companies--275__item': media275 === true
+    'companies--275__item': media275 === true,
+    'companies--1300__item': media1300 === true,
+    'companies--900__item': media900 === true,
+    'companies--600__item': media600 === true,
+    'companies--600l__item': media600l === true
   });
   var companiesItemMychwayClass = classnames_default()({
     'companies__item-mychway': media1728 === true,
@@ -36117,7 +38652,11 @@ var Companies = function Companies(props) {
     'companies--744__item-mychway': media744 === true,
     'companies--744l__item-mychway': media744l === true,
     'companies--375__item-mychway': media375 === true,
-    'companies--275__item-mychway': media275 === true
+    'companies--275__item-mychway': media275 === true,
+    'companies--1300__item-mychway': media1300 === true,
+    'companies--900__item-mychway': media900 === true,
+    'companies--600__item-mychway': media600 === true,
+    'companies--600l__item-mychway': media600l === true
   });
   var companiesFrameClass = classnames_default()({
     'companies__frame': media1728 === true,
@@ -36125,7 +38664,11 @@ var Companies = function Companies(props) {
     'companies--744__frame': media744 === true,
     'companies--744l__frame': media744l === true,
     'companies--375__frame': media375 === true,
-    'companies--275__frame': media275 === true
+    'companies--275__frame': media275 === true,
+    'companies--1300__frame': media1300 === true,
+    'companies--900__frame': media900 === true,
+    'companies--600__frame': media600 === true,
+    'companies--600l__frame': media600l === true
   });
   var companiesFrameMychwayClass = classnames_default()({
     'companies__frame-mychway': media1728 === true,
@@ -36133,7 +38676,11 @@ var Companies = function Companies(props) {
     'companies--744__frame-mychway': media744 === true,
     'companies--744l__frame-mychway': media744l === true,
     'companies--375__frame-mychway': media375 === true,
-    'companies--275__frame-mychway': media275 === true
+    'companies--275__frame-mychway': media275 === true,
+    'companies--1300__frame-mychway': media1300 === true,
+    'companies--900__frame-mychway': media900 === true,
+    'companies--600__frame-mychway': media600 === true,
+    'companies--600l__frame-mychway': media600l === true
   });
   var companiesGroupClass = classnames_default()({
     'companies__group': media1728 === true,
@@ -36141,7 +38688,11 @@ var Companies = function Companies(props) {
     'companies--744__group': media744 === true,
     'companies--744l__group': media744l === true,
     'companies--375__group': media375 === true,
-    'companies--275__group': media275 === true
+    'companies--275__group': media275 === true,
+    'companies--1300__group': media1300 === true,
+    'companies--900__group': media900 === true,
+    'companies--600__group': media600 === true,
+    'companies--600l__group': media600l === true
   });
   var companiesGroupMychwayClass = classnames_default()({
     'companies__group-mychway': media1728 === true,
@@ -36149,7 +38700,11 @@ var Companies = function Companies(props) {
     'companies--744__group-mychway': media744 === true,
     'companies--744l__group-mychway': media744l === true,
     'companies--375__group-mychway': media375 === true,
-    'companies--275__group-mychway': media275 === true
+    'companies--275__group-mychway': media275 === true,
+    'companies--1300__group-mychway': media1300 === true,
+    'companies--900__group-mychway': media900 === true,
+    'companies--600__group-mychway': media600 === true,
+    'companies--600l__group-mychway': media600l === true
   });
   var companiesItemAuroClass = classnames_default()({
     'companies__item-auro': media1728 === true,
@@ -36157,7 +38712,11 @@ var Companies = function Companies(props) {
     'companies--744__item-auro': media744 === true,
     'companies--744l__item-auro': media744l === true,
     'companies--375__item-auro': media375 === true,
-    'companies--275__item-auro': media275 === true
+    'companies--275__item-auro': media275 === true,
+    'companies--1300__item-auro': media1300 === true,
+    'companies--900__item-auro': media900 === true,
+    'companies--600__item-auro': media600 === true,
+    'companies--600l__item-auro': media600l === true
   });
   var companiesItemSalonartClass = classnames_default()({
     'companies__item-salonart': media1728 === true,
@@ -36165,7 +38724,11 @@ var Companies = function Companies(props) {
     'companies--744__item-salonart': media744 === true,
     'companies--744l__item-salonart': media744l === true,
     'companies--375__item-salonart': media375 === true,
-    'companies--275__item-salonart': media275 === true
+    'companies--275__item-salonart': media275 === true,
+    'companies--1300__item-salonart': media1300 === true,
+    'companies--900__item-salonart': media900 === true,
+    'companies--600__item-salonart': media600 === true,
+    'companies--600l__item-salonart': media600l === true
   });
   var companiesItemVibroClass = classnames_default()({
     'companies__item-vibro': media1728 === true,
@@ -36173,7 +38736,11 @@ var Companies = function Companies(props) {
     'companies--744__item-vibro': media744 === true,
     'companies--744l__item-vibro': media744l === true,
     'companies--375__item-vibro': media375 === true,
-    'companies--275__item-vibro': media275 === true
+    'companies--275__item-vibro': media275 === true,
+    'companies--1300__item-vibro': media1300 === true,
+    'companies--900__item-vibro': media900 === true,
+    'companies--600__item-vibro': media600 === true,
+    'companies--600l__item-vibro': media600l === true
   });
   var companiesItemDrceuracleClass = classnames_default()({
     'companies__item-drceuracle': media1728 === true,
@@ -36181,7 +38748,11 @@ var Companies = function Companies(props) {
     'companies--744__item-drceuracle': media744 === true,
     'companies--744l__item-drceuracle': media744l === true,
     'companies--375__item-drceuracle': media375 === true,
-    'companies--275__item-drceuracle': media275 === true
+    'companies--275__item-drceuracle': media275 === true,
+    'companies--1300__item-drceuracle': media1300 === true,
+    'companies--900__item-drceuracle': media900 === true,
+    'companies--600__item-drceuracle': media600 === true,
+    'companies--600l__item-drceuracle': media600l === true
   });
   var companiesFrameAuroClass = classnames_default()({
     'companies__frame-auro': media1728 === true,
@@ -36189,7 +38760,11 @@ var Companies = function Companies(props) {
     'companies--744__frame-auro': media744 === true,
     'companies--744l__frame-auro': media744l === true,
     'companies--375__frame-auro': media375 === true,
-    'companies--275__frame-auro': media275 === true
+    'companies--275__frame-auro': media275 === true,
+    'companies--1300__frame-auro': media1300 === true,
+    'companies--900__frame-auro': media900 === true,
+    'companies--600__frame-auro': media600 === true,
+    'companies--600l__frame-auro': media600l === true
   });
   var companiesFrameSalonartClass = classnames_default()({
     'companies__frame-salonart': media1728 === true,
@@ -36197,7 +38772,11 @@ var Companies = function Companies(props) {
     'companies--744__frame-salonart': media744 === true,
     'companies--744l__frame-salonart': media744l === true,
     'companies--375__frame-salonart': media375 === true,
-    'companies--275__frame-salonart': media275 === true
+    'companies--275__frame-salonart': media275 === true,
+    'companies--1300__frame-salonart': media1300 === true,
+    'companies--900__frame-salonart': media900 === true,
+    'companies--600__frame-salonart': media600 === true,
+    'companies--600l__frame-salonart': media600l === true
   });
   var companiesFrameVibroClass = classnames_default()({
     'companies__frame-vibro': media1728 === true,
@@ -36205,7 +38784,11 @@ var Companies = function Companies(props) {
     'companies--744__frame-vibro': media744 === true,
     'companies--744l__frame-vibro': media744l === true,
     'companies--375__frame-vibro': media375 === true,
-    'companies--275__frame-vibro': media275 === true
+    'companies--275__frame-vibro': media275 === true,
+    'companies--1300__frame-vibro': media1300 === true,
+    'companies--900__frame-vibro': media900 === true,
+    'companies--600__frame-vibro': media600 === true,
+    'companies--600l__frame-vibro': media600l === true
   });
   var companiesFrameDrceuracleClass = classnames_default()({
     'companies__frame-drceuracle': media1728 === true,
@@ -36213,7 +38796,11 @@ var Companies = function Companies(props) {
     'companies--744__frame-drceuracle': media744 === true,
     'companies--744l__frame-drceuracle': media744l === true,
     'companies--375__frame-drceuracle': media375 === true,
-    'companies--275__frame-drceuracle': media275 === true
+    'companies--275__frame-drceuracle': media275 === true,
+    'companies--1300__frame-drceuracle': media1300 === true,
+    'companies--900__frame-drceuracle': media900 === true,
+    'companies--600__frame-drceuracle': media600 === true,
+    'companies--600l__frame-drceuracle': media600l === true
   });
   var companiesGroupAuroClass = classnames_default()({
     'companies__group-auro': media1728 === true,
@@ -36221,7 +38808,11 @@ var Companies = function Companies(props) {
     'companies--744__group-auro': media744 === true,
     'companies--744l__group-auro': media744l === true,
     'companies--375__group-auro': media375 === true,
-    'companies--275__group-auro': media275 === true
+    'companies--275__group-auro': media275 === true,
+    'companies--1300__group-auro': media1300 === true,
+    'companies--900__group-auro': media900 === true,
+    'companies--600__group-auro': media600 === true,
+    'companies--600l__group-auro': media600l === true
   });
   var companiesGroupSalonartClass = classnames_default()({
     'companies__group-salonart': media1728 === true,
@@ -36229,7 +38820,11 @@ var Companies = function Companies(props) {
     'companies--744__group-salonart': media744 === true,
     'companies--744l__group-salonart': media744l === true,
     'companies--375__group-salonart': media375 === true,
-    'companies--275__group-salonart': media275 === true
+    'companies--275__group-salonart': media275 === true,
+    'companies--1300__group-salonart': media1300 === true,
+    'companies--900__group-salonart': media900 === true,
+    'companies--600__group-salonart': media600 === true,
+    'companies--600l__group-salonart': media600l === true
   });
   var companiesGroupVibroClass = classnames_default()({
     'companies__group-vibro': media1728 === true,
@@ -36237,7 +38832,11 @@ var Companies = function Companies(props) {
     'companies--744__group-vibro': media744 === true,
     'companies--744l__group-vibro': media744l === true,
     'companies--375__group-vibro': media375 === true,
-    'companies--275__group-vibro': media275 === true
+    'companies--275__group-vibro': media275 === true,
+    'companies--1300__group-vibro': media1300 === true,
+    'companies--900__group-vibro': media900 === true,
+    'companies--600__group-vibro': media600 === true,
+    'companies--600l__group-vibro': media600l === true
   });
   var companiesGroupDrceuracleClass = classnames_default()({
     'companies__group-drceuracle': media1728 === true,
@@ -36245,7 +38844,11 @@ var Companies = function Companies(props) {
     'companies--744__group-drceuracle': media744 === true,
     'companies--744l__group-drceuracle': media744l === true,
     'companies--375__group-drceuracle': media375 === true,
-    'companies--275__group-drceuracle': media275 === true
+    'companies--275__group-drceuracle': media275 === true,
+    'companies--1300__group-drceuracle': media1300 === true,
+    'companies--900__group-drceuracle': media900 === true,
+    'companies--600__group-drceuracle': media600 === true,
+    'companies--600l__group-drceuracle': media600l === true
   });
   var companiesNameClass = classnames_default()({
     'companies__name': media1728 === true,
@@ -36253,7 +38856,11 @@ var Companies = function Companies(props) {
     'companies--744__name': media744 === true,
     'companies--744l__name': media744l === true,
     'companies--375__name': media375 === true,
-    'companies--275__name': media275 === true
+    'companies--275__name': media275 === true,
+    'companies--1300__name': media1300 === true,
+    'companies--900__name': media900 === true,
+    'companies--600__name': media600 === true,
+    'companies--600l__name': media600l === true
   });
   var companiesNameMychwayClass = classnames_default()({
     'companies__name-mychway': media1728 === true,
@@ -36261,7 +38868,11 @@ var Companies = function Companies(props) {
     'companies--744__name-mychway': media744 === true,
     'companies--744l__name-mychway': media744l === true,
     'companies--375__name-mychway': media375 === true,
-    'companies--275__name-mychway': media275 === true
+    'companies--275__name-mychway': media275 === true,
+    'companies--1300__name-mychway': media1300 === true,
+    'companies--900__name-mychway': media900 === true,
+    'companies--600__name-mychway': media600 === true,
+    'companies--600l__name-mychway': media600l === true
   });
   var companiesNameAuroClass = classnames_default()({
     'companies__name-auro': media1728 === true,
@@ -36269,7 +38880,11 @@ var Companies = function Companies(props) {
     'companies--744__name-auro': media744 === true,
     'companies--744l__name-auro': media744l === true,
     'companies--375__name-auro': media375 === true,
-    'companies--275__name-auro': media275 === true
+    'companies--275__name-auro': media275 === true,
+    'companies--1300__name-auro': media1300 === true,
+    'companies--900__name-auro': media900 === true,
+    'companies--600__name-auro': media600 === true,
+    'companies--600l__name-auro': media600l === true
   });
   var companiesNameSalonartClass = classnames_default()({
     'companies__name-salonart': media1728 === true,
@@ -36277,7 +38892,11 @@ var Companies = function Companies(props) {
     'companies--744__name-salonart': media744 === true,
     'companies--744l__name-salonart': media744l === true,
     'companies--375__name-salonart': media375 === true,
-    'companies--275__name-salonart': media275 === true
+    'companies--275__name-salonart': media275 === true,
+    'companies--1300__name-salonart': media1300 === true,
+    'companies--900__name-salonart': media900 === true,
+    'companies--600__name-salonart': media600 === true,
+    'companies--600l__name-salonart': media600l === true
   });
   var companiesNameVibroClass = classnames_default()({
     'companies__name-vibro': media1728 === true,
@@ -36285,7 +38904,11 @@ var Companies = function Companies(props) {
     'companies--744__name-vibro': media744 === true,
     'companies--744l__name-vibro': media744l === true,
     'companies--375__name-vibro': media375 === true,
-    'companies--275__name-vibro': media275 === true
+    'companies--275__name-vibro': media275 === true,
+    'companies--1300__name-vibro': media1300 === true,
+    'companies--900__name-vibro': media900 === true,
+    'companies--600__name-vibro': media600 === true,
+    'companies--600l__name-vibro': media600l === true
   });
   var companiesNameDrceuracleClass = classnames_default()({
     'companies__name-drceuracle': media1728 === true,
@@ -36293,7 +38916,11 @@ var Companies = function Companies(props) {
     'companies--744__name-drceuracle': media744 === true,
     'companies--744l__name-drceuracle': media744l === true,
     'companies--375__name-drceuracle': media375 === true,
-    'companies--275__name-drceuracle': media275 === true
+    'companies--275__name-drceuracle': media275 === true,
+    'companies--1300__name-drceuracle': media1300 === true,
+    'companies--900__name-drceuracle': media900 === true,
+    'companies--600__name-drceuracle': media600 === true,
+    'companies--600l__name-drceuracle': media600l === true
   });
   var companiesBlurClass = classnames_default()({
     'companies__blur': media1728 === true,
@@ -36301,7 +38928,11 @@ var Companies = function Companies(props) {
     'companies--744__blur': media744 === true,
     'companies--744l__blur': media744l === true,
     'companies--375__blur': media375 === true,
-    'companies--275__blur': media275 === true
+    'companies--275__blur': media275 === true,
+    'companies--1300__blur': media1300 === true,
+    'companies--900__blur': media900 === true,
+    'companies--600__blur': media600 === true,
+    'companies--600l__blur': media600l === true
   });
   var companiesBlurMychwayClass = classnames_default()({
     'companies__blur-mychway': media1728 === true,
@@ -36309,7 +38940,11 @@ var Companies = function Companies(props) {
     'companies--744__blur-mychway': media744 === true,
     'companies--744l__blur-mychway': media744l === true,
     'companies--375__blur-mychway': media375 === true,
-    'companies--275__blur-mychway': media275 === true
+    'companies--275__blur-mychway': media275 === true,
+    'companies--1300__blur-mychway': media1300 === true,
+    'companies--900__blur-mychway': media900 === true,
+    'companies--600__blur-mychway': media600 === true,
+    'companies--600l__blur-mychway': media600l === true
   });
   var companiesBlurAuroClass = classnames_default()({
     'companies__blur-auro': media1728 === true,
@@ -36317,7 +38952,11 @@ var Companies = function Companies(props) {
     'companies--744__blur-auro': media744 === true,
     'companies--744l__blur-auro': media744l === true,
     'companies--375__blur-auro': media375 === true,
-    'companies--275__blur-auro': media275 === true
+    'companies--275__blur-auro': media275 === true,
+    'companies--1300__blur-auro': media1300 === true,
+    'companies--900__blur-auro': media900 === true,
+    'companies--600__blur-auro': media600 === true,
+    'companies--600l__blur-auro': media600l === true
   });
   var companiesBlurSalonartClass = classnames_default()({
     'companies__blur-salonart': media1728 === true,
@@ -36325,7 +38964,11 @@ var Companies = function Companies(props) {
     'companies--744__blur-salonart': media744 === true,
     'companies--744l__blur-salonart': media744l === true,
     'companies--375__blur-salonart': media375 === true,
-    'companies--275__blur-salonart': media275 === true
+    'companies--275__blur-salonart': media275 === true,
+    'companies--1300__blur-salonart': media1300 === true,
+    'companies--900__blur-salonart': media900 === true,
+    'companies--600__blur-salonart': media600 === true,
+    'companies--600l__blur-salonart': media600l === true
   });
   var companiesBlurVibroClass = classnames_default()({
     'companies__blur-vibro': media1728 === true,
@@ -36333,7 +38976,11 @@ var Companies = function Companies(props) {
     'companies--744__blur-vibro': media744 === true,
     'companies--744l__blur-vibro': media744l === true,
     'companies--375__blur-vibro': media375 === true,
-    'companies--275__blur-vibro': media275 === true
+    'companies--275__blur-vibro': media275 === true,
+    'companies--1300__blur-vibro': media1300 === true,
+    'companies--900__blur-vibro': media900 === true,
+    'companies--600__blur-vibro': media600 === true,
+    'companies--600l__blur-vibro': media600l === true
   });
   var companiesBlurDrceuracleClass = classnames_default()({
     'companies__blur-drceuracle': media1728 === true,
@@ -36341,7 +38988,11 @@ var Companies = function Companies(props) {
     'companies--744__blur-drceuracle': media744 === true,
     'companies--744l__blur-drceuracle': media744l === true,
     'companies--375__blur-drceuracle': media375 === true,
-    'companies--275__blur-drceuracle': media275 === true
+    'companies--275__blur-drceuracle': media275 === true,
+    'companies--1300__blur-drceuracle': media1300 === true,
+    'companies--900__blur-drceuracle': media900 === true,
+    'companies--600__blur-drceuracle': media600 === true,
+    'companies--600l__blur-drceuracle': media600l === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -36351,7 +39002,7 @@ var Companies = function Companies(props) {
     isCompaniesList = _useState2[0],
     setIsCompaniesList = _useState2[1];
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true) return;
+    if (media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (companiesListRef.current.getBoundingClientRect().top < headerHeight - 120) {
@@ -36520,13 +39171,21 @@ var FooterSection1 = function FooterSection1(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerMenuClass = classnames_default()({
     'footer__menu': media1728 === true,
     'footer--1133__menu': media1133 === true,
     'footer--744__menu': media744 === true,
     'footer--744l__menu': media744l === true,
     'footer--375__menu': media375 === true,
-    'footer--275__menu': media275 === true
+    'footer--275__menu': media275 === true,
+    'footer--1300__menu': media1300 === true,
+    'footer--900__menu': media900 === true,
+    'footer--600__menu': media600 === true,
+    'footer--600l__menu': media600l === true
   });
   var footerInnerClass = classnames_default()({
     'footer__inner': media1728 === true,
@@ -36534,7 +39193,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__inner': media744 === true,
     'footer--744l__inner': media744l === true,
     'footer--375__inner': media375 === true,
-    'footer--275__inner': media275 === true
+    'footer--275__inner': media275 === true,
+    'footer--1300__inner': media1300 === true,
+    'footer--900__inner': media900 === true,
+    'footer--600__inner': media600 === true,
+    'footer--600l__inner': media600l === true
   });
   var footerInnerColumnClass = classnames_default()({
     'footer__inner-column': media1728 === true,
@@ -36542,7 +39205,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__inner-column': media744 === true,
     'footer--744l__inner-column': media744l === true,
     'footer--375__inner-column': media375 === true,
-    'footer--275__inner-column': media275 === true
+    'footer--275__inner-column': media275 === true,
+    'footer--1300__inner-column': media1300 === true,
+    'footer--900__inner-column': media900 === true,
+    'footer--600__inner-column': media600 === true,
+    'footer--600l__inner-column': media600l === true
   });
   var footerColumnClass = classnames_default()({
     'footer__column': media1728 === true,
@@ -36550,7 +39217,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__column': media744 === true,
     'footer--744l__column': media744l === true,
     'footer--375__column': media375 === true,
-    'footer--275__column': media275 === true
+    'footer--275__column': media275 === true,
+    'footer--1300__column': media1300 === true,
+    'footer--900__column': media900 === true,
+    'footer--600__column': media600 === true,
+    'footer--600l__column': media600l === true
   });
   var footerColumn1Class = classnames_default()({
     'footer__column-1': media1728 === true,
@@ -36558,7 +39229,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__column-1': media744 === true,
     'footer--744l__column-1': media744l === true,
     'footer--375__column-1': media375 === true,
-    'footer--275__column-1': media275 === true
+    'footer--275__column-1': media275 === true,
+    'footer--1300__column-1': media1300 === true,
+    'footer--900__column-1': media900 === true,
+    'footer--600__column-1': media600 === true,
+    'footer--600l__column-1': media600l === true
   });
   var footerColumn2Class = classnames_default()({
     'footer__column-2': media1728 === true,
@@ -36566,7 +39241,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__column-2': media744 === true,
     'footer--744l__column-2': media744l === true,
     'footer--375__column-2': media375 === true,
-    'footer--275__column-2': media275 === true
+    'footer--275__column-2': media275 === true,
+    'footer--1300__column-2': media1300 === true,
+    'footer--900__column-2': media900 === true,
+    'footer--600__column-2': media600 === true,
+    'footer--600l__column-2': media600l === true
   });
   var footerColumn3Class = classnames_default()({
     'footer__column-3': media1728 === true,
@@ -36574,7 +39253,11 @@ var FooterSection1 = function FooterSection1(props) {
     'footer--744__column-3': media744 === true,
     'footer--744l__column-3': media744l === true,
     'footer--375__column-3': media375 === true,
-    'footer--275__column-3': media275 === true
+    'footer--275__column-3': media275 === true,
+    'footer--1300__column-3': media1300 === true,
+    'footer--900__column-3': media900 === true,
+    'footer--600__column-3': media600 === true,
+    'footer--600l__column-3': media600l === true
   });
   var menuFooterClass = classnames_default()({
     'menu-footer': media1728 === true,
@@ -36582,7 +39265,11 @@ var FooterSection1 = function FooterSection1(props) {
     'menu-footer--744': media744 === true,
     'menu-footer--744l': media744l === true,
     'menu-footer--375': media375 === true,
-    'menu-footer--275': media275 === true
+    'menu-footer--275': media275 === true,
+    'menu-footer--1300': media1300 === true,
+    'menu-footer--900': media900 === true,
+    'menu-footer--600': media600 === true,
+    'menu-footer--600l': media600l === true
   });
   var menuItemClass = classnames_default()({
     'menu__item': media1728 === true,
@@ -36590,7 +39277,11 @@ var FooterSection1 = function FooterSection1(props) {
     'menu--744__item': media744 === true,
     'menu--744l__item': media744l === true,
     'menu--375__item': media375 === true,
-    'menu--275__item': media275 === true
+    'menu--275__item': media275 === true,
+    'menu--1300__item': media1300 === true,
+    'menu--900__item': media900 === true,
+    'menu--600__item': media600 === true,
+    'menu--600l__item': media600l === true
   });
   var menuItemSection1Class = classnames_default()({
     'menu__item-section1': media1728 === true,
@@ -36598,7 +39289,11 @@ var FooterSection1 = function FooterSection1(props) {
     'menu--744__item-section1': media744 === true,
     'menu--744l__item-section1': media744l === true,
     'menu--375__item-section1': media375 === true,
-    'menu--275__item-section1': media275 === true
+    'menu--275__item-section1': media275 === true,
+    'menu--1300__item-section1': media1300 === true,
+    'menu--900__item-section1': media900 === true,
+    'menu--600__item-section1': media600 === true,
+    'menu--600l__item-section1': media600l === true
   });
   var menuLinkSection1Class = classnames_default()({
     'menu__link-section1': media1728 === true,
@@ -36606,7 +39301,11 @@ var FooterSection1 = function FooterSection1(props) {
     'menu--744__link-section1': media744 === true,
     'menu--744l__link-section1': media744l === true,
     'menu--375__link-section1': media375 === true,
-    'menu--275__link-section1': media275 === true
+    'menu--275__link-section1': media275 === true,
+    'menu--1300__link-section1': media1300 === true,
+    'menu--900__link-section1': media900 === true,
+    'menu--600__link-section1': media600 === true,
+    'menu--600l__link-section1': media600l === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
@@ -36614,7 +39313,11 @@ var FooterSection1 = function FooterSection1(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
@@ -36775,13 +39478,21 @@ var FooterLogoImg = function FooterLogoImg(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var logoClass = classnames_default()({
     'logo': media1728 === true,
     'logo--1133': media1133 === true,
     'logo--744': media744 === true,
     'logo--744l': media744l === true,
     'logo--375': media375 === true,
-    'logo--275': media275 === true
+    'logo--275': media275 === true,
+    'logo--1300': media1300 === true,
+    'logo--900': media900 === true,
+    'logo--600': media600 === true,
+    'logo--600l': media600l === true
   });
   var logoFooterClass = classnames_default()({
     'logo-footer': media1728 === true,
@@ -36789,7 +39500,11 @@ var FooterLogoImg = function FooterLogoImg(props) {
     'logo-footer--744': media744 === true,
     'logo-footer--744l': media744l === true,
     'logo-footer--375': media375 === true,
-    'logo-footer--275': media275 === true
+    'logo-footer--275': media275 === true,
+    'logo-footer--1300': media1300 === true,
+    'logo-footer--900': media900 === true,
+    'logo-footer--600': media600 === true,
+    'logo-footer--600l': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [logo_footer_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, FooterLogoImg_extends({
@@ -36822,13 +39537,21 @@ var FooterLogo = function FooterLogo(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerLinkClass = classnames_default()({
     'footer__link': media1728 === true,
     'footer--1133__link': media1133 === true,
     'footer--744__link': media744 === true,
     'footer--744l__link': media744l === true,
     'footer--375__link': media375 === true,
-    'footer--275__link': media275 === true
+    'footer--275__link': media275 === true,
+    'footer--1300__link': media1300 === true,
+    'footer--900__link': media900 === true,
+    'footer--600__link': media600 === true,
+    'footer--600l__link': media600l === true
   });
   var footerLinkLogoClass = classnames_default()({
     'footer__link-logo': media1728 === true,
@@ -36836,7 +39559,11 @@ var FooterLogo = function FooterLogo(props) {
     'footer--744__link-logo': media744 === true,
     'footer--744l__link-logo': media744l === true,
     'footer--375__link-logo': media375 === true,
-    'footer--275__link-logo': media275 === true
+    'footer--275__link-logo': media275 === true,
+    'footer--1300__link-logo': media1300 === true,
+    'footer--900__link-logo': media900 === true,
+    'footer--600__link-logo': media600 === true,
+    'footer--600l__link-logo': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiLink */.bQ, FooterLogo_extends({
@@ -36876,13 +39603,21 @@ var FooterSection2 = function FooterSection2() {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerInnerClass = classnames_default()({
     'footer__inner': media1728 === true,
     'footer--1133__inner': media1133 === true,
     'footer--744__inner': media744 === true,
     'footer--744l__inner': media744l === true,
     'footer--375__inner': media375 === true,
-    'footer--275__inner': media275 === true
+    'footer--275__inner': media275 === true,
+    'footer--1300__inner': media1300 === true,
+    'footer--900__inner': media900 === true,
+    'footer--600__inner': media600 === true,
+    'footer--600l__inner': media600l === true
   });
   var footerInnerSection2Class = classnames_default()({
     'footer__inner-section2': media1728 === true,
@@ -36890,7 +39625,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__inner-section2': media744 === true,
     'footer--744l__inner-section2': media744l === true,
     'footer--375__inner-section2': media375 === true,
-    'footer--275__inner-section2': media275 === true
+    'footer--275__inner-section2': media275 === true,
+    'footer--1300__inner-section2': media1300 === true,
+    'footer--900__inner-section2': media900 === true,
+    'footer--600__inner-section2': media600 === true,
+    'footer--600l__inner-section2': media600l === true
   });
   var footerInnerLeftClass = classnames_default()({
     'footer__inner-left': media1728 === true,
@@ -36898,7 +39637,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__inner-left': media744 === true,
     'footer--744l__inner-left': media744l === true,
     'footer--375__inner-left': media375 === true,
-    'footer--275__inner-left': media275 === true
+    'footer--275__inner-left': media275 === true,
+    'footer--1300__inner-left': media1300 === true,
+    'footer--900__inner-left': media900 === true,
+    'footer--600__inner-left': media600 === true,
+    'footer--600l__inner-left': media600l === true
   });
   var footerInnerWarningClass = classnames_default()({
     'footer__inner-warning': media1728 === true,
@@ -36906,7 +39649,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__inner-warning': media744 === true,
     'footer--744l__inner-warning': media744l === true,
     'footer--375__inner-warning': media375 === true,
-    'footer--275__inner-warning': media275 === true
+    'footer--275__inner-warning': media275 === true,
+    'footer--1300__inner-warning': media1300 === true,
+    'footer--900__inner-warning': media900 === true,
+    'footer--600__inner-warning': media600 === true,
+    'footer--600l__inner-warning': media600l === true
   });
   var footerCopyrightClass = classnames_default()({
     'footer__copyright': media1728 === true,
@@ -36914,7 +39661,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__copyright': media744 === true,
     'footer--744l__copyright': media744l === true,
     'footer--375__copyright': media375 === true,
-    'footer--275__copyright': media275 === true
+    'footer--275__copyright': media275 === true,
+    'footer--1300__copyright': media1300 === true,
+    'footer--900__copyright': media900 === true,
+    'footer--600__copyright': media600 === true,
+    'footer--600l__copyright': media600l === true
   });
   var footerLogoClass = classnames_default()({
     'footer__logo': media1728 === true,
@@ -36922,7 +39673,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__logo': media744 === true,
     'footer--744l__logo': media744l === true,
     'footer--375__logo': media375 === true,
-    'footer--275__logo': media275 === true
+    'footer--275__logo': media275 === true,
+    'footer--1300__logo': media1300 === true,
+    'footer--900__logo': media900 === true,
+    'footer--600__logo': media600 === true,
+    'footer--600l__logo': media600l === true
   });
   var footerCopyClass = classnames_default()({
     'footer__copy': media1728 === true,
@@ -36930,7 +39685,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__copy': media744 === true,
     'footer--744l__copy': media744l === true,
     'footer--375__copy': media375 === true,
-    'footer--275__copy': media275 === true
+    'footer--275__copy': media275 === true,
+    'footer--1300__copy': media1300 === true,
+    'footer--900__copy': media900 === true,
+    'footer--600__copy': media600 === true,
+    'footer--600l__copy': media600l === true
   });
   var footerPClass = classnames_default()({
     'footer__p': media1728 === true,
@@ -36938,7 +39697,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__p': media744 === true,
     'footer--744l__p': media744l === true,
     'footer--375__p': media375 === true,
-    'footer--275__p': media275 === true
+    'footer--275__p': media275 === true,
+    'footer--1300__p': media1300 === true,
+    'footer--900__p': media900 === true,
+    'footer--600__p': media600 === true,
+    'footer--600l__p': media600l === true
   });
   var footerPCopyClass = classnames_default()({
     'footer__p-copy': media1728 === true,
@@ -36946,7 +39709,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__p-copy': media744 === true,
     'footer--744l__p-copy': media744l === true,
     'footer--375__p-copy': media375 === true,
-    'footer--275__p-copy': media275 === true
+    'footer--275__p-copy': media275 === true,
+    'footer--1300__p-copy': media1300 === true,
+    'footer--900__p-copy': media900 === true,
+    'footer--600__p-copy': media600 === true,
+    'footer--600l__p-copy': media600l === true
   });
   var footerPWarningClass = classnames_default()({
     'footer__p-warning': media1728 === true,
@@ -36954,7 +39721,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__p-warning': media744 === true,
     'footer--744l__p-warning': media744l === true,
     'footer--375__p-warning': media375 === true,
-    'footer--275__p-warning': media275 === true
+    'footer--275__p-warning': media275 === true,
+    'footer--1300__p-warning': media1300 === true,
+    'footer--900__p-warning': media900 === true,
+    'footer--600__p-warning': media600 === true,
+    'footer--600l__p-warning': media600l === true
   });
   var footerWarningClass = classnames_default()({
     'footer__warning': media1728 === true,
@@ -36962,7 +39733,11 @@ var FooterSection2 = function FooterSection2() {
     'footer--744__warning': media744 === true,
     'footer--744l__warning': media744l === true,
     'footer--375__warning': media375 === true,
-    'footer--275__warning': media275 === true
+    'footer--275__warning': media275 === true,
+    'footer--1300__warning': media1300 === true,
+    'footer--900__warning': media900 === true,
+    'footer--600__warning': media600 === true,
+    'footer--600l__warning': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: "".concat(footerInnerClass, " ").concat(footerInnerSection2Class)
@@ -37015,13 +39790,21 @@ var FooterSection3 = function FooterSection3(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerIconsClass = classnames_default()({
     'footer__icons': media1728 === true,
     'footer--1133__icons': media1133 === true,
     'footer--744__icons': media744 === true,
     'footer--744l__icons': media744l === true,
     'footer--375__icons': media375 === true,
-    'footer--275__icons': media275 === true
+    'footer--275__icons': media275 === true,
+    'footer--1300__icons': media1300 === true,
+    'footer--900__icons': media900 === true,
+    'footer--600__icons': media600 === true,
+    'footer--600l__icons': media600l === true
   });
   var iconsClass = classnames_default()({
     'icons': media1728 === true,
@@ -37029,7 +39812,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744': media744 === true,
     'icons--744l': media744l === true,
     'icons--375': media375 === true,
-    'icons--275': media275 === true
+    'icons--275': media275 === true,
+    'icons--1300': media1300 === true,
+    'icons--900': media900 === true,
+    'icons--600': media600 === true,
+    'icons--600l': media600l === true
   });
   var iconsFooterClass = classnames_default()({
     'icons-footer': media1728 === true,
@@ -37037,7 +39824,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons-footer--744': media744 === true,
     'icons-footer--744l': media744l === true,
     'icons-footer--375': media375 === true,
-    'icons-footer--275': media275 === true
+    'icons-footer--275': media275 === true,
+    'icons-footer--1300': media1300 === true,
+    'icons-footer--900': media900 === true,
+    'icons-footer--600': media600 === true,
+    'icons-footer--600l': media600l === true
   });
   var iconsItemClass = classnames_default()({
     'icons__item': media1728 === true,
@@ -37045,7 +39836,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__item': media744 === true,
     'icons--744l__item': media744l === true,
     'icons--375__item': media375 === true,
-    'icons--275__item': media275 === true
+    'icons--275__item': media275 === true,
+    'icons--1300__item': media1300 === true,
+    'icons--900__item': media900 === true,
+    'icons--600__item': media600 === true,
+    'icons--600l__item': media600l === true
   });
   var iconsItemFooterClass = classnames_default()({
     'icons__item-footer': media1728 === true,
@@ -37053,7 +39848,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__item-footer': media744 === true,
     'icons--744l__item-footer': media744l === true,
     'icons--375__item-footer': media375 === true,
-    'icons--275__item-footer': media275 === true
+    'icons--275__item-footer': media275 === true,
+    'icons--1300__item-footer': media1300 === true,
+    'icons--900__item-footer': media900 === true,
+    'icons--600__item-footer': media600 === true,
+    'icons--600l__item-footer': media600l === true
   });
   var iconsItemWhatsappClass = classnames_default()({
     'icons__item-whatsapp': media1728 === true,
@@ -37061,7 +39860,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__item-whatsapp': media744 === true,
     'icons--744l__item-whatsapp': media744l === true,
     'icons--375__item-whatsapp': media375 === true,
-    'icons--275__item-whatsapp': media275 === true
+    'icons--275__item-whatsapp': media275 === true,
+    'icons--1300__item-whatsapp': media1300 === true,
+    'icons--900__item-whatsapp': media900 === true,
+    'icons--600__item-whatsapp': media600 === true,
+    'icons--600l__item-whatsapp': media600l === true
   });
   var iconsItemTelegramClass = classnames_default()({
     'icons__item-telegram': media1728 === true,
@@ -37069,7 +39872,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__item-telegram': media744 === true,
     'icons--744l__item-telegram': media744l === true,
     'icons--375__item-telegram': media375 === true,
-    'icons--275__item-telegram': media275 === true
+    'icons--275__item-telegram': media275 === true,
+    'icons--1300__item-telegram': media1300 === true,
+    'icons--900__item-telegram': media900 === true,
+    'icons--600__item-telegram': media600 === true,
+    'icons--600l__item-telegram': media600l === true
   });
   var iconsItemCheckmarkClass = classnames_default()({
     'icons__item-checkmark': media1728 === true,
@@ -37077,7 +39884,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__item-checkmark': media744 === true,
     'icons--744l__item-checkmark': media744l === true,
     'icons--375__item-checkmark': media375 === true,
-    'icons--275__item-checkmark': media275 === true
+    'icons--275__item-checkmark': media275 === true,
+    'icons--1300__item-checkmark': media1300 === true,
+    'icons--900__item-checkmark': media900 === true,
+    'icons--600__item-checkmark': media600 === true,
+    'icons--600l__item-checkmark': media600l === true
   });
   var iconsLinkClass = classnames_default()({
     'icons__link': media1728 === true,
@@ -37085,7 +39896,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__link': media744 === true,
     'icons--744l__link': media744l === true,
     'icons--375__link': media375 === true,
-    'icons--275__link': media275 === true
+    'icons--275__link': media275 === true,
+    'icons--1300__link': media1300 === true,
+    'icons--900__link': media900 === true,
+    'icons--600__link': media600 === true,
+    'icons--600l__link': media600l === true
   });
   var iconsLinkFooterClass = classnames_default()({
     'icons__link-footer': media1728 === true,
@@ -37093,7 +39908,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__link-footer': media744 === true,
     'icons--744l__link-footer': media744l === true,
     'icons--375__link-footer': media375 === true,
-    'icons--275__link-footer': media275 === true
+    'icons--275__link-footer': media275 === true,
+    'icons--1300__link-footer': media1300 === true,
+    'icons--900__link-footer': media900 === true,
+    'icons--600__link-footer': media600 === true,
+    'icons--600l__link-footer': media600l === true
   });
   var iconsLinkWhatsappClass = classnames_default()({
     'icons__link-whatsapp': media1728 === true,
@@ -37101,7 +39920,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__link-whatsapp': media744 === true,
     'icons--744l__link-whatsapp': media744l === true,
     'icons--375__link-whatsapp': media375 === true,
-    'icons--275__link-whatsapp': media275 === true
+    'icons--275__link-whatsapp': media275 === true,
+    'icons--1300__link-whatsapp': media1300 === true,
+    'icons--900__link-whatsapp': media900 === true,
+    'icons--600__link-whatsapp': media600 === true,
+    'icons--600l__link-whatsapp': media600l === true
   });
   var iconsLinkTelegramClass = classnames_default()({
     'icons__link-telegram': media1728 === true,
@@ -37109,7 +39932,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__link-telegram': media744 === true,
     'icons--744l__link-telegram': media744l === true,
     'icons--375__link-telegram': media375 === true,
-    'icons--275__link-telegram': media275 === true
+    'icons--275__link-telegram': media275 === true,
+    'icons--1300__link-telegram': media1300 === true,
+    'icons--900__link-telegram': media900 === true,
+    'icons--600__link-telegram': media600 === true,
+    'icons--600l__link-telegram': media600l === true
   });
   var iconsLinkCheckmarkClass = classnames_default()({
     'icons__link-checkmark': media1728 === true,
@@ -37117,7 +39944,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__link-checkmark': media744 === true,
     'icons--744l__link-checkmark': media744l === true,
     'icons--375__link-checkmark': media375 === true,
-    'icons--275__link-checkmark': media275 === true
+    'icons--275__link-checkmark': media275 === true,
+    'icons--1300__link-checkmark': media1300 === true,
+    'icons--900__link-checkmark': media900 === true,
+    'icons--600__link-checkmark': media600 === true,
+    'icons--600l__link-checkmark': media600l === true
   });
   var iconsLineClass = classnames_default()({
     'icons__line': media1728 === true,
@@ -37125,7 +39956,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__line': media744 === true,
     'icons--744l__line': media744l === true,
     'icons--375__line': media375 === true,
-    'icons--275__line': media275 === true
+    'icons--275__line': media275 === true,
+    'icons--1300__line': media1300 === true,
+    'icons--900__line': media900 === true,
+    'icons--600__line': media600 === true,
+    'icons--600l__line': media600l === true
   });
   var iconsLineFooterClass = classnames_default()({
     'icons__line-footer': media1728 === true,
@@ -37133,7 +39968,11 @@ var FooterSection3 = function FooterSection3(props) {
     'icons--744__line-footer': media744 === true,
     'icons--744l__line-footer': media744l === true,
     'icons--375__line-footer': media375 === true,
-    'icons--275__line-footer': media275 === true
+    'icons--275__line-footer': media275 === true,
+    'icons--1300__line-footer': media1300 === true,
+    'icons--900__line-footer': media900 === true,
+    'icons--600__line-footer': media600 === true,
+    'icons--600l__line-footer': media600l === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
@@ -37141,7 +39980,11 @@ var FooterSection3 = function FooterSection3(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var iconsLinkRef = (0,react.useRef)(props.data[1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -37254,6 +40097,7 @@ function FooterSection4_extends() { return FooterSection4_extends = Object.assig
 
 
 
+
 var FooterSection4 = function FooterSection4(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -37262,13 +40106,21 @@ var FooterSection4 = function FooterSection4(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerPhoneClass = classnames_default()({
     'footer__phone': media1728 === true,
     'footer--1133__phone': media1133 === true,
     'footer--744__phone': media744 === true,
     'footer--744l__phone': media744l === true,
     'footer--375__phone': media375 === true,
-    'footer--275__phone': media275 === true
+    'footer--275__phone': media275 === true,
+    'footer--1300__phone': media1300 === true,
+    'footer--900__phone': media900 === true,
+    'footer--600__phone': media600 === true,
+    'footer--600l__phone': media600l === true
   });
   var footerLinkPhoneClass = classnames_default()({
     'footer__link-phone': media1728 === true,
@@ -37276,7 +40128,11 @@ var FooterSection4 = function FooterSection4(props) {
     'footer--744__link-phone': media744 === true,
     'footer--744l__link-phone': media744l === true,
     'footer--375__link-phone': media375 === true,
-    'footer--275__link-phone': media275 === true
+    'footer--275__link-phone': media275 === true,
+    'footer--1300__link-phone': media1300 === true,
+    'footer--900__link-phone': media900 === true,
+    'footer--600__link-phone': media600 === true,
+    'footer--600l__link-phone': media600l === true
   });
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -37289,12 +40145,15 @@ var FooterSection4 = function FooterSection4(props) {
     return data;
   };
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_call_namespaceObject);
+  var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
+  var loadedImageBg900 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_call1133_namespaceObject);
+  var loadedImageBg600 = (0,hooks/* useLoadImageBg */.ws)(bg_call375_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_call375_namespaceObject);
   var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_call375_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1300 ? loadedImageBg = loadedImageBg1300 : media1133 ? loadedImageBg = loadedImageBg1133 : media900 ? loadedImageBg = loadedImageBg900 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media600 ? loadedImageBg = loadedImageBg375 : media600l ? loadedImageBg = loadedImageBg375 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: footerPhoneClass,
     style: {
@@ -37312,10 +40171,16 @@ var FooterSection4 = function FooterSection4(props) {
 
 ;// ./src/images/bg-footer.png
 const bg_footer_namespaceObject = __webpack_require__.p + "images/bg-footer.8b69d3ae68bd249d8188.png";
+;// ./src/images/bg-footer1300.png
+const bg_footer1300_namespaceObject = __webpack_require__.p + "images/bg-footer1300.dd2309798bef23b1aa75.png";
 ;// ./src/images/bg-footer1133.png
 const bg_footer1133_namespaceObject = __webpack_require__.p + "images/bg-footer1133.2b2c5b38ae2792012301.png";
+;// ./src/images/bg-footer900.png
+const bg_footer900_namespaceObject = __webpack_require__.p + "images/bg-footer900.3bbcc2e4a7138cb078dd.png";
 ;// ./src/images/bg-footer744.png
 const bg_footer744_namespaceObject = __webpack_require__.p + "images/bg-footer744.c3b9c89e0188f786ed51.png";
+;// ./src/images/bg-footer600.png
+const bg_footer600_namespaceObject = __webpack_require__.p + "images/bg-footer600.723bd3e10e80df778f52.png";
 ;// ./src/images/bg-footer375_214.png
 const bg_footer375_214_namespaceObject = __webpack_require__.p + "images/bg-footer375_214.dfd73d7f883bc38cfe8c.png";
 ;// ./src/images/bg-footer275_212.png
@@ -37327,6 +40192,9 @@ const dataFooterSection3_namespaceObject = /*#__PURE__*/JSON.parse('[[{"id":"foo
 ;// ./src/data/data_footer/data_footer_section-4/dataFooterSection4.json
 const dataFooterSection4_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"footer-link-phone","className":"footer__link-phone","href":"","children":""}');
 ;// ./src/components/sections/footer/Footer.jsx
+
+
+
 
 
 
@@ -37356,13 +40224,21 @@ var Footer = function Footer(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var footerClass = classnames_default()({
     'footer': media1728 === true,
     'footer--1133': media1133 === true,
     'footer--744': media744 === true,
     'footer--744l': media744l === true,
     'footer--375': media375 === true,
-    'footer--275': media275 === true
+    'footer--275': media275 === true,
+    'footer--1300': media1300 === true,
+    'footer--900': media900 === true,
+    'footer--600': media600 === true,
+    'footer--600l': media600l === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
@@ -37370,7 +40246,11 @@ var Footer = function Footer(props) {
     'container--744': media744 === true,
     'container--744l': media744l === true,
     'container--375': media375 === true,
-    'container--275': media275 === true
+    'container--275': media275 === true,
+    'container--1300': media1300 === true,
+    'container--900': media900 === true,
+    'container--600': media600 === true,
+    'container--600l': media600l === true
   });
   var footerRelativeClass = classnames_default()({
     'footer__relative': media1728 === true,
@@ -37378,7 +40258,11 @@ var Footer = function Footer(props) {
     'footer--744__relative': media744 === true,
     'footer--744l__relative': media744l === true,
     'footer--375__relative': media375 === true,
-    'footer--275__relative': media275 === true
+    'footer--275__relative': media275 === true,
+    'footer--1300__relative': media1300 === true,
+    'footer--900__relative': media900 === true,
+    'footer--600__relative': media600 === true,
+    'footer--600l__relative': media600l === true
   });
   var footerSection1Class = classnames_default()({
     'footer__section1': media1728 === true,
@@ -37386,7 +40270,11 @@ var Footer = function Footer(props) {
     'footer--744__section1': media744 === true,
     'footer--744l__section1': media744l === true,
     'footer--375__section1': media375 === true,
-    'footer--275__section1': media275 === true
+    'footer--275__section1': media275 === true,
+    'footer--1300__section1': media1300 === true,
+    'footer--900__section1': media900 === true,
+    'footer--600__section1': media600 === true,
+    'footer--600l__section1': media600l === true
   });
   var footerSection2Class = classnames_default()({
     'footer__section2': media1728 === true,
@@ -37394,7 +40282,11 @@ var Footer = function Footer(props) {
     'footer--744__section2': media744 === true,
     'footer--744l__section2': media744l === true,
     'footer--375__section2': media375 === true,
-    'footer--275__section2': media275 === true
+    'footer--275__section2': media275 === true,
+    'footer--1300__section2': media1300 === true,
+    'footer--900__section2': media900 === true,
+    'footer--600__section2': media600 === true,
+    'footer--600l__section2': media600l === true
   });
   var footerSection3Class = classnames_default()({
     'footer__section3': media1728 === true,
@@ -37402,7 +40294,11 @@ var Footer = function Footer(props) {
     'footer--744__section3': media744 === true,
     'footer--744l__section3': media744l === true,
     'footer--375__section3': media375 === true,
-    'footer--275__section3': media275 === true
+    'footer--275__section3': media275 === true,
+    'footer--1300__section3': media1300 === true,
+    'footer--900__section3': media900 === true,
+    'footer--600__section3': media600 === true,
+    'footer--600l__section3': media600l === true
   });
   var footerSection4Class = classnames_default()({
     'footer__section4': media1728 === true,
@@ -37410,15 +40306,22 @@ var Footer = function Footer(props) {
     'footer--744__section4': media744 === true,
     'footer--744l__section4': media744l === true,
     'footer--375__section4': media375 === true,
-    'footer--275__section4': media275 === true
+    'footer--275__section4': media275 === true,
+    'footer--1300__section4': media1300 === true,
+    'footer--900__section4': media900 === true,
+    'footer--600__section4': media600 === true,
+    'footer--600l__section4': media600l === true
   });
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_footer_namespaceObject);
+  var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_footer1300_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_footer1133_namespaceObject);
+  var loadedImageBg900 = (0,hooks/* useLoadImageBg */.ws)(bg_footer900_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_footer744_namespaceObject);
+  var loadedImageBg600 = (0,hooks/* useLoadImageBg */.ws)(bg_footer600_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_footer375_214_namespaceObject);
   var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_footer275_212_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1300 ? loadedImageBg = loadedImageBg1300 : media1133 ? loadedImageBg = loadedImageBg1133 : media900 ? loadedImageBg = loadedImageBg900 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media600 ? loadedImageBg = loadedImageBg600 : media600l ? loadedImageBg = loadedImageBg600 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("footer", {
     className: footerClass,
     style: {
@@ -37472,13 +40375,21 @@ var HeaderBurgerImg = function HeaderBurgerImg(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
     'burger--744': media744 === true,
     'burger--744l': media744l === true,
     'burger--375': media375 === true,
-    'burger--275': media275 === true
+    'burger--275': media275 === true,
+    'burger--1300': media1300 === true,
+    'burger--900': media900 === true,
+    'burger--600': media600 === true,
+    'burger--600l': media600l === true
   });
   var burgerHeaderClass = classnames_default()({
     'burger-header': media1728 === true,
@@ -37486,7 +40397,11 @@ var HeaderBurgerImg = function HeaderBurgerImg(props) {
     'burger-header--744': media744 === true,
     'burger-header--744l': media744l === true,
     'burger-header--375': media375 === true,
-    'burger-header--275': media275 === true
+    'burger-header--275': media275 === true,
+    'burger-header--1300': media1300 === true,
+    'burger-header--900': media900 === true,
+    'burger-header--600': media600 === true,
+    'burger-header--600l': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [burger_header744_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderBurgerImg_extends({
@@ -37528,13 +40443,21 @@ var HeaderBurger = function HeaderBurger(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var headerBurgerClass = classnames_default()({
     'header__burger': media1728 === true,
     'header--1133__burger': media1133 === true,
     'header--744__burger': media744 === true,
     'header--744l__burger': media744l === true,
     'header--375__burger': media375 === true,
-    'header--275__burger': media275 === true
+    'header--275__burger': media275 === true,
+    'header--1300__burger': media1300 === true,
+    'header--900__burger': media900 === true,
+    'header--600__burger': media600 === true,
+    'header--600l__burger': media600l === true
   });
   var headerLinkClass = classnames_default()({
     'header__link': media1728 === true,
@@ -37542,7 +40465,11 @@ var HeaderBurger = function HeaderBurger(props) {
     'header--744__link': media744 === true,
     'header--744l__link': media744l === true,
     'header--375__link': media375 === true,
-    'header--275__link': media275 === true
+    'header--275__link': media275 === true,
+    'header--1300__link': media1300 === true,
+    'header--900__link': media900 === true,
+    'header--600__link': media600 === true,
+    'header--600l__link': media600l === true
   });
   var headerLinkBurgerClass = classnames_default()({
     'header__link-burger': media1728 === true,
@@ -37550,7 +40477,11 @@ var HeaderBurger = function HeaderBurger(props) {
     'header--744__link-burger': media744 === true,
     'header--744l__link-burger': media744l === true,
     'header--375__link-burger': media375 === true,
-    'header--275__link-burger': media275 === true
+    'header--275__link-burger': media275 === true,
+    'header--1300__link-burger': media1300 === true,
+    'header--900__link-burger': media900 === true,
+    'header--600__link-burger': media600 === true,
+    'header--600l__link-burger': media600l === true
   });
   var handleClickBurger = function handleClickBurger() {
     handleToggle();
@@ -37588,13 +40519,21 @@ var HeaderLogoImg = function HeaderLogoImg(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var logoHeaderClass = classnames_default()({
     'logo-header': media1728 === true,
     'logo-header--1133': media1133 === true,
     'logo-header--744': media744 === true,
     'logo-header--744l': media744l === true,
     'logo-header--375': media375 === true,
-    'logo-header--275': media275 === true
+    'logo-header--275': media275 === true,
+    'logo-header--1300': media1300 === true,
+    'logo-header--900': media900 === true,
+    'logo-header--600': media600 === true,
+    'logo-header--600l': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [logo_header_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderLogoImg_extends({
@@ -37658,13 +40597,21 @@ var HeaderMenu = function HeaderMenu(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
     'popup--1133__body': media1133 === true,
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var headerMenuClass = classnames_default()({
     'header__menu': media1728 === true,
@@ -37672,7 +40619,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'header--744__menu': media744 === true,
     'header--744l__menu': media744l === true,
     'header--375__menu': media375 === true,
-    'header--275__menu': media275 === true
+    'header--275__menu': media275 === true,
+    'header--1300__menu': media1300 === true,
+    'header--900__menu': media900 === true,
+    'header--600__menu': media600 === true,
+    'header--600l__menu': media600l === true
   });
   var menuClass = classnames_default()({
     'menu': media1728 === true,
@@ -37680,7 +40631,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu--744': media744 === true,
     'menu--744l': media744l === true,
     'menu--375': media375 === true,
-    'menu--275': media275 === true
+    'menu--275': media275 === true,
+    'menu--1300': media1300 === true,
+    'menu--900': media900 === true,
+    'menu--600': media600 === true,
+    'menu--600l': media600l === true
   });
   var menuItemClass = classnames_default()({
     'menu__item': media1728 === true,
@@ -37688,7 +40643,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu--744__item': media744 === true,
     'menu--744l__item': media744l === true,
     'menu--375__item': media375 === true,
-    'menu--275__item': media275 === true
+    'menu--275__item': media275 === true,
+    'menu--1300__item': media1300 === true,
+    'menu--900__item': media900 === true,
+    'menu--600__item': media600 === true,
+    'menu--600l__item': media600l === true
   });
   var menuItemHeaderClass = classnames_default()({
     'menu__item-header': media1728 === true,
@@ -37696,7 +40655,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu--744__item-header': media744 === true,
     'menu--744l__item-header': media744l === true,
     'menu--375__item-header': media375 === true,
-    'menu--275__item-header': media275 === true
+    'menu--275__item-header': media275 === true,
+    'menu--1300__item-header': media1300 === true,
+    'menu--900__item-header': media900 === true,
+    'menu--600__item-header': media600 === true,
+    'menu--600l__item-header': media600l === true
   });
   var menuLinkClass = classnames_default()({
     'menu__link': media1728 === true,
@@ -37704,7 +40667,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu--744__link': media744 === true,
     'menu--744l__link': media744l === true,
     'menu--375__link': media375 === true,
-    'menu--275__link': media275 === true
+    'menu--275__link': media275 === true,
+    'menu--1300__link': media1300 === true,
+    'menu--900__link': media900 === true,
+    'menu--600__link': media600 === true,
+    'menu--600l__link': media600l === true
   });
   var menuLinkHeaderClass = classnames_default()({
     'menu__link-header': media1728 === true,
@@ -37712,7 +40679,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu--744__link-header': media744 === true,
     'menu--744l__link-header': media744l === true,
     'menu--375__link-header': media375 === true,
-    'menu--275__link-header': media275 === true
+    'menu--275__link-header': media275 === true,
+    'menu--1300__link-header': media1300 === true,
+    'menu--900__link-header': media900 === true,
+    'menu--600__link-header': media600 === true,
+    'menu--600l__link-header': media600l === true
   });
   var menuHeaderClass = classnames_default()({
     'menu-header': media1728 === true,
@@ -37720,7 +40691,11 @@ var HeaderMenu = function HeaderMenu(props) {
     'menu-header--744': media744 === true,
     'menu-header--744l': media744l === true,
     'menu-header--375': media375 === true,
-    'menu-header--275': media275 === true
+    'menu-header--275': media275 === true,
+    'menu-header--1300': media1300 === true,
+    'menu-header--900': media900 === true,
+    'menu-header--600': media600 === true,
+    'menu-header--600l': media600l === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal,
@@ -37776,7 +40751,7 @@ var HeaderMenu = function HeaderMenu(props) {
     className: headerMenuClass
   }, /*#__PURE__*/react.createElement("menu", {
     className: "".concat(menuClass, " ").concat(menuHeaderClass),
-    style: media275 || media375 || media744 || media744l ? {
+    style: media275 || media375 || media600 || media600l || media744 || media744l ? {
       flexDirection: 'column',
       alignItems: 'end'
     } : {
@@ -37831,13 +40806,21 @@ var HeaderPhone = function HeaderPhone(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
     'header--744__phone': media744 === true,
     'header--744l__phone': media744l === true,
     'header--375__phone': media375 === true,
-    'header--275__phone': media275 === true
+    'header--275__phone': media275 === true,
+    'header--1300__phone': media1300 === true,
+    'header--900__phone': media900 === true,
+    'header--600__phone': media600 === true,
+    'header--600l__phone': media600l === true
   });
   var propsData = function propsData(props) {
     var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
@@ -37998,13 +40981,21 @@ var HeaderPhoneIconImg = function HeaderPhoneIconImg(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var burgerClass = classnames_default()({
     'burger': media1728 === true,
     'burger--1133': media1133 === true,
     'burger--744': media744 === true,
     'burger--744l': media744l === true,
     'burger--375': media375 === true,
-    'burger--275': media275 === true
+    'burger--275': media275 === true,
+    'burger--1300': media1300 === true,
+    'burger--900': media900 === true,
+    'burger--600': media600 === true,
+    'burger--600l': media600l === true
   });
   var burgerHeaderClass = classnames_default()({
     'burger-header': media1728 === true,
@@ -38012,7 +41003,11 @@ var HeaderPhoneIconImg = function HeaderPhoneIconImg(props) {
     'burger-header--744': media744 === true,
     'burger-header--744l': media744l === true,
     'burger-header--375': media375 === true,
-    'burger-header--275': media275 === true
+    'burger-header--275': media275 === true,
+    'burger-header--1300': media1300 === true,
+    'burger-header--900': media900 === true,
+    'burger-header--600': media600 === true,
+    'burger-header--600l': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [icon_header_phone_white_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderPhoneIconImg_extends({
@@ -38049,13 +41044,21 @@ var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var headerPhoneClass = classnames_default()({
     'header__phone': media1728 === true,
     'header--1133__phone': media1133 === true,
     'header--744__phone': media744 === true,
     'header--744l__phone': media744l === true,
     'header--375__phone': media375 === true,
-    'header--275__phone': media275 === true
+    'header--275__phone': media275 === true,
+    'header--1300__phone': media1300 === true,
+    'header--900__phone': media900 === true,
+    'header--600__phone': media600 === true,
+    'header--600l__phone': media600l === true
   });
   var headerLinkPhoneClass = classnames_default()({
     'header__link-phone': media1728 === true,
@@ -38063,7 +41066,11 @@ var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
     'header--744__link-phone': media744 === true,
     'header--744l__link-phone': media744l === true,
     'header--375__link-phone': media375 === true,
-    'header--275__link-phone': media275 === true
+    'header--275__link-phone': media275 === true,
+    'header--1300__link-phone': media1300 === true,
+    'header--900__link-phone': media900 === true,
+    'header--600__link-phone': media600 === true,
+    'header--600l__link-phone': media600l === true
   });
   var headerLinkPhoneRef = (0,react.useRef)();
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
@@ -38096,13 +41103,21 @@ var HeaderTitle = function HeaderTitle(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var headerTitleClass = classnames_default()({
     'header__title': media1728 === true,
     'header--1133__title': media1133 === true,
     'header--744__title': media744 === true,
     'header--744l__title': media744l === true,
     'header--375__title': media375 === true,
-    'header--275__title': media275 === true
+    'header--275__title': media275 === true,
+    'header--1300__title': media1300 === true,
+    'header--900__title': media900 === true,
+    'header--600__title': media600 === true,
+    'header--600l__title': media600l === true
   });
   var titleClass = classnames_default()({
     'title': media1728 === true,
@@ -38110,7 +41125,11 @@ var HeaderTitle = function HeaderTitle(props) {
     'title--744': media744 === true,
     'title--744l': media744l === true,
     'title--375': media375 === true,
-    'title--275': media275 === true
+    'title--275': media275 === true,
+    'title--1300': media1300 === true,
+    'title--900': media900 === true,
+    'title--600': media600 === true,
+    'title--600l': media600l === true
   });
   var headerTitle = (0,react.useRef)(null);
   var animationHeaderTitle = function animationHeaderTitle() {
@@ -38128,7 +41147,7 @@ var HeaderTitle = function HeaderTitle(props) {
     });
   };
   (0,react.useEffect)(function () {
-    if (media1728 === true || media1133 === true || media744 === true) animationHeaderTitle();
+    if (media1728 === true || media1300 === true || media1133 === true || media900 === true || media744 === true) animationHeaderTitle();
   }, []);
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: headerTitleClass,
@@ -38149,10 +41168,16 @@ var HeaderTitle = function HeaderTitle(props) {
 var modal_close = __webpack_require__(5662);
 ;// ./src/images/bg-header.png
 const bg_header_namespaceObject = __webpack_require__.p + "images/bg-header.4d95f769f63d11f97eb8.png";
+;// ./src/images/bg-header1300.png
+const bg_header1300_namespaceObject = __webpack_require__.p + "images/bg-header1300.e4bdff060754ff77e0f3.png";
 ;// ./src/images/bg-header1133.png
 const bg_header1133_namespaceObject = __webpack_require__.p + "images/bg-header1133.49bbc97f3f24f44432fc.png";
+;// ./src/images/bg-header900.png
+const bg_header900_namespaceObject = __webpack_require__.p + "images/bg-header900.1f1a8eb1b89a6708d060.png";
 ;// ./src/images/bg-header744.png
 const bg_header744_namespaceObject = __webpack_require__.p + "images/bg-header744.fb7ea78a240619e52782.png";
+;// ./src/images/bg-header600.png
+const bg_header600_namespaceObject = __webpack_require__.p + "images/bg-header600.16cb2548cacd0dfcbc9d.png";
 ;// ./src/images/bg-header375.png
 const bg_header375_namespaceObject = __webpack_require__.p + "images/bg-header375.6b5b698e0ddc4a87bb23.png";
 ;// ./src/images/bg-header275_60.png
@@ -38207,6 +41232,9 @@ var color = "#C975D8";
 
 
 
+
+
+
 var Header = function Header(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -38215,13 +41243,21 @@ var Header = function Header(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var headerClass = classnames_default()({
     'header': media1728 === true,
     'header--1133': media1133 === true,
     'header--744': media744 === true,
     'header--744l': media744l === true,
     'header--375': media375 === true,
-    'header--275': media275 === true
+    'header--275': media275 === true,
+    'header--1300': media1300 === true,
+    'header--900': media900 === true,
+    'header--600': media600 === true,
+    'header--600l': media600l === true
   });
   var headerInnerClass = classnames_default()({
     'header__inner': media1728 === true,
@@ -38229,7 +41265,11 @@ var Header = function Header(props) {
     'header--744__inner': media744 === true,
     'header--744l__inner': media744l === true,
     'header--375__inner': media375 === true,
-    'header--275__inner': media275 === true
+    'header--275__inner': media275 === true,
+    'header--1300__inner': media1300 === true,
+    'header--900__inner': media900 === true,
+    'header--600__inner': media600 === true,
+    'header--600l__inner': media600l === true
   });
   var headerLeftClass = classnames_default()({
     'header__left': media1728 === true,
@@ -38237,7 +41277,11 @@ var Header = function Header(props) {
     'header--744__left': media744 === true,
     'header--744l__left': media744l === true,
     'header--375__left': media375 === true,
-    'header--275__left': media275 === true
+    'header--275__left': media275 === true,
+    'header--1300__left': media1300 === true,
+    'header--900__left': media900 === true,
+    'header--600__left': media600 === true,
+    'header--600l__left': media600l === true
   });
   var headerInnerLeftClass = classnames_default()({
     'header__inner-left': media1728 === true,
@@ -38245,7 +41289,11 @@ var Header = function Header(props) {
     'header--744__inner-left': media744 === true,
     'header--744l__inner-left': media744l === true,
     'header--375__inner-left': media375 === true,
-    'header--275__inner-left': media275 === true
+    'header--275__inner-left': media275 === true,
+    'header--1300__inner-left': media1300 === true,
+    'header--900__inner-left': media900 === true,
+    'header--600__inner-left': media600 === true,
+    'header--600l__inner-left': media600l === true
   });
   var headerLineClass = classnames_default()({
     'header__line': media1728 === true,
@@ -38253,7 +41301,11 @@ var Header = function Header(props) {
     'header--744__line': media744 === true,
     'header--744l__line': media744l === true,
     'header--375__line': media375 === true,
-    'header--275__line': media275 === true
+    'header--275__line': media275 === true,
+    'header--1300__line': media1300 === true,
+    'header--900__line': media900 === true,
+    'header--600__line': media600 === true,
+    'header--600l__line': media600l === true
   });
   var headerRightClass = classnames_default()({
     'header__right': media1728 === true,
@@ -38261,7 +41313,11 @@ var Header = function Header(props) {
     'header--744__right': media744 === true,
     'header--744l__right': media744l === true,
     'header--375__right': media375 === true,
-    'header--275__right': media275 === true
+    'header--275__right': media275 === true,
+    'header--1300__right': media1300 === true,
+    'header--900__right': media900 === true,
+    'header--600__right': media600 === true,
+    'header--600l__right': media600l === true
   });
   var headerInnerRightClass = classnames_default()({
     'header__inner-right': media1728 === true,
@@ -38269,7 +41325,11 @@ var Header = function Header(props) {
     'header--744__inner-right': media744 === true,
     'header--744l__inner-right': media744l === true,
     'header--375__inner-right': media375 === true,
-    'header--275__inner-right': media275 === true
+    'header--275__inner-right': media275 === true,
+    'header--1300__inner-right': media1300 === true,
+    'header--900__inner-right': media900 === true,
+    'header--600__inner-right': media600 === true,
+    'header--600l__inner-right': media600l === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
@@ -38277,7 +41337,11 @@ var Header = function Header(props) {
     'container--744': media744 === true,
     'container--744l': media744l === true,
     'container--375': media375 === true,
-    'container--275': media275 === true
+    'container--275': media275 === true,
+    'container--1300': media1300 === true,
+    'container--900': media900 === true,
+    'container--600': media600 === true,
+    'container--600l': media600l === true
   });
   var blockClass = classnames_default()({
     'block': media1728 === true,
@@ -38285,7 +41349,11 @@ var Header = function Header(props) {
     'block--744': media744 === true,
     'block--744l': media744l === true,
     'block--375': media375 === true,
-    'block--275': media275 === true
+    'block--275': media275 === true,
+    'block--1300': media1300 === true,
+    'block--900': media900 === true,
+    'block--600': media600 === true,
+    'block--600l': media600l === true
   });
   var blockLockClass = classnames_default()({
     'block-lock': media1728 === true,
@@ -38293,7 +41361,11 @@ var Header = function Header(props) {
     'block-lock--744': media744 === true,
     'block-lock--744l': media744l === true,
     'block-lock--375': media375 === true,
-    'block-lock--275': media275 === true
+    'block-lock--275': media275 === true,
+    'block-lock--1300': media1300 === true,
+    'block-lock--900': media900 === true,
+    'block-lock--600': media600 === true,
+    'block-lock--600l': media600l === true
   });
   var blockBodyClass = classnames_default()({
     'block__body': media1728 === true,
@@ -38301,7 +41373,11 @@ var Header = function Header(props) {
     'block--744__body': media744 === true,
     'block--744l__body': media744l === true,
     'block--375__body': media375 === true,
-    'block--275__body': media275 === true
+    'block--275__body': media275 === true,
+    'block--1300__body': media1300 === true,
+    'block--900__body': media900 === true,
+    'block--600__body': media600 === true,
+    'block--600l__body': media600l === true
   });
   var ref = (0,react.useRef)(null);
   var headerLeft = (0,react.useRef)(null);
@@ -38359,16 +41435,20 @@ var Header = function Header(props) {
   }
   (0,react.useEffect)(function () {
     loadCallback();
-    if (media1728 === true || media1133 === true || media744 === true) animateHeaderLeft();
+    if (media1728 === true || media1300 === true || media1133 === true || media900 || media744 === true) animateHeaderLeft();
   }, []);
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_header_namespaceObject);
+  var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_header1300_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_header1133_namespaceObject);
+  var loadedImageBg900 = (0,hooks/* useLoadImageBg */.ws)(bg_header900_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_header744_namespaceObject);
   var loadedImageBg744l = (0,hooks/* useLoadImageBg */.ws)(bg_header744_namespaceObject);
+  var loadedImageBg600 = (0,hooks/* useLoadImageBg */.ws)(bg_header600_namespaceObject);
+  var loadedImageBg600l = (0,hooks/* useLoadImageBg */.ws)(bg_header600_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_header375_namespaceObject);
   var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_header275_60_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744l : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1300 ? loadedImageBg = loadedImageBg1300 : media1133 ? loadedImageBg = loadedImageBg1133 : media900 ? loadedImageBg = loadedImageBg900 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744l : media600 ? loadedImageBg = loadedImageBg600 : media600l ? loadedImageBg = loadedImageBg600l : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   var rightHeader = modalOpened ? "".concat(scrollbarWidthBody, "px") : '0px';
   var handleClose = function handleClose() {
     isToggled ? handleToggle() : null;
@@ -38432,7 +41512,7 @@ var Header = function Header(props) {
     data: dataHeaderMenu_namespaceObject
   }))), /*#__PURE__*/react.createElement(HeaderBurger, {
     data: dataHeaderBurger_namespaceObject
-  }), media275 || media375 || media744 || media744l ? /*#__PURE__*/react.createElement(HeaderPhoneIcon, {
+  }), media275 || media375 || media600 || media600l || media744 || media744l || media900 ? /*#__PURE__*/react.createElement(HeaderPhoneIcon, {
     dataPhone: dataPhone,
     data: dataHeaderPhone_namespaceObject
   }) : /*#__PURE__*/react.createElement(HeaderPhone, {
@@ -38472,13 +41552,21 @@ var InfoSvg230l = function InfoSvg230l(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
     'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true
+    'slider--275__svg': media275 === true,
+    'slider--1300__svg': media1300 === true,
+    'slider--900__svg': media900 === true,
+    'slider--600__svg': media600 === true,
+    'slider--600l__svg': media600l === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
@@ -38486,7 +41574,11 @@ var InfoSvg230l = function InfoSvg230l(_ref) {
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
     'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true
+    'slider--275__svg-info': media275 === true,
+    'slider--1300__svg-info': media1300 === true,
+    'slider--900__svg-info': media900 === true,
+    'slider--600__svg-info': media600 === true,
+    'slider--600l__svg-info': media600l === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
@@ -38494,7 +41586,11 @@ var InfoSvg230l = function InfoSvg230l(_ref) {
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
     'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true
+    'slider--275__svg-title': media275 === true,
+    'slider--1300__svg-title': media1300 === true,
+    'slider--900__svg-title': media900 === true,
+    'slider--600__svg-title': media600 === true,
+    'slider--600l__svg-title': media600l === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
@@ -38502,7 +41598,11 @@ var InfoSvg230l = function InfoSvg230l(_ref) {
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
     'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true
+    'slider--275__svg-text': media275 === true,
+    'slider--1300__svg-text': media1300 === true,
+    'slider--900__svg-text': media900 === true,
+    'slider--600__svg-text': media600 === true,
+    'slider--600l__svg-text': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -39465,13 +42565,21 @@ var InfoSvg330 = function InfoSvg330(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
     'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true
+    'slider--275__svg': media275 === true,
+    'slider--1300__svg': media1300 === true,
+    'slider--900__svg': media900 === true,
+    'slider--600__svg': media600 === true,
+    'slider--600l__svg': media600l === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
@@ -39479,7 +42587,11 @@ var InfoSvg330 = function InfoSvg330(_ref) {
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
     'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true
+    'slider--275__svg-info': media275 === true,
+    'slider--1300__svg-info': media1300 === true,
+    'slider--900__svg-info': media900 === true,
+    'slider--600__svg-info': media600 === true,
+    'slider--600l__svg-info': media600l === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
@@ -39487,7 +42599,11 @@ var InfoSvg330 = function InfoSvg330(_ref) {
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
     'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true
+    'slider--275__svg-title': media275 === true,
+    'slider--1300__svg-title': media1300 === true,
+    'slider--900__svg-title': media900 === true,
+    'slider--600__svg-title': media600 === true,
+    'slider--600l__svg-title': media600l === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
@@ -39495,7 +42611,11 @@ var InfoSvg330 = function InfoSvg330(_ref) {
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
     'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true
+    'slider--275__svg-text': media275 === true,
+    'slider--1300__svg-text': media1300 === true,
+    'slider--900__svg-text': media900 === true,
+    'slider--600__svg-text': media600 === true,
+    'slider--600l__svg-text': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -39636,13 +42756,21 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
     'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true
+    'slider--275__svg': media275 === true,
+    'slider--1300__svg': media1300 === true,
+    'slider--900__svg': media900 === true,
+    'slider--600__svg': media600 === true,
+    'slider--600l__svg': media600l === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
@@ -39650,7 +42778,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
     'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true
+    'slider--275__svg-info': media275 === true,
+    'slider--1300__svg-info': media1300 === true,
+    'slider--900__svg-info': media900 === true,
+    'slider--600__svg-info': media600 === true,
+    'slider--600l__svg-info': media600l === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
@@ -39658,7 +42790,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
     'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true
+    'slider--275__svg-title': media275 === true,
+    'slider--1300__svg-title': media1300 === true,
+    'slider--900__svg-title': media900 === true,
+    'slider--600__svg-title': media600 === true,
+    'slider--600l__svg-title': media600l === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
@@ -39666,7 +42802,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
     'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true
+    'slider--275__svg-text': media275 === true,
+    'slider--1300__svg-text': media1300 === true,
+    'slider--900__svg-text': media900 === true,
+    'slider--600__svg-text': media600 === true,
+    'slider--600l__svg-text': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -40625,13 +43765,21 @@ var InfoSvg440 = function InfoSvg440(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
     'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true
+    'slider--275__svg': media275 === true,
+    'slider--1300__svg': media1300 === true,
+    'slider--900__svg': media900 === true,
+    'slider--600__svg': media600 === true,
+    'slider--600l__svg': media600l === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
@@ -40639,7 +43787,11 @@ var InfoSvg440 = function InfoSvg440(_ref) {
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
     'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true
+    'slider--275__svg-info': media275 === true,
+    'slider--1300__svg-info': media1300 === true,
+    'slider--900__svg-info': media900 === true,
+    'slider--600__svg-info': media600 === true,
+    'slider--600l__svg-info': media600l === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
@@ -40647,7 +43799,11 @@ var InfoSvg440 = function InfoSvg440(_ref) {
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
     'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true
+    'slider--275__svg-title': media275 === true,
+    'slider--1300__svg-title': media1300 === true,
+    'slider--900__svg-title': media900 === true,
+    'slider--600__svg-title': media600 === true,
+    'slider--600l__svg-title': media600l === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
@@ -40655,7 +43811,11 @@ var InfoSvg440 = function InfoSvg440(_ref) {
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
     'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true
+    'slider--275__svg-text': media275 === true,
+    'slider--1300__svg-text': media1300 === true,
+    'slider--900__svg-text': media900 === true,
+    'slider--600__svg-text': media600 === true,
+    'slider--600l__svg-text': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -40796,13 +43956,21 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var sliderSvgClass = classnames_default()({
     'slider__svg': media1728 === true,
     'slider--1133__svg': media1133 === true,
     'slider--744__svg': media744 === true,
     'slider--744l__svg': media744l === true,
     'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true
+    'slider--275__svg': media275 === true,
+    'slider--1300__svg': media1300 === true,
+    'slider--900__svg': media900 === true,
+    'slider--600__svg': media600 === true,
+    'slider--600l__svg': media600l === true
   });
   var sliderSvgInfoClass = classnames_default()({
     'slider__svg-info': media1728 === true,
@@ -40810,7 +43978,11 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
     'slider--744__svg-info': media744 === true,
     'slider--744l__svg-info': media744l === true,
     'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true
+    'slider--275__svg-info': media275 === true,
+    'slider--1300__svg-info': media1300 === true,
+    'slider--900__svg-info': media900 === true,
+    'slider--600__svg-info': media600 === true,
+    'slider--600l__svg-info': media600l === true
   });
   var sliderSvgTitleClass = classnames_default()({
     'slider__svg-title': media1728 === true,
@@ -40818,7 +43990,11 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
     'slider--744__svg-title': media744 === true,
     'slider--744l__svg-title': media744l === true,
     'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true
+    'slider--275__svg-title': media275 === true,
+    'slider--1300__svg-title': media1300 === true,
+    'slider--900__svg-title': media900 === true,
+    'slider--600__svg-title': media600 === true,
+    'slider--600l__svg-title': media600l === true
   });
   var sliderSvgTextClass = classnames_default()({
     'slider__svg-text': media1728 === true,
@@ -40826,7 +44002,11 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
     'slider--744__svg-text': media744 === true,
     'slider--744l__svg-text': media744l === true,
     'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true
+    'slider--275__svg-text': media275 === true,
+    'slider--1300__svg-text': media1300 === true,
+    'slider--900__svg-text': media900 === true,
+    'slider--600__svg-text': media600 === true,
+    'slider--600l__svg-text': media600l === true
   });
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
@@ -41007,13 +44187,21 @@ var Info = function Info(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var infoClass = classnames_default()({
     'info': media1728 === true,
     'info--1133': media1133 === true,
     'info--744': media744 === true,
     'info--744l': media744l === true,
     'info--375': media375 === true,
-    'info--275': media275 === true
+    'info--275': media275 === true,
+    'info--1300': media1300 === true,
+    'info--900': media900 === true,
+    'info--600': media600 === true,
+    'info--600l': media600l === true
   });
   var containerClass = classnames_default()({
     'container': media1728 === true,
@@ -41021,7 +44209,11 @@ var Info = function Info(props) {
     'container--744': media744 === true,
     'container--744l': media744l === true,
     'container--375': media375 === true,
-    'container--275': media275 === true
+    'container--275': media275 === true,
+    'container--1300': media1300 === true,
+    'container--900': media900 === true,
+    'container--600': media600 === true,
+    'container--600l': media600l === true
   });
   var containerInfoClass = classnames_default()({
     'container-info': media1728 === true,
@@ -41029,7 +44221,11 @@ var Info = function Info(props) {
     'container--744-info': media744 === true,
     'container--744l-info': media744l === true,
     'container--375-info': media375 === true,
-    'container--275-info': media275 === true
+    'container--275-info': media275 === true,
+    'container--1300-info': media1300 === true,
+    'container--900-info': media900 === true,
+    'container--600-info': media600 === true,
+    'container--600l-info': media600l === true
   });
   var infoSliderClass = classnames_default()({
     'info__slider': media1728 === true,
@@ -41037,7 +44233,11 @@ var Info = function Info(props) {
     'info--744__slider': media744 === true,
     'info--744l__slider': media744l === true,
     'info--375__slider': media375 === true,
-    'info--275__slider': media275 === true
+    'info--275__slider': media275 === true,
+    'info--1300__slider': media1300 === true,
+    'info--900__slider': media900 === true,
+    'info--600__slider': media600 === true,
+    'info--600l__slider': media600l === true
   });
   var sliderClass = classnames_default()({
     'slider': media1728 === true,
@@ -41045,7 +44245,11 @@ var Info = function Info(props) {
     'slider--744': media744 === true,
     'slider--744l': media744l === true,
     'slider--375': media375 === true,
-    'slider--275': media275 === true
+    'slider--275': media275 === true,
+    'slider--1300': media1300 === true,
+    'slider--900': media900 === true,
+    'slider--600': media600 === true,
+    'slider--600l': media600l === true
   });
   var sliderInfoClass = classnames_default()({
     'slider-info': media1728 === true,
@@ -41053,7 +44257,11 @@ var Info = function Info(props) {
     'slider--744-info': media744 === true,
     'slider--744l-info': media744l === true,
     'slider--375-info': media375 === true,
-    'slider--275-info': media275 === true
+    'slider--275-info': media275 === true,
+    'slider--1300-info': media1300 === true,
+    'slider--900-info': media900 === true,
+    'slider--600-info': media600 === true,
+    'slider--600l-info': media600l === true
   });
   var sliderItemsClass = classnames_default()({
     'slider__items': media1728 === true,
@@ -41061,7 +44269,11 @@ var Info = function Info(props) {
     'slider--744__items': media744 === true,
     'slider--744l__items': media744l === true,
     'slider--375__items': media375 === true,
-    'slider--275__items': media275 === true
+    'slider--275__items': media275 === true,
+    'slider--1300__items': media1300 === true,
+    'slider--900__items': media900 === true,
+    'slider--600__items': media600 === true,
+    'slider--600l__items': media600l === true
   });
   var sliderItemsInfoClass = classnames_default()({
     'slider__items-info': media1728 === true,
@@ -41069,7 +44281,11 @@ var Info = function Info(props) {
     'slider--744__items-info': media744 === true,
     'slider--744l__items-info': media744l === true,
     'slider--375__items-info': media375 === true,
-    'slider--275__items-info': media275 === true
+    'slider--275__items-info': media275 === true,
+    'slider--1300__items-info': media1300 === true,
+    'slider--900__items-info': media900 === true,
+    'slider--600__items-info': media600 === true,
+    'slider--600l__items-info': media600l === true
   });
   var sliderItemClass = classnames_default()({
     'slider__item': media1728 === true,
@@ -41077,7 +44293,11 @@ var Info = function Info(props) {
     'slider--744__item': media744 === true,
     'slider--744l__item': media744l === true,
     'slider--375__item': media375 === true,
-    'slider--275__item': media275 === true
+    'slider--275__item': media275 === true,
+    'slider--1300__item': media1300 === true,
+    'slider--900__item': media900 === true,
+    'slider--600__item': media600 === true,
+    'slider--600l__item': media600l === true
   });
   var sliderItemInfoClass = classnames_default()({
     'slider__item-info': media1728 === true,
@@ -41085,7 +44305,11 @@ var Info = function Info(props) {
     'slider--744__item-info': media744 === true,
     'slider--744l__item-info': media744l === true,
     'slider--375__item-info': media375 === true,
-    'slider--275__item-info': media275 === true
+    'slider--275__item-info': media275 === true,
+    'slider--1300__item-info': media1300 === true,
+    'slider--900__item-info': media900 === true,
+    'slider--600__item-info': media600 === true,
+    'slider--600l__item-info': media600l === true
   });
   var sliderInnerClass = classnames_default()({
     'slider__inner': media1728 === true,
@@ -41093,7 +44317,11 @@ var Info = function Info(props) {
     'slider--744__inner': media744 === true,
     'slider--744l__inner': media744l === true,
     'slider--375__inner': media375 === true,
-    'slider--275__inner': media275 === true
+    'slider--275__inner': media275 === true,
+    'slider--1300__inner': media1300 === true,
+    'slider--900__inner': media900 === true,
+    'slider--600__inner': media600 === true,
+    'slider--600l__inner': media600l === true
   });
   var sliderInfoInnerClass = classnames_default()({
     'slider-info__inner': media1728 === true,
@@ -41101,7 +44329,11 @@ var Info = function Info(props) {
     'slider--744-info__inner': media744 === true,
     'slider--744l-info__inner': media744l === true,
     'slider--375-info__inner': media375 === true,
-    'slider--275-info__inner': media275 === true
+    'slider--275-info__inner': media275 === true,
+    'slider--1300-info__inner': media1300 === true,
+    'slider--900-info__inner': media900 === true,
+    'slider--600-info__inner': media600 === true,
+    'slider--600l-info__inner': media600l === true
   });
   var sliderSlideClass = classnames_default()({
     'slider__slide': media1728 === true,
@@ -41109,7 +44341,11 @@ var Info = function Info(props) {
     'slider--744__slide': media744 === true,
     'slider--744l__slide': media744l === true,
     'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true
+    'slider--275__slide': media275 === true,
+    'slider--1300__slide': media1300 === true,
+    'slider--900__slide': media900 === true,
+    'slider--600__slide': media600 === true,
+    'slider--600l__slide': media600l === true
   });
   var sliderSlideInfoClass = classnames_default()({
     'slider__slide-info': media1728 === true,
@@ -41117,7 +44353,11 @@ var Info = function Info(props) {
     'slider--744__slide-info': media744 === true,
     'slider--744l__slide-info': media744l === true,
     'slider--375__slide-info': media375 === true,
-    'slider--275__slide-info': media275 === true
+    'slider--275__slide-info': media275 === true,
+    'slider--1300__slide-info': media1300 === true,
+    'slider--900__slide-info': media900 === true,
+    'slider--600__slide-info': media600 === true,
+    'slider--600l__slide-info': media600l === true
   });
   var sliderLinkClass = classnames_default()({
     'slider__link': media1728 === true,
@@ -41125,7 +44365,11 @@ var Info = function Info(props) {
     'slider--744__link': media744 === true,
     'slider--744l__link': media744l === true,
     'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true
+    'slider--275__link': media275 === true,
+    'slider--1300__link': media1300 === true,
+    'slider--900__link': media900 === true,
+    'slider--600__link': media600 === true,
+    'slider--600l__link': media600l === true
   });
   var sliderLinkInfoClass = classnames_default()({
     'slider__link-info': media1728 === true,
@@ -41133,7 +44377,11 @@ var Info = function Info(props) {
     'slider--744__link-info': media744 === true,
     'slider--744l__link-info': media744l === true,
     'slider--375__link-info': media375 === true,
-    'slider--275__link-info': media275 === true
+    'slider--275__link-info': media275 === true,
+    'slider--1300__link-info': media1300 === true,
+    'slider--900__link-info': media900 === true,
+    'slider--600__link-info': media600 === true,
+    'slider--600l__link-info': media600l === true
   });
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
@@ -41159,7 +44407,7 @@ var Info = function Info(props) {
     });
   };
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true || media275 === true) return;
+    if (media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (slidesInfoRef.current[0].current.getBoundingClientRect().top < headerHeight - 20 && props.bottom === false) {
@@ -41233,11 +44481,15 @@ var Info = function Info(props) {
     }, /*#__PURE__*/react.createElement("div", {
       className: "".concat(sliderLinkClass, " ").concat(sliderLinkInfoClass),
       key: "aSliderLinkInfo".concat(i)
-    }, media1728 || media744 ? /*#__PURE__*/react.createElement(InfoSvg440, Info_extends({
+    }, media1728 || media900 || media744 ? /*#__PURE__*/react.createElement(InfoSvg440, Info_extends({
       key: "infoSvg".concat(i)
-    }, prop)) : media1133 ? /*#__PURE__*/react.createElement(InfoSvg330, Info_extends({
+    }, prop)) : media1300 || media1133 ? /*#__PURE__*/react.createElement(InfoSvg330, Info_extends({
       key: "infoSvg".concat(i)
     }, prop)) : media744l ? /*#__PURE__*/react.createElement(InfoSvg440l, Info_extends({
+      key: "infoSvg".concat(i)
+    }, prop)) : media600 ? /*#__PURE__*/react.createElement(InfoSvg330l, Info_extends({
+      key: "infoSvg".concat(i)
+    }, prop)) : media600l ? /*#__PURE__*/react.createElement(InfoSvg330l, Info_extends({
       key: "infoSvg".concat(i)
     }, prop)) : media375 ? /*#__PURE__*/react.createElement(InfoSvg330l, Info_extends({
       key: "infoSvg".concat(i)
@@ -41279,13 +44531,21 @@ var MainSidebar = function MainSidebar(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var mainSidebarClass = classnames_default()({
     'main__sidebar': media1728 === true,
     'main--1133__sidebar': media1133 === true,
     'main--744__sidebar': media744 === true,
     'main--744l__sidebar': media744l === true,
     'main--375__sidebar': media375 === true,
-    'main--275__sidebar': media275 === true
+    'main--275__sidebar': media275 === true,
+    'main--1300__sidebar': media1300 === true,
+    'main--900__sidebar': media900 === true,
+    'main--600__sidebar': media600 === true,
+    'main--600l__sidebar': media600l === true
   });
   var sidebarClass = classnames_default()({
     'sidebar': media1728 === true,
@@ -41293,7 +44553,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744': media744 === true,
     'sidebar--744l': media744l === true,
     'sidebar--375': media375 === true,
-    'sidebar--275': media275 === true
+    'sidebar--275': media275 === true,
+    'sidebar--1300': media1300 === true,
+    'sidebar--900': media900 === true,
+    'sidebar--600': media600 === true,
+    'sidebar--600l': media600l === true
   });
   var sidebarMainClass = classnames_default()({
     'sidebar-main': media1728 === true,
@@ -41301,7 +44565,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar-main--744': media744 === true,
     'sidebar-main--744l': media744l === true,
     'sidebar-main--375': media375 === true,
-    'sidebar-main--275': media275 === true
+    'sidebar-main--275': media275 === true,
+    'sidebar-main--1300': media1300 === true,
+    'sidebar-main--900': media900 === true,
+    'sidebar-main--600': media600 === true,
+    'sidebar-main--600l': media600l === true
   });
   var sidebarItemClass = classnames_default()({
     'sidebar__item': media1728 === true,
@@ -41309,7 +44577,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__item': media744 === true,
     'sidebar--744l__item': media744l === true,
     'sidebar--375__item': media375 === true,
-    'sidebar--275__item': media275 === true
+    'sidebar--275__item': media275 === true,
+    'sidebar--1300__item': media1300 === true,
+    'sidebar--900__item': media900 === true,
+    'sidebar--600__item': media600 === true,
+    'sidebar--600l__item': media600l === true
   });
   var sidebarItemMainClass = classnames_default()({
     'sidebar__item-main': media1728 === true,
@@ -41317,7 +44589,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__item-main': media744 === true,
     'sidebar--744l__item-main': media744l === true,
     'sidebar--375__item-main': media375 === true,
-    'sidebar--275__item-main': media275 === true
+    'sidebar--275__item-main': media275 === true,
+    'sidebar--1300__item-main': media1300 === true,
+    'sidebar--900__item-main': media900 === true,
+    'sidebar--600__item-main': media600 === true,
+    'sidebar--600l__item-main': media600l === true
   });
   var sidebarSubClass = classnames_default()({
     'sidebar-sub': media1728 === true,
@@ -41325,7 +44601,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar-sub--744': media744 === true,
     'sidebar-sub--744l': media744l === true,
     'sidebar-sub--375': media375 === true,
-    'sidebar-sub--275': media275 === true
+    'sidebar-sub--275': media275 === true,
+    'sidebar-sub--1300': media1300 === true,
+    'sidebar-sub--900': media900 === true,
+    'sidebar-sub--600': media600 === true,
+    'sidebar-sub--600l': media600l === true
   });
   var sidebarItemSubClass = classnames_default()({
     'sidebar__item-sub': media1728 === true,
@@ -41333,7 +44613,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__item-sub': media744 === true,
     'sidebar--744l__item-sub': media744l === true,
     'sidebar--375__item-sub': media375 === true,
-    'sidebar--275__item-sub': media275 === true
+    'sidebar--275__item-sub': media275 === true,
+    'sidebar--1300__item-sub': media1300 === true,
+    'sidebar--900__item-sub': media900 === true,
+    'sidebar--600__item-sub': media600 === true,
+    'sidebar--600l__item-sub': media600l === true
   });
   var sidebarLinkClass = classnames_default()({
     'sidebar__link': media1728 === true,
@@ -41341,7 +44625,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__link': media744 === true,
     'sidebar--744l__link': media744l === true,
     'sidebar--375__link': media375 === true,
-    'sidebar--275__link': media275 === true
+    'sidebar--275__link': media275 === true,
+    'sidebar--1300__link': media1300 === true,
+    'sidebar--900__link': media900 === true,
+    'sidebar--600__link': media600 === true,
+    'sidebar--600l__link': media600l === true
   });
   var sidebarLinkSubClass = classnames_default()({
     'sidebar__link-sub': media1728 === true,
@@ -41349,7 +44637,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__link-sub': media744 === true,
     'sidebar--744l__link-sub': media744l === true,
     'sidebar--375__link-sub': media375 === true,
-    'sidebar--275__link-sub': media275 === true
+    'sidebar--275__link-sub': media275 === true,
+    'sidebar--1300__link-sub': media1300 === true,
+    'sidebar--900__link-sub': media900 === true,
+    'sidebar--600__link-sub': media600 === true,
+    'sidebar--600l__link-sub': media600l === true
   });
   var sidebarLinkMainClass = classnames_default()({
     'sidebar__link-main': media1728 === true,
@@ -41357,7 +44649,11 @@ var MainSidebar = function MainSidebar(props) {
     'sidebar--744__link-main': media744 === true,
     'sidebar--744l__link-main': media744l === true,
     'sidebar--375__link-main': media375 === true,
-    'sidebar--275__link-main': media275 === true
+    'sidebar--275__link-main': media275 === true,
+    'sidebar--1300__link-main': media1300 === true,
+    'sidebar--900__link-main': media900 === true,
+    'sidebar--600__link-main': media600 === true,
+    'sidebar--600l__link-main': media600l === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
@@ -41365,7 +44661,11 @@ var MainSidebar = function MainSidebar(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var buttonsSubRef = (0,react.useRef)([0, 1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -41390,7 +44690,7 @@ var MainSidebar = function MainSidebar(props) {
     isButtonMain1 = _useState6[0],
     setIsButtonMain1 = _useState6[1];
   (0,react.useLayoutEffect)(function () {
-    if (media744l === true || media375 === true || media275 === true) return;
+    if (media744l === true || media600 === true || media375 === true || media275 === true) return;
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
       if (buttonsSubRef.current[0].current.getBoundingClientRect().top < headerHeight) {
@@ -41454,15 +44754,27 @@ var MainSidebar = function MainSidebar(props) {
   if (media1728) {
     widthEnter = 370;
     widthLeave = 290;
+  } else if (media1300) {
+    widthEnter = 312;
+    widthLeave = 246;
   } else if (media1133) {
     widthEnter = 312;
     widthLeave = 246;
+  } else if (media900) {
+    widthEnter = 257;
+    widthLeave = 202;
   } else if (media744) {
     widthEnter = 257;
     widthLeave = 202;
   } else if (media744l) {
     widthEnter = 257;
     widthLeave = 202;
+  } else if (media600) {
+    widthEnter = 232;
+    widthLeave = 135;
+  } else if (media600l) {
+    widthEnter = 232;
+    widthLeave = 135;
   } else if (media375) {
     widthEnter = 232;
     widthLeave = 135;
@@ -41584,13 +44896,21 @@ var MainIconsIcon = function MainIconsIcon(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var iconsMainClass = classnames_default()({
     'icons__main': media1728 === true,
     'icons--1133__main': media1133 === true,
     'icons--744__main': media744 === true,
     'icons--744l__main': media744l === true,
     'icons--375__main': media375 === true,
-    'icons--275__main': media275 === true
+    'icons--275__main': media275 === true,
+    'icons--1300__main': media1300 === true,
+    'icons--900__main': media900 === true,
+    'icons--600__main': media600 === true,
+    'icons--600l__main': media600l === true
   });
   var iconsMainIconClass = classnames_default()({
     'icons__main-icon': media1728 === true,
@@ -41598,7 +44918,11 @@ var MainIconsIcon = function MainIconsIcon(props) {
     'icons--744__main-icon': media744 === true,
     'icons--744l__main-icon': media744l === true,
     'icons--375__main-icon': media375 === true,
-    'icons--275__main-icon': media275 === true
+    'icons--275__main-icon': media275 === true,
+    'icons--1300__main-icon': media1300 === true,
+    'icons--900__main-icon': media900 === true,
+    'icons--600__main-icon': media600 === true,
+    'icons--600l__main-icon': media600l === true
   });
   var iconsMainShadowClass = classnames_default()({
     'icons__main-shadow': media1728 === true,
@@ -41606,7 +44930,11 @@ var MainIconsIcon = function MainIconsIcon(props) {
     'icons--744__main-shadow': media744 === true,
     'icons--744l__main-shadow': media744l === true,
     'icons--375__main-shadow': media375 === true,
-    'icons--275__main-shadow': media275 === true
+    'icons--275__main-shadow': media275 === true,
+    'icons--1300__main-shadow': media1300 === true,
+    'icons--900__main-shadow': media900 === true,
+    'icons--600__main-shadow': media600 === true,
+    'icons--600l__main-shadow': media600l === true
   });
   var iconsIconRef = (0,react.useRef)(props.images.map(function () {
     return /*#__PURE__*/(0,react.createRef)();
@@ -41705,13 +45033,21 @@ var MainIcons = function MainIcons(props) {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var mainIconsClass = classnames_default()({
     'main__icons': media1728 === true,
     'main--1133__icons': media1133 === true,
     'main--744__icons': media744 === true,
     'main--744l__icons': media744l === true,
     'main--375__icons': media375 === true,
-    'main--275__icons': media275 === true
+    'main--275__icons': media275 === true,
+    'main--1300__icons': media1300 === true,
+    'main--900__icons': media900 === true,
+    'main--600__icons': media600 === true,
+    'main--600l__icons': media600l === true
   });
   var iconsClass = classnames_default()({
     'icons': media1728 === true,
@@ -41719,7 +45055,11 @@ var MainIcons = function MainIcons(props) {
     'icons--744': media744 === true,
     'icons--744l': media744l === true,
     'icons--375': media375 === true,
-    'icons--275': media275 === true
+    'icons--275': media275 === true,
+    'icons--1300': media1300 === true,
+    'icons--900': media900 === true,
+    'icons--600': media600 === true,
+    'icons--600l': media600l === true
   });
   var iconsMainClass = classnames_default()({
     'icons-main': media1728 === true,
@@ -41727,7 +45067,11 @@ var MainIcons = function MainIcons(props) {
     'icons-main--744': media744 === true,
     'icons-main--744l': media744l === true,
     'icons-main--375': media375 === true,
-    'icons-main--275': media275 === true
+    'icons-main--275': media275 === true,
+    'icons-main--1300': media1300 === true,
+    'icons-main--900': media900 === true,
+    'icons-main--600': media600 === true,
+    'icons-main--600l': media600l === true
   });
   var iconsItemClass = classnames_default()({
     'icons__item': media1728 === true,
@@ -41735,7 +45079,11 @@ var MainIcons = function MainIcons(props) {
     'icons--744__item': media744 === true,
     'icons--744l__item': media744l === true,
     'icons--375__item': media375 === true,
-    'icons--275__item': media275 === true
+    'icons--275__item': media275 === true,
+    'icons--1300__item': media1300 === true,
+    'icons--900__item': media900 === true,
+    'icons--600__item': media600 === true,
+    'icons--600l__item': media600l === true
   });
   var iconsItemMainClass = classnames_default()({
     'icons__item-main': media1728 === true,
@@ -41743,7 +45091,11 @@ var MainIcons = function MainIcons(props) {
     'icons--744__item-main': media744 === true,
     'icons--744l__item-main': media744l === true,
     'icons--375__item-main': media375 === true,
-    'icons--275__item-main': media275 === true
+    'icons--275__item-main': media275 === true,
+    'icons--1300__item-main': media1300 === true,
+    'icons--900__item-main': media900 === true,
+    'icons--600__item-main': media600 === true,
+    'icons--600l__item-main': media600l === true
   });
   var iconsLinkClass = classnames_default()({
     'icons__link': media1728 === true,
@@ -41751,7 +45103,11 @@ var MainIcons = function MainIcons(props) {
     'icons--744__link': media744 === true,
     'icons--744l__link': media744l === true,
     'icons--375__link': media375 === true,
-    'icons--275__link': media275 === true
+    'icons--275__link': media275 === true,
+    'icons--1300__link': media1300 === true,
+    'icons--900__link': media900 === true,
+    'icons--600__link': media600 === true,
+    'icons--600l__link': media600l === true
   });
   var iconsLinkMainClass = classnames_default()({
     'icons__link-main': media1728 === true,
@@ -41759,7 +45115,11 @@ var MainIcons = function MainIcons(props) {
     'icons--744__link-main': media744 === true,
     'icons--744l__link-main': media744l === true,
     'icons--375__link-main': media375 === true,
-    'icons--275__link-main': media275 === true
+    'icons--275__link-main': media275 === true,
+    'icons--1300__link-main': media1300 === true,
+    'icons--900__link-main': media900 === true,
+    'icons--600__link-main': media600 === true,
+    'icons--600l__link-main': media600l === true
   });
   var popupBodyClass = classnames_default()({
     'popup__body': media1728 === true,
@@ -41767,7 +45127,11 @@ var MainIcons = function MainIcons(props) {
     'popup--744__body': media744 === true,
     'popup--744l__body': media744l === true,
     'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true
+    'popup--275__body': media275 === true,
+    'popup--1300__body': media1300 === true,
+    'popup--900__body': media900 === true,
+    'popup--600__body': media600 === true,
+    'popup--600l__body': media600l === true
   });
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
@@ -41934,10 +45298,16 @@ var MainIcons = function MainIcons(props) {
 
 ;// ./src/images/bg-main.jpg
 const bg_main_namespaceObject = __webpack_require__.p + "images/bg-main.8e4052e51cdca9be18b4.jpg";
+;// ./src/images/bg-main1300-1.jpg
+const bg_main1300_1_namespaceObject = __webpack_require__.p + "images/bg-main1300-1.97355a31b247bf37664d.jpg";
 ;// ./src/images/bg-main1133.jpg
 const bg_main1133_namespaceObject = __webpack_require__.p + "images/bg-main1133.d07b2b669d71db0d4b6f.jpg";
+;// ./src/images/bg-main900.jpg
+const bg_main900_namespaceObject = __webpack_require__.p + "images/bg-main900.ec3fbd6d2b574958c2c3.jpg";
 ;// ./src/images/bg-main744.jpg
 const bg_main744_namespaceObject = __webpack_require__.p + "images/bg-main744.f7d9eba3ee134d049c67.jpg";
+;// ./src/images/bg-main600.jpg
+const bg_main600_namespaceObject = __webpack_require__.p + "images/bg-main600.1529a7ae41d8a0affb78.jpg";
 ;// ./src/images/bg-main375.jpg
 const bg_main375_namespaceObject = __webpack_require__.p + "images/bg-main375.8dc770613ba72445ee84.jpg";
 ;// ./src/data/data_main/data_main_sidebar/dataMainSidebar.json
@@ -41945,6 +45315,9 @@ const dataMainSidebar_namespaceObject = /*#__PURE__*/JSON.parse('[[{"id":"main-s
 ;// ./src/data/data_main/data_main_icons/dataMainIcons.json
 const dataMainIcons_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"main-icons-link-0","className":"icons__link icons__link-main","href":"#"},{"id":"main-icons-link-1","className":"icons__link icons__link-main","href":"#"},{"id":"main-icons-link-2","className":"icons__link icons__link-main popup-link","href":"#"}]');
 ;// ./src/components/sections/main/Main.jsx
+
+
+
 
 
 
@@ -41968,13 +45341,21 @@ var Main = function Main() {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var mainClass = classnames_default()({
     'main': media1728 === true,
     'main--1133': media1133 === true,
     'main--744': media744 === true,
     'main--744l': media744l === true,
     'main--375': media375 === true,
-    'main--275': media275 === true
+    'main--275': media275 === true,
+    'main--1300': media1300 === true,
+    'main--900': media900 === true,
+    'main--600': media600 === true,
+    'main--600l': media600l === true
   });
   var mainInnerClass = classnames_default()({
     'main__inner': media1728 === true,
@@ -41982,15 +45363,22 @@ var Main = function Main() {
     'main--744__inner': media744 === true,
     'main--744l__inner': media744l === true,
     'main--375__inner': media375 === true,
-    'main--275__inner': media275 === true
+    'main--275__inner': media275 === true,
+    'main--1300__inner': media1300 === true,
+    'main--900__inner': media900 === true,
+    'main--600__inner': media600 === true,
+    'main--600l__inner': media600l === true
   });
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_main_namespaceObject);
+  var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_main1300_1_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_main1133_namespaceObject);
+  var loadedImageBg900 = (0,hooks/* useLoadImageBg */.ws)(bg_main900_namespaceObject);
   var loadedImageBg744 = (0,hooks/* useLoadImageBg */.ws)(bg_main744_namespaceObject);
+  var loadedImageBg600 = (0,hooks/* useLoadImageBg */.ws)(bg_main600_namespaceObject);
   var loadedImageBg375 = (0,hooks/* useLoadImageBg */.ws)(bg_main375_namespaceObject);
   var loadedImageBg275 = (0,hooks/* useLoadImageBg */.ws)(bg_main375_namespaceObject);
   var loadedImageBg;
-  media1728 ? loadedImageBg = loadedImageBg1728 : media1133 ? loadedImageBg = loadedImageBg1133 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
+  media1728 ? loadedImageBg = loadedImageBg1728 : media1300 ? loadedImageBg = loadedImageBg1300 : media1133 ? loadedImageBg = loadedImageBg1133 : media900 ? loadedImageBg = loadedImageBg900 : media744 ? loadedImageBg = loadedImageBg744 : media744l ? loadedImageBg = loadedImageBg744 : media600 ? loadedImageBg = loadedImageBg600 : media600l ? loadedImageBg = loadedImageBg600 : media375 ? loadedImageBg = loadedImageBg375 : media275 ? loadedImageBg = loadedImageBg275 : null;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("section", {
     className: mainClass,
     style: {
@@ -42026,7 +45414,7 @@ function ErrorScreenProc(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0441\u0451 \u043E \u043F\u0440\u043E\u0446\u0435\u0434\u0443\u0440\u0430\u0445 +7 918 266 91 30")));
+  }, "\u0412\u0441\u0451 \u043E \u043F\u0440\u043E\u0446\u0435\u0434\u0443\u0440\u0430\u0445 +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenCert.js
 
@@ -42038,7 +45426,7 @@ function ErrorScreenCert(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0441\u0451 \u043E \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u0430\u0445 +7 918 266 91 30")));
+  }, "\u0412\u0441\u0451 \u043E \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u0430\u0445 +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenFooter.js
 
@@ -42050,7 +45438,7 @@ function ErrorScreenFooter(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0417\u0432\u043E\u043D\u043E\u043A +7 918 266 91 30")));
+  }, "\u0417\u0432\u043E\u043D\u043E\u043A +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenMain.js
 
@@ -42062,7 +45450,7 @@ function ErrorScreenMain(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0430\u0448 \u0437\u0432\u043E\u043D\u043E\u043A +7 918 266 91 30")));
+  }, "\u0412\u0430\u0448 \u0437\u0432\u043E\u043D\u043E\u043A +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenHeader.js
 
@@ -42074,7 +45462,7 @@ function ErrorScreenHeader(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0430\u0448 \u0437\u0432\u043E\u043D\u043E\u043A +7 918 266 91 30")));
+  }, "\u0412\u0430\u0448 \u0437\u0432\u043E\u043D\u043E\u043A +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenCompanies.js
 
@@ -42086,7 +45474,7 @@ function ErrorScreenCompanies(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0441\u0451 \u043E\u0431 \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0438 +7 918 266 91 30")));
+  }, "\u0412\u0441\u0451 \u043E\u0431 \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0438 +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/ErrorScreenInfo.js
 
@@ -42098,7 +45486,7 @@ function ErrorScreenInfo(_ref) {
     className: "error error__proc"
   }, /*#__PURE__*/react.createElement("h2", {
     className: "error__message"
-  }, "\u0412\u0441\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F +7 918 266 91 30")));
+  }, "\u0412\u0441\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F +7 000 000 00 00")));
 }
 ;// ./src/error/error_screens/index.js
 
@@ -42157,13 +45545,21 @@ function App() {
   var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
   var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
   var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
   var wrapperClass = classnames_default()({
     'wrapper': media1728 === true,
     'wrapper--1133': media1133 === true,
     'wrapper--744': media744 === true,
     'wrapper--744l': media744l === true,
     'wrapper--375': media375 === true,
-    'wrapper--275': media275 === true
+    'wrapper--275': media275 === true,
+    'wrapper--1300': media1300 === true,
+    'wrapper--900': media900 === true,
+    'wrapper--600': media600 === true,
+    'wrapper--600l': media600l === true
   });
   var wrapperProceduresClass = classnames_default()({
     'wrapper__procedures': media1728 === true,
@@ -42171,7 +45567,11 @@ function App() {
     'wrapper--744__procedures': media744 === true,
     'wrapper--744l__procedures': media744l === true,
     'wrapper--375__procedures': media375 === true,
-    'wrapper--275__procedures': media275 === true
+    'wrapper--275__procedures': media275 === true,
+    'wrapper--1300__procedures': media1300 === true,
+    'wrapper--900__procedures': media900 === true,
+    'wrapper--600__procedures': media600 === true,
+    'wrapper--600l__procedures': media600l === true
   });
   var wrapperCertificatesClass = classnames_default()({
     'wrapper__certificates': media1728 === true,
@@ -42179,7 +45579,11 @@ function App() {
     'wrapper--744__certificates': media744 === true,
     'wrapper--744l__certificates': media744l === true,
     'wrapper--375__certificates': media375 === true,
-    'wrapper--275__certificates': media275 === true
+    'wrapper--275__certificates': media275 === true,
+    'wrapper--1300__certificates': media1300 === true,
+    'wrapper--900__certificates': media900 === true,
+    'wrapper--600__certificates': media600 === true,
+    'wrapper--600l__certificates': media600l === true
   });
   var scrollbarWidth = (0,hooks/* useScrollbarWidth */.yR)();
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
