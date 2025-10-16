@@ -13070,7 +13070,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   // const countSlides = 4;
 
   var countSlides;
-  media1728 === true ? countSlides = 4 : media1300 === true ? countSlides = 3 : media1133 === true ? countSlides = 3 : media900 === true ? countSlides = 2 : media744 === true ? countSlides = 2 : media744l === true ? countSlides = 3 : media600 === true ? countSlides = 2 : media600l === true ? countSlides = 2 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
+  media1728 === true ? countSlides = 4 : media1300 === true ? countSlides = 3 : media1133 === true ? countSlides = 3 : media900 === true ? countSlides = 2 : media744 === true ? countSlides = 3 : media744l === true ? countSlides = 3 : media600 === true ? countSlides = 2 : media600l === true ? countSlides = 2 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
   var _useContext = (0,react.useContext)(ModalContext/* ModalContext */.V),
     openModal = _useContext.openModal,
     closeModal = _useContext.closeModal,
@@ -13115,13 +13115,13 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var sliderDefault = function sliderDefault() {
     var current;
-    media1728 === true ? current = '.slider__slide-body-active' : media1300 === true ? current = '.slider--1300__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : media900 === true ? current = '.slider--900__slide-body-active' : media744 === true ? current = '.slider--744__slide-body-active' : null;
+    media1728 === true ? current = '.slider__slide-body-active' : media1300 === true ? current = '.slider--1300__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : media900 === true ? current = '.slider--900__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSliderDefault(current);
   };
   var slidesAllActive = function slidesAllActive() {
     var current;
-    media744l === true ? current = '.slider--744l__slide-body-active' : media600 === true ? current = '.slider--600__slide-body-active' : media600l === true ? current = '.slider--600l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : media275 === true ? current = '.slider--275__slide-body-active' : null;
+    media744 === true ? current = '.slider--744__slide-body-active' : media744l === true ? current = '.slider--744l__slide-body-active' : media600 === true ? current = '.slider--600__slide-body-active' : media600l === true ? current = '.slider--600l__slide-body-active' : media375 === true ? current = '.slider--375__slide-body-active' : media275 === true ? current = '.slider--275__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSlidesAllActive(current);
   };
@@ -13130,7 +13130,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       setItems(props.images);
     };
     loadData();
-    if (media744l || media600 || media375 || media275) {
+    if (media744 || media744l || media600 || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -13158,8 +13158,8 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     // let widthSlide = 336;
     var widthSlide;
     var heightSlide;
-    media1728 || media1300 || media1133 || media900 || media744 ? widthSlide = 336 : media744l || media600 || media600l || media375 || media275 ? widthSlide = 204 : null;
-    media1728 || media1300 || media1133 || media900 || media744 ? heightSlide = 364 : media744l || media600 || media600l || media375 || media275 ? heightSlide = 222 : null;
+    media1728 || media1300 || media1133 || media900 ? widthSlide = 336 : media744 || media744l || media600 || media600l || media375 || media275 ? widthSlide = 204 : null;
+    media1728 || media1300 || media1133 || media900 ? heightSlide = 364 : media744 || media744l || media600 || media600l || media375 || media275 ? heightSlide = 222 : null;
     for (var i = 0; i < items.length; i++) {
       // widthSlide = slidesRef.current[i].current.offsetWidth;
       var width = widthSlide + 30;
@@ -13272,7 +13272,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media600 || media600l || media375 || media275) {
+    if (media744 || media744l || media600 || media600l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -13318,7 +13318,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     setTouchPosition(null);
   };
   (0,react.useEffect)(function () {
-    if (media1728 === true || media1300 || media1133 === true || media900 === true || media744 === true) return;
+    if (media1728 === true || media1300 || media1133 === true || media900 === true) return;
     var containerWidth = props.containerWidth;
     var k = 204 - (containerWidth - Math.floor(containerWidth / 234) * 234);
     if (sliderDirection > 5) {
@@ -13380,7 +13380,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var handleChangeViewport = function handleChangeViewport(number) {
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media600 || media375 || media275) {
+    if (media744 || media744l || media600 || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -13412,7 +13412,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   (0,react.useEffect)(function () {
     if (!autoPlay || !autoPlaySliderProcCert) return;
-    if (media744l || media600 || media600l || media375 || media275) {
+    if (media744 || media744l || media600 || media600l || media375 || media275) {
       return slidesAllActive();
     }
     ;
@@ -13515,7 +13515,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
         className: "".concat(sliderCardClass, " ").concat(sliderCardProceduresClass)
       })) : null;
     })));
-  })), media1728 || media1300 || media1133 || media900 || media744 ? /*#__PURE__*/react.createElement("div", {
+  })), media1728 || media1300 || media1133 || media900 ? /*#__PURE__*/react.createElement("div", {
     className: buttonsClass
   }, /*#__PURE__*/react.createElement(SliderProcButtons, {
     typeButtons: 'pre'
@@ -37248,7 +37248,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"782b968a048d30e47111"}[chunkId] + ".js";
+/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"e65f6aa3ca95dfad51ff"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -37257,7 +37257,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + "4bb1ef2924aec7e56e4a" + ".css";
+/******/ 			return "" + chunkId + "." + "cd97f1e6f1f7ec6c5483" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
