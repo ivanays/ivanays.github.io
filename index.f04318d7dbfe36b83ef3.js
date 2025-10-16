@@ -353,7 +353,7 @@ var ProceduresTabs = function ProceduresTabs(props) {
   (0,react.useLayoutEffect)(function () {
     var headerHeight = 120;
     var handleScroll = function handleScroll() {
-      if (media1728 || media1300 || media1133 || media900) {
+      if (media1728 || media1300 || media1133) {
         if (menuRef.current.getBoundingClientRect().top < headerHeight - 80) {
           setIsMenuBodyFace(false);
           isClickedButton === 'body' ? animationScaleY(tabsBodyRef.current, 0, 0, 0, 2) : isClickedButton === 'face' ? animationScaleY(tabsFaceRef.current, 0, 0, 0, 2) : null;
