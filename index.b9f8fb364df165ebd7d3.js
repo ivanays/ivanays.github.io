@@ -38291,7 +38291,7 @@ var SliderCert = function SliderCert(props) {
     setTouchPosition(null);
   };
   (0,react.useLayoutEffect)(function () {
-    if (media1728 === true || media1300 === true || media1133 === true || media900 === true || media744 === true) return;
+    if (media1728 === true || media1300 === true || media1133 === true) return;
     var widthSlider = 0;
     var heightSlider = 0;
     var widthSlide = 281;
@@ -38306,7 +38306,7 @@ var SliderCert = function SliderCert(props) {
     setSliderHeight(heightSlide);
   }, [items]);
   (0,react.useEffect)(function () {
-    if (media1728 === true || media1300 === true || media1133 === true || media900 || media744 === true) return;
+    if (media1728 === true || media1300 === true || media1133 === true) return;
     var containerWidth = props.containerWidth;
     var k = 281 - (containerWidth - Math.floor(containerWidth / 311) * 311);
     if (sliderDirection > 5) {
@@ -38340,11 +38340,11 @@ var SliderCert = function SliderCert(props) {
   var slidesDefault = function slidesDefault() {
     var slides = document.querySelectorAll(".".concat(sliderSlideCertificatesClass));
     for (var i = 0; i < slides.length; i++) {
-      if (media1728 === true || media1133 === true || media900 === true || media744 === true) {
+      if (media1728 === true || media1133 === true) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
       }
-      if (media744l === true || media375 === true || media275 === true) {
+      if (media900 === true || media744 === true || media744l === true || media375 === true || media275 === true) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
         slides[i].classList.add(sliderSlideCertificatesMobileClass);
@@ -38357,13 +38357,13 @@ var SliderCert = function SliderCert(props) {
     };
     loadData();
     slidesDefault();
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media900 === true || media744 === true || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     var currentSlide = sliderSlide(0);
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   }, []);
   var changeSlide = function changeSlide() {
     var direction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media900 === true || media744 === true || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true) return;
     slidesDefault();
     var slideNumber = 0;
     if (slide + direction < 0) {
@@ -38376,7 +38376,7 @@ var SliderCert = function SliderCert(props) {
     currentSlide.classList.add(sliderSlideCertificatesActiveClass);
   };
   (0,react.useEffect)(function () {
-    if (!autoPlay || !autoPlaySliderProcCert || media744l === true || media600 === 600 || media600l === true || media375 === true || media275 === true) return;
+    if (!autoPlay || !autoPlaySliderProcCert || media900 === true || media744 === true || media744l === true || media600 === 600 || media600l === true || media375 === true || media275 === true) return;
     var interval = setInterval(function () {
       changeSlide(1);
     }, 4000);
@@ -38403,7 +38403,7 @@ var SliderCert = function SliderCert(props) {
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: sliderCertificatesClass,
     ref: sliderRef,
-    style: media744l === true || media600 === true || media600l === true || media375 === true || media275 === true ? {
+    style: media900 === true || media744 === true || media744l === true || media600 === true || media600l === true || media375 === true || media275 === true ? {
       width: "".concat(sliderWidth, "px"),
       height: "".concat(sliderHeight, "px")
     } : null,
