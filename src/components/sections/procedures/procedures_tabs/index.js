@@ -1,1 +1,0 @@
-export { ProceduresTabs } from './ProceduresTabs';

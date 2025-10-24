@@ -1,1 +1,0 @@
-export { HeaderPhoneIconImg } from './HeaderPhoneIconImg';

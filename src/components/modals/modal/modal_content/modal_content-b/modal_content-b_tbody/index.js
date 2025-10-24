@@ -1,1 +1,0 @@
-export { ModalContentBTbody } from './ModalContentBTbody';

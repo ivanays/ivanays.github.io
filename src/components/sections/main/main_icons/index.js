@@ -1,1 +1,0 @@
-export { MainIcons } from './MainIcons';
