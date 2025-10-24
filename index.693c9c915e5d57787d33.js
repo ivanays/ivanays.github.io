@@ -11990,7 +11990,8 @@ var UiLink = function UiLink(_ref) {
     id = _ref.id,
     children = _ref.children,
     style = _ref.style,
-    disabled = _ref.disabled;
+    disabled = _ref.disabled,
+    ref = _ref.ref;
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("a", {
     href: href,
     className: className,
@@ -11998,7 +11999,8 @@ var UiLink = function UiLink(_ref) {
     dataTab: dataTab,
     id: id,
     style: style,
-    disabled: disabled
+    disabled: disabled,
+    ref: ref
   }, children));
 };
 ;// ./src/components/ui/ui_link/index.js
@@ -13668,8 +13670,10 @@ var funcQueryMedia = function funcQueryMedia() {
     // query600l: "screen and (min-width: 600px) and (max-width: 743px) and (max-height: 600px)",
     query375: "screen and (min-width: 375px) and (max-width: 599px) and (orientation: portrait)",
     // query375: "screen and (min-width: 375px) and (max-width: 599px)",
-    query275: "screen and (min-width: 275px) and (max-width: 374px) and (orientation: portrait)"
+    query275: "screen and (min-width: 275px) and (max-width: 374px) and (orientation: portrait)",
     // query275: "screen and (min-width: 275px) and (max-width: 374px)",
+    portrait: "orientation: portrait",
+    landscape: "orientation: landscape"
   };
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryMedia);
@@ -38485,18 +38489,24 @@ var Certificates = function Certificates() {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var certificatesClass = classnames_default()({
-    'certificates': media1728 === true,
-    'certificates--1133': media1133 === true,
-    'certificates--744': media744 === true,
-    'certificates--744l': media744l === true,
-    'certificates--375': media375 === true,
-    'certificates--275': media275 === true,
-    'certificates--1300': media1300 === true,
-    'certificates--900': media900 === true,
-    'certificates--600': media600 === true,
-    'certificates--600l': media600l === true
-  });
+  var queryNumber = '';
+  media1728 === true ? queryNumber = '' : media1300 === true ? queryNumber = '--1300' : media1133 === true ? queryNumber = '--1133' : media900 === true ? queryNumber = '--900' : media744 === true ? queryNumber = '--744' : media744l === true ? queryNumber = '--744l' : media600 === true ? queryNumber = '--600' : media600l === true ? queryNumber = '--600l' : media375 === true ? queryNumber = '--375' : media275 === true ? queryNumber = '--275' : null;
+  var classCertificates = "certificates".concat(queryNumber);
+  var certificatesClass = classnames_default()(classCertificates);
+
+  // const certificatesClass = classNames({
+  //     'certificates': media1728 === true,
+  //     'certificates--1133': media1133 === true,
+  //     'certificates--744': media744 === true,
+  //     'certificates--744l': media744l === true,
+  //     'certificates--375': media375 === true,
+  //     'certificates--275': media275 === true,
+  //     'certificates--1300': media1300 === true,
+  //     'certificates--900': media900 === true,
+  //     'certificates--600': media600 === true,
+  //     'certificates--600l': media600l === true,
+  // });
+
   var containerCertificatesClass = classnames_default()({
     'container-certificates': media1728 === true,
     'container-certificates--1133': media1133 === true,
@@ -40561,7 +40571,29 @@ function HeaderLogo_extends() { return HeaderLogo_extends = Object.assign ? Obje
 
 
 
+
+
 var HeaderLogo = function HeaderLogo(props) {
+  var queryMedia = (0,funcQueryMedia/* default */.A)();
+  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
+  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
+  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
+  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
+  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
+  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
+  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
+  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
+  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
+  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
+  var portrait = (0,hooks/* useMediaQuery */.Ub)(queryMedia.portrait);
+  var landscape = (0,hooks/* useMediaQuery */.Ub)(queryMedia.landscape);
+  var linkHeaderLogoRef = (0,react.useRef)();
+
+  // useLayoutEffect(() => {
+  //     linkHeaderLogoRef.current.click();
+  //     console.log('click!!!')
+  // }, [portrait, landscape]);
+
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: "header__logo"
   }, (0,funcProps/* default */.A)(props).map(function (prop, i) {
@@ -40573,7 +40605,8 @@ var HeaderLogo = function HeaderLogo(props) {
       } : {
         pointerEvents: 'none'
       },
-      disabled: props.position === 0 ? false : true
+      disabled: props.position === 0 ? false : true,
+      ref: linkHeaderLogoRef
     }), /*#__PURE__*/react.createElement(HeaderLogoImg, {
       data: dataHeaderLogoImg_namespaceObject
     }));
