@@ -1,0 +1,1 @@
+export * from './hook_load_image_bg';

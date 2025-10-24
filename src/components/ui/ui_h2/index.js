@@ -1,0 +1,1 @@
+export { UiH2 } from './UiH2';

@@ -1,0 +1,730 @@
+@media (max-width: 1729px) {
+    .wrapper {
+        width: 1133px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 1068px;
+        margin: 0 auto;
+    }
+
+    .container-companies {
+        width: 1133px;
+        margin: 0 auto;
+    }
+
+    .container-certificates {
+        width: 1133px;
+    }
+
+    .header {
+        width: 1133px;
+        height: 120px;
+        background-image: url(/img/bg/bg-header1133.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        // .header__inner
+        &__inner {
+            width: 100%;
+            height: 112px;
+        }
+
+        // .header__left
+        &__left {
+            width: 388px;
+            height: 71px;
+            align-self: flex-end;
+        }
+
+        // .header__inner-left
+        &__inner-left {
+            width: 388px;
+            height: 71px;
+        }
+
+        // .header__logo
+        &__logo {}
+
+        // .header__link
+        &__link {}
+
+        // .header__link-logo
+        &__link-logo {}
+
+        // .header__link-burger
+        &__link-burger {}
+
+        // .header__title
+        &__title {}
+
+        // .header__line
+        &__line {
+            width: 427px;
+            height: 2px;
+        }
+
+        // .header__right
+        &__right {
+            //width: 600px;
+            width: 621px;
+            height: 21px;
+            align-self: flex-start;
+            margin-top: 37px;
+        }
+
+        // .header__inner-right
+        &__inner-right {
+            //width: 600px;
+            width: 621px;
+            height: 21px;
+        }
+
+        // .header__menu
+        &__menu {}
+
+        // .header__burger
+        &__burger {}
+
+        // .header__phone
+        &__phone {}
+    }
+
+    .logo {}
+
+    .logo-header {
+        width: 35px;
+        height: 35px;
+    }
+
+    .title {
+        font-size: $fz-20;
+        letter-spacing: 1.4px;
+    }
+
+    .title-header {}
+
+    .menu {
+
+        // .menu__item
+        &__item {}
+
+        // .menu__item-header
+        &__item-header {}
+
+        // .menu__link
+        &__link {}
+
+        // .menu__link-header
+        &__link-header {}
+
+        // .menu__item-tab
+        &__item-tab {}
+
+        // .menu__link-body
+        &__link-body {}
+
+        // .menu__link-face
+        &__link-face {}
+
+        // .menu__item-section1
+        &__item-section1 {}
+
+        // .menu__link-section1
+        &__link-section1 {}
+    }
+
+    .menu-header {
+        width: 417px;
+        height: 21px;
+    }
+
+    .burger {}
+
+    .burger-header {}
+
+    .phone {}
+
+    .phone-header {}
+
+    .main {
+        width: 1133px;
+        height: 744px;
+        background-image: url(/img/bg/bg-main1133.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 90px;
+
+        // .main__inner
+        &__inner {}
+
+        // .main__sidebar
+        &__sidebar {
+            margin-bottom: 56px;
+        }
+
+        // .main__icons
+        &__icons {
+            margin-right: 26px;
+            margin-bottom: 29px;
+        }
+    }
+
+    .sidebar {
+
+        // .sidebar__item
+        &__item {}
+
+        // .sidebar__item-main
+        &__item-main {}
+
+        // .sidebar__item-sub
+        &__item-sub {}
+
+        // .sidebar__link
+        &__link {
+            width: 246px;
+        }
+
+        // .sidebar__link-sub
+        &__link-sub {}
+
+        // .sidebar__link-main
+        &__link-main {}
+    }
+
+    .sidebar-main {
+        width: 246px;
+        height: 218px;
+    }
+
+    .sidebar-sub {
+        width: 246px;
+        height: 100px;
+    }
+
+    .icons {
+
+        // .icons__item
+        &__item {}
+
+        // .icons__item-main
+        &__item-main {}
+
+        // .icons__link
+        &__link {}
+
+        // .icons__link-main
+        &__link-main {}
+
+        // .icons__whatsapp
+        &__whatsapp {}
+
+        // .icons__whatsapp-main
+        &__whatsapp-main {
+            width: 65px;
+            height: 65px;
+            flex-shrink: 0;
+        }
+
+        // .icons__telegram
+        &__telegram {}
+
+        // .icons__telegram-main
+        &__telegram-main {
+            width: 65px;
+            height: 65px;
+            flex-shrink: 0;
+        }
+
+        // .icons__checkmark
+        &__checkmark {}
+
+        // .icons__checkmark-main
+        &__checkmark-main {
+            width: 65px;
+            height: 65px;
+            flex-shrink: 0;
+        }
+
+        // .icons__item-footer
+        &__item-footer {}
+
+        // .icons__item-whatsapp
+        &__item-whatsapp {}
+
+        // .icons__link-footer
+        &__link-footer {}
+
+        // .icons__img-footer
+        &__img-footer {}
+
+        // .icons__whatsapp-footer
+        &__whatsapp-footer {}
+
+        // .icons__line
+        &__line {}
+
+        // .icons__line-footer
+        &__line-footer {}
+
+        // .icons__item-telegram
+        &__item-telegram {}
+
+        // .icons__telegram-footer
+        &__telegram-footer {}
+
+        // .icons__item-checkmark
+        &__item-checkmark {}
+
+        // .icons__checkmark-footer
+        &__checkmark-footer {}
+    }
+
+    .icons-main {
+        width: 255px;
+        height: 65px;
+    }
+
+    .procedures {
+        margin-bottom: 90px;
+
+        // .procedures__tabs
+        &__tabs {}
+
+        // .procedures__border
+        &__border {}
+    }
+
+    .menu-procedures {}
+
+    .tabs {
+
+        // .tabs__body
+        &__body {}
+
+        // .tabs__slider
+        &__slider {}
+    }
+
+    .tabs-procedures {}
+
+    .tabs-active {}
+
+    .slider {
+
+        // slider__items
+        &__items {}
+
+        // slider__items-info
+        &__items-info {
+            position: relative;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            width: 1068px;
+            height: 290px;
+        }
+
+        // slider__item
+        &__item {}
+
+        // slider__item-info
+        &__item-info {
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1434px;
+            height: 290px;
+            z-index: 10;
+        }
+
+        // slider__inner
+        &__inner {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        // slider__inner-info
+        &__inner-info {}
+
+        // .slider__slide
+        &__slide {}
+
+        // .slider__slide-procedures
+        &__slide-procedures {}
+
+        // .slider__link
+        &__link {}
+
+        // .slider__link-procedures
+        &__link-procedures {}
+
+        // .slider__card
+        &__card {}
+
+        // .slider__card-procedures
+        &__card-procedures {}
+
+        // .slider__slide-info
+        &__slide-info {}
+
+        // .slider__link-info
+        &__link-info {}
+
+        // .slider__card-info
+        &__card-info {}
+
+        // .slider__slide-certificates
+        &__slide-certificates {}
+
+        &__slide-certificates:not(:first-child) {
+            // margin-right: 24px;
+            margin-left: -300px;
+        }
+
+        // .slider__link-certificates
+        &__link-certificates {}
+
+        // .slider__card-certificates
+        &__card-certificates {}
+    }
+
+    .slider-procedures {}
+
+    .dots {
+
+        // .dots__body
+        &__body {}
+
+        // .dots__body-procedure
+        &__body-procedure {}
+
+        // .dots__dot
+        &__dot {}
+
+        // .dots__dot-active
+        &__dot-active {}
+
+        // .dots__body-info
+        &__body-info {
+            width: 47px;
+            height: 13px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        // .dots__body-certificates
+        &__body-certificates {}
+    }
+
+    .companies {
+        height: 242px;
+
+        // .companies__list
+        &__list {
+            height: 242px;
+        }
+
+        // .companies__item
+        &__item {
+            width: 213px;
+        }
+
+        // .companies__item-mychway
+        &__item-mychway {
+            margin-left: -50px;
+        }
+
+        // .companies__frame
+        &__frame {}
+
+        // .companies__frame-mychway
+        &__frame-mychway {}
+
+        // .companies__group
+        &__group {}
+
+        // .companies__group-mychway
+        &__group-mychway {}
+
+        // .companies__blur
+        &__blur {}
+
+        // .companies__blur-mychway
+        &__blur-mychway {}
+
+        // .companies__name
+        &__name {}
+
+        // .companies__name-mychway
+        &__name-mychway {}
+
+        // .companies__item-auro
+        &__item-auro {}
+
+        // .companies__frame-auro
+        &__frame-auro {
+            padding: 28.851px 81.639px 28.918px 82.365px;
+        }
+
+        // .companies__group-auro
+        &__group-auro {}
+
+        // .companies__name-auro
+        &__name-auro {}
+
+        // .companies__blur-auro
+        &__blur-auro {}
+
+        // .companies__item-salonart
+        &__item-salonart {}
+
+        // .companies__frame-salonart
+        &__frame-salonart {}
+
+        // .companies__group-salonart
+        &__group-salonart {}
+
+        // .companies__name-salonart
+        &__name-salonart {}
+
+        // .companies__blur-salonart
+        &__blur-salonart {}
+
+        // .companies__item-vibro
+        &__item-vibro {
+            margin-right: 20px;
+        }
+
+        // .companies__frame-vibro
+        &__frame-vibro {}
+
+        // .companies__group-vibro
+        &__group-vibro {}
+
+        // .companies__name-vibro
+        &__name-vibro {}
+
+        // .companies__blur-vibro
+        &__blur-vibro {}
+
+        // .companies__item-drceuracle
+        &__item-drceuracle {
+            margin-right: 70px;
+        }
+
+        // .companies__frame-drceuracle
+        &__frame-drceuracle {}
+
+        // .companies__group-drceuracle
+        &__group-drceuracle {}
+
+        // .companies__name-drceuracle
+        &__name-drceuracle {}
+
+        // .companies__blur-drceuracle
+        &__blur-drceuracle {}
+    }
+
+    .info {
+        width: 100%;
+        height: 363px;
+        margin-bottom: 90px;
+
+        // overflow: visible;
+        // .info__slider
+        &__slider {}
+    }
+
+    .slider-info {}
+
+    .certificates {
+
+        // .certificates__slider
+        &__slider {}
+    }
+
+    .slider-certificates {}
+
+    .footer {
+        width: 100%;
+        height: 240px;
+        background-image: url(/img/bg/bg-footer1133.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        // .footer__reletive
+        &__reletive {
+            width: 100%;
+            height: 240px;
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+
+        // .footer__section1
+        &__section1 {
+            width: 437px;
+            height: 81px;
+            position: absolute;
+            right: 210px;
+            top: 46px;
+            opacity: 0.8;
+        }
+
+        // .footer__menu
+        &__menu {
+            width: 437px;
+            height: 81px;
+        }
+
+        // .footer__inner
+        &__inner {}
+
+        // .footer__inner-column
+        &__inner-column {}
+
+        // .footer__column
+        &__column {}
+
+        // .footer__column-1
+        &__column-1 {}
+
+        // .footer__column-2
+        &__column-2 {}
+
+        // .footer__column-3
+        &__column-3 {}
+
+        // .footer__section2
+        &__section2 {
+            width: 767px;
+            height: 42px;
+            position: absolute;
+            left: 0;
+            bottom: 30px;
+        }
+
+        // .footer__inner-section2
+        &__inner-section2 {}
+
+        // .footer__copyright
+        &__copyright {
+            width: 376px;
+            height: 38px;
+        }
+
+        // .footer__inner-left
+        &__inner-left {
+            width: 376px;
+            height: 38px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        // .footer__logo
+        &__logo {}
+
+        // .footer__link
+        &__link {}
+
+        // .footer__link-logo
+        &__link-logo {}
+
+        // .footer__copy
+        &__copy {}
+
+        // .footer__p
+        &__p {}
+
+        // .footer__p-copy
+        &__p-copy {}
+
+        // .footer__year
+        &__year {}
+
+        // .footer__warning
+        &__warning {
+            width: 344px;
+            height: 42px;
+            opacity: 0.9;
+        }
+
+        // .footer__inner-warning
+        &__inner-warning {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        // .footer__p-warning
+        &__p-warning {}
+
+        // .footer__section3
+        &__section3 {
+            width: 130px;
+            height: 155px;
+            position: absolute;
+            right: 88px;
+            top: 58px;
+            opacity: 0.5;
+        }
+
+        // .footer__icons
+        &__icons {}
+
+        // .footer__section4
+        &__section4 {
+            width: 138px;
+            height: 42px;
+            position: absolute;
+            right: 0;
+            bottom: 12px;
+            opacity: 0.7;
+        }
+
+        // .footer__phone
+        &__phone {
+            width: 138px;
+            height: 42px;
+            background-image: url(/img/bg/bg-call1133.png);
+            background-repeat: no-repeat;
+            background-position-y: 8px;
+            padding-top: 7px;
+        }
+    }
+
+    .menu-footer {}
+
+    .logo-footer {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icons-footer {}
+
+    .phone-footer {
+        display: block;
+        width: 138px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #f5f0f7;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: $fw-500;
+        line-height: normal;
+        text-align: right;
+    }
+}

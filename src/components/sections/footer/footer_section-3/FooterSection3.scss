@@ -1,0 +1,1326 @@
+@use '../../../../scss/config/_variables.scss' as *;
+@use '../../../../scss/config/_mixins.scss' as *;
+@use '../../../../scss/config/_patterns.scss' as *;
+
+// _desktop.scss
+
+.footer {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 40px;
+    height: 46px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: $c-1;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #3d0751;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer {
+  width: 130px;
+  height: 155px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// media-1300.scss
+
+.footer--1300 {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--1300 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 40px;
+    height: 46px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: $c-1;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #3d0751;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--1300 {
+  width: 103px;
+  height: 155px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// _media-1133.scss
+
+.footer--1133 {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--1133 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 40px;
+    height: 46px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: $c-1;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #3d0751;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--1133 {
+  width: 130px;
+  height: 155px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// media-900.scss
+
+.footer--900 {
+  // .footer__icons
+  &__icons {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.icons--900 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 40px;
+    height: 46px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: $c-1;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #3d0751;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--900 {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// _media-744.scss
+
+.footer--744 {
+  // .footer__icons
+  &__icons {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.icons--744 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 40px;
+    height: 46px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: $c-1;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 16px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #3d0751;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--744 {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+// _media-744l.scss
+
+.footer--744l {
+    // .footer__icons
+    &__icons {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .icons--744l {
+    // .icons__item
+    &__item {
+    }
+  
+    // .icons__item-footer
+    &__item-footer {
+      display: block;
+      width: 40px;
+      height: 46px;
+      position: relative;
+      left: 0;
+      top: 0;
+      // transition: all 0.3s ease;
+    }
+  
+    // .icons__item-whatsapp
+    &__item-whatsapp {
+      align-self: end;
+    }
+  
+    // .icons__item-telegram
+    &__item-telegram {
+    }
+  
+    // .icons__item-checkmark
+    &__item-checkmark {
+      align-self: start;
+      opacity: 0.8;
+    }
+  
+    // .icons__link
+    &__link {
+    }
+  
+    // .icons__link-footer
+    &__link-footer {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      top: 0;
+      left: 0;
+      margin-bottom: 5px;
+      display: block;
+      background-color: $c-1;
+      // transition: all 0.3s ease;
+      opacity: 0.5;
+    }
+  
+    // .icons__link-whatsapp
+    &__link-whatsapp {
+      mask-image: url('../../../../images/whatsapp-footer.svg');
+    }
+  
+    // .icons__link-telegram
+    &__link-telegram {
+      mask-image: url('../../../../images/telegram-footer.svg');
+    }
+  
+    // .icons__link-checkmark
+    &__link-checkmark {
+      mask-image: url('../../../../images/checkmark-footer.svg');
+    }
+  
+    // .icons__img-footer
+    &__img-footer {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
+    }
+  
+    // .icons__whatsapp
+    &__whatsapp {
+    }
+  
+    // .icons__whatsapp-footer
+    &__whatsapp-footer {
+    }
+  
+    // .icons__telegram
+    &__telegram {
+    }
+  
+    // .icons__telegram-footer
+    &__telegram-footer {
+    }
+  
+    // .icons__checkmark
+    &__checkmark {
+    }
+  
+    // .icons__checkmark-footer
+    &__checkmark-footer {
+    }
+  
+    // .icons__line
+    &__line {
+    }
+  
+    // .icons__line-footer
+    &__line-footer {
+      position: absolute;
+      width: 16px;
+      height: 1px;
+      left: 0;
+      bottom: 0;
+      background: #3d0751;
+      opacity: 0.5;
+      // transition: all 0.3s ease;
+    }
+  }
+  
+  .icons-footer--744l {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+// media-600.scss
+
+.footer--600 {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--600 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 22px;
+    height: 28px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer375.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer375.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer375.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 11px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--600 {
+  width: 66px;
+  height: 95px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// media-600l.scss
+
+.footer--600l {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--600l {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 22px;
+    height: 28px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer375.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer375.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer375.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 11px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--600l {
+  width: 66px;
+  height: 95px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// _media-375.scss
+
+.footer--375 {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--375 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 22px;
+    height: 28px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer375.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer375.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer375.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 11px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--375 {
+  width: 66px;
+  height: 95px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// _media-275.scss
+
+.footer--275 {
+  // .footer__icons
+  &__icons {
+  }
+}
+
+.icons--275 {
+  // .icons__item
+  &__item {
+  }
+
+  // .icons__item-footer
+  &__item-footer {
+    display: block;
+    width: 22px;
+    height: 28px;
+    position: relative;
+    left: 0;
+    top: 0;
+    // transition: all 0.3s ease;
+  }
+
+  // .icons__item-whatsapp
+  &__item-whatsapp {
+    align-self: end;
+  }
+
+  // .icons__item-telegram
+  &__item-telegram {
+  }
+
+  // .icons__item-checkmark
+  &__item-checkmark {
+    align-self: start;
+    opacity: 0.8;
+  }
+
+  // .icons__link
+  &__link {
+  }
+
+  // .icons__link-footer
+  &__link-footer {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    // transition: all 0.3s ease;
+    opacity: 0.5;
+  }
+
+  // .icons__link-whatsapp
+  &__link-whatsapp {
+    mask-image: url('../../../../images/whatsapp-footer375.svg');
+  }
+
+  // .icons__link-telegram
+  &__link-telegram {
+    mask-image: url('../../../../images/telegram-footer375.svg');
+  }
+
+  // .icons__link-checkmark
+  &__link-checkmark {
+    mask-image: url('../../../../images/checkmark-footer375.svg');
+  }
+
+  // .icons__img-footer
+  &__img-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  // .icons__whatsapp
+  &__whatsapp {
+  }
+
+  // .icons__whatsapp-footer
+  &__whatsapp-footer {
+  }
+
+  // .icons__telegram
+  &__telegram {
+  }
+
+  // .icons__telegram-footer
+  &__telegram-footer {
+  }
+
+  // .icons__checkmark
+  &__checkmark {
+  }
+
+  // .icons__checkmark-footer
+  &__checkmark-footer {
+  }
+
+  // .icons__line
+  &__line {
+  }
+
+  // .icons__line-footer
+  &__line-footer {
+    position: absolute;
+    width: 11px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.5;
+    // transition: all 0.3s ease;
+  }
+}
+
+.icons-footer--275 {
+  width: 54px;
+  height: 95px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+// media-600l.scss

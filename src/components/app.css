@@ -1,0 +1,70 @@
+.wrapper {
+  width: 1728px;
+  margin: 0 auto;
+}
+.wrapper__procedures {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper--1133 {
+  width: 1133px;
+  margin: 0 auto;
+}
+.wrapper--1133__procedures--1133 {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container-companies--1133 {
+  width: 1133px;
+  margin: 0 auto;
+}
+
+.container-certificates--1133 {
+  width: 1133px;
+}
+
+.wrapper--744 {
+  width: 744px;
+  margin: 0 auto;
+}
+.wrapper--744__procedures--744 {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container-certificates--744 {
+  width: 744px;
+}
+
+.wrapper--744l {
+  width: 744px;
+  margin: 0 auto;
+}
+.wrapper--744l__procedures--744l {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper-certificates--744l {
+  width: 100%;
+}
+
+.wrapper--375 {
+  width: 375px;
+  margin: 0 auto;
+}
+.wrapper--375__procedures--375 {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper-certificates--375 {
+  width: 100%;
+}/*# sourceMappingURL=app.css.map */

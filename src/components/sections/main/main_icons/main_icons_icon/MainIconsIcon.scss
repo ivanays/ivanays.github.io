@@ -1,0 +1,346 @@
+@use '../../../../../scss/config/_variables.scss' as *;
+@use '../../../../../scss/config/_mixins.scss' as *;
+@use '../../../../../scss/config/_patterns.scss' as *;
+
+// .desktop.scss
+
+.icons {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 5px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// media-1300.scss
+
+.icons--1300 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 5px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// .media-1133.scss
+
+.icons--1133 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 5px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// media-900.scss
+
+.icons--900 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// .media-744.scss
+
+.icons--744 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// .media-744l.scss
+
+.icons--744l {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// media-600.scss
+
+.icons--600 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// media-600l.scss
+
+.icons--600l {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// .media-375.scss
+
+.icons--375 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+// .media-275.scss
+
+.icons--275 {
+  // .icons__main
+  &__main {
+  }
+
+  // .icons__main-icon
+  &__main-icon {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    // opacity: 0.1;
+  }
+
+  // .icons__main-shadow
+  &__main-shadow {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+}
+
+
+

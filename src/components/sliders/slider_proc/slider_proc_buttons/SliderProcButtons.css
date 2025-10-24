@@ -1,0 +1,89 @@
+.buttons-pre {
+  width: calc((100% - 172px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next {
+  width: calc((100% - 172px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-pre--1133 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--1133 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-pre--744 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--744 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-pre--744l {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--744l {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-pre--375 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--375 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}/*# sourceMappingURL=SliderProcButtons.css.map */

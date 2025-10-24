@@ -1,0 +1,131 @@
+@use '_variables.scss' as *;
+
+// Шаблоны
+
+%inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%inner1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%inner2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+%inner3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+%inner4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%inner5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%input1 {
+    width:  300px;
+    height: 30px;
+    border: 1px solid $c-11;
+    border-radius: 5px;
+    color: $c-11;
+    font-family: $ff-Roboto;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+%input2 {
+    width: 400px;
+    height: 30px;
+    border: 1px solid $c-11;
+    border-radius: 5px;
+    color: $c-11;
+    font-family: $ff-Roboto;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+%btn1 {
+    width: 100px;
+    height: 30px;
+    border: 1px solid $c-11;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+%btn2 {
+    width: 100%;
+    height: 30px;
+    border: 1px solid $c-11;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+%text1 {
+    color: $c-11;
+    font-family: $ff-Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+%text2 {
+    color: $c-11;
+    font-family: $ff-Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+%text3 {
+    color: $c-51;
+    font-family: $ff-Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+%main {
+    width: 100%;
+    min-height: calc(100vh - 158px);
+}
+
+%party {
+    width: 100%;
+    min-height: calc(100vh - 158px);
+}
+
+%sidebar-buttons-inner {
+    width: 100%;
+    min-height: calc(100vh - 216px);
+}
+
+%sidebar-buttons-inner1 {
+    width: 100%;
+    min-height: calc(100vh - 331px);
+}
+
+%sidebar-buttons1 {
+    width: 100%;
+    min-height: calc(100vh - 331px);
+}

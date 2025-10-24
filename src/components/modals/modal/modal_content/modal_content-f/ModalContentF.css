@@ -1,0 +1,884 @@
+.content__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content__number {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.stock__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  margin-bottom: 43px;
+}
+.slider__slide-stock {
+  display: none;
+  width: 100%;
+  height: 204px;
+}
+.slider__item-stock {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider__slide-stock-active {
+  display: block;
+  opacity: 0;
+  animation-name: slideActiveStock;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: -250ms;
+  animation-direction: alternate;
+  transition: all 2s ease-in;
+}
+@keyframes slideActiveStock {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+}
+.slider-stock {
+  width: 100%;
+  height: 204px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide__stock {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slide__value {
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide__span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide__span-num {
+  font-weight: 400;
+}
+.slide__span-symbol {
+  font-weight: 300;
+  margin-left: -3px;
+}
+@keyframes stockValueOutIn {
+  from {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  5% {
+    font-size: 135px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  10% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  20% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  25% {
+    font-size: 120px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  90% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.slide-stock {
+  width: 100%;
+  height: 204px;
+}
+
+.content--1133__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--1133__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--1133__number {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.stock--1133__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  margin-bottom: 43px;
+}
+.slider--1133__slide-stock {
+  display: none;
+  width: 100%;
+  height: 204px;
+}
+.slider--1133__item-stock {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider--1133__slide-stock-active {
+  display: block;
+  opacity: 0;
+  animation-name: slideActiveStock;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: -250ms;
+  animation-direction: alternate;
+  transition: all 2s ease-in;
+}
+@keyframes slideActiveStock {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+}
+.slider-stock--1133 {
+  width: 100%;
+  height: 204px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide--1133__stock {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slide--1133__value {
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--1133__span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--1133__span-num {
+  font-weight: 400;
+}
+.slide--1133__span-symbol {
+  font-weight: 300;
+  margin-left: -3px;
+}
+@keyframes stockValueOutIn {
+  from {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  5% {
+    font-size: 135px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  10% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  20% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  25% {
+    font-size: 120px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  90% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.slide-stock--1133 {
+  width: 100%;
+  height: 204px;
+}
+
+.content--744__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--744__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--744__number {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.stock--744__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  margin-bottom: 43px;
+}
+.slider--744__slide-stock {
+  display: none;
+  width: 100%;
+  height: 204px;
+}
+.slider--744__item-stock {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider--744__slide-stock-active {
+  display: block;
+  opacity: 0;
+  animation-name: slideActiveStock;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: -250ms;
+  animation-direction: alternate;
+  transition: all 2s ease-in;
+}
+@keyframes slideActiveStock {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+}
+.slider-stock--744 {
+  width: 100%;
+  height: 204px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide--744__stock {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slide--744__value {
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--744__span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--744__span-num {
+  font-weight: 400;
+}
+.slide--744__span-symbol {
+  font-weight: 300;
+  margin-left: -3px;
+}
+@keyframes stockValueOutIn {
+  from {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  5% {
+    font-size: 135px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  10% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  20% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  25% {
+    font-size: 120px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  90% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.slide-stock--744 {
+  width: 100%;
+  height: 204px;
+}
+
+.content--744l__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--744l__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--744l__number {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.stock--744l__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  margin-bottom: 43px;
+}
+.slider--744l__slide-stock {
+  display: none;
+  width: 100%;
+  height: 204px;
+}
+.slider--744l__item-stock {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider--744l__slide-stock-active {
+  display: block;
+  opacity: 0;
+  animation-name: slideActiveStock;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: -250ms;
+  animation-direction: alternate;
+  transition: all 2s ease-in;
+}
+@keyframes slideActiveStock {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+}
+.slider-stock--744l {
+  width: 100%;
+  height: 204px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide--744l__stock {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slide--744l__value {
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--744l__span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--744l__span-num {
+  font-weight: 400;
+}
+.slide--744l__span-symbol {
+  font-weight: 300;
+  margin-left: -3px;
+}
+@keyframes stockValueOutIn {
+  from {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  5% {
+    font-size: 135px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  10% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  20% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  25% {
+    font-size: 120px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  90% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.slide-stock--744l {
+  width: 100%;
+  height: 204px;
+}
+
+.content--375__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--375__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--375__number {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.stock--375__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  margin-bottom: 43px;
+}
+.slider--375__slide-stock {
+  display: none;
+  width: 100%;
+  height: 204px;
+}
+.slider--375__item-stock {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider--375__slide-stock-active {
+  display: block;
+  opacity: 0;
+  animation-name: slideActiveStock;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+  animation-delay: -250ms;
+  animation-direction: alternate;
+  transition: all 2s ease-in;
+}
+@keyframes slideActiveStock {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+}
+.slider-stock--375 {
+  width: 100%;
+  height: 204px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide--375__stock {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.slide--375__value {
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--375__span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 128px;
+  line-height: 150px;
+  text-align: center;
+  color: #3d0751;
+  animation-name: stockValueOutIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.8s;
+  transition: font-size 0.5s ease-in-out;
+}
+.slide--375__span-num {
+  font-weight: 400;
+}
+.slide--375__span-symbol {
+  font-weight: 300;
+  margin-left: -3px;
+}
+@keyframes stockValueOutIn {
+  from {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  5% {
+    font-size: 135px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  10% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  20% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  25% {
+    font-size: 120px;
+    filter: blur(1px);
+    opacity: 0.9;
+  }
+  90% {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    font-size: 128px;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.slide-stock--375 {
+  width: 100%;
+  height: 204px;
+}/*# sourceMappingURL=ModalContentF.css.map */

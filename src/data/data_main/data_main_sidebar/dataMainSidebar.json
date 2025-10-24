@@ -1,0 +1,24 @@
+[
+    [
+      {
+        "id": "main-sidibar-link-sub-0",
+        "className": "sidebar__link sidebar__link-sub popup-link",
+        "children": "Окна"
+      },
+      {
+        "id": "main-sidibar-link-sub-1",
+        "className": "sidebar__link sidebar__link-sub popup-link",
+        "children": "Акции"
+      }
+    ],
+    [
+      {
+        "id": "main-sidibar-button-main-0",
+        "className": "sidebar__link sidebar__link-main popup-link",
+        "children": "Позвонить"
+      }
+    ]
+]
+
+
+

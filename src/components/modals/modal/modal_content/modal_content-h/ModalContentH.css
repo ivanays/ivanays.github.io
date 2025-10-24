@@ -1,0 +1,414 @@
+.content__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content__reviews {
+  margin-bottom: 30px;
+}
+.content__p-reviews {
+  margin-bottom: 0;
+}
+.content__img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.content__img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.content__img-telegram {
+  margin-left: 20px;
+}
+
+.reviews__body {
+  color: #3d0751;
+}
+.reviews__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews__content {
+  width: 100%;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rgba(201, 117, 216, 0.3) rgba(236, 209, 242, 0.3);
+  scrollbar-width: thin;
+}
+.reviews__block {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.reviews__block:last-child {
+  margin-bottom: 0;
+}
+.reviews__title-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.reviews__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.content--1133__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--1133__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--1133__reviews {
+  margin-bottom: 30px;
+}
+.content--1133__p-reviews {
+  margin-bottom: 0;
+}
+.content--1133__img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.content--1133__img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.content--1133__img-telegram {
+  margin-left: 20px;
+}
+
+.reviews--1133__body {
+  color: #3d0751;
+}
+.reviews--1133__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews--1133__content {
+  width: 100%;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rgba(201, 117, 216, 0.3) rgba(236, 209, 242, 0.3);
+  scrollbar-width: thin;
+}
+.reviews--1133__block {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.reviews--1133__block:last-child {
+  margin-bottom: 0;
+}
+.reviews--1133__title-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.reviews--1133__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.content--744__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--744__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--744__reviews {
+  margin-bottom: 30px;
+}
+.content--744__p-reviews {
+  margin-bottom: 0;
+}
+.content--744__img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.content--744__img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.content--744__img-telegram {
+  margin-left: 20px;
+}
+
+.reviews--744__body {
+  color: #3d0751;
+}
+.reviews--744__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews--744__content {
+  width: 100%;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rgba(201, 117, 216, 0.3) rgba(236, 209, 242, 0.3);
+  scrollbar-width: thin;
+}
+.reviews--744__block {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.reviews--744__block:last-child {
+  margin-bottom: 0;
+}
+.reviews--744__title-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.reviews--744__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.content--744l__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--744l__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--744l__reviews {
+  margin-bottom: 30px;
+}
+.content--744l__p-reviews {
+  margin-bottom: 0;
+}
+.content--744l__img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.content--744l__img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.content--744l__img-telegram {
+  margin-left: 20px;
+}
+
+.reviews--744l__body {
+  color: #3d0751;
+}
+.reviews--744l__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews--744l__content {
+  width: 100%;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rgba(201, 117, 216, 0.3) rgba(236, 209, 242, 0.3);
+  scrollbar-width: thin;
+}
+.reviews--744l__block {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.reviews--744l__block:last-child {
+  margin-bottom: 0;
+}
+.reviews--744l__title-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.reviews--744l__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.content--375__inner {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--375__p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #3d0751;
+  white-space: nowrap;
+}
+.content--375__reviews {
+  margin-bottom: 30px;
+}
+.content--375__p-reviews {
+  margin-bottom: 0;
+}
+.content--375__img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.content--375__img:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.content--375__img-telegram {
+  margin-left: 20px;
+}
+
+.reviews--375__body {
+  color: #3d0751;
+}
+.reviews--375__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reviews--375__content {
+  width: 100%;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: rgba(201, 117, 216, 0.3) rgba(236, 209, 242, 0.3);
+  scrollbar-width: thin;
+}
+.reviews--375__block {
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.reviews--375__block:last-child {
+  margin-bottom: 0;
+}
+.reviews--375__title-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.reviews--375__p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 14px;
+}/*# sourceMappingURL=ModalContentH.css.map */

@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "id": "footer-section1-column1-link-0",
+            "className": "menu__link-section1 popup-link",
+            "children": "Отзывы"
+        }
+    ],
+    [
+        {
+          "id": "footer-section1-column2-link-0",
+          "className": "menu__link-section1 menu__link-block",
+          "children": "Услуги для тела"
+        },
+        {
+          "id": "footer-section1-column2-link-1",
+          "className": "menu__link-section1 menu__link-block",
+          "children": "Услуги для лица"
+        }
+    ],
+    [
+        {
+          "id": "footer-section1-column3-link-0",
+          "className": "menu__link-section1 popup-link",
+          "children": "Свободные окошки"
+        },
+        {
+          "id": "footer-section1-column3-link-1",
+          "className": "menu__link-section1 popup-link",
+          "children": "Выезд на дом"
+        },
+        {
+          "id": "footer-section1-column3-link-2",
+          "className": "menu__link-section1 popup-link",
+          "children": "Акции"
+        }
+    ]
+]

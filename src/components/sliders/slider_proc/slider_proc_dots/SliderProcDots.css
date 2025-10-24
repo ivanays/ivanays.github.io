@@ -1,0 +1,50 @@
+.dots__body {
+  width: 80px;
+  height: 13px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots--1133__body {
+  width: 57px;
+  height: 13px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots--744__body {
+  width: 35px;
+  height: 13px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots--744l__body {
+  width: 35px;
+  height: 13px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots--375__body {
+  width: 80px;
+  height: 13px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=SliderProcDots.css.map */

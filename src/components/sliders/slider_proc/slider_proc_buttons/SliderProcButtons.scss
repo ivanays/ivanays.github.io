@@ -1,0 +1,213 @@
+@use '../../../../scss/config/_variables.scss';
+@use '../../../../scss/config/_mixins.scss';
+@use '../../../../scss/config/_patterns.scss';
+
+// _desktop.scss
+
+.buttons-pre {
+  width: calc((100% - 172px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next {
+  width: calc((100% - 172px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// media-1300.scss
+
+.buttons-pre--1300 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--1300 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// _media-1133.scss
+
+.buttons-pre--1133 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--1133 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// media-900.scss
+
+.buttons-pre--900 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--900 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+// _media-744.scss
+
+.buttons-pre--744 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--744 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+// _media-744l.scss
+
+.buttons-pre--744l {
+    width: calc((100% - 150px) / 2);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .buttons-next--744l {
+    width: calc((100% - 150px) / 2);
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+
+// media-600.scss
+
+.buttons-pre--600 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--600 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// media-600l.scss
+
+.buttons-pre--600l {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--600l {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// _media-375.scss
+
+.buttons-pre--375 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--375 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+// _media-275.scss
+
+.buttons-pre--275 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttons-next--275 {
+  width: calc((100% - 150px) / 2);
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+
+
+
+// media-600l.scss
+
+

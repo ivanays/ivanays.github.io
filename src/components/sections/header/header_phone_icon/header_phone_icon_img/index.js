@@ -1,0 +1,1 @@
+export { HeaderPhoneIconImg } from './HeaderPhoneIconImg';

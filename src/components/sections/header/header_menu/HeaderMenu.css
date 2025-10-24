@@ -1,0 +1,128 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__item {
+  list-style-type: none;
+}
+.menu__link {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.menu__link-header {
+  color: #f5f0f7;
+  text-align: center;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 125.688%;
+  word-spacing: 1.5px;
+  background: none;
+}
+.menu__link-header:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  translate: all 0.2s ease;
+  animation-name: headerMenu;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+}
+@keyframes headerMenu {
+  from {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+}
+
+.menu-header {
+  width: 460px;
+  height: 21px;
+}
+
+.menu--1133 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu--1133__item {
+  list-style-type: none;
+}
+.menu--1133__link {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.menu--1133__link-header {
+  color: #f5f0f7;
+  text-align: center;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 125.688%;
+  word-spacing: 1.5px;
+  background: none;
+}
+.menu--1133__link-header:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  translate: all 0.2s ease;
+  animation-name: headerMenu;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+}
+@keyframes headerMenu {
+  from {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+}
+
+.menu-header--1133 {
+  width: 417px;
+  height: 21px;
+}
+
+.menu--744 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu--744__item-header {
+  display: none;
+}
+
+.menu--744l {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu--744l__item-header {
+  display: none;
+}
+
+.header--375__menu {
+  display: none;
+}
+
+.menu--375 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu--375__item-header {
+  display: none;
+}/*# sourceMappingURL=HeaderMenu.css.map */

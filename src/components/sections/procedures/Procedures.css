@@ -1,0 +1,45 @@
+.procedures {
+  margin-bottom: 130px;
+}
+
+.container-procedures {
+  width: 1434px;
+  margin: 0 auto;
+}
+
+.procedures--1133 {
+  margin-bottom: 130px;
+}
+
+.container-procedures--1133 {
+  width: 1068px;
+  margin: 0 auto;
+}
+
+.procedures--744 {
+  margin-bottom: 130px;
+}
+
+.container-procedures--744 {
+  width: 702px;
+  margin: 0 auto;
+}
+
+.procedures--744l {
+  margin-bottom: 80px;
+}
+
+.container-procedures--744l {
+  width: calc(100vw - 30px);
+  margin: 0 auto;
+}
+
+.procedures--375 {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.container-procedures--375 {
+  width: calc(100vw - 30px);
+  margin: 0 auto;
+}/*# sourceMappingURL=Procedures.css.map */

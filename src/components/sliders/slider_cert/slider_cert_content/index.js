@@ -1,0 +1,1 @@
+export {SliderCertContent} from './SliderCertContent';

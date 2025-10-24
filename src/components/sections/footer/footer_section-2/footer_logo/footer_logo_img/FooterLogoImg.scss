@@ -1,0 +1,80 @@
+@use '../../../../../../scss/config/_variables.scss' as *;
+@use '../../../../../../scss/config/_mixins.scss' as *;
+@use '../../../../../../scss/config/_patterns.scss' as *;
+
+// _desktop.scss
+
+.logo-footer {
+  width: 42px;
+  height: 42px;
+}
+
+// media-1300.scss
+
+.logo-footer--1300 {
+  width: 35px;
+  height: 35px;
+}
+
+// _media-1133.scss
+
+.logo-footer--1133 {
+  width: 35px;
+  height: 35px;
+}
+
+// media-900.scss
+
+.logo-footer--900 {
+    width: 25px;
+    height: 25px;
+}
+
+// _media-744.scss
+
+.logo-footer--744 {
+    width: 25px;
+    height: 25px;
+}
+
+// _media-744l.scss
+
+.logo-footer--744l {
+    width: 25px;
+    height: 25px;
+}
+
+// media-600.scss
+
+.logo-footer--600 {
+    width: 20px;
+    height: 20px;
+}
+
+
+// media-600l.scss
+
+.logo-footer--600l {
+    width: 20px;
+    height: 20px;
+}
+
+
+// _media-375.scss
+
+.logo-footer--375 {
+    width: 20px;
+    height: 20px;
+}
+
+// _media-275.scss
+
+.logo-footer--275 {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+

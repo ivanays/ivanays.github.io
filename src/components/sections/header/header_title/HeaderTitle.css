@@ -1,0 +1,56 @@
+.title {
+  color: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.75px;
+  white-space: nowrap;
+}
+
+.title--1133 {
+  color: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  white-space: nowrap;
+}
+
+.title--744 {
+  color: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.05px;
+  white-space: nowrap;
+}
+
+.title--744l {
+  color: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.05px;
+  white-space: nowrap;
+}
+
+.header--375__title {
+  width: 129px;
+  height: 28px;
+}
+
+.title--375 {
+  color: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.91px;
+  white-space: normal;
+}/*# sourceMappingURL=HeaderTitle.css.map */
