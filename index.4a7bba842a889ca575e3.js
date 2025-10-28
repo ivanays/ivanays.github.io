@@ -18,8 +18,8 @@ var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
-// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
-var funcQueryMedia = __webpack_require__(2622);
+// EXTERNAL MODULE: ./src/func/func_query_number/funcQueryNumber.js
+var funcQueryNumber = __webpack_require__(9868);
 ;// ./src/images/popup-close.svg
 const popup_close_namespaceObject = __webpack_require__.p + "icons/popup-close.406a97666414a1f83bce.svg";
 // EXTERNAL MODULE: ./src/components/ui/index.js + 16 modules
@@ -33,78 +33,14 @@ var ui = __webpack_require__(8690);
 
 
 
+
 var ModalClose = function ModalClose(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var popupCloseClass = classnames_default()({
-    'popup__close': media1728 === true,
-    'popup--1133__close': media1133 === true,
-    'popup--744__close': media744 === true,
-    'popup--744l__close': media744l === true,
-    'popup--375__close': media375 === true,
-    'popup--275__close': media275 === true,
-    'popup--1300__close': media1300 === true,
-    'popup--900__close': media900 === true,
-    'popup--600__close': media600 === true,
-    'popup--600l__close': media600l === true
-  });
-  var popupLinkClass = classnames_default()({
-    'popup__link': media1728 === true,
-    'popup--1133__link': media1133 === true,
-    'popup--744__link': media744 === true,
-    'popup--744l__link': media744l === true,
-    'popup--375__link': media375 === true,
-    'popup--275__link': media275 === true,
-    'popup--1300__link': media1300 === true,
-    'popup--900__link': media900 === true,
-    'popup--600__link': media600 === true,
-    'popup--600l__link': media600l === true
-  });
-  var popupLinkCloseClass = classnames_default()({
-    'popup__link-close': media1728 === true,
-    'popup--1133__link-close': media1133 === true,
-    'popup--744__link-close': media744 === true,
-    'popup--744l__link-close': media744l === true,
-    'popup--375__link-close': media375 === true,
-    'popup--275__link-close': media275 === true,
-    'popup--1300__link-close': media1300 === true,
-    'popup--900__link-close': media900 === true,
-    'popup--600__link-close': media600 === true,
-    'popup--600l__link-close': media600l === true
-  });
-  var popupIconClass = classnames_default()({
-    'popup__icon': media1728 === true,
-    'popup--1133__icon': media1133 === true,
-    'popup--744__icon': media744 === true,
-    'popup--744l__icon': media744l === true,
-    'popup--375__icon': media375 === true,
-    'popup--275__icon': media275 === true,
-    'popup--1300__icon': media1300 === true,
-    'popup--900__icon': media900 === true,
-    'popup--600__icon': media600 === true,
-    'popup--600l__icon': media600l === true
-  });
-  var popupIconCloseClass = classnames_default()({
-    'popup__icon-close': media1728 === true,
-    'popup--1133__icon-close': media1133 === true,
-    'popup--744__icon-close': media744 === true,
-    'popup--744l__icon-close': media744l === true,
-    'popup--375__icon-close': media375 === true,
-    'popup--275__icon-close': media275 === true,
-    'popup--1300__icon-close': media1300 === true,
-    'popup--900__icon-close': media900 === true,
-    'popup--600__icon-close': media600 === true,
-    'popup--600l__icon-close': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var popupCloseClass = classnames_default()("popup".concat(queryNumber, "__close"));
+  var popupLinkClass = classnames_default()("popup".concat(queryNumber, "__link"));
+  var popupLinkCloseClass = classnames_default()("popup".concat(queryNumber, "__link-close"));
+  var popupIconClass = classnames_default()("popup".concat(queryNumber, "__icon"));
+  var popupIconCloseClass = classnames_default()("popup".concat(queryNumber, "__icon-close"));
   (0,hooks/* useBodyScrollLock */.yJ)();
   var propsData = function propsData(props) {
     var propsAll = props;
@@ -160,11 +96,11 @@ var react = __webpack_require__(6540);
 const fr_lifting_namespaceObject = __webpack_require__.p + "images/fr-lifting.bd4fbd3695fb5bc98a2a.png";
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
+// EXTERNAL MODULE: ./src/func/func_query_number/funcQueryNumber.js
+var funcQueryNumber = __webpack_require__(9868);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
-// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
-var funcQueryMedia = __webpack_require__(2622);
 ;// ./src/components/modals/modal/modal_content/modal_content-a/modal_content-a-b/ModalContentAB0.jsx
 
 
@@ -172,246 +108,28 @@ var funcQueryMedia = __webpack_require__(2622);
 
 
 
+
 var ModalContentAB0 = function ModalContentAB0(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -594,246 +312,28 @@ var ModalContentAB0 = function ModalContentAB0(props) {
 
 
 
+
 var ModalContentAB1 = function ModalContentAB1(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -1016,246 +516,28 @@ var ModalContentAB1 = function ModalContentAB1(props) {
 
 
 
+
 var ModalContentAB2 = function ModalContentAB2(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -1438,246 +720,28 @@ var ModalContentAB2 = function ModalContentAB2(props) {
 
 
 
+
 var ModalContentAB3 = function ModalContentAB3(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -1860,246 +924,28 @@ var ModalContentAB3 = function ModalContentAB3(props) {
 
 
 
+
 var ModalContentAB4 = function ModalContentAB4(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -2282,242 +1128,28 @@ var ModalContentAB4 = function ModalContentAB4(props) {
 
 
 
+
 var ModalContentAB5 = function ModalContentAB5(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -2700,246 +1332,28 @@ var ModalContentAB5 = function ModalContentAB5(props) {
 
 
 
+
 var ModalContentAB6 = function ModalContentAB6(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -3115,6 +1529,8 @@ var ModalContentAB6 = function ModalContentAB6(props) {
     className: "".concat(articlePClass, " ").concat(articlePItemClass)
   }, "22 000")))))))));
 };
+// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
+var funcQueryMedia = __webpack_require__(2622);
 ;// ./src/components/modals/modal/modal_content/modal_content-a/modal_content-a-f/ModalContentAF0.jsx
 
 
@@ -3134,234 +1550,27 @@ var ModalContentAF0 = function ModalContentAF0(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = '';
+  media1728 === true ? queryNumber = '' : media1300 === true ? queryNumber = '--1300' : media1133 === true ? queryNumber = '--1133' : media900 === true ? queryNumber = '--900' : media744 === true ? queryNumber = '--744' : media744l === true ? queryNumber = '--744l' : media600 === true ? queryNumber = '--600' : media600l === true ? queryNumber = '--600l' : media375 === true ? queryNumber = '--375' : media275 === true ? queryNumber = '--275' : null;
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -3544,246 +1753,28 @@ var ModalContentAF0 = function ModalContentAF0(props) {
 
 
 
+
 var ModalContentAF1 = function ModalContentAF1(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -3966,246 +1957,28 @@ var ModalContentAF1 = function ModalContentAF1(props) {
 
 
 
+
 var ModalContentAF2 = function ModalContentAF2(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -4388,246 +2161,28 @@ var ModalContentAF2 = function ModalContentAF2(props) {
 
 
 
+
 var ModalContentAF3 = function ModalContentAF3(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -4810,246 +2365,28 @@ var ModalContentAF3 = function ModalContentAF3(props) {
 
 
 
+
 var ModalContentAF4 = function ModalContentAF4(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -5232,246 +2569,28 @@ var ModalContentAF4 = function ModalContentAF4(props) {
 
 
 
+
 var ModalContentAF5 = function ModalContentAF5(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -5654,246 +2773,28 @@ var ModalContentAF5 = function ModalContentAF5(props) {
 
 
 
+
 var ModalContentAF6 = function ModalContentAF6(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -6076,246 +2977,28 @@ var ModalContentAF6 = function ModalContentAF6(props) {
 
 
 
+
 var ModalContentAF7 = function ModalContentAF7(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -6498,246 +3181,28 @@ var ModalContentAF7 = function ModalContentAF7(props) {
 
 
 
+
 var ModalContentAF8 = function ModalContentAF8(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -6920,246 +3385,28 @@ var ModalContentAF8 = function ModalContentAF8(props) {
 
 
 
+
 var ModalContentAF9 = function ModalContentAF9(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -7342,246 +3589,28 @@ var ModalContentAF9 = function ModalContentAF9(props) {
 
 
 
+
 var ModalContentAF10 = function ModalContentAF10(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -7764,246 +3793,28 @@ var ModalContentAF10 = function ModalContentAF10(props) {
 
 
 
+
 var ModalContentAF11 = function ModalContentAF11(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -8186,246 +3997,28 @@ var ModalContentAF11 = function ModalContentAF11(props) {
 
 
 
+
 var ModalContentAF12 = function ModalContentAF12(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -8608,246 +4201,28 @@ var ModalContentAF12 = function ModalContentAF12(props) {
 
 
 
+
 var ModalContentAF13 = function ModalContentAF13(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var articleClass = classnames_default()({
-    'article': media1728 === true,
-    'article--1133': media1133 === true,
-    'article--744': media744 === true,
-    'article--744l': media744l === true,
-    'article--375': media375 === true,
-    'article--275': media275 === true,
-    'article--1300': media1300 === true,
-    'article--900': media900 === true,
-    'article--600': media600 === true,
-    'article--600l': media600l === true
-  });
-  var articleBodyClass = classnames_default()({
-    'article__body': media1728 === true,
-    'article--1133__body': media1133 === true,
-    'article--744__body': media744 === true,
-    'article--744l__body': media744l === true,
-    'article--375__body': media375 === true,
-    'article--275__body': media275 === true,
-    'article--1300__body': media1300 === true,
-    'article--900__body': media900 === true,
-    'article--600__body': media600 === true,
-    'article--600l__body': media600l === true
-  });
-  var articleTitleClass = classnames_default()({
-    'article__title': media1728 === true,
-    'article--1133__title': media1133 === true,
-    'article--744__title': media744 === true,
-    'article--744l__title': media744l === true,
-    'article--375__title': media375 === true,
-    'article--275__title': media275 === true,
-    'article--1300__title': media1300 === true,
-    'article--900__title': media900 === true,
-    'article--600__title': media600 === true,
-    'article--600l__title': media600l === true
-  });
-  var articleTitleSubClass = classnames_default()({
-    'article__title-sub': media1728 === true,
-    'article--1133__title-sub': media1133 === true,
-    'article--744__title-sub': media744 === true,
-    'article--744l__title-sub': media744l === true,
-    'article--375__title-sub': media375 === true,
-    'article--275__title-sub': media275 === true,
-    'article--1300__title-sub': media1300 === true,
-    'article--900__title-sub': media900 === true,
-    'article--600__title-sub': media600 === true,
-    'article--600l__title-sub': media600l === true
-  });
-  var articleTitleProcedureClass = classnames_default()({
-    'article__title-procedure': media1728 === true,
-    'article--1133__title-procedure': media1133 === true,
-    'article--744__title-procedure': media744 === true,
-    'article--744l__title-procedure': media744l === true,
-    'article--375__title-procedure': media375 === true,
-    'article--275__title-procedure': media275 === true,
-    'article--1300__title-procedure': media1300 === true,
-    'article--900__title-procedure': media900 === true,
-    'article--600__title-procedure': media600 === true,
-    'article--600l__title-procedure': media600l === true
-  });
-  var articleContentClass = classnames_default()({
-    'article__content': media1728 === true,
-    'article--1133__content': media1133 === true,
-    'article--744__content': media744 === true,
-    'article--744l__content': media744l === true,
-    'article--375__content': media375 === true,
-    'article--275__content': media275 === true,
-    'article--1300__content': media1300 === true,
-    'article--900__content': media900 === true,
-    'article--600__content': media600 === true,
-    'article--600l__content': media600l === true
-  });
-  var articleBlockClass = classnames_default()({
-    'article__block': media1728 === true,
-    'article--1133__block': media1133 === true,
-    'article--744__block': media744 === true,
-    'article--744l__block': media744l === true,
-    'article--375__block': media375 === true,
-    'article--275__block': media275 === true,
-    'article--1300__block': media1300 === true,
-    'article--900__block': media900 === true,
-    'article--600__block': media600 === true,
-    'article--600l__block': media600l === true
-  });
-  var articleProcedureClass = classnames_default()({
-    'article__procedure': media1728 === true,
-    'article--1133__procedure': media1133 === true,
-    'article--744__procedure': media744 === true,
-    'article--744l__procedure': media744l === true,
-    'article--375__procedure': media375 === true,
-    'article--275__procedure': media275 === true,
-    'article--1300__procedure': media1300 === true,
-    'article--900__procedure': media900 === true,
-    'article--600__procedure': media600 === true,
-    'article--600l__procedure': media600l === true
-  });
-  var articlePClass = classnames_default()({
-    'article__p': media1728 === true,
-    'article--1133__p': media1133 === true,
-    'article--744__p': media744 === true,
-    'article--744l__p': media744l === true,
-    'article--375__p': media375 === true,
-    'article--275__p': media275 === true,
-    'article--1300__p': media1300 === true,
-    'article--900__p': media900 === true,
-    'article--600__p': media600 === true,
-    'article--600l__p': media600l === true
-  });
-  var articleSpanClass = classnames_default()({
-    'article__span': media1728 === true,
-    'article--1133__span': media1133 === true,
-    'article--744__span': media744 === true,
-    'article--744l__span': media744l === true,
-    'article--375__span': media375 === true,
-    'article--275__span': media275 === true,
-    'article--1300__span': media1300 === true,
-    'article--900__span': media900 === true,
-    'article--600__span': media600 === true,
-    'article--600l__span': media600l === true
-  });
-  var articleSpanMachineClass = classnames_default()({
-    'article__span-machine': media1728 === true,
-    'article--1133__span-machine': media1133 === true,
-    'article--744__span-machine': media744 === true,
-    'article--744l__span-machine': media744l === true,
-    'article--375__span-machine': media375 === true,
-    'article--275__span-machine': media275 === true,
-    'article--1300__span-machine': media1300 === true,
-    'article--900__span-machine': media900 === true,
-    'article--600__span-machine': media600 === true,
-    'article--600l__span-machine': media600l === true
-  });
-  var articleImageClass = classnames_default()({
-    'article__image': media1728 === true,
-    'article--1133__image': media1133 === true,
-    'article--744__image': media744 === true,
-    'article--744l__image': media744l === true,
-    'article--375__image': media375 === true,
-    'article--275__image': media275 === true,
-    'article--1300__image': media1300 === true,
-    'article--900__image': media900 === true,
-    'article--600__image': media600 === true,
-    'article--600l__image': media600l === true
-  });
-  var articleIndicationsClass = classnames_default()({
-    'article__indications': media1728 === true,
-    'article--1133__indications': media1133 === true,
-    'article--744__indications': media744 === true,
-    'article--744l__indications': media744l === true,
-    'article--375__indications': media375 === true,
-    'article--275__indications': media275 === true,
-    'article--1300__indications': media1300 === true,
-    'article--900__indications': media900 === true,
-    'article--600__indications': media600 === true,
-    'article--600l__indications': media600l === true
-  });
-  var articleItemsClass = classnames_default()({
-    'article__items': media1728 === true,
-    'article--1133__items': media1133 === true,
-    'article--744__items': media744 === true,
-    'article--744l__items': media744l === true,
-    'article--375__items': media375 === true,
-    'article--275__items': media275 === true,
-    'article--1300__items': media1300 === true,
-    'article--900__items': media900 === true,
-    'article--600__items': media600 === true,
-    'article--600l__items': media600l === true
-  });
-  var articleItemClass = classnames_default()({
-    'article__item': media1728 === true,
-    'article--1133__item': media1133 === true,
-    'article--744__item': media744 === true,
-    'article--744l__item': media744l === true,
-    'article--375__item': media375 === true,
-    'article--275__item': media275 === true,
-    'article--1300__item': media1300 === true,
-    'article--900__item': media900 === true,
-    'article--600__item': media600 === true,
-    'article--600l__item': media600l === true
-  });
-  var articlePItemClass = classnames_default()({
-    'article__p-item': media1728 === true,
-    'article--1133__p-item': media1133 === true,
-    'article--744__p-item': media744 === true,
-    'article--744l__p-item': media744l === true,
-    'article--375__p-item': media375 === true,
-    'article--275__p-item': media275 === true,
-    'article--1300__p-item': media1300 === true,
-    'article--900__p-item': media900 === true,
-    'article--600__p-item': media600 === true,
-    'article--600l__p-item': media600l === true
-  });
-  var articleContraindicationsClass = classnames_default()({
-    'article__contraindications': media1728 === true,
-    'article--1133__contraindications': media1133 === true,
-    'article--744__contraindications': media744 === true,
-    'article--744l__contraindications': media744l === true,
-    'article--375__contraindications': media375 === true,
-    'article--275__contraindications': media275 === true,
-    'article--1300__contraindications': media1300 === true,
-    'article--900__contraindications': media900 === true,
-    'article--600__contraindications': media600 === true,
-    'article--600l__contraindications': media600l === true
-  });
-  var articlePriceClass = classnames_default()({
-    'article__price': media1728 === true,
-    'article--1133__price': media1133 === true,
-    'article--744__price': media744 === true,
-    'article--744l__price': media744l === true,
-    'article--375__price': media375 === true,
-    'article--275__price': media275 === true,
-    'article--1300__price': media1300 === true,
-    'article--900__price': media900 === true,
-    'article--600__price': media600 === true,
-    'article--600l__price': media600l === true
-  });
-  var articleItemPriceClass = classnames_default()({
-    'article__item-price': media1728 === true,
-    'article--1133__item-price': media1133 === true,
-    'article--744__item-price': media744 === true,
-    'article--744l__item-price': media744l === true,
-    'article--375__item-price': media375 === true,
-    'article--275__item-price': media275 === true,
-    'article--1300__item-price': media1300 === true,
-    'article--900__item-price': media900 === true,
-    'article--600__item-price': media600 === true,
-    'article--600l__item-price': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var articleClass = classnames_default()("article".concat(queryNumber));
+  var articleBodyClass = classnames_default()("article".concat(queryNumber, "__body"));
+  var articleTitleClass = classnames_default()("article".concat(queryNumber, "__title"));
+  var articleTitleSubClass = classnames_default()("article".concat(queryNumber, "__title-sub"));
+  var articleTitleProcedureClass = classnames_default()("article".concat(queryNumber, "__title-procedure"));
+  var articleContentClass = classnames_default()("article".concat(queryNumber, "__content"));
+  var articleBlockClass = classnames_default()("article".concat(queryNumber, "__block"));
+  var articleProcedureClass = classnames_default()("article".concat(queryNumber, "__procedure"));
+  var articlePClass = classnames_default()("article".concat(queryNumber, "__p"));
+  var articleSpanClass = classnames_default()("article".concat(queryNumber, "__span"));
+  var articleSpanMachineClass = classnames_default()("article".concat(queryNumber, "__span-machine"));
+  var articleImageClass = classnames_default()("article".concat(queryNumber, "__image"));
+  var articleIndicationsClass = classnames_default()("article".concat(queryNumber, "__indications"));
+  var articleItemsClass = classnames_default()("article".concat(queryNumber, "__items"));
+  var articleItemClass = classnames_default()("article".concat(queryNumber, "__item"));
+  var articlePItemClass = classnames_default()("article".concat(queryNumber, "__p-item"));
+  var articleContraindicationsClass = classnames_default()("article".concat(queryNumber, "__contraindications"));
+  var articlePriceClass = classnames_default()("article".concat(queryNumber, "__price"));
+  var articleItemPriceClass = classnames_default()("article".concat(queryNumber, "__item-price"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("article", {
     id: "article-procedure",
     className: articleClass
@@ -9061,6 +4436,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 
 
 
+
 var ModalContentA = function ModalContentA(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -9073,138 +4449,18 @@ var ModalContentA = function ModalContentA(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentArticleClass = classnames_default()({
-    'content__article': media1728 === true,
-    'content--1133__article': media1133 === true,
-    'content--744__article': media744 === true,
-    'content--744l__article': media744l === true,
-    'content--375__article': media375 === true,
-    'content--275__article': media275 === true,
-    'content--1300__article': media1300 === true,
-    'content--900__article': media900 === true,
-    'content--600__article': media600 === true,
-    'content--600l__article': media600l === true
-  });
-  var contentWranningClass = classnames_default()({
-    'content__wranning': media1728 === true,
-    'content--1133__wranning': media1133 === true,
-    'content--744__wranning': media744 === true,
-    'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true,
-    'content--1300__wranning': media1300 === true,
-    'content--900__wranning': media900 === true,
-    'content--600__wranning': media600 === true,
-    'content--600l__wranning': media600l === true
-  });
-  var contentWranningArticleClass = classnames_default()({
-    'content__wranning-home': media1728 === true,
-    'content--1133__wranning-home': media1133 === true,
-    'content--744__wranning-home': media744 === true,
-    'content--744l__wranning-home': media744l === true,
-    'content--375__wranning-home': media375 === true,
-    'content--275__wranning-home': media275 === true,
-    'content--1300__wranning-home': media1300 === true,
-    'content--900__wranning-home': media900 === true,
-    'content--600__wranning-home': media600 === true,
-    'content--600l__wranning-home': media600l === true
-  });
-  var contentInnerClass = classnames_default()({
-    'content__inner': media1728 === true,
-    'content--1133__inner': media1133 === true,
-    'content--744__inner': media744 === true,
-    'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true,
-    'content--1300__inner': media1300 === true,
-    'content--900__inner': media900 === true,
-    'content--600__inner': media600 === true,
-    'content--600l__inner': media600l === true
-  });
-  var contentInnerArticleClass = classnames_default()({
-    'content__inner-home': media1728 === true,
-    'content--1133__inner-home': media1133 === true,
-    'content--744__inner-home': media744 === true,
-    'content--744l__inner-home': media744l === true,
-    'content--375__inner-home': media375 === true,
-    'content--275__inner-home': media275 === true,
-    'content--1300__inner-home': media1300 === true,
-    'content--900__inner-home': media900 === true,
-    'content--600__inner-home': media600 === true,
-    'content--600l__inner-home': media600l === true
-  });
-  var contentPClass = classnames_default()({
-    'content__p': media1728 === true,
-    'content--1133__p': media1133 === true,
-    'content--744__p': media744 === true,
-    'content--744l__p': media744l === true,
-    'content--375__p': media375 === true,
-    'content--275__p': media275 === true,
-    'content--1300__p': media1300 === true,
-    'content--900__p': media900 === true,
-    'content--600__p': media600 === true,
-    'content--600l__p': media600l === true
-  });
-  var contentPArticleClass = classnames_default()({
-    'content__p-home': media1728 === true,
-    'content--1133__p-home': media1133 === true,
-    'content--744__p-home': media744 === true,
-    'content--744l__p-home': media744l === true,
-    'content--375__p-home': media375 === true,
-    'content--275__p-home': media275 === true,
-    'content--1300__p-home': media1300 === true,
-    'content--900__p-home': media900 === true,
-    'content--600__p-home': media600 === true,
-    'content--600l__p-home': media600l === true
-  });
-  var contentPhoneClass = classnames_default()({
-    'content__phone': media1728 === true,
-    'content--1133__phone': media1133 === true,
-    'content--744__phone': media744 === true,
-    'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true,
-    'content--1300__phone': media1300 === true,
-    'content--900__phone': media900 === true,
-    'content--600__phone': media600 === true,
-    'content--600l__phone': media600l === true
-  });
-  var contentPhoneArticleClass = classnames_default()({
-    'content__phone-home': media1728 === true,
-    'content--1133__phone-home': media1133 === true,
-    'content--744__phone-home': media744 === true,
-    'content--744l__phone-home': media744l === true,
-    'content--375__phone-home': media375 === true,
-    'content--275__phone-home': media275 === true,
-    'content--1300__phone-home': media1300 === true,
-    'content--900__phone-home': media900 === true,
-    'content--600__phone-home': media600 === true,
-    'content--600l__phone-home': media600l === true
-  });
-  var contentNumberClass = classnames_default()({
-    'content__number': media1728 === true,
-    'content--1133__number': media1133 === true,
-    'content--744__number': media744 === true,
-    'content--744l__number': media744l === true,
-    'content--375__number': media375 === true,
-    'content--275__number': media275 === true,
-    'content--1300__number': media1300 === true,
-    'content--900__number': media900 === true,
-    'content--600__number': media600 === true,
-    'content--600l__number': media600l === true
-  });
-  var contentNumberArticleClass = classnames_default()({
-    'content__number-home': media1728 === true,
-    'content--1133__number-home': media1133 === true,
-    'content--744__number-home': media744 === true,
-    'content--744l__number-home': media744l === true,
-    'content--375__number-home': media375 === true,
-    'content--275__number-home': media275 === true,
-    'content--1300__number-home': media1300 === true,
-    'content--900__number-home': media900 === true,
-    'content--600__number-home': media600 === true,
-    'content--600l__number-home': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentArticleClass = classnames_default()("content".concat(queryNumber, "__article"));
+  var contentWranningClass = classnames_default()("content".concat(queryNumber, "__wranning"));
+  var contentWranningArticleClass = classnames_default()("content".concat(queryNumber, "__wranning-home"));
+  var contentInnerClass = classnames_default()("content".concat(queryNumber, "__inner"));
+  var contentInnerArticleClass = classnames_default()("content".concat(queryNumber, "__inner-home"));
+  var contentPClass = classnames_default()("content".concat(queryNumber, "__p"));
+  var contentPArticleClass = classnames_default()("content".concat(queryNumber, "__p-home"));
+  var contentPhoneClass = classnames_default()("content".concat(queryNumber, "__phone"));
+  var contentPhoneArticleClass = classnames_default()("content".concat(queryNumber, "__phone-home"));
+  var contentNumberClass = classnames_default()("content".concat(queryNumber, "__number"));
+  var contentNumberArticleClass = classnames_default()("content".concat(queryNumber, "__number-home"));
   var propsData = function propsData(props) {
     var propsAll = props;
     var data = [];
@@ -9253,6 +4509,7 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var ModalContentBTbody = function ModalContentBTbody(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -9265,162 +4522,20 @@ var ModalContentBTbody = function ModalContentBTbody(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var tableBodyClass = classnames_default()({
-    'table__body': media1728 === true,
-    'table--1133__body': media1133 === true,
-    'table--744__body': media744 === true,
-    'table--744l__body': media744l === true,
-    'table--375__body': media375 === true,
-    'table--275__body': media275 === true,
-    'table--1300__body': media1300 === true,
-    'table--900__body': media900 === true,
-    'table--600__body': media600 === true,
-    'table--600l__body': media600l === true
-  });
-  var tableBodyWindowsClass = classnames_default()({
-    'table__body-windows': media1728 === true,
-    'table--1133__body-windows': media1133 === true,
-    'table--744__body-windows': media744 === true,
-    'table--744l__body-windows': media744l === true,
-    'table--375__body-windows': media375 === true,
-    'table--275__body-windows': media275 === true,
-    'table--1300__body-windows': media1300 === true,
-    'table--900__body-windows': media900 === true,
-    'table--600__body-windows': media600 === true,
-    'table--600l__body-windows': media600l === true
-  });
-  var tableTrClass = classnames_default()({
-    'table__tr': media1728 === true,
-    'table--1133__tr': media1133 === true,
-    'table--744__tr': media744 === true,
-    'table--744l__tr': media744l === true,
-    'table--375__tr': media375 === true,
-    'table--275__tr': media275 === true,
-    'table--1300__tr': media1300 === true,
-    'table--900__tr': media900 === true,
-    'table--600__tr': media600 === true,
-    'table--600l__tr': media600l === true
-  });
-  var tableTrBodyClass = classnames_default()({
-    'table__tr-body': media1728 === true,
-    'table--1133__tr-body': media1133 === true,
-    'table--744__tr-body': media744 === true,
-    'table--744l__tr-body': media744l === true,
-    'table--375__tr-body': media375 === true,
-    'table--275__tr-body': media275 === true,
-    'table--1300__tr-body': media1300 === true,
-    'table--900__tr-body': media900 === true,
-    'table--600__tr-body': media600 === true,
-    'table--600l__tr-body': media600l === true
-  });
-  var tableThClass = classnames_default()({
-    'table__th': media1728 === true,
-    'table--1133__th': media1133 === true,
-    'table--744__th': media744 === true,
-    'table--744l__th': media744l === true,
-    'table--375__th': media375 === true,
-    'table--275__th': media275 === true,
-    'table--1300__th': media1300 === true,
-    'table--900__th': media900 === true,
-    'table--600__th': media600 === true,
-    'table--600l__th': media600l === true
-  });
-  var tableThBodyClass = classnames_default()({
-    'table__th-body': media1728 === true,
-    'table--1133__th-body': media1133 === true,
-    'table--744__th-body': media744 === true,
-    'table--744l__th-body': media744l === true,
-    'table--375__th-body': media375 === true,
-    'table--275__th-body': media275 === true,
-    'table--1300__th-body': media1300 === true,
-    'table--900__th-body': media900 === true,
-    'table--600__th-body': media600 === true,
-    'table--600l__th-body': media600l === true
-  });
-  var tableBorderBottomClass = classnames_default()({
-    'table__border-bottom': media1728 === true,
-    'table--1133__border-bottom': media1133 === true,
-    'table--744__border-bottom': media744 === true,
-    'table--744l__border-bottom': media744l === true,
-    'table--375__border-bottom': media375 === true,
-    'table--275__border-bottom': media275 === true,
-    'table--1300__border-bottom': media1300 === true,
-    'table--900__border-bottom': media900 === true,
-    'table--600__border-bottom': media600 === true,
-    'table--600l__border-bottom': media600l === true
-  });
-  var tableThFirstClass = classnames_default()({
-    'table__th-first': media1728 === true,
-    'table--1133__th-first': media1133 === true,
-    'table--744__th-first': media744 === true,
-    'table--744l__th-first': media744l === true,
-    'table--375__th-first': media375 === true,
-    'table--275__th-first': media275 === true,
-    'table--1300__th-first': media1300 === true,
-    'table--900__th-first': media900 === true,
-    'table--600__th-first': media600 === true,
-    'table--600l__th-first': media600l === true
-  });
-  var tableTdClass = classnames_default()({
-    'table__td': media1728 === true,
-    'table--1133__td': media1133 === true,
-    'table--744__td': media744 === true,
-    'table--744l__td': media744l === true,
-    'table--375__td': media375 === true,
-    'table--275__td': media275 === true,
-    'table--1300__td': media1300 === true,
-    'table--900__td': media900 === true,
-    'table--600__td': media600 === true,
-    'table--600l__td': media600l === true
-  });
-  var tableTdBodyClass = classnames_default()({
-    'table__td-body': media1728 === true,
-    'table--1133__td-body': media1133 === true,
-    'table--744__td-body': media744 === true,
-    'table--744l__td-body': media744l === true,
-    'table--375__td-body': media375 === true,
-    'table--275__td-body': media275 === true,
-    'table--1300__td-body': media1300 === true,
-    'table--900__td-body': media900 === true,
-    'table--600__td-body': media600 === true,
-    'table--600l__td-body': media600l === true
-  });
-  var tableSubBodyClass = classnames_default()({
-    'table__sub-body': media1728 === true,
-    'table--1133__sub-body': media1133 === true,
-    'table--744__sub-body': media744 === true,
-    'table--744l__sub-body': media744l === true,
-    'table--375__sub-body': media375 === true,
-    'table--275__sub-body': media275 === true,
-    'table--1300__sub-body': media1300 === true,
-    'table--900__sub-body': media900 === true,
-    'table--600__sub-body': media600 === true,
-    'table--600l__sub-body': media600l === true
-  });
-  var tableSupBodyClass = classnames_default()({
-    'table__sup-body': media1728 === true,
-    'table--1133__sup-body': media1133 === true,
-    'table--744__sup-body': media744 === true,
-    'table--744l__sup-body': media744l === true,
-    'table--375__sup-body': media375 === true,
-    'table--275__sup-body': media275 === true,
-    'table--1300__sup-body': media1300 === true,
-    'table--900__sup-body': media900 === true,
-    'table--600__sup-body': media600 === true,
-    'table--600l__sup-body': media600l === true
-  });
-  var tableThLastClass = classnames_default()({
-    'table__th-last': media1728 === true,
-    'table--1133__th-last': media1133 === true,
-    'table--744__th-last': media744 === true,
-    'table--744l__th-last': media744l === true,
-    'table--375__th-last': media375 === true,
-    'table--275__th-last': media275 === true,
-    'table--1300__th-last': media1300 === true,
-    'table--900__th-last': media900 === true,
-    'table--600__th-last': media600 === true,
-    'table--600l__th-last': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var tableBodyClass = classnames_default()("table".concat(queryNumber, "__body"));
+  var tableBodyWindowsClass = classnames_default()("table".concat(queryNumber, "__body-windows"));
+  var tableTrClass = classnames_default()("table".concat(queryNumber, "__tr"));
+  var tableTrBodyClass = classnames_default()("table".concat(queryNumber, "__tr-body"));
+  var tableThClass = classnames_default()("table".concat(queryNumber, "__th"));
+  var tableThBodyClass = classnames_default()("table".concat(queryNumber, "__th-body"));
+  var tableBorderBottomClass = classnames_default()("table".concat(queryNumber, "__border-bottom"));
+  var tableThFirstClass = classnames_default()("table".concat(queryNumber, "__th-first"));
+  var tableTdClass = classnames_default()("table".concat(queryNumber, "__td"));
+  var tableTdBodyClass = classnames_default()("table".concat(queryNumber, "__td-body"));
+  var tableSubBodyClass = classnames_default()("table".concat(queryNumber, "__sub-body"));
+  var tableSupBodyClass = classnames_default()("table".concat(queryNumber, "__sup-body"));
+  var tableThLastClass = classnames_default()("table".concat(queryNumber, "__th-last"));
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     modalOpened = _useContext.modalOpened;
   var tbodyRef = (0,react.useRef)(null);
@@ -9686,6 +4801,8 @@ function ModalContentB_extends() { return ModalContentB_extends = Object.assign 
 
 
 
+
+
 var ModalContentB = function ModalContentB(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -9698,378 +4815,38 @@ var ModalContentB = function ModalContentB(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentTableClass = classnames_default()({
-    'content__table': media1728 === true,
-    'content--1133__table': media1133 === true,
-    'content--744__table': media744 === true,
-    'content--744l__table': media744l === true,
-    'content--375__table': media375 === true,
-    'content--275__table': media275 === true,
-    'content--1300__table': media1300 === true,
-    'content--900__table': media900 === true,
-    'content--600__table': media600 === true,
-    'content--600l__table': media600l === true
-  });
-  var tableClass = classnames_default()({
-    'table': media1728 === true,
-    'table--1133': media1133 === true,
-    'table--744': media744 === true,
-    'table--744l': media744l === true,
-    'table--375': media375 === true,
-    'table--275': media275 === true,
-    'table--1300': media1300 === true,
-    'table--900': media900 === true,
-    'table--600': media600 === true,
-    'table--600l': media600l === true
-  });
-  var tableCaptionClass = classnames_default()({
-    'table__caption': media1728 === true,
-    'table--1133__caption': media1133 === true,
-    'table--744__caption': media744 === true,
-    'table--744l__caption': media744l === true,
-    'table--375__caption': media375 === true,
-    'table--275__caption': media275 === true,
-    'table--1300__caption': media1300 === true,
-    'table--900__caption': media900 === true,
-    'table--600__caption': media600 === true,
-    'table--600l__caption': media600l === true
-  });
-  var tableCaptionWindowsClass = classnames_default()({
-    'table__caption-windows': media1728 === true,
-    'table--1133__caption-windows': media1133 === true,
-    'table--744__caption-windows': media744 === true,
-    'table--744l__caption-windows': media744l === true,
-    'table--375__caption-windows': media375 === true,
-    'table--275__caption-windows': media275 === true,
-    'table--1300__caption-windows': media1300 === true,
-    'table--900__caption-windows': media900 === true,
-    'table--600__caption-windows': media600 === true,
-    'table--600l__caption-windows': media600l === true
-  });
-  var tableHeaderClass = classnames_default()({
-    'table__header': media1728 === true,
-    'table--1133__header': media1133 === true,
-    'table--744__header': media744 === true,
-    'table--744l__header': media744l === true,
-    'table--375__header': media375 === true,
-    'table--275__header': media275 === true,
-    'table--1300__header': media1300 === true,
-    'table--900__header': media900 === true,
-    'table--600__header': media600 === true,
-    'table--600l__header': media600l === true
-  });
-  var tableHeaderWindowsClass = classnames_default()({
-    'table__header-windows': media1728 === true,
-    'table--1133__header-windows': media1133 === true,
-    'table--744__header-windows': media744 === true,
-    'table--744l__header-windows': media744l === true,
-    'table--375__header-windows': media375 === true,
-    'table--275__header-windows': media275 === true,
-    'table--1300__header-windows': media1300 === true,
-    'table--900__header-windows': media900 === true,
-    'table--600__header-windows': media600 === true,
-    'table--600l__header-windows': media600l === true
-  });
-  var tableTrClass = classnames_default()({
-    'table__tr': media1728 === true,
-    'table--1133__tr': media1133 === true,
-    'table--744__tr': media744 === true,
-    'table--744l__tr': media744l === true,
-    'table--375__tr': media375 === true,
-    'table--275__tr': media275 === true,
-    'table--1300__tr': media1300 === true,
-    'table--900__tr': media900 === true,
-    'table--600__tr': media600 === true,
-    'table--600l__tr': media600l === true
-  });
-  var tableTrHeaderClass = classnames_default()({
-    'table__tr-header': media1728 === true,
-    'table--1133__tr-header': media1133 === true,
-    'table--744__tr-header': media744 === true,
-    'table--744l__tr-header': media744l === true,
-    'table--375__tr-header': media375 === true,
-    'table--275__tr-header': media275 === true,
-    'table--1300__tr-header': media1300 === true,
-    'table--900__tr-header': media900 === true,
-    'table--600__tr-header': media600 === true,
-    'table--600l__tr-header': media600l === true
-  });
-  var tableThClass = classnames_default()({
-    'table__th': media1728 === true,
-    'table--1133__th': media1133 === true,
-    'table--744__th': media744 === true,
-    'table--744l__th': media744l === true,
-    'table--375__th': media375 === true,
-    'table--275__th': media275 === true,
-    'table--1300__th': media1300 === true,
-    'table--900__th': media900 === true,
-    'table--600__th': media600 === true,
-    'table--600l__th': media600l === true
-  });
-  var tableThCornerClass = classnames_default()({
-    'table__th-corner': media1728 === true,
-    'table--1133__th-corner': media1133 === true,
-    'table--744__th-corner': media744 === true,
-    'table--744l__th-corner': media744l === true,
-    'table--375__th-corner': media375 === true,
-    'table--275__th-corner': media275 === true,
-    'table--1300__th-corner': media1300 === true,
-    'table--900__th-corner': media900 === true,
-    'table--600__th-corner': media600 === true,
-    'table--600l__th-corner': media600l === true
-  });
-  var tableThTopleftClass = classnames_default()({
-    'table__th-topleft': media1728 === true,
-    'table--1133__th-topleft': media1133 === true,
-    'table--744__th-topleft': media744 === true,
-    'table--744l__th-topleft': media744l === true,
-    'table--375__th-topleft': media375 === true,
-    'table--275__th-topleft': media275 === true,
-    'table--1300__th-topleft': media1300 === true,
-    'table--900__th-topleft': media900 === true,
-    'table--600__th-topleft': media600 === true,
-    'table--600l__th-topleft': media600l === true
-  });
-  var tableThHeaderClass = classnames_default()({
-    'table__th-header': media1728 === true,
-    'table--1133__th-header': media1133 === true,
-    'table--744__th-header': media744 === true,
-    'table--744l__th-header': media744l === true,
-    'table--375__th-header': media375 === true,
-    'table--275__th-header': media275 === true,
-    'table--1300__th-header': media1300 === true,
-    'table--900__th-header': media900 === true,
-    'table--600__th-header': media600 === true,
-    'table--600l__th-header': media600l === true
-  });
-  var tableThStickyClass = classnames_default()({
-    'table__th-sticky': media1728 === true,
-    'table--1133__th-sticky': media1133 === true,
-    'table--744__th-sticky': media744 === true,
-    'table--744l__th-sticky': media744l === true,
-    'table--375__th-sticky': media375 === true,
-    'table--275__th-sticky': media275 === true,
-    'table--1300__th-sticky': media1300 === true,
-    'table--900__th-sticky': media900 === true,
-    'table--600__th-sticky': media600 === true,
-    'table--600l__th-sticky': media600l === true
-  });
-  var tableThToprightClass = classnames_default()({
-    'table__th-topright': media1728 === true,
-    'table--1133__th-topright': media1133 === true,
-    'table--744__th-topright': media744 === true,
-    'table--744l__th-topright': media744l === true,
-    'table--375__th-topright': media375 === true,
-    'table--275__th-topright': media275 === true,
-    'table--1300__th-topright': media1300 === true,
-    'table--900__th-topright': media900 === true,
-    'table--600__th-topright': media600 === true,
-    'table--600l__th-topright': media600l === true
-  });
-  var tableFooterClass = classnames_default()({
-    'table__footer': media1728 === true,
-    'table--1133__footer': media1133 === true,
-    'table--744__footer': media744 === true,
-    'table--744l__footer': media744l === true,
-    'table--375__footer': media375 === true,
-    'table--275__footer': media275 === true,
-    'table--1300__footer': media1300 === true,
-    'table--900__footer': media900 === true,
-    'table--600__footer': media600 === true,
-    'table--600l__footer': media600l === true
-  });
-  var tableFooterWindowsClass = classnames_default()({
-    'table__footer-windows': media1728 === true,
-    'table--1133__footer-windows': media1133 === true,
-    'table--744__footer-windows': media744 === true,
-    'table--744l__footer-windows': media744l === true,
-    'table--375__footer-windows': media375 === true,
-    'table--275__footer-windows': media275 === true,
-    'table--1300__footer-windows': media1300 === true,
-    'table--900__footer-windows': media900 === true,
-    'table--600__footer-windows': media600 === true,
-    'table--600l__footer-windows': media600l === true
-  });
-  var tableTrFooterClass = classnames_default()({
-    'table__tr-footer': media1728 === true,
-    'table--1133__tr-footer': media1133 === true,
-    'table--744__tr-footer': media744 === true,
-    'table--744l__tr-footer': media744l === true,
-    'table--375__tr-footer': media375 === true,
-    'table--275__tr-footer': media275 === true,
-    'table--1300__tr-footer': media1300 === true,
-    'table--900__tr-footer': media900 === true,
-    'table--600__tr-footer': media600 === true,
-    'table--600l__tr-footer': media600l === true
-  });
-  var tableThBottomleftClass = classnames_default()({
-    'table__th-bottomleft': media1728 === true,
-    'table--1133__th-bottomleft': media1133 === true,
-    'table--744__th-bottomleft': media744 === true,
-    'table--744l__th-bottomleft': media744l === true,
-    'table--375__th-bottomleft': media375 === true,
-    'table--275__th-bottomleft': media275 === true,
-    'table--1300__th-bottomleft': media1300 === true,
-    'table--900__th-bottomleft': media900 === true,
-    'table--600__th-bottomleft': media600 === true,
-    'table--600l__th-bottomleft': media600l === true
-  });
-  var tableThFooterClass = classnames_default()({
-    'table__th-footer': media1728 === true,
-    'table--1133__th-footer': media1133 === true,
-    'table--744__th-footer': media744 === true,
-    'table--744l__th-footer': media744l === true,
-    'table--375__th-footer': media375 === true,
-    'table--275__th-footer': media275 === true,
-    'table--1300__th-footer': media1300 === true,
-    'table--900__th-footer': media900 === true,
-    'table--600__th-footer': media600 === true,
-    'table--600l__th-footer': media600l === true
-  });
-  var tableThBottomrightClass = classnames_default()({
-    'table__th-bottomright': media1728 === true,
-    'table--1133__th-bottomright': media1133 === true,
-    'table--744__th-bottomright': media744 === true,
-    'table--744l__th-bottomright': media744l === true,
-    'table--375__th-bottomright': media375 === true,
-    'table--275__th-bottomright': media275 === true,
-    'table--1300__th-bottomright': media1300 === true,
-    'table--900__th-bottomright': media900 === true,
-    'table--600__th-bottomright': media600 === true,
-    'table--600l__th-bottomright': media600l === true
-  });
-  var contentWranningClass = classnames_default()({
-    'content__wranning': media1728 === true,
-    'content--1133__wranning': media1133 === true,
-    'content--744__wranning': media744 === true,
-    'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true,
-    'content--1300__wranning': media1300 === true,
-    'content--900__wranning': media900 === true,
-    'content--600__wranning': media600 === true,
-    'content--600l__wranning': media600l === true
-  });
-  var contentWranningWindowsClass = classnames_default()({
-    'content__wranning-windows': media1728 === true,
-    'content--1133__wranning-windows': media1133 === true,
-    'content--744__wranning-windows': media744 === true,
-    'content--744l__wranning-windows': media744l === true,
-    'content--375__wranning-windows': media375 === true,
-    'content--275__wranning-windows': media275 === true,
-    'content--1300__wranning-windows': media1300 === true,
-    'content--900__wranning-windows': media900 === true,
-    'content--600__wranning-windows': media600 === true,
-    'content--600l__wranning-windows': media600l === true
-  });
-  var contentInnerClass = classnames_default()({
-    'content__inner': media1728 === true,
-    'content--1133__inner': media1133 === true,
-    'content--744__inner': media744 === true,
-    'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true,
-    'content--1300__inner': media1300 === true,
-    'content--900__inner': media900 === true,
-    'content--600__inner': media600 === true,
-    'content--600l__inner': media600l === true
-  });
-  var contentInnerWindowsClass = classnames_default()({
-    'content__inner-windows': media1728 === true,
-    'content--1133__inner-windows': media1133 === true,
-    'content--744__inner-windows': media744 === true,
-    'content--744l__inner-windows': media744l === true,
-    'content--375__inner-windows': media375 === true,
-    'content--275__inner-windows': media275 === true,
-    'content--1300__inner-windows': media1300 === true,
-    'content--900__inner-windows': media900 === true,
-    'content--600__inner-windows': media600 === true,
-    'content--600l__inner-windows': media600l === true
-  });
-  var contentPClass = classnames_default()({
-    'content__p': media1728 === true,
-    'content--1133__p': media1133 === true,
-    'content--744__p': media744 === true,
-    'content--744l__p': media744l === true,
-    'content--375__p': media375 === true,
-    'content--275__p': media275 === true,
-    'content--1300__p': media1300 === true,
-    'content--900__p': media900 === true,
-    'content--600__p': media600 === true,
-    'content--600l__p': media600l === true
-  });
-  var contentPWindowsClass = classnames_default()({
-    'content__p-windows': media1728 === true,
-    'content--1133__p-windows': media1133 === true,
-    'content--744__p-windows': media744 === true,
-    'content--744l__p-windows': media744l === true,
-    'content--375__p-windows': media375 === true,
-    'content--275__p-windows': media275 === true,
-    'content--1300__p-windows': media1300 === true,
-    'content--900__p-windows': media900 === true,
-    'content--600__p-windows': media600 === true,
-    'content--600l__p-windows': media600l === true
-  });
-  var contentPhoneClass = classnames_default()({
-    'content__phone': media1728 === true,
-    'content--1133__phone': media1133 === true,
-    'content--744__phone': media744 === true,
-    'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true,
-    'content--1300__phone': media1300 === true,
-    'content--900__phone': media900 === true,
-    'content--600__phone': media600 === true,
-    'content--600l__phone': media600l === true
-  });
-  var contentPhoneWindowsClass = classnames_default()({
-    'content__phone-windows': media1728 === true,
-    'content--1133__phone-windows': media1133 === true,
-    'content--744__phone-windows': media744 === true,
-    'content--744l__phone-windows': media744l === true,
-    'content--375__phone-windows': media375 === true,
-    'content--275__phone-windows': media275 === true,
-    'content--1300__phone-windows': media1300 === true,
-    'content--900__phone-windows': media900 === true,
-    'content--600__phone-windows': media600 === true,
-    'content--600l__phone-windows': media600l === true
-  });
-  var contentNumberClass = classnames_default()({
-    'content__number': media1728 === true,
-    'content--1133__number': media1133 === true,
-    'content--744__number': media744 === true,
-    'content--744l__number': media744l === true,
-    'content--375__number': media375 === true,
-    'content--275__number': media275 === true,
-    'content--1300__number': media1300 === true,
-    'content--900__number': media900 === true,
-    'content--600__number': media600 === true,
-    'content--600l__number': media600l === true
-  });
-  var contentNumberWindowsClass = classnames_default()({
-    'content__number-windows': media1728 === true,
-    'content--1133__number-windows': media1133 === true,
-    'content--744__number-windows': media744 === true,
-    'content--744l__number-windows': media744l === true,
-    'content--375__number-windows': media375 === true,
-    'content--275__number-windows': media275 === true,
-    'content--1300__number-windows': media1300 === true,
-    'content--900__number-windows': media900 === true,
-    'content--600__number-windows': media600 === true,
-    'content--600l__number-windows': media600l === true
-  });
-  var tableScrollXClass = classnames_default()({
-    'table__scroll-x': media1728 === true,
-    'table--1133__scroll-x': media1133 === true,
-    'table--744__scroll-x': media744 === true,
-    'table--744l__scroll-x': media744l === true,
-    'table--375__scroll-x': media375 === true,
-    'table--275__scroll-x': media275 === true,
-    'table--1300__scroll-x': media1300 === true,
-    'table--900__scroll-x': media900 === true,
-    'table--600__scroll-x': media600 === true,
-    'table--600l__scroll-x': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentTableClass = classnames_default()("content".concat(queryNumber, "__table"));
+  var tableClass = classnames_default()("table".concat(queryNumber));
+  var tableCaptionClass = classnames_default()("table".concat(queryNumber, "__caption"));
+  var tableCaptionWindowsClass = classnames_default()("table".concat(queryNumber, "__caption-windows"));
+  var tableHeaderClass = classnames_default()("table".concat(queryNumber, "__header"));
+  var tableHeaderWindowsClass = classnames_default()("table".concat(queryNumber, "__header-windows"));
+  var tableTrClass = classnames_default()("table".concat(queryNumber, "__tr"));
+  var tableTrHeaderClass = classnames_default()("table".concat(queryNumber, "__tr-header"));
+  var tableThClass = classnames_default()("table".concat(queryNumber, "__th"));
+  var tableThCornerClass = classnames_default()("table".concat(queryNumber, "__th-corner"));
+  var tableThTopleftClass = classnames_default()("table".concat(queryNumber, "__th-topleft"));
+  var tableThHeaderClass = classnames_default()("table".concat(queryNumber, "__th-header"));
+  var tableThStickyClass = classnames_default()("table".concat(queryNumber, "__th-sticky"));
+  var tableThToprightClass = classnames_default()("table".concat(queryNumber, "__th-topright"));
+  var tableFooterClass = classnames_default()("table".concat(queryNumber, "__footer"));
+  var tableFooterWindowsClass = classnames_default()("table".concat(queryNumber, "__footer-windows"));
+  var tableTrFooterClass = classnames_default()("table".concat(queryNumber, "__tr-footer"));
+  var tableThBottomleftClass = classnames_default()("table".concat(queryNumber, "__th-bottomleft"));
+  var tableThFooterClass = classnames_default()("table".concat(queryNumber, "__th-footer"));
+  var tableThBottomrightClass = classnames_default()("table".concat(queryNumber, "__th-bottomright"));
+  var contentWranningClass = classnames_default()("content".concat(queryNumber, "__wranning"));
+  var contentWranningWindowsClass = classnames_default()("content".concat(queryNumber, "__wranning-windows"));
+  var contentInnerClass = classnames_default()("content".concat(queryNumber, "__inner"));
+  var contentInnerWindowsClass = classnames_default()("content".concat(queryNumber, "__inner-windows"));
+  var contentPClass = classnames_default()("content".concat(queryNumber, "__p"));
+  var contentPWindowsClass = classnames_default()("content".concat(queryNumber, "__p-windows"));
+  var contentPhoneClass = classnames_default()("content".concat(queryNumber, "__phone"));
+  var contentPhoneWindowsClass = classnames_default()("content".concat(queryNumber, "__phone-windows"));
+  var contentNumberClass = classnames_default()("content".concat(queryNumber, "__number"));
+  var contentNumberWindowsClass = classnames_default()("content".concat(queryNumber, "__number-windows"));
+  var tableScrollXClass = classnames_default()("table".concat(queryNumber, "__scroll-x"));
   var propsData = function propsData(props) {
     var propsAll = props;
     var data = [];
@@ -10170,102 +4947,16 @@ const icon_popup_c_namespaceObject = __webpack_require__.p + "icons/icon-popup-c
 
 
 
+
 var ModalContentC = function ModalContentC(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentPhoneClass = classnames_default()({
-    'content__phone': media1728 === true,
-    'content--1133__phone': media1133 === true,
-    'content--744__phone': media744 === true,
-    'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true,
-    'content--1300__phone': media1300 === true,
-    'content--900__phone': media900 === true,
-    'content--600__phone': media600 === true,
-    'content--600l__phone': media600l === true
-  });
-  var phoneClass = classnames_default()({
-    'phone': media1728 === true,
-    'phone--1133': media1133 === true,
-    'phone--744': media744 === true,
-    'phone--744l': media744l === true,
-    'phone--375': media375 === true,
-    'phone--275': media275 === true,
-    'phone--1300': media1300 === true,
-    'phone--900': media900 === true,
-    'phone--600': media600 === true,
-    'phone--600l': media600l === true
-  });
-  var phoneInnerClass = classnames_default()({
-    'phone__inner': media1728 === true,
-    'phone--1133__inner': media1133 === true,
-    'phone--744__inner': media744 === true,
-    'phone--744l__inner': media744l === true,
-    'phone--375__inner': media375 === true,
-    'phone--275__inner': media275 === true,
-    'phone--1300__inner': media1300 === true,
-    'phone--900__inner': media900 === true,
-    'phone--600__inner': media600 === true,
-    'phone--600l__inner': media600l === true
-  });
-  var phoneIconClass = classnames_default()({
-    'phone__icon': media1728 === true,
-    'phone--1133__icon': media1133 === true,
-    'phone--744__icon': media744 === true,
-    'phone--744l__icon': media744l === true,
-    'phone--375__icon': media375 === true,
-    'phone--275__icon': media275 === true,
-    'phone--1300__icon': media1300 === true,
-    'phone--900__icon': media900 === true,
-    'phone--600__icon': media600 === true,
-    'phone--600l__icon': media600l === true
-  });
-  var phoneItemsClass = classnames_default()({
-    'phone__items': media1728 === true,
-    'phone--1133__items': media1133 === true,
-    'phone--744__items': media744 === true,
-    'phone--744l__items': media744l === true,
-    'phone--375__items': media375 === true,
-    'phone--275__items': media275 === true,
-    'phone--1300__items': media1300 === true,
-    'phone--900__items': media900 === true,
-    'phone--600__items': media600 === true,
-    'phone--600l__items': media600l === true
-  });
-  var phoneNumberClass = classnames_default()({
-    'phone__number': media1728 === true,
-    'phone--1133__number': media1133 === true,
-    'phone--744__number': media744 === true,
-    'phone--744l__number': media744l === true,
-    'phone--375__number': media375 === true,
-    'phone--275__number': media275 === true,
-    'phone--1300__number': media1300 === true,
-    'phone--900__number': media900 === true,
-    'phone--600__number': media600 === true,
-    'phone--600l__number': media600l === true
-  });
-  var phoneImgClass = classnames_default()({
-    'phone__img': media1728 === true,
-    'phone--1133__img': media1133 === true,
-    'phone--744__img': media744 === true,
-    'phone--744l__img': media744l === true,
-    'phone--375__img': media375 === true,
-    'phone--275__img': media275 === true,
-    'phone--1300__img': media1300 === true,
-    'phone--900__img': media900 === true,
-    'phone--600__img': media600 === true,
-    'phone--600l__img': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentPhoneClass = classnames_default()("content".concat(queryNumber, "__phone"));
+  var phoneClass = classnames_default()("phone".concat(queryNumber));
+  var phoneInnerClass = classnames_default()("phone".concat(queryNumber, "__inner"));
+  var phoneIconClass = classnames_default()("phone".concat(queryNumber, "__icon"));
+  var phoneItemsClass = classnames_default()("phone".concat(queryNumber, "__items"));
+  var phoneNumberClass = classnames_default()("phone".concat(queryNumber, "__number"));
+  var phoneImgClass = classnames_default()("phone".concat(queryNumber, "__img"));
   var propsData = function propsData(props) {
     var propsAll = props;
     var data = [];
@@ -10315,102 +5006,16 @@ const icon_popup_d_namespaceObject = __webpack_require__.p + "icons/icon-popup-d
 
 
 
+
 var ModalContentD = function ModalContentD(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentMessageClass = classnames_default()({
-    'content__message': media1728 === true,
-    'content--1133__message': media1133 === true,
-    'content--744__message': media744 === true,
-    'content--744l__message': media744l === true,
-    'content--375__message': media375 === true,
-    'content--275__message': media275 === true,
-    'content--1300__message': media1300 === true,
-    'content--900__message': media900 === true,
-    'content--600__message': media600 === true,
-    'content--600l__message': media600l === true
-  });
-  var messageClass = classnames_default()({
-    'message': media1728 === true,
-    'message--1133': media1133 === true,
-    'message--744': media744 === true,
-    'message--744l': media744l === true,
-    'message--375': media375 === true,
-    'message--275': media275 === true,
-    'message--1300': media1300 === true,
-    'message--900': media900 === true,
-    'message--600': media600 === true,
-    'message--600l': media600l === true
-  });
-  var messageInnerClass = classnames_default()({
-    'message__inner': media1728 === true,
-    'message--1133__inner': media1133 === true,
-    'message--744__inner': media744 === true,
-    'message--744l__inner': media744l === true,
-    'message--375__inner': media375 === true,
-    'message--275__inner': media275 === true,
-    'message--1300__inner': media1300 === true,
-    'message--900__inner': media900 === true,
-    'message--600__inner': media600 === true,
-    'message--600l__inner': media600l === true
-  });
-  var messageIconClass = classnames_default()({
-    'message__icon': media1728 === true,
-    'message--1133__icon': media1133 === true,
-    'message--744__icon': media744 === true,
-    'message--744l__icon': media744l === true,
-    'message--375__icon': media375 === true,
-    'message--275__icon': media275 === true,
-    'message--1300__icon': media1300 === true,
-    'message--900__icon': media900 === true,
-    'message--600__icon': media600 === true,
-    'message--600l__icon': media600l === true
-  });
-  var messageImgClass = classnames_default()({
-    'message__img': media1728 === true,
-    'message--1133__img': media1133 === true,
-    'message--744__img': media744 === true,
-    'message--744l__img': media744l === true,
-    'message--375__img': media375 === true,
-    'message--275__img': media275 === true,
-    'message--1300__img': media1300 === true,
-    'message--900__img': media900 === true,
-    'message--600__img': media600 === true,
-    'message--600l__img': media600l === true
-  });
-  var messageContentClass = classnames_default()({
-    'message__content': media1728 === true,
-    'message--1133__content': media1133 === true,
-    'message--744__content': media744 === true,
-    'message--__content': media744l === true,
-    'message--375__content': media375 === true,
-    'message--275__content': media275 === true,
-    'message--1300__content': media1300 === true,
-    'message--900__content': media900 === true,
-    'message--600__content': media600 === true,
-    'message--600l__content': media600l === true
-  });
-  var messagePClass = classnames_default()({
-    'message__p': media1728 === true,
-    'message--1133__p': media1133 === true,
-    'message--744__p': media744 === true,
-    'message--744l__p': media744l === true,
-    'message--375__p': media375 === true,
-    'message--275__p': media275 === true,
-    'message--1300__p': media1300 === true,
-    'message--900__p': media900 === true,
-    'message--600__p': media600 === true,
-    'message--600l__p': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentMessageClass = classnames_default()("content".concat(queryNumber, "__message"));
+  var messageClass = classnames_default()("message".concat(queryNumber));
+  var messageInnerClass = classnames_default()("message".concat(queryNumber, "__inner"));
+  var messageIconClass = classnames_default()("message".concat(queryNumber, "__icon"));
+  var messageImgClass = classnames_default()("message".concat(queryNumber, "__img"));
+  var messageContentClass = classnames_default()("message".concat(queryNumber, "__content"));
+  var messagePClass = classnames_default()("message".concat(queryNumber, "__p"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentMessageClass
   }, /*#__PURE__*/react.createElement("div", {
@@ -10479,66 +5084,13 @@ var certificate13 = __webpack_require__(3399);
 
 
 
+
 var ModalContentE = function ModalContentE(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentImageClass = classnames_default()({
-    'content__image': media1728 === true,
-    'content--1133__image': media1133 === true,
-    'content--744__image': media744 === true,
-    'content--744l__image': media744l === true,
-    'content--375__image': media375 === true,
-    'content--275__image': media275 === true,
-    'content--1300__image': media1300 === true,
-    'content--900__image': media900 === true,
-    'content--600__image': media600 === true,
-    'content--600l__image': media600l === true
-  });
-  var imageClass = classnames_default()({
-    'image': media1728 === true,
-    'image--1133': media1133 === true,
-    'image--744': media744 === true,
-    'image--744l': media744l === true,
-    'image--375': media375 === true,
-    'image--275': media275 === true,
-    'image--1300': media1300 === true,
-    'image--900': media900 === true,
-    'image--600': media600 === true,
-    'image--600l': media600l === true
-  });
-  var imageContentClass = classnames_default()({
-    'image__content': media1728 === true,
-    'image--1133__content': media1133 === true,
-    'image--744__content': media744 === true,
-    'image--744l__content': media744l === true,
-    'image--375__content': media375 === true,
-    'image--275__content': media275 === true,
-    'image--1300__content': media1300 === true,
-    'image--900__content': media900 === true,
-    'image--600__content': media600 === true,
-    'image--600l__content': media600l === true
-  });
-  var imageImgClass = classnames_default()({
-    'image__img': media1728 === true,
-    'image--1133__img': media1133 === true,
-    'image--744__img': media744 === true,
-    'image--744l__img': media744l === true,
-    'image--375__img': media375 === true,
-    'image--275__img': media275 === true,
-    'image--1300__img': media1300 === true,
-    'image--900__img': media900 === true,
-    'image--600__img': media600 === true,
-    'image--600l__img': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentImageClass = classnames_default()("content".concat(queryNumber, "__image"));
+  var imageClass = classnames_default()("image".concat(queryNumber));
+  var imageContentClass = classnames_default()("image".concat(queryNumber, "__content"));
+  var imageImgClass = classnames_default()("image".concat(queryNumber, "__img"));
   var image;
   switch (props.number) {
     case 1:
@@ -10615,6 +5167,7 @@ function ModalContentF_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var ModalContentF = function ModalContentF(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -10627,354 +5180,36 @@ var ModalContentF = function ModalContentF(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentStockClass = classnames_default()({
-    'content__stock': media1728 === true,
-    'content--1133__stock': media1133 === true,
-    'content--744__stock': media744 === true,
-    'content--744l__stock': media744l === true,
-    'content--375__stock': media375 === true,
-    'content--275__stock': media275 === true,
-    'content--1300__stock': media1300 === true,
-    'content--900__stock': media900 === true,
-    'content--600__stock': media600 === true,
-    'content--600l__stock': media600l === true
-  });
-  var stockClass = classnames_default()({
-    'stock': media1728 === true,
-    'stock--1133': media1133 === true,
-    'stock--744': media744 === true,
-    'stock--744l': media744l === true,
-    'stock--375': media375 === true,
-    'stock--275': media275 === true,
-    'stock--1300': media1300 === true,
-    'stock--900': media900 === true,
-    'stock--600': media600 === true,
-    'stock--600l': media600l === true
-  });
-  var stockTitleClass = classnames_default()({
-    'stock__title': media1728 === true,
-    'stock--1133__title': media1133 === true,
-    'stock--744__title': media744 === true,
-    'stock--744l__title': media744l === true,
-    'stock--375__title': media375 === true,
-    'stock--275__title': media275 === true,
-    'stock--1300__title': media1300 === true,
-    'stock--900__title': media900 === true,
-    'stock--600__title': media600 === true,
-    'stock--600l__title': media600l === true
-  });
-  var stockSliderClass = classnames_default()({
-    'stock__slider': media1728 === true,
-    'stock--1133__slider': media1133 === true,
-    'stock--744__slider': media744 === true,
-    'stock--744l__slider': media744l === true,
-    'stock--375__slider': media375 === true,
-    'stock--275__slider': media275 === true,
-    'stock--1300__slider': media1300 === true,
-    'stock--900__slider': media900 === true,
-    'stock--600__slider': media600 === true,
-    'stock--600l__slider': media600l === true
-  });
-  var sliderStockClass = classnames_default()({
-    'slider-stock': media1728 === true,
-    'slider-stock--1133': media1133 === true,
-    'slider-stock--744': media744 === true,
-    'slider-stock--744l': media744l === true,
-    'slider-stock--375': media375 === true,
-    'slider-stock--275': media275 === true,
-    'slider-stock--1300': media1300 === true,
-    'slider-stock--900': media900 === true,
-    'slider-stock--600': media600 === true,
-    'slider-stock--600l': media600l === true
-  });
-  var sliderItemsClass = classnames_default()({
-    'slider__items': media1728 === true,
-    'slider--1133__items': media1133 === true,
-    'slider--744__items': media744 === true,
-    'slider--744l__items': media744l === true,
-    'slider--375__items': media375 === true,
-    'slider--275__items': media275 === true,
-    'slider--1300__items': media1300 === true,
-    'slider--900__items': media900 === true,
-    'slider--600__items': media600 === true,
-    'slider--600l__items': media600l === true
-  });
-  var sliderItemsStockClass = classnames_default()({
-    'slider__items-stock': media1728 === true,
-    'slider--1133__items-stock': media1133 === true,
-    'slider--744__items-stock': media744 === true,
-    'slider--744l__items-stock': media744l === true,
-    'slider--375__items-stock': media375 === true,
-    'slider--275__items-stock': media275 === true,
-    'slider--1300__items-stock': media1300 === true,
-    'slider--900__items-stock': media900 === true,
-    'slider--600__items-stock': media600 === true,
-    'slider--600l__items-stock': media600l === true
-  });
-  var sliderItemClass = classnames_default()({
-    'slider__item': media1728 === true,
-    'slider--1133__item': media1133 === true,
-    'slider--744__item': media744 === true,
-    'slider--744l__item': media744l === true,
-    'slider--375__item': media375 === true,
-    'slider--275__item': media275 === true,
-    'slider--1300__item': media1300 === true,
-    'slider--900__item': media900 === true,
-    'slider--600__item': media600 === true,
-    'slider--600l__item': media600l === true
-  });
-  var sliderItemStockClass = classnames_default()({
-    'slider__item-stock': media1728 === true,
-    'slider--1133__item-stock': media1133 === true,
-    'slider--744__item-stock': media744 === true,
-    'slider--744l__item-stock': media744l === true,
-    'slider--375__item-stock': media375 === true,
-    'slider--275__item-stock': media275 === true,
-    'slider--1300__item-stock': media1300 === true,
-    'slider--900__item-stock': media900 === true,
-    'slider--600__item-stock': media600 === true,
-    'slider--600l__item-stock': media600l === true
-  });
-  var sliderSlideStockClass = classnames_default()({
-    'slider__slide-stock': media1728 === true,
-    'slider--1133__slide-stock': media1133 === true,
-    'slider--744__slide-stock': media744 === true,
-    'slider--744l__slide-stock': media744l === true,
-    'slider--375__slide-stock': media375 === true,
-    'slider--275__slide-stock': media275 === true,
-    'slider--1300__slide-stock': media1300 === true,
-    'slider--900__slide-stock': media900 === true,
-    'slider--600__slide-stock': media600 === true,
-    'slider--600l__slide-stock': media600l === true
-  });
-  var slideClass = classnames_default()({
-    'slide': media1728 === true,
-    'slide--1133': media1133 === true,
-    'slide--744': media744 === true,
-    'slide--744l': media744l === true,
-    'slide--375': media375 === true,
-    'slide--275': media275 === true,
-    'slide--1300': media1300 === true,
-    'slide--900': media900 === true,
-    'slide--600': media600 === true,
-    'slide--600l': media600l === true
-  });
-  var slideStockClass = classnames_default()({
-    'slide-stock': media1728 === true,
-    'slide-stock--1133': media1133 === true,
-    'slide-stock--744': media744 === true,
-    'slide-stock--744l': media744l === true,
-    'slide-stock--375': media375 === true,
-    'slide-stock--275': media275 === true,
-    'slide-stock--1300': media1300 === true,
-    'slide-stock--900': media900 === true,
-    'slide-stock--600': media600 === true,
-    'slide-stock--600l': media600l === true
-  });
-  var slideContentClass = classnames_default()({
-    'slide__content': media1728 === true,
-    'slide--1133__content': media1133 === true,
-    'slide--744__content': media744 === true,
-    'slide--744l__content': media744l === true,
-    'slide--375__content': media375 === true,
-    'slide--275__content': media275 === true,
-    'slide--1300__content': media1300 === true,
-    'slide--900__content': media900 === true,
-    'slide--600__content': media600 === true,
-    'slide--600l__content': media600l === true
-  });
-  var slideContentStockClass = classnames_default()({
-    'slide__content-stock': media1728 === true,
-    'slide--1133__content-stock': media1133 === true,
-    'slide--744__content-stock': media744 === true,
-    'slide--744l__content-stock': media744l === true,
-    'slide--375__content-stock': media375 === true,
-    'slide--275__content-stock': media275 === true,
-    'slide--1300__content-stock': media1300 === true,
-    'slide--900__content-stock': media900 === true,
-    'slide--600__content-stock': media600 === true,
-    'slide--600l__content-stock': media600l === true
-  });
-  var slideStock1Class = classnames_default()({
-    'slide__stock': media1728 === true,
-    'slide--1133__stock': media1133 === true,
-    'slide--744__stock': media744 === true,
-    'slide--744l__stock': media744l === true,
-    'slide--375__stock': media375 === true,
-    'slide--275__stock': media275 === true,
-    'slide--1300__stock': media1300 === true,
-    'slide--900__stock': media900 === true,
-    'slide--600__stock': media600 === true,
-    'slide--600l__stock': media600l === true
-  });
-  var slideValueClass = classnames_default()({
-    'slide__value': media1728 === true,
-    'slide--1133__value': media1133 === true,
-    'slide--744__value': media744 === true,
-    'slide--744l__value': media744l === true,
-    'slide--375__value': media375 === true,
-    'slide--275__value': media275 === true,
-    'slide--1300__value': media1300 === true,
-    'slide--900__value': media900 === true,
-    'slide--600__value': media600 === true,
-    'slide--600l__value': media600l === true
-  });
-  var slideSpanClass = classnames_default()({
-    'slide__span': media1728 === true,
-    'slide--1133__span': media1133 === true,
-    'slide--744__span': media744 === true,
-    'slide--744l__span': media744l === true,
-    'slide--375__span': media375 === true,
-    'slide--275__span': media275 === true,
-    'slide--1300__span': media1300 === true,
-    'slide--900__span': media900 === true,
-    'slide--600__span': media600 === true,
-    'slide--600l__span': media600l === true
-  });
-  var slideSpanNumClass = classnames_default()({
-    'slide__span-num': media1728 === true,
-    'slide--1133__span-num': media1133 === true,
-    'slide--744__span-num': media744 === true,
-    'slide--744l__span-num': media744l === true,
-    'slide--375__span-num': media375 === true,
-    'slide--275__span-num': media275 === true,
-    'slide--1300__span-num': media1300 === true,
-    'slide--900__span-num': media900 === true,
-    'slide--600__span-num': media600 === true,
-    'slide--600l__span-num': media600l === true
-  });
-  var slideSpanSymbolClass = classnames_default()({
-    'slide__span-symbol': media1728 === true,
-    'slide--1133__span-symbol': media1133 === true,
-    'slide--744__span-symbol': media744 === true,
-    'slide--744l__span-symbol': media744l === true,
-    'slide--375__span-symbol': media375 === true,
-    'slide--275__span-symbol': media275 === true,
-    'slide--1300__span-symbol': media1300 === true,
-    'slide--900__span-symbol': media900 === true,
-    'slide--600__span-symbol': media600 === true,
-    'slide--600l__span-symbol': media600l === true
-  });
-  var contentWranningClass = classnames_default()({
-    'content__wranning': media1728 === true,
-    'content--1133__wranning': media1133 === true,
-    'content--744__wranning': media744 === true,
-    'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true,
-    'content--1300__wranning': media1300 === true,
-    'content--900__wranning': media900 === true,
-    'content--600__wranning': media600 === true,
-    'content--600l__wranning': media600l === true
-  });
-  var contentWranningStockClass = classnames_default()({
-    'content__wranning-stock': media1728 === true,
-    'content--1133__wranning-stock': media1133 === true,
-    'content--744__wranning-stock': media744 === true,
-    'content--744l__wranning-stock': media744l === true,
-    'content--375__wranning-stock': media375 === true,
-    'content--275__wranning-stock': media275 === true,
-    'content--1300__wranning-stock': media1300 === true,
-    'content--900__wranning-stock': media900 === true,
-    'content--600__wranning-stock': media600 === true,
-    'content--600l__wranning-stock': media600l === true
-  });
-  var contentInnerClass = classnames_default()({
-    'content__inner': media1728 === true,
-    'content--1133__inner': media1133 === true,
-    'content--744__inner': media744 === true,
-    'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true,
-    'content--1300__inner': media1300 === true,
-    'content--900__inner': media900 === true,
-    'content--600__inner': media600 === true,
-    'content--600l__inner': media600l === true
-  });
-  var contentInnerStockClass = classnames_default()({
-    'content__inner-stock': media1728 === true,
-    'content--1133__inner-stock': media1133 === true,
-    'content--744__inner-stock': media744 === true,
-    'content--744l__inner-stock': media744l === true,
-    'content--375__inner-stock': media375 === true,
-    'content--275__inner-stock': media275 === true,
-    'content--1300__inner-stock': media1300 === true,
-    'content--900__inner-stock': media900 === true,
-    'content--600__inner-stock': media600 === true,
-    'content--600l__inner-stock': media600l === true
-  });
-  var contentPClass = classnames_default()({
-    'content__p': media1728 === true,
-    'content--1133__p': media1133 === true,
-    'content--744__p': media744 === true,
-    'content--744l__p': media744l === true,
-    'content--375__p': media375 === true,
-    'content--275__p': media275 === true,
-    'content--1300__p': media1300 === true,
-    'content--900__p': media900 === true,
-    'content--600__p': media600 === true,
-    'content--600l__p': media600l === true
-  });
-  var contentPStockClass = classnames_default()({
-    'content__p-stock': media1728 === true,
-    'content--1133__p-stock': media1133 === true,
-    'content--744__p-stock': media744 === true,
-    'content--744l__p-stock': media744l === true,
-    'content--375__p-stock': media375 === true,
-    'content--275__p-stock': media275 === true,
-    'content--1300__p-stock': media1300 === true,
-    'content--900__p-stock': media900 === true,
-    'content--600__p-stock': media600 === true,
-    'content--600l__p-stock': media600l === true
-  });
-  var contentPhoneClass = classnames_default()({
-    'content__phone': media1728 === true,
-    'content--1133__phone': media1133 === true,
-    'content--744__phone': media744 === true,
-    'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true,
-    'content--1300__phone': media1300 === true,
-    'content--900__phone': media900 === true,
-    'content--600__phone': media600 === true,
-    'content--600l__phone': media600l === true
-  });
-  var contentPhoneStockClass = classnames_default()({
-    'content__phone-stock': media1728 === true,
-    'content--1133__phone-stock': media1133 === true,
-    'content--744__phone-stock': media744 === true,
-    'content--744l__phone-stock': media744l === true,
-    'content--375__phone-stock': media375 === true,
-    'content--275__phone-stock': media275 === true,
-    'content--1300__phone-stock': media1300 === true,
-    'content--900__phone-stock': media900 === true,
-    'content--600__phone-stock': media600 === true,
-    'content--600l__phone-stock': media600l === true
-  });
-  var contentNumberClass = classnames_default()({
-    'content__number': media1728 === true,
-    'content--1133__number': media1133 === true,
-    'content--744__number': media744 === true,
-    'content--744l__number': media744l === true,
-    'content--375__number': media375 === true,
-    'content--275__number': media275 === true,
-    'content--1300__number': media1300 === true,
-    'content--900__number': media900 === true,
-    'content--600__number': media600 === true,
-    'content--600l__number': media600l === true
-  });
-  var contentNumberStockClass = classnames_default()({
-    'content__number-stock': media1728 === true,
-    'content--1133__number-stock': media1133 === true,
-    'content--744__number-stock': media744 === true,
-    'content--744l__number-stock': media744l === true,
-    'content--375__number-stock': media375 === true,
-    'content--275__number-stock': media275 === true,
-    'content--1300__number-stock': media1300 === true,
-    'content--900__number-stock': media900 === true,
-    'content--600__number-stock': media600 === true,
-    'content--600l__number-stock': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentStockClass = classnames_default()("content".concat(queryNumber, "__stock"));
+  var stockClass = classnames_default()("stock".concat(queryNumber));
+  var stockTitleClass = classnames_default()("stock".concat(queryNumber, "__title"));
+  var stockSliderClass = classnames_default()("stock".concat(queryNumber, "__slider"));
+  var sliderStockClass = classnames_default()("slider-stock".concat(queryNumber));
+  var sliderItemsClass = classnames_default()("slider".concat(queryNumber, "__items"));
+  var sliderItemsStockClass = classnames_default()("slider".concat(queryNumber, "__items-stock"));
+  var sliderItemClass = classnames_default()("slider".concat(queryNumber, "__item"));
+  var sliderItemStockClass = classnames_default()("slider".concat(queryNumber, "__item-stock"));
+  var sliderSlideStockClass = classnames_default()("slider".concat(queryNumber, "__slide-stock"));
+  var slideClass = classnames_default()("slide".concat(queryNumber));
+  var slideStockClass = classnames_default()("slide-stock".concat(queryNumber));
+  var slideContentClass = classnames_default()("slide".concat(queryNumber, "__content"));
+  var slideContentStockClass = classnames_default()("slide".concat(queryNumber, "__content-stock"));
+  var slideStock1Class = classnames_default()("slide".concat(queryNumber, "__stock"));
+  var slideValueClass = classnames_default()("slide".concat(queryNumber, "__value"));
+  var slideSpanClass = classnames_default()("slide".concat(queryNumber, "__span"));
+  var slideSpanNumClass = classnames_default()("slide".concat(queryNumber, "__span-num"));
+  var slideSpanSymbolClass = classnames_default()("slide".concat(queryNumber, "__span-symbol"));
+  var contentWranningClass = classnames_default()("content".concat(queryNumber, "__wranning"));
+  var contentWranningStockClass = classnames_default()("content".concat(queryNumber, "__wranning-stock"));
+  var contentInnerClass = classnames_default()("content".concat(queryNumber, "__inner"));
+  var contentInnerStockClass = classnames_default()("content".concat(queryNumber, "__inner-stock"));
+  var contentPClass = classnames_default()("content".concat(queryNumber, "__p"));
+  var contentPStockClass = classnames_default()("content".concat(queryNumber, "__p-stock"));
+  var contentPhoneClass = classnames_default()("content".concat(queryNumber, "__phone"));
+  var contentPhoneStockClass = classnames_default()("content".concat(queryNumber, "__phone-stock"));
+  var contentNumberClass = classnames_default()("content".concat(queryNumber, "__number"));
+  var contentNumberStockClass = classnames_default()("content".concat(queryNumber, "__number-stock"));
   var _useState = (0,react.useState)(0),
     _useState2 = ModalContentF_slicedToArray(_useState, 2),
     index = _useState2[0],
@@ -10983,8 +5218,8 @@ var ModalContentF = function ModalContentF(props) {
   // const slides = document.querySelectorAll('.slider__slide-stock');
 
   var slideStock, slideStockActive;
-  media1728 === true ? slideStock = 'slider__slide-stock' : media1300 === true ? slideStock = 'slider--1300__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media900 === true ? slideStock = 'slider--900__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media600 === true ? slideStock = 'slider--600__slide-stock' : media600l === true ? slideStock = 'slider--600l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : media275 === true ? slideStock = 'slider--275__slide-stock' : null;
-  media1728 === true ? slideStockActive = 'slider__slide-stock-active' : media1300 === true ? slideStockActive = 'slider--1300__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media900 === true ? slideStockActive = 'slider--900__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : media744l === true ? slideStockActive = 'slider--744l__slide-stock-active' : media600 === true ? slideStockActive = 'slider--600__slide-stock-active' : media600l === true ? slideStockActive = 'slider--600l__slide-stock-active' : media375 === true ? slideStockActive = 'slider--375__slide-stock-active' : media275 === true ? slideStockActive = 'slider--275__slide-stock-active' : null;
+  media1728 === true ? slideStock = 'slider--1728__slide-stock' : media1300 === true ? slideStock = 'slider--1300__slide-stock' : media1133 === true ? slideStock = 'slider--1133__slide-stock' : media900 === true ? slideStock = 'slider--900__slide-stock' : media744 === true ? slideStock = 'slider--744__slide-stock' : media744l === true ? slideStock = 'slider--744l__slide-stock' : media600 === true ? slideStock = 'slider--600__slide-stock' : media600l === true ? slideStock = 'slider--600l__slide-stock' : media375 === true ? slideStock = 'slider--375__slide-stock' : media275 === true ? slideStock = 'slider--275__slide-stock' : null;
+  media1728 === true ? slideStockActive = 'slider--1728__slide-stock-active' : media1300 === true ? slideStockActive = 'slider--1300__slide-stock-active' : media1133 === true ? slideStockActive = 'slider--1133__slide-stock-active' : media900 === true ? slideStockActive = 'slider--900__slide-stock-active' : media744 === true ? slideStockActive = 'slider--744__slide-stock-active' : media744l === true ? slideStockActive = 'slider--744l__slide-stock-active' : media600 === true ? slideStockActive = 'slider--600__slide-stock-active' : media600l === true ? slideStockActive = 'slider--600l__slide-stock-active' : media375 === true ? slideStockActive = 'slider--375__slide-stock-active' : media275 === true ? slideStockActive = 'slider--275__slide-stock-active' : null;
 
   // (media1728 === true) ? slideStockActive = 'slider__slide-stock-active' :
   //     (media1133 === true) ? slideStockActive = 'slider--1133__slide-stock-active' :
@@ -11146,6 +5381,7 @@ function ModalContentG_extends() { return ModalContentG_extends = Object.assign 
 
 
 
+
 var ModalContentG = function ModalContentG(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -11158,234 +5394,26 @@ var ModalContentG = function ModalContentG(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentHomeClass = classnames_default()({
-    'content__home': media1728 === true,
-    'content--1133__home': media1133 === true,
-    'content--744__home': media744 === true,
-    'content--744l__home': media744l === true,
-    'content--375__home': media375 === true,
-    'content--275__home': media275 === true,
-    'content--1300__home': media1300 === true,
-    'content--900__home': media900 === true,
-    'content--600__home': media600 === true,
-    'content--600l__home': media600l === true
-  });
-  var homeClass = classnames_default()({
-    'home': media1728 === true,
-    'home--1133': media1133 === true,
-    'home--744': media744 === true,
-    'home--744l': media744l === true,
-    'home--375': media375 === true,
-    'home--275': media275 === true,
-    'home--1300': media1300 === true,
-    'home--900': media900 === true,
-    'home--600': media600 === true,
-    'home--600l': media600l === true
-  });
-  var homeBodyClass = classnames_default()({
-    'home__body': media1728 === true,
-    'home--1133__body': media1133 === true,
-    'home--744__body': media744 === true,
-    'home--744l__body': media744l === true,
-    'home--375__body': media375 === true,
-    'home--275__body': media275 === true,
-    'home--1300__body': media1300 === true,
-    'home--900__body': media900 === true,
-    'home--600__body': media600 === true,
-    'home--600l__body': media600l === true
-  });
-  var homeTitleClass = classnames_default()({
-    'home__title': media1728 === true,
-    'home--1133__title': media1133 === true,
-    'home--744__title': media744 === true,
-    'home--744l__title': media744l === true,
-    'home--375__title': media375 === true,
-    'home--275__title': media275 === true,
-    'home--1300__title': media1300 === true,
-    'home--900__title': media900 === true,
-    'home--600__title': media600 === true,
-    'home--600l__title': media600l === true
-  });
-  var homeTitleSubClass = classnames_default()({
-    'home__title-sub': media1728 === true,
-    'home--1133__title-sub': media1133 === true,
-    'home--744__title-sub': media744 === true,
-    'home--744l__title-sub': media744l === true,
-    'home--375__title-sub': media375 === true,
-    'home--275__title-sub': media275 === true,
-    'home--1300__title-sub': media1300 === true,
-    'home--900__title-sub': media900 === true,
-    'home--600__title-sub': media600 === true,
-    'home--600l__title-sub': media600l === true
-  });
-  var homeContentClass = classnames_default()({
-    'home__content': media1728 === true,
-    'home--1133__content': media1133 === true,
-    'home--744__content': media744 === true,
-    'home--744l__content': media744l === true,
-    'home--375__content': media375 === true,
-    'home--275__content': media275 === true,
-    'home--1300__content': media1300 === true,
-    'home--900__content': media900 === true,
-    'home--600__content': media600 === true,
-    'home--600l__content': media600l === true
-  });
-  var homeBlockClass = classnames_default()({
-    'home__block': media1728 === true,
-    'home--1133__block': media1133 === true,
-    'home--744__block': media744 === true,
-    'home--744l__block': media744l === true,
-    'home--375__block': media375 === true,
-    'home--275__block': media275 === true,
-    'home--1300__block': media1300 === true,
-    'home--900__block': media900 === true,
-    'home--600__block': media600 === true,
-    'home--600l__block': media600l === true
-  });
-  var homePClass = classnames_default()({
-    'home__p': media1728 === true,
-    'home--1133__p': media1133 === true,
-    'home--744__p': media744 === true,
-    'home--744l__p': media744l === true,
-    'home--375__p': media375 === true,
-    'home--275__p': media275 === true,
-    'home--1300__p': media1300 === true,
-    'home--900__p': media900 === true,
-    'home--600__p': media600 === true,
-    'home--600l__p': media600l === true
-  });
-  var homeImageClass = classnames_default()({
-    'home__image': media1728 === true,
-    'home--1133__image': media1133 === true,
-    'home--744__image': media744 === true,
-    'home--744l__image': media744l === true,
-    'home--375__image': media375 === true,
-    'home--275__image': media275 === true,
-    'home--1300__image': media1300 === true,
-    'home--900__image': media900 === true,
-    'home--600__image': media600 === true,
-    'home--600l__image': media600l === true
-  });
-  var contentWranningClass = classnames_default()({
-    'content__wranning': media1728 === true,
-    'content--1133__wranning': media1133 === true,
-    'content--744__wranning': media744 === true,
-    'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true,
-    'content--1300__wranning': media1300 === true,
-    'content--900__wranning': media900 === true,
-    'content--600__wranning': media600 === true,
-    'content--600l__wranning': media600l === true
-  });
-  var contentWranningHomeClass = classnames_default()({
-    'content__wranning-home': media1728 === true,
-    'content--1133__wranning-home': media1133 === true,
-    'content--744__wranning-home': media744 === true,
-    'content--744l__wranning-home': media744l === true,
-    'content--375__wranning-home': media375 === true,
-    'content--275__wranning-home': media275 === true,
-    'content--1300__wranning-home': media1300 === true,
-    'content--900__wranning-home': media900 === true,
-    'content--600__wranning-home': media600 === true,
-    'content--600l__wranning-home': media600l === true
-  });
-  var contentInnerClass = classnames_default()({
-    'content__inner': media1728 === true,
-    'content--1133__inner': media1133 === true,
-    'content--744__inner': media744 === true,
-    'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true,
-    'content--1300__inner': media1300 === true,
-    'content--900__inner': media900 === true,
-    'content--600__inner': media600 === true,
-    'content--600l__inner': media600l === true
-  });
-  var contentInnerHomeClass = classnames_default()({
-    'content__inner-home': media1728 === true,
-    'content--1133__inner-home': media1133 === true,
-    'content--744__inner-home': media744 === true,
-    'content--744l__inner-home': media744l === true,
-    'content--375__inner-home': media375 === true,
-    'content--275__inner-home': media275 === true,
-    'content--1300__inner-home': media1300 === true,
-    'content--900__inner-home': media900 === true,
-    'content--600__inner-home': media600 === true,
-    'content--600l__inner-home': media600l === true
-  });
-  var contentPClass = classnames_default()({
-    'content__p': media1728 === true,
-    'content--1133__p': media1133 === true,
-    'content--744__p': media744 === true,
-    'content--744l__p': media744l === true,
-    'content--375__p': media375 === true,
-    'content--275__p': media275 === true,
-    'content--1300__p': media1300 === true,
-    'content--900__p': media900 === true,
-    'content--600__p': media600 === true,
-    'content--600l__p': media600l === true
-  });
-  var contentPHomeClass = classnames_default()({
-    'content__p-home': media1728 === true,
-    'content--1133__p-home': media1133 === true,
-    'content--744__p-home': media744 === true,
-    'content--744l__p-home': media744l === true,
-    'content--375__p-home': media375 === true,
-    'content--275__p-home': media275 === true,
-    'content--1300__p-home': media1300 === true,
-    'content--900__p-home': media900 === true,
-    'content--600__p-home': media600 === true,
-    'content--600l__p-home': media600l === true
-  });
-  var contentPhoneClass = classnames_default()({
-    'content__phone': media1728 === true,
-    'content--1133__phone': media1133 === true,
-    'content--744__phone': media744 === true,
-    'content--744l__phone': media744l === true,
-    'content--375__phone': media375 === true,
-    'content--275__phone': media275 === true,
-    'content--1300__phone': media1300 === true,
-    'content--900__phone': media900 === true,
-    'content--600__phone': media600 === true,
-    'content--600l__phone': media600l === true
-  });
-  var contentPhoneHomeClass = classnames_default()({
-    'content__phone-home': media1728 === true,
-    'content--1133__phone-home': media1133 === true,
-    'content--744__phone-home': media744 === true,
-    'content--744l__phone-home': media744l === true,
-    'content--375__phone-home': media375 === true,
-    'content--275__phone-home': media275 === true,
-    'content--1300__phone-home': media1300 === true,
-    'content--900__phone-home': media900 === true,
-    'content--600__phone-home': media600 === true,
-    'content--600l__phone-home': media600l === true
-  });
-  var contentNumberClass = classnames_default()({
-    'content__number': media1728 === true,
-    'content--1133__number': media1133 === true,
-    'content--744__number': media744 === true,
-    'content--744l__number': media744l === true,
-    'content--375__number': media375 === true,
-    'content--275__number': media275 === true,
-    'content--1300__number': media1300 === true,
-    'content--900__number': media900 === true,
-    'content--600__number': media600 === true,
-    'content--600l__number': media600l === true
-  });
-  var contentNumberHomeClass = classnames_default()({
-    'content__number-home': media1728 === true,
-    'content--1133__number-home': media1133 === true,
-    'content--744__number-home': media744 === true,
-    'content--744l__number-home': media744l === true,
-    'content--375__number-home': media375 === true,
-    'content--275__number-home': media275 === true,
-    'content--1300__number-home': media1300 === true,
-    'content--900__number-home': media900 === true,
-    'content--600__number-home': media600 === true,
-    'content--600l__number-home': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentHomeClass = classnames_default()("content".concat(queryNumber, "__home"));
+  var homeClass = classnames_default()("home".concat(queryNumber));
+  var homeBodyClass = classnames_default()("home".concat(queryNumber, "__body"));
+  var homeTitleClass = classnames_default()("home".concat(queryNumber, "__title"));
+  var homeTitleSubClass = classnames_default()("home".concat(queryNumber, "__title-sub"));
+  var homeContentClass = classnames_default()("home".concat(queryNumber, "__content"));
+  var homeBlockClass = classnames_default()("home".concat(queryNumber, "__block"));
+  var homePClass = classnames_default()("home".concat(queryNumber, "__p}"));
+  var homeImageClass = classnames_default()("home".concat(queryNumber, "__image"));
+  var contentWranningClass = classnames_default()("content__wranning");
+  var contentWranningHomeClass = classnames_default()("content".concat(queryNumber, "__wranning-home"));
+  var contentInnerClass = classnames_default()("content".concat(queryNumber, "__inner"));
+  var contentInnerHomeClass = classnames_default()("content".concat(queryNumber, "__inner-home"));
+  var contentPClass = classnames_default()("content".concat(queryNumber, "__p"));
+  var contentPHomeClass = classnames_default()("content".concat(queryNumber, "__p-home"));
+  var contentPhoneClass = classnames_default()("content".concat(queryNumber, "__phone"));
+  var contentPhoneHomeClass = classnames_default()("content".concat(queryNumber, "__phone-home"));
+  var contentNumberClass = classnames_default()("content".concat(queryNumber, "__number"));
+  var contentNumberHomeClass = classnames_default()("content".concat(queryNumber, "__number-home"));
   var propsData = function propsData(props) {
     var propsAll = props;
     var data = [];
@@ -11461,6 +5489,7 @@ var telegram_review = __webpack_require__(1615);
 
 
 
+
 var ModalContentH = function ModalContentH(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -11473,282 +5502,30 @@ var ModalContentH = function ModalContentH(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var contentReviewsClass = classnames_default()({
-    'content__reviews': media1728 === true,
-    'content--1133__reviews': media1133 === true,
-    'content--744__reviews': media744 === true,
-    'content--744l__reviews': media744l === true,
-    'content--375__reviews': media375 === true,
-    'content--275__reviews': media275 === true,
-    'content--1300__reviews': media1300 === true,
-    'content--900__reviews': media900 === true,
-    'content--600__reviews': media600 === true,
-    'content--600l__reviews': media600l === true
-  });
-  var reviewsClass = classnames_default()({
-    'reviews': media1728 === true,
-    'reviews--1133': media1133 === true,
-    'reviews--744': media744 === true,
-    'reviews--744l': media744l === true,
-    'reviews--375': media375 === true,
-    'reviews--275': media275 === true,
-    'reviews--1300': media1300 === true,
-    'reviews--900': media900 === true,
-    'reviews--600': media600 === true,
-    'reviews--600l': media600l === true
-  });
-  var reviewsBodyClass = classnames_default()({
-    'reviews__body': media1728 === true,
-    'reviews--1133__body': media1133 === true,
-    'reviews--744__body': media744 === true,
-    'reviews--744l__body': media744l === true,
-    'reviews--375__body': media375 === true,
-    'reviews--275__body': media275 === true,
-    'reviews--1300__body': media1300 === true,
-    'reviews--900__body': media900 === true,
-    'reviews--600__body': media600 === true,
-    'reviews--600l__body': media600l === true
-  });
-  var reviewsContentClass = classnames_default()({
-    'reviews__content': media1728 === true,
-    'reviews--1133__content': media1133 === true,
-    'reviews--744__content': media744 === true,
-    'reviews--744l__content': media744l === true,
-    'reviews--375__content': media375 === true,
-    'reviews--275__content': media275 === true,
-    'reviews--1300__content': media1300 === true,
-    'reviews--900__content': media900 === true,
-    'reviews--600__content': media600 === true,
-    'reviews--600l__content': media600l === true
-  });
-  var reviewsBlockClass = classnames_default()({
-    'reviews__block': media1728 === true,
-    'reviews--1133__block': media1133 === true,
-    'reviews--744__block': media744 === true,
-    'reviews--744l__block': media744l === true,
-    'reviews--375__block': media375 === true,
-    'reviews--275__block': media275 === true,
-    'reviews--1300__block': media1300 === true,
-    'reviews--900__block': media900 === true,
-    'reviews--600__block': media600 === true,
-    'reviews--600l__block': media600l === true
-  });
-  var reviewsTitleClass = classnames_default()({
-    'reviews__title': media1728 === true,
-    'reviews--1133__title': media1133 === true,
-    'reviews--744__title': media744 === true,
-    'reviews--744l__title': media744l === true,
-    'reviews--375__title': media375 === true,
-    'reviews--275__title': media275 === true,
-    'reviews--1300__title': media1300 === true,
-    'reviews--900__title': media900 === true,
-    'reviews--600__title': media600 === true,
-    'reviews--600l__title': media600l === true
-  });
-  var reviewsTitleSubClass = classnames_default()({
-    'reviews__title-sub': media1728 === true,
-    'reviews--1133__title-sub': media1133 === true,
-    'reviews--744__title-sub': media744 === true,
-    'reviews--744l__title-sub': media744l === true,
-    'reviews--375__title-sub': media375 === true,
-    'reviews--275__title-sub': media275 === true,
-    'reviews--1300__title-sub': media1300 === true,
-    'reviews--900__title-sub': media900 === true,
-    'reviews--600__title-sub': media600 === true,
-    'reviews--600l__title-sub': media600l === true
-  });
-  var reviewsPClass = classnames_default()({
-    'reviews__p': media1728 === true,
-    'reviews--1133__p': media1133 === true,
-    'reviews--744__p': media744 === true,
-    'reviews--744l__p': media744l === true,
-    'reviews--375__p': media375 === true,
-    'reviews--275__p': media275 === true,
-    'reviews--1300__p': media1300 === true,
-    'reviews--900__p': media900 === true,
-    'reviews--600__p': media600 === true,
-    'reviews--600l__p': media600l === true
-  });
-  var contentWranningClass = classnames_default()({
-    'content__wranning': media1728 === true,
-    'content--1133__wranning': media1133 === true,
-    'content--744__wranning': media744 === true,
-    'content--744l__wranning': media744l === true,
-    'content--375__wranning': media375 === true,
-    'content--275__wranning': media275 === true,
-    'content--1300__wranning': media1300 === true,
-    'content--900__wranning': media900 === true,
-    'content--600__wranning': media600 === true,
-    'content--600l__wranning': media600l === true
-  });
-  var contentWranningReviewsClass = classnames_default()({
-    'content__wranning-reviews': media1728 === true,
-    'content--1133__wranning-reviews': media1133 === true,
-    'content--744__wranning-reviews': media744 === true,
-    'content--744l__wranning-reviews': media744l === true,
-    'content--375__wranning-reviews': media375 === true,
-    'content--275__wranning-reviews': media275 === true,
-    'content--1300__wranning-reviews': media1300 === true,
-    'content--900__wranning-reviews': media900 === true,
-    'content--600__wranning-reviews': media600 === true,
-    'content--600l__wranning-reviews': media600l === true
-  });
-  var contentInnerClass = classnames_default()({
-    'content__inner': media1728 === true,
-    'content--1133__inner': media1133 === true,
-    'content--744__inner': media744 === true,
-    'content--744l__inner': media744l === true,
-    'content--375__inner': media375 === true,
-    'content--275__inner': media275 === true,
-    'content--1300__inner': media1300 === true,
-    'content--900__inner': media900 === true,
-    'content--600__inner': media600 === true,
-    'content--600l__inner': media600l === true
-  });
-  var contentInnerReviewsClass = classnames_default()({
-    'content__inner-reviews': media1728 === true,
-    'content--1133__inner-reviews': media1133 === true,
-    'content--744__inner-reviews': media744 === true,
-    'content--744l__inner-reviews': media744l === true,
-    'content--375__inner-reviews': media375 === true,
-    'content--275__inner-reviews': media275 === true,
-    'content--1300__inner-reviews': media1300 === true,
-    'content--900__inner-reviews': media900 === true,
-    'content--600__inner-reviews': media600 === true,
-    'content--600l__inner-reviews': media600l === true
-  });
-  var contentInnerIconsClass = classnames_default()({
-    'content__inner-icons': media1728 === true,
-    'content--1133__inner-icons': media1133 === true,
-    'content--744__inner-icons': media744 === true,
-    'content--744l__inner-icons': media744l === true,
-    'content--375__inner-icons': media375 === true,
-    'content--275__inner-icons': media275 === true,
-    'content--1300__inner-icons': media1300 === true,
-    'content--90__inner-icons': media900 === true,
-    'content--600__inner-icons': media600 === true,
-    'content--600l__inner-icons': media600l === true
-  });
-  var contentPClass = classnames_default()({
-    'content__p': media1728 === true,
-    'content--1133__p': media1133 === true,
-    'content--744__p': media744 === true,
-    'content--744l__p': media744l === true,
-    'content--375__p': media375 === true,
-    'content--275__p': media275 === true,
-    'content--1300__p': media1300 === true,
-    'content--900__p': media900 === true,
-    'content--600__p': media600 === true,
-    'content--600l__p': media600l === true
-  });
-  var contentPReviewsClass = classnames_default()({
-    'content__p-reviews': media1728 === true,
-    'content--1133__p-reviews': media1133 === true,
-    'content--744__p-reviews': media744 === true,
-    'content--744l__p-reviews': media744l === true,
-    'content--375__p-reviews': media375 === true,
-    'content--275__p-reviews': media275 === true,
-    'content--1300__p-reviews': media1300 === true,
-    'content--900__p-reviews': media900 === true,
-    'content--600__p-reviews': media600 === true,
-    'content--600l__p-reviews': media600l === true
-  });
-  var contentIconsClass = classnames_default()({
-    'content__icons': media1728 === true,
-    'content--1133__icons': media1133 === true,
-    'content--744__icons': media744 === true,
-    'content--744l__icons': media744l === true,
-    'content--375__icons': media375 === true,
-    'content--275__icons': media275 === true,
-    'content--1300__icons': media1300 === true,
-    'content--900__icons': media900 === true,
-    'content--600__icons': media600 === true,
-    'content--600l__icons': media600l === true
-  });
-  var contentIconsReviewsClass = classnames_default()({
-    'content__icons-reviews': media1728 === true,
-    'content--1133__icons-reviews': media1133 === true,
-    'content--744__icons-reviews': media744 === true,
-    'content--744l__icons-reviews': media744l === true,
-    'content--375__icons-reviews': media375 === true,
-    'content--275__icons-reviews': media275 === true,
-    'content--1300__icons-reviews': media1300 === true,
-    'content--900__icons-reviews': media900 === true,
-    'content--600__icons-reviews': media600 === true,
-    'content--600l__icons-reviews': media600l === true
-  });
-  var contentIconClass = classnames_default()({
-    'content__icon': media1728 === true,
-    'content--1133__icon': media1133 === true,
-    'content--744__icon': media744 === true,
-    'content--744l__icon': media744l === true,
-    'content--375__icon': media375 === true,
-    'content--275__icon': media275 === true,
-    'content--1300__icon': media1300 === true,
-    'content--900__icon': media900 === true,
-    'content--600__icon': media600 === true,
-    'content--600l__icon': media600l === true
-  });
-  var contentLinkClass = classnames_default()({
-    'content__link': media1728 === true,
-    'content--1133__link': media1133 === true,
-    'content--744__link': media744 === true,
-    'content--744l__link': media744l === true,
-    'content--375__link': media375 === true,
-    'content--275__link': media275 === true,
-    'content--1300__link': media1300 === true,
-    'content--900__link': media900 === true,
-    'content--600__link': media600 === true,
-    'content--600l__link': media600l === true
-  });
-  var contentLinkReviewsClass = classnames_default()({
-    'content__link-reviews': media1728 === true,
-    'content--1133__link-reviews': media1133 === true,
-    'content--744__link-reviews': media744 === true,
-    'content--744l__link-reviews': media744l === true,
-    'content--375__link-reviews': media375 === true,
-    'content--275__link-reviews': media275 === true,
-    'content--1300__link-reviews': media1300 === true,
-    'content--900__link-reviews': media900 === true,
-    'content--600__link-reviews': media600 === true,
-    'content--600l__link-reviews': media600l === true
-  });
-  var contentImgClass = classnames_default()({
-    'content__img': media1728 === true,
-    'content--1133__img': media1133 === true,
-    'content--744__img': media744 === true,
-    'content--744l__img': media744l === true,
-    'content--375__img': media375 === true,
-    'content--275__img': media275 === true,
-    'content--1300__img': media1300 === true,
-    'content--900__img': media900 === true,
-    'content--600__img': media600 === true,
-    'content--600l__img': media600l === true
-  });
-  var contentImgWhatsappClass = classnames_default()({
-    'content__img-whatsapp': media1728 === true,
-    'content--1133__img-whatsapp': media1133 === true,
-    'content--744__img-whatsapp': media744 === true,
-    'content--744l__img-whatsapp': media744l === true,
-    'content--375__img-whatsapp': media375 === true,
-    'content--275__img-whatsapp': media275 === true,
-    'content--1300__img-whatsapp': media1300 === true,
-    'content--900__img-whatsapp': media900 === true,
-    'content--600__img-whatsapp': media600 === true,
-    'content--600l__img-whatsapp': media600l === true
-  });
-  var contentImgTelegramClass = classnames_default()({
-    'content__img-telegram': media1728 === true,
-    'content--1133__img-telegram': media1133 === true,
-    'content--744__img-telegram': media744 === true,
-    'content--744l__img-telegram': media744l === true,
-    'content--375__img-telegram': media375 === true,
-    'content--275__img-telegram': media275 === true,
-    'content--1300__img-telegram': media1300 === true,
-    'content--900__img-telegram': media900 === true,
-    'content--600__img-telegram': media600 === true,
-    'content--600l__img-telegram': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var contentReviewsClass = classnames_default()("content".concat(queryNumber, "__reviews"));
+  var reviewsClass = classnames_default()("reviews".concat(queryNumber));
+  var reviewsBodyClass = classnames_default()("reviews".concat(queryNumber, "__body"));
+  var reviewsContentClass = classnames_default()("reviews".concat(queryNumber, "__content"));
+  var reviewsBlockClass = classnames_default()("reviews".concat(queryNumber, "__block"));
+  var reviewsTitleClass = classnames_default()("reviews".concat(queryNumber, "__title"));
+  var reviewsTitleSubClass = classnames_default()("reviews".concat(queryNumber, "__title-sub"));
+  var reviewsPClass = classnames_default()("reviews".concat(queryNumber, "__p"));
+  var contentWranningClass = classnames_default()("content".concat(queryNumber, "__wranning"));
+  var contentWranningReviewsClass = classnames_default()("content".concat(queryNumber, "__wranning-reviews"));
+  var contentInnerClass = classnames_default()("content".concat(queryNumber, "__inner"));
+  var contentInnerReviewsClass = classnames_default()("content".concat(queryNumber, "__inner-reviews"));
+  var contentInnerIconsClass = classnames_default()("content".concat(queryNumber, "__inner-icons"));
+  var contentPClass = classnames_default()("content__p");
+  var contentPReviewsClass = classnames_default()("content".concat(queryNumber, "__p-reviews"));
+  var contentIconsClass = classnames_default()("content".concat(queryNumber, "__icons"));
+  var contentIconsReviewsClass = classnames_default()("content".concat(queryNumber, "__icons-reviews"));
+  var contentIconClass = classnames_default()("content".concat(queryNumber, "__icon"));
+  var contentLinkClass = classnames_default()("content".concat(queryNumber, "__link"));
+  var contentLinkReviewsClass = classnames_default()("content".concat(queryNumber, "__link-reviews"));
+  var contentImgClass = classnames_default()("content".concat(queryNumber, "__img"));
+  var contentImgWhatsappClass = classnames_default()("content".concat(queryNumber, "__img-whatsapp"));
+  var contentImgTelegramClass = classnames_default()("content".concat(queryNumber, "__img-telegram"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: contentReviewsClass
   }, /*#__PURE__*/react.createElement("div", {
@@ -12121,8 +5898,8 @@ var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
 var hooks = __webpack_require__(7597);
-// EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
-var funcQueryMedia = __webpack_require__(2622);
+// EXTERNAL MODULE: ./src/func/func_query_number/funcQueryNumber.js
+var funcQueryNumber = __webpack_require__(9868);
 // EXTERNAL MODULE: ./src/components/modals/modal/modal_close/index.js + 2 modules
 var modal_close = __webpack_require__(5662);
 // EXTERNAL MODULE: ./src/contexts/index.js
@@ -12149,90 +5926,15 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Modal = function Modal(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var popupClass = classnames_default()({
-    'popup': media1728 === true,
-    'popup--1133': media1133 === true,
-    'popup--744': media744 === true,
-    'popup--744l': media744l === true,
-    'popup--375': media375 === true,
-    'popup--275': media275 === true,
-    'popup--1300': media1300 === true,
-    'popup--900': media900 === true,
-    'popup--600': media600 === true,
-    'popup--600l': media600l === true
-  });
-  var popupContentClass = classnames_default()({
-    'popup__content': media1728 === true,
-    'popup--1133__content': media1133 === true,
-    'popup--744__content': media744 === true,
-    'popup--744l__content': media744l === true,
-    'popup--375__content': media375 === true,
-    'popup--275__content': media275 === true,
-    'popup--1300__content': media1300 === true,
-    'popup--900__content': media900 === true,
-    'popup--600__content': media600 === true,
-    'popup--600l__content': media600l === true
-  });
-  var contentClass = classnames_default()({
-    'content': media1728 === true,
-    'content--1133': media1133 === true,
-    'content--744': media744 === true,
-    'content--744l': media744l === true,
-    'content--375': media375 === true,
-    'content--275': media275 === true,
-    'content--1300': media1300 === true,
-    'content--900': media900 === true,
-    'content--600': media600 === true,
-    'content--600l': media600l === true
-  });
-  var contentBodyClass = classnames_default()({
-    'content__body': media1728 === true,
-    'content--1133__body': media1133 === true,
-    'content--744__body': media744 === true,
-    'content--744l__body': media744l === true,
-    'content--375__body': media375 === true,
-    'content--275__body': media275 === true,
-    'content--1300__body': media1300 === true,
-    'content--900__body': media900 === true,
-    'content--600__body': media600 === true,
-    'content--600l__body': media600l === true
-  });
-  var popupBodyHideClass = classnames_default()({
-    'popup__body-hide': media1728 === true,
-    'popup--1133__body-hide': media1133 === true,
-    'popup--744__body-hide': media744 === true,
-    'popup--744l__body-hide': media744l === true,
-    'popup--375__body-hide': media375 === true,
-    'popup--275__body-hide': media275 === true,
-    'popup--1300__body-hide': media1300 === true,
-    'popup--900__body-hide': media900 === true,
-    'popup--600__body-hide': media600 === true,
-    'popup--600l__body-hide': media600l === true
-  });
-  var popupHideClass = classnames_default()({
-    'popup-hide': media1728 === true,
-    'popup-hide--1133': media1133 === true,
-    'popup-hide--744': media744 === true,
-    'popup-hide--744l': media744l === true,
-    'popup-hide--375': media375 === true,
-    'popup-hide--275': media275 === true,
-    'popup-hide--1300': media1300 === true,
-    'popup-hide--900': media900 === true,
-    'popup-hide--600': media600 === true,
-    'popup-hide--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var popupClass = classnames_default()("popup".concat(queryNumber));
+  var popupContentClass = classnames_default()("popup".concat(queryNumber, "__content"));
+  var contentClass = classnames_default()("content".concat(queryNumber));
+  var contentBodyClass = classnames_default()("content".concat(queryNumber, "__body"));
+  var popupBodyHideClass = classnames_default()("popup".concat(queryNumber, "__body-hide"));
+  var popupHideClass = classnames_default()("popup-hide".concat(queryNumber));
 
   // useBodyScrollLock();
 
@@ -12394,6 +6096,8 @@ var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
 var funcQueryMedia = __webpack_require__(2622);
+// EXTERNAL MODULE: ./src/func/func_query_number/funcQueryNumber.js
+var funcQueryNumber = __webpack_require__(9868);
 // EXTERNAL MODULE: ./node_modules/gsap/index.js
 var gsap = __webpack_require__(738);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
@@ -12428,32 +6132,12 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
   var id = _ref.id,
     numberFirstSlideViewport = _ref.numberFirstSlideViewport;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var buttonViewportClass = classnames_default()({
-    'button-viewport': media1728 === true,
-    'button-viewport--1133': media1133 === true,
-    'button-viewport--744': media744 === true,
-    'button-viewport--744l': media744l === true,
-    'button-viewport--375': media375 === true,
-    'button-viewport--275': media275 === true,
-    'button-viewport--1300': media1300 === true,
-    'button-viewport--900': media900 === true,
-    'button-viewport--600': media600 === true,
-    'button-viewport--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var buttonViewportClass = classnames_default()("button-viewport".concat(queryNumber));
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
     handleChangeViewport = _useContext.handleChangeViewport;
@@ -12462,18 +6146,7 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
     isHoverButton = _useState2[0],
     setIsHoverButton = _useState2[1];
   var buttonRef = (0,react.useRef)(null);
-  var buttonAllClass = classnames_default()(buttonViewportClass, {
-    'button-viewport-hover': isHoverButton && media1728 === true,
-    'button-viewport-hover--1133': isHoverButton && media1133 === true,
-    'button-viewport-hover--744': isHoverButton && media744 === true,
-    'button-viewport-hover--744l': isHoverButton && media744l === true,
-    'button-viewport-hover--375': isHoverButton && media375 === true,
-    'button-viewport-hover--275': isHoverButton && media275 === true,
-    'button-viewport-hover--1300': isHoverButton && media1300 === true,
-    'button-viewport-hover--900': isHoverButton && media900 === true,
-    'button-viewport-hover--600': isHoverButton && media600 === true,
-    'button-viewport-hover--600l': isHoverButton && media600l === true
-  });
+  var buttonAllClass = classnames_default()(buttonViewportClass, "button-viewport-hover".concat(queryNumber));
   var handleButtonMouseEnter = function handleButtonMouseEnter() {
     setIsHoverButton(true);
   };
@@ -12504,55 +6177,13 @@ var SliderProcButtonsButton = function SliderProcButtonsButton(_ref) {
 
 
 
+
 var SliderProcButtons = function SliderProcButtons(_ref) {
   var typeButtons = _ref.typeButtons;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var buttonsViewportClass = classnames_default()({
-    'buttons-viewport': media1728 === true,
-    'buttons-viewport--1133': media1133 === true,
-    'buttons-viewport--744': media744 === true,
-    'buttons-viewport--744l': media744l === true,
-    'buttons-viewport--375': media375 === true,
-    'buttons-viewport--275': media275 === true,
-    'buttons-viewport--1300': media1300 === true,
-    'buttons-viewport--900': media900 === true,
-    'buttons-viewport--600': media600 === true,
-    'buttons-viewport--600l': media600l === true
-  });
-  var buttonsPreClass = classnames_default()({
-    'buttons-pre': media1728 === true,
-    'buttons-pre--1133': media1133 === true,
-    'buttons-pre--744': media744 === true,
-    'buttons-pre--744l': media744l === true,
-    'buttons-pre--375': media375 === true,
-    'buttons-pre--275': media275 === true,
-    'buttons-pre--1300': media1300 === true,
-    'buttons-pre--900': media900 === true,
-    'buttons-pre--600': media600 === true,
-    'buttons-pre--600l': media600l === true
-  });
-  var buttonsNextClass = classnames_default()({
-    'buttons-next': media1728 === true,
-    'buttons-next--1133': media1133 === true,
-    'buttons-next--744': media744 === true,
-    'buttons-next--744l': media744l === true,
-    'buttons-next--375': media375 === true,
-    'buttons-next--275': media275 === true,
-    'buttons-next--1300': media1300 === true,
-    'buttons-next--900': media900 === true,
-    'buttons-next--600': media600 === true,
-    'buttons-next--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var buttonsViewportClass = classnames_default()("buttons-viewport".concat(queryNumber));
+  var buttonsPreClass = classnames_default()("buttons-pre".concat(queryNumber));
+  var buttonsNextClass = classnames_default()("buttons-next".concat(queryNumber));
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
     countViewport = _useContext.countViewport,
@@ -12621,55 +6252,13 @@ var SliderProcButtons = function SliderProcButtons(_ref) {
 
 
 
+
 var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
   var number = _ref.number;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var dotsDotClass = classnames_default()({
-    'dots__dot': media1728 === true,
-    'dots--1133__dot': media1133 === true,
-    'dots--744__dot': media744 === true,
-    'dots--744l__dot': media744l === true,
-    'dots--375__dot': media375 === true,
-    'dots--275__dot': media275 === true,
-    'dots--1300__dot': media1300 === true,
-    'dots--900__dot': media900 === true,
-    'dots--600__dot': media600 === true,
-    'dots--600l__dot': media600l === true
-  });
-  var dotsDotProceduresClass = classnames_default()({
-    'dots__dot': media1728 === true,
-    'dots--1133__dot': media1133 === true,
-    'dots--744__dot': media744 === true,
-    'dots--744l__dot': media744l === true,
-    'dots--375__dot': media375 === true,
-    'dots--275__dot': media275 === true,
-    'dots--1300__dot': media1300 === true,
-    'dots--900__dot': media900 === true,
-    'dots--600__dot': media600 === true,
-    'dots--600l__dot': media600l === true
-  });
-  var dotsDotBodyClass = classnames_default()({
-    'dots__dot-body': media1728 === true,
-    'dots--1133__dot-body': media1133 === true,
-    'dots--744__dot-body': media744 === true,
-    'dots--744l__dot-body': media744l === true,
-    'dots--375__dot-body': media375 === true,
-    'dots--275__dot-body': media275 === true,
-    'dots--1300__dot-body': media1300 === true,
-    'dots--900__dot-body': media900 === true,
-    'dots--600__dot-body': media600 === true,
-    'dots--600l__dot-body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var dotsDotClass = classnames_default()("dots".concat(queryNumber, "__dot"));
+  var dotsDotProceduresClass = classnames_default()("dots".concat(queryNumber, "__dot"));
+  var dotsDotBodyClass = classnames_default()("dots".concat(queryNumber, "__dot-body"));
   gsap/* default */.Ay.registerPlugin(CSSPlugin/* CSSPlugin */.H0);
   var _useContext = (0,react.useContext)(ProcSliderContext),
     goToSlide = _useContext.goToSlide,
@@ -12717,54 +6306,12 @@ var SliderProcDotsDot = function SliderProcDotsDot(_ref) {
 
 
 
+
 var SliderProcDots = function SliderProcDots(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var dotsBodyClass = classnames_default()({
-    'dots__body': media1728 === true,
-    'dots--1133__body': media1133 === true,
-    'dots--744__body': media744 === true,
-    'dots--744l__body': media744l === true,
-    'dots--375__body': media375 === true,
-    'dots--275__body': media275 === true,
-    'dots--1300__body': media1300 === true,
-    'dots--900__body': media900 === true,
-    'dots--600__body': media600 === true,
-    'dots--600l__body': media600l === true
-  });
-  var dotsBodyProceduresClass = classnames_default()({
-    'dots__body-procedures': media1728 === true,
-    'dots--1133__body-procedures': media1133 === true,
-    'dots--744__body-procedures': media744 === true,
-    'dots--744l__body-procedures': media744l === true,
-    'dots--375__body-procedures': media375 === true,
-    'dots--275__body-procedures': media275 === true,
-    'dots--1300__body-procedures': media1300 === true,
-    'dots--900__body-procedures': media900 === true,
-    'dots--600__body-procedures': media600 === true,
-    'dots--600l__body-procedures': media600l === true
-  });
-  var dotsBodyBodyClass = classnames_default()({
-    'dots__body-body': media1728 === true,
-    'dots--1133__body-body': media1133 === true,
-    'dots--744__body-body': media744 === true,
-    'dots--744l__body-body': media744l === true,
-    'dots--375__body-body': media375 === true,
-    'dots--275__body-body': media275 === true,
-    'dots--1300__body-body': media1300 === true,
-    'dots--900__body-body': media900 === true,
-    'dots--600__body-body': media600 === true,
-    'dots--600l__body-body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var dotsBodyClass = classnames_default()("dots".concat(queryNumber, "__body"));
+  var dotsBodyProceduresClass = classnames_default()("dots".concat(queryNumber, "__body-procedures"));
+  var dotsBodyBodyClass = classnames_default()("dots".concat(queryNumber, "__body-body"));
   var _useContext = (0,react.useContext)(ProcSliderContext),
     countSlides = _useContext.countSlides,
     countFirstSlideViewport = _useContext.countFirstSlideViewport,
@@ -12829,6 +6376,7 @@ function ProcSliderContextProvider_arrayWithHoles(r) { if (Array.isArray(r)) ret
 
 
 
+
 var delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
@@ -12846,162 +6394,20 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderClass = classnames_default()({
-    'slider': media1728 === true,
-    'slider--1133': media1133 === true,
-    'slider--744': media744 === true,
-    'slider--744l': media744l === true,
-    'slider--375': media375 === true,
-    'slider--275': media275 === true,
-    'slider--1300': media1300 === true,
-    'slider--900': media900 === true,
-    'slider--600': media600 === true,
-    'slider--600l': media600l === true
-  });
-  var sliderProceduresClass = classnames_default()({
-    'slider-procedures': media1728 === true,
-    'slider-procedures--1133': media1133 === true,
-    'slider-procedures--744': media744 === true,
-    'slider-procedures--744l': media744l === true,
-    'slider-procedures--375': media375 === true,
-    'slider-procedures--275': media275 === true,
-    'slider-procedures--1300': media1300 === true,
-    'slider-procedures--900': media900 === true,
-    'slider-procedures--600': media600 === true,
-    'slider-procedures--600l': media600l === true
-  });
-  var sliderBodyClass = classnames_default()({
-    'slider-body': media1728 === true,
-    'slider-body--1133': media1133 === true,
-    'slider-body--744': media744 === true,
-    'slider-body--744l': media744l === true,
-    'slider-body--375': media375 === true,
-    'slider-body--275': media275 === true,
-    'slider-body--1300': media1300 === true,
-    'slider-body--900': media900 === true,
-    'slider-body--600': media600 === true,
-    'slider-body--600l': media600l === true
-  });
-  var sliderSlideClass = classnames_default()({
-    'slider__slide': media1728 === true,
-    'slider--1133__slide': media1133 === true,
-    'slider--744__slide': media744 === true,
-    'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true,
-    'slider--1300__slide': media1300 === true,
-    'slider--900__slide': media900 === true,
-    'slider--600__slide': media600 === true,
-    'slider--600l__slide': media600l === true
-  });
-  var sliderSlideProceduresClass = classnames_default()({
-    'slider__slide-procedures': media1728 === true,
-    'slider--1133__slide-procedures': media1133 === true,
-    'slider--744__slide-procedures': media744 === true,
-    'slider--744l__slide-procedures': media744l === true,
-    'slider--375__slide-procedures': media375 === true,
-    'slider--275__slide-procedures': media275 === true,
-    'slider--1300__slide-procedures': media1300 === true,
-    'slider--900__slide-procedures': media900 === true,
-    'slider--600__slide-procedures': media600 === true,
-    'slider--600l__slide-procedures': media600l === true
-  });
-  var sliderSlideBodyActiveClass = classnames_default()({
-    'slider__slide-body-active': media1728 === true,
-    'slider--1133__slide-body-active': media1133 === true,
-    'slider--744__slide-body-active': media744 === true,
-    'slider--744l__slide-body-active': media744l === true,
-    'slider--375__slide-body-active': media375 === true,
-    'slider--275__slide-body-active': media275 === true,
-    'slider--1300__slide-body-active': media1300 === true,
-    'slider--900__slide-body-active': media900 === true,
-    'slider--600__slide-body-active': media600 === true,
-    'slider--600l__slide-body-active': media600l === true
-  });
-  var sliderLinkClass = classnames_default()({
-    'slider__link': media1728 === true,
-    'slider--1133__link': media1133 === true,
-    'slider--744__link': media744 === true,
-    'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true,
-    'slider--1300__link': media1300 === true,
-    'slider--900__link': media900 === true,
-    'slider--600__link': media600 === true,
-    'slider--600l__link': media600l === true
-  });
-  var sliderLinkProceduresClass = classnames_default()({
-    'slider__link-procedures': media1728 === true,
-    'slider--1133__link-procedures': media1133 === true,
-    'slider--744__link-procedures': media744 === true,
-    'slider--744l__link-procedures': media744l === true,
-    'slider--375__link-procedures': media375 === true,
-    'slider--275__link-procedures': media275 === true,
-    'slider--1300__link-procedures': media1300 === true,
-    'slider--900__link-procedures': media900 === true,
-    'slider--600__link-procedures': media600 === true,
-    'slider--600l__link-procedures': media600l === true
-  });
-  var sliderCardClass = classnames_default()({
-    'slider__card': media1728 === true,
-    'slider--1133__card': media1133 === true,
-    'slider--744__card': media744 === true,
-    'slider--744l__card': media744l === true,
-    'slider--375__card': media375 === true,
-    'slider--275__card': media275 === true,
-    'slider--1300__card': media1300 === true,
-    'slider--900__card': media900 === true,
-    'slider--600__card': media600 === true,
-    'slider--600l__card': media600l === true
-  });
-  var sliderCardProceduresClass = classnames_default()({
-    'slider__card-procedures': media1728 === true,
-    'slider--1133__card-procedures': media1133 === true,
-    'slider--744__card-procedures': media744 === true,
-    'slider--744l__card-procedures': media744l === true,
-    'slider--375__card-procedures': media375 === true,
-    'slider--275__card-procedures': media275 === true,
-    'slider--1300__card-procedures': media1300 === true,
-    'slider--900__card-procedures': media900 === true,
-    'slider--600__card-procedures': media600 === true,
-    'slider--600l__card-procedures': media600l === true
-  });
-  var buttonsClass = classnames_default()({
-    'buttons': media1728 === true,
-    'buttons--1133': media1133 === true,
-    'buttons--744': media744 === true,
-    'buttons--744l': media744l === true,
-    'buttons--375': media375 === true,
-    'buttons--275': media275 === true,
-    'buttons--1300': media1300 === true,
-    'buttons--900': media900 === true,
-    'buttons--600': media600 === true,
-    'buttons--600l': media600l === true
-  });
-  var dotsClass = classnames_default()({
-    'dots': media1728 === true,
-    'dots--1133': media1133 === true,
-    'dots--744': media744 === true,
-    'dots--744l': media744l === true,
-    'dots--375': media375 === true,
-    'dots--275': media275 === true,
-    'dots--1300': media1300 === true,
-    'dots--900': media900 === true,
-    'dots--600': media600 === true,
-    'dots--600l': media600l === true
-  });
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderClass = classnames_default()("slider".concat(queryNumber));
+  var sliderProceduresClass = classnames_default()("slider-procedures".concat(queryNumber));
+  var sliderBodyClass = classnames_default()("slider-body".concat(queryNumber));
+  var sliderSlideClass = classnames_default()("slider".concat(queryNumber, "__slide"));
+  var sliderSlideProceduresClass = classnames_default()("slider".concat(queryNumber, "__slide-procedures"));
+  var sliderSlideBodyActiveClass = classnames_default()("slider".concat(queryNumber, "__slide-body-active"));
+  var sliderLinkClass = classnames_default()("slider".concat(queryNumber, "__link"));
+  var sliderLinkProceduresClass = classnames_default()("slider".concat(queryNumber, "__link-procedures"));
+  var sliderCardClass = classnames_default()("slider".concat(queryNumber, "__card}"));
+  var sliderCardProceduresClass = classnames_default()("slider".concat(queryNumber, "__card-procedures"));
+  var buttonsClass = classnames_default()("buttons".concat(queryNumber));
+  var dotsClass = classnames_default()("dots".concat(queryNumber));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var _useState = (0,react.useState)([]),
     _useState2 = ProcSliderContextProvider_slicedToArray(_useState, 2),
     items = _useState2[0],
@@ -13072,7 +6478,14 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   // const countSlides = 4;
 
   var countSlides;
-  media1728 === true ? countSlides = 4 : media1300 === true ? countSlides = 3 : media1133 === true ? countSlides = 3 : media900 === true ? countSlides = 3 : media744 === true ? countSlides = 3 : media744l === true ? countSlides = 3 : media600 === true ? countSlides = 2 : media600l === true ? countSlides = 2 : media375 === true ? countSlides = 2 : media275 === true ? countSlides = 2 : null;
+  media1728 === true ? countSlides = 4 : media1300 === true ? countSlides = 3 : media1133 === true ? countSlides = 3 : media900 === true ? countSlides = 3 : null;
+  // (media744 === true) ? countSlides = 3 :
+  //     (media744l === true) ? countSlides = 3 :
+  //         (media600 === true) ? countSlides = 2 :
+  //             (media600l === true) ? countSlides = 2 :
+  //                 (media375 === true) ? countSlides = 2 :
+  //                     (media275 === true) ? countSlides = 2 : null;
+
   var _useContext = (0,react.useContext)(ModalContext/* ModalContext */.V),
     openModal = _useContext.openModal,
     closeModal = _useContext.closeModal,
@@ -13117,7 +6530,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
   };
   var sliderDefault = function sliderDefault() {
     var current;
-    media1728 === true ? current = '.slider__slide-body-active' : media1300 === true ? current = '.slider--1300__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : null;
+    media1728 === true ? current = '.slider--1728__slide-body-active' : media1300 === true ? current = '.slider--1300__slide-body-active' : media1133 === true ? current = '.slider--1133__slide-body-active' : null;
     // let current = '.slider__slide-body-active';
     animationSliderDefault(current);
   };
@@ -13211,7 +6624,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     });
   };
   var animationButtonsViewport = function animationButtonsViewport() {
-    gsap/* default */.Ay.timeline().to('.buttons-viewport', {
+    gsap/* default */.Ay.timeline().to(".buttons-viewport".concat(queryNumber), {
       opacity: 0,
       blur: 1,
       scale: 0,
@@ -13219,7 +6632,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       onComplete: function onComplete() {
         setCountFirstSlideViewport(slide);
       }
-    }).to('.buttons-viewport', {
+    }).to(".buttons-viewport".concat(queryNumber), {
       opacity: 1,
       blur: 0,
       scale: 1,
@@ -13227,7 +6640,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     });
   };
   var animationSliderViewport = function animationSliderViewport(current, offsetX, duration, delay) {
-    gsap/* default */.Ay.timeline().to('.buttons-viewport', {
+    gsap/* default */.Ay.timeline().to(".buttons-viewport".concat(queryNumber), {
       opacity: 0,
       blur: 1,
       scale: 0,
@@ -13241,7 +6654,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       translateX: offsetX,
       duration: duration,
       delay: delay
-    }).to('.buttons-viewport', {
+    }).to(".buttons-viewport".concat(queryNumber), {
       opacity: 1,
       blur: 0,
       scale: 1,
@@ -13249,7 +6662,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
     });
   };
   var animationSliderViewportHandle = function animationSliderViewportHandle(current, offsetX, duration, delay) {
-    gsap/* default */.Ay.timeline().to('.buttons-viewport', {
+    gsap/* default */.Ay.timeline().to(".buttons-viewport".concat(queryNumber), {
       opacity: 0,
       blur: 1,
       scale: 0,
@@ -13258,7 +6671,7 @@ var ProcSliderProvider = function ProcSliderProvider(props) {
       translateX: offsetX,
       duration: duration,
       delay: delay
-    }).to('.buttons-viewport', {
+    }).to(".buttons-viewport".concat(queryNumber), {
       opacity: 1,
       blur: 0,
       scale: 1,
@@ -13677,6 +7090,56 @@ var funcQueryMedia = function funcQueryMedia() {
   };
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryMedia);
+
+/***/ }),
+
+/***/ 9868:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
+/* harmony import */ var _hooks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7597);
+
+
+var funcQueryNumber = function funcQueryNumber() {
+  var queryMedia = {
+    query1728: "screen and (min-width: 1728px)",
+    query1300: "screen and (min-width: 1300px) and (max-width: 1727px)",
+    query1133: "screen and (min-width: 1133px) and (max-width: 1299px)",
+    query900: "screen and (min-width: 900px) and (max-width: 1132px)",
+    query744: "screen and (min-width: 744px) and (max-width: 899px) and (orientation: portrait)",
+    // query744: "screen and (min-width: 744px) and (max-width: 899px) and (min-height: 745px)",
+    query744l: "screen and (min-width: 744px) and (max-width: 899px) and (orientation: landscape)",
+    // query744l: "screen and (min-width: 744px) and (max-width: 899px) and (max-height: 744px)",
+    query600: "screen and (min-width: 600px) and (max-width: 743px) and (orientation: portrait)",
+    // query600: "screen and (min-width: 600px) and (max-width: 743px) and (min-height: 601px)",
+    query600l: "screen and (min-width: 600px) and (max-width: 743px) and (orientation: landscape)",
+    // query600l: "screen and (min-width: 600px) and (max-width: 743px) and (max-height: 600px)",
+    query375: "screen and (min-width: 375px) and (max-width: 599px) and (orientation: portrait)",
+    // query375: "screen and (min-width: 375px) and (max-width: 599px)",
+    query275: "screen and (min-width: 275px) and (max-width: 374px) and (orientation: portrait)",
+    // query275: "screen and (min-width: 275px) and (max-width: 374px)",
+    portrait: "orientation: portrait",
+    landscape: "orientation: landscape"
+  };
+  var media1728 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query1728);
+  var media1133 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query1133);
+  var media744 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query744);
+  var media744l = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query744l);
+  var media375 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query375);
+  var media275 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query275);
+  var media1300 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query1300);
+  var media900 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query900);
+  var media600 = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query600);
+  var media600l = (0,_hooks__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .Ub)(queryMedia.query600l);
+  var queryNumber = '';
+  media1728 === true ? queryNumber = '--1728' : media1300 === true ? queryNumber = '--1300' : media1133 === true ? queryNumber = '--1133' : media900 === true ? queryNumber = '--900' : media744 === true ? queryNumber = '--744' : media744l === true ? queryNumber = '--744l' : media600 === true ? queryNumber = '--600' : media600l === true ? queryNumber = '--600l' : media375 === true ? queryNumber = '--375' : media275 === true ? queryNumber = '--275' : null;
+  return queryNumber;
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (funcQueryNumber);
 
 /***/ }),
 
@@ -37252,7 +30715,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"f04318d7dbfe36b83ef3"}[chunkId] + ".js";
+/******/ 			return "index." + {"47":"924f16adb3ba20bb31f6","624":"97a7c7814e54e52956eb"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -37261,7 +30724,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]'
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + "173f1dde75429a24e026" + ".css";
+/******/ 			return "" + chunkId + "." + "a1ffec608b415117684c" + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -37548,6 +31011,71 @@ var __webpack_exports__ = {};
 var react = __webpack_require__(6540);
 // EXTERNAL MODULE: ./node_modules/react-dom/client.js
 var client = __webpack_require__(5338);
+;// ./node_modules/react-use/esm/misc/util.js
+var noop = function () { };
+function on(obj) {
+    var args = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    if (obj && obj.addEventListener) {
+        obj.addEventListener.apply(obj, args);
+    }
+}
+function off(obj) {
+    var args = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    if (obj && obj.removeEventListener) {
+        obj.removeEventListener.apply(obj, args);
+    }
+}
+var isBrowser = typeof window !== 'undefined';
+var isNavigator = typeof navigator !== 'undefined';
+
+;// ./node_modules/react-use/esm/useOrientation.js
+
+
+var defaultState = {
+    angle: 0,
+    type: 'landscape-primary',
+};
+var useOrientation = function (initialState) {
+    if (initialState === void 0) { initialState = defaultState; }
+    var _a = (0,react.useState)(initialState), state = _a[0], setState = _a[1];
+    (0,react.useEffect)(function () {
+        var screen = window.screen;
+        var mounted = true;
+        var onChange = function () {
+            if (mounted) {
+                var orientation_1 = screen.orientation;
+                if (orientation_1) {
+                    var angle = orientation_1.angle, type = orientation_1.type;
+                    setState({ angle: angle, type: type });
+                }
+                else if (window.orientation !== undefined) {
+                    setState({
+                        angle: typeof window.orientation === 'number' ? window.orientation : 0,
+                        type: '',
+                    });
+                }
+                else {
+                    setState(initialState);
+                }
+            }
+        };
+        on(window, 'orientationchange', onChange);
+        onChange();
+        return function () {
+            mounted = false;
+            off(window, 'orientationchange', onChange);
+        };
+    }, []);
+    return state;
+};
+/* harmony default export */ const esm_useOrientation = (useOrientation);
+
 // EXTERNAL MODULE: ./node_modules/react-use-scroll-direction/dist/react-use-scroll-direction.esm.js
 var react_use_scroll_direction_esm = __webpack_require__(3681);
 // EXTERNAL MODULE: ./src/hooks/index.js + 11 modules
@@ -37997,6 +31525,8 @@ var CSSPlugin = __webpack_require__(2650);
 // EXTERNAL MODULE: ./node_modules/classnames/index.js
 var classnames = __webpack_require__(6942);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./src/func/func_query_number/funcQueryNumber.js
+var funcQueryNumber = __webpack_require__(9868);
 // EXTERNAL MODULE: ./src/func/func_query_media/funcQueryMedia.js
 var funcQueryMedia = __webpack_require__(2622);
 // EXTERNAL MODULE: ./src/contexts/ModalContext/index.js + 5 modules
@@ -38066,6 +31596,7 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var SliderCert = function SliderCert(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -38078,114 +31609,17 @@ var SliderCert = function SliderCert(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderCertificatesClass = classnames_default()({
-    'slider-certificates': media1728 === true,
-    'slider-certificates--1133': media1133 === true,
-    'slider-certificates--744': media744 === true,
-    'slider-certificates--744l': media744l === true,
-    'slider-certificates--375': media375 === true,
-    'slider-certificates--275': media275 === true,
-    'slider-certificates--1300': media1300 === true,
-    'slider-certificates--900': media900 === true,
-    'slider-certificates--600': media600 === true,
-    'slider-certificates--600l': media600l === true
-  });
-  var sliderSlideClass = classnames_default()({
-    'slider__slide': media1728 === true,
-    'slider--1133__slide': media1133 === true,
-    'slider--744__slide': media744 === true,
-    'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true,
-    'slider--1300__slide': media1300 === true,
-    'slider--900__slide': media900 === true,
-    'slider--600__slide': media600 === true,
-    'slider--600l__slide': media600l === true
-  });
-  var sliderSlideCertificatesClass = classnames_default()({
-    'slider__slide-certificates': media1728 === true,
-    'slider--1133__slide-certificates': media1133 === true,
-    'slider--744__slide-certificates': media744 === true,
-    'slider--744l__slide-certificates': media744l === true,
-    'slider--375__slide-certificates': media375 === true,
-    'slider--275__slide-certificates': media275 === true,
-    'slider--1300__slide-certificates': media1300 === true,
-    'slider--900__slide-certificates': media900 === true,
-    'slider--600__slide-certificates': media600 === true,
-    'slider--600l__slide-certificates': media600l === true
-  });
-  var sliderSlideCertificatesMobileClass = classnames_default()({
-    'slider__slide-certificates-mobile': media1728 === true,
-    'slider--1133__slide-certificates-mobile': media1133 === true,
-    'slider--744__slide-certificates-mobile': media744 === true,
-    'slider--744l__slide-certificates-mobile': media744l === true,
-    'slider--375__slide-certificates-mobile': media375 === true,
-    'slider--275__slide-certificates-mobile': media275 === true,
-    'slider--1300__slide-certificates-mobile': media1300 === true,
-    'slider--900__slide-certificates-mobile': media900 === true,
-    'slider--600__slide-certificates-mobile': media600 === true,
-    'slider--600l__slide-certificates-mobile': media600l === true
-  });
-  var sliderSlideCertificatesActiveClass = classnames_default()({
-    'slider__slide-certificates-active': media1728 === true,
-    'slider--1133__slide-certificates-active': media1133 === true,
-    'slider--744__slide-certificates-active': media744 === true,
-    'slider--744l__slide-certificates-active': media744l === true,
-    'slider--375__slide-certificates-active': media375 === true,
-    'slider--275__slide-certificates-active': media275 === true,
-    'slider--1300__slide-certificates-active': media1300 === true,
-    'slider--900__slide-certificates-active': media900 === true,
-    'slider--600__slide-certificates-active': media600 === true,
-    'slider--600l__slide-certificates-active': media600l === true
-  });
-  var sliderLinkClass = classnames_default()({
-    'slider__link': media1728 === true,
-    'slider--1133__link': media1133 === true,
-    'slider--744__link': media744 === true,
-    'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true,
-    'slider--1300__link': media1300 === true,
-    'slider--900__link': media900 === true,
-    'slider--600__link': media600 === true,
-    'slider--600l__link': media600l === true
-  });
-  var sliderLinkCertificatesClass = classnames_default()({
-    'slider__link-certificates': media1728 === true,
-    'slider--1133__link-certificates': media1133 === true,
-    'slider--744__link-certificates': media744 === true,
-    'slider--744l__link-certificates': media744l === true,
-    'slider--375__link-certificates': media375 === true,
-    'slider--275__link-certificates': media275 === true,
-    'slider--1300__link-certificates': media1300 === true,
-    'slider--900__link-certificates': media900 === true,
-    'slider--600__link-certificates': media600 === true,
-    'slider--600l__link-certificates': media600l === true
-  });
-  var sliderCardClass = classnames_default()({
-    'slider__card': media1728 === true,
-    'slider--1133__card': media1133 === true,
-    'slider--744__card': media744 === true,
-    'slider--744l__card': media744l === true,
-    'slider--375__card': media375 === true,
-    'slider--275__card': media275 === true,
-    'slider--1300__card': media1300 === true,
-    'slider--900__card': media900 === true,
-    'slider--600__card': media600 === true,
-    'slider--600l__card': media600l === true
-  });
-  var sliderCardCertificatesClass = classnames_default()({
-    'slider__card-certificates': media1728 === true,
-    'slider--1133__card-certificates': media1133 === true,
-    'slider--744__card-certificates': media744 === true,
-    'slider--744l__card-certificates': media744l === true,
-    'slider--375__card-certificates': media375 === true,
-    'slider--275__card-certificates': media275 === true,
-    'slider--1300__card-certificates': media1300 === true,
-    'slider--900__card-certificates': media900 === true,
-    'slider--600__card-certificates': media600 === true,
-    'slider--600l__card-certificates': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderCertificatesClass = classnames_default()("slider-certificates".concat(queryNumber));
+  var sliderSlideClass = classnames_default()("slider".concat(queryNumber, "__slide"));
+  var sliderSlideCertificatesClass = classnames_default()("slider".concat(queryNumber, "__slide-certificates"));
+  var sliderSlideCertificatesMobileClass = classnames_default()("slider".concat(queryNumber, "__slide-certificates-mobile"));
+  var sliderSlideCertificatesActiveClass = classnames_default()("slider".concat(queryNumber, "__slide-certificates-active"));
+  var sliderLinkClass = classnames_default()("slider".concat(queryNumber, "__link"));
+  var sliderLinkCertificatesClass = classnames_default()("slider".concat(queryNumber, "__link-certificates"));
+  var sliderCardClass = classnames_default()("slider".concat(queryNumber, "__card"));
+  var sliderCardCertificatesClass = classnames_default()("slider".concat(queryNumber, "__card-certificates"));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var images = [certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11, certificate12, certificate13];
   var _useState = (0,react.useState)([]),
     _useState2 = _slicedToArray(_useState, 2),
@@ -38231,18 +31665,6 @@ var SliderCert = function SliderCert(props) {
     openModal = _useContext.openModal,
     stopSliderProcCert = _useContext.stopSliderProcCert,
     autoPlaySliderProcCert = _useContext.autoPlaySliderProcCert;
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
   var modalId = 'popup-';
   var modalBodyClassName = "".concat(popupBodyClass, " ").concat(popupBodyClass, "-");
   // const modalBodyClassName = 'popup__body popup__body-';
@@ -38477,60 +31899,12 @@ function Certificates_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Certificates = function Certificates() {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var queryNumber = '';
-  media1728 === true ? queryNumber = '' : media1300 === true ? queryNumber = '--1300' : media1133 === true ? queryNumber = '--1133' : media900 === true ? queryNumber = '--900' : media744 === true ? queryNumber = '--744' : media744l === true ? queryNumber = '--744l' : media600 === true ? queryNumber = '--600' : media600l === true ? queryNumber = '--600l' : media375 === true ? queryNumber = '--375' : media275 === true ? queryNumber = '--275' : null;
-  var classCertificates = "certificates".concat(queryNumber);
-  var certificatesClass = classnames_default()(classCertificates);
-
-  // const certificatesClass = classNames({
-  //     'certificates': media1728 === true,
-  //     'certificates--1133': media1133 === true,
-  //     'certificates--744': media744 === true,
-  //     'certificates--744l': media744l === true,
-  //     'certificates--375': media375 === true,
-  //     'certificates--275': media275 === true,
-  //     'certificates--1300': media1300 === true,
-  //     'certificates--900': media900 === true,
-  //     'certificates--600': media600 === true,
-  //     'certificates--600l': media600l === true,
-  // });
-
-  var containerCertificatesClass = classnames_default()({
-    'container-certificates': media1728 === true,
-    'container-certificates--1133': media1133 === true,
-    'container-certificates--744': media744 === true,
-    'container-certificates--744l': media744l === true,
-    'container-certificates--375': media375 === true,
-    'container-certificates--275': media275 === true,
-    'container-certificates--1300': media1300 === true,
-    'container-certificates--900': media900 === true,
-    'container-certificates--600': media600 === true,
-    'container-certificates--600l': media600l === true
-  });
-  var certificatesSliderClass = classnames_default()({
-    'certificates__slider': media1728 === true,
-    'certificates--1133__slider': media1133 === true,
-    'certificates--744__slider': media744 === true,
-    'certificates--744l__slider': media744l === true,
-    'certificates--375__slider': media375 === true,
-    'certificates--275__slider': media275 === true,
-    'certificates--1300__slider': media1300 === true,
-    'certificates--900__slider': media900 === true,
-    'certificates--600__slider': media600 === true,
-    'certificates--600l__slider': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var certificatesClass = classnames_default()("certificates".concat(queryNumber));
+  var containerCertificatesClass = classnames_default()("container-certificates".concat(queryNumber));
+  var certificatesSliderClass = classnames_default()("certificates".concat(queryNumber, "__slider"));
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
   var sliderCert = (0,react.useRef)();
@@ -38590,6 +31964,7 @@ function Companies_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Companies = function Companies(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -38602,414 +31977,41 @@ var Companies = function Companies(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var companiesClass = classnames_default()({
-    'companies': media1728 === true,
-    'companies--1133': media1133 === true,
-    'companies--744': media744 === true,
-    'companies--744l': media744l === true,
-    'companies--375': media375 === true,
-    'companies--275': media275 === true,
-    'companies--1300': media1300 === true,
-    'companies--900': media900 === true,
-    'companies--600': media600 === true,
-    'companies--600l': media600l === true
-  });
-  var containerClass = classnames_default()({
-    'container': media1728 === true,
-    'container--1133': media1133 === true,
-    'container--744': media744 === true,
-    'container--744l': media744l === true,
-    'container--375': media375 === true,
-    'container--275': media275 === true,
-    'container--1300': media1300 === true,
-    'container--900': media900 === true,
-    'container--600': media600 === true,
-    'container--600l': media600l === true
-  });
-  var containerCompaniesClass = classnames_default()({
-    'container-companies': media1728 === true,
-    'container-companies--1133': media1133 === true,
-    'container-companies--744': media744 === true,
-    'container-companies--744l': media744l === true,
-    'container-companies--375': media375 === true,
-    'container-companies--275': media275 === true,
-    'container-companies--1300': media1300 === true,
-    'container-companies--900': media900 === true,
-    'container-companies--600': media600 === true,
-    'container-companies--600l': media600l === true
-  });
-  var companiesListClass = classnames_default()({
-    'companies__list': media1728 === true,
-    'companies--1133__list': media1133 === true,
-    'companies--744__list': media744 === true,
-    'companies--744l__list': media744l === true,
-    'companies--375__list': media375 === true,
-    'companies--275__list': media275 === true,
-    'companies--1300__list': media1300 === true,
-    'companies--900__list': media900 === true,
-    'companies--600__list': media600 === true,
-    'companies--600l__list': media600l === true
-  });
-  var companiesItemClass = classnames_default()({
-    'companies__item': media1728 === true,
-    'companies--1133__item': media1133 === true,
-    'companies--744__item': media744 === true,
-    'companies--744l__item': media744l === true,
-    'companies--375__item': media375 === true,
-    'companies--275__item': media275 === true,
-    'companies--1300__item': media1300 === true,
-    'companies--900__item': media900 === true,
-    'companies--600__item': media600 === true,
-    'companies--600l__item': media600l === true
-  });
-  var companiesItemMychwayClass = classnames_default()({
-    'companies__item-mychway': media1728 === true,
-    'companies--1133__item-mychway': media1133 === true,
-    'companies--744__item-mychway': media744 === true,
-    'companies--744l__item-mychway': media744l === true,
-    'companies--375__item-mychway': media375 === true,
-    'companies--275__item-mychway': media275 === true,
-    'companies--1300__item-mychway': media1300 === true,
-    'companies--900__item-mychway': media900 === true,
-    'companies--600__item-mychway': media600 === true,
-    'companies--600l__item-mychway': media600l === true
-  });
-  var companiesFrameClass = classnames_default()({
-    'companies__frame': media1728 === true,
-    'companies--1133__frame': media1133 === true,
-    'companies--744__frame': media744 === true,
-    'companies--744l__frame': media744l === true,
-    'companies--375__frame': media375 === true,
-    'companies--275__frame': media275 === true,
-    'companies--1300__frame': media1300 === true,
-    'companies--900__frame': media900 === true,
-    'companies--600__frame': media600 === true,
-    'companies--600l__frame': media600l === true
-  });
-  var companiesFrameMychwayClass = classnames_default()({
-    'companies__frame-mychway': media1728 === true,
-    'companies--1133__frame-mychway': media1133 === true,
-    'companies--744__frame-mychway': media744 === true,
-    'companies--744l__frame-mychway': media744l === true,
-    'companies--375__frame-mychway': media375 === true,
-    'companies--275__frame-mychway': media275 === true,
-    'companies--1300__frame-mychway': media1300 === true,
-    'companies--900__frame-mychway': media900 === true,
-    'companies--600__frame-mychway': media600 === true,
-    'companies--600l__frame-mychway': media600l === true
-  });
-  var companiesGroupClass = classnames_default()({
-    'companies__group': media1728 === true,
-    'companies--1133__group': media1133 === true,
-    'companies--744__group': media744 === true,
-    'companies--744l__group': media744l === true,
-    'companies--375__group': media375 === true,
-    'companies--275__group': media275 === true,
-    'companies--1300__group': media1300 === true,
-    'companies--900__group': media900 === true,
-    'companies--600__group': media600 === true,
-    'companies--600l__group': media600l === true
-  });
-  var companiesGroupMychwayClass = classnames_default()({
-    'companies__group-mychway': media1728 === true,
-    'companies--1133__group-mychway': media1133 === true,
-    'companies--744__group-mychway': media744 === true,
-    'companies--744l__group-mychway': media744l === true,
-    'companies--375__group-mychway': media375 === true,
-    'companies--275__group-mychway': media275 === true,
-    'companies--1300__group-mychway': media1300 === true,
-    'companies--900__group-mychway': media900 === true,
-    'companies--600__group-mychway': media600 === true,
-    'companies--600l__group-mychway': media600l === true
-  });
-  var companiesItemAuroClass = classnames_default()({
-    'companies__item-auro': media1728 === true,
-    'companies--1133__item-auro': media1133 === true,
-    'companies--744__item-auro': media744 === true,
-    'companies--744l__item-auro': media744l === true,
-    'companies--375__item-auro': media375 === true,
-    'companies--275__item-auro': media275 === true,
-    'companies--1300__item-auro': media1300 === true,
-    'companies--900__item-auro': media900 === true,
-    'companies--600__item-auro': media600 === true,
-    'companies--600l__item-auro': media600l === true
-  });
-  var companiesItemSalonartClass = classnames_default()({
-    'companies__item-salonart': media1728 === true,
-    'companies--1133__item-salonart': media1133 === true,
-    'companies--744__item-salonart': media744 === true,
-    'companies--744l__item-salonart': media744l === true,
-    'companies--375__item-salonart': media375 === true,
-    'companies--275__item-salonart': media275 === true,
-    'companies--1300__item-salonart': media1300 === true,
-    'companies--900__item-salonart': media900 === true,
-    'companies--600__item-salonart': media600 === true,
-    'companies--600l__item-salonart': media600l === true
-  });
-  var companiesItemVibroClass = classnames_default()({
-    'companies__item-vibro': media1728 === true,
-    'companies--1133__item-vibro': media1133 === true,
-    'companies--744__item-vibro': media744 === true,
-    'companies--744l__item-vibro': media744l === true,
-    'companies--375__item-vibro': media375 === true,
-    'companies--275__item-vibro': media275 === true,
-    'companies--1300__item-vibro': media1300 === true,
-    'companies--900__item-vibro': media900 === true,
-    'companies--600__item-vibro': media600 === true,
-    'companies--600l__item-vibro': media600l === true
-  });
-  var companiesItemDrceuracleClass = classnames_default()({
-    'companies__item-drceuracle': media1728 === true,
-    'companies--1133__item-drceuracle': media1133 === true,
-    'companies--744__item-drceuracle': media744 === true,
-    'companies--744l__item-drceuracle': media744l === true,
-    'companies--375__item-drceuracle': media375 === true,
-    'companies--275__item-drceuracle': media275 === true,
-    'companies--1300__item-drceuracle': media1300 === true,
-    'companies--900__item-drceuracle': media900 === true,
-    'companies--600__item-drceuracle': media600 === true,
-    'companies--600l__item-drceuracle': media600l === true
-  });
-  var companiesFrameAuroClass = classnames_default()({
-    'companies__frame-auro': media1728 === true,
-    'companies--1133__frame-auro': media1133 === true,
-    'companies--744__frame-auro': media744 === true,
-    'companies--744l__frame-auro': media744l === true,
-    'companies--375__frame-auro': media375 === true,
-    'companies--275__frame-auro': media275 === true,
-    'companies--1300__frame-auro': media1300 === true,
-    'companies--900__frame-auro': media900 === true,
-    'companies--600__frame-auro': media600 === true,
-    'companies--600l__frame-auro': media600l === true
-  });
-  var companiesFrameSalonartClass = classnames_default()({
-    'companies__frame-salonart': media1728 === true,
-    'companies--1133__frame-salonart': media1133 === true,
-    'companies--744__frame-salonart': media744 === true,
-    'companies--744l__frame-salonart': media744l === true,
-    'companies--375__frame-salonart': media375 === true,
-    'companies--275__frame-salonart': media275 === true,
-    'companies--1300__frame-salonart': media1300 === true,
-    'companies--900__frame-salonart': media900 === true,
-    'companies--600__frame-salonart': media600 === true,
-    'companies--600l__frame-salonart': media600l === true
-  });
-  var companiesFrameVibroClass = classnames_default()({
-    'companies__frame-vibro': media1728 === true,
-    'companies--1133__frame-vibro': media1133 === true,
-    'companies--744__frame-vibro': media744 === true,
-    'companies--744l__frame-vibro': media744l === true,
-    'companies--375__frame-vibro': media375 === true,
-    'companies--275__frame-vibro': media275 === true,
-    'companies--1300__frame-vibro': media1300 === true,
-    'companies--900__frame-vibro': media900 === true,
-    'companies--600__frame-vibro': media600 === true,
-    'companies--600l__frame-vibro': media600l === true
-  });
-  var companiesFrameDrceuracleClass = classnames_default()({
-    'companies__frame-drceuracle': media1728 === true,
-    'companies--1133__frame-drceuracle': media1133 === true,
-    'companies--744__frame-drceuracle': media744 === true,
-    'companies--744l__frame-drceuracle': media744l === true,
-    'companies--375__frame-drceuracle': media375 === true,
-    'companies--275__frame-drceuracle': media275 === true,
-    'companies--1300__frame-drceuracle': media1300 === true,
-    'companies--900__frame-drceuracle': media900 === true,
-    'companies--600__frame-drceuracle': media600 === true,
-    'companies--600l__frame-drceuracle': media600l === true
-  });
-  var companiesGroupAuroClass = classnames_default()({
-    'companies__group-auro': media1728 === true,
-    'companies--1133__group-auro': media1133 === true,
-    'companies--744__group-auro': media744 === true,
-    'companies--744l__group-auro': media744l === true,
-    'companies--375__group-auro': media375 === true,
-    'companies--275__group-auro': media275 === true,
-    'companies--1300__group-auro': media1300 === true,
-    'companies--900__group-auro': media900 === true,
-    'companies--600__group-auro': media600 === true,
-    'companies--600l__group-auro': media600l === true
-  });
-  var companiesGroupSalonartClass = classnames_default()({
-    'companies__group-salonart': media1728 === true,
-    'companies--1133__group-salonart': media1133 === true,
-    'companies--744__group-salonart': media744 === true,
-    'companies--744l__group-salonart': media744l === true,
-    'companies--375__group-salonart': media375 === true,
-    'companies--275__group-salonart': media275 === true,
-    'companies--1300__group-salonart': media1300 === true,
-    'companies--900__group-salonart': media900 === true,
-    'companies--600__group-salonart': media600 === true,
-    'companies--600l__group-salonart': media600l === true
-  });
-  var companiesGroupVibroClass = classnames_default()({
-    'companies__group-vibro': media1728 === true,
-    'companies--1133__group-vibro': media1133 === true,
-    'companies--744__group-vibro': media744 === true,
-    'companies--744l__group-vibro': media744l === true,
-    'companies--375__group-vibro': media375 === true,
-    'companies--275__group-vibro': media275 === true,
-    'companies--1300__group-vibro': media1300 === true,
-    'companies--900__group-vibro': media900 === true,
-    'companies--600__group-vibro': media600 === true,
-    'companies--600l__group-vibro': media600l === true
-  });
-  var companiesGroupDrceuracleClass = classnames_default()({
-    'companies__group-drceuracle': media1728 === true,
-    'companies--1133__group-drceuracle': media1133 === true,
-    'companies--744__group-drceuracle': media744 === true,
-    'companies--744l__group-drceuracle': media744l === true,
-    'companies--375__group-drceuracle': media375 === true,
-    'companies--275__group-drceuracle': media275 === true,
-    'companies--1300__group-drceuracle': media1300 === true,
-    'companies--900__group-drceuracle': media900 === true,
-    'companies--600__group-drceuracle': media600 === true,
-    'companies--600l__group-drceuracle': media600l === true
-  });
-  var companiesNameClass = classnames_default()({
-    'companies__name': media1728 === true,
-    'companies--1133__name': media1133 === true,
-    'companies--744__name': media744 === true,
-    'companies--744l__name': media744l === true,
-    'companies--375__name': media375 === true,
-    'companies--275__name': media275 === true,
-    'companies--1300__name': media1300 === true,
-    'companies--900__name': media900 === true,
-    'companies--600__name': media600 === true,
-    'companies--600l__name': media600l === true
-  });
-  var companiesNameMychwayClass = classnames_default()({
-    'companies__name-mychway': media1728 === true,
-    'companies--1133__name-mychway': media1133 === true,
-    'companies--744__name-mychway': media744 === true,
-    'companies--744l__name-mychway': media744l === true,
-    'companies--375__name-mychway': media375 === true,
-    'companies--275__name-mychway': media275 === true,
-    'companies--1300__name-mychway': media1300 === true,
-    'companies--900__name-mychway': media900 === true,
-    'companies--600__name-mychway': media600 === true,
-    'companies--600l__name-mychway': media600l === true
-  });
-  var companiesNameAuroClass = classnames_default()({
-    'companies__name-auro': media1728 === true,
-    'companies--1133__name-auro': media1133 === true,
-    'companies--744__name-auro': media744 === true,
-    'companies--744l__name-auro': media744l === true,
-    'companies--375__name-auro': media375 === true,
-    'companies--275__name-auro': media275 === true,
-    'companies--1300__name-auro': media1300 === true,
-    'companies--900__name-auro': media900 === true,
-    'companies--600__name-auro': media600 === true,
-    'companies--600l__name-auro': media600l === true
-  });
-  var companiesNameSalonartClass = classnames_default()({
-    'companies__name-salonart': media1728 === true,
-    'companies--1133__name-salonart': media1133 === true,
-    'companies--744__name-salonart': media744 === true,
-    'companies--744l__name-salonart': media744l === true,
-    'companies--375__name-salonart': media375 === true,
-    'companies--275__name-salonart': media275 === true,
-    'companies--1300__name-salonart': media1300 === true,
-    'companies--900__name-salonart': media900 === true,
-    'companies--600__name-salonart': media600 === true,
-    'companies--600l__name-salonart': media600l === true
-  });
-  var companiesNameVibroClass = classnames_default()({
-    'companies__name-vibro': media1728 === true,
-    'companies--1133__name-vibro': media1133 === true,
-    'companies--744__name-vibro': media744 === true,
-    'companies--744l__name-vibro': media744l === true,
-    'companies--375__name-vibro': media375 === true,
-    'companies--275__name-vibro': media275 === true,
-    'companies--1300__name-vibro': media1300 === true,
-    'companies--900__name-vibro': media900 === true,
-    'companies--600__name-vibro': media600 === true,
-    'companies--600l__name-vibro': media600l === true
-  });
-  var companiesNameDrceuracleClass = classnames_default()({
-    'companies__name-drceuracle': media1728 === true,
-    'companies--1133__name-drceuracle': media1133 === true,
-    'companies--744__name-drceuracle': media744 === true,
-    'companies--744l__name-drceuracle': media744l === true,
-    'companies--375__name-drceuracle': media375 === true,
-    'companies--275__name-drceuracle': media275 === true,
-    'companies--1300__name-drceuracle': media1300 === true,
-    'companies--900__name-drceuracle': media900 === true,
-    'companies--600__name-drceuracle': media600 === true,
-    'companies--600l__name-drceuracle': media600l === true
-  });
-  var companiesBlurClass = classnames_default()({
-    'companies__blur': media1728 === true,
-    'companies--1133__blur': media1133 === true,
-    'companies--744__blur': media744 === true,
-    'companies--744l__blur': media744l === true,
-    'companies--375__blur': media375 === true,
-    'companies--275__blur': media275 === true,
-    'companies--1300__blur': media1300 === true,
-    'companies--900__blur': media900 === true,
-    'companies--600__blur': media600 === true,
-    'companies--600l__blur': media600l === true
-  });
-  var companiesBlurMychwayClass = classnames_default()({
-    'companies__blur-mychway': media1728 === true,
-    'companies--1133__blur-mychway': media1133 === true,
-    'companies--744__blur-mychway': media744 === true,
-    'companies--744l__blur-mychway': media744l === true,
-    'companies--375__blur-mychway': media375 === true,
-    'companies--275__blur-mychway': media275 === true,
-    'companies--1300__blur-mychway': media1300 === true,
-    'companies--900__blur-mychway': media900 === true,
-    'companies--600__blur-mychway': media600 === true,
-    'companies--600l__blur-mychway': media600l === true
-  });
-  var companiesBlurAuroClass = classnames_default()({
-    'companies__blur-auro': media1728 === true,
-    'companies--1133__blur-auro': media1133 === true,
-    'companies--744__blur-auro': media744 === true,
-    'companies--744l__blur-auro': media744l === true,
-    'companies--375__blur-auro': media375 === true,
-    'companies--275__blur-auro': media275 === true,
-    'companies--1300__blur-auro': media1300 === true,
-    'companies--900__blur-auro': media900 === true,
-    'companies--600__blur-auro': media600 === true,
-    'companies--600l__blur-auro': media600l === true
-  });
-  var companiesBlurSalonartClass = classnames_default()({
-    'companies__blur-salonart': media1728 === true,
-    'companies--1133__blur-salonart': media1133 === true,
-    'companies--744__blur-salonart': media744 === true,
-    'companies--744l__blur-salonart': media744l === true,
-    'companies--375__blur-salonart': media375 === true,
-    'companies--275__blur-salonart': media275 === true,
-    'companies--1300__blur-salonart': media1300 === true,
-    'companies--900__blur-salonart': media900 === true,
-    'companies--600__blur-salonart': media600 === true,
-    'companies--600l__blur-salonart': media600l === true
-  });
-  var companiesBlurVibroClass = classnames_default()({
-    'companies__blur-vibro': media1728 === true,
-    'companies--1133__blur-vibro': media1133 === true,
-    'companies--744__blur-vibro': media744 === true,
-    'companies--744l__blur-vibro': media744l === true,
-    'companies--375__blur-vibro': media375 === true,
-    'companies--275__blur-vibro': media275 === true,
-    'companies--1300__blur-vibro': media1300 === true,
-    'companies--900__blur-vibro': media900 === true,
-    'companies--600__blur-vibro': media600 === true,
-    'companies--600l__blur-vibro': media600l === true
-  });
-  var companiesBlurDrceuracleClass = classnames_default()({
-    'companies__blur-drceuracle': media1728 === true,
-    'companies--1133__blur-drceuracle': media1133 === true,
-    'companies--744__blur-drceuracle': media744 === true,
-    'companies--744l__blur-drceuracle': media744l === true,
-    'companies--375__blur-drceuracle': media375 === true,
-    'companies--275__blur-drceuracle': media275 === true,
-    'companies--1300__blur-drceuracle': media1300 === true,
-    'companies--900__blur-drceuracle': media900 === true,
-    'companies--600__blur-drceuracle': media600 === true,
-    'companies--600l__blur-drceuracle': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var companiesClass = classnames_default()("companies".concat(queryNumber));
+  var containerClass = classnames_default()("container".concat(queryNumber));
+  var containerCompaniesClass = classnames_default()("container-companies".concat(queryNumber));
+  var companiesListClass = classnames_default()("companies".concat(queryNumber, "__list"));
+  var companiesItemClass = classnames_default()("companies".concat(queryNumber, "__item"));
+  var companiesItemMychwayClass = classnames_default()("companies".concat(queryNumber, "__item-mychway"));
+  var companiesFrameClass = classnames_default()("companies".concat(queryNumber, "__frame"));
+  var companiesFrameMychwayClass = classnames_default()("companies".concat(queryNumber, "__frame-mychway"));
+  var companiesGroupClass = classnames_default()("companies".concat(queryNumber, "__group"));
+  var companiesGroupMychwayClass = classnames_default()("companies".concat(queryNumber, "__group-mychway"));
+  var companiesItemAuroClass = classnames_default()("companies".concat(queryNumber, "__item-auro"));
+  var companiesItemSalonartClass = classnames_default()("companies".concat(queryNumber, "__item-salonart"));
+  var companiesItemVibroClass = classnames_default()("companies".concat(queryNumber, "__item-vibro"));
+  var companiesItemDrceuracleClass = classnames_default()("companies".concat(queryNumber, "__item-drceuracle"));
+  var companiesFrameAuroClass = classnames_default()("companies".concat(queryNumber, "__frame-auro"));
+  var companiesFrameSalonartClass = classnames_default()("companies".concat(queryNumber, "__frame-salonart"));
+  var companiesFrameVibroClass = classnames_default()("companies".concat(queryNumber, "__frame-vibro"));
+  var companiesFrameDrceuracleClass = classnames_default()("companies".concat(queryNumber, "__frame-drceuracle"));
+  var companiesGroupAuroClass = classnames_default()("companies".concat(queryNumber, "__group-auro"));
+  var companiesGroupSalonartClass = classnames_default()("companies".concat(queryNumber, "__group-salonart"));
+  var companiesGroupVibroClass = classnames_default()("companies".concat(queryNumber, "__group-vibro"));
+  var companiesGroupDrceuracleClass = classnames_default()("companies".concat(queryNumber, "__group-drceuracle"));
+  var companiesNameClass = classnames_default()("companies".concat(queryNumber, "__name"));
+  var companiesNameMychwayClass = classnames_default()("companies".concat(queryNumber, "__name-mychway"));
+  var companiesNameAuroClass = classnames_default()("companies".concat(queryNumber, "__name-auro"));
+  var companiesNameSalonartClass = classnames_default()("companies".concat(queryNumber, "__name-salonart"));
+  var companiesNameVibroClass = classnames_default()("companies".concat(queryNumber, "__name-vibro"));
+  var companiesNameDrceuracleClass = classnames_default()("companies".concat(queryNumber, "__name-drceuracle"));
+  var companiesBlurClass = classnames_default()("companies".concat(queryNumber, "__blur"));
+  var companiesBlurMychwayClass = classnames_default()("companies".concat(queryNumber, "__blur-mychway"));
+  var companiesBlurAuroClass = classnames_default()("companies".concat(queryNumber, "__blur-auro"));
+  var companiesBlurSalonartClass = classnames_default()("companies".concat(queryNumber, "__blur-salonart"));
+  var companiesBlurVibroClass = classnames_default()("companies".concat(queryNumber, "__blur-vibro"));
+  var companiesBlurDrceuracleClass = classnames_default()("companies".concat(queryNumber, "__blur-drceuracle"));
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
   var companiesListRef = (0,react.useRef)();
@@ -39174,6 +32176,7 @@ function _asyncToGenerator(n) { return function () { var t = this, e = arguments
 
 
 
+
 var delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
@@ -39191,150 +32194,19 @@ var FooterSection1 = function FooterSection1(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerMenuClass = classnames_default()({
-    'footer__menu': media1728 === true,
-    'footer--1133__menu': media1133 === true,
-    'footer--744__menu': media744 === true,
-    'footer--744l__menu': media744l === true,
-    'footer--375__menu': media375 === true,
-    'footer--275__menu': media275 === true,
-    'footer--1300__menu': media1300 === true,
-    'footer--900__menu': media900 === true,
-    'footer--600__menu': media600 === true,
-    'footer--600l__menu': media600l === true
-  });
-  var footerInnerClass = classnames_default()({
-    'footer__inner': media1728 === true,
-    'footer--1133__inner': media1133 === true,
-    'footer--744__inner': media744 === true,
-    'footer--744l__inner': media744l === true,
-    'footer--375__inner': media375 === true,
-    'footer--275__inner': media275 === true,
-    'footer--1300__inner': media1300 === true,
-    'footer--900__inner': media900 === true,
-    'footer--600__inner': media600 === true,
-    'footer--600l__inner': media600l === true
-  });
-  var footerInnerColumnClass = classnames_default()({
-    'footer__inner-column': media1728 === true,
-    'footer--1133__inner-column': media1133 === true,
-    'footer--744__inner-column': media744 === true,
-    'footer--744l__inner-column': media744l === true,
-    'footer--375__inner-column': media375 === true,
-    'footer--275__inner-column': media275 === true,
-    'footer--1300__inner-column': media1300 === true,
-    'footer--900__inner-column': media900 === true,
-    'footer--600__inner-column': media600 === true,
-    'footer--600l__inner-column': media600l === true
-  });
-  var footerColumnClass = classnames_default()({
-    'footer__column': media1728 === true,
-    'footer--1133__column': media1133 === true,
-    'footer--744__column': media744 === true,
-    'footer--744l__column': media744l === true,
-    'footer--375__column': media375 === true,
-    'footer--275__column': media275 === true,
-    'footer--1300__column': media1300 === true,
-    'footer--900__column': media900 === true,
-    'footer--600__column': media600 === true,
-    'footer--600l__column': media600l === true
-  });
-  var footerColumn1Class = classnames_default()({
-    'footer__column-1': media1728 === true,
-    'footer--1133__column-1': media1133 === true,
-    'footer--744__column-1': media744 === true,
-    'footer--744l__column-1': media744l === true,
-    'footer--375__column-1': media375 === true,
-    'footer--275__column-1': media275 === true,
-    'footer--1300__column-1': media1300 === true,
-    'footer--900__column-1': media900 === true,
-    'footer--600__column-1': media600 === true,
-    'footer--600l__column-1': media600l === true
-  });
-  var footerColumn2Class = classnames_default()({
-    'footer__column-2': media1728 === true,
-    'footer--1133__column-2': media1133 === true,
-    'footer--744__column-2': media744 === true,
-    'footer--744l__column-2': media744l === true,
-    'footer--375__column-2': media375 === true,
-    'footer--275__column-2': media275 === true,
-    'footer--1300__column-2': media1300 === true,
-    'footer--900__column-2': media900 === true,
-    'footer--600__column-2': media600 === true,
-    'footer--600l__column-2': media600l === true
-  });
-  var footerColumn3Class = classnames_default()({
-    'footer__column-3': media1728 === true,
-    'footer--1133__column-3': media1133 === true,
-    'footer--744__column-3': media744 === true,
-    'footer--744l__column-3': media744l === true,
-    'footer--375__column-3': media375 === true,
-    'footer--275__column-3': media275 === true,
-    'footer--1300__column-3': media1300 === true,
-    'footer--900__column-3': media900 === true,
-    'footer--600__column-3': media600 === true,
-    'footer--600l__column-3': media600l === true
-  });
-  var menuFooterClass = classnames_default()({
-    'menu-footer': media1728 === true,
-    'menu-footer--1133': media1133 === true,
-    'menu-footer--744': media744 === true,
-    'menu-footer--744l': media744l === true,
-    'menu-footer--375': media375 === true,
-    'menu-footer--275': media275 === true,
-    'menu-footer--1300': media1300 === true,
-    'menu-footer--900': media900 === true,
-    'menu-footer--600': media600 === true,
-    'menu-footer--600l': media600l === true
-  });
-  var menuItemClass = classnames_default()({
-    'menu__item': media1728 === true,
-    'menu--1133__item': media1133 === true,
-    'menu--744__item': media744 === true,
-    'menu--744l__item': media744l === true,
-    'menu--375__item': media375 === true,
-    'menu--275__item': media275 === true,
-    'menu--1300__item': media1300 === true,
-    'menu--900__item': media900 === true,
-    'menu--600__item': media600 === true,
-    'menu--600l__item': media600l === true
-  });
-  var menuItemSection1Class = classnames_default()({
-    'menu__item-section1': media1728 === true,
-    'menu--1133__item-section1': media1133 === true,
-    'menu--744__item-section1': media744 === true,
-    'menu--744l__item-section1': media744l === true,
-    'menu--375__item-section1': media375 === true,
-    'menu--275__item-section1': media275 === true,
-    'menu--1300__item-section1': media1300 === true,
-    'menu--900__item-section1': media900 === true,
-    'menu--600__item-section1': media600 === true,
-    'menu--600l__item-section1': media600l === true
-  });
-  var menuLinkSection1Class = classnames_default()({
-    'menu__link-section1': media1728 === true,
-    'menu--1133__link-section1': media1133 === true,
-    'menu--744__link-section1': media744 === true,
-    'menu--744l__link-section1': media744l === true,
-    'menu--375__link-section1': media375 === true,
-    'menu--275__link-section1': media275 === true,
-    'menu--1300__link-section1': media1300 === true,
-    'menu--900__link-section1': media900 === true,
-    'menu--600__link-section1': media600 === true,
-    'menu--600l__link-section1': media600l === true
-  });
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerMenuClass = classnames_default()("footer".concat(queryNumber, "__menu"));
+  var footerInnerClass = classnames_default()("footer".concat(queryNumber, "__inner"));
+  var footerInnerColumnClass = classnames_default()("footer".concat(queryNumber, "__inner-column"));
+  var footerColumnClass = classnames_default()("footer".concat(queryNumber, "__column"));
+  var footerColumn1Class = classnames_default()("footer".concat(queryNumber, "__column-1"));
+  var footerColumn2Class = classnames_default()("footer".concat(queryNumber, "__column-2"));
+  var footerColumn3Class = classnames_default()("footer".concat(queryNumber, "__column-3"));
+  var menuFooterClass = classnames_default()("menu-footer".concat(queryNumber));
+  var menuItemClass = classnames_default()("menu".concat(queryNumber, "__item"));
+  var menuItemSection1Class = classnames_default()("menu".concat(queryNumber, "__item-section1"));
+  var menuLinkSection1Class = classnames_default()("menu".concat(queryNumber, "__link-section1"));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
   var modalId = 'popup-';
@@ -39545,42 +32417,11 @@ function FooterLogo_extends() { return FooterLogo_extends = Object.assign ? Obje
 
 
 
+
 var FooterLogo = function FooterLogo(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerLinkClass = classnames_default()({
-    'footer__link': media1728 === true,
-    'footer--1133__link': media1133 === true,
-    'footer--744__link': media744 === true,
-    'footer--744l__link': media744l === true,
-    'footer--375__link': media375 === true,
-    'footer--275__link': media275 === true,
-    'footer--1300__link': media1300 === true,
-    'footer--900__link': media900 === true,
-    'footer--600__link': media600 === true,
-    'footer--600l__link': media600l === true
-  });
-  var footerLinkLogoClass = classnames_default()({
-    'footer__link-logo': media1728 === true,
-    'footer--1133__link-logo': media1133 === true,
-    'footer--744__link-logo': media744 === true,
-    'footer--744l__link-logo': media744l === true,
-    'footer--375__link-logo': media375 === true,
-    'footer--275__link-logo': media275 === true,
-    'footer--1300__link-logo': media1300 === true,
-    'footer--900__link-logo': media900 === true,
-    'footer--600__link-logo': media600 === true,
-    'footer--600l__link-logo': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerLinkClass = classnames_default()("footer".concat(queryNumber, "__link"));
+  var footerLinkLogoClass = classnames_default()("footer".concat(queryNumber, "__link-logo"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiLink */.bQ, FooterLogo_extends({
       key: "uiLinkFooterLogo".concat(i)
@@ -39611,6 +32452,7 @@ function getYearsOnFooter(year) {
 
 
 
+
 var FooterSection2 = function FooterSection2() {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -39623,138 +32465,18 @@ var FooterSection2 = function FooterSection2() {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerInnerClass = classnames_default()({
-    'footer__inner': media1728 === true,
-    'footer--1133__inner': media1133 === true,
-    'footer--744__inner': media744 === true,
-    'footer--744l__inner': media744l === true,
-    'footer--375__inner': media375 === true,
-    'footer--275__inner': media275 === true,
-    'footer--1300__inner': media1300 === true,
-    'footer--900__inner': media900 === true,
-    'footer--600__inner': media600 === true,
-    'footer--600l__inner': media600l === true
-  });
-  var footerInnerSection2Class = classnames_default()({
-    'footer__inner-section2': media1728 === true,
-    'footer--1133__inner-section2': media1133 === true,
-    'footer--744__inner-section2': media744 === true,
-    'footer--744l__inner-section2': media744l === true,
-    'footer--375__inner-section2': media375 === true,
-    'footer--275__inner-section2': media275 === true,
-    'footer--1300__inner-section2': media1300 === true,
-    'footer--900__inner-section2': media900 === true,
-    'footer--600__inner-section2': media600 === true,
-    'footer--600l__inner-section2': media600l === true
-  });
-  var footerInnerLeftClass = classnames_default()({
-    'footer__inner-left': media1728 === true,
-    'footer--1133__inner-left': media1133 === true,
-    'footer--744__inner-left': media744 === true,
-    'footer--744l__inner-left': media744l === true,
-    'footer--375__inner-left': media375 === true,
-    'footer--275__inner-left': media275 === true,
-    'footer--1300__inner-left': media1300 === true,
-    'footer--900__inner-left': media900 === true,
-    'footer--600__inner-left': media600 === true,
-    'footer--600l__inner-left': media600l === true
-  });
-  var footerInnerWarningClass = classnames_default()({
-    'footer__inner-warning': media1728 === true,
-    'footer--1133__inner-warning': media1133 === true,
-    'footer--744__inner-warning': media744 === true,
-    'footer--744l__inner-warning': media744l === true,
-    'footer--375__inner-warning': media375 === true,
-    'footer--275__inner-warning': media275 === true,
-    'footer--1300__inner-warning': media1300 === true,
-    'footer--900__inner-warning': media900 === true,
-    'footer--600__inner-warning': media600 === true,
-    'footer--600l__inner-warning': media600l === true
-  });
-  var footerCopyrightClass = classnames_default()({
-    'footer__copyright': media1728 === true,
-    'footer--1133__copyright': media1133 === true,
-    'footer--744__copyright': media744 === true,
-    'footer--744l__copyright': media744l === true,
-    'footer--375__copyright': media375 === true,
-    'footer--275__copyright': media275 === true,
-    'footer--1300__copyright': media1300 === true,
-    'footer--900__copyright': media900 === true,
-    'footer--600__copyright': media600 === true,
-    'footer--600l__copyright': media600l === true
-  });
-  var footerLogoClass = classnames_default()({
-    'footer__logo': media1728 === true,
-    'footer--1133__logo': media1133 === true,
-    'footer--744__logo': media744 === true,
-    'footer--744l__logo': media744l === true,
-    'footer--375__logo': media375 === true,
-    'footer--275__logo': media275 === true,
-    'footer--1300__logo': media1300 === true,
-    'footer--900__logo': media900 === true,
-    'footer--600__logo': media600 === true,
-    'footer--600l__logo': media600l === true
-  });
-  var footerCopyClass = classnames_default()({
-    'footer__copy': media1728 === true,
-    'footer--1133__copy': media1133 === true,
-    'footer--744__copy': media744 === true,
-    'footer--744l__copy': media744l === true,
-    'footer--375__copy': media375 === true,
-    'footer--275__copy': media275 === true,
-    'footer--1300__copy': media1300 === true,
-    'footer--900__copy': media900 === true,
-    'footer--600__copy': media600 === true,
-    'footer--600l__copy': media600l === true
-  });
-  var footerPClass = classnames_default()({
-    'footer__p': media1728 === true,
-    'footer--1133__p': media1133 === true,
-    'footer--744__p': media744 === true,
-    'footer--744l__p': media744l === true,
-    'footer--375__p': media375 === true,
-    'footer--275__p': media275 === true,
-    'footer--1300__p': media1300 === true,
-    'footer--900__p': media900 === true,
-    'footer--600__p': media600 === true,
-    'footer--600l__p': media600l === true
-  });
-  var footerPCopyClass = classnames_default()({
-    'footer__p-copy': media1728 === true,
-    'footer--1133__p-copy': media1133 === true,
-    'footer--744__p-copy': media744 === true,
-    'footer--744l__p-copy': media744l === true,
-    'footer--375__p-copy': media375 === true,
-    'footer--275__p-copy': media275 === true,
-    'footer--1300__p-copy': media1300 === true,
-    'footer--900__p-copy': media900 === true,
-    'footer--600__p-copy': media600 === true,
-    'footer--600l__p-copy': media600l === true
-  });
-  var footerPWarningClass = classnames_default()({
-    'footer__p-warning': media1728 === true,
-    'footer--1133__p-warning': media1133 === true,
-    'footer--744__p-warning': media744 === true,
-    'footer--744l__p-warning': media744l === true,
-    'footer--375__p-warning': media375 === true,
-    'footer--275__p-warning': media275 === true,
-    'footer--1300__p-warning': media1300 === true,
-    'footer--900__p-warning': media900 === true,
-    'footer--600__p-warning': media600 === true,
-    'footer--600l__p-warning': media600l === true
-  });
-  var footerWarningClass = classnames_default()({
-    'footer__warning': media1728 === true,
-    'footer--1133__warning': media1133 === true,
-    'footer--744__warning': media744 === true,
-    'footer--744l__warning': media744l === true,
-    'footer--375__warning': media375 === true,
-    'footer--275__warning': media275 === true,
-    'footer--1300__warning': media1300 === true,
-    'footer--900__warning': media900 === true,
-    'footer--600__warning': media600 === true,
-    'footer--600l__warning': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerInnerClass = classnames_default()("footer".concat(queryNumber, "__inner"));
+  var footerInnerSection2Class = classnames_default()("footer".concat(queryNumber, "__inner-section2"));
+  var footerInnerLeftClass = classnames_default()("footer".concat(queryNumber, "__inner-left"));
+  var footerInnerWarningClass = classnames_default()("footer".concat(queryNumber, "__inner-warning"));
+  var footerCopyrightClass = classnames_default()("footer".concat(queryNumber, "__copyright"));
+  var footerLogoClass = classnames_default()("footer".concat(queryNumber, "__logo"));
+  var footerCopyClass = classnames_default()("footer".concat(queryNumber, "__copy"));
+  var footerPClass = classnames_default()("footer".concat(queryNumber, "__p"));
+  var footerPCopyClass = classnames_default()("footer".concat(queryNumber, "__p-copy"));
+  var footerPWarningClass = classnames_default()("footer".concat(queryNumber, "__p-warning"));
+  var footerWarningClass = classnames_default()("footer".concat(queryNumber, "__warning"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: "".concat(footerInnerClass, " ").concat(footerInnerSection2Class)
   }, /*#__PURE__*/react.createElement("div", {
@@ -39798,210 +32520,25 @@ function FooterSection3_extends() { return FooterSection3_extends = Object.assig
 
 
 
+
 var FooterSection3 = function FooterSection3(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerIconsClass = classnames_default()({
-    'footer__icons': media1728 === true,
-    'footer--1133__icons': media1133 === true,
-    'footer--744__icons': media744 === true,
-    'footer--744l__icons': media744l === true,
-    'footer--375__icons': media375 === true,
-    'footer--275__icons': media275 === true,
-    'footer--1300__icons': media1300 === true,
-    'footer--900__icons': media900 === true,
-    'footer--600__icons': media600 === true,
-    'footer--600l__icons': media600l === true
-  });
-  var iconsClass = classnames_default()({
-    'icons': media1728 === true,
-    'icons--1133': media1133 === true,
-    'icons--744': media744 === true,
-    'icons--744l': media744l === true,
-    'icons--375': media375 === true,
-    'icons--275': media275 === true,
-    'icons--1300': media1300 === true,
-    'icons--900': media900 === true,
-    'icons--600': media600 === true,
-    'icons--600l': media600l === true
-  });
-  var iconsFooterClass = classnames_default()({
-    'icons-footer': media1728 === true,
-    'icons-footer--1133': media1133 === true,
-    'icons-footer--744': media744 === true,
-    'icons-footer--744l': media744l === true,
-    'icons-footer--375': media375 === true,
-    'icons-footer--275': media275 === true,
-    'icons-footer--1300': media1300 === true,
-    'icons-footer--900': media900 === true,
-    'icons-footer--600': media600 === true,
-    'icons-footer--600l': media600l === true
-  });
-  var iconsItemClass = classnames_default()({
-    'icons__item': media1728 === true,
-    'icons--1133__item': media1133 === true,
-    'icons--744__item': media744 === true,
-    'icons--744l__item': media744l === true,
-    'icons--375__item': media375 === true,
-    'icons--275__item': media275 === true,
-    'icons--1300__item': media1300 === true,
-    'icons--900__item': media900 === true,
-    'icons--600__item': media600 === true,
-    'icons--600l__item': media600l === true
-  });
-  var iconsItemFooterClass = classnames_default()({
-    'icons__item-footer': media1728 === true,
-    'icons--1133__item-footer': media1133 === true,
-    'icons--744__item-footer': media744 === true,
-    'icons--744l__item-footer': media744l === true,
-    'icons--375__item-footer': media375 === true,
-    'icons--275__item-footer': media275 === true,
-    'icons--1300__item-footer': media1300 === true,
-    'icons--900__item-footer': media900 === true,
-    'icons--600__item-footer': media600 === true,
-    'icons--600l__item-footer': media600l === true
-  });
-  var iconsItemWhatsappClass = classnames_default()({
-    'icons__item-whatsapp': media1728 === true,
-    'icons--1133__item-whatsapp': media1133 === true,
-    'icons--744__item-whatsapp': media744 === true,
-    'icons--744l__item-whatsapp': media744l === true,
-    'icons--375__item-whatsapp': media375 === true,
-    'icons--275__item-whatsapp': media275 === true,
-    'icons--1300__item-whatsapp': media1300 === true,
-    'icons--900__item-whatsapp': media900 === true,
-    'icons--600__item-whatsapp': media600 === true,
-    'icons--600l__item-whatsapp': media600l === true
-  });
-  var iconsItemTelegramClass = classnames_default()({
-    'icons__item-telegram': media1728 === true,
-    'icons--1133__item-telegram': media1133 === true,
-    'icons--744__item-telegram': media744 === true,
-    'icons--744l__item-telegram': media744l === true,
-    'icons--375__item-telegram': media375 === true,
-    'icons--275__item-telegram': media275 === true,
-    'icons--1300__item-telegram': media1300 === true,
-    'icons--900__item-telegram': media900 === true,
-    'icons--600__item-telegram': media600 === true,
-    'icons--600l__item-telegram': media600l === true
-  });
-  var iconsItemCheckmarkClass = classnames_default()({
-    'icons__item-checkmark': media1728 === true,
-    'icons--1133__item-checkmark': media1133 === true,
-    'icons--744__item-checkmark': media744 === true,
-    'icons--744l__item-checkmark': media744l === true,
-    'icons--375__item-checkmark': media375 === true,
-    'icons--275__item-checkmark': media275 === true,
-    'icons--1300__item-checkmark': media1300 === true,
-    'icons--900__item-checkmark': media900 === true,
-    'icons--600__item-checkmark': media600 === true,
-    'icons--600l__item-checkmark': media600l === true
-  });
-  var iconsLinkClass = classnames_default()({
-    'icons__link': media1728 === true,
-    'icons--1133__link': media1133 === true,
-    'icons--744__link': media744 === true,
-    'icons--744l__link': media744l === true,
-    'icons--375__link': media375 === true,
-    'icons--275__link': media275 === true,
-    'icons--1300__link': media1300 === true,
-    'icons--900__link': media900 === true,
-    'icons--600__link': media600 === true,
-    'icons--600l__link': media600l === true
-  });
-  var iconsLinkFooterClass = classnames_default()({
-    'icons__link-footer': media1728 === true,
-    'icons--1133__link-footer': media1133 === true,
-    'icons--744__link-footer': media744 === true,
-    'icons--744l__link-footer': media744l === true,
-    'icons--375__link-footer': media375 === true,
-    'icons--275__link-footer': media275 === true,
-    'icons--1300__link-footer': media1300 === true,
-    'icons--900__link-footer': media900 === true,
-    'icons--600__link-footer': media600 === true,
-    'icons--600l__link-footer': media600l === true
-  });
-  var iconsLinkWhatsappClass = classnames_default()({
-    'icons__link-whatsapp': media1728 === true,
-    'icons--1133__link-whatsapp': media1133 === true,
-    'icons--744__link-whatsapp': media744 === true,
-    'icons--744l__link-whatsapp': media744l === true,
-    'icons--375__link-whatsapp': media375 === true,
-    'icons--275__link-whatsapp': media275 === true,
-    'icons--1300__link-whatsapp': media1300 === true,
-    'icons--900__link-whatsapp': media900 === true,
-    'icons--600__link-whatsapp': media600 === true,
-    'icons--600l__link-whatsapp': media600l === true
-  });
-  var iconsLinkTelegramClass = classnames_default()({
-    'icons__link-telegram': media1728 === true,
-    'icons--1133__link-telegram': media1133 === true,
-    'icons--744__link-telegram': media744 === true,
-    'icons--744l__link-telegram': media744l === true,
-    'icons--375__link-telegram': media375 === true,
-    'icons--275__link-telegram': media275 === true,
-    'icons--1300__link-telegram': media1300 === true,
-    'icons--900__link-telegram': media900 === true,
-    'icons--600__link-telegram': media600 === true,
-    'icons--600l__link-telegram': media600l === true
-  });
-  var iconsLinkCheckmarkClass = classnames_default()({
-    'icons__link-checkmark': media1728 === true,
-    'icons--1133__link-checkmark': media1133 === true,
-    'icons--744__link-checkmark': media744 === true,
-    'icons--744l__link-checkmark': media744l === true,
-    'icons--375__link-checkmark': media375 === true,
-    'icons--275__link-checkmark': media275 === true,
-    'icons--1300__link-checkmark': media1300 === true,
-    'icons--900__link-checkmark': media900 === true,
-    'icons--600__link-checkmark': media600 === true,
-    'icons--600l__link-checkmark': media600l === true
-  });
-  var iconsLineClass = classnames_default()({
-    'icons__line': media1728 === true,
-    'icons--1133__line': media1133 === true,
-    'icons--744__line': media744 === true,
-    'icons--744l__line': media744l === true,
-    'icons--375__line': media375 === true,
-    'icons--275__line': media275 === true,
-    'icons--1300__line': media1300 === true,
-    'icons--900__line': media900 === true,
-    'icons--600__line': media600 === true,
-    'icons--600l__line': media600l === true
-  });
-  var iconsLineFooterClass = classnames_default()({
-    'icons__line-footer': media1728 === true,
-    'icons--1133__line-footer': media1133 === true,
-    'icons--744__line-footer': media744 === true,
-    'icons--744l__line-footer': media744l === true,
-    'icons--375__line-footer': media375 === true,
-    'icons--275__line-footer': media275 === true,
-    'icons--1300__line-footer': media1300 === true,
-    'icons--900__line-footer': media900 === true,
-    'icons--600__line-footer': media600 === true,
-    'icons--600l__line-footer': media600l === true
-  });
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerIconsClass = classnames_default()("footer".concat(queryNumber, "__icons"));
+  var iconsClass = classnames_default()("icons".concat(queryNumber));
+  var iconsFooterClass = classnames_default()("icons-footer".concat(queryNumber));
+  var iconsItemClass = classnames_default()("icons".concat(queryNumber, "__item"));
+  var iconsItemFooterClass = classnames_default()("icons".concat(queryNumber, "__item-footer"));
+  var iconsItemWhatsappClass = classnames_default()("icons".concat(queryNumber, "__item-whatsapp"));
+  var iconsItemTelegramClass = classnames_default()("icons".concat(queryNumber, "__item-telegram"));
+  var iconsItemCheckmarkClass = classnames_default()("icons".concat(queryNumber, "__item-checkmark"));
+  var iconsLinkClass = classnames_default()("icons".concat(queryNumber, "__link"));
+  var iconsLinkFooterClass = classnames_default()("icons".concat(queryNumber, "__link-footer"));
+  var iconsLinkWhatsappClass = classnames_default()("icons".concat(queryNumber, "__link-whatsapp"));
+  var iconsLinkTelegramClass = classnames_default()("icons".concat(queryNumber, "__link-telegram"));
+  var iconsLinkCheckmarkClass = classnames_default()("icons".concat(queryNumber, "__link-checkmark"));
+  var iconsLineClass = classnames_default()("icons".concat(queryNumber, "__line"));
+  var iconsLineFooterClass = classnames_default()("icons".concat(queryNumber, "__line-footer"));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var iconsLinkRef = (0,react.useRef)(props.data[1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
   }));
@@ -40114,6 +32651,7 @@ function FooterSection4_extends() { return FooterSection4_extends = Object.assig
 
 
 
+
 var FooterSection4 = function FooterSection4(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -40126,30 +32664,9 @@ var FooterSection4 = function FooterSection4(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerPhoneClass = classnames_default()({
-    'footer__phone': media1728 === true,
-    'footer--1133__phone': media1133 === true,
-    'footer--744__phone': media744 === true,
-    'footer--744l__phone': media744l === true,
-    'footer--375__phone': media375 === true,
-    'footer--275__phone': media275 === true,
-    'footer--1300__phone': media1300 === true,
-    'footer--900__phone': media900 === true,
-    'footer--600__phone': media600 === true,
-    'footer--600l__phone': media600l === true
-  });
-  var footerLinkPhoneClass = classnames_default()({
-    'footer__link-phone': media1728 === true,
-    'footer--1133__link-phone': media1133 === true,
-    'footer--744__link-phone': media744 === true,
-    'footer--744l__link-phone': media744l === true,
-    'footer--375__link-phone': media375 === true,
-    'footer--275__link-phone': media275 === true,
-    'footer--1300__link-phone': media1300 === true,
-    'footer--900__link-phone': media900 === true,
-    'footer--600__link-phone': media600 === true,
-    'footer--600l__link-phone': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerPhoneClass = classnames_default()("footer".concat(queryNumber, "__phone"));
+  var footerLinkPhoneClass = classnames_default()("footer".concat(queryNumber, "__link-phone"));
   var propsData = function propsData(props) {
     var propsAll = props;
     var data = [];
@@ -40226,6 +32743,7 @@ const dataFooterSection4_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"foote
 
 
 
+
 // import FooterBg375 from '../../../images/bg-footer375.png';
 
 
@@ -40244,90 +32762,14 @@ var Footer = function Footer(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var footerClass = classnames_default()({
-    'footer': media1728 === true,
-    'footer--1133': media1133 === true,
-    'footer--744': media744 === true,
-    'footer--744l': media744l === true,
-    'footer--375': media375 === true,
-    'footer--275': media275 === true,
-    'footer--1300': media1300 === true,
-    'footer--900': media900 === true,
-    'footer--600': media600 === true,
-    'footer--600l': media600l === true
-  });
-  var containerClass = classnames_default()({
-    'container': media1728 === true,
-    'container--1133': media1133 === true,
-    'container--744': media744 === true,
-    'container--744l': media744l === true,
-    'container--375': media375 === true,
-    'container--275': media275 === true,
-    'container--1300': media1300 === true,
-    'container--900': media900 === true,
-    'container--600': media600 === true,
-    'container--600l': media600l === true
-  });
-  var footerRelativeClass = classnames_default()({
-    'footer__relative': media1728 === true,
-    'footer--1133__relative': media1133 === true,
-    'footer--744__relative': media744 === true,
-    'footer--744l__relative': media744l === true,
-    'footer--375__relative': media375 === true,
-    'footer--275__relative': media275 === true,
-    'footer--1300__relative': media1300 === true,
-    'footer--900__relative': media900 === true,
-    'footer--600__relative': media600 === true,
-    'footer--600l__relative': media600l === true
-  });
-  var footerSection1Class = classnames_default()({
-    'footer__section1': media1728 === true,
-    'footer--1133__section1': media1133 === true,
-    'footer--744__section1': media744 === true,
-    'footer--744l__section1': media744l === true,
-    'footer--375__section1': media375 === true,
-    'footer--275__section1': media275 === true,
-    'footer--1300__section1': media1300 === true,
-    'footer--900__section1': media900 === true,
-    'footer--600__section1': media600 === true,
-    'footer--600l__section1': media600l === true
-  });
-  var footerSection2Class = classnames_default()({
-    'footer__section2': media1728 === true,
-    'footer--1133__section2': media1133 === true,
-    'footer--744__section2': media744 === true,
-    'footer--744l__section2': media744l === true,
-    'footer--375__section2': media375 === true,
-    'footer--275__section2': media275 === true,
-    'footer--1300__section2': media1300 === true,
-    'footer--900__section2': media900 === true,
-    'footer--600__section2': media600 === true,
-    'footer--600l__section2': media600l === true
-  });
-  var footerSection3Class = classnames_default()({
-    'footer__section3': media1728 === true,
-    'footer--1133__section3': media1133 === true,
-    'footer--744__section3': media744 === true,
-    'footer--744l__section3': media744l === true,
-    'footer--375__section3': media375 === true,
-    'footer--275__section3': media275 === true,
-    'footer--1300__section3': media1300 === true,
-    'footer--900__section3': media900 === true,
-    'footer--600__section3': media600 === true,
-    'footer--600l__section3': media600l === true
-  });
-  var footerSection4Class = classnames_default()({
-    'footer__section4': media1728 === true,
-    'footer--1133__section4': media1133 === true,
-    'footer--744__section4': media744 === true,
-    'footer--744l__section4': media744l === true,
-    'footer--375__section4': media375 === true,
-    'footer--275__section4': media275 === true,
-    'footer--1300__section4': media1300 === true,
-    'footer--900__section4': media900 === true,
-    'footer--600__section4': media600 === true,
-    'footer--600l__section4': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var footerClass = classnames_default()("footer".concat(queryNumber));
+  var containerClass = classnames_default()("container".concat(queryNumber));
+  var footerRelativeClass = classnames_default()("footer".concat(queryNumber, "__relative"));
+  var footerSection1Class = classnames_default()("footer".concat(queryNumber, "__section1"));
+  var footerSection2Class = classnames_default()("footer".concat(queryNumber, "__section2"));
+  var footerSection3Class = classnames_default()("footer".concat(queryNumber, "__section3"));
+  var footerSection4Class = classnames_default()("footer".concat(queryNumber, "__section4"));
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_footer_namespaceObject);
   var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_footer1300_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_footer1133_namespaceObject);
@@ -40383,42 +32825,11 @@ function HeaderBurgerImg_extends() { return HeaderBurgerImg_extends = Object.ass
 
 
 
+
 var HeaderBurgerImg = function HeaderBurgerImg(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var burgerClass = classnames_default()({
-    'burger': media1728 === true,
-    'burger--1133': media1133 === true,
-    'burger--744': media744 === true,
-    'burger--744l': media744l === true,
-    'burger--375': media375 === true,
-    'burger--275': media275 === true,
-    'burger--1300': media1300 === true,
-    'burger--900': media900 === true,
-    'burger--600': media600 === true,
-    'burger--600l': media600l === true
-  });
-  var burgerHeaderClass = classnames_default()({
-    'burger-header': media1728 === true,
-    'burger-header--1133': media1133 === true,
-    'burger-header--744': media744 === true,
-    'burger-header--744l': media744l === true,
-    'burger-header--375': media375 === true,
-    'burger-header--275': media275 === true,
-    'burger-header--1300': media1300 === true,
-    'burger-header--900': media900 === true,
-    'burger-header--600': media600 === true,
-    'burger-header--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var burgerClass = classnames_default()("burger".concat(queryNumber));
+  var burgerHeaderClass = classnames_default()("burger-header".concat(queryNumber));
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [burger_header744_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderBurgerImg_extends({
       key: "uiImgHeaderBurgerImg".concat(i)
@@ -40445,6 +32856,7 @@ const dataModalContentC_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"modal
 
 
 
+
 var HeaderBurger = function HeaderBurger(props) {
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal,
@@ -40452,53 +32864,10 @@ var HeaderBurger = function HeaderBurger(props) {
     isToggled = _useContext.isToggled;
   var modalId = 'popup-';
   var modalBodyClassName = 'popup__body popup__body-';
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var headerBurgerClass = classnames_default()({
-    'header__burger': media1728 === true,
-    'header--1133__burger': media1133 === true,
-    'header--744__burger': media744 === true,
-    'header--744l__burger': media744l === true,
-    'header--375__burger': media375 === true,
-    'header--275__burger': media275 === true,
-    'header--1300__burger': media1300 === true,
-    'header--900__burger': media900 === true,
-    'header--600__burger': media600 === true,
-    'header--600l__burger': media600l === true
-  });
-  var headerLinkClass = classnames_default()({
-    'header__link': media1728 === true,
-    'header--1133__link': media1133 === true,
-    'header--744__link': media744 === true,
-    'header--744l__link': media744l === true,
-    'header--375__link': media375 === true,
-    'header--275__link': media275 === true,
-    'header--1300__link': media1300 === true,
-    'header--900__link': media900 === true,
-    'header--600__link': media600 === true,
-    'header--600l__link': media600l === true
-  });
-  var headerLinkBurgerClass = classnames_default()({
-    'header__link-burger': media1728 === true,
-    'header--1133__link-burger': media1133 === true,
-    'header--744__link-burger': media744 === true,
-    'header--744l__link-burger': media744l === true,
-    'header--375__link-burger': media375 === true,
-    'header--275__link-burger': media275 === true,
-    'header--1300__link-burger': media1300 === true,
-    'header--900__link-burger': media900 === true,
-    'header--600__link-burger': media600 === true,
-    'header--600l__link-burger': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var headerBurgerClass = classnames_default()("header".concat(queryNumber, "__burger"));
+  var headerLinkClass = classnames_default()("header".concat(queryNumber, "__link"));
+  var headerLinkBurgerClass = classnames_default()("header".concat(queryNumber, "__link-burger"));
   var handleClickBurger = function handleClickBurger() {
     handleToggle();
   };
@@ -40527,30 +32896,10 @@ function HeaderLogoImg_extends() { return HeaderLogoImg_extends = Object.assign 
 
 
 
+
 var HeaderLogoImg = function HeaderLogoImg(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var logoHeaderClass = classnames_default()({
-    'logo-header': media1728 === true,
-    'logo-header--1133': media1133 === true,
-    'logo-header--744': media744 === true,
-    'logo-header--744l': media744l === true,
-    'logo-header--375': media375 === true,
-    'logo-header--275': media275 === true,
-    'logo-header--1300': media1300 === true,
-    'logo-header--900': media900 === true,
-    'logo-header--600': media600 === true,
-    'logo-header--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var logoHeaderClass = classnames_default()("logo-header".concat(queryNumber));
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [logo_header_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderLogoImg_extends({
       key: "uiImgHeaderLogoImg".concat(i)
@@ -40565,6 +32914,7 @@ var HeaderLogoImg = function HeaderLogoImg(props) {
 const dataHeaderLogoImg_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"header-logo-img-0","alt":"","src":""}]');
 ;// ./src/components/sections/header/header_logo/HeaderLogo.jsx
 function HeaderLogo_extends() { return HeaderLogo_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, HeaderLogo_extends.apply(null, arguments); }
+
 
 
 
@@ -40628,6 +32978,7 @@ var HeaderLogo = function HeaderLogo(props) {
 
 
 
+
 var HeaderMenu = function HeaderMenu(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -40640,102 +32991,15 @@ var HeaderMenu = function HeaderMenu(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
-  var headerMenuClass = classnames_default()({
-    'header__menu': media1728 === true,
-    'header--1133__menu': media1133 === true,
-    'header--744__menu': media744 === true,
-    'header--744l__menu': media744l === true,
-    'header--375__menu': media375 === true,
-    'header--275__menu': media275 === true,
-    'header--1300__menu': media1300 === true,
-    'header--900__menu': media900 === true,
-    'header--600__menu': media600 === true,
-    'header--600l__menu': media600l === true
-  });
-  var menuClass = classnames_default()({
-    'menu': media1728 === true,
-    'menu--1133': media1133 === true,
-    'menu--744': media744 === true,
-    'menu--744l': media744l === true,
-    'menu--375': media375 === true,
-    'menu--275': media275 === true,
-    'menu--1300': media1300 === true,
-    'menu--900': media900 === true,
-    'menu--600': media600 === true,
-    'menu--600l': media600l === true
-  });
-  var menuItemClass = classnames_default()({
-    'menu__item': media1728 === true,
-    'menu--1133__item': media1133 === true,
-    'menu--744__item': media744 === true,
-    'menu--744l__item': media744l === true,
-    'menu--375__item': media375 === true,
-    'menu--275__item': media275 === true,
-    'menu--1300__item': media1300 === true,
-    'menu--900__item': media900 === true,
-    'menu--600__item': media600 === true,
-    'menu--600l__item': media600l === true
-  });
-  var menuItemHeaderClass = classnames_default()({
-    'menu__item-header': media1728 === true,
-    'menu--1133__item-header': media1133 === true,
-    'menu--744__item-header': media744 === true,
-    'menu--744l__item-header': media744l === true,
-    'menu--375__item-header': media375 === true,
-    'menu--275__item-header': media275 === true,
-    'menu--1300__item-header': media1300 === true,
-    'menu--900__item-header': media900 === true,
-    'menu--600__item-header': media600 === true,
-    'menu--600l__item-header': media600l === true
-  });
-  var menuLinkClass = classnames_default()({
-    'menu__link': media1728 === true,
-    'menu--1133__link': media1133 === true,
-    'menu--744__link': media744 === true,
-    'menu--744l__link': media744l === true,
-    'menu--375__link': media375 === true,
-    'menu--275__link': media275 === true,
-    'menu--1300__link': media1300 === true,
-    'menu--900__link': media900 === true,
-    'menu--600__link': media600 === true,
-    'menu--600l__link': media600l === true
-  });
-  var menuLinkHeaderClass = classnames_default()({
-    'menu__link-header': media1728 === true,
-    'menu--1133__link-header': media1133 === true,
-    'menu--744__link-header': media744 === true,
-    'menu--744l__link-header': media744l === true,
-    'menu--375__link-header': media375 === true,
-    'menu--275__link-header': media275 === true,
-    'menu--1300__link-header': media1300 === true,
-    'menu--900__link-header': media900 === true,
-    'menu--600__link-header': media600 === true,
-    'menu--600l__link-header': media600l === true
-  });
-  var menuHeaderClass = classnames_default()({
-    'menu-header': media1728 === true,
-    'menu-header--1133': media1133 === true,
-    'menu-header--744': media744 === true,
-    'menu-header--744l': media744l === true,
-    'menu-header--375': media375 === true,
-    'menu-header--275': media275 === true,
-    'menu-header--1300': media1300 === true,
-    'menu-header--900': media900 === true,
-    'menu-header--600': media600 === true,
-    'menu-header--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
+  var headerMenuClass = classnames_default()("header".concat(queryNumber, "__menu"));
+  var menuClass = classnames_default()("menu".concat(queryNumber));
+  var menuItemClass = classnames_default()("menu".concat(queryNumber, "__item"));
+  var menuItemHeaderClass = classnames_default()("menu".concat(queryNumber, "__item-header"));
+  var menuLinkClass = classnames_default()("menu".concat(queryNumber, "__link"));
+  var menuLinkHeaderClass = classnames_default()("menu".concat(queryNumber, "__link-header"));
+  var menuHeaderClass = classnames_default()("menu-header".concat(queryNumber));
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal,
     handleToggle = _useContext.handleToggle,
@@ -40832,35 +33096,15 @@ function HeaderPhone_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var HeaderPhone_delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var HeaderPhone = function HeaderPhone(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var headerPhoneClass = classnames_default()({
-    'header__phone': media1728 === true,
-    'header--1133__phone': media1133 === true,
-    'header--744__phone': media744 === true,
-    'header--744l__phone': media744l === true,
-    'header--375__phone': media375 === true,
-    'header--275__phone': media275 === true,
-    'header--1300__phone': media1300 === true,
-    'header--900__phone': media900 === true,
-    'header--600__phone': media600 === true,
-    'header--600l__phone': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var headerPhoneClass = classnames_default()("header".concat(queryNumber, "__phone"));
   var propsData = function propsData(props) {
     var index = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
     var propsAll = props;
@@ -40878,7 +33122,7 @@ var HeaderPhone = function HeaderPhone(props) {
   var headerSpansPhoneRef = (0,react.useRef)((0,funcArrPhone/* default */.A)(props, 0).map(function () {
     return /*#__PURE__*/(0,react.createRef)();
   }));
-  var classHeaderLinkPhone = classnames_default()('header__link-phone');
+  var classHeaderLinkPhone = classnames_default()("header".concat(queryNumber, "__link-phone"));
   var animationHeaderLinkPhoneIn = function animationHeaderLinkPhoneIn() {
     gsap/* default */.Ay.timeline().to(headerLinkPhoneRef.current, {
       right: 10,
@@ -41012,42 +33256,11 @@ function HeaderPhoneIconImg_extends() { return HeaderPhoneIconImg_extends = Obje
 
 
 
+
 var HeaderPhoneIconImg = function HeaderPhoneIconImg(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var burgerClass = classnames_default()({
-    'burger': media1728 === true,
-    'burger--1133': media1133 === true,
-    'burger--744': media744 === true,
-    'burger--744l': media744l === true,
-    'burger--375': media375 === true,
-    'burger--275': media275 === true,
-    'burger--1300': media1300 === true,
-    'burger--900': media900 === true,
-    'burger--600': media600 === true,
-    'burger--600l': media600l === true
-  });
-  var burgerHeaderClass = classnames_default()({
-    'burger-header': media1728 === true,
-    'burger-header--1133': media1133 === true,
-    'burger-header--744': media744 === true,
-    'burger-header--744l': media744l === true,
-    'burger-header--375': media375 === true,
-    'burger-header--275': media275 === true,
-    'burger-header--1300': media1300 === true,
-    'burger-header--900': media900 === true,
-    'burger-header--600': media600 === true,
-    'burger-header--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var burgerClass = classnames_default()("burger".concat(queryNumber));
+  var burgerHeaderClass = classnames_default()("burger-header".concat(queryNumber));
   return /*#__PURE__*/react.createElement(react.Fragment, null, (0,funcProps/* default */.A)(props, [icon_header_phone_white_namespaceObject]).map(function (prop, i) {
     return /*#__PURE__*/react.createElement(ui/* UiImg */.Yo, HeaderPhoneIconImg_extends({
       key: "uiImgHeaderPhoneIconImg".concat(i)
@@ -41070,47 +33283,16 @@ const dataHeaderPhoneIconImg_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"
 
 
 
+
 var HeaderPhoneIcon_delay = function delay(ms) {
   return new Promise(function (resolve) {
     return setTimeout(resolve, ms);
   });
 };
 var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var headerPhoneClass = classnames_default()({
-    'header__phone': media1728 === true,
-    'header--1133__phone': media1133 === true,
-    'header--744__phone': media744 === true,
-    'header--744l__phone': media744l === true,
-    'header--375__phone': media375 === true,
-    'header--275__phone': media275 === true,
-    'header--1300__phone': media1300 === true,
-    'header--900__phone': media900 === true,
-    'header--600__phone': media600 === true,
-    'header--600l__phone': media600l === true
-  });
-  var headerLinkPhoneClass = classnames_default()({
-    'header__link-phone': media1728 === true,
-    'header--1133__link-phone': media1133 === true,
-    'header--744__link-phone': media744 === true,
-    'header--744l__link-phone': media744l === true,
-    'header--375__link-phone': media375 === true,
-    'header--275__link-phone': media275 === true,
-    'header--1300__link-phone': media1300 === true,
-    'header--900__link-phone': media900 === true,
-    'header--600__link-phone': media600 === true,
-    'header--600l__link-phone': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var headerPhoneClass = classnames_default()("header".concat(queryNumber, "__phone"));
+  var headerLinkPhoneClass = classnames_default()("header".concat(queryNumber, "__link-phone"));
   var headerLinkPhoneRef = (0,react.useRef)();
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
     className: headerPhoneClass
@@ -41134,6 +33316,7 @@ var HeaderPhoneIcon = function HeaderPhoneIcon(props) {
 
 
 
+
 var HeaderTitle = function HeaderTitle(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -41146,30 +33329,9 @@ var HeaderTitle = function HeaderTitle(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var headerTitleClass = classnames_default()({
-    'header__title': media1728 === true,
-    'header--1133__title': media1133 === true,
-    'header--744__title': media744 === true,
-    'header--744l__title': media744l === true,
-    'header--375__title': media375 === true,
-    'header--275__title': media275 === true,
-    'header--1300__title': media1300 === true,
-    'header--900__title': media900 === true,
-    'header--600__title': media600 === true,
-    'header--600l__title': media600l === true
-  });
-  var titleClass = classnames_default()({
-    'title': media1728 === true,
-    'title--1133': media1133 === true,
-    'title--744': media744 === true,
-    'title--744l': media744l === true,
-    'title--375': media375 === true,
-    'title--275': media275 === true,
-    'title--1300': media1300 === true,
-    'title--900': media900 === true,
-    'title--600': media600 === true,
-    'title--600l': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var headerTitleClass = classnames_default()("header".concat(queryNumber, "__title"));
+  var titleClass = classnames_default()("title".concat(queryNumber));
   var headerTitle = (0,react.useRef)(null);
   var animationHeaderTitle = function animationHeaderTitle() {
     gsap/* default */.Ay.timeline().to(headerTitle.current, {
@@ -41252,6 +33414,7 @@ function Header_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var override = {
   display: 'block',
   margin: '0 auto'
@@ -41286,138 +33449,18 @@ var Header = function Header(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var headerClass = classnames_default()({
-    'header': media1728 === true,
-    'header--1133': media1133 === true,
-    'header--744': media744 === true,
-    'header--744l': media744l === true,
-    'header--375': media375 === true,
-    'header--275': media275 === true,
-    'header--1300': media1300 === true,
-    'header--900': media900 === true,
-    'header--600': media600 === true,
-    'header--600l': media600l === true
-  });
-  var headerInnerClass = classnames_default()({
-    'header__inner': media1728 === true,
-    'header--1133__inner': media1133 === true,
-    'header--744__inner': media744 === true,
-    'header--744l__inner': media744l === true,
-    'header--375__inner': media375 === true,
-    'header--275__inner': media275 === true,
-    'header--1300__inner': media1300 === true,
-    'header--900__inner': media900 === true,
-    'header--600__inner': media600 === true,
-    'header--600l__inner': media600l === true
-  });
-  var headerLeftClass = classnames_default()({
-    'header__left': media1728 === true,
-    'header--1133__left': media1133 === true,
-    'header--744__left': media744 === true,
-    'header--744l__left': media744l === true,
-    'header--375__left': media375 === true,
-    'header--275__left': media275 === true,
-    'header--1300__left': media1300 === true,
-    'header--900__left': media900 === true,
-    'header--600__left': media600 === true,
-    'header--600l__left': media600l === true
-  });
-  var headerInnerLeftClass = classnames_default()({
-    'header__inner-left': media1728 === true,
-    'header--1133__inner-left': media1133 === true,
-    'header--744__inner-left': media744 === true,
-    'header--744l__inner-left': media744l === true,
-    'header--375__inner-left': media375 === true,
-    'header--275__inner-left': media275 === true,
-    'header--1300__inner-left': media1300 === true,
-    'header--900__inner-left': media900 === true,
-    'header--600__inner-left': media600 === true,
-    'header--600l__inner-left': media600l === true
-  });
-  var headerLineClass = classnames_default()({
-    'header__line': media1728 === true,
-    'header--1133__line': media1133 === true,
-    'header--744__line': media744 === true,
-    'header--744l__line': media744l === true,
-    'header--375__line': media375 === true,
-    'header--275__line': media275 === true,
-    'header--1300__line': media1300 === true,
-    'header--900__line': media900 === true,
-    'header--600__line': media600 === true,
-    'header--600l__line': media600l === true
-  });
-  var headerRightClass = classnames_default()({
-    'header__right': media1728 === true,
-    'header--1133__right': media1133 === true,
-    'header--744__right': media744 === true,
-    'header--744l__right': media744l === true,
-    'header--375__right': media375 === true,
-    'header--275__right': media275 === true,
-    'header--1300__right': media1300 === true,
-    'header--900__right': media900 === true,
-    'header--600__right': media600 === true,
-    'header--600l__right': media600l === true
-  });
-  var headerInnerRightClass = classnames_default()({
-    'header__inner-right': media1728 === true,
-    'header--1133__inner-right': media1133 === true,
-    'header--744__inner-right': media744 === true,
-    'header--744l__inner-right': media744l === true,
-    'header--375__inner-right': media375 === true,
-    'header--275__inner-right': media275 === true,
-    'header--1300__inner-right': media1300 === true,
-    'header--900__inner-right': media900 === true,
-    'header--600__inner-right': media600 === true,
-    'header--600l__inner-right': media600l === true
-  });
-  var containerClass = classnames_default()({
-    'container': media1728 === true,
-    'container--1133': media1133 === true,
-    'container--744': media744 === true,
-    'container--744l': media744l === true,
-    'container--375': media375 === true,
-    'container--275': media275 === true,
-    'container--1300': media1300 === true,
-    'container--900': media900 === true,
-    'container--600': media600 === true,
-    'container--600l': media600l === true
-  });
-  var blockClass = classnames_default()({
-    'block': media1728 === true,
-    'block--1133': media1133 === true,
-    'block--744': media744 === true,
-    'block--744l': media744l === true,
-    'block--375': media375 === true,
-    'block--275': media275 === true,
-    'block--1300': media1300 === true,
-    'block--900': media900 === true,
-    'block--600': media600 === true,
-    'block--600l': media600l === true
-  });
-  var blockLockClass = classnames_default()({
-    'block-lock': media1728 === true,
-    'block-lock--1133': media1133 === true,
-    'block-lock--744': media744 === true,
-    'block-lock--744l': media744l === true,
-    'block-lock--375': media375 === true,
-    'block-lock--275': media275 === true,
-    'block-lock--1300': media1300 === true,
-    'block-lock--900': media900 === true,
-    'block-lock--600': media600 === true,
-    'block-lock--600l': media600l === true
-  });
-  var blockBodyClass = classnames_default()({
-    'block__body': media1728 === true,
-    'block--1133__body': media1133 === true,
-    'block--744__body': media744 === true,
-    'block--744l__body': media744l === true,
-    'block--375__body': media375 === true,
-    'block--275__body': media275 === true,
-    'block--1300__body': media1300 === true,
-    'block--900__body': media900 === true,
-    'block--600__body': media600 === true,
-    'block--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var headerClass = classnames_default()("header".concat(queryNumber));
+  var headerInnerClass = classnames_default()("header".concat(queryNumber, "__inner"));
+  var headerLeftClass = classnames_default()("header".concat(queryNumber, "__left"));
+  var headerInnerLeftClass = classnames_default()("header".concat(queryNumber, "__inner-left"));
+  var headerLineClass = classnames_default()("header".concat(queryNumber, "__line"));
+  var headerRightClass = classnames_default()("header".concat(queryNumber, "__right"));
+  var headerInnerRightClass = classnames_default()("header".concat(queryNumber, "__inner-right"));
+  var containerClass = classnames_default()("container".concat(queryNumber));
+  var blockClass = classnames_default()("block".concat(queryNumber));
+  var blockLockClass = classnames_default()("block-lock".concat(queryNumber));
+  var blockBodyClass = classnames_default()("block".concat(queryNumber, "__body"));
   var ref = (0,react.useRef)(null);
   var headerLeft = (0,react.useRef)(null);
   var _useState = (0,react.useState)(1728),
@@ -41573,6 +33616,7 @@ var Header = function Header(props) {
 
 
 
+
 var InfoSvg230l = function InfoSvg230l(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -41584,65 +33628,11 @@ var InfoSvg230l = function InfoSvg230l(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderSvgClass = classnames_default()({
-    'slider__svg': media1728 === true,
-    'slider--1133__svg': media1133 === true,
-    'slider--744__svg': media744 === true,
-    'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true,
-    'slider--1300__svg': media1300 === true,
-    'slider--900__svg': media900 === true,
-    'slider--600__svg': media600 === true,
-    'slider--600l__svg': media600l === true
-  });
-  var sliderSvgInfoClass = classnames_default()({
-    'slider__svg-info': media1728 === true,
-    'slider--1133__svg-info': media1133 === true,
-    'slider--744__svg-info': media744 === true,
-    'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true,
-    'slider--1300__svg-info': media1300 === true,
-    'slider--900__svg-info': media900 === true,
-    'slider--600__svg-info': media600 === true,
-    'slider--600l__svg-info': media600l === true
-  });
-  var sliderSvgTitleClass = classnames_default()({
-    'slider__svg-title': media1728 === true,
-    'slider--1133__svg-title': media1133 === true,
-    'slider--744__svg-title': media744 === true,
-    'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true,
-    'slider--1300__svg-title': media1300 === true,
-    'slider--900__svg-title': media900 === true,
-    'slider--600__svg-title': media600 === true,
-    'slider--600l__svg-title': media600l === true
-  });
-  var sliderSvgTextClass = classnames_default()({
-    'slider__svg-text': media1728 === true,
-    'slider--1133__svg-text': media1133 === true,
-    'slider--744__svg-text': media744 === true,
-    'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true,
-    'slider--1300__svg-text': media1300 === true,
-    'slider--900__svg-text': media900 === true,
-    'slider--600__svg-text': media600 === true,
-    'slider--600l__svg-text': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderSvgClass = classnames_default()("slider".concat(queryNumber, "__svg"));
+  var sliderSvgInfoClass = classnames_default()("slider".concat(queryNumber, "__svg-info"));
+  var sliderSvgTitleClass = classnames_default()("slider".concat(queryNumber, "__svg-title"));
+  var sliderSvgTextClass = classnames_default()("slider".concat(queryNumber, "__svg-text"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
     className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
@@ -42586,6 +34576,7 @@ var InfoSvg330Group2 = function InfoSvg330Group2() {
 
 
 
+
 var InfoSvg330 = function InfoSvg330(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -42597,65 +34588,11 @@ var InfoSvg330 = function InfoSvg330(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderSvgClass = classnames_default()({
-    'slider__svg': media1728 === true,
-    'slider--1133__svg': media1133 === true,
-    'slider--744__svg': media744 === true,
-    'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true,
-    'slider--1300__svg': media1300 === true,
-    'slider--900__svg': media900 === true,
-    'slider--600__svg': media600 === true,
-    'slider--600l__svg': media600l === true
-  });
-  var sliderSvgInfoClass = classnames_default()({
-    'slider__svg-info': media1728 === true,
-    'slider--1133__svg-info': media1133 === true,
-    'slider--744__svg-info': media744 === true,
-    'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true,
-    'slider--1300__svg-info': media1300 === true,
-    'slider--900__svg-info': media900 === true,
-    'slider--600__svg-info': media600 === true,
-    'slider--600l__svg-info': media600l === true
-  });
-  var sliderSvgTitleClass = classnames_default()({
-    'slider__svg-title': media1728 === true,
-    'slider--1133__svg-title': media1133 === true,
-    'slider--744__svg-title': media744 === true,
-    'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true,
-    'slider--1300__svg-title': media1300 === true,
-    'slider--900__svg-title': media900 === true,
-    'slider--600__svg-title': media600 === true,
-    'slider--600l__svg-title': media600l === true
-  });
-  var sliderSvgTextClass = classnames_default()({
-    'slider__svg-text': media1728 === true,
-    'slider--1133__svg-text': media1133 === true,
-    'slider--744__svg-text': media744 === true,
-    'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true,
-    'slider--1300__svg-text': media1300 === true,
-    'slider--900__svg-text': media900 === true,
-    'slider--600__svg-text': media600 === true,
-    'slider--600l__svg-text': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderSvgClass = classnames_default()("slider".concat(queryNumber, "__svg"));
+  var sliderSvgInfoClass = classnames_default()("slider".concat(queryNumber, "__svg-info"));
+  var sliderSvgTitleClass = classnames_default()("slider".concat(queryNumber, "__svg-title"));
+  var sliderSvgTextClass = classnames_default()("slider".concat(queryNumber, "__svg-text"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
     className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
@@ -42777,6 +34714,7 @@ var InfoSvg330 = function InfoSvg330(_ref) {
 
 
 
+
 var InfoSvg330l = function InfoSvg330l(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -42788,65 +34726,11 @@ var InfoSvg330l = function InfoSvg330l(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderSvgClass = classnames_default()({
-    'slider__svg': media1728 === true,
-    'slider--1133__svg': media1133 === true,
-    'slider--744__svg': media744 === true,
-    'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true,
-    'slider--1300__svg': media1300 === true,
-    'slider--900__svg': media900 === true,
-    'slider--600__svg': media600 === true,
-    'slider--600l__svg': media600l === true
-  });
-  var sliderSvgInfoClass = classnames_default()({
-    'slider__svg-info': media1728 === true,
-    'slider--1133__svg-info': media1133 === true,
-    'slider--744__svg-info': media744 === true,
-    'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true,
-    'slider--1300__svg-info': media1300 === true,
-    'slider--900__svg-info': media900 === true,
-    'slider--600__svg-info': media600 === true,
-    'slider--600l__svg-info': media600l === true
-  });
-  var sliderSvgTitleClass = classnames_default()({
-    'slider__svg-title': media1728 === true,
-    'slider--1133__svg-title': media1133 === true,
-    'slider--744__svg-title': media744 === true,
-    'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true,
-    'slider--1300__svg-title': media1300 === true,
-    'slider--900__svg-title': media900 === true,
-    'slider--600__svg-title': media600 === true,
-    'slider--600l__svg-title': media600l === true
-  });
-  var sliderSvgTextClass = classnames_default()({
-    'slider__svg-text': media1728 === true,
-    'slider--1133__svg-text': media1133 === true,
-    'slider--744__svg-text': media744 === true,
-    'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true,
-    'slider--1300__svg-text': media1300 === true,
-    'slider--900__svg-text': media900 === true,
-    'slider--600__svg-text': media600 === true,
-    'slider--600l__svg-text': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderSvgClass = classnames_default()("slider".concat(queryNumber, "__svg"));
+  var sliderSvgInfoClass = classnames_default()("slider".concat(queryNumber, "__svg-info"));
+  var sliderSvgTitleClass = classnames_default()("slider".concat(queryNumber, "__svg-title"));
+  var sliderSvgTextClass = classnames_default()("slider".concat(queryNumber, "__svg-text"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
     className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
@@ -43786,6 +35670,7 @@ var InfoSvg440Group2 = function InfoSvg440Group2() {
 
 
 
+
 var InfoSvg440 = function InfoSvg440(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -43797,65 +35682,11 @@ var InfoSvg440 = function InfoSvg440(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderSvgClass = classnames_default()({
-    'slider__svg': media1728 === true,
-    'slider--1133__svg': media1133 === true,
-    'slider--744__svg': media744 === true,
-    'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true,
-    'slider--1300__svg': media1300 === true,
-    'slider--900__svg': media900 === true,
-    'slider--600__svg': media600 === true,
-    'slider--600l__svg': media600l === true
-  });
-  var sliderSvgInfoClass = classnames_default()({
-    'slider__svg-info': media1728 === true,
-    'slider--1133__svg-info': media1133 === true,
-    'slider--744__svg-info': media744 === true,
-    'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true,
-    'slider--1300__svg-info': media1300 === true,
-    'slider--900__svg-info': media900 === true,
-    'slider--600__svg-info': media600 === true,
-    'slider--600l__svg-info': media600l === true
-  });
-  var sliderSvgTitleClass = classnames_default()({
-    'slider__svg-title': media1728 === true,
-    'slider--1133__svg-title': media1133 === true,
-    'slider--744__svg-title': media744 === true,
-    'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true,
-    'slider--1300__svg-title': media1300 === true,
-    'slider--900__svg-title': media900 === true,
-    'slider--600__svg-title': media600 === true,
-    'slider--600l__svg-title': media600l === true
-  });
-  var sliderSvgTextClass = classnames_default()({
-    'slider__svg-text': media1728 === true,
-    'slider--1133__svg-text': media1133 === true,
-    'slider--744__svg-text': media744 === true,
-    'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true,
-    'slider--1300__svg-text': media1300 === true,
-    'slider--900__svg-text': media900 === true,
-    'slider--600__svg-text': media600 === true,
-    'slider--600l__svg-text': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderSvgClass = classnames_default()("slider".concat(queryNumber, "__svg"));
+  var sliderSvgInfoClass = classnames_default()("slider".concat(queryNumber, "__svg-info"));
+  var sliderSvgTitleClass = classnames_default()("slider".concat(queryNumber, "__svg-title"));
+  var sliderSvgTextClass = classnames_default()("slider".concat(queryNumber, "__svg-text"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
     className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
@@ -43977,6 +35808,7 @@ var InfoSvg440 = function InfoSvg440(_ref) {
 
 
 
+
 var InfoSvg440l = function InfoSvg440l(_ref) {
   var idSvg = _ref.idSvg,
     xlinkHref = _ref.xlinkHref,
@@ -43988,65 +35820,11 @@ var InfoSvg440l = function InfoSvg440l(_ref) {
     childrenText1 = _ref.childrenText1,
     childrenTitle2 = _ref.childrenTitle2,
     childrenText2 = _ref.childrenText2;
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var sliderSvgClass = classnames_default()({
-    'slider__svg': media1728 === true,
-    'slider--1133__svg': media1133 === true,
-    'slider--744__svg': media744 === true,
-    'slider--744l__svg': media744l === true,
-    'slider--375__svg': media375 === true,
-    'slider--275__svg': media275 === true,
-    'slider--1300__svg': media1300 === true,
-    'slider--900__svg': media900 === true,
-    'slider--600__svg': media600 === true,
-    'slider--600l__svg': media600l === true
-  });
-  var sliderSvgInfoClass = classnames_default()({
-    'slider__svg-info': media1728 === true,
-    'slider--1133__svg-info': media1133 === true,
-    'slider--744__svg-info': media744 === true,
-    'slider--744l__svg-info': media744l === true,
-    'slider--375__svg-info': media375 === true,
-    'slider--275__svg-info': media275 === true,
-    'slider--1300__svg-info': media1300 === true,
-    'slider--900__svg-info': media900 === true,
-    'slider--600__svg-info': media600 === true,
-    'slider--600l__svg-info': media600l === true
-  });
-  var sliderSvgTitleClass = classnames_default()({
-    'slider__svg-title': media1728 === true,
-    'slider--1133__svg-title': media1133 === true,
-    'slider--744__svg-title': media744 === true,
-    'slider--744l__svg-title': media744l === true,
-    'slider--375__svg-title': media375 === true,
-    'slider--275__svg-title': media275 === true,
-    'slider--1300__svg-title': media1300 === true,
-    'slider--900__svg-title': media900 === true,
-    'slider--600__svg-title': media600 === true,
-    'slider--600l__svg-title': media600l === true
-  });
-  var sliderSvgTextClass = classnames_default()({
-    'slider__svg-text': media1728 === true,
-    'slider--1133__svg-text': media1133 === true,
-    'slider--744__svg-text': media744 === true,
-    'slider--744l__svg-text': media744l === true,
-    'slider--375__svg-text': media375 === true,
-    'slider--275__svg-text': media275 === true,
-    'slider--1300__svg-text': media1300 === true,
-    'slider--900__svg-text': media900 === true,
-    'slider--600__svg-text': media600 === true,
-    'slider--600l__svg-text': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var sliderSvgClass = classnames_default()("slider".concat(queryNumber, "__svg"));
+  var sliderSvgInfoClass = classnames_default()("slider".concat(queryNumber, "__svg-info"));
+  var sliderSvgTitleClass = classnames_default()("slider".concat(queryNumber, "__svg-title"));
+  var sliderSvgTextClass = classnames_default()("slider".concat(queryNumber, "__svg-text"));
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("svg", {
     id: idSvg,
     className: "".concat(sliderSvgClass, " ").concat(sliderSvgInfoClass),
@@ -44218,6 +35996,7 @@ function Info_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var Info = function Info(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -44230,198 +36009,23 @@ var Info = function Info(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var infoClass = classnames_default()({
-    'info': media1728 === true,
-    'info--1133': media1133 === true,
-    'info--744': media744 === true,
-    'info--744l': media744l === true,
-    'info--375': media375 === true,
-    'info--275': media275 === true,
-    'info--1300': media1300 === true,
-    'info--900': media900 === true,
-    'info--600': media600 === true,
-    'info--600l': media600l === true
-  });
-  var containerClass = classnames_default()({
-    'container': media1728 === true,
-    'container--1133': media1133 === true,
-    'container--744': media744 === true,
-    'container--744l': media744l === true,
-    'container--375': media375 === true,
-    'container--275': media275 === true,
-    'container--1300': media1300 === true,
-    'container--900': media900 === true,
-    'container--600': media600 === true,
-    'container--600l': media600l === true
-  });
-  var containerInfoClass = classnames_default()({
-    'container-info': media1728 === true,
-    'container--1133-info': media1133 === true,
-    'container--744-info': media744 === true,
-    'container--744l-info': media744l === true,
-    'container--375-info': media375 === true,
-    'container--275-info': media275 === true,
-    'container--1300-info': media1300 === true,
-    'container--900-info': media900 === true,
-    'container--600-info': media600 === true,
-    'container--600l-info': media600l === true
-  });
-  var infoSliderClass = classnames_default()({
-    'info__slider': media1728 === true,
-    'info--1133__slider': media1133 === true,
-    'info--744__slider': media744 === true,
-    'info--744l__slider': media744l === true,
-    'info--375__slider': media375 === true,
-    'info--275__slider': media275 === true,
-    'info--1300__slider': media1300 === true,
-    'info--900__slider': media900 === true,
-    'info--600__slider': media600 === true,
-    'info--600l__slider': media600l === true
-  });
-  var sliderClass = classnames_default()({
-    'slider': media1728 === true,
-    'slider--1133': media1133 === true,
-    'slider--744': media744 === true,
-    'slider--744l': media744l === true,
-    'slider--375': media375 === true,
-    'slider--275': media275 === true,
-    'slider--1300': media1300 === true,
-    'slider--900': media900 === true,
-    'slider--600': media600 === true,
-    'slider--600l': media600l === true
-  });
-  var sliderInfoClass = classnames_default()({
-    'slider-info': media1728 === true,
-    'slider--1133-info': media1133 === true,
-    'slider--744-info': media744 === true,
-    'slider--744l-info': media744l === true,
-    'slider--375-info': media375 === true,
-    'slider--275-info': media275 === true,
-    'slider--1300-info': media1300 === true,
-    'slider--900-info': media900 === true,
-    'slider--600-info': media600 === true,
-    'slider--600l-info': media600l === true
-  });
-  var sliderItemsClass = classnames_default()({
-    'slider__items': media1728 === true,
-    'slider--1133__items': media1133 === true,
-    'slider--744__items': media744 === true,
-    'slider--744l__items': media744l === true,
-    'slider--375__items': media375 === true,
-    'slider--275__items': media275 === true,
-    'slider--1300__items': media1300 === true,
-    'slider--900__items': media900 === true,
-    'slider--600__items': media600 === true,
-    'slider--600l__items': media600l === true
-  });
-  var sliderItemsInfoClass = classnames_default()({
-    'slider__items-info': media1728 === true,
-    'slider--1133__items-info': media1133 === true,
-    'slider--744__items-info': media744 === true,
-    'slider--744l__items-info': media744l === true,
-    'slider--375__items-info': media375 === true,
-    'slider--275__items-info': media275 === true,
-    'slider--1300__items-info': media1300 === true,
-    'slider--900__items-info': media900 === true,
-    'slider--600__items-info': media600 === true,
-    'slider--600l__items-info': media600l === true
-  });
-  var sliderItemClass = classnames_default()({
-    'slider__item': media1728 === true,
-    'slider--1133__item': media1133 === true,
-    'slider--744__item': media744 === true,
-    'slider--744l__item': media744l === true,
-    'slider--375__item': media375 === true,
-    'slider--275__item': media275 === true,
-    'slider--1300__item': media1300 === true,
-    'slider--900__item': media900 === true,
-    'slider--600__item': media600 === true,
-    'slider--600l__item': media600l === true
-  });
-  var sliderItemInfoClass = classnames_default()({
-    'slider__item-info': media1728 === true,
-    'slider--1133__item-info': media1133 === true,
-    'slider--744__item-info': media744 === true,
-    'slider--744l__item-info': media744l === true,
-    'slider--375__item-info': media375 === true,
-    'slider--275__item-info': media275 === true,
-    'slider--1300__item-info': media1300 === true,
-    'slider--900__item-info': media900 === true,
-    'slider--600__item-info': media600 === true,
-    'slider--600l__item-info': media600l === true
-  });
-  var sliderInnerClass = classnames_default()({
-    'slider__inner': media1728 === true,
-    'slider--1133__inner': media1133 === true,
-    'slider--744__inner': media744 === true,
-    'slider--744l__inner': media744l === true,
-    'slider--375__inner': media375 === true,
-    'slider--275__inner': media275 === true,
-    'slider--1300__inner': media1300 === true,
-    'slider--900__inner': media900 === true,
-    'slider--600__inner': media600 === true,
-    'slider--600l__inner': media600l === true
-  });
-  var sliderInfoInnerClass = classnames_default()({
-    'slider-info__inner': media1728 === true,
-    'slider--1133-info__inner': media1133 === true,
-    'slider--744-info__inner': media744 === true,
-    'slider--744l-info__inner': media744l === true,
-    'slider--375-info__inner': media375 === true,
-    'slider--275-info__inner': media275 === true,
-    'slider--1300-info__inner': media1300 === true,
-    'slider--900-info__inner': media900 === true,
-    'slider--600-info__inner': media600 === true,
-    'slider--600l-info__inner': media600l === true
-  });
-  var sliderSlideClass = classnames_default()({
-    'slider__slide': media1728 === true,
-    'slider--1133__slide': media1133 === true,
-    'slider--744__slide': media744 === true,
-    'slider--744l__slide': media744l === true,
-    'slider--375__slide': media375 === true,
-    'slider--275__slide': media275 === true,
-    'slider--1300__slide': media1300 === true,
-    'slider--900__slide': media900 === true,
-    'slider--600__slide': media600 === true,
-    'slider--600l__slide': media600l === true
-  });
-  var sliderSlideInfoClass = classnames_default()({
-    'slider__slide-info': media1728 === true,
-    'slider--1133__slide-info': media1133 === true,
-    'slider--744__slide-info': media744 === true,
-    'slider--744l__slide-info': media744l === true,
-    'slider--375__slide-info': media375 === true,
-    'slider--275__slide-info': media275 === true,
-    'slider--1300__slide-info': media1300 === true,
-    'slider--900__slide-info': media900 === true,
-    'slider--600__slide-info': media600 === true,
-    'slider--600l__slide-info': media600l === true
-  });
-  var sliderLinkClass = classnames_default()({
-    'slider__link': media1728 === true,
-    'slider--1133__link': media1133 === true,
-    'slider--744__link': media744 === true,
-    'slider--744l__link': media744l === true,
-    'slider--375__link': media375 === true,
-    'slider--275__link': media275 === true,
-    'slider--1300__link': media1300 === true,
-    'slider--900__link': media900 === true,
-    'slider--600__link': media600 === true,
-    'slider--600l__link': media600l === true
-  });
-  var sliderLinkInfoClass = classnames_default()({
-    'slider__link-info': media1728 === true,
-    'slider--1133__link-info': media1133 === true,
-    'slider--744__link-info': media744 === true,
-    'slider--744l__link-info': media744l === true,
-    'slider--375__link-info': media375 === true,
-    'slider--275__link-info': media275 === true,
-    'slider--1300__link-info': media1300 === true,
-    'slider--900__link-info': media900 === true,
-    'slider--600__link-info': media600 === true,
-    'slider--600l__link-info': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var infoClass = classnames_default()("info".concat(queryNumber));
+  var containerClass = classnames_default()("container".concat(queryNumber));
+  var containerInfoClass = classnames_default()("container".concat(queryNumber, "-info"));
+  var infoSliderClass = classnames_default()("info".concat(queryNumber, "__slider"));
+  var sliderClass = classnames_default()("slider".concat(queryNumber));
+  var sliderInfoClass = classnames_default()("slider".concat(queryNumber, "-info"));
+  var sliderItemsClass = classnames_default()("slider".concat(queryNumber, "__items"));
+  var sliderItemsInfoClass = classnames_default()("slider".concat(queryNumber, "__items-info"));
+  var sliderItemClass = classnames_default()("slider".concat(queryNumber, "__item"));
+  var sliderItemInfoClass = classnames_default()("slider".concat(queryNumber, "__item-info"));
+  var sliderInnerClass = classnames_default()("slider".concat(queryNumber, "__inner"));
+  var sliderInfoInnerClass = classnames_default()("slider".concat(queryNumber, "-info__inner"));
+  var sliderSlideClass = classnames_default()("slider".concat(queryNumber, "__slide"));
+  var sliderSlideInfoClass = classnames_default()("slider".concat(queryNumber, "__slide-info"));
+  var sliderLinkClass = classnames_default()("slider".concat(queryNumber, "__link"));
+  var sliderLinkInfoClass = classnames_default()("slider".concat(queryNumber, "__link-info"));
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
     isScrolling = _useScrollDirection.isScrolling;
   var slidesInfoRef = (0,react.useRef)([0, 1, 2].map(function () {
@@ -44562,6 +36166,7 @@ function MainSidebar_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var MainSidebar = function MainSidebar(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -44574,138 +36179,18 @@ var MainSidebar = function MainSidebar(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var mainSidebarClass = classnames_default()({
-    'main__sidebar': media1728 === true,
-    'main--1133__sidebar': media1133 === true,
-    'main--744__sidebar': media744 === true,
-    'main--744l__sidebar': media744l === true,
-    'main--375__sidebar': media375 === true,
-    'main--275__sidebar': media275 === true,
-    'main--1300__sidebar': media1300 === true,
-    'main--900__sidebar': media900 === true,
-    'main--600__sidebar': media600 === true,
-    'main--600l__sidebar': media600l === true
-  });
-  var sidebarClass = classnames_default()({
-    'sidebar': media1728 === true,
-    'sidebar--1133': media1133 === true,
-    'sidebar--744': media744 === true,
-    'sidebar--744l': media744l === true,
-    'sidebar--375': media375 === true,
-    'sidebar--275': media275 === true,
-    'sidebar--1300': media1300 === true,
-    'sidebar--900': media900 === true,
-    'sidebar--600': media600 === true,
-    'sidebar--600l': media600l === true
-  });
-  var sidebarMainClass = classnames_default()({
-    'sidebar-main': media1728 === true,
-    'sidebar-main--1133': media1133 === true,
-    'sidebar-main--744': media744 === true,
-    'sidebar-main--744l': media744l === true,
-    'sidebar-main--375': media375 === true,
-    'sidebar-main--275': media275 === true,
-    'sidebar-main--1300': media1300 === true,
-    'sidebar-main--900': media900 === true,
-    'sidebar-main--600': media600 === true,
-    'sidebar-main--600l': media600l === true
-  });
-  var sidebarItemClass = classnames_default()({
-    'sidebar__item': media1728 === true,
-    'sidebar--1133__item': media1133 === true,
-    'sidebar--744__item': media744 === true,
-    'sidebar--744l__item': media744l === true,
-    'sidebar--375__item': media375 === true,
-    'sidebar--275__item': media275 === true,
-    'sidebar--1300__item': media1300 === true,
-    'sidebar--900__item': media900 === true,
-    'sidebar--600__item': media600 === true,
-    'sidebar--600l__item': media600l === true
-  });
-  var sidebarItemMainClass = classnames_default()({
-    'sidebar__item-main': media1728 === true,
-    'sidebar--1133__item-main': media1133 === true,
-    'sidebar--744__item-main': media744 === true,
-    'sidebar--744l__item-main': media744l === true,
-    'sidebar--375__item-main': media375 === true,
-    'sidebar--275__item-main': media275 === true,
-    'sidebar--1300__item-main': media1300 === true,
-    'sidebar--900__item-main': media900 === true,
-    'sidebar--600__item-main': media600 === true,
-    'sidebar--600l__item-main': media600l === true
-  });
-  var sidebarSubClass = classnames_default()({
-    'sidebar-sub': media1728 === true,
-    'sidebar-sub--1133': media1133 === true,
-    'sidebar-sub--744': media744 === true,
-    'sidebar-sub--744l': media744l === true,
-    'sidebar-sub--375': media375 === true,
-    'sidebar-sub--275': media275 === true,
-    'sidebar-sub--1300': media1300 === true,
-    'sidebar-sub--900': media900 === true,
-    'sidebar-sub--600': media600 === true,
-    'sidebar-sub--600l': media600l === true
-  });
-  var sidebarItemSubClass = classnames_default()({
-    'sidebar__item-sub': media1728 === true,
-    'sidebar--1133__item-sub': media1133 === true,
-    'sidebar--744__item-sub': media744 === true,
-    'sidebar--744l__item-sub': media744l === true,
-    'sidebar--375__item-sub': media375 === true,
-    'sidebar--275__item-sub': media275 === true,
-    'sidebar--1300__item-sub': media1300 === true,
-    'sidebar--900__item-sub': media900 === true,
-    'sidebar--600__item-sub': media600 === true,
-    'sidebar--600l__item-sub': media600l === true
-  });
-  var sidebarLinkClass = classnames_default()({
-    'sidebar__link': media1728 === true,
-    'sidebar--1133__link': media1133 === true,
-    'sidebar--744__link': media744 === true,
-    'sidebar--744l__link': media744l === true,
-    'sidebar--375__link': media375 === true,
-    'sidebar--275__link': media275 === true,
-    'sidebar--1300__link': media1300 === true,
-    'sidebar--900__link': media900 === true,
-    'sidebar--600__link': media600 === true,
-    'sidebar--600l__link': media600l === true
-  });
-  var sidebarLinkSubClass = classnames_default()({
-    'sidebar__link-sub': media1728 === true,
-    'sidebar--1133__link-sub': media1133 === true,
-    'sidebar--744__link-sub': media744 === true,
-    'sidebar--744l__link-sub': media744l === true,
-    'sidebar--375__link-sub': media375 === true,
-    'sidebar--275__link-sub': media275 === true,
-    'sidebar--1300__link-sub': media1300 === true,
-    'sidebar--900__link-sub': media900 === true,
-    'sidebar--600__link-sub': media600 === true,
-    'sidebar--600l__link-sub': media600l === true
-  });
-  var sidebarLinkMainClass = classnames_default()({
-    'sidebar__link-main': media1728 === true,
-    'sidebar--1133__link-main': media1133 === true,
-    'sidebar--744__link-main': media744 === true,
-    'sidebar--744l__link-main': media744l === true,
-    'sidebar--375__link-main': media375 === true,
-    'sidebar--275__link-main': media275 === true,
-    'sidebar--1300__link-main': media1300 === true,
-    'sidebar--900__link-main': media900 === true,
-    'sidebar--600__link-main': media600 === true,
-    'sidebar--600l__link-main': media600l === true
-  });
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var mainSidebarClass = classnames_default()("main".concat(queryNumber, "__sidebar"));
+  var sidebarClass = classnames_default()("sidebar".concat(queryNumber));
+  var sidebarMainClass = classnames_default()("sidebar-main".concat(queryNumber));
+  var sidebarItemClass = classnames_default()("sidebar".concat(queryNumber, "__item"));
+  var sidebarItemMainClass = classnames_default()("sidebar".concat(queryNumber, "__item-main"));
+  var sidebarSubClass = classnames_default()("sidebar-sub".concat(queryNumber));
+  var sidebarItemSubClass = classnames_default()("sidebar".concat(queryNumber, "__item-sub"));
+  var sidebarLinkClass = classnames_default()("sidebar".concat(queryNumber, "__link"));
+  var sidebarLinkSubClass = classnames_default()("sidebar".concat(queryNumber, "__link-sub"));
+  var sidebarLinkMainClass = classnames_default()("sidebar".concat(queryNumber, "__link-main"));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var buttonsSubRef = (0,react.useRef)([0, 1].map(function () {
     return /*#__PURE__*/(0,react.createRef)();
   }));
@@ -44927,54 +36412,12 @@ function MainIconsIcon_extends() { return MainIconsIcon_extends = Object.assign 
 
 
 
+
 var MainIconsIcon = function MainIconsIcon(props) {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var iconsMainClass = classnames_default()({
-    'icons__main': media1728 === true,
-    'icons--1133__main': media1133 === true,
-    'icons--744__main': media744 === true,
-    'icons--744l__main': media744l === true,
-    'icons--375__main': media375 === true,
-    'icons--275__main': media275 === true,
-    'icons--1300__main': media1300 === true,
-    'icons--900__main': media900 === true,
-    'icons--600__main': media600 === true,
-    'icons--600l__main': media600l === true
-  });
-  var iconsMainIconClass = classnames_default()({
-    'icons__main-icon': media1728 === true,
-    'icons--1133__main-icon': media1133 === true,
-    'icons--744__main-icon': media744 === true,
-    'icons--744l__main-icon': media744l === true,
-    'icons--375__main-icon': media375 === true,
-    'icons--275__main-icon': media275 === true,
-    'icons--1300__main-icon': media1300 === true,
-    'icons--900__main-icon': media900 === true,
-    'icons--600__main-icon': media600 === true,
-    'icons--600l__main-icon': media600l === true
-  });
-  var iconsMainShadowClass = classnames_default()({
-    'icons__main-shadow': media1728 === true,
-    'icons--1133__main-shadow': media1133 === true,
-    'icons--744__main-shadow': media744 === true,
-    'icons--744l__main-shadow': media744l === true,
-    'icons--375__main-shadow': media375 === true,
-    'icons--275__main-shadow': media275 === true,
-    'icons--1300__main-shadow': media1300 === true,
-    'icons--900__main-shadow': media900 === true,
-    'icons--600__main-shadow': media600 === true,
-    'icons--600l__main-shadow': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var iconsMainClass = classnames_default()("icons".concat(queryNumber, "__main"));
+  var iconsMainIconClass = classnames_default()("icons".concat(queryNumber, "__main-icon"));
+  var iconsMainShadowClass = classnames_default()("icons".concat(queryNumber, "__main-shadow"));
   var iconsIconRef = (0,react.useRef)(props.images.map(function () {
     return /*#__PURE__*/(0,react.createRef)();
   }));
@@ -45064,6 +36507,7 @@ function MainIcons_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
 var MainIcons = function MainIcons(props) {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -45076,102 +36520,15 @@ var MainIcons = function MainIcons(props) {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var mainIconsClass = classnames_default()({
-    'main__icons': media1728 === true,
-    'main--1133__icons': media1133 === true,
-    'main--744__icons': media744 === true,
-    'main--744l__icons': media744l === true,
-    'main--375__icons': media375 === true,
-    'main--275__icons': media275 === true,
-    'main--1300__icons': media1300 === true,
-    'main--900__icons': media900 === true,
-    'main--600__icons': media600 === true,
-    'main--600l__icons': media600l === true
-  });
-  var iconsClass = classnames_default()({
-    'icons': media1728 === true,
-    'icons--1133': media1133 === true,
-    'icons--744': media744 === true,
-    'icons--744l': media744l === true,
-    'icons--375': media375 === true,
-    'icons--275': media275 === true,
-    'icons--1300': media1300 === true,
-    'icons--900': media900 === true,
-    'icons--600': media600 === true,
-    'icons--600l': media600l === true
-  });
-  var iconsMainClass = classnames_default()({
-    'icons-main': media1728 === true,
-    'icons-main--1133': media1133 === true,
-    'icons-main--744': media744 === true,
-    'icons-main--744l': media744l === true,
-    'icons-main--375': media375 === true,
-    'icons-main--275': media275 === true,
-    'icons-main--1300': media1300 === true,
-    'icons-main--900': media900 === true,
-    'icons-main--600': media600 === true,
-    'icons-main--600l': media600l === true
-  });
-  var iconsItemClass = classnames_default()({
-    'icons__item': media1728 === true,
-    'icons--1133__item': media1133 === true,
-    'icons--744__item': media744 === true,
-    'icons--744l__item': media744l === true,
-    'icons--375__item': media375 === true,
-    'icons--275__item': media275 === true,
-    'icons--1300__item': media1300 === true,
-    'icons--900__item': media900 === true,
-    'icons--600__item': media600 === true,
-    'icons--600l__item': media600l === true
-  });
-  var iconsItemMainClass = classnames_default()({
-    'icons__item-main': media1728 === true,
-    'icons--1133__item-main': media1133 === true,
-    'icons--744__item-main': media744 === true,
-    'icons--744l__item-main': media744l === true,
-    'icons--375__item-main': media375 === true,
-    'icons--275__item-main': media275 === true,
-    'icons--1300__item-main': media1300 === true,
-    'icons--900__item-main': media900 === true,
-    'icons--600__item-main': media600 === true,
-    'icons--600l__item-main': media600l === true
-  });
-  var iconsLinkClass = classnames_default()({
-    'icons__link': media1728 === true,
-    'icons--1133__link': media1133 === true,
-    'icons--744__link': media744 === true,
-    'icons--744l__link': media744l === true,
-    'icons--375__link': media375 === true,
-    'icons--275__link': media275 === true,
-    'icons--1300__link': media1300 === true,
-    'icons--900__link': media900 === true,
-    'icons--600__link': media600 === true,
-    'icons--600l__link': media600l === true
-  });
-  var iconsLinkMainClass = classnames_default()({
-    'icons__link-main': media1728 === true,
-    'icons--1133__link-main': media1133 === true,
-    'icons--744__link-main': media744 === true,
-    'icons--744l__link-main': media744l === true,
-    'icons--375__link-main': media375 === true,
-    'icons--275__link-main': media275 === true,
-    'icons--1300__link-main': media1300 === true,
-    'icons--900__link-main': media900 === true,
-    'icons--600__link-main': media600 === true,
-    'icons--600l__link-main': media600l === true
-  });
-  var popupBodyClass = classnames_default()({
-    'popup__body': media1728 === true,
-    'popup--1133__body': media1133 === true,
-    'popup--744__body': media744 === true,
-    'popup--744l__body': media744l === true,
-    'popup--375__body': media375 === true,
-    'popup--275__body': media275 === true,
-    'popup--1300__body': media1300 === true,
-    'popup--900__body': media900 === true,
-    'popup--600__body': media600 === true,
-    'popup--600l__body': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var mainIconsClass = classnames_default()("main".concat(queryNumber, "__icons"));
+  var iconsClass = classnames_default()("icons".concat(queryNumber));
+  var iconsMainClass = classnames_default()("icons-main".concat(queryNumber));
+  var iconsItemClass = classnames_default()("icons".concat(queryNumber, "__item"));
+  var iconsItemMainClass = classnames_default()("icons".concat(queryNumber, "__item-main"));
+  var iconsLinkClass = classnames_default()("icons".concat(queryNumber, "__link"));
+  var iconsLinkMainClass = classnames_default()("icons".concat(queryNumber, "__link-main"));
+  var popupBodyClass = classnames_default()("popup".concat(queryNumber, "__body"));
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     openModal = _useContext.openModal;
   var _useScrollDirection = (0,react_use_scroll_direction_esm/* useScrollDirection */.Y)(),
@@ -45372,6 +36729,7 @@ const dataMainIcons_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":"main-icon
 
 
 
+
 var Main = function Main() {
   var queryMedia = (0,funcQueryMedia/* default */.A)();
   var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
@@ -45384,30 +36742,9 @@ var Main = function Main() {
   var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
   var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
   var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var mainClass = classnames_default()({
-    'main': media1728 === true,
-    'main--1133': media1133 === true,
-    'main--744': media744 === true,
-    'main--744l': media744l === true,
-    'main--375': media375 === true,
-    'main--275': media275 === true,
-    'main--1300': media1300 === true,
-    'main--900': media900 === true,
-    'main--600': media600 === true,
-    'main--600l': media600l === true
-  });
-  var mainInnerClass = classnames_default()({
-    'main__inner': media1728 === true,
-    'main--1133__inner': media1133 === true,
-    'main--744__inner': media744 === true,
-    'main--744l__inner': media744l === true,
-    'main--375__inner': media375 === true,
-    'main--275__inner': media275 === true,
-    'main--1300__inner': media1300 === true,
-    'main--900__inner': media900 === true,
-    'main--600__inner': media600 === true,
-    'main--600l__inner': media600l === true
-  });
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  var mainClass = classnames_default()("main".concat(queryNumber));
+  var mainInnerClass = classnames_default()("main".concat(queryNumber, "__inner"));
   var loadedImageBg1728 = (0,hooks/* useLoadImageBg */.ws)(bg_main_namespaceObject);
   var loadedImageBg1300 = (0,hooks/* useLoadImageBg */.ws)(bg_main1300_1_namespaceObject);
   var loadedImageBg1133 = (0,hooks/* useLoadImageBg */.ws)(bg_main1133_namespaceObject);
@@ -45561,9 +36898,12 @@ function app_arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
+
+
 var Procedures = /*#__PURE__*/(0,react.lazy)(function () {
   return __webpack_require__.e(/* import() */ 624).then(__webpack_require__.bind(__webpack_require__, 3077));
 });
+
 
 
 
@@ -45577,53 +36917,24 @@ var app_override = {
 };
 var app_color = "#C975D8";
 function App() {
-  var queryMedia = (0,funcQueryMedia/* default */.A)();
-  var media1728 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1728);
-  var media1133 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1133);
-  var media744 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744);
-  var media744l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query744l);
-  var media375 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query375);
-  var media275 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query275);
-  var media1300 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query1300);
-  var media900 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query900);
-  var media600 = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600);
-  var media600l = (0,hooks/* useMediaQuery */.Ub)(queryMedia.query600l);
-  var wrapperClass = classnames_default()({
-    'wrapper': media1728 === true,
-    'wrapper--1133': media1133 === true,
-    'wrapper--744': media744 === true,
-    'wrapper--744l': media744l === true,
-    'wrapper--375': media375 === true,
-    'wrapper--275': media275 === true,
-    'wrapper--1300': media1300 === true,
-    'wrapper--900': media900 === true,
-    'wrapper--600': media600 === true,
-    'wrapper--600l': media600l === true
-  });
-  var wrapperProceduresClass = classnames_default()({
-    'wrapper__procedures': media1728 === true,
-    'wrapper--1133__procedures': media1133 === true,
-    'wrapper--744__procedures': media744 === true,
-    'wrapper--744l__procedures': media744l === true,
-    'wrapper--375__procedures': media375 === true,
-    'wrapper--275__procedures': media275 === true,
-    'wrapper--1300__procedures': media1300 === true,
-    'wrapper--900__procedures': media900 === true,
-    'wrapper--600__procedures': media600 === true,
-    'wrapper--600l__procedures': media600l === true
-  });
-  var wrapperCertificatesClass = classnames_default()({
-    'wrapper__certificates': media1728 === true,
-    'wrapper--1133__certificates': media1133 === true,
-    'wrapper--744__certificates': media744 === true,
-    'wrapper--744l__certificates': media744l === true,
-    'wrapper--375__certificates': media375 === true,
-    'wrapper--275__certificates': media275 === true,
-    'wrapper--1300__certificates': media1300 === true,
-    'wrapper--900__certificates': media900 === true,
-    'wrapper--600__certificates': media600 === true,
-    'wrapper--600l__certificates': media600l === true
-  });
+  var _useOrientation = esm_useOrientation(),
+    type = _useOrientation.type;
+  console.log(type);
+  (0,react.useEffect)(function () {
+    window.sessionStorage.setItem('orientation', type);
+  }), [];
+  (0,react.useEffect)(function () {
+    var orientation = window.sessionStorage.getItem('orientation');
+    if (orientation !== type) {
+      window.sessionStorage.setItem('orientation', type);
+      window.location.reload();
+    }
+  }), [type];
+  var queryNumber = (0,funcQueryNumber/* default */.A)();
+  console.log(queryNumber);
+  var wrapperClass = classnames_default()("wrapper".concat(queryNumber));
+  var wrapperProceduresClass = classnames_default()("wrapper".concat(queryNumber, "__procedures"));
+  var wrapperCertificatesClass = classnames_default()("wrapper".concat(queryNumber, "__certificates"));
   var scrollbarWidth = (0,hooks/* useScrollbarWidth */.yR)();
   var _useContext = (0,react.useContext)(contexts/* ModalContext */.Vs),
     headerHeight = _useContext.headerHeight,
@@ -45813,14 +37124,10240 @@ function App() {
   })))))));
 }
 /* harmony default export */ const app = (App);
+;// ./node_modules/react-router/dist/development/chunk-OIYGIGL5.mjs
+/**
+ * react-router v7.9.4
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+var __typeError = (msg) => {
+  throw TypeError(msg);
+};
+var __accessCheck = (obj, member, msg) => member.has(obj) || __typeError("Cannot " + msg);
+var __privateGet = (obj, member, getter) => (__accessCheck(obj, member, "read from private field"), getter ? getter.call(obj) : member.get(obj));
+var __privateAdd = (obj, member, value) => member.has(obj) ? __typeError("Cannot add the same private member more than once") : member instanceof WeakSet ? member.add(obj) : member.set(obj, value);
+
+// lib/router/history.ts
+var Action = /* @__PURE__ */ ((Action2) => {
+  Action2["Pop"] = "POP";
+  Action2["Push"] = "PUSH";
+  Action2["Replace"] = "REPLACE";
+  return Action2;
+})(Action || {});
+var PopStateEventType = "popstate";
+function createMemoryHistory(options = {}) {
+  let { initialEntries = ["/"], initialIndex, v5Compat = false } = options;
+  let entries;
+  entries = initialEntries.map(
+    (entry, index2) => createMemoryLocation(
+      entry,
+      typeof entry === "string" ? null : entry.state,
+      index2 === 0 ? "default" : void 0
+    )
+  );
+  let index = clampIndex(
+    initialIndex == null ? entries.length - 1 : initialIndex
+  );
+  let action = "POP" /* Pop */;
+  let listener = null;
+  function clampIndex(n) {
+    return Math.min(Math.max(n, 0), entries.length - 1);
+  }
+  function getCurrentLocation() {
+    return entries[index];
+  }
+  function createMemoryLocation(to, state = null, key) {
+    let location = createLocation(
+      entries ? getCurrentLocation().pathname : "/",
+      to,
+      state,
+      key
+    );
+    warning(
+      location.pathname.charAt(0) === "/",
+      `relative pathnames are not supported in memory history: ${JSON.stringify(
+        to
+      )}`
+    );
+    return location;
+  }
+  function createHref2(to) {
+    return typeof to === "string" ? to : createPath(to);
+  }
+  let history = {
+    get index() {
+      return index;
+    },
+    get action() {
+      return action;
+    },
+    get location() {
+      return getCurrentLocation();
+    },
+    createHref: createHref2,
+    createURL(to) {
+      return new URL(createHref2(to), "http://localhost");
+    },
+    encodeLocation(to) {
+      let path = typeof to === "string" ? parsePath(to) : to;
+      return {
+        pathname: path.pathname || "",
+        search: path.search || "",
+        hash: path.hash || ""
+      };
+    },
+    push(to, state) {
+      action = "PUSH" /* Push */;
+      let nextLocation = createMemoryLocation(to, state);
+      index += 1;
+      entries.splice(index, entries.length, nextLocation);
+      if (v5Compat && listener) {
+        listener({ action, location: nextLocation, delta: 1 });
+      }
+    },
+    replace(to, state) {
+      action = "REPLACE" /* Replace */;
+      let nextLocation = createMemoryLocation(to, state);
+      entries[index] = nextLocation;
+      if (v5Compat && listener) {
+        listener({ action, location: nextLocation, delta: 0 });
+      }
+    },
+    go(delta) {
+      action = "POP" /* Pop */;
+      let nextIndex = clampIndex(index + delta);
+      let nextLocation = entries[nextIndex];
+      index = nextIndex;
+      if (listener) {
+        listener({ action, location: nextLocation, delta });
+      }
+    },
+    listen(fn) {
+      listener = fn;
+      return () => {
+        listener = null;
+      };
+    }
+  };
+  return history;
+}
+function createBrowserHistory(options = {}) {
+  function createBrowserLocation(window2, globalHistory) {
+    let { pathname, search, hash } = window2.location;
+    return createLocation(
+      "",
+      { pathname, search, hash },
+      // state defaults to `null` because `window.history.state` does
+      globalHistory.state && globalHistory.state.usr || null,
+      globalHistory.state && globalHistory.state.key || "default"
+    );
+  }
+  function createBrowserHref(window2, to) {
+    return typeof to === "string" ? to : createPath(to);
+  }
+  return getUrlBasedHistory(
+    createBrowserLocation,
+    createBrowserHref,
+    null,
+    options
+  );
+}
+function createHashHistory(options = {}) {
+  function createHashLocation(window2, globalHistory) {
+    let {
+      pathname = "/",
+      search = "",
+      hash = ""
+    } = parsePath(window2.location.hash.substring(1));
+    if (!pathname.startsWith("/") && !pathname.startsWith(".")) {
+      pathname = "/" + pathname;
+    }
+    return createLocation(
+      "",
+      { pathname, search, hash },
+      // state defaults to `null` because `window.history.state` does
+      globalHistory.state && globalHistory.state.usr || null,
+      globalHistory.state && globalHistory.state.key || "default"
+    );
+  }
+  function createHashHref(window2, to) {
+    let base = window2.document.querySelector("base");
+    let href = "";
+    if (base && base.getAttribute("href")) {
+      let url = window2.location.href;
+      let hashIndex = url.indexOf("#");
+      href = hashIndex === -1 ? url : url.slice(0, hashIndex);
+    }
+    return href + "#" + (typeof to === "string" ? to : createPath(to));
+  }
+  function validateHashLocation(location, to) {
+    warning(
+      location.pathname.charAt(0) === "/",
+      `relative pathnames are not supported in hash history.push(${JSON.stringify(
+        to
+      )})`
+    );
+  }
+  return getUrlBasedHistory(
+    createHashLocation,
+    createHashHref,
+    validateHashLocation,
+    options
+  );
+}
+function invariant(value, message) {
+  if (value === false || value === null || typeof value === "undefined") {
+    throw new Error(message);
+  }
+}
+function warning(cond, message) {
+  if (!cond) {
+    if (typeof console !== "undefined") console.warn(message);
+    try {
+      throw new Error(message);
+    } catch (e) {
+    }
+  }
+}
+function createKey() {
+  return Math.random().toString(36).substring(2, 10);
+}
+function getHistoryState(location, index) {
+  return {
+    usr: location.state,
+    key: location.key,
+    idx: index
+  };
+}
+function createLocation(current, to, state = null, key) {
+  let location = {
+    pathname: typeof current === "string" ? current : current.pathname,
+    search: "",
+    hash: "",
+    ...typeof to === "string" ? parsePath(to) : to,
+    state,
+    // TODO: This could be cleaned up.  push/replace should probably just take
+    // full Locations now and avoid the need to run through this flow at all
+    // But that's a pretty big refactor to the current test suite so going to
+    // keep as is for the time being and just let any incoming keys take precedence
+    key: to && to.key || key || createKey()
+  };
+  return location;
+}
+function createPath({
+  pathname = "/",
+  search = "",
+  hash = ""
+}) {
+  if (search && search !== "?")
+    pathname += search.charAt(0) === "?" ? search : "?" + search;
+  if (hash && hash !== "#")
+    pathname += hash.charAt(0) === "#" ? hash : "#" + hash;
+  return pathname;
+}
+function parsePath(path) {
+  let parsedPath = {};
+  if (path) {
+    let hashIndex = path.indexOf("#");
+    if (hashIndex >= 0) {
+      parsedPath.hash = path.substring(hashIndex);
+      path = path.substring(0, hashIndex);
+    }
+    let searchIndex = path.indexOf("?");
+    if (searchIndex >= 0) {
+      parsedPath.search = path.substring(searchIndex);
+      path = path.substring(0, searchIndex);
+    }
+    if (path) {
+      parsedPath.pathname = path;
+    }
+  }
+  return parsedPath;
+}
+function getUrlBasedHistory(getLocation, createHref2, validateLocation, options = {}) {
+  let { window: window2 = document.defaultView, v5Compat = false } = options;
+  let globalHistory = window2.history;
+  let action = "POP" /* Pop */;
+  let listener = null;
+  let index = getIndex();
+  if (index == null) {
+    index = 0;
+    globalHistory.replaceState({ ...globalHistory.state, idx: index }, "");
+  }
+  function getIndex() {
+    let state = globalHistory.state || { idx: null };
+    return state.idx;
+  }
+  function handlePop() {
+    action = "POP" /* Pop */;
+    let nextIndex = getIndex();
+    let delta = nextIndex == null ? null : nextIndex - index;
+    index = nextIndex;
+    if (listener) {
+      listener({ action, location: history.location, delta });
+    }
+  }
+  function push(to, state) {
+    action = "PUSH" /* Push */;
+    let location = createLocation(history.location, to, state);
+    if (validateLocation) validateLocation(location, to);
+    index = getIndex() + 1;
+    let historyState = getHistoryState(location, index);
+    let url = history.createHref(location);
+    try {
+      globalHistory.pushState(historyState, "", url);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "DataCloneError") {
+        throw error;
+      }
+      window2.location.assign(url);
+    }
+    if (v5Compat && listener) {
+      listener({ action, location: history.location, delta: 1 });
+    }
+  }
+  function replace2(to, state) {
+    action = "REPLACE" /* Replace */;
+    let location = createLocation(history.location, to, state);
+    if (validateLocation) validateLocation(location, to);
+    index = getIndex();
+    let historyState = getHistoryState(location, index);
+    let url = history.createHref(location);
+    globalHistory.replaceState(historyState, "", url);
+    if (v5Compat && listener) {
+      listener({ action, location: history.location, delta: 0 });
+    }
+  }
+  function createURL(to) {
+    return createBrowserURLImpl(to);
+  }
+  let history = {
+    get action() {
+      return action;
+    },
+    get location() {
+      return getLocation(window2, globalHistory);
+    },
+    listen(fn) {
+      if (listener) {
+        throw new Error("A history only accepts one active listener");
+      }
+      window2.addEventListener(PopStateEventType, handlePop);
+      listener = fn;
+      return () => {
+        window2.removeEventListener(PopStateEventType, handlePop);
+        listener = null;
+      };
+    },
+    createHref(to) {
+      return createHref2(window2, to);
+    },
+    createURL,
+    encodeLocation(to) {
+      let url = createURL(to);
+      return {
+        pathname: url.pathname,
+        search: url.search,
+        hash: url.hash
+      };
+    },
+    push,
+    replace: replace2,
+    go(n) {
+      return globalHistory.go(n);
+    }
+  };
+  return history;
+}
+function createBrowserURLImpl(to, isAbsolute = false) {
+  let base = "http://localhost";
+  if (typeof window !== "undefined") {
+    base = window.location.origin !== "null" ? window.location.origin : window.location.href;
+  }
+  invariant(base, "No window.location.(origin|href) available to create URL");
+  let href = typeof to === "string" ? to : createPath(to);
+  href = href.replace(/ $/, "%20");
+  if (!isAbsolute && href.startsWith("//")) {
+    href = base + href;
+  }
+  return new URL(href, base);
+}
+
+// lib/router/utils.ts
+function createContext(defaultValue) {
+  return { defaultValue };
+}
+var _map;
+var RouterContextProvider = class {
+  /**
+   * Create a new `RouterContextProvider` instance
+   * @param init An optional initial context map to populate the provider with
+   */
+  constructor(init) {
+    __privateAdd(this, _map, /* @__PURE__ */ new Map());
+    if (init) {
+      for (let [context, value] of init) {
+        this.set(context, value);
+      }
+    }
+  }
+  /**
+   * Access a value from the context. If no value has been set for the context,
+   * it will return the context's `defaultValue` if provided, or throw an error
+   * if no `defaultValue` was set.
+   * @param context The context to get the value for
+   * @returns The value for the context, or the context's `defaultValue` if no
+   * value was set
+   */
+  get(context) {
+    if (__privateGet(this, _map).has(context)) {
+      return __privateGet(this, _map).get(context);
+    }
+    if (context.defaultValue !== void 0) {
+      return context.defaultValue;
+    }
+    throw new Error("No value found for context");
+  }
+  /**
+   * Set a value for the context. If the context already has a value set, this
+   * will overwrite it.
+   *
+   * @param context The context to set the value for
+   * @param value The value to set for the context
+   * @returns {void}
+   */
+  set(context, value) {
+    __privateGet(this, _map).set(context, value);
+  }
+};
+_map = new WeakMap();
+var unsupportedLazyRouteObjectKeys = /* @__PURE__ */ new Set([
+  "lazy",
+  "caseSensitive",
+  "path",
+  "id",
+  "index",
+  "children"
+]);
+function isUnsupportedLazyRouteObjectKey(key) {
+  return unsupportedLazyRouteObjectKeys.has(
+    key
+  );
+}
+var unsupportedLazyRouteFunctionKeys = /* @__PURE__ */ new Set([
+  "lazy",
+  "caseSensitive",
+  "path",
+  "id",
+  "index",
+  "middleware",
+  "children"
+]);
+function isUnsupportedLazyRouteFunctionKey(key) {
+  return unsupportedLazyRouteFunctionKeys.has(
+    key
+  );
+}
+function isIndexRoute(route) {
+  return route.index === true;
+}
+function convertRoutesToDataRoutes(routes, mapRouteProperties2, parentPath = [], manifest = {}, allowInPlaceMutations = false) {
+  return routes.map((route, index) => {
+    let treePath = [...parentPath, String(index)];
+    let id = typeof route.id === "string" ? route.id : treePath.join("-");
+    invariant(
+      route.index !== true || !route.children,
+      `Cannot specify children on an index route`
+    );
+    invariant(
+      allowInPlaceMutations || !manifest[id],
+      `Found a route id collision on id "${id}".  Route id's must be globally unique within Data Router usages`
+    );
+    if (isIndexRoute(route)) {
+      let indexRoute = {
+        ...route,
+        ...mapRouteProperties2(route),
+        id
+      };
+      manifest[id] = indexRoute;
+      return indexRoute;
+    } else {
+      let pathOrLayoutRoute = {
+        ...route,
+        ...mapRouteProperties2(route),
+        id,
+        children: void 0
+      };
+      manifest[id] = pathOrLayoutRoute;
+      if (route.children) {
+        pathOrLayoutRoute.children = convertRoutesToDataRoutes(
+          route.children,
+          mapRouteProperties2,
+          treePath,
+          manifest,
+          allowInPlaceMutations
+        );
+      }
+      return pathOrLayoutRoute;
+    }
+  });
+}
+function matchRoutes(routes, locationArg, basename = "/") {
+  return matchRoutesImpl(routes, locationArg, basename, false);
+}
+function matchRoutesImpl(routes, locationArg, basename, allowPartial) {
+  let location = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
+  let pathname = stripBasename(location.pathname || "/", basename);
+  if (pathname == null) {
+    return null;
+  }
+  let branches = flattenRoutes(routes);
+  rankRouteBranches(branches);
+  let matches = null;
+  for (let i = 0; matches == null && i < branches.length; ++i) {
+    let decoded = decodePath(pathname);
+    matches = matchRouteBranch(
+      branches[i],
+      decoded,
+      allowPartial
+    );
+  }
+  return matches;
+}
+function convertRouteMatchToUiMatch(match, loaderData) {
+  let { route, pathname, params } = match;
+  return {
+    id: route.id,
+    pathname,
+    params,
+    data: loaderData[route.id],
+    loaderData: loaderData[route.id],
+    handle: route.handle
+  };
+}
+function flattenRoutes(routes, branches = [], parentsMeta = [], parentPath = "", _hasParentOptionalSegments = false) {
+  let flattenRoute = (route, index, hasParentOptionalSegments = _hasParentOptionalSegments, relativePath) => {
+    let meta = {
+      relativePath: relativePath === void 0 ? route.path || "" : relativePath,
+      caseSensitive: route.caseSensitive === true,
+      childrenIndex: index,
+      route
+    };
+    if (meta.relativePath.startsWith("/")) {
+      if (!meta.relativePath.startsWith(parentPath) && hasParentOptionalSegments) {
+        return;
+      }
+      invariant(
+        meta.relativePath.startsWith(parentPath),
+        `Absolute route path "${meta.relativePath}" nested under path "${parentPath}" is not valid. An absolute child route path must start with the combined path of all its parent routes.`
+      );
+      meta.relativePath = meta.relativePath.slice(parentPath.length);
+    }
+    let path = joinPaths([parentPath, meta.relativePath]);
+    let routesMeta = parentsMeta.concat(meta);
+    if (route.children && route.children.length > 0) {
+      invariant(
+        // Our types know better, but runtime JS may not!
+        // @ts-expect-error
+        route.index !== true,
+        `Index routes must not have child routes. Please remove all child routes from route path "${path}".`
+      );
+      flattenRoutes(
+        route.children,
+        branches,
+        routesMeta,
+        path,
+        hasParentOptionalSegments
+      );
+    }
+    if (route.path == null && !route.index) {
+      return;
+    }
+    branches.push({
+      path,
+      score: computeScore(path, route.index),
+      routesMeta
+    });
+  };
+  routes.forEach((route, index) => {
+    if (route.path === "" || !route.path?.includes("?")) {
+      flattenRoute(route, index);
+    } else {
+      for (let exploded of explodeOptionalSegments(route.path)) {
+        flattenRoute(route, index, true, exploded);
+      }
+    }
+  });
+  return branches;
+}
+function explodeOptionalSegments(path) {
+  let segments = path.split("/");
+  if (segments.length === 0) return [];
+  let [first, ...rest] = segments;
+  let isOptional = first.endsWith("?");
+  let required = first.replace(/\?$/, "");
+  if (rest.length === 0) {
+    return isOptional ? [required, ""] : [required];
+  }
+  let restExploded = explodeOptionalSegments(rest.join("/"));
+  let result = [];
+  result.push(
+    ...restExploded.map(
+      (subpath) => subpath === "" ? required : [required, subpath].join("/")
+    )
+  );
+  if (isOptional) {
+    result.push(...restExploded);
+  }
+  return result.map(
+    (exploded) => path.startsWith("/") && exploded === "" ? "/" : exploded
+  );
+}
+function rankRouteBranches(branches) {
+  branches.sort(
+    (a, b) => a.score !== b.score ? b.score - a.score : compareIndexes(
+      a.routesMeta.map((meta) => meta.childrenIndex),
+      b.routesMeta.map((meta) => meta.childrenIndex)
+    )
+  );
+}
+var paramRe = /^:[\w-]+$/;
+var dynamicSegmentValue = 3;
+var indexRouteValue = 2;
+var emptySegmentValue = 1;
+var staticSegmentValue = 10;
+var splatPenalty = -2;
+var isSplat = (s) => s === "*";
+function computeScore(path, index) {
+  let segments = path.split("/");
+  let initialScore = segments.length;
+  if (segments.some(isSplat)) {
+    initialScore += splatPenalty;
+  }
+  if (index) {
+    initialScore += indexRouteValue;
+  }
+  return segments.filter((s) => !isSplat(s)).reduce(
+    (score, segment) => score + (paramRe.test(segment) ? dynamicSegmentValue : segment === "" ? emptySegmentValue : staticSegmentValue),
+    initialScore
+  );
+}
+function compareIndexes(a, b) {
+  let siblings = a.length === b.length && a.slice(0, -1).every((n, i) => n === b[i]);
+  return siblings ? (
+    // If two routes are siblings, we should try to match the earlier sibling
+    // first. This allows people to have fine-grained control over the matching
+    // behavior by simply putting routes with identical paths in the order they
+    // want them tried.
+    a[a.length - 1] - b[b.length - 1]
+  ) : (
+    // Otherwise, it doesn't really make sense to rank non-siblings by index,
+    // so they sort equally.
+    0
+  );
+}
+function matchRouteBranch(branch, pathname, allowPartial = false) {
+  let { routesMeta } = branch;
+  let matchedParams = {};
+  let matchedPathname = "/";
+  let matches = [];
+  for (let i = 0; i < routesMeta.length; ++i) {
+    let meta = routesMeta[i];
+    let end = i === routesMeta.length - 1;
+    let remainingPathname = matchedPathname === "/" ? pathname : pathname.slice(matchedPathname.length) || "/";
+    let match = matchPath(
+      { path: meta.relativePath, caseSensitive: meta.caseSensitive, end },
+      remainingPathname
+    );
+    let route = meta.route;
+    if (!match && end && allowPartial && !routesMeta[routesMeta.length - 1].route.index) {
+      match = matchPath(
+        {
+          path: meta.relativePath,
+          caseSensitive: meta.caseSensitive,
+          end: false
+        },
+        remainingPathname
+      );
+    }
+    if (!match) {
+      return null;
+    }
+    Object.assign(matchedParams, match.params);
+    matches.push({
+      // TODO: Can this as be avoided?
+      params: matchedParams,
+      pathname: joinPaths([matchedPathname, match.pathname]),
+      pathnameBase: normalizePathname(
+        joinPaths([matchedPathname, match.pathnameBase])
+      ),
+      route
+    });
+    if (match.pathnameBase !== "/") {
+      matchedPathname = joinPaths([matchedPathname, match.pathnameBase]);
+    }
+  }
+  return matches;
+}
+function generatePath(originalPath, params = {}) {
+  let path = originalPath;
+  if (path.endsWith("*") && path !== "*" && !path.endsWith("/*")) {
+    warning(
+      false,
+      `Route path "${path}" will be treated as if it were "${path.replace(/\*$/, "/*")}" because the \`*\` character must always follow a \`/\` in the pattern. To get rid of this warning, please change the route path to "${path.replace(/\*$/, "/*")}".`
+    );
+    path = path.replace(/\*$/, "/*");
+  }
+  const prefix = path.startsWith("/") ? "/" : "";
+  const stringify2 = (p) => p == null ? "" : typeof p === "string" ? p : String(p);
+  const segments = path.split(/\/+/).map((segment, index, array) => {
+    const isLastSegment = index === array.length - 1;
+    if (isLastSegment && segment === "*") {
+      const star = "*";
+      return stringify2(params[star]);
+    }
+    const keyMatch = segment.match(/^:([\w-]+)(\??)$/);
+    if (keyMatch) {
+      const [, key, optional] = keyMatch;
+      let param = params[key];
+      invariant(optional === "?" || param != null, `Missing ":${key}" param`);
+      return encodeURIComponent(stringify2(param));
+    }
+    return segment.replace(/\?$/g, "");
+  }).filter((segment) => !!segment);
+  return prefix + segments.join("/");
+}
+function matchPath(pattern, pathname) {
+  if (typeof pattern === "string") {
+    pattern = { path: pattern, caseSensitive: false, end: true };
+  }
+  let [matcher, compiledParams] = compilePath(
+    pattern.path,
+    pattern.caseSensitive,
+    pattern.end
+  );
+  let match = pathname.match(matcher);
+  if (!match) return null;
+  let matchedPathname = match[0];
+  let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
+  let captureGroups = match.slice(1);
+  let params = compiledParams.reduce(
+    (memo2, { paramName, isOptional }, index) => {
+      if (paramName === "*") {
+        let splatValue = captureGroups[index] || "";
+        pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
+      }
+      const value = captureGroups[index];
+      if (isOptional && !value) {
+        memo2[paramName] = void 0;
+      } else {
+        memo2[paramName] = (value || "").replace(/%2F/g, "/");
+      }
+      return memo2;
+    },
+    {}
+  );
+  return {
+    params,
+    pathname: matchedPathname,
+    pathnameBase,
+    pattern
+  };
+}
+function compilePath(path, caseSensitive = false, end = true) {
+  warning(
+    path === "*" || !path.endsWith("*") || path.endsWith("/*"),
+    `Route path "${path}" will be treated as if it were "${path.replace(/\*$/, "/*")}" because the \`*\` character must always follow a \`/\` in the pattern. To get rid of this warning, please change the route path to "${path.replace(/\*$/, "/*")}".`
+  );
+  let params = [];
+  let regexpSource = "^" + path.replace(/\/*\*?$/, "").replace(/^\/*/, "/").replace(/[\\.*+^${}|()[\]]/g, "\\$&").replace(
+    /\/:([\w-]+)(\?)?/g,
+    (_, paramName, isOptional) => {
+      params.push({ paramName, isOptional: isOptional != null });
+      return isOptional ? "/?([^\\/]+)?" : "/([^\\/]+)";
+    }
+  ).replace(/\/([\w-]+)\?(\/|$)/g, "(/$1)?$2");
+  if (path.endsWith("*")) {
+    params.push({ paramName: "*" });
+    regexpSource += path === "*" || path === "/*" ? "(.*)$" : "(?:\\/(.+)|\\/*)$";
+  } else if (end) {
+    regexpSource += "\\/*$";
+  } else if (path !== "" && path !== "/") {
+    regexpSource += "(?:(?=\\/|$))";
+  } else {
+  }
+  let matcher = new RegExp(regexpSource, caseSensitive ? void 0 : "i");
+  return [matcher, params];
+}
+function decodePath(value) {
+  try {
+    return value.split("/").map((v) => decodeURIComponent(v).replace(/\//g, "%2F")).join("/");
+  } catch (error) {
+    warning(
+      false,
+      `The URL path "${value}" could not be decoded because it is a malformed URL segment. This is probably due to a bad percent encoding (${error}).`
+    );
+    return value;
+  }
+}
+function stripBasename(pathname, basename) {
+  if (basename === "/") return pathname;
+  if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) {
+    return null;
+  }
+  let startIndex = basename.endsWith("/") ? basename.length - 1 : basename.length;
+  let nextChar = pathname.charAt(startIndex);
+  if (nextChar && nextChar !== "/") {
+    return null;
+  }
+  return pathname.slice(startIndex) || "/";
+}
+function prependBasename({
+  basename,
+  pathname
+}) {
+  return pathname === "/" ? basename : joinPaths([basename, pathname]);
+}
+function resolvePath(to, fromPathname = "/") {
+  let {
+    pathname: toPathname,
+    search = "",
+    hash = ""
+  } = typeof to === "string" ? parsePath(to) : to;
+  let pathname = toPathname ? toPathname.startsWith("/") ? toPathname : resolvePathname(toPathname, fromPathname) : fromPathname;
+  return {
+    pathname,
+    search: normalizeSearch(search),
+    hash: normalizeHash(hash)
+  };
+}
+function resolvePathname(relativePath, fromPathname) {
+  let segments = fromPathname.replace(/\/+$/, "").split("/");
+  let relativeSegments = relativePath.split("/");
+  relativeSegments.forEach((segment) => {
+    if (segment === "..") {
+      if (segments.length > 1) segments.pop();
+    } else if (segment !== ".") {
+      segments.push(segment);
+    }
+  });
+  return segments.length > 1 ? segments.join("/") : "/";
+}
+function getInvalidPathError(char, field, dest, path) {
+  return `Cannot include a '${char}' character in a manually specified \`to.${field}\` field [${JSON.stringify(
+    path
+  )}].  Please separate it out to the \`to.${dest}\` field. Alternatively you may provide the full path as a string in <Link to="..."> and the router will parse it for you.`;
+}
+function getPathContributingMatches(matches) {
+  return matches.filter(
+    (match, index) => index === 0 || match.route.path && match.route.path.length > 0
+  );
+}
+function getResolveToMatches(matches) {
+  let pathMatches = getPathContributingMatches(matches);
+  return pathMatches.map(
+    (match, idx) => idx === pathMatches.length - 1 ? match.pathname : match.pathnameBase
+  );
+}
+function resolveTo(toArg, routePathnames, locationPathname, isPathRelative = false) {
+  let to;
+  if (typeof toArg === "string") {
+    to = parsePath(toArg);
+  } else {
+    to = { ...toArg };
+    invariant(
+      !to.pathname || !to.pathname.includes("?"),
+      getInvalidPathError("?", "pathname", "search", to)
+    );
+    invariant(
+      !to.pathname || !to.pathname.includes("#"),
+      getInvalidPathError("#", "pathname", "hash", to)
+    );
+    invariant(
+      !to.search || !to.search.includes("#"),
+      getInvalidPathError("#", "search", "hash", to)
+    );
+  }
+  let isEmptyPath = toArg === "" || to.pathname === "";
+  let toPathname = isEmptyPath ? "/" : to.pathname;
+  let from;
+  if (toPathname == null) {
+    from = locationPathname;
+  } else {
+    let routePathnameIndex = routePathnames.length - 1;
+    if (!isPathRelative && toPathname.startsWith("..")) {
+      let toSegments = toPathname.split("/");
+      while (toSegments[0] === "..") {
+        toSegments.shift();
+        routePathnameIndex -= 1;
+      }
+      to.pathname = toSegments.join("/");
+    }
+    from = routePathnameIndex >= 0 ? routePathnames[routePathnameIndex] : "/";
+  }
+  let path = resolvePath(to, from);
+  let hasExplicitTrailingSlash = toPathname && toPathname !== "/" && toPathname.endsWith("/");
+  let hasCurrentTrailingSlash = (isEmptyPath || toPathname === ".") && locationPathname.endsWith("/");
+  if (!path.pathname.endsWith("/") && (hasExplicitTrailingSlash || hasCurrentTrailingSlash)) {
+    path.pathname += "/";
+  }
+  return path;
+}
+var joinPaths = (paths) => paths.join("/").replace(/\/\/+/g, "/");
+var normalizePathname = (pathname) => pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
+var normalizeSearch = (search) => !search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
+var normalizeHash = (hash) => !hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
+var DataWithResponseInit = class {
+  constructor(data2, init) {
+    this.type = "DataWithResponseInit";
+    this.data = data2;
+    this.init = init || null;
+  }
+};
+function data(data2, init) {
+  return new DataWithResponseInit(
+    data2,
+    typeof init === "number" ? { status: init } : init
+  );
+}
+var redirect = (url, init = 302) => {
+  let responseInit = init;
+  if (typeof responseInit === "number") {
+    responseInit = { status: responseInit };
+  } else if (typeof responseInit.status === "undefined") {
+    responseInit.status = 302;
+  }
+  let headers = new Headers(responseInit.headers);
+  headers.set("Location", url);
+  return new Response(null, { ...responseInit, headers });
+};
+var redirectDocument = (url, init) => {
+  let response = redirect(url, init);
+  response.headers.set("X-Remix-Reload-Document", "true");
+  return response;
+};
+var replace = (url, init) => {
+  let response = redirect(url, init);
+  response.headers.set("X-Remix-Replace", "true");
+  return response;
+};
+var ErrorResponseImpl = class {
+  constructor(status, statusText, data2, internal = false) {
+    this.status = status;
+    this.statusText = statusText || "";
+    this.internal = internal;
+    if (data2 instanceof Error) {
+      this.data = data2.toString();
+      this.error = data2;
+    } else {
+      this.data = data2;
+    }
+  }
+};
+function isRouteErrorResponse(error) {
+  return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
+}
+
+// lib/router/router.ts
+var validMutationMethodsArr = [
+  "POST",
+  "PUT",
+  "PATCH",
+  "DELETE"
+];
+var validMutationMethods = new Set(
+  validMutationMethodsArr
+);
+var validRequestMethodsArr = [
+  "GET",
+  ...validMutationMethodsArr
+];
+var validRequestMethods = new Set(validRequestMethodsArr);
+var redirectStatusCodes = /* @__PURE__ */ new Set([301, 302, 303, 307, 308]);
+var redirectPreserveMethodStatusCodes = /* @__PURE__ */ new Set([307, 308]);
+var IDLE_NAVIGATION = {
+  state: "idle",
+  location: void 0,
+  formMethod: void 0,
+  formAction: void 0,
+  formEncType: void 0,
+  formData: void 0,
+  json: void 0,
+  text: void 0
+};
+var IDLE_FETCHER = {
+  state: "idle",
+  data: void 0,
+  formMethod: void 0,
+  formAction: void 0,
+  formEncType: void 0,
+  formData: void 0,
+  json: void 0,
+  text: void 0
+};
+var IDLE_BLOCKER = {
+  state: "unblocked",
+  proceed: void 0,
+  reset: void 0,
+  location: void 0
+};
+var ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+var isAbsoluteUrl = (url) => ABSOLUTE_URL_REGEX.test(url);
+var defaultMapRouteProperties = (route) => ({
+  hasErrorBoundary: Boolean(route.hasErrorBoundary)
+});
+var TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
+var ResetLoaderDataSymbol = Symbol("ResetLoaderData");
+function createRouter(init) {
+  const routerWindow = init.window ? init.window : typeof window !== "undefined" ? window : void 0;
+  const isBrowser2 = typeof routerWindow !== "undefined" && typeof routerWindow.document !== "undefined" && typeof routerWindow.document.createElement !== "undefined";
+  invariant(
+    init.routes.length > 0,
+    "You must provide a non-empty routes array to createRouter"
+  );
+  let hydrationRouteProperties2 = init.hydrationRouteProperties || [];
+  let mapRouteProperties2 = init.mapRouteProperties || defaultMapRouteProperties;
+  let manifest = {};
+  let dataRoutes = convertRoutesToDataRoutes(
+    init.routes,
+    mapRouteProperties2,
+    void 0,
+    manifest
+  );
+  let inFlightDataRoutes;
+  let basename = init.basename || "/";
+  if (!basename.startsWith("/")) {
+    basename = `/${basename}`;
+  }
+  let dataStrategyImpl = init.dataStrategy || defaultDataStrategyWithMiddleware;
+  let future = {
+    ...init.future
+  };
+  let unlistenHistory = null;
+  let subscribers = /* @__PURE__ */ new Set();
+  let savedScrollPositions2 = null;
+  let getScrollRestorationKey2 = null;
+  let getScrollPosition = null;
+  let initialScrollRestored = init.hydrationData != null;
+  let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
+  let initialMatchesIsFOW = false;
+  let initialErrors = null;
+  let initialized;
+  if (initialMatches == null && !init.patchRoutesOnNavigation) {
+    let error = getInternalRouterError(404, {
+      pathname: init.history.location.pathname
+    });
+    let { matches, route } = getShortCircuitMatches(dataRoutes);
+    initialized = true;
+    initialMatches = matches;
+    initialErrors = { [route.id]: error };
+  } else {
+    if (initialMatches && !init.hydrationData) {
+      let fogOfWar = checkFogOfWar(
+        initialMatches,
+        dataRoutes,
+        init.history.location.pathname
+      );
+      if (fogOfWar.active) {
+        initialMatches = null;
+      }
+    }
+    if (!initialMatches) {
+      initialized = false;
+      initialMatches = [];
+      let fogOfWar = checkFogOfWar(
+        null,
+        dataRoutes,
+        init.history.location.pathname
+      );
+      if (fogOfWar.active && fogOfWar.matches) {
+        initialMatchesIsFOW = true;
+        initialMatches = fogOfWar.matches;
+      }
+    } else if (initialMatches.some((m) => m.route.lazy)) {
+      initialized = false;
+    } else if (!initialMatches.some((m) => routeHasLoaderOrMiddleware(m.route))) {
+      initialized = true;
+    } else {
+      let loaderData = init.hydrationData ? init.hydrationData.loaderData : null;
+      let errors = init.hydrationData ? init.hydrationData.errors : null;
+      if (errors) {
+        let idx = initialMatches.findIndex(
+          (m) => errors[m.route.id] !== void 0
+        );
+        initialized = initialMatches.slice(0, idx + 1).every(
+          (m) => !shouldLoadRouteOnHydration(m.route, loaderData, errors)
+        );
+      } else {
+        initialized = initialMatches.every(
+          (m) => !shouldLoadRouteOnHydration(m.route, loaderData, errors)
+        );
+      }
+    }
+  }
+  let router;
+  let state = {
+    historyAction: init.history.action,
+    location: init.history.location,
+    matches: initialMatches,
+    initialized,
+    navigation: IDLE_NAVIGATION,
+    // Don't restore on initial updateState() if we were SSR'd
+    restoreScrollPosition: init.hydrationData != null ? false : null,
+    preventScrollReset: false,
+    revalidation: "idle",
+    loaderData: init.hydrationData && init.hydrationData.loaderData || {},
+    actionData: init.hydrationData && init.hydrationData.actionData || null,
+    errors: init.hydrationData && init.hydrationData.errors || initialErrors,
+    fetchers: /* @__PURE__ */ new Map(),
+    blockers: /* @__PURE__ */ new Map()
+  };
+  let pendingAction = "POP" /* Pop */;
+  let pendingPreventScrollReset = false;
+  let pendingNavigationController;
+  let pendingViewTransitionEnabled = false;
+  let appliedViewTransitions = /* @__PURE__ */ new Map();
+  let removePageHideEventListener = null;
+  let isUninterruptedRevalidation = false;
+  let isRevalidationRequired = false;
+  let cancelledFetcherLoads = /* @__PURE__ */ new Set();
+  let fetchControllers = /* @__PURE__ */ new Map();
+  let incrementingLoadId = 0;
+  let pendingNavigationLoadId = -1;
+  let fetchReloadIds = /* @__PURE__ */ new Map();
+  let fetchRedirectIds = /* @__PURE__ */ new Set();
+  let fetchLoadMatches = /* @__PURE__ */ new Map();
+  let activeFetchers = /* @__PURE__ */ new Map();
+  let fetchersQueuedForDeletion = /* @__PURE__ */ new Set();
+  let blockerFunctions = /* @__PURE__ */ new Map();
+  let unblockBlockerHistoryUpdate = void 0;
+  let pendingRevalidationDfd = null;
+  function initialize() {
+    unlistenHistory = init.history.listen(
+      ({ action: historyAction, location, delta }) => {
+        if (unblockBlockerHistoryUpdate) {
+          unblockBlockerHistoryUpdate();
+          unblockBlockerHistoryUpdate = void 0;
+          return;
+        }
+        warning(
+          blockerFunctions.size === 0 || delta != null,
+          "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs.  This can also happen if you are using createHashRouter and the user manually changes the URL."
+        );
+        let blockerKey = shouldBlockNavigation({
+          currentLocation: state.location,
+          nextLocation: location,
+          historyAction
+        });
+        if (blockerKey && delta != null) {
+          let nextHistoryUpdatePromise = new Promise((resolve) => {
+            unblockBlockerHistoryUpdate = resolve;
+          });
+          init.history.go(delta * -1);
+          updateBlocker(blockerKey, {
+            state: "blocked",
+            location,
+            proceed() {
+              updateBlocker(blockerKey, {
+                state: "proceeding",
+                proceed: void 0,
+                reset: void 0,
+                location
+              });
+              nextHistoryUpdatePromise.then(() => init.history.go(delta));
+            },
+            reset() {
+              let blockers = new Map(state.blockers);
+              blockers.set(blockerKey, IDLE_BLOCKER);
+              updateState({ blockers });
+            }
+          });
+          return;
+        }
+        return startNavigation(historyAction, location);
+      }
+    );
+    if (isBrowser2) {
+      restoreAppliedTransitions(routerWindow, appliedViewTransitions);
+      let _saveAppliedTransitions = () => persistAppliedTransitions(routerWindow, appliedViewTransitions);
+      routerWindow.addEventListener("pagehide", _saveAppliedTransitions);
+      removePageHideEventListener = () => routerWindow.removeEventListener("pagehide", _saveAppliedTransitions);
+    }
+    if (!state.initialized) {
+      startNavigation("POP" /* Pop */, state.location, {
+        initialHydration: true
+      });
+    }
+    return router;
+  }
+  function dispose() {
+    if (unlistenHistory) {
+      unlistenHistory();
+    }
+    if (removePageHideEventListener) {
+      removePageHideEventListener();
+    }
+    subscribers.clear();
+    pendingNavigationController && pendingNavigationController.abort();
+    state.fetchers.forEach((_, key) => deleteFetcher(key));
+    state.blockers.forEach((_, key) => deleteBlocker(key));
+  }
+  function subscribe(fn) {
+    subscribers.add(fn);
+    return () => subscribers.delete(fn);
+  }
+  function updateState(newState, opts = {}) {
+    if (newState.matches) {
+      newState.matches = newState.matches.map((m) => {
+        let route = manifest[m.route.id];
+        let matchRoute = m.route;
+        if (matchRoute.element !== route.element || matchRoute.errorElement !== route.errorElement || matchRoute.hydrateFallbackElement !== route.hydrateFallbackElement) {
+          return {
+            ...m,
+            route
+          };
+        }
+        return m;
+      });
+    }
+    state = {
+      ...state,
+      ...newState
+    };
+    let unmountedFetchers = [];
+    let mountedFetchers = [];
+    state.fetchers.forEach((fetcher, key) => {
+      if (fetcher.state === "idle") {
+        if (fetchersQueuedForDeletion.has(key)) {
+          unmountedFetchers.push(key);
+        } else {
+          mountedFetchers.push(key);
+        }
+      }
+    });
+    fetchersQueuedForDeletion.forEach((key) => {
+      if (!state.fetchers.has(key) && !fetchControllers.has(key)) {
+        unmountedFetchers.push(key);
+      }
+    });
+    [...subscribers].forEach(
+      (subscriber) => subscriber(state, {
+        deletedFetchers: unmountedFetchers,
+        viewTransitionOpts: opts.viewTransitionOpts,
+        flushSync: opts.flushSync === true
+      })
+    );
+    unmountedFetchers.forEach((key) => deleteFetcher(key));
+    mountedFetchers.forEach((key) => state.fetchers.delete(key));
+  }
+  function completeNavigation(location, newState, { flushSync } = {}) {
+    let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && location.state?._isRedirect !== true;
+    let actionData;
+    if (newState.actionData) {
+      if (Object.keys(newState.actionData).length > 0) {
+        actionData = newState.actionData;
+      } else {
+        actionData = null;
+      }
+    } else if (isActionReload) {
+      actionData = state.actionData;
+    } else {
+      actionData = null;
+    }
+    let loaderData = newState.loaderData ? mergeLoaderData(
+      state.loaderData,
+      newState.loaderData,
+      newState.matches || [],
+      newState.errors
+    ) : state.loaderData;
+    let blockers = state.blockers;
+    if (blockers.size > 0) {
+      blockers = new Map(blockers);
+      blockers.forEach((_, k) => blockers.set(k, IDLE_BLOCKER));
+    }
+    let restoreScrollPosition = isUninterruptedRevalidation ? false : getSavedScrollPosition(location, newState.matches || state.matches);
+    let preventScrollReset = pendingPreventScrollReset === true || state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && location.state?._isRedirect !== true;
+    if (inFlightDataRoutes) {
+      dataRoutes = inFlightDataRoutes;
+      inFlightDataRoutes = void 0;
+    }
+    if (isUninterruptedRevalidation) {
+    } else if (pendingAction === "POP" /* Pop */) {
+    } else if (pendingAction === "PUSH" /* Push */) {
+      init.history.push(location, location.state);
+    } else if (pendingAction === "REPLACE" /* Replace */) {
+      init.history.replace(location, location.state);
+    }
+    let viewTransitionOpts;
+    if (pendingAction === "POP" /* Pop */) {
+      let priorPaths = appliedViewTransitions.get(state.location.pathname);
+      if (priorPaths && priorPaths.has(location.pathname)) {
+        viewTransitionOpts = {
+          currentLocation: state.location,
+          nextLocation: location
+        };
+      } else if (appliedViewTransitions.has(location.pathname)) {
+        viewTransitionOpts = {
+          currentLocation: location,
+          nextLocation: state.location
+        };
+      }
+    } else if (pendingViewTransitionEnabled) {
+      let toPaths = appliedViewTransitions.get(state.location.pathname);
+      if (toPaths) {
+        toPaths.add(location.pathname);
+      } else {
+        toPaths = /* @__PURE__ */ new Set([location.pathname]);
+        appliedViewTransitions.set(state.location.pathname, toPaths);
+      }
+      viewTransitionOpts = {
+        currentLocation: state.location,
+        nextLocation: location
+      };
+    }
+    updateState(
+      {
+        ...newState,
+        // matches, errors, fetchers go through as-is
+        actionData,
+        loaderData,
+        historyAction: pendingAction,
+        location,
+        initialized: true,
+        navigation: IDLE_NAVIGATION,
+        revalidation: "idle",
+        restoreScrollPosition,
+        preventScrollReset,
+        blockers
+      },
+      {
+        viewTransitionOpts,
+        flushSync: flushSync === true
+      }
+    );
+    pendingAction = "POP" /* Pop */;
+    pendingPreventScrollReset = false;
+    pendingViewTransitionEnabled = false;
+    isUninterruptedRevalidation = false;
+    isRevalidationRequired = false;
+    pendingRevalidationDfd?.resolve();
+    pendingRevalidationDfd = null;
+  }
+  async function navigate(to, opts) {
+    if (typeof to === "number") {
+      init.history.go(to);
+      return;
+    }
+    let normalizedPath = normalizeTo(
+      state.location,
+      state.matches,
+      basename,
+      to,
+      opts?.fromRouteId,
+      opts?.relative
+    );
+    let { path, submission, error } = normalizeNavigateOptions(
+      false,
+      normalizedPath,
+      opts
+    );
+    let currentLocation = state.location;
+    let nextLocation = createLocation(state.location, path, opts && opts.state);
+    nextLocation = {
+      ...nextLocation,
+      ...init.history.encodeLocation(nextLocation)
+    };
+    let userReplace = opts && opts.replace != null ? opts.replace : void 0;
+    let historyAction = "PUSH" /* Push */;
+    if (userReplace === true) {
+      historyAction = "REPLACE" /* Replace */;
+    } else if (userReplace === false) {
+    } else if (submission != null && isMutationMethod(submission.formMethod) && submission.formAction === state.location.pathname + state.location.search) {
+      historyAction = "REPLACE" /* Replace */;
+    }
+    let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : void 0;
+    let flushSync = (opts && opts.flushSync) === true;
+    let blockerKey = shouldBlockNavigation({
+      currentLocation,
+      nextLocation,
+      historyAction
+    });
+    if (blockerKey) {
+      updateBlocker(blockerKey, {
+        state: "blocked",
+        location: nextLocation,
+        proceed() {
+          updateBlocker(blockerKey, {
+            state: "proceeding",
+            proceed: void 0,
+            reset: void 0,
+            location: nextLocation
+          });
+          navigate(to, opts);
+        },
+        reset() {
+          let blockers = new Map(state.blockers);
+          blockers.set(blockerKey, IDLE_BLOCKER);
+          updateState({ blockers });
+        }
+      });
+      return;
+    }
+    await startNavigation(historyAction, nextLocation, {
+      submission,
+      // Send through the formData serialization error if we have one so we can
+      // render at the right error boundary after we match routes
+      pendingError: error,
+      preventScrollReset,
+      replace: opts && opts.replace,
+      enableViewTransition: opts && opts.viewTransition,
+      flushSync
+    });
+  }
+  function revalidate() {
+    if (!pendingRevalidationDfd) {
+      pendingRevalidationDfd = createDeferred();
+    }
+    interruptActiveLoads();
+    updateState({ revalidation: "loading" });
+    let promise = pendingRevalidationDfd.promise;
+    if (state.navigation.state === "submitting") {
+      return promise;
+    }
+    if (state.navigation.state === "idle") {
+      startNavigation(state.historyAction, state.location, {
+        startUninterruptedRevalidation: true
+      });
+      return promise;
+    }
+    startNavigation(
+      pendingAction || state.historyAction,
+      state.navigation.location,
+      {
+        overrideNavigation: state.navigation,
+        // Proxy through any rending view transition
+        enableViewTransition: pendingViewTransitionEnabled === true
+      }
+    );
+    return promise;
+  }
+  async function startNavigation(historyAction, location, opts) {
+    pendingNavigationController && pendingNavigationController.abort();
+    pendingNavigationController = null;
+    pendingAction = historyAction;
+    isUninterruptedRevalidation = (opts && opts.startUninterruptedRevalidation) === true;
+    saveScrollPosition(state.location, state.matches);
+    pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+    pendingViewTransitionEnabled = (opts && opts.enableViewTransition) === true;
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    let loadingNavigation = opts && opts.overrideNavigation;
+    let matches = opts?.initialHydration && state.matches && state.matches.length > 0 && !initialMatchesIsFOW ? (
+      // `matchRoutes()` has already been called if we're in here via `router.initialize()`
+      state.matches
+    ) : matchRoutes(routesToUse, location, basename);
+    let flushSync = (opts && opts.flushSync) === true;
+    if (matches && state.initialized && !isRevalidationRequired && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
+      completeNavigation(location, { matches }, { flushSync });
+      return;
+    }
+    let fogOfWar = checkFogOfWar(matches, routesToUse, location.pathname);
+    if (fogOfWar.active && fogOfWar.matches) {
+      matches = fogOfWar.matches;
+    }
+    if (!matches) {
+      let { error, notFoundMatches, route } = handleNavigational404(
+        location.pathname
+      );
+      completeNavigation(
+        location,
+        {
+          matches: notFoundMatches,
+          loaderData: {},
+          errors: {
+            [route.id]: error
+          }
+        },
+        { flushSync }
+      );
+      return;
+    }
+    pendingNavigationController = new AbortController();
+    let request = createClientSideRequest(
+      init.history,
+      location,
+      pendingNavigationController.signal,
+      opts && opts.submission
+    );
+    let scopedContext = init.getContext ? await init.getContext() : new RouterContextProvider();
+    let pendingActionResult;
+    if (opts && opts.pendingError) {
+      pendingActionResult = [
+        findNearestBoundary(matches).route.id,
+        { type: "error" /* error */, error: opts.pendingError }
+      ];
+    } else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
+      let actionResult = await handleAction(
+        request,
+        location,
+        opts.submission,
+        matches,
+        scopedContext,
+        fogOfWar.active,
+        opts && opts.initialHydration === true,
+        { replace: opts.replace, flushSync }
+      );
+      if (actionResult.shortCircuited) {
+        return;
+      }
+      if (actionResult.pendingActionResult) {
+        let [routeId, result] = actionResult.pendingActionResult;
+        if (isErrorResult(result) && isRouteErrorResponse(result.error) && result.error.status === 404) {
+          pendingNavigationController = null;
+          completeNavigation(location, {
+            matches: actionResult.matches,
+            loaderData: {},
+            errors: {
+              [routeId]: result.error
+            }
+          });
+          return;
+        }
+      }
+      matches = actionResult.matches || matches;
+      pendingActionResult = actionResult.pendingActionResult;
+      loadingNavigation = getLoadingNavigation(location, opts.submission);
+      flushSync = false;
+      fogOfWar.active = false;
+      request = createClientSideRequest(
+        init.history,
+        request.url,
+        request.signal
+      );
+    }
+    let {
+      shortCircuited,
+      matches: updatedMatches,
+      loaderData,
+      errors
+    } = await handleLoaders(
+      request,
+      location,
+      matches,
+      scopedContext,
+      fogOfWar.active,
+      loadingNavigation,
+      opts && opts.submission,
+      opts && opts.fetcherSubmission,
+      opts && opts.replace,
+      opts && opts.initialHydration === true,
+      flushSync,
+      pendingActionResult
+    );
+    if (shortCircuited) {
+      return;
+    }
+    pendingNavigationController = null;
+    completeNavigation(location, {
+      matches: updatedMatches || matches,
+      ...getActionDataForCommit(pendingActionResult),
+      loaderData,
+      errors
+    });
+  }
+  async function handleAction(request, location, submission, matches, scopedContext, isFogOfWar, initialHydration, opts = {}) {
+    interruptActiveLoads();
+    let navigation = getSubmittingNavigation(location, submission);
+    updateState({ navigation }, { flushSync: opts.flushSync === true });
+    if (isFogOfWar) {
+      let discoverResult = await discoverRoutes(
+        matches,
+        location.pathname,
+        request.signal
+      );
+      if (discoverResult.type === "aborted") {
+        return { shortCircuited: true };
+      } else if (discoverResult.type === "error") {
+        if (discoverResult.partialMatches.length === 0) {
+          let { matches: matches2, route } = getShortCircuitMatches(dataRoutes);
+          return {
+            matches: matches2,
+            pendingActionResult: [
+              route.id,
+              {
+                type: "error" /* error */,
+                error: discoverResult.error
+              }
+            ]
+          };
+        }
+        let boundaryId = findNearestBoundary(discoverResult.partialMatches).route.id;
+        return {
+          matches: discoverResult.partialMatches,
+          pendingActionResult: [
+            boundaryId,
+            {
+              type: "error" /* error */,
+              error: discoverResult.error
+            }
+          ]
+        };
+      } else if (!discoverResult.matches) {
+        let { notFoundMatches, error, route } = handleNavigational404(
+          location.pathname
+        );
+        return {
+          matches: notFoundMatches,
+          pendingActionResult: [
+            route.id,
+            {
+              type: "error" /* error */,
+              error
+            }
+          ]
+        };
+      } else {
+        matches = discoverResult.matches;
+      }
+    }
+    let result;
+    let actionMatch = getTargetMatch(matches, location);
+    if (!actionMatch.route.action && !actionMatch.route.lazy) {
+      result = {
+        type: "error" /* error */,
+        error: getInternalRouterError(405, {
+          method: request.method,
+          pathname: location.pathname,
+          routeId: actionMatch.route.id
+        })
+      };
+    } else {
+      let dsMatches = getTargetedDataStrategyMatches(
+        mapRouteProperties2,
+        manifest,
+        request,
+        matches,
+        actionMatch,
+        initialHydration ? [] : hydrationRouteProperties2,
+        scopedContext
+      );
+      let results = await callDataStrategy(
+        request,
+        dsMatches,
+        scopedContext,
+        null
+      );
+      result = results[actionMatch.route.id];
+      if (!result) {
+        for (let match of matches) {
+          if (results[match.route.id]) {
+            result = results[match.route.id];
+            break;
+          }
+        }
+      }
+      if (request.signal.aborted) {
+        return { shortCircuited: true };
+      }
+    }
+    if (isRedirectResult(result)) {
+      let replace2;
+      if (opts && opts.replace != null) {
+        replace2 = opts.replace;
+      } else {
+        let location2 = normalizeRedirectLocation(
+          result.response.headers.get("Location"),
+          new URL(request.url),
+          basename
+        );
+        replace2 = location2 === state.location.pathname + state.location.search;
+      }
+      await startRedirectNavigation(request, result, true, {
+        submission,
+        replace: replace2
+      });
+      return { shortCircuited: true };
+    }
+    if (isErrorResult(result)) {
+      let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
+      if ((opts && opts.replace) !== true) {
+        pendingAction = "PUSH" /* Push */;
+      }
+      return {
+        matches,
+        pendingActionResult: [
+          boundaryMatch.route.id,
+          result,
+          actionMatch.route.id
+        ]
+      };
+    }
+    return {
+      matches,
+      pendingActionResult: [actionMatch.route.id, result]
+    };
+  }
+  async function handleLoaders(request, location, matches, scopedContext, isFogOfWar, overrideNavigation, submission, fetcherSubmission, replace2, initialHydration, flushSync, pendingActionResult) {
+    let loadingNavigation = overrideNavigation || getLoadingNavigation(location, submission);
+    let activeSubmission = submission || fetcherSubmission || getSubmissionFromNavigation(loadingNavigation);
+    let shouldUpdateNavigationState = !isUninterruptedRevalidation && !initialHydration;
+    if (isFogOfWar) {
+      if (shouldUpdateNavigationState) {
+        let actionData = getUpdatedActionData(pendingActionResult);
+        updateState(
+          {
+            navigation: loadingNavigation,
+            ...actionData !== void 0 ? { actionData } : {}
+          },
+          {
+            flushSync
+          }
+        );
+      }
+      let discoverResult = await discoverRoutes(
+        matches,
+        location.pathname,
+        request.signal
+      );
+      if (discoverResult.type === "aborted") {
+        return { shortCircuited: true };
+      } else if (discoverResult.type === "error") {
+        if (discoverResult.partialMatches.length === 0) {
+          let { matches: matches2, route } = getShortCircuitMatches(dataRoutes);
+          return {
+            matches: matches2,
+            loaderData: {},
+            errors: {
+              [route.id]: discoverResult.error
+            }
+          };
+        }
+        let boundaryId = findNearestBoundary(discoverResult.partialMatches).route.id;
+        return {
+          matches: discoverResult.partialMatches,
+          loaderData: {},
+          errors: {
+            [boundaryId]: discoverResult.error
+          }
+        };
+      } else if (!discoverResult.matches) {
+        let { error, notFoundMatches, route } = handleNavigational404(
+          location.pathname
+        );
+        return {
+          matches: notFoundMatches,
+          loaderData: {},
+          errors: {
+            [route.id]: error
+          }
+        };
+      } else {
+        matches = discoverResult.matches;
+      }
+    }
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    let { dsMatches, revalidatingFetchers } = getMatchesToLoad(
+      request,
+      scopedContext,
+      mapRouteProperties2,
+      manifest,
+      init.history,
+      state,
+      matches,
+      activeSubmission,
+      location,
+      initialHydration ? [] : hydrationRouteProperties2,
+      initialHydration === true,
+      isRevalidationRequired,
+      cancelledFetcherLoads,
+      fetchersQueuedForDeletion,
+      fetchLoadMatches,
+      fetchRedirectIds,
+      routesToUse,
+      basename,
+      init.patchRoutesOnNavigation != null,
+      pendingActionResult
+    );
+    pendingNavigationLoadId = ++incrementingLoadId;
+    if (!init.dataStrategy && !dsMatches.some((m) => m.shouldLoad) && !dsMatches.some(
+      (m) => m.route.middleware && m.route.middleware.length > 0
+    ) && revalidatingFetchers.length === 0) {
+      let updatedFetchers2 = markFetchRedirectsDone();
+      completeNavigation(
+        location,
+        {
+          matches,
+          loaderData: {},
+          // Commit pending error if we're short circuiting
+          errors: pendingActionResult && isErrorResult(pendingActionResult[1]) ? { [pendingActionResult[0]]: pendingActionResult[1].error } : null,
+          ...getActionDataForCommit(pendingActionResult),
+          ...updatedFetchers2 ? { fetchers: new Map(state.fetchers) } : {}
+        },
+        { flushSync }
+      );
+      return { shortCircuited: true };
+    }
+    if (shouldUpdateNavigationState) {
+      let updates = {};
+      if (!isFogOfWar) {
+        updates.navigation = loadingNavigation;
+        let actionData = getUpdatedActionData(pendingActionResult);
+        if (actionData !== void 0) {
+          updates.actionData = actionData;
+        }
+      }
+      if (revalidatingFetchers.length > 0) {
+        updates.fetchers = getUpdatedRevalidatingFetchers(revalidatingFetchers);
+      }
+      updateState(updates, { flushSync });
+    }
+    revalidatingFetchers.forEach((rf) => {
+      abortFetcher(rf.key);
+      if (rf.controller) {
+        fetchControllers.set(rf.key, rf.controller);
+      }
+    });
+    let abortPendingFetchRevalidations = () => revalidatingFetchers.forEach((f) => abortFetcher(f.key));
+    if (pendingNavigationController) {
+      pendingNavigationController.signal.addEventListener(
+        "abort",
+        abortPendingFetchRevalidations
+      );
+    }
+    let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(
+      dsMatches,
+      revalidatingFetchers,
+      request,
+      scopedContext
+    );
+    if (request.signal.aborted) {
+      return { shortCircuited: true };
+    }
+    if (pendingNavigationController) {
+      pendingNavigationController.signal.removeEventListener(
+        "abort",
+        abortPendingFetchRevalidations
+      );
+    }
+    revalidatingFetchers.forEach((rf) => fetchControllers.delete(rf.key));
+    let redirect2 = findRedirect(loaderResults);
+    if (redirect2) {
+      await startRedirectNavigation(request, redirect2.result, true, {
+        replace: replace2
+      });
+      return { shortCircuited: true };
+    }
+    redirect2 = findRedirect(fetcherResults);
+    if (redirect2) {
+      fetchRedirectIds.add(redirect2.key);
+      await startRedirectNavigation(request, redirect2.result, true, {
+        replace: replace2
+      });
+      return { shortCircuited: true };
+    }
+    let { loaderData, errors } = processLoaderData(
+      state,
+      matches,
+      loaderResults,
+      pendingActionResult,
+      revalidatingFetchers,
+      fetcherResults
+    );
+    if (initialHydration && state.errors) {
+      errors = { ...state.errors, ...errors };
+    }
+    let updatedFetchers = markFetchRedirectsDone();
+    let didAbortFetchLoads = abortStaleFetchLoads(pendingNavigationLoadId);
+    let shouldUpdateFetchers = updatedFetchers || didAbortFetchLoads || revalidatingFetchers.length > 0;
+    return {
+      matches,
+      loaderData,
+      errors,
+      ...shouldUpdateFetchers ? { fetchers: new Map(state.fetchers) } : {}
+    };
+  }
+  function getUpdatedActionData(pendingActionResult) {
+    if (pendingActionResult && !isErrorResult(pendingActionResult[1])) {
+      return {
+        [pendingActionResult[0]]: pendingActionResult[1].data
+      };
+    } else if (state.actionData) {
+      if (Object.keys(state.actionData).length === 0) {
+        return null;
+      } else {
+        return state.actionData;
+      }
+    }
+  }
+  function getUpdatedRevalidatingFetchers(revalidatingFetchers) {
+    revalidatingFetchers.forEach((rf) => {
+      let fetcher = state.fetchers.get(rf.key);
+      let revalidatingFetcher = getLoadingFetcher(
+        void 0,
+        fetcher ? fetcher.data : void 0
+      );
+      state.fetchers.set(rf.key, revalidatingFetcher);
+    });
+    return new Map(state.fetchers);
+  }
+  async function fetch2(key, routeId, href, opts) {
+    abortFetcher(key);
+    let flushSync = (opts && opts.flushSync) === true;
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    let normalizedPath = normalizeTo(
+      state.location,
+      state.matches,
+      basename,
+      href,
+      routeId,
+      opts?.relative
+    );
+    let matches = matchRoutes(routesToUse, normalizedPath, basename);
+    let fogOfWar = checkFogOfWar(matches, routesToUse, normalizedPath);
+    if (fogOfWar.active && fogOfWar.matches) {
+      matches = fogOfWar.matches;
+    }
+    if (!matches) {
+      setFetcherError(
+        key,
+        routeId,
+        getInternalRouterError(404, { pathname: normalizedPath }),
+        { flushSync }
+      );
+      return;
+    }
+    let { path, submission, error } = normalizeNavigateOptions(
+      true,
+      normalizedPath,
+      opts
+    );
+    if (error) {
+      setFetcherError(key, routeId, error, { flushSync });
+      return;
+    }
+    let scopedContext = init.getContext ? await init.getContext() : new RouterContextProvider();
+    let preventScrollReset = (opts && opts.preventScrollReset) === true;
+    if (submission && isMutationMethod(submission.formMethod)) {
+      await handleFetcherAction(
+        key,
+        routeId,
+        path,
+        matches,
+        scopedContext,
+        fogOfWar.active,
+        flushSync,
+        preventScrollReset,
+        submission
+      );
+      return;
+    }
+    fetchLoadMatches.set(key, { routeId, path });
+    await handleFetcherLoader(
+      key,
+      routeId,
+      path,
+      matches,
+      scopedContext,
+      fogOfWar.active,
+      flushSync,
+      preventScrollReset,
+      submission
+    );
+  }
+  async function handleFetcherAction(key, routeId, path, requestMatches, scopedContext, isFogOfWar, flushSync, preventScrollReset, submission) {
+    interruptActiveLoads();
+    fetchLoadMatches.delete(key);
+    let existingFetcher = state.fetchers.get(key);
+    updateFetcherState(key, getSubmittingFetcher(submission, existingFetcher), {
+      flushSync
+    });
+    let abortController = new AbortController();
+    let fetchRequest = createClientSideRequest(
+      init.history,
+      path,
+      abortController.signal,
+      submission
+    );
+    if (isFogOfWar) {
+      let discoverResult = await discoverRoutes(
+        requestMatches,
+        new URL(fetchRequest.url).pathname,
+        fetchRequest.signal,
+        key
+      );
+      if (discoverResult.type === "aborted") {
+        return;
+      } else if (discoverResult.type === "error") {
+        setFetcherError(key, routeId, discoverResult.error, { flushSync });
+        return;
+      } else if (!discoverResult.matches) {
+        setFetcherError(
+          key,
+          routeId,
+          getInternalRouterError(404, { pathname: path }),
+          { flushSync }
+        );
+        return;
+      } else {
+        requestMatches = discoverResult.matches;
+      }
+    }
+    let match = getTargetMatch(requestMatches, path);
+    if (!match.route.action && !match.route.lazy) {
+      let error = getInternalRouterError(405, {
+        method: submission.formMethod,
+        pathname: path,
+        routeId
+      });
+      setFetcherError(key, routeId, error, { flushSync });
+      return;
+    }
+    fetchControllers.set(key, abortController);
+    let originatingLoadId = incrementingLoadId;
+    let fetchMatches = getTargetedDataStrategyMatches(
+      mapRouteProperties2,
+      manifest,
+      fetchRequest,
+      requestMatches,
+      match,
+      hydrationRouteProperties2,
+      scopedContext
+    );
+    let actionResults = await callDataStrategy(
+      fetchRequest,
+      fetchMatches,
+      scopedContext,
+      key
+    );
+    let actionResult = actionResults[match.route.id];
+    if (fetchRequest.signal.aborted) {
+      if (fetchControllers.get(key) === abortController) {
+        fetchControllers.delete(key);
+      }
+      return;
+    }
+    if (fetchersQueuedForDeletion.has(key)) {
+      if (isRedirectResult(actionResult) || isErrorResult(actionResult)) {
+        updateFetcherState(key, getDoneFetcher(void 0));
+        return;
+      }
+    } else {
+      if (isRedirectResult(actionResult)) {
+        fetchControllers.delete(key);
+        if (pendingNavigationLoadId > originatingLoadId) {
+          updateFetcherState(key, getDoneFetcher(void 0));
+          return;
+        } else {
+          fetchRedirectIds.add(key);
+          updateFetcherState(key, getLoadingFetcher(submission));
+          return startRedirectNavigation(fetchRequest, actionResult, false, {
+            fetcherSubmission: submission,
+            preventScrollReset
+          });
+        }
+      }
+      if (isErrorResult(actionResult)) {
+        setFetcherError(key, routeId, actionResult.error);
+        return;
+      }
+    }
+    let nextLocation = state.navigation.location || state.location;
+    let revalidationRequest = createClientSideRequest(
+      init.history,
+      nextLocation,
+      abortController.signal
+    );
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    let matches = state.navigation.state !== "idle" ? matchRoutes(routesToUse, state.navigation.location, basename) : state.matches;
+    invariant(matches, "Didn't find any matches after fetcher action");
+    let loadId = ++incrementingLoadId;
+    fetchReloadIds.set(key, loadId);
+    let loadFetcher = getLoadingFetcher(submission, actionResult.data);
+    state.fetchers.set(key, loadFetcher);
+    let { dsMatches, revalidatingFetchers } = getMatchesToLoad(
+      revalidationRequest,
+      scopedContext,
+      mapRouteProperties2,
+      manifest,
+      init.history,
+      state,
+      matches,
+      submission,
+      nextLocation,
+      hydrationRouteProperties2,
+      false,
+      isRevalidationRequired,
+      cancelledFetcherLoads,
+      fetchersQueuedForDeletion,
+      fetchLoadMatches,
+      fetchRedirectIds,
+      routesToUse,
+      basename,
+      init.patchRoutesOnNavigation != null,
+      [match.route.id, actionResult]
+    );
+    revalidatingFetchers.filter((rf) => rf.key !== key).forEach((rf) => {
+      let staleKey = rf.key;
+      let existingFetcher2 = state.fetchers.get(staleKey);
+      let revalidatingFetcher = getLoadingFetcher(
+        void 0,
+        existingFetcher2 ? existingFetcher2.data : void 0
+      );
+      state.fetchers.set(staleKey, revalidatingFetcher);
+      abortFetcher(staleKey);
+      if (rf.controller) {
+        fetchControllers.set(staleKey, rf.controller);
+      }
+    });
+    updateState({ fetchers: new Map(state.fetchers) });
+    let abortPendingFetchRevalidations = () => revalidatingFetchers.forEach((rf) => abortFetcher(rf.key));
+    abortController.signal.addEventListener(
+      "abort",
+      abortPendingFetchRevalidations
+    );
+    let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(
+      dsMatches,
+      revalidatingFetchers,
+      revalidationRequest,
+      scopedContext
+    );
+    if (abortController.signal.aborted) {
+      return;
+    }
+    abortController.signal.removeEventListener(
+      "abort",
+      abortPendingFetchRevalidations
+    );
+    fetchReloadIds.delete(key);
+    fetchControllers.delete(key);
+    revalidatingFetchers.forEach((r) => fetchControllers.delete(r.key));
+    if (state.fetchers.has(key)) {
+      let doneFetcher = getDoneFetcher(actionResult.data);
+      state.fetchers.set(key, doneFetcher);
+    }
+    let redirect2 = findRedirect(loaderResults);
+    if (redirect2) {
+      return startRedirectNavigation(
+        revalidationRequest,
+        redirect2.result,
+        false,
+        { preventScrollReset }
+      );
+    }
+    redirect2 = findRedirect(fetcherResults);
+    if (redirect2) {
+      fetchRedirectIds.add(redirect2.key);
+      return startRedirectNavigation(
+        revalidationRequest,
+        redirect2.result,
+        false,
+        { preventScrollReset }
+      );
+    }
+    let { loaderData, errors } = processLoaderData(
+      state,
+      matches,
+      loaderResults,
+      void 0,
+      revalidatingFetchers,
+      fetcherResults
+    );
+    abortStaleFetchLoads(loadId);
+    if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
+      invariant(pendingAction, "Expected pending action");
+      pendingNavigationController && pendingNavigationController.abort();
+      completeNavigation(state.navigation.location, {
+        matches,
+        loaderData,
+        errors,
+        fetchers: new Map(state.fetchers)
+      });
+    } else {
+      updateState({
+        errors,
+        loaderData: mergeLoaderData(
+          state.loaderData,
+          loaderData,
+          matches,
+          errors
+        ),
+        fetchers: new Map(state.fetchers)
+      });
+      isRevalidationRequired = false;
+    }
+  }
+  async function handleFetcherLoader(key, routeId, path, matches, scopedContext, isFogOfWar, flushSync, preventScrollReset, submission) {
+    let existingFetcher = state.fetchers.get(key);
+    updateFetcherState(
+      key,
+      getLoadingFetcher(
+        submission,
+        existingFetcher ? existingFetcher.data : void 0
+      ),
+      { flushSync }
+    );
+    let abortController = new AbortController();
+    let fetchRequest = createClientSideRequest(
+      init.history,
+      path,
+      abortController.signal
+    );
+    if (isFogOfWar) {
+      let discoverResult = await discoverRoutes(
+        matches,
+        new URL(fetchRequest.url).pathname,
+        fetchRequest.signal,
+        key
+      );
+      if (discoverResult.type === "aborted") {
+        return;
+      } else if (discoverResult.type === "error") {
+        setFetcherError(key, routeId, discoverResult.error, { flushSync });
+        return;
+      } else if (!discoverResult.matches) {
+        setFetcherError(
+          key,
+          routeId,
+          getInternalRouterError(404, { pathname: path }),
+          { flushSync }
+        );
+        return;
+      } else {
+        matches = discoverResult.matches;
+      }
+    }
+    let match = getTargetMatch(matches, path);
+    fetchControllers.set(key, abortController);
+    let originatingLoadId = incrementingLoadId;
+    let dsMatches = getTargetedDataStrategyMatches(
+      mapRouteProperties2,
+      manifest,
+      fetchRequest,
+      matches,
+      match,
+      hydrationRouteProperties2,
+      scopedContext
+    );
+    let results = await callDataStrategy(
+      fetchRequest,
+      dsMatches,
+      scopedContext,
+      key
+    );
+    let result = results[match.route.id];
+    if (fetchControllers.get(key) === abortController) {
+      fetchControllers.delete(key);
+    }
+    if (fetchRequest.signal.aborted) {
+      return;
+    }
+    if (fetchersQueuedForDeletion.has(key)) {
+      updateFetcherState(key, getDoneFetcher(void 0));
+      return;
+    }
+    if (isRedirectResult(result)) {
+      if (pendingNavigationLoadId > originatingLoadId) {
+        updateFetcherState(key, getDoneFetcher(void 0));
+        return;
+      } else {
+        fetchRedirectIds.add(key);
+        await startRedirectNavigation(fetchRequest, result, false, {
+          preventScrollReset
+        });
+        return;
+      }
+    }
+    if (isErrorResult(result)) {
+      setFetcherError(key, routeId, result.error);
+      return;
+    }
+    updateFetcherState(key, getDoneFetcher(result.data));
+  }
+  async function startRedirectNavigation(request, redirect2, isNavigation, {
+    submission,
+    fetcherSubmission,
+    preventScrollReset,
+    replace: replace2
+  } = {}) {
+    if (redirect2.response.headers.has("X-Remix-Revalidate")) {
+      isRevalidationRequired = true;
+    }
+    let location = redirect2.response.headers.get("Location");
+    invariant(location, "Expected a Location header on the redirect Response");
+    location = normalizeRedirectLocation(
+      location,
+      new URL(request.url),
+      basename
+    );
+    let redirectLocation = createLocation(state.location, location, {
+      _isRedirect: true
+    });
+    if (isBrowser2) {
+      let isDocumentReload = false;
+      if (redirect2.response.headers.has("X-Remix-Reload-Document")) {
+        isDocumentReload = true;
+      } else if (isAbsoluteUrl(location)) {
+        const url = createBrowserURLImpl(location, true);
+        isDocumentReload = // Hard reload if it's an absolute URL to a new origin
+        url.origin !== routerWindow.location.origin || // Hard reload if it's an absolute URL that does not match our basename
+        stripBasename(url.pathname, basename) == null;
+      }
+      if (isDocumentReload) {
+        if (replace2) {
+          routerWindow.location.replace(location);
+        } else {
+          routerWindow.location.assign(location);
+        }
+        return;
+      }
+    }
+    pendingNavigationController = null;
+    let redirectNavigationType = replace2 === true || redirect2.response.headers.has("X-Remix-Replace") ? "REPLACE" /* Replace */ : "PUSH" /* Push */;
+    let { formMethod, formAction, formEncType } = state.navigation;
+    if (!submission && !fetcherSubmission && formMethod && formAction && formEncType) {
+      submission = getSubmissionFromNavigation(state.navigation);
+    }
+    let activeSubmission = submission || fetcherSubmission;
+    if (redirectPreserveMethodStatusCodes.has(redirect2.response.status) && activeSubmission && isMutationMethod(activeSubmission.formMethod)) {
+      await startNavigation(redirectNavigationType, redirectLocation, {
+        submission: {
+          ...activeSubmission,
+          formAction: location
+        },
+        // Preserve these flags across redirects
+        preventScrollReset: preventScrollReset || pendingPreventScrollReset,
+        enableViewTransition: isNavigation ? pendingViewTransitionEnabled : void 0
+      });
+    } else {
+      let overrideNavigation = getLoadingNavigation(
+        redirectLocation,
+        submission
+      );
+      await startNavigation(redirectNavigationType, redirectLocation, {
+        overrideNavigation,
+        // Send fetcher submissions through for shouldRevalidate
+        fetcherSubmission,
+        // Preserve these flags across redirects
+        preventScrollReset: preventScrollReset || pendingPreventScrollReset,
+        enableViewTransition: isNavigation ? pendingViewTransitionEnabled : void 0
+      });
+    }
+  }
+  async function callDataStrategy(request, matches, scopedContext, fetcherKey) {
+    let results;
+    let dataResults = {};
+    try {
+      results = await callDataStrategyImpl(
+        dataStrategyImpl,
+        request,
+        matches,
+        fetcherKey,
+        scopedContext,
+        false
+      );
+    } catch (e) {
+      matches.filter((m) => m.shouldLoad).forEach((m) => {
+        dataResults[m.route.id] = {
+          type: "error" /* error */,
+          error: e
+        };
+      });
+      return dataResults;
+    }
+    if (request.signal.aborted) {
+      return dataResults;
+    }
+    for (let [routeId, result] of Object.entries(results)) {
+      if (isRedirectDataStrategyResult(result)) {
+        let response = result.result;
+        dataResults[routeId] = {
+          type: "redirect" /* redirect */,
+          response: normalizeRelativeRoutingRedirectResponse(
+            response,
+            request,
+            routeId,
+            matches,
+            basename
+          )
+        };
+      } else {
+        dataResults[routeId] = await convertDataStrategyResultToDataResult(result);
+      }
+    }
+    return dataResults;
+  }
+  async function callLoadersAndMaybeResolveData(matches, fetchersToLoad, request, scopedContext) {
+    let loaderResultsPromise = callDataStrategy(
+      request,
+      matches,
+      scopedContext,
+      null
+    );
+    let fetcherResultsPromise = Promise.all(
+      fetchersToLoad.map(async (f) => {
+        if (f.matches && f.match && f.request && f.controller) {
+          let results = await callDataStrategy(
+            f.request,
+            f.matches,
+            scopedContext,
+            f.key
+          );
+          let result = results[f.match.route.id];
+          return { [f.key]: result };
+        } else {
+          return Promise.resolve({
+            [f.key]: {
+              type: "error" /* error */,
+              error: getInternalRouterError(404, {
+                pathname: f.path
+              })
+            }
+          });
+        }
+      })
+    );
+    let loaderResults = await loaderResultsPromise;
+    let fetcherResults = (await fetcherResultsPromise).reduce(
+      (acc, r) => Object.assign(acc, r),
+      {}
+    );
+    return {
+      loaderResults,
+      fetcherResults
+    };
+  }
+  function interruptActiveLoads() {
+    isRevalidationRequired = true;
+    fetchLoadMatches.forEach((_, key) => {
+      if (fetchControllers.has(key)) {
+        cancelledFetcherLoads.add(key);
+      }
+      abortFetcher(key);
+    });
+  }
+  function updateFetcherState(key, fetcher, opts = {}) {
+    state.fetchers.set(key, fetcher);
+    updateState(
+      { fetchers: new Map(state.fetchers) },
+      { flushSync: (opts && opts.flushSync) === true }
+    );
+  }
+  function setFetcherError(key, routeId, error, opts = {}) {
+    let boundaryMatch = findNearestBoundary(state.matches, routeId);
+    deleteFetcher(key);
+    updateState(
+      {
+        errors: {
+          [boundaryMatch.route.id]: error
+        },
+        fetchers: new Map(state.fetchers)
+      },
+      { flushSync: (opts && opts.flushSync) === true }
+    );
+  }
+  function getFetcher(key) {
+    activeFetchers.set(key, (activeFetchers.get(key) || 0) + 1);
+    if (fetchersQueuedForDeletion.has(key)) {
+      fetchersQueuedForDeletion.delete(key);
+    }
+    return state.fetchers.get(key) || IDLE_FETCHER;
+  }
+  function resetFetcher(key, opts) {
+    abortFetcher(key, opts?.reason);
+    updateFetcherState(key, getDoneFetcher(null));
+  }
+  function deleteFetcher(key) {
+    let fetcher = state.fetchers.get(key);
+    if (fetchControllers.has(key) && !(fetcher && fetcher.state === "loading" && fetchReloadIds.has(key))) {
+      abortFetcher(key);
+    }
+    fetchLoadMatches.delete(key);
+    fetchReloadIds.delete(key);
+    fetchRedirectIds.delete(key);
+    fetchersQueuedForDeletion.delete(key);
+    cancelledFetcherLoads.delete(key);
+    state.fetchers.delete(key);
+  }
+  function queueFetcherForDeletion(key) {
+    let count = (activeFetchers.get(key) || 0) - 1;
+    if (count <= 0) {
+      activeFetchers.delete(key);
+      fetchersQueuedForDeletion.add(key);
+    } else {
+      activeFetchers.set(key, count);
+    }
+    updateState({ fetchers: new Map(state.fetchers) });
+  }
+  function abortFetcher(key, reason) {
+    let controller = fetchControllers.get(key);
+    if (controller) {
+      controller.abort(reason);
+      fetchControllers.delete(key);
+    }
+  }
+  function markFetchersDone(keys) {
+    for (let key of keys) {
+      let fetcher = getFetcher(key);
+      let doneFetcher = getDoneFetcher(fetcher.data);
+      state.fetchers.set(key, doneFetcher);
+    }
+  }
+  function markFetchRedirectsDone() {
+    let doneKeys = [];
+    let updatedFetchers = false;
+    for (let key of fetchRedirectIds) {
+      let fetcher = state.fetchers.get(key);
+      invariant(fetcher, `Expected fetcher: ${key}`);
+      if (fetcher.state === "loading") {
+        fetchRedirectIds.delete(key);
+        doneKeys.push(key);
+        updatedFetchers = true;
+      }
+    }
+    markFetchersDone(doneKeys);
+    return updatedFetchers;
+  }
+  function abortStaleFetchLoads(landedId) {
+    let yeetedKeys = [];
+    for (let [key, id] of fetchReloadIds) {
+      if (id < landedId) {
+        let fetcher = state.fetchers.get(key);
+        invariant(fetcher, `Expected fetcher: ${key}`);
+        if (fetcher.state === "loading") {
+          abortFetcher(key);
+          fetchReloadIds.delete(key);
+          yeetedKeys.push(key);
+        }
+      }
+    }
+    markFetchersDone(yeetedKeys);
+    return yeetedKeys.length > 0;
+  }
+  function getBlocker(key, fn) {
+    let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+    if (blockerFunctions.get(key) !== fn) {
+      blockerFunctions.set(key, fn);
+    }
+    return blocker;
+  }
+  function deleteBlocker(key) {
+    state.blockers.delete(key);
+    blockerFunctions.delete(key);
+  }
+  function updateBlocker(key, newBlocker) {
+    let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+    invariant(
+      blocker.state === "unblocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "proceeding" || blocker.state === "blocked" && newBlocker.state === "unblocked" || blocker.state === "proceeding" && newBlocker.state === "unblocked",
+      `Invalid blocker state transition: ${blocker.state} -> ${newBlocker.state}`
+    );
+    let blockers = new Map(state.blockers);
+    blockers.set(key, newBlocker);
+    updateState({ blockers });
+  }
+  function shouldBlockNavigation({
+    currentLocation,
+    nextLocation,
+    historyAction
+  }) {
+    if (blockerFunctions.size === 0) {
+      return;
+    }
+    if (blockerFunctions.size > 1) {
+      warning(false, "A router only supports one blocker at a time");
+    }
+    let entries = Array.from(blockerFunctions.entries());
+    let [blockerKey, blockerFunction] = entries[entries.length - 1];
+    let blocker = state.blockers.get(blockerKey);
+    if (blocker && blocker.state === "proceeding") {
+      return;
+    }
+    if (blockerFunction({ currentLocation, nextLocation, historyAction })) {
+      return blockerKey;
+    }
+  }
+  function handleNavigational404(pathname) {
+    let error = getInternalRouterError(404, { pathname });
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    let { matches, route } = getShortCircuitMatches(routesToUse);
+    return { notFoundMatches: matches, route, error };
+  }
+  function enableScrollRestoration(positions, getPosition, getKey) {
+    savedScrollPositions2 = positions;
+    getScrollPosition = getPosition;
+    getScrollRestorationKey2 = getKey || null;
+    if (!initialScrollRestored && state.navigation === IDLE_NAVIGATION) {
+      initialScrollRestored = true;
+      let y = getSavedScrollPosition(state.location, state.matches);
+      if (y != null) {
+        updateState({ restoreScrollPosition: y });
+      }
+    }
+    return () => {
+      savedScrollPositions2 = null;
+      getScrollPosition = null;
+      getScrollRestorationKey2 = null;
+    };
+  }
+  function getScrollKey(location, matches) {
+    if (getScrollRestorationKey2) {
+      let key = getScrollRestorationKey2(
+        location,
+        matches.map((m) => convertRouteMatchToUiMatch(m, state.loaderData))
+      );
+      return key || location.key;
+    }
+    return location.key;
+  }
+  function saveScrollPosition(location, matches) {
+    if (savedScrollPositions2 && getScrollPosition) {
+      let key = getScrollKey(location, matches);
+      savedScrollPositions2[key] = getScrollPosition();
+    }
+  }
+  function getSavedScrollPosition(location, matches) {
+    if (savedScrollPositions2) {
+      let key = getScrollKey(location, matches);
+      let y = savedScrollPositions2[key];
+      if (typeof y === "number") {
+        return y;
+      }
+    }
+    return null;
+  }
+  function checkFogOfWar(matches, routesToUse, pathname) {
+    if (init.patchRoutesOnNavigation) {
+      if (!matches) {
+        let fogMatches = matchRoutesImpl(
+          routesToUse,
+          pathname,
+          basename,
+          true
+        );
+        return { active: true, matches: fogMatches || [] };
+      } else {
+        if (Object.keys(matches[0].params).length > 0) {
+          let partialMatches = matchRoutesImpl(
+            routesToUse,
+            pathname,
+            basename,
+            true
+          );
+          return { active: true, matches: partialMatches };
+        }
+      }
+    }
+    return { active: false, matches: null };
+  }
+  async function discoverRoutes(matches, pathname, signal, fetcherKey) {
+    if (!init.patchRoutesOnNavigation) {
+      return { type: "success", matches };
+    }
+    let partialMatches = matches;
+    while (true) {
+      let isNonHMR = inFlightDataRoutes == null;
+      let routesToUse = inFlightDataRoutes || dataRoutes;
+      let localManifest = manifest;
+      try {
+        await init.patchRoutesOnNavigation({
+          signal,
+          path: pathname,
+          matches: partialMatches,
+          fetcherKey,
+          patch: (routeId, children) => {
+            if (signal.aborted) return;
+            patchRoutesImpl(
+              routeId,
+              children,
+              routesToUse,
+              localManifest,
+              mapRouteProperties2,
+              false
+            );
+          }
+        });
+      } catch (e) {
+        return { type: "error", error: e, partialMatches };
+      } finally {
+        if (isNonHMR && !signal.aborted) {
+          dataRoutes = [...dataRoutes];
+        }
+      }
+      if (signal.aborted) {
+        return { type: "aborted" };
+      }
+      let newMatches = matchRoutes(routesToUse, pathname, basename);
+      if (newMatches) {
+        return { type: "success", matches: newMatches };
+      }
+      let newPartialMatches = matchRoutesImpl(
+        routesToUse,
+        pathname,
+        basename,
+        true
+      );
+      if (!newPartialMatches || partialMatches.length === newPartialMatches.length && partialMatches.every(
+        (m, i) => m.route.id === newPartialMatches[i].route.id
+      )) {
+        return { type: "success", matches: null };
+      }
+      partialMatches = newPartialMatches;
+    }
+  }
+  function _internalSetRoutes(newRoutes) {
+    manifest = {};
+    inFlightDataRoutes = convertRoutesToDataRoutes(
+      newRoutes,
+      mapRouteProperties2,
+      void 0,
+      manifest
+    );
+  }
+  function patchRoutes(routeId, children, unstable_allowElementMutations = false) {
+    let isNonHMR = inFlightDataRoutes == null;
+    let routesToUse = inFlightDataRoutes || dataRoutes;
+    patchRoutesImpl(
+      routeId,
+      children,
+      routesToUse,
+      manifest,
+      mapRouteProperties2,
+      unstable_allowElementMutations
+    );
+    if (isNonHMR) {
+      dataRoutes = [...dataRoutes];
+      updateState({});
+    }
+  }
+  router = {
+    get basename() {
+      return basename;
+    },
+    get future() {
+      return future;
+    },
+    get state() {
+      return state;
+    },
+    get routes() {
+      return dataRoutes;
+    },
+    get window() {
+      return routerWindow;
+    },
+    initialize,
+    subscribe,
+    enableScrollRestoration,
+    navigate,
+    fetch: fetch2,
+    revalidate,
+    // Passthrough to history-aware createHref used by useHref so we get proper
+    // hash-aware URLs in DOM paths
+    createHref: (to) => init.history.createHref(to),
+    encodeLocation: (to) => init.history.encodeLocation(to),
+    getFetcher,
+    resetFetcher,
+    deleteFetcher: queueFetcherForDeletion,
+    dispose,
+    getBlocker,
+    deleteBlocker,
+    patchRoutes,
+    _internalFetchControllers: fetchControllers,
+    // TODO: Remove setRoutes, it's temporary to avoid dealing with
+    // updating the tree while validating the update algorithm.
+    _internalSetRoutes,
+    _internalSetStateDoNotUseOrYouWillBreakYourApp(newState) {
+      updateState(newState);
+    }
+  };
+  return router;
+}
+function createStaticHandler(routes, opts) {
+  invariant(
+    routes.length > 0,
+    "You must provide a non-empty routes array to createStaticHandler"
+  );
+  let manifest = {};
+  let basename = (opts ? opts.basename : null) || "/";
+  let mapRouteProperties2 = opts?.mapRouteProperties || defaultMapRouteProperties;
+  let dataRoutes = convertRoutesToDataRoutes(
+    routes,
+    mapRouteProperties2,
+    void 0,
+    manifest
+  );
+  async function query(request, {
+    requestContext,
+    filterMatchesToLoad,
+    skipLoaderErrorBubbling,
+    skipRevalidation,
+    dataStrategy,
+    generateMiddlewareResponse
+  } = {}) {
+    let url = new URL(request.url);
+    let method = request.method;
+    let location = createLocation("", createPath(url), null, "default");
+    let matches = matchRoutes(dataRoutes, location, basename);
+    requestContext = requestContext != null ? requestContext : new RouterContextProvider();
+    if (!isValidMethod(method) && method !== "HEAD") {
+      let error = getInternalRouterError(405, { method });
+      let { matches: methodNotAllowedMatches, route } = getShortCircuitMatches(dataRoutes);
+      let staticContext = {
+        basename,
+        location,
+        matches: methodNotAllowedMatches,
+        loaderData: {},
+        actionData: null,
+        errors: {
+          [route.id]: error
+        },
+        statusCode: error.status,
+        loaderHeaders: {},
+        actionHeaders: {}
+      };
+      return generateMiddlewareResponse ? generateMiddlewareResponse(() => Promise.resolve(staticContext)) : staticContext;
+    } else if (!matches) {
+      let error = getInternalRouterError(404, { pathname: location.pathname });
+      let { matches: notFoundMatches, route } = getShortCircuitMatches(dataRoutes);
+      let staticContext = {
+        basename,
+        location,
+        matches: notFoundMatches,
+        loaderData: {},
+        actionData: null,
+        errors: {
+          [route.id]: error
+        },
+        statusCode: error.status,
+        loaderHeaders: {},
+        actionHeaders: {}
+      };
+      return generateMiddlewareResponse ? generateMiddlewareResponse(() => Promise.resolve(staticContext)) : staticContext;
+    }
+    if (generateMiddlewareResponse) {
+      invariant(
+        requestContext instanceof RouterContextProvider,
+        "When using middleware in `staticHandler.query()`, any provided `requestContext` must be an instance of `RouterContextProvider`"
+      );
+      try {
+        await loadLazyMiddlewareForMatches(
+          matches,
+          manifest,
+          mapRouteProperties2
+        );
+        let renderedStaticContext;
+        let response = await runServerMiddlewarePipeline(
+          {
+            request,
+            matches,
+            params: matches[0].params,
+            // If we're calling middleware then it must be enabled so we can cast
+            // this to the proper type knowing it's not an `AppLoadContext`
+            context: requestContext
+          },
+          async () => {
+            let res = await generateMiddlewareResponse(
+              async (revalidationRequest, opts2 = {}) => {
+                let result2 = await queryImpl(
+                  revalidationRequest,
+                  location,
+                  matches,
+                  requestContext,
+                  dataStrategy || null,
+                  skipLoaderErrorBubbling === true,
+                  null,
+                  "filterMatchesToLoad" in opts2 ? opts2.filterMatchesToLoad ?? null : filterMatchesToLoad ?? null,
+                  skipRevalidation === true
+                );
+                if (isResponse(result2)) {
+                  return result2;
+                }
+                renderedStaticContext = { location, basename, ...result2 };
+                return renderedStaticContext;
+              }
+            );
+            return res;
+          },
+          async (error, routeId) => {
+            if (isRedirectResponse(error)) {
+              return error;
+            }
+            if (isResponse(error)) {
+              try {
+                error = new ErrorResponseImpl(
+                  error.status,
+                  error.statusText,
+                  await parseResponseBody(error)
+                );
+              } catch (e) {
+                error = e;
+              }
+            }
+            if (isDataWithResponseInit(error)) {
+              error = dataWithResponseInitToErrorResponse(error);
+            }
+            if (renderedStaticContext) {
+              if (routeId in renderedStaticContext.loaderData) {
+                renderedStaticContext.loaderData[routeId] = void 0;
+              }
+              let staticContext = getStaticContextFromError(
+                dataRoutes,
+                renderedStaticContext,
+                error,
+                skipLoaderErrorBubbling ? routeId : findNearestBoundary(matches, routeId).route.id
+              );
+              return generateMiddlewareResponse(
+                () => Promise.resolve(staticContext)
+              );
+            } else {
+              let boundaryRouteId = skipLoaderErrorBubbling ? routeId : findNearestBoundary(
+                matches,
+                matches.find(
+                  (m) => m.route.id === routeId || m.route.loader
+                )?.route.id || routeId
+              ).route.id;
+              let staticContext = {
+                matches,
+                location,
+                basename,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                  [boundaryRouteId]: error
+                },
+                statusCode: isRouteErrorResponse(error) ? error.status : 500,
+                actionHeaders: {},
+                loaderHeaders: {}
+              };
+              return generateMiddlewareResponse(
+                () => Promise.resolve(staticContext)
+              );
+            }
+          }
+        );
+        invariant(isResponse(response), "Expected a response in query()");
+        return response;
+      } catch (e) {
+        if (isResponse(e)) {
+          return e;
+        }
+        throw e;
+      }
+    }
+    let result = await queryImpl(
+      request,
+      location,
+      matches,
+      requestContext,
+      dataStrategy || null,
+      skipLoaderErrorBubbling === true,
+      null,
+      filterMatchesToLoad || null,
+      skipRevalidation === true
+    );
+    if (isResponse(result)) {
+      return result;
+    }
+    return { location, basename, ...result };
+  }
+  async function queryRoute(request, {
+    routeId,
+    requestContext,
+    dataStrategy,
+    generateMiddlewareResponse
+  } = {}) {
+    let url = new URL(request.url);
+    let method = request.method;
+    let location = createLocation("", createPath(url), null, "default");
+    let matches = matchRoutes(dataRoutes, location, basename);
+    requestContext = requestContext != null ? requestContext : new RouterContextProvider();
+    if (!isValidMethod(method) && method !== "HEAD" && method !== "OPTIONS") {
+      throw getInternalRouterError(405, { method });
+    } else if (!matches) {
+      throw getInternalRouterError(404, { pathname: location.pathname });
+    }
+    let match = routeId ? matches.find((m) => m.route.id === routeId) : getTargetMatch(matches, location);
+    if (routeId && !match) {
+      throw getInternalRouterError(403, {
+        pathname: location.pathname,
+        routeId
+      });
+    } else if (!match) {
+      throw getInternalRouterError(404, { pathname: location.pathname });
+    }
+    if (generateMiddlewareResponse) {
+      invariant(
+        requestContext instanceof RouterContextProvider,
+        "When using middleware in `staticHandler.queryRoute()`, any provided `requestContext` must be an instance of `RouterContextProvider`"
+      );
+      await loadLazyMiddlewareForMatches(matches, manifest, mapRouteProperties2);
+      let response = await runServerMiddlewarePipeline(
+        {
+          request,
+          matches,
+          params: matches[0].params,
+          // If we're calling middleware then it must be enabled so we can cast
+          // this to the proper type knowing it's not an `AppLoadContext`
+          context: requestContext
+        },
+        async () => {
+          let res = await generateMiddlewareResponse(
+            async (innerRequest) => {
+              let result2 = await queryImpl(
+                innerRequest,
+                location,
+                matches,
+                requestContext,
+                dataStrategy || null,
+                false,
+                match,
+                null,
+                false
+              );
+              let processed = handleQueryResult(result2);
+              return isResponse(processed) ? processed : typeof processed === "string" ? new Response(processed) : Response.json(processed);
+            }
+          );
+          return res;
+        },
+        (error) => {
+          if (isDataWithResponseInit(error)) {
+            return Promise.resolve(dataWithResponseInitToResponse(error));
+          }
+          if (isResponse(error)) {
+            return Promise.resolve(error);
+          }
+          throw error;
+        }
+      );
+      return response;
+    }
+    let result = await queryImpl(
+      request,
+      location,
+      matches,
+      requestContext,
+      dataStrategy || null,
+      false,
+      match,
+      null,
+      false
+    );
+    return handleQueryResult(result);
+    function handleQueryResult(result2) {
+      if (isResponse(result2)) {
+        return result2;
+      }
+      let error = result2.errors ? Object.values(result2.errors)[0] : void 0;
+      if (error !== void 0) {
+        throw error;
+      }
+      if (result2.actionData) {
+        return Object.values(result2.actionData)[0];
+      }
+      if (result2.loaderData) {
+        return Object.values(result2.loaderData)[0];
+      }
+      return void 0;
+    }
+  }
+  async function queryImpl(request, location, matches, requestContext, dataStrategy, skipLoaderErrorBubbling, routeMatch, filterMatchesToLoad, skipRevalidation) {
+    invariant(
+      request.signal,
+      "query()/queryRoute() requests must contain an AbortController signal"
+    );
+    try {
+      if (isMutationMethod(request.method)) {
+        let result2 = await submit(
+          request,
+          matches,
+          routeMatch || getTargetMatch(matches, location),
+          requestContext,
+          dataStrategy,
+          skipLoaderErrorBubbling,
+          routeMatch != null,
+          filterMatchesToLoad,
+          skipRevalidation
+        );
+        return result2;
+      }
+      let result = await loadRouteData(
+        request,
+        matches,
+        requestContext,
+        dataStrategy,
+        skipLoaderErrorBubbling,
+        routeMatch,
+        filterMatchesToLoad
+      );
+      return isResponse(result) ? result : {
+        ...result,
+        actionData: null,
+        actionHeaders: {}
+      };
+    } catch (e) {
+      if (isDataStrategyResult(e) && isResponse(e.result)) {
+        if (e.type === "error" /* error */) {
+          throw e.result;
+        }
+        return e.result;
+      }
+      if (isRedirectResponse(e)) {
+        return e;
+      }
+      throw e;
+    }
+  }
+  async function submit(request, matches, actionMatch, requestContext, dataStrategy, skipLoaderErrorBubbling, isRouteRequest, filterMatchesToLoad, skipRevalidation) {
+    let result;
+    if (!actionMatch.route.action && !actionMatch.route.lazy) {
+      let error = getInternalRouterError(405, {
+        method: request.method,
+        pathname: new URL(request.url).pathname,
+        routeId: actionMatch.route.id
+      });
+      if (isRouteRequest) {
+        throw error;
+      }
+      result = {
+        type: "error" /* error */,
+        error
+      };
+    } else {
+      let dsMatches = getTargetedDataStrategyMatches(
+        mapRouteProperties2,
+        manifest,
+        request,
+        matches,
+        actionMatch,
+        [],
+        requestContext
+      );
+      let results = await callDataStrategy(
+        request,
+        dsMatches,
+        isRouteRequest,
+        requestContext,
+        dataStrategy
+      );
+      result = results[actionMatch.route.id];
+      if (request.signal.aborted) {
+        throwStaticHandlerAbortedError(request, isRouteRequest);
+      }
+    }
+    if (isRedirectResult(result)) {
+      throw new Response(null, {
+        status: result.response.status,
+        headers: {
+          Location: result.response.headers.get("Location")
+        }
+      });
+    }
+    if (isRouteRequest) {
+      if (isErrorResult(result)) {
+        throw result.error;
+      }
+      return {
+        matches: [actionMatch],
+        loaderData: {},
+        actionData: { [actionMatch.route.id]: result.data },
+        errors: null,
+        // Note: statusCode + headers are unused here since queryRoute will
+        // return the raw Response or value
+        statusCode: 200,
+        loaderHeaders: {},
+        actionHeaders: {}
+      };
+    }
+    if (skipRevalidation) {
+      if (isErrorResult(result)) {
+        let boundaryMatch = skipLoaderErrorBubbling ? actionMatch : findNearestBoundary(matches, actionMatch.route.id);
+        return {
+          statusCode: isRouteErrorResponse(result.error) ? result.error.status : result.statusCode != null ? result.statusCode : 500,
+          actionData: null,
+          actionHeaders: {
+            ...result.headers ? { [actionMatch.route.id]: result.headers } : {}
+          },
+          matches,
+          loaderData: {},
+          errors: {
+            [boundaryMatch.route.id]: result.error
+          },
+          loaderHeaders: {}
+        };
+      } else {
+        return {
+          actionData: {
+            [actionMatch.route.id]: result.data
+          },
+          actionHeaders: result.headers ? { [actionMatch.route.id]: result.headers } : {},
+          matches,
+          loaderData: {},
+          errors: null,
+          statusCode: result.statusCode || 200,
+          loaderHeaders: {}
+        };
+      }
+    }
+    let loaderRequest = new Request(request.url, {
+      headers: request.headers,
+      redirect: request.redirect,
+      signal: request.signal
+    });
+    if (isErrorResult(result)) {
+      let boundaryMatch = skipLoaderErrorBubbling ? actionMatch : findNearestBoundary(matches, actionMatch.route.id);
+      let handlerContext2 = await loadRouteData(
+        loaderRequest,
+        matches,
+        requestContext,
+        dataStrategy,
+        skipLoaderErrorBubbling,
+        null,
+        filterMatchesToLoad,
+        [boundaryMatch.route.id, result]
+      );
+      return {
+        ...handlerContext2,
+        statusCode: isRouteErrorResponse(result.error) ? result.error.status : result.statusCode != null ? result.statusCode : 500,
+        actionData: null,
+        actionHeaders: {
+          ...result.headers ? { [actionMatch.route.id]: result.headers } : {}
+        }
+      };
+    }
+    let handlerContext = await loadRouteData(
+      loaderRequest,
+      matches,
+      requestContext,
+      dataStrategy,
+      skipLoaderErrorBubbling,
+      null,
+      filterMatchesToLoad
+    );
+    return {
+      ...handlerContext,
+      actionData: {
+        [actionMatch.route.id]: result.data
+      },
+      // action status codes take precedence over loader status codes
+      ...result.statusCode ? { statusCode: result.statusCode } : {},
+      actionHeaders: result.headers ? { [actionMatch.route.id]: result.headers } : {}
+    };
+  }
+  async function loadRouteData(request, matches, requestContext, dataStrategy, skipLoaderErrorBubbling, routeMatch, filterMatchesToLoad, pendingActionResult) {
+    let isRouteRequest = routeMatch != null;
+    if (isRouteRequest && !routeMatch?.route.loader && !routeMatch?.route.lazy) {
+      throw getInternalRouterError(400, {
+        method: request.method,
+        pathname: new URL(request.url).pathname,
+        routeId: routeMatch?.route.id
+      });
+    }
+    let dsMatches;
+    if (routeMatch) {
+      dsMatches = getTargetedDataStrategyMatches(
+        mapRouteProperties2,
+        manifest,
+        request,
+        matches,
+        routeMatch,
+        [],
+        requestContext
+      );
+    } else {
+      let maxIdx = pendingActionResult && isErrorResult(pendingActionResult[1]) ? (
+        // Up to but not including the boundary
+        matches.findIndex((m) => m.route.id === pendingActionResult[0]) - 1
+      ) : void 0;
+      dsMatches = matches.map((match, index) => {
+        if (maxIdx != null && index > maxIdx) {
+          return getDataStrategyMatch(
+            mapRouteProperties2,
+            manifest,
+            request,
+            match,
+            [],
+            requestContext,
+            false
+          );
+        }
+        return getDataStrategyMatch(
+          mapRouteProperties2,
+          manifest,
+          request,
+          match,
+          [],
+          requestContext,
+          (match.route.loader || match.route.lazy) != null && (!filterMatchesToLoad || filterMatchesToLoad(match))
+        );
+      });
+    }
+    if (!dataStrategy && !dsMatches.some((m) => m.shouldLoad)) {
+      return {
+        matches,
+        loaderData: {},
+        errors: pendingActionResult && isErrorResult(pendingActionResult[1]) ? {
+          [pendingActionResult[0]]: pendingActionResult[1].error
+        } : null,
+        statusCode: 200,
+        loaderHeaders: {}
+      };
+    }
+    let results = await callDataStrategy(
+      request,
+      dsMatches,
+      isRouteRequest,
+      requestContext,
+      dataStrategy
+    );
+    if (request.signal.aborted) {
+      throwStaticHandlerAbortedError(request, isRouteRequest);
+    }
+    let handlerContext = processRouteLoaderData(
+      matches,
+      results,
+      pendingActionResult,
+      true,
+      skipLoaderErrorBubbling
+    );
+    return {
+      ...handlerContext,
+      matches
+    };
+  }
+  async function callDataStrategy(request, matches, isRouteRequest, requestContext, dataStrategy) {
+    let results = await callDataStrategyImpl(
+      dataStrategy || defaultDataStrategy,
+      request,
+      matches,
+      null,
+      requestContext,
+      true
+    );
+    let dataResults = {};
+    await Promise.all(
+      matches.map(async (match) => {
+        if (!(match.route.id in results)) {
+          return;
+        }
+        let result = results[match.route.id];
+        if (isRedirectDataStrategyResult(result)) {
+          let response = result.result;
+          throw normalizeRelativeRoutingRedirectResponse(
+            response,
+            request,
+            match.route.id,
+            matches,
+            basename
+          );
+        }
+        if (isRouteRequest) {
+          if (isResponse(result.result)) {
+            throw result;
+          } else if (isDataWithResponseInit(result.result)) {
+            throw dataWithResponseInitToResponse(result.result);
+          }
+        }
+        dataResults[match.route.id] = await convertDataStrategyResultToDataResult(result);
+      })
+    );
+    return dataResults;
+  }
+  return {
+    dataRoutes,
+    query,
+    queryRoute
+  };
+}
+function getStaticContextFromError(routes, handlerContext, error, boundaryId) {
+  let errorBoundaryId = boundaryId || handlerContext._deepestRenderedBoundaryId || routes[0].id;
+  return {
+    ...handlerContext,
+    statusCode: isRouteErrorResponse(error) ? error.status : 500,
+    errors: {
+      [errorBoundaryId]: error
+    }
+  };
+}
+function throwStaticHandlerAbortedError(request, isRouteRequest) {
+  if (request.signal.reason !== void 0) {
+    throw request.signal.reason;
+  }
+  let method = isRouteRequest ? "queryRoute" : "query";
+  throw new Error(
+    `${method}() call aborted without an \`AbortSignal.reason\`: ${request.method} ${request.url}`
+  );
+}
+function isSubmissionNavigation(opts) {
+  return opts != null && ("formData" in opts && opts.formData != null || "body" in opts && opts.body !== void 0);
+}
+function normalizeTo(location, matches, basename, to, fromRouteId, relative) {
+  let contextualMatches;
+  let activeRouteMatch;
+  if (fromRouteId) {
+    contextualMatches = [];
+    for (let match of matches) {
+      contextualMatches.push(match);
+      if (match.route.id === fromRouteId) {
+        activeRouteMatch = match;
+        break;
+      }
+    }
+  } else {
+    contextualMatches = matches;
+    activeRouteMatch = matches[matches.length - 1];
+  }
+  let path = resolveTo(
+    to ? to : ".",
+    getResolveToMatches(contextualMatches),
+    stripBasename(location.pathname, basename) || location.pathname,
+    relative === "path"
+  );
+  if (to == null) {
+    path.search = location.search;
+    path.hash = location.hash;
+  }
+  if ((to == null || to === "" || to === ".") && activeRouteMatch) {
+    let nakedIndex = hasNakedIndexQuery(path.search);
+    if (activeRouteMatch.route.index && !nakedIndex) {
+      path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+    } else if (!activeRouteMatch.route.index && nakedIndex) {
+      let params = new URLSearchParams(path.search);
+      let indexValues = params.getAll("index");
+      params.delete("index");
+      indexValues.filter((v) => v).forEach((v) => params.append("index", v));
+      let qs = params.toString();
+      path.search = qs ? `?${qs}` : "";
+    }
+  }
+  if (basename !== "/") {
+    path.pathname = prependBasename({ basename, pathname: path.pathname });
+  }
+  return createPath(path);
+}
+function normalizeNavigateOptions(isFetcher, path, opts) {
+  if (!opts || !isSubmissionNavigation(opts)) {
+    return { path };
+  }
+  if (opts.formMethod && !isValidMethod(opts.formMethod)) {
+    return {
+      path,
+      error: getInternalRouterError(405, { method: opts.formMethod })
+    };
+  }
+  let getInvalidBodyError = () => ({
+    path,
+    error: getInternalRouterError(400, { type: "invalid-body" })
+  });
+  let rawFormMethod = opts.formMethod || "get";
+  let formMethod = rawFormMethod.toUpperCase();
+  let formAction = stripHashFromPath(path);
+  if (opts.body !== void 0) {
+    if (opts.formEncType === "text/plain") {
+      if (!isMutationMethod(formMethod)) {
+        return getInvalidBodyError();
+      }
+      let text = typeof opts.body === "string" ? opts.body : opts.body instanceof FormData || opts.body instanceof URLSearchParams ? (
+        // https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#plain-text-form-data
+        Array.from(opts.body.entries()).reduce(
+          (acc, [name, value]) => `${acc}${name}=${value}
+`,
+          ""
+        )
+      ) : String(opts.body);
+      return {
+        path,
+        submission: {
+          formMethod,
+          formAction,
+          formEncType: opts.formEncType,
+          formData: void 0,
+          json: void 0,
+          text
+        }
+      };
+    } else if (opts.formEncType === "application/json") {
+      if (!isMutationMethod(formMethod)) {
+        return getInvalidBodyError();
+      }
+      try {
+        let json = typeof opts.body === "string" ? JSON.parse(opts.body) : opts.body;
+        return {
+          path,
+          submission: {
+            formMethod,
+            formAction,
+            formEncType: opts.formEncType,
+            formData: void 0,
+            json,
+            text: void 0
+          }
+        };
+      } catch (e) {
+        return getInvalidBodyError();
+      }
+    }
+  }
+  invariant(
+    typeof FormData === "function",
+    "FormData is not available in this environment"
+  );
+  let searchParams;
+  let formData;
+  if (opts.formData) {
+    searchParams = convertFormDataToSearchParams(opts.formData);
+    formData = opts.formData;
+  } else if (opts.body instanceof FormData) {
+    searchParams = convertFormDataToSearchParams(opts.body);
+    formData = opts.body;
+  } else if (opts.body instanceof URLSearchParams) {
+    searchParams = opts.body;
+    formData = convertSearchParamsToFormData(searchParams);
+  } else if (opts.body == null) {
+    searchParams = new URLSearchParams();
+    formData = new FormData();
+  } else {
+    try {
+      searchParams = new URLSearchParams(opts.body);
+      formData = convertSearchParamsToFormData(searchParams);
+    } catch (e) {
+      return getInvalidBodyError();
+    }
+  }
+  let submission = {
+    formMethod,
+    formAction,
+    formEncType: opts && opts.formEncType || "application/x-www-form-urlencoded",
+    formData,
+    json: void 0,
+    text: void 0
+  };
+  if (isMutationMethod(submission.formMethod)) {
+    return { path, submission };
+  }
+  let parsedPath = parsePath(path);
+  if (isFetcher && parsedPath.search && hasNakedIndexQuery(parsedPath.search)) {
+    searchParams.append("index", "");
+  }
+  parsedPath.search = `?${searchParams}`;
+  return { path: createPath(parsedPath), submission };
+}
+function getMatchesToLoad(request, scopedContext, mapRouteProperties2, manifest, history, state, matches, submission, location, lazyRoutePropertiesToSkip, initialHydration, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, hasPatchRoutesOnNavigation, pendingActionResult) {
+  let actionResult = pendingActionResult ? isErrorResult(pendingActionResult[1]) ? pendingActionResult[1].error : pendingActionResult[1].data : void 0;
+  let currentUrl = history.createURL(state.location);
+  let nextUrl = history.createURL(location);
+  let maxIdx;
+  if (initialHydration && state.errors) {
+    let boundaryId = Object.keys(state.errors)[0];
+    maxIdx = matches.findIndex((m) => m.route.id === boundaryId);
+  } else if (pendingActionResult && isErrorResult(pendingActionResult[1])) {
+    let boundaryId = pendingActionResult[0];
+    maxIdx = matches.findIndex((m) => m.route.id === boundaryId) - 1;
+  }
+  let actionStatus = pendingActionResult ? pendingActionResult[1].statusCode : void 0;
+  let shouldSkipRevalidation = actionStatus && actionStatus >= 400;
+  let baseShouldRevalidateArgs = {
+    currentUrl,
+    currentParams: state.matches[0]?.params || {},
+    nextUrl,
+    nextParams: matches[0].params,
+    ...submission,
+    actionResult,
+    actionStatus
+  };
+  let dsMatches = matches.map((match, index) => {
+    let { route } = match;
+    let forceShouldLoad = null;
+    if (maxIdx != null && index > maxIdx) {
+      forceShouldLoad = false;
+    } else if (route.lazy) {
+      forceShouldLoad = true;
+    } else if (!routeHasLoaderOrMiddleware(route)) {
+      forceShouldLoad = false;
+    } else if (initialHydration) {
+      forceShouldLoad = shouldLoadRouteOnHydration(
+        route,
+        state.loaderData,
+        state.errors
+      );
+    } else if (isNewLoader(state.loaderData, state.matches[index], match)) {
+      forceShouldLoad = true;
+    }
+    if (forceShouldLoad !== null) {
+      return getDataStrategyMatch(
+        mapRouteProperties2,
+        manifest,
+        request,
+        match,
+        lazyRoutePropertiesToSkip,
+        scopedContext,
+        forceShouldLoad
+      );
+    }
+    let defaultShouldRevalidate = shouldSkipRevalidation ? false : (
+      // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
+      isRevalidationRequired || currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
+      currentUrl.search !== nextUrl.search || isNewRouteInstance(state.matches[index], match)
+    );
+    let shouldRevalidateArgs = {
+      ...baseShouldRevalidateArgs,
+      defaultShouldRevalidate
+    };
+    let shouldLoad = shouldRevalidateLoader(match, shouldRevalidateArgs);
+    return getDataStrategyMatch(
+      mapRouteProperties2,
+      manifest,
+      request,
+      match,
+      lazyRoutePropertiesToSkip,
+      scopedContext,
+      shouldLoad,
+      shouldRevalidateArgs
+    );
+  });
+  let revalidatingFetchers = [];
+  fetchLoadMatches.forEach((f, key) => {
+    if (initialHydration || !matches.some((m) => m.route.id === f.routeId) || fetchersQueuedForDeletion.has(key)) {
+      return;
+    }
+    let fetcher = state.fetchers.get(key);
+    let isMidInitialLoad = fetcher && fetcher.state !== "idle" && fetcher.data === void 0;
+    let fetcherMatches = matchRoutes(routesToUse, f.path, basename);
+    if (!fetcherMatches) {
+      if (hasPatchRoutesOnNavigation && isMidInitialLoad) {
+        return;
+      }
+      revalidatingFetchers.push({
+        key,
+        routeId: f.routeId,
+        path: f.path,
+        matches: null,
+        match: null,
+        request: null,
+        controller: null
+      });
+      return;
+    }
+    if (fetchRedirectIds.has(key)) {
+      return;
+    }
+    let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
+    let fetchController = new AbortController();
+    let fetchRequest = createClientSideRequest(
+      history,
+      f.path,
+      fetchController.signal
+    );
+    let fetcherDsMatches = null;
+    if (cancelledFetcherLoads.has(key)) {
+      cancelledFetcherLoads.delete(key);
+      fetcherDsMatches = getTargetedDataStrategyMatches(
+        mapRouteProperties2,
+        manifest,
+        fetchRequest,
+        fetcherMatches,
+        fetcherMatch,
+        lazyRoutePropertiesToSkip,
+        scopedContext
+      );
+    } else if (isMidInitialLoad) {
+      if (isRevalidationRequired) {
+        fetcherDsMatches = getTargetedDataStrategyMatches(
+          mapRouteProperties2,
+          manifest,
+          fetchRequest,
+          fetcherMatches,
+          fetcherMatch,
+          lazyRoutePropertiesToSkip,
+          scopedContext
+        );
+      }
+    } else {
+      let shouldRevalidateArgs = {
+        ...baseShouldRevalidateArgs,
+        defaultShouldRevalidate: shouldSkipRevalidation ? false : isRevalidationRequired
+      };
+      if (shouldRevalidateLoader(fetcherMatch, shouldRevalidateArgs)) {
+        fetcherDsMatches = getTargetedDataStrategyMatches(
+          mapRouteProperties2,
+          manifest,
+          fetchRequest,
+          fetcherMatches,
+          fetcherMatch,
+          lazyRoutePropertiesToSkip,
+          scopedContext,
+          shouldRevalidateArgs
+        );
+      }
+    }
+    if (fetcherDsMatches) {
+      revalidatingFetchers.push({
+        key,
+        routeId: f.routeId,
+        path: f.path,
+        matches: fetcherDsMatches,
+        match: fetcherMatch,
+        request: fetchRequest,
+        controller: fetchController
+      });
+    }
+  });
+  return { dsMatches, revalidatingFetchers };
+}
+function routeHasLoaderOrMiddleware(route) {
+  return route.loader != null || route.middleware != null && route.middleware.length > 0;
+}
+function shouldLoadRouteOnHydration(route, loaderData, errors) {
+  if (route.lazy) {
+    return true;
+  }
+  if (!routeHasLoaderOrMiddleware(route)) {
+    return false;
+  }
+  let hasData = loaderData != null && route.id in loaderData;
+  let hasError = errors != null && errors[route.id] !== void 0;
+  if (!hasData && hasError) {
+    return false;
+  }
+  if (typeof route.loader === "function" && route.loader.hydrate === true) {
+    return true;
+  }
+  return !hasData && !hasError;
+}
+function isNewLoader(currentLoaderData, currentMatch, match) {
+  let isNew = (
+    // [a] -> [a, b]
+    !currentMatch || // [a, b] -> [a, c]
+    match.route.id !== currentMatch.route.id
+  );
+  let isMissingData = !currentLoaderData.hasOwnProperty(match.route.id);
+  return isNew || isMissingData;
+}
+function isNewRouteInstance(currentMatch, match) {
+  let currentPath = currentMatch.route.path;
+  return (
+    // param change for this match, /users/123 -> /users/456
+    currentMatch.pathname !== match.pathname || // splat param changed, which is not present in match.path
+    // e.g. /files/images/avatar.jpg -> files/finances.xls
+    currentPath != null && currentPath.endsWith("*") && currentMatch.params["*"] !== match.params["*"]
+  );
+}
+function shouldRevalidateLoader(loaderMatch, arg) {
+  if (loaderMatch.route.shouldRevalidate) {
+    let routeChoice = loaderMatch.route.shouldRevalidate(arg);
+    if (typeof routeChoice === "boolean") {
+      return routeChoice;
+    }
+  }
+  return arg.defaultShouldRevalidate;
+}
+function patchRoutesImpl(routeId, children, routesToUse, manifest, mapRouteProperties2, allowElementMutations) {
+  let childrenToPatch;
+  if (routeId) {
+    let route = manifest[routeId];
+    invariant(
+      route,
+      `No route found to patch children into: routeId = ${routeId}`
+    );
+    if (!route.children) {
+      route.children = [];
+    }
+    childrenToPatch = route.children;
+  } else {
+    childrenToPatch = routesToUse;
+  }
+  let uniqueChildren = [];
+  let existingChildren = [];
+  children.forEach((newRoute) => {
+    let existingRoute = childrenToPatch.find(
+      (existingRoute2) => isSameRoute(newRoute, existingRoute2)
+    );
+    if (existingRoute) {
+      existingChildren.push({ existingRoute, newRoute });
+    } else {
+      uniqueChildren.push(newRoute);
+    }
+  });
+  if (uniqueChildren.length > 0) {
+    let newRoutes = convertRoutesToDataRoutes(
+      uniqueChildren,
+      mapRouteProperties2,
+      [routeId || "_", "patch", String(childrenToPatch?.length || "0")],
+      manifest
+    );
+    childrenToPatch.push(...newRoutes);
+  }
+  if (allowElementMutations && existingChildren.length > 0) {
+    for (let i = 0; i < existingChildren.length; i++) {
+      let { existingRoute, newRoute } = existingChildren[i];
+      let existingRouteTyped = existingRoute;
+      let [newRouteTyped] = convertRoutesToDataRoutes(
+        [newRoute],
+        mapRouteProperties2,
+        [],
+        // Doesn't matter for mutated routes since they already have an id
+        {},
+        // Don't touch the manifest here since we're updating in place
+        true
+      );
+      Object.assign(existingRouteTyped, {
+        element: newRouteTyped.element ? newRouteTyped.element : existingRouteTyped.element,
+        errorElement: newRouteTyped.errorElement ? newRouteTyped.errorElement : existingRouteTyped.errorElement,
+        hydrateFallbackElement: newRouteTyped.hydrateFallbackElement ? newRouteTyped.hydrateFallbackElement : existingRouteTyped.hydrateFallbackElement
+      });
+    }
+  }
+}
+function isSameRoute(newRoute, existingRoute) {
+  if ("id" in newRoute && "id" in existingRoute && newRoute.id === existingRoute.id) {
+    return true;
+  }
+  if (!(newRoute.index === existingRoute.index && newRoute.path === existingRoute.path && newRoute.caseSensitive === existingRoute.caseSensitive)) {
+    return false;
+  }
+  if ((!newRoute.children || newRoute.children.length === 0) && (!existingRoute.children || existingRoute.children.length === 0)) {
+    return true;
+  }
+  return newRoute.children.every(
+    (aChild, i) => existingRoute.children?.some((bChild) => isSameRoute(aChild, bChild))
+  );
+}
+var lazyRoutePropertyCache = /* @__PURE__ */ new WeakMap();
+var loadLazyRouteProperty = ({
+  key,
+  route,
+  manifest,
+  mapRouteProperties: mapRouteProperties2
+}) => {
+  let routeToUpdate = manifest[route.id];
+  invariant(routeToUpdate, "No route found in manifest");
+  if (!routeToUpdate.lazy || typeof routeToUpdate.lazy !== "object") {
+    return;
+  }
+  let lazyFn = routeToUpdate.lazy[key];
+  if (!lazyFn) {
+    return;
+  }
+  let cache = lazyRoutePropertyCache.get(routeToUpdate);
+  if (!cache) {
+    cache = {};
+    lazyRoutePropertyCache.set(routeToUpdate, cache);
+  }
+  let cachedPromise = cache[key];
+  if (cachedPromise) {
+    return cachedPromise;
+  }
+  let propertyPromise = (async () => {
+    let isUnsupported = isUnsupportedLazyRouteObjectKey(key);
+    let staticRouteValue = routeToUpdate[key];
+    let isStaticallyDefined = staticRouteValue !== void 0 && key !== "hasErrorBoundary";
+    if (isUnsupported) {
+      warning(
+        !isUnsupported,
+        "Route property " + key + " is not a supported lazy route property. This property will be ignored."
+      );
+      cache[key] = Promise.resolve();
+    } else if (isStaticallyDefined) {
+      warning(
+        false,
+        `Route "${routeToUpdate.id}" has a static property "${key}" defined. The lazy property will be ignored.`
+      );
+    } else {
+      let value = await lazyFn();
+      if (value != null) {
+        Object.assign(routeToUpdate, { [key]: value });
+        Object.assign(routeToUpdate, mapRouteProperties2(routeToUpdate));
+      }
+    }
+    if (typeof routeToUpdate.lazy === "object") {
+      routeToUpdate.lazy[key] = void 0;
+      if (Object.values(routeToUpdate.lazy).every((value) => value === void 0)) {
+        routeToUpdate.lazy = void 0;
+      }
+    }
+  })();
+  cache[key] = propertyPromise;
+  return propertyPromise;
+};
+var lazyRouteFunctionCache = /* @__PURE__ */ new WeakMap();
+function loadLazyRoute(route, type, manifest, mapRouteProperties2, lazyRoutePropertiesToSkip) {
+  let routeToUpdate = manifest[route.id];
+  invariant(routeToUpdate, "No route found in manifest");
+  if (!route.lazy) {
+    return {
+      lazyRoutePromise: void 0,
+      lazyHandlerPromise: void 0
+    };
+  }
+  if (typeof route.lazy === "function") {
+    let cachedPromise = lazyRouteFunctionCache.get(routeToUpdate);
+    if (cachedPromise) {
+      return {
+        lazyRoutePromise: cachedPromise,
+        lazyHandlerPromise: cachedPromise
+      };
+    }
+    let lazyRoutePromise2 = (async () => {
+      invariant(
+        typeof route.lazy === "function",
+        "No lazy route function found"
+      );
+      let lazyRoute = await route.lazy();
+      let routeUpdates = {};
+      for (let lazyRouteProperty in lazyRoute) {
+        let lazyValue = lazyRoute[lazyRouteProperty];
+        if (lazyValue === void 0) {
+          continue;
+        }
+        let isUnsupported = isUnsupportedLazyRouteFunctionKey(lazyRouteProperty);
+        let staticRouteValue = routeToUpdate[lazyRouteProperty];
+        let isStaticallyDefined = staticRouteValue !== void 0 && // This property isn't static since it should always be updated based
+        // on the route updates
+        lazyRouteProperty !== "hasErrorBoundary";
+        if (isUnsupported) {
+          warning(
+            !isUnsupported,
+            "Route property " + lazyRouteProperty + " is not a supported property to be returned from a lazy route function. This property will be ignored."
+          );
+        } else if (isStaticallyDefined) {
+          warning(
+            !isStaticallyDefined,
+            `Route "${routeToUpdate.id}" has a static property "${lazyRouteProperty}" defined but its lazy function is also returning a value for this property. The lazy route property "${lazyRouteProperty}" will be ignored.`
+          );
+        } else {
+          routeUpdates[lazyRouteProperty] = lazyValue;
+        }
+      }
+      Object.assign(routeToUpdate, routeUpdates);
+      Object.assign(routeToUpdate, {
+        // To keep things framework agnostic, we use the provided `mapRouteProperties`
+        // function to set the framework-aware properties (`element`/`hasErrorBoundary`)
+        // since the logic will differ between frameworks.
+        ...mapRouteProperties2(routeToUpdate),
+        lazy: void 0
+      });
+    })();
+    lazyRouteFunctionCache.set(routeToUpdate, lazyRoutePromise2);
+    lazyRoutePromise2.catch(() => {
+    });
+    return {
+      lazyRoutePromise: lazyRoutePromise2,
+      lazyHandlerPromise: lazyRoutePromise2
+    };
+  }
+  let lazyKeys = Object.keys(route.lazy);
+  let lazyPropertyPromises = [];
+  let lazyHandlerPromise = void 0;
+  for (let key of lazyKeys) {
+    if (lazyRoutePropertiesToSkip && lazyRoutePropertiesToSkip.includes(key)) {
+      continue;
+    }
+    let promise = loadLazyRouteProperty({
+      key,
+      route,
+      manifest,
+      mapRouteProperties: mapRouteProperties2
+    });
+    if (promise) {
+      lazyPropertyPromises.push(promise);
+      if (key === type) {
+        lazyHandlerPromise = promise;
+      }
+    }
+  }
+  let lazyRoutePromise = lazyPropertyPromises.length > 0 ? Promise.all(lazyPropertyPromises).then(() => {
+  }) : void 0;
+  lazyRoutePromise?.catch(() => {
+  });
+  lazyHandlerPromise?.catch(() => {
+  });
+  return {
+    lazyRoutePromise,
+    lazyHandlerPromise
+  };
+}
+function isNonNullable(value) {
+  return value !== void 0;
+}
+function loadLazyMiddlewareForMatches(matches, manifest, mapRouteProperties2) {
+  let promises = matches.map(({ route }) => {
+    if (typeof route.lazy !== "object" || !route.lazy.middleware) {
+      return void 0;
+    }
+    return loadLazyRouteProperty({
+      key: "middleware",
+      route,
+      manifest,
+      mapRouteProperties: mapRouteProperties2
+    });
+  }).filter(isNonNullable);
+  return promises.length > 0 ? Promise.all(promises) : void 0;
+}
+async function defaultDataStrategy(args) {
+  let matchesToLoad = args.matches.filter((m) => m.shouldLoad);
+  let keyedResults = {};
+  let results = await Promise.all(matchesToLoad.map((m) => m.resolve()));
+  results.forEach((result, i) => {
+    keyedResults[matchesToLoad[i].route.id] = result;
+  });
+  return keyedResults;
+}
+async function defaultDataStrategyWithMiddleware(args) {
+  if (!args.matches.some((m) => m.route.middleware)) {
+    return defaultDataStrategy(args);
+  }
+  return runClientMiddlewarePipeline(args, () => defaultDataStrategy(args));
+}
+function runServerMiddlewarePipeline(args, handler, errorHandler) {
+  return runMiddlewarePipeline(
+    args,
+    handler,
+    processResult,
+    isResponse,
+    errorHandler
+  );
+  function processResult(result) {
+    return isDataWithResponseInit(result) ? dataWithResponseInitToResponse(result) : result;
+  }
+}
+function runClientMiddlewarePipeline(args, handler) {
+  return runMiddlewarePipeline(
+    args,
+    handler,
+    (r) => r,
+    // No post-processing needed on the client
+    isDataStrategyResults,
+    errorHandler
+  );
+  function errorHandler(error, routeId, nextResult) {
+    if (nextResult) {
+      return Promise.resolve(
+        Object.assign(nextResult.value, {
+          [routeId]: { type: "error", result: error }
+        })
+      );
+    } else {
+      let { matches } = args;
+      let maxBoundaryIdx = Math.min(
+        // Throwing route
+        Math.max(
+          matches.findIndex((m) => m.route.id === routeId),
+          0
+        ),
+        // or the shallowest route that needs to load data
+        Math.max(
+          matches.findIndex((m) => m.unstable_shouldCallHandler()),
+          0
+        )
+      );
+      let boundaryRouteId = findNearestBoundary(
+        matches,
+        matches[maxBoundaryIdx].route.id
+      ).route.id;
+      return Promise.resolve({
+        [boundaryRouteId]: { type: "error", result: error }
+      });
+    }
+  }
+}
+async function runMiddlewarePipeline(args, handler, processResult, isResult, errorHandler) {
+  let { matches, request, params, context } = args;
+  let tuples = matches.flatMap(
+    (m) => m.route.middleware ? m.route.middleware.map((fn) => [m.route.id, fn]) : []
+  );
+  let result = await callRouteMiddleware(
+    { request, params, context },
+    tuples,
+    handler,
+    processResult,
+    isResult,
+    errorHandler
+  );
+  return result;
+}
+async function callRouteMiddleware(args, middlewares, handler, processResult, isResult, errorHandler, idx = 0) {
+  let { request } = args;
+  if (request.signal.aborted) {
+    throw request.signal.reason ?? new Error(`Request aborted: ${request.method} ${request.url}`);
+  }
+  let tuple = middlewares[idx];
+  if (!tuple) {
+    let result = await handler();
+    return result;
+  }
+  let [routeId, middleware] = tuple;
+  let nextResult;
+  let next = async () => {
+    if (nextResult) {
+      throw new Error("You may only call `next()` once per middleware");
+    }
+    try {
+      let result = await callRouteMiddleware(
+        args,
+        middlewares,
+        handler,
+        processResult,
+        isResult,
+        errorHandler,
+        idx + 1
+      );
+      nextResult = { value: result };
+      return nextResult.value;
+    } catch (error) {
+      nextResult = { value: await errorHandler(error, routeId, nextResult) };
+      return nextResult.value;
+    }
+  };
+  try {
+    let value = await middleware(args, next);
+    let result = value != null ? processResult(value) : void 0;
+    if (isResult(result)) {
+      return result;
+    } else if (nextResult) {
+      return result ?? nextResult.value;
+    } else {
+      nextResult = { value: await next() };
+      return nextResult.value;
+    }
+  } catch (error) {
+    let response = await errorHandler(error, routeId, nextResult);
+    return response;
+  }
+}
+function getDataStrategyMatchLazyPromises(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip) {
+  let lazyMiddlewarePromise = loadLazyRouteProperty({
+    key: "middleware",
+    route: match.route,
+    manifest,
+    mapRouteProperties: mapRouteProperties2
+  });
+  let lazyRoutePromises = loadLazyRoute(
+    match.route,
+    isMutationMethod(request.method) ? "action" : "loader",
+    manifest,
+    mapRouteProperties2,
+    lazyRoutePropertiesToSkip
+  );
+  return {
+    middleware: lazyMiddlewarePromise,
+    route: lazyRoutePromises.lazyRoutePromise,
+    handler: lazyRoutePromises.lazyHandlerPromise
+  };
+}
+function getDataStrategyMatch(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip, scopedContext, shouldLoad, unstable_shouldRevalidateArgs = null) {
+  let isUsingNewApi = false;
+  let _lazyPromises = getDataStrategyMatchLazyPromises(
+    mapRouteProperties2,
+    manifest,
+    request,
+    match,
+    lazyRoutePropertiesToSkip
+  );
+  return {
+    ...match,
+    _lazyPromises,
+    shouldLoad,
+    unstable_shouldRevalidateArgs,
+    unstable_shouldCallHandler(defaultShouldRevalidate) {
+      isUsingNewApi = true;
+      if (!unstable_shouldRevalidateArgs) {
+        return shouldLoad;
+      }
+      if (typeof defaultShouldRevalidate === "boolean") {
+        return shouldRevalidateLoader(match, {
+          ...unstable_shouldRevalidateArgs,
+          defaultShouldRevalidate
+        });
+      }
+      return shouldRevalidateLoader(match, unstable_shouldRevalidateArgs);
+    },
+    resolve(handlerOverride) {
+      let { lazy, loader, middleware } = match.route;
+      let callHandler = isUsingNewApi || shouldLoad || handlerOverride && !isMutationMethod(request.method) && (lazy || loader);
+      let isMiddlewareOnlyRoute = middleware && middleware.length > 0 && !loader && !lazy;
+      if (callHandler && !isMiddlewareOnlyRoute) {
+        return callLoaderOrAction({
+          request,
+          match,
+          lazyHandlerPromise: _lazyPromises?.handler,
+          lazyRoutePromise: _lazyPromises?.route,
+          handlerOverride,
+          scopedContext
+        });
+      }
+      return Promise.resolve({ type: "data" /* data */, result: void 0 });
+    }
+  };
+}
+function getTargetedDataStrategyMatches(mapRouteProperties2, manifest, request, matches, targetMatch, lazyRoutePropertiesToSkip, scopedContext, shouldRevalidateArgs = null) {
+  return matches.map((match) => {
+    if (match.route.id !== targetMatch.route.id) {
+      return {
+        ...match,
+        shouldLoad: false,
+        unstable_shouldRevalidateArgs: shouldRevalidateArgs,
+        unstable_shouldCallHandler: () => false,
+        _lazyPromises: getDataStrategyMatchLazyPromises(
+          mapRouteProperties2,
+          manifest,
+          request,
+          match,
+          lazyRoutePropertiesToSkip
+        ),
+        resolve: () => Promise.resolve({ type: "data", result: void 0 })
+      };
+    }
+    return getDataStrategyMatch(
+      mapRouteProperties2,
+      manifest,
+      request,
+      match,
+      lazyRoutePropertiesToSkip,
+      scopedContext,
+      true,
+      shouldRevalidateArgs
+    );
+  });
+}
+async function callDataStrategyImpl(dataStrategyImpl, request, matches, fetcherKey, scopedContext, isStaticHandler) {
+  if (matches.some((m) => m._lazyPromises?.middleware)) {
+    await Promise.all(matches.map((m) => m._lazyPromises?.middleware));
+  }
+  let dataStrategyArgs = {
+    request,
+    params: matches[0].params,
+    context: scopedContext,
+    matches
+  };
+  let runClientMiddleware = isStaticHandler ? () => {
+    throw new Error(
+      "You cannot call `runClientMiddleware()` from a static handler `dataStrategy`. Middleware is run outside of `dataStrategy` during SSR in order to bubble up the Response.  You can enable middleware via the `respond` API in `query`/`queryRoute`"
+    );
+  } : (cb) => {
+    let typedDataStrategyArgs = dataStrategyArgs;
+    return runClientMiddlewarePipeline(typedDataStrategyArgs, () => {
+      return cb({
+        ...typedDataStrategyArgs,
+        fetcherKey,
+        runClientMiddleware: () => {
+          throw new Error(
+            "Cannot call `runClientMiddleware()` from within an `runClientMiddleware` handler"
+          );
+        }
+      });
+    });
+  };
+  let results = await dataStrategyImpl({
+    ...dataStrategyArgs,
+    fetcherKey,
+    runClientMiddleware
+  });
+  try {
+    await Promise.all(
+      matches.flatMap((m) => [
+        m._lazyPromises?.handler,
+        m._lazyPromises?.route
+      ])
+    );
+  } catch (e) {
+  }
+  return results;
+}
+async function callLoaderOrAction({
+  request,
+  match,
+  lazyHandlerPromise,
+  lazyRoutePromise,
+  handlerOverride,
+  scopedContext
+}) {
+  let result;
+  let onReject;
+  let isAction = isMutationMethod(request.method);
+  let type = isAction ? "action" : "loader";
+  let runHandler = (handler) => {
+    let reject;
+    let abortPromise = new Promise((_, r) => reject = r);
+    onReject = () => reject();
+    request.signal.addEventListener("abort", onReject);
+    let actualHandler = (ctx) => {
+      if (typeof handler !== "function") {
+        return Promise.reject(
+          new Error(
+            `You cannot call the handler for a route which defines a boolean "${type}" [routeId: ${match.route.id}]`
+          )
+        );
+      }
+      return handler(
+        {
+          request,
+          params: match.params,
+          context: scopedContext
+        },
+        ...ctx !== void 0 ? [ctx] : []
+      );
+    };
+    let handlerPromise = (async () => {
+      try {
+        let val = await (handlerOverride ? handlerOverride((ctx) => actualHandler(ctx)) : actualHandler());
+        return { type: "data", result: val };
+      } catch (e) {
+        return { type: "error", result: e };
+      }
+    })();
+    return Promise.race([handlerPromise, abortPromise]);
+  };
+  try {
+    let handler = isAction ? match.route.action : match.route.loader;
+    if (lazyHandlerPromise || lazyRoutePromise) {
+      if (handler) {
+        let handlerError;
+        let [value] = await Promise.all([
+          // If the handler throws, don't let it immediately bubble out,
+          // since we need to let the lazy() execution finish so we know if this
+          // route has a boundary that can handle the error
+          runHandler(handler).catch((e) => {
+            handlerError = e;
+          }),
+          // Ensure all lazy route promises are resolved before continuing
+          lazyHandlerPromise,
+          lazyRoutePromise
+        ]);
+        if (handlerError !== void 0) {
+          throw handlerError;
+        }
+        result = value;
+      } else {
+        await lazyHandlerPromise;
+        let handler2 = isAction ? match.route.action : match.route.loader;
+        if (handler2) {
+          [result] = await Promise.all([runHandler(handler2), lazyRoutePromise]);
+        } else if (type === "action") {
+          let url = new URL(request.url);
+          let pathname = url.pathname + url.search;
+          throw getInternalRouterError(405, {
+            method: request.method,
+            pathname,
+            routeId: match.route.id
+          });
+        } else {
+          return { type: "data" /* data */, result: void 0 };
+        }
+      }
+    } else if (!handler) {
+      let url = new URL(request.url);
+      let pathname = url.pathname + url.search;
+      throw getInternalRouterError(404, {
+        pathname
+      });
+    } else {
+      result = await runHandler(handler);
+    }
+  } catch (e) {
+    return { type: "error" /* error */, result: e };
+  } finally {
+    if (onReject) {
+      request.signal.removeEventListener("abort", onReject);
+    }
+  }
+  return result;
+}
+async function parseResponseBody(response) {
+  let contentType = response.headers.get("Content-Type");
+  if (contentType && /\bapplication\/json\b/.test(contentType)) {
+    return response.body == null ? null : response.json();
+  }
+  return response.text();
+}
+async function convertDataStrategyResultToDataResult(dataStrategyResult) {
+  let { result, type } = dataStrategyResult;
+  if (isResponse(result)) {
+    let data2;
+    try {
+      data2 = await parseResponseBody(result);
+    } catch (e) {
+      return { type: "error" /* error */, error: e };
+    }
+    if (type === "error" /* error */) {
+      return {
+        type: "error" /* error */,
+        error: new ErrorResponseImpl(result.status, result.statusText, data2),
+        statusCode: result.status,
+        headers: result.headers
+      };
+    }
+    return {
+      type: "data" /* data */,
+      data: data2,
+      statusCode: result.status,
+      headers: result.headers
+    };
+  }
+  if (type === "error" /* error */) {
+    if (isDataWithResponseInit(result)) {
+      if (result.data instanceof Error) {
+        return {
+          type: "error" /* error */,
+          error: result.data,
+          statusCode: result.init?.status,
+          headers: result.init?.headers ? new Headers(result.init.headers) : void 0
+        };
+      }
+      return {
+        type: "error" /* error */,
+        error: new ErrorResponseImpl(
+          result.init?.status || 500,
+          void 0,
+          result.data
+        ),
+        statusCode: isRouteErrorResponse(result) ? result.status : void 0,
+        headers: result.init?.headers ? new Headers(result.init.headers) : void 0
+      };
+    }
+    return {
+      type: "error" /* error */,
+      error: result,
+      statusCode: isRouteErrorResponse(result) ? result.status : void 0
+    };
+  }
+  if (isDataWithResponseInit(result)) {
+    return {
+      type: "data" /* data */,
+      data: result.data,
+      statusCode: result.init?.status,
+      headers: result.init?.headers ? new Headers(result.init.headers) : void 0
+    };
+  }
+  return { type: "data" /* data */, data: result };
+}
+function normalizeRelativeRoutingRedirectResponse(response, request, routeId, matches, basename) {
+  let location = response.headers.get("Location");
+  invariant(
+    location,
+    "Redirects returned/thrown from loaders/actions must have a Location header"
+  );
+  if (!isAbsoluteUrl(location)) {
+    let trimmedMatches = matches.slice(
+      0,
+      matches.findIndex((m) => m.route.id === routeId) + 1
+    );
+    location = normalizeTo(
+      new URL(request.url),
+      trimmedMatches,
+      basename,
+      location
+    );
+    response.headers.set("Location", location);
+  }
+  return response;
+}
+function normalizeRedirectLocation(location, currentUrl, basename) {
+  if (isAbsoluteUrl(location)) {
+    let normalizedLocation = location;
+    let url = normalizedLocation.startsWith("//") ? new URL(currentUrl.protocol + normalizedLocation) : new URL(normalizedLocation);
+    let isSameBasename = stripBasename(url.pathname, basename) != null;
+    if (url.origin === currentUrl.origin && isSameBasename) {
+      return url.pathname + url.search + url.hash;
+    }
+  }
+  return location;
+}
+function createClientSideRequest(history, location, signal, submission) {
+  let url = history.createURL(stripHashFromPath(location)).toString();
+  let init = { signal };
+  if (submission && isMutationMethod(submission.formMethod)) {
+    let { formMethod, formEncType } = submission;
+    init.method = formMethod.toUpperCase();
+    if (formEncType === "application/json") {
+      init.headers = new Headers({ "Content-Type": formEncType });
+      init.body = JSON.stringify(submission.json);
+    } else if (formEncType === "text/plain") {
+      init.body = submission.text;
+    } else if (formEncType === "application/x-www-form-urlencoded" && submission.formData) {
+      init.body = convertFormDataToSearchParams(submission.formData);
+    } else {
+      init.body = submission.formData;
+    }
+  }
+  return new Request(url, init);
+}
+function convertFormDataToSearchParams(formData) {
+  let searchParams = new URLSearchParams();
+  for (let [key, value] of formData.entries()) {
+    searchParams.append(key, typeof value === "string" ? value : value.name);
+  }
+  return searchParams;
+}
+function convertSearchParamsToFormData(searchParams) {
+  let formData = new FormData();
+  for (let [key, value] of searchParams.entries()) {
+    formData.append(key, value);
+  }
+  return formData;
+}
+function processRouteLoaderData(matches, results, pendingActionResult, isStaticHandler = false, skipLoaderErrorBubbling = false) {
+  let loaderData = {};
+  let errors = null;
+  let statusCode;
+  let foundError = false;
+  let loaderHeaders = {};
+  let pendingError = pendingActionResult && isErrorResult(pendingActionResult[1]) ? pendingActionResult[1].error : void 0;
+  matches.forEach((match) => {
+    if (!(match.route.id in results)) {
+      return;
+    }
+    let id = match.route.id;
+    let result = results[id];
+    invariant(
+      !isRedirectResult(result),
+      "Cannot handle redirect results in processLoaderData"
+    );
+    if (isErrorResult(result)) {
+      let error = result.error;
+      if (pendingError !== void 0) {
+        error = pendingError;
+        pendingError = void 0;
+      }
+      errors = errors || {};
+      if (skipLoaderErrorBubbling) {
+        errors[id] = error;
+      } else {
+        let boundaryMatch = findNearestBoundary(matches, id);
+        if (errors[boundaryMatch.route.id] == null) {
+          errors[boundaryMatch.route.id] = error;
+        }
+      }
+      if (!isStaticHandler) {
+        loaderData[id] = ResetLoaderDataSymbol;
+      }
+      if (!foundError) {
+        foundError = true;
+        statusCode = isRouteErrorResponse(result.error) ? result.error.status : 500;
+      }
+      if (result.headers) {
+        loaderHeaders[id] = result.headers;
+      }
+    } else {
+      loaderData[id] = result.data;
+      if (result.statusCode && result.statusCode !== 200 && !foundError) {
+        statusCode = result.statusCode;
+      }
+      if (result.headers) {
+        loaderHeaders[id] = result.headers;
+      }
+    }
+  });
+  if (pendingError !== void 0 && pendingActionResult) {
+    errors = { [pendingActionResult[0]]: pendingError };
+    if (pendingActionResult[2]) {
+      loaderData[pendingActionResult[2]] = void 0;
+    }
+  }
+  return {
+    loaderData,
+    errors,
+    statusCode: statusCode || 200,
+    loaderHeaders
+  };
+}
+function processLoaderData(state, matches, results, pendingActionResult, revalidatingFetchers, fetcherResults) {
+  let { loaderData, errors } = processRouteLoaderData(
+    matches,
+    results,
+    pendingActionResult
+  );
+  revalidatingFetchers.filter((f) => !f.matches || f.matches.some((m) => m.shouldLoad)).forEach((rf) => {
+    let { key, match, controller } = rf;
+    if (controller && controller.signal.aborted) {
+      return;
+    }
+    let result = fetcherResults[key];
+    invariant(result, "Did not find corresponding fetcher result");
+    if (isErrorResult(result)) {
+      let boundaryMatch = findNearestBoundary(state.matches, match?.route.id);
+      if (!(errors && errors[boundaryMatch.route.id])) {
+        errors = {
+          ...errors,
+          [boundaryMatch.route.id]: result.error
+        };
+      }
+      state.fetchers.delete(key);
+    } else if (isRedirectResult(result)) {
+      invariant(false, "Unhandled fetcher revalidation redirect");
+    } else {
+      let doneFetcher = getDoneFetcher(result.data);
+      state.fetchers.set(key, doneFetcher);
+    }
+  });
+  return { loaderData, errors };
+}
+function mergeLoaderData(loaderData, newLoaderData, matches, errors) {
+  let mergedLoaderData = Object.entries(newLoaderData).filter(([, v]) => v !== ResetLoaderDataSymbol).reduce((merged, [k, v]) => {
+    merged[k] = v;
+    return merged;
+  }, {});
+  for (let match of matches) {
+    let id = match.route.id;
+    if (!newLoaderData.hasOwnProperty(id) && loaderData.hasOwnProperty(id) && match.route.loader) {
+      mergedLoaderData[id] = loaderData[id];
+    }
+    if (errors && errors.hasOwnProperty(id)) {
+      break;
+    }
+  }
+  return mergedLoaderData;
+}
+function getActionDataForCommit(pendingActionResult) {
+  if (!pendingActionResult) {
+    return {};
+  }
+  return isErrorResult(pendingActionResult[1]) ? {
+    // Clear out prior actionData on errors
+    actionData: {}
+  } : {
+    actionData: {
+      [pendingActionResult[0]]: pendingActionResult[1].data
+    }
+  };
+}
+function findNearestBoundary(matches, routeId) {
+  let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m) => m.route.id === routeId) + 1) : [...matches];
+  return eligibleMatches.reverse().find((m) => m.route.hasErrorBoundary === true) || matches[0];
+}
+function getShortCircuitMatches(routes) {
+  let route = routes.length === 1 ? routes[0] : routes.find((r) => r.index || !r.path || r.path === "/") || {
+    id: `__shim-error-route__`
+  };
+  return {
+    matches: [
+      {
+        params: {},
+        pathname: "",
+        pathnameBase: "",
+        route
+      }
+    ],
+    route
+  };
+}
+function getInternalRouterError(status, {
+  pathname,
+  routeId,
+  method,
+  type,
+  message
+} = {}) {
+  let statusText = "Unknown Server Error";
+  let errorMessage = "Unknown @remix-run/router error";
+  if (status === 400) {
+    statusText = "Bad Request";
+    if (method && pathname && routeId) {
+      errorMessage = `You made a ${method} request to "${pathname}" but did not provide a \`loader\` for route "${routeId}", so there is no way to handle the request.`;
+    } else if (type === "invalid-body") {
+      errorMessage = "Unable to encode submission body";
+    }
+  } else if (status === 403) {
+    statusText = "Forbidden";
+    errorMessage = `Route "${routeId}" does not match URL "${pathname}"`;
+  } else if (status === 404) {
+    statusText = "Not Found";
+    errorMessage = `No route matches URL "${pathname}"`;
+  } else if (status === 405) {
+    statusText = "Method Not Allowed";
+    if (method && pathname && routeId) {
+      errorMessage = `You made a ${method.toUpperCase()} request to "${pathname}" but did not provide an \`action\` for route "${routeId}", so there is no way to handle the request.`;
+    } else if (method) {
+      errorMessage = `Invalid request method "${method.toUpperCase()}"`;
+    }
+  }
+  return new ErrorResponseImpl(
+    status || 500,
+    statusText,
+    new Error(errorMessage),
+    true
+  );
+}
+function findRedirect(results) {
+  let entries = Object.entries(results);
+  for (let i = entries.length - 1; i >= 0; i--) {
+    let [key, result] = entries[i];
+    if (isRedirectResult(result)) {
+      return { key, result };
+    }
+  }
+}
+function stripHashFromPath(path) {
+  let parsedPath = typeof path === "string" ? parsePath(path) : path;
+  return createPath({ ...parsedPath, hash: "" });
+}
+function isHashChangeOnly(a, b) {
+  if (a.pathname !== b.pathname || a.search !== b.search) {
+    return false;
+  }
+  if (a.hash === "") {
+    return b.hash !== "";
+  } else if (a.hash === b.hash) {
+    return true;
+  } else if (b.hash !== "") {
+    return true;
+  }
+  return false;
+}
+function dataWithResponseInitToResponse(data2) {
+  return Response.json(data2.data, data2.init ?? void 0);
+}
+function dataWithResponseInitToErrorResponse(data2) {
+  return new ErrorResponseImpl(
+    data2.init?.status ?? 500,
+    data2.init?.statusText ?? "Internal Server Error",
+    data2.data
+  );
+}
+function isDataStrategyResults(result) {
+  return result != null && typeof result === "object" && Object.entries(result).every(
+    ([key, value]) => typeof key === "string" && isDataStrategyResult(value)
+  );
+}
+function isDataStrategyResult(result) {
+  return result != null && typeof result === "object" && "type" in result && "result" in result && (result.type === "data" /* data */ || result.type === "error" /* error */);
+}
+function isRedirectDataStrategyResult(result) {
+  return isResponse(result.result) && redirectStatusCodes.has(result.result.status);
+}
+function isErrorResult(result) {
+  return result.type === "error" /* error */;
+}
+function isRedirectResult(result) {
+  return (result && result.type) === "redirect" /* redirect */;
+}
+function isDataWithResponseInit(value) {
+  return typeof value === "object" && value != null && "type" in value && "data" in value && "init" in value && value.type === "DataWithResponseInit";
+}
+function isResponse(value) {
+  return value != null && typeof value.status === "number" && typeof value.statusText === "string" && typeof value.headers === "object" && typeof value.body !== "undefined";
+}
+function isRedirectStatusCode(statusCode) {
+  return redirectStatusCodes.has(statusCode);
+}
+function isRedirectResponse(result) {
+  return isResponse(result) && isRedirectStatusCode(result.status) && result.headers.has("Location");
+}
+function isValidMethod(method) {
+  return validRequestMethods.has(method.toUpperCase());
+}
+function isMutationMethod(method) {
+  return validMutationMethods.has(method.toUpperCase());
+}
+function hasNakedIndexQuery(search) {
+  return new URLSearchParams(search).getAll("index").some((v) => v === "");
+}
+function getTargetMatch(matches, location) {
+  let search = typeof location === "string" ? parsePath(location).search : location.search;
+  if (matches[matches.length - 1].route.index && hasNakedIndexQuery(search || "")) {
+    return matches[matches.length - 1];
+  }
+  let pathMatches = getPathContributingMatches(matches);
+  return pathMatches[pathMatches.length - 1];
+}
+function getSubmissionFromNavigation(navigation) {
+  let { formMethod, formAction, formEncType, text, formData, json } = navigation;
+  if (!formMethod || !formAction || !formEncType) {
+    return;
+  }
+  if (text != null) {
+    return {
+      formMethod,
+      formAction,
+      formEncType,
+      formData: void 0,
+      json: void 0,
+      text
+    };
+  } else if (formData != null) {
+    return {
+      formMethod,
+      formAction,
+      formEncType,
+      formData,
+      json: void 0,
+      text: void 0
+    };
+  } else if (json !== void 0) {
+    return {
+      formMethod,
+      formAction,
+      formEncType,
+      formData: void 0,
+      json,
+      text: void 0
+    };
+  }
+}
+function getLoadingNavigation(location, submission) {
+  if (submission) {
+    let navigation = {
+      state: "loading",
+      location,
+      formMethod: submission.formMethod,
+      formAction: submission.formAction,
+      formEncType: submission.formEncType,
+      formData: submission.formData,
+      json: submission.json,
+      text: submission.text
+    };
+    return navigation;
+  } else {
+    let navigation = {
+      state: "loading",
+      location,
+      formMethod: void 0,
+      formAction: void 0,
+      formEncType: void 0,
+      formData: void 0,
+      json: void 0,
+      text: void 0
+    };
+    return navigation;
+  }
+}
+function getSubmittingNavigation(location, submission) {
+  let navigation = {
+    state: "submitting",
+    location,
+    formMethod: submission.formMethod,
+    formAction: submission.formAction,
+    formEncType: submission.formEncType,
+    formData: submission.formData,
+    json: submission.json,
+    text: submission.text
+  };
+  return navigation;
+}
+function getLoadingFetcher(submission, data2) {
+  if (submission) {
+    let fetcher = {
+      state: "loading",
+      formMethod: submission.formMethod,
+      formAction: submission.formAction,
+      formEncType: submission.formEncType,
+      formData: submission.formData,
+      json: submission.json,
+      text: submission.text,
+      data: data2
+    };
+    return fetcher;
+  } else {
+    let fetcher = {
+      state: "loading",
+      formMethod: void 0,
+      formAction: void 0,
+      formEncType: void 0,
+      formData: void 0,
+      json: void 0,
+      text: void 0,
+      data: data2
+    };
+    return fetcher;
+  }
+}
+function getSubmittingFetcher(submission, existingFetcher) {
+  let fetcher = {
+    state: "submitting",
+    formMethod: submission.formMethod,
+    formAction: submission.formAction,
+    formEncType: submission.formEncType,
+    formData: submission.formData,
+    json: submission.json,
+    text: submission.text,
+    data: existingFetcher ? existingFetcher.data : void 0
+  };
+  return fetcher;
+}
+function getDoneFetcher(data2) {
+  let fetcher = {
+    state: "idle",
+    formMethod: void 0,
+    formAction: void 0,
+    formEncType: void 0,
+    formData: void 0,
+    json: void 0,
+    text: void 0,
+    data: data2
+  };
+  return fetcher;
+}
+function restoreAppliedTransitions(_window, transitions) {
+  try {
+    let sessionPositions = _window.sessionStorage.getItem(
+      TRANSITIONS_STORAGE_KEY
+    );
+    if (sessionPositions) {
+      let json = JSON.parse(sessionPositions);
+      for (let [k, v] of Object.entries(json || {})) {
+        if (v && Array.isArray(v)) {
+          transitions.set(k, new Set(v || []));
+        }
+      }
+    }
+  } catch (e) {
+  }
+}
+function persistAppliedTransitions(_window, transitions) {
+  if (transitions.size > 0) {
+    let json = {};
+    for (let [k, v] of transitions) {
+      json[k] = [...v];
+    }
+    try {
+      _window.sessionStorage.setItem(
+        TRANSITIONS_STORAGE_KEY,
+        JSON.stringify(json)
+      );
+    } catch (error) {
+      warning(
+        false,
+        `Failed to save applied view transitions in sessionStorage (${error}).`
+      );
+    }
+  }
+}
+function createDeferred() {
+  let resolve;
+  let reject;
+  let promise = new Promise((res, rej) => {
+    resolve = async (val) => {
+      res(val);
+      try {
+        await promise;
+      } catch (e) {
+      }
+    };
+    reject = async (error) => {
+      rej(error);
+      try {
+        await promise;
+      } catch (e) {
+      }
+    };
+  });
+  return {
+    promise,
+    //@ts-ignore
+    resolve,
+    //@ts-ignore
+    reject
+  };
+}
+
+// lib/context.ts
+
+var DataRouterContext = react.createContext(null);
+DataRouterContext.displayName = "DataRouter";
+var DataRouterStateContext = react.createContext(null);
+DataRouterStateContext.displayName = "DataRouterState";
+var RSCRouterContext = react.createContext(false);
+function useIsRSCRouterContext() {
+  return react.useContext(RSCRouterContext);
+}
+var ViewTransitionContext = react.createContext({
+  isTransitioning: false
+});
+ViewTransitionContext.displayName = "ViewTransition";
+var FetchersContext = react.createContext(
+  /* @__PURE__ */ new Map()
+);
+FetchersContext.displayName = "Fetchers";
+var AwaitContext = react.createContext(null);
+AwaitContext.displayName = "Await";
+var AwaitContextProvider = (props) => React.createElement(AwaitContext.Provider, props);
+var NavigationContext = react.createContext(
+  null
+);
+NavigationContext.displayName = "Navigation";
+var LocationContext = react.createContext(
+  null
+);
+LocationContext.displayName = "Location";
+var RouteContext = react.createContext({
+  outlet: null,
+  matches: [],
+  isDataRoute: false
+});
+RouteContext.displayName = "Route";
+var RouteErrorContext = react.createContext(null);
+RouteErrorContext.displayName = "RouteError";
+var ENABLE_DEV_WARNINGS = true;
+
+// lib/hooks.tsx
+
+function useHref(to, { relative } = {}) {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of the
+    // router loaded. We can help them understand how to avoid that.
+    `useHref() may be used only in the context of a <Router> component.`
+  );
+  let { basename, navigator } = react.useContext(NavigationContext);
+  let { hash, pathname, search } = useResolvedPath(to, { relative });
+  let joinedPathname = pathname;
+  if (basename !== "/") {
+    joinedPathname = pathname === "/" ? basename : joinPaths([basename, pathname]);
+  }
+  return navigator.createHref({ pathname: joinedPathname, search, hash });
+}
+function useInRouterContext() {
+  return react.useContext(LocationContext) != null;
+}
+function useLocation() {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of the
+    // router loaded. We can help them understand how to avoid that.
+    `useLocation() may be used only in the context of a <Router> component.`
+  );
+  return react.useContext(LocationContext).location;
+}
+function useNavigationType() {
+  return React2.useContext(LocationContext).navigationType;
+}
+function useMatch(pattern) {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of the
+    // router loaded. We can help them understand how to avoid that.
+    `useMatch() may be used only in the context of a <Router> component.`
+  );
+  let { pathname } = useLocation();
+  return React2.useMemo(
+    () => matchPath(pattern, decodePath(pathname)),
+    [pathname, pattern]
+  );
+}
+var navigateEffectWarning = `You should call navigate() in a React.useEffect(), not when your component is first rendered.`;
+function useIsomorphicLayoutEffect(cb) {
+  let isStatic = react.useContext(NavigationContext).static;
+  if (!isStatic) {
+    react.useLayoutEffect(cb);
+  }
+}
+function useNavigate() {
+  let { isDataRoute } = react.useContext(RouteContext);
+  return isDataRoute ? useNavigateStable() : useNavigateUnstable();
+}
+function useNavigateUnstable() {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of the
+    // router loaded. We can help them understand how to avoid that.
+    `useNavigate() may be used only in the context of a <Router> component.`
+  );
+  let dataRouterContext = react.useContext(DataRouterContext);
+  let { basename, navigator } = react.useContext(NavigationContext);
+  let { matches } = react.useContext(RouteContext);
+  let { pathname: locationPathname } = useLocation();
+  let routePathnamesJson = JSON.stringify(getResolveToMatches(matches));
+  let activeRef = react.useRef(false);
+  useIsomorphicLayoutEffect(() => {
+    activeRef.current = true;
+  });
+  let navigate = react.useCallback(
+    (to, options = {}) => {
+      warning(activeRef.current, navigateEffectWarning);
+      if (!activeRef.current) return;
+      if (typeof to === "number") {
+        navigator.go(to);
+        return;
+      }
+      let path = resolveTo(
+        to,
+        JSON.parse(routePathnamesJson),
+        locationPathname,
+        options.relative === "path"
+      );
+      if (dataRouterContext == null && basename !== "/") {
+        path.pathname = path.pathname === "/" ? basename : joinPaths([basename, path.pathname]);
+      }
+      (!!options.replace ? navigator.replace : navigator.push)(
+        path,
+        options.state,
+        options
+      );
+    },
+    [
+      basename,
+      navigator,
+      routePathnamesJson,
+      locationPathname,
+      dataRouterContext
+    ]
+  );
+  return navigate;
+}
+var OutletContext = react.createContext(null);
+function useOutletContext() {
+  return React2.useContext(OutletContext);
+}
+function useOutlet(context) {
+  let outlet = React2.useContext(RouteContext).outlet;
+  return React2.useMemo(
+    () => outlet && /* @__PURE__ */ React2.createElement(OutletContext.Provider, { value: context }, outlet),
+    [outlet, context]
+  );
+}
+function useParams() {
+  let { matches } = React2.useContext(RouteContext);
+  let routeMatch = matches[matches.length - 1];
+  return routeMatch ? routeMatch.params : {};
+}
+function useResolvedPath(to, { relative } = {}) {
+  let { matches } = react.useContext(RouteContext);
+  let { pathname: locationPathname } = useLocation();
+  let routePathnamesJson = JSON.stringify(getResolveToMatches(matches));
+  return react.useMemo(
+    () => resolveTo(
+      to,
+      JSON.parse(routePathnamesJson),
+      locationPathname,
+      relative === "path"
+    ),
+    [to, routePathnamesJson, locationPathname, relative]
+  );
+}
+function useRoutes(routes, locationArg) {
+  return useRoutesImpl(routes, locationArg);
+}
+function useRoutesImpl(routes, locationArg, dataRouterState, unstable_onError, future) {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of the
+    // router loaded. We can help them understand how to avoid that.
+    `useRoutes() may be used only in the context of a <Router> component.`
+  );
+  let { navigator } = react.useContext(NavigationContext);
+  let { matches: parentMatches } = react.useContext(RouteContext);
+  let routeMatch = parentMatches[parentMatches.length - 1];
+  let parentParams = routeMatch ? routeMatch.params : {};
+  let parentPathname = routeMatch ? routeMatch.pathname : "/";
+  let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
+  let parentRoute = routeMatch && routeMatch.route;
+  if (ENABLE_DEV_WARNINGS) {
+    let parentPath = parentRoute && parentRoute.path || "";
+    warningOnce(
+      parentPathname,
+      !parentRoute || parentPath.endsWith("*") || parentPath.endsWith("*?"),
+      `You rendered descendant <Routes> (or called \`useRoutes()\`) at "${parentPathname}" (under <Route path="${parentPath}">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path="${parentPath}"> to <Route path="${parentPath === "/" ? "*" : `${parentPath}/*`}">.`
+    );
+  }
+  let locationFromContext = useLocation();
+  let location;
+  if (locationArg) {
+    let parsedLocationArg = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
+    invariant(
+      parentPathnameBase === "/" || parsedLocationArg.pathname?.startsWith(parentPathnameBase),
+      `When overriding the location using \`<Routes location>\` or \`useRoutes(routes, location)\`, the location pathname must begin with the portion of the URL pathname that was matched by all parent routes. The current pathname base is "${parentPathnameBase}" but pathname "${parsedLocationArg.pathname}" was given in the \`location\` prop.`
+    );
+    location = parsedLocationArg;
+  } else {
+    location = locationFromContext;
+  }
+  let pathname = location.pathname || "/";
+  let remainingPathname = pathname;
+  if (parentPathnameBase !== "/") {
+    let parentSegments = parentPathnameBase.replace(/^\//, "").split("/");
+    let segments = pathname.replace(/^\//, "").split("/");
+    remainingPathname = "/" + segments.slice(parentSegments.length).join("/");
+  }
+  let matches = matchRoutes(routes, { pathname: remainingPathname });
+  if (ENABLE_DEV_WARNINGS) {
+    warning(
+      parentRoute || matches != null,
+      `No routes matched location "${location.pathname}${location.search}${location.hash}" `
+    );
+    warning(
+      matches == null || matches[matches.length - 1].route.element !== void 0 || matches[matches.length - 1].route.Component !== void 0 || matches[matches.length - 1].route.lazy !== void 0,
+      `Matched leaf route at location "${location.pathname}${location.search}${location.hash}" does not have an element or Component. This means it will render an <Outlet /> with a null value by default resulting in an "empty" page.`
+    );
+  }
+  let renderedMatches = _renderMatches(
+    matches && matches.map(
+      (match) => Object.assign({}, match, {
+        params: Object.assign({}, parentParams, match.params),
+        pathname: joinPaths([
+          parentPathnameBase,
+          // Re-encode pathnames that were decoded inside matchRoutes.
+          // Pre-encode `?` and `#` ahead of `encodeLocation` because it uses
+          // `new URL()` internally and we need to prevent it from treating
+          // them as separators
+          navigator.encodeLocation ? navigator.encodeLocation(
+            match.pathname.replace(/\?/g, "%3F").replace(/#/g, "%23")
+          ).pathname : match.pathname
+        ]),
+        pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : joinPaths([
+          parentPathnameBase,
+          // Re-encode pathnames that were decoded inside matchRoutes
+          // Pre-encode `?` and `#` ahead of `encodeLocation` because it uses
+          // `new URL()` internally and we need to prevent it from treating
+          // them as separators
+          navigator.encodeLocation ? navigator.encodeLocation(
+            match.pathnameBase.replace(/\?/g, "%3F").replace(/#/g, "%23")
+          ).pathname : match.pathnameBase
+        ])
+      })
+    ),
+    parentMatches,
+    dataRouterState,
+    unstable_onError,
+    future
+  );
+  if (locationArg && renderedMatches) {
+    return /* @__PURE__ */ react.createElement(
+      LocationContext.Provider,
+      {
+        value: {
+          location: {
+            pathname: "/",
+            search: "",
+            hash: "",
+            state: null,
+            key: "default",
+            ...location
+          },
+          navigationType: "POP" /* Pop */
+        }
+      },
+      renderedMatches
+    );
+  }
+  return renderedMatches;
+}
+function DefaultErrorComponent() {
+  let error = useRouteError();
+  let message = isRouteErrorResponse(error) ? `${error.status} ${error.statusText}` : error instanceof Error ? error.message : JSON.stringify(error);
+  let stack = error instanceof Error ? error.stack : null;
+  let lightgrey = "rgba(200,200,200, 0.5)";
+  let preStyles = { padding: "0.5rem", backgroundColor: lightgrey };
+  let codeStyles = { padding: "2px 4px", backgroundColor: lightgrey };
+  let devInfo = null;
+  if (ENABLE_DEV_WARNINGS) {
+    console.error(
+      "Error handled by React Router default ErrorBoundary:",
+      error
+    );
+    devInfo = /* @__PURE__ */ react.createElement(react.Fragment, null, /* @__PURE__ */ react.createElement("p", null, "\u{1F4BF} Hey developer \u{1F44B}"), /* @__PURE__ */ react.createElement("p", null, "You can provide a way better UX than this when your app throws errors by providing your own ", /* @__PURE__ */ react.createElement("code", { style: codeStyles }, "ErrorBoundary"), " or", " ", /* @__PURE__ */ react.createElement("code", { style: codeStyles }, "errorElement"), " prop on your route."));
+  }
+  return /* @__PURE__ */ react.createElement(react.Fragment, null, /* @__PURE__ */ react.createElement("h2", null, "Unexpected Application Error!"), /* @__PURE__ */ react.createElement("h3", { style: { fontStyle: "italic" } }, message), stack ? /* @__PURE__ */ react.createElement("pre", { style: preStyles }, stack) : null, devInfo);
+}
+var defaultErrorElement = /* @__PURE__ */ react.createElement(DefaultErrorComponent, null);
+var RenderErrorBoundary = class extends react.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      location: props.location,
+      revalidation: props.revalidation,
+      error: props.error
+    };
+  }
+  static getDerivedStateFromError(error) {
+    return { error };
+  }
+  static getDerivedStateFromProps(props, state) {
+    if (state.location !== props.location || state.revalidation !== "idle" && props.revalidation === "idle") {
+      return {
+        error: props.error,
+        location: props.location,
+        revalidation: props.revalidation
+      };
+    }
+    return {
+      error: props.error !== void 0 ? props.error : state.error,
+      location: state.location,
+      revalidation: props.revalidation || state.revalidation
+    };
+  }
+  componentDidCatch(error, errorInfo) {
+    if (this.props.unstable_onError) {
+      this.props.unstable_onError(error, errorInfo);
+    } else {
+      console.error(
+        "React Router caught the following error during render",
+        error
+      );
+    }
+  }
+  render() {
+    return this.state.error !== void 0 ? /* @__PURE__ */ react.createElement(RouteContext.Provider, { value: this.props.routeContext }, /* @__PURE__ */ react.createElement(
+      RouteErrorContext.Provider,
+      {
+        value: this.state.error,
+        children: this.props.component
+      }
+    )) : this.props.children;
+  }
+};
+function RenderedRoute({ routeContext, match, children }) {
+  let dataRouterContext = react.useContext(DataRouterContext);
+  if (dataRouterContext && dataRouterContext.static && dataRouterContext.staticContext && (match.route.errorElement || match.route.ErrorBoundary)) {
+    dataRouterContext.staticContext._deepestRenderedBoundaryId = match.route.id;
+  }
+  return /* @__PURE__ */ react.createElement(RouteContext.Provider, { value: routeContext }, children);
+}
+function _renderMatches(matches, parentMatches = [], dataRouterState = null, unstable_onError = null, future = null) {
+  if (matches == null) {
+    if (!dataRouterState) {
+      return null;
+    }
+    if (dataRouterState.errors) {
+      matches = dataRouterState.matches;
+    } else if (parentMatches.length === 0 && !dataRouterState.initialized && dataRouterState.matches.length > 0) {
+      matches = dataRouterState.matches;
+    } else {
+      return null;
+    }
+  }
+  let renderedMatches = matches;
+  let errors = dataRouterState?.errors;
+  if (errors != null) {
+    let errorIndex = renderedMatches.findIndex(
+      (m) => m.route.id && errors?.[m.route.id] !== void 0
+    );
+    invariant(
+      errorIndex >= 0,
+      `Could not find a matching route for errors on route IDs: ${Object.keys(
+        errors
+      ).join(",")}`
+    );
+    renderedMatches = renderedMatches.slice(
+      0,
+      Math.min(renderedMatches.length, errorIndex + 1)
+    );
+  }
+  let renderFallback = false;
+  let fallbackIndex = -1;
+  if (dataRouterState) {
+    for (let i = 0; i < renderedMatches.length; i++) {
+      let match = renderedMatches[i];
+      if (match.route.HydrateFallback || match.route.hydrateFallbackElement) {
+        fallbackIndex = i;
+      }
+      if (match.route.id) {
+        let { loaderData, errors: errors2 } = dataRouterState;
+        let needsToRunLoader = match.route.loader && !loaderData.hasOwnProperty(match.route.id) && (!errors2 || errors2[match.route.id] === void 0);
+        if (match.route.lazy || needsToRunLoader) {
+          renderFallback = true;
+          if (fallbackIndex >= 0) {
+            renderedMatches = renderedMatches.slice(0, fallbackIndex + 1);
+          } else {
+            renderedMatches = [renderedMatches[0]];
+          }
+          break;
+        }
+      }
+    }
+  }
+  return renderedMatches.reduceRight(
+    (outlet, match, index) => {
+      let error;
+      let shouldRenderHydrateFallback = false;
+      let errorElement = null;
+      let hydrateFallbackElement = null;
+      if (dataRouterState) {
+        error = errors && match.route.id ? errors[match.route.id] : void 0;
+        errorElement = match.route.errorElement || defaultErrorElement;
+        if (renderFallback) {
+          if (fallbackIndex < 0 && index === 0) {
+            warningOnce(
+              "route-fallback",
+              false,
+              "No `HydrateFallback` element provided to render during initial hydration"
+            );
+            shouldRenderHydrateFallback = true;
+            hydrateFallbackElement = null;
+          } else if (fallbackIndex === index) {
+            shouldRenderHydrateFallback = true;
+            hydrateFallbackElement = match.route.hydrateFallbackElement || null;
+          }
+        }
+      }
+      let matches2 = parentMatches.concat(renderedMatches.slice(0, index + 1));
+      let getChildren = () => {
+        let children;
+        if (error) {
+          children = errorElement;
+        } else if (shouldRenderHydrateFallback) {
+          children = hydrateFallbackElement;
+        } else if (match.route.Component) {
+          children = /* @__PURE__ */ react.createElement(match.route.Component, null);
+        } else if (match.route.element) {
+          children = match.route.element;
+        } else {
+          children = outlet;
+        }
+        return /* @__PURE__ */ react.createElement(
+          RenderedRoute,
+          {
+            match,
+            routeContext: {
+              outlet,
+              matches: matches2,
+              isDataRoute: dataRouterState != null
+            },
+            children
+          }
+        );
+      };
+      return dataRouterState && (match.route.ErrorBoundary || match.route.errorElement || index === 0) ? /* @__PURE__ */ react.createElement(
+        RenderErrorBoundary,
+        {
+          location: dataRouterState.location,
+          revalidation: dataRouterState.revalidation,
+          component: errorElement,
+          error,
+          children: getChildren(),
+          routeContext: { outlet: null, matches: matches2, isDataRoute: true },
+          unstable_onError
+        }
+      ) : getChildren();
+    },
+    null
+  );
+}
+function getDataRouterConsoleError(hookName) {
+  return `${hookName} must be used within a data router.  See https://reactrouter.com/en/main/routers/picking-a-router.`;
+}
+function useDataRouterContext(hookName) {
+  let ctx = react.useContext(DataRouterContext);
+  invariant(ctx, getDataRouterConsoleError(hookName));
+  return ctx;
+}
+function useDataRouterState(hookName) {
+  let state = react.useContext(DataRouterStateContext);
+  invariant(state, getDataRouterConsoleError(hookName));
+  return state;
+}
+function useRouteContext(hookName) {
+  let route = react.useContext(RouteContext);
+  invariant(route, getDataRouterConsoleError(hookName));
+  return route;
+}
+function useCurrentRouteId(hookName) {
+  let route = useRouteContext(hookName);
+  let thisRoute = route.matches[route.matches.length - 1];
+  invariant(
+    thisRoute.route.id,
+    `${hookName} can only be used on routes that contain a unique "id"`
+  );
+  return thisRoute.route.id;
+}
+function useRouteId() {
+  return useCurrentRouteId("useRouteId" /* UseRouteId */);
+}
+function useNavigation() {
+  let state = useDataRouterState("useNavigation" /* UseNavigation */);
+  return state.navigation;
+}
+function useRevalidator() {
+  let dataRouterContext = useDataRouterContext("useRevalidator" /* UseRevalidator */);
+  let state = useDataRouterState("useRevalidator" /* UseRevalidator */);
+  let revalidate = React2.useCallback(async () => {
+    await dataRouterContext.router.revalidate();
+  }, [dataRouterContext.router]);
+  return React2.useMemo(
+    () => ({ revalidate, state: state.revalidation }),
+    [revalidate, state.revalidation]
+  );
+}
+function useMatches() {
+  let { matches, loaderData } = useDataRouterState(
+    "useMatches" /* UseMatches */
+  );
+  return react.useMemo(
+    () => matches.map((m) => convertRouteMatchToUiMatch(m, loaderData)),
+    [matches, loaderData]
+  );
+}
+function useLoaderData() {
+  let state = useDataRouterState("useLoaderData" /* UseLoaderData */);
+  let routeId = useCurrentRouteId("useLoaderData" /* UseLoaderData */);
+  return state.loaderData[routeId];
+}
+function useRouteLoaderData(routeId) {
+  let state = useDataRouterState("useRouteLoaderData" /* UseRouteLoaderData */);
+  return state.loaderData[routeId];
+}
+function useActionData() {
+  let state = useDataRouterState("useActionData" /* UseActionData */);
+  let routeId = useCurrentRouteId("useLoaderData" /* UseLoaderData */);
+  return state.actionData ? state.actionData[routeId] : void 0;
+}
+function useRouteError() {
+  let error = react.useContext(RouteErrorContext);
+  let state = useDataRouterState("useRouteError" /* UseRouteError */);
+  let routeId = useCurrentRouteId("useRouteError" /* UseRouteError */);
+  if (error !== void 0) {
+    return error;
+  }
+  return state.errors?.[routeId];
+}
+function useAsyncValue() {
+  let value = React2.useContext(AwaitContext);
+  return value?._data;
+}
+function useAsyncError() {
+  let value = React2.useContext(AwaitContext);
+  return value?._error;
+}
+var blockerId = 0;
+function useBlocker(shouldBlock) {
+  let { router, basename } = useDataRouterContext("useBlocker" /* UseBlocker */);
+  let state = useDataRouterState("useBlocker" /* UseBlocker */);
+  let [blockerKey, setBlockerKey] = React2.useState("");
+  let blockerFunction = React2.useCallback(
+    (arg) => {
+      if (typeof shouldBlock !== "function") {
+        return !!shouldBlock;
+      }
+      if (basename === "/") {
+        return shouldBlock(arg);
+      }
+      let { currentLocation, nextLocation, historyAction } = arg;
+      return shouldBlock({
+        currentLocation: {
+          ...currentLocation,
+          pathname: stripBasename(currentLocation.pathname, basename) || currentLocation.pathname
+        },
+        nextLocation: {
+          ...nextLocation,
+          pathname: stripBasename(nextLocation.pathname, basename) || nextLocation.pathname
+        },
+        historyAction
+      });
+    },
+    [basename, shouldBlock]
+  );
+  React2.useEffect(() => {
+    let key = String(++blockerId);
+    setBlockerKey(key);
+    return () => router.deleteBlocker(key);
+  }, [router]);
+  React2.useEffect(() => {
+    if (blockerKey !== "") {
+      router.getBlocker(blockerKey, blockerFunction);
+    }
+  }, [router, blockerKey, blockerFunction]);
+  return blockerKey && state.blockers.has(blockerKey) ? state.blockers.get(blockerKey) : IDLE_BLOCKER;
+}
+function useNavigateStable() {
+  let { router } = useDataRouterContext("useNavigate" /* UseNavigateStable */);
+  let id = useCurrentRouteId("useNavigate" /* UseNavigateStable */);
+  let activeRef = react.useRef(false);
+  useIsomorphicLayoutEffect(() => {
+    activeRef.current = true;
+  });
+  let navigate = react.useCallback(
+    async (to, options = {}) => {
+      warning(activeRef.current, navigateEffectWarning);
+      if (!activeRef.current) return;
+      if (typeof to === "number") {
+        router.navigate(to);
+      } else {
+        await router.navigate(to, { fromRouteId: id, ...options });
+      }
+    },
+    [router, id]
+  );
+  return navigate;
+}
+var alreadyWarned = {};
+function warningOnce(key, cond, message) {
+  if (!cond && !alreadyWarned[key]) {
+    alreadyWarned[key] = true;
+    warning(false, message);
+  }
+}
+function useRoute(...args) {
+  const currentRouteId = useCurrentRouteId(
+    "useRoute" /* UseRoute */
+  );
+  const id = args[0] ?? currentRouteId;
+  const state = useDataRouterState("useRouteLoaderData" /* UseRouteLoaderData */);
+  const route = state.matches.find(({ route: route2 }) => route2.id === id);
+  if (route === void 0) return void 0;
+  return {
+    loaderData: state.loaderData[id],
+    actionData: state.actionData?.[id]
+  };
+}
+
+// lib/components.tsx
+
+
+// lib/server-runtime/warnings.ts
+var alreadyWarned2 = {};
+function warnOnce(condition, message) {
+  if (!condition && !alreadyWarned2[message]) {
+    alreadyWarned2[message] = true;
+    console.warn(message);
+  }
+}
+
+// lib/components.tsx
+function mapRouteProperties(route) {
+  let updates = {
+    // Note: this check also occurs in createRoutesFromChildren so update
+    // there if you change this -- please and thank you!
+    hasErrorBoundary: route.hasErrorBoundary || route.ErrorBoundary != null || route.errorElement != null
+  };
+  if (route.Component) {
+    if (ENABLE_DEV_WARNINGS) {
+      if (route.element) {
+        warning(
+          false,
+          "You should not include both `Component` and `element` on your route - `Component` will be used."
+        );
+      }
+    }
+    Object.assign(updates, {
+      element: React3.createElement(route.Component),
+      Component: void 0
+    });
+  }
+  if (route.HydrateFallback) {
+    if (ENABLE_DEV_WARNINGS) {
+      if (route.hydrateFallbackElement) {
+        warning(
+          false,
+          "You should not include both `HydrateFallback` and `hydrateFallbackElement` on your route - `HydrateFallback` will be used."
+        );
+      }
+    }
+    Object.assign(updates, {
+      hydrateFallbackElement: React3.createElement(route.HydrateFallback),
+      HydrateFallback: void 0
+    });
+  }
+  if (route.ErrorBoundary) {
+    if (ENABLE_DEV_WARNINGS) {
+      if (route.errorElement) {
+        warning(
+          false,
+          "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used."
+        );
+      }
+    }
+    Object.assign(updates, {
+      errorElement: React3.createElement(route.ErrorBoundary),
+      ErrorBoundary: void 0
+    });
+  }
+  return updates;
+}
+var hydrationRouteProperties = (/* unused pure expression or super */ null && ([
+  "HydrateFallback",
+  "hydrateFallbackElement"
+]));
+function createMemoryRouter(routes, opts) {
+  return createRouter({
+    basename: opts?.basename,
+    getContext: opts?.getContext,
+    future: opts?.future,
+    history: createMemoryHistory({
+      initialEntries: opts?.initialEntries,
+      initialIndex: opts?.initialIndex
+    }),
+    hydrationData: opts?.hydrationData,
+    routes,
+    hydrationRouteProperties,
+    mapRouteProperties,
+    dataStrategy: opts?.dataStrategy,
+    patchRoutesOnNavigation: opts?.patchRoutesOnNavigation
+  }).initialize();
+}
+var Deferred = class {
+  constructor() {
+    this.status = "pending";
+    this.promise = new Promise((resolve, reject) => {
+      this.resolve = (value) => {
+        if (this.status === "pending") {
+          this.status = "resolved";
+          resolve(value);
+        }
+      };
+      this.reject = (reason) => {
+        if (this.status === "pending") {
+          this.status = "rejected";
+          reject(reason);
+        }
+      };
+    });
+  }
+};
+function shallowDiff(a, b) {
+  if (a === b) {
+    return false;
+  }
+  let aKeys = Object.keys(a);
+  let bKeys = Object.keys(b);
+  if (aKeys.length !== bKeys.length) {
+    return true;
+  }
+  for (let key of aKeys) {
+    if (a[key] !== b[key]) {
+      return true;
+    }
+  }
+  return false;
+}
+function UNSTABLE_TransitionEnabledRouterProvider({
+  router,
+  flushSync: reactDomFlushSyncImpl,
+  unstable_onError
+}) {
+  let fetcherData = React3.useRef(/* @__PURE__ */ new Map());
+  let [revalidating, startRevalidation] = React3.useTransition();
+  let [state, setState] = React3.useState(router.state);
+  router.__setPendingRerender = (promise) => startRevalidation(
+    // @ts-expect-error - need react 19 types for this to be async
+    async () => {
+      const rerender = await promise;
+      startRevalidation(() => {
+        rerender();
+      });
+    }
+  );
+  let navigator = React3.useMemo(() => {
+    return {
+      createHref: router.createHref,
+      encodeLocation: router.encodeLocation,
+      go: (n) => router.navigate(n),
+      push: (to, state2, opts) => router.navigate(to, {
+        state: state2,
+        preventScrollReset: opts?.preventScrollReset
+      }),
+      replace: (to, state2, opts) => router.navigate(to, {
+        replace: true,
+        state: state2,
+        preventScrollReset: opts?.preventScrollReset
+      })
+    };
+  }, [router]);
+  let basename = router.basename || "/";
+  let dataRouterContext = React3.useMemo(
+    () => ({
+      router,
+      navigator,
+      static: false,
+      basename,
+      unstable_onError
+    }),
+    [router, navigator, basename, unstable_onError]
+  );
+  React3.useLayoutEffect(() => {
+    return router.subscribe(
+      (newState, { deletedFetchers, flushSync, viewTransitionOpts }) => {
+        newState.fetchers.forEach((fetcher, key) => {
+          if (fetcher.data !== void 0) {
+            fetcherData.current.set(key, fetcher.data);
+          }
+        });
+        deletedFetchers.forEach((key) => fetcherData.current.delete(key));
+        const diff = shallowDiff(state, newState);
+        if (!diff) return;
+        if (flushSync) {
+          if (reactDomFlushSyncImpl) {
+            reactDomFlushSyncImpl(() => setState(newState));
+          } else {
+            setState(newState);
+          }
+        } else {
+          React3.startTransition(() => {
+            setState(newState);
+          });
+        }
+      }
+    );
+  }, [router, reactDomFlushSyncImpl, state]);
+  return /* @__PURE__ */ React3.createElement(React3.Fragment, null, /* @__PURE__ */ React3.createElement(DataRouterContext.Provider, { value: dataRouterContext }, /* @__PURE__ */ React3.createElement(
+    DataRouterStateContext.Provider,
+    {
+      value: {
+        ...state,
+        revalidation: revalidating ? "loading" : state.revalidation
+      }
+    },
+    /* @__PURE__ */ React3.createElement(FetchersContext.Provider, { value: fetcherData.current }, /* @__PURE__ */ React3.createElement(
+      Router,
+      {
+        basename,
+        location: state.location,
+        navigationType: state.historyAction,
+        navigator
+      },
+      /* @__PURE__ */ React3.createElement(
+        MemoizedDataRoutes,
+        {
+          routes: router.routes,
+          future: router.future,
+          state,
+          unstable_onError
+        }
+      )
+    ))
+  )), null);
+}
+function RouterProvider({
+  router,
+  flushSync: reactDomFlushSyncImpl,
+  unstable_onError
+}) {
+  let [state, setStateImpl] = React3.useState(router.state);
+  let [pendingState, setPendingState] = React3.useState();
+  let [vtContext, setVtContext] = React3.useState({
+    isTransitioning: false
+  });
+  let [renderDfd, setRenderDfd] = React3.useState();
+  let [transition, setTransition] = React3.useState();
+  let [interruption, setInterruption] = React3.useState();
+  let fetcherData = React3.useRef(/* @__PURE__ */ new Map());
+  let logErrorsAndSetState = React3.useCallback(
+    (newState) => {
+      setStateImpl((prevState) => {
+        if (newState.errors && unstable_onError) {
+          Object.entries(newState.errors).forEach(([routeId, error]) => {
+            if (prevState.errors?.[routeId] !== error) {
+              unstable_onError(error);
+            }
+          });
+        }
+        return newState;
+      });
+    },
+    [unstable_onError]
+  );
+  let setState = React3.useCallback(
+    (newState, { deletedFetchers, flushSync, viewTransitionOpts }) => {
+      newState.fetchers.forEach((fetcher, key) => {
+        if (fetcher.data !== void 0) {
+          fetcherData.current.set(key, fetcher.data);
+        }
+      });
+      deletedFetchers.forEach((key) => fetcherData.current.delete(key));
+      warnOnce(
+        flushSync === false || reactDomFlushSyncImpl != null,
+        'You provided the `flushSync` option to a router update, but you are not using the `<RouterProvider>` from `react-router/dom` so `ReactDOM.flushSync()` is unavailable.  Please update your app to `import { RouterProvider } from "react-router/dom"` and ensure you have `react-dom` installed as a dependency to use the `flushSync` option.'
+      );
+      let isViewTransitionAvailable = router.window != null && router.window.document != null && typeof router.window.document.startViewTransition === "function";
+      warnOnce(
+        viewTransitionOpts == null || isViewTransitionAvailable,
+        "You provided the `viewTransition` option to a router update, but you do not appear to be running in a DOM environment as `window.startViewTransition` is not available."
+      );
+      if (!viewTransitionOpts || !isViewTransitionAvailable) {
+        if (reactDomFlushSyncImpl && flushSync) {
+          reactDomFlushSyncImpl(() => logErrorsAndSetState(newState));
+        } else {
+          React3.startTransition(() => logErrorsAndSetState(newState));
+        }
+        return;
+      }
+      if (reactDomFlushSyncImpl && flushSync) {
+        reactDomFlushSyncImpl(() => {
+          if (transition) {
+            renderDfd && renderDfd.resolve();
+            transition.skipTransition();
+          }
+          setVtContext({
+            isTransitioning: true,
+            flushSync: true,
+            currentLocation: viewTransitionOpts.currentLocation,
+            nextLocation: viewTransitionOpts.nextLocation
+          });
+        });
+        let t = router.window.document.startViewTransition(() => {
+          reactDomFlushSyncImpl(() => logErrorsAndSetState(newState));
+        });
+        t.finished.finally(() => {
+          reactDomFlushSyncImpl(() => {
+            setRenderDfd(void 0);
+            setTransition(void 0);
+            setPendingState(void 0);
+            setVtContext({ isTransitioning: false });
+          });
+        });
+        reactDomFlushSyncImpl(() => setTransition(t));
+        return;
+      }
+      if (transition) {
+        renderDfd && renderDfd.resolve();
+        transition.skipTransition();
+        setInterruption({
+          state: newState,
+          currentLocation: viewTransitionOpts.currentLocation,
+          nextLocation: viewTransitionOpts.nextLocation
+        });
+      } else {
+        setPendingState(newState);
+        setVtContext({
+          isTransitioning: true,
+          flushSync: false,
+          currentLocation: viewTransitionOpts.currentLocation,
+          nextLocation: viewTransitionOpts.nextLocation
+        });
+      }
+    },
+    [
+      router.window,
+      reactDomFlushSyncImpl,
+      transition,
+      renderDfd,
+      logErrorsAndSetState
+    ]
+  );
+  React3.useLayoutEffect(() => router.subscribe(setState), [router, setState]);
+  React3.useEffect(() => {
+    if (vtContext.isTransitioning && !vtContext.flushSync) {
+      setRenderDfd(new Deferred());
+    }
+  }, [vtContext]);
+  React3.useEffect(() => {
+    if (renderDfd && pendingState && router.window) {
+      let newState = pendingState;
+      let renderPromise = renderDfd.promise;
+      let transition2 = router.window.document.startViewTransition(async () => {
+        React3.startTransition(() => logErrorsAndSetState(newState));
+        await renderPromise;
+      });
+      transition2.finished.finally(() => {
+        setRenderDfd(void 0);
+        setTransition(void 0);
+        setPendingState(void 0);
+        setVtContext({ isTransitioning: false });
+      });
+      setTransition(transition2);
+    }
+  }, [pendingState, renderDfd, router.window, logErrorsAndSetState]);
+  React3.useEffect(() => {
+    if (renderDfd && pendingState && state.location.key === pendingState.location.key) {
+      renderDfd.resolve();
+    }
+  }, [renderDfd, transition, state.location, pendingState]);
+  React3.useEffect(() => {
+    if (!vtContext.isTransitioning && interruption) {
+      setPendingState(interruption.state);
+      setVtContext({
+        isTransitioning: true,
+        flushSync: false,
+        currentLocation: interruption.currentLocation,
+        nextLocation: interruption.nextLocation
+      });
+      setInterruption(void 0);
+    }
+  }, [vtContext.isTransitioning, interruption]);
+  let navigator = React3.useMemo(() => {
+    return {
+      createHref: router.createHref,
+      encodeLocation: router.encodeLocation,
+      go: (n) => router.navigate(n),
+      push: (to, state2, opts) => router.navigate(to, {
+        state: state2,
+        preventScrollReset: opts?.preventScrollReset
+      }),
+      replace: (to, state2, opts) => router.navigate(to, {
+        replace: true,
+        state: state2,
+        preventScrollReset: opts?.preventScrollReset
+      })
+    };
+  }, [router]);
+  let basename = router.basename || "/";
+  let dataRouterContext = React3.useMemo(
+    () => ({
+      router,
+      navigator,
+      static: false,
+      basename,
+      unstable_onError
+    }),
+    [router, navigator, basename, unstable_onError]
+  );
+  return /* @__PURE__ */ React3.createElement(React3.Fragment, null, /* @__PURE__ */ React3.createElement(DataRouterContext.Provider, { value: dataRouterContext }, /* @__PURE__ */ React3.createElement(DataRouterStateContext.Provider, { value: state }, /* @__PURE__ */ React3.createElement(FetchersContext.Provider, { value: fetcherData.current }, /* @__PURE__ */ React3.createElement(ViewTransitionContext.Provider, { value: vtContext }, /* @__PURE__ */ React3.createElement(
+    Router,
+    {
+      basename,
+      location: state.location,
+      navigationType: state.historyAction,
+      navigator
+    },
+    /* @__PURE__ */ React3.createElement(
+      MemoizedDataRoutes,
+      {
+        routes: router.routes,
+        future: router.future,
+        state,
+        unstable_onError
+      }
+    )
+  ))))), null);
+}
+var MemoizedDataRoutes = react.memo(DataRoutes);
+function DataRoutes({
+  routes,
+  future,
+  state,
+  unstable_onError
+}) {
+  return useRoutesImpl(routes, void 0, state, unstable_onError, future);
+}
+function MemoryRouter({
+  basename,
+  children,
+  initialEntries,
+  initialIndex
+}) {
+  let historyRef = React3.useRef();
+  if (historyRef.current == null) {
+    historyRef.current = createMemoryHistory({
+      initialEntries,
+      initialIndex,
+      v5Compat: true
+    });
+  }
+  let history = historyRef.current;
+  let [state, setStateImpl] = React3.useState({
+    action: history.action,
+    location: history.location
+  });
+  let setState = React3.useCallback(
+    (newState) => {
+      React3.startTransition(() => setStateImpl(newState));
+    },
+    [setStateImpl]
+  );
+  React3.useLayoutEffect(() => history.listen(setState), [history, setState]);
+  return /* @__PURE__ */ React3.createElement(
+    Router,
+    {
+      basename,
+      children,
+      location: state.location,
+      navigationType: state.action,
+      navigator: history
+    }
+  );
+}
+function Navigate({
+  to,
+  replace: replace2,
+  state,
+  relative
+}) {
+  invariant(
+    useInRouterContext(),
+    // TODO: This error is probably because they somehow have 2 versions of
+    // the router loaded. We can help them understand how to avoid that.
+    `<Navigate> may be used only in the context of a <Router> component.`
+  );
+  let { static: isStatic } = React3.useContext(NavigationContext);
+  warning(
+    !isStatic,
+    `<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.`
+  );
+  let { matches } = React3.useContext(RouteContext);
+  let { pathname: locationPathname } = useLocation();
+  let navigate = useNavigate();
+  let path = resolveTo(
+    to,
+    getResolveToMatches(matches),
+    locationPathname,
+    relative === "path"
+  );
+  let jsonPath = JSON.stringify(path);
+  React3.useEffect(() => {
+    navigate(JSON.parse(jsonPath), { replace: replace2, state, relative });
+  }, [navigate, jsonPath, relative, replace2, state]);
+  return null;
+}
+function Outlet(props) {
+  return useOutlet(props.context);
+}
+function Route(props) {
+  invariant(
+    false,
+    `A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.`
+  );
+}
+function Router({
+  basename: basenameProp = "/",
+  children = null,
+  location: locationProp,
+  navigationType = "POP" /* Pop */,
+  navigator,
+  static: staticProp = false
+}) {
+  invariant(
+    !useInRouterContext(),
+    `You cannot render a <Router> inside another <Router>. You should never have more than one in your app.`
+  );
+  let basename = basenameProp.replace(/^\/*/, "/");
+  let navigationContext = react.useMemo(
+    () => ({
+      basename,
+      navigator,
+      static: staticProp,
+      future: {}
+    }),
+    [basename, navigator, staticProp]
+  );
+  if (typeof locationProp === "string") {
+    locationProp = parsePath(locationProp);
+  }
+  let {
+    pathname = "/",
+    search = "",
+    hash = "",
+    state = null,
+    key = "default"
+  } = locationProp;
+  let locationContext = react.useMemo(() => {
+    let trailingPathname = stripBasename(pathname, basename);
+    if (trailingPathname == null) {
+      return null;
+    }
+    return {
+      location: {
+        pathname: trailingPathname,
+        search,
+        hash,
+        state,
+        key
+      },
+      navigationType
+    };
+  }, [basename, pathname, search, hash, state, key, navigationType]);
+  warning(
+    locationContext != null,
+    `<Router basename="${basename}"> is not able to match the URL "${pathname}${search}${hash}" because it does not start with the basename, so the <Router> won't render anything.`
+  );
+  if (locationContext == null) {
+    return null;
+  }
+  return /* @__PURE__ */ react.createElement(NavigationContext.Provider, { value: navigationContext }, /* @__PURE__ */ react.createElement(LocationContext.Provider, { children, value: locationContext }));
+}
+function Routes({
+  children,
+  location
+}) {
+  return useRoutes(createRoutesFromChildren(children), location);
+}
+function Await({
+  children,
+  errorElement,
+  resolve
+}) {
+  let dataRouterContext = React3.useContext(DataRouterContext);
+  return /* @__PURE__ */ React3.createElement(
+    AwaitErrorBoundary,
+    {
+      resolve,
+      errorElement,
+      unstable_onError: dataRouterContext?.unstable_onError
+    },
+    /* @__PURE__ */ React3.createElement(ResolveAwait, null, children)
+  );
+}
+var AwaitErrorBoundary = class extends react.Component {
+  constructor(props) {
+    super(props);
+    this.state = { error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { error };
+  }
+  componentDidCatch(error, errorInfo) {
+    if (this.props.unstable_onError) {
+      this.props.unstable_onError(error, errorInfo);
+    } else {
+      console.error(
+        "<Await> caught the following error during render",
+        error,
+        errorInfo
+      );
+    }
+  }
+  render() {
+    let { children, errorElement, resolve } = this.props;
+    let promise = null;
+    let status = 0 /* pending */;
+    if (!(resolve instanceof Promise)) {
+      status = 1 /* success */;
+      promise = Promise.resolve();
+      Object.defineProperty(promise, "_tracked", { get: () => true });
+      Object.defineProperty(promise, "_data", { get: () => resolve });
+    } else if (this.state.error) {
+      status = 2 /* error */;
+      let renderError = this.state.error;
+      promise = Promise.reject().catch(() => {
+      });
+      Object.defineProperty(promise, "_tracked", { get: () => true });
+      Object.defineProperty(promise, "_error", { get: () => renderError });
+    } else if (resolve._tracked) {
+      promise = resolve;
+      status = "_error" in promise ? 2 /* error */ : "_data" in promise ? 1 /* success */ : 0 /* pending */;
+    } else {
+      status = 0 /* pending */;
+      Object.defineProperty(resolve, "_tracked", { get: () => true });
+      promise = resolve.then(
+        (data2) => Object.defineProperty(resolve, "_data", { get: () => data2 }),
+        (error) => {
+          this.props.unstable_onError?.(error);
+          Object.defineProperty(resolve, "_error", { get: () => error });
+        }
+      );
+    }
+    if (status === 2 /* error */ && !errorElement) {
+      throw promise._error;
+    }
+    if (status === 2 /* error */) {
+      return /* @__PURE__ */ react.createElement(AwaitContext.Provider, { value: promise, children: errorElement });
+    }
+    if (status === 1 /* success */) {
+      return /* @__PURE__ */ react.createElement(AwaitContext.Provider, { value: promise, children });
+    }
+    throw promise;
+  }
+};
+function ResolveAwait({
+  children
+}) {
+  let data2 = useAsyncValue();
+  let toRender = typeof children === "function" ? children(data2) : children;
+  return /* @__PURE__ */ React3.createElement(React3.Fragment, null, toRender);
+}
+function createRoutesFromChildren(children, parentPath = []) {
+  let routes = [];
+  React3.Children.forEach(children, (element, index) => {
+    if (!React3.isValidElement(element)) {
+      return;
+    }
+    let treePath = [...parentPath, index];
+    if (element.type === React3.Fragment) {
+      routes.push.apply(
+        routes,
+        createRoutesFromChildren(element.props.children, treePath)
+      );
+      return;
+    }
+    invariant(
+      element.type === Route,
+      `[${typeof element.type === "string" ? element.type : element.type.name}] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>`
+    );
+    invariant(
+      !element.props.index || !element.props.children,
+      "An index route cannot have child routes."
+    );
+    let route = {
+      id: element.props.id || treePath.join("-"),
+      caseSensitive: element.props.caseSensitive,
+      element: element.props.element,
+      Component: element.props.Component,
+      index: element.props.index,
+      path: element.props.path,
+      middleware: element.props.middleware,
+      loader: element.props.loader,
+      action: element.props.action,
+      hydrateFallbackElement: element.props.hydrateFallbackElement,
+      HydrateFallback: element.props.HydrateFallback,
+      errorElement: element.props.errorElement,
+      ErrorBoundary: element.props.ErrorBoundary,
+      hasErrorBoundary: element.props.hasErrorBoundary === true || element.props.ErrorBoundary != null || element.props.errorElement != null,
+      shouldRevalidate: element.props.shouldRevalidate,
+      handle: element.props.handle,
+      lazy: element.props.lazy
+    };
+    if (element.props.children) {
+      route.children = createRoutesFromChildren(
+        element.props.children,
+        treePath
+      );
+    }
+    routes.push(route);
+  });
+  return routes;
+}
+var createRoutesFromElements = (/* unused pure expression or super */ null && (createRoutesFromChildren));
+function renderMatches(matches) {
+  return _renderMatches(matches);
+}
+function useRouteComponentProps() {
+  return {
+    params: useParams(),
+    loaderData: useLoaderData(),
+    actionData: useActionData(),
+    matches: useMatches()
+  };
+}
+function WithComponentProps({
+  children
+}) {
+  const props = useRouteComponentProps();
+  return React3.cloneElement(children, props);
+}
+function withComponentProps(Component4) {
+  return function WithComponentProps2() {
+    const props = useRouteComponentProps();
+    return React3.createElement(Component4, props);
+  };
+}
+function useHydrateFallbackProps() {
+  return {
+    params: useParams(),
+    loaderData: useLoaderData(),
+    actionData: useActionData()
+  };
+}
+function WithHydrateFallbackProps({
+  children
+}) {
+  const props = useHydrateFallbackProps();
+  return React3.cloneElement(children, props);
+}
+function withHydrateFallbackProps(HydrateFallback) {
+  return function WithHydrateFallbackProps2() {
+    const props = useHydrateFallbackProps();
+    return React3.createElement(HydrateFallback, props);
+  };
+}
+function useErrorBoundaryProps() {
+  return {
+    params: useParams(),
+    loaderData: useLoaderData(),
+    actionData: useActionData(),
+    error: useRouteError()
+  };
+}
+function WithErrorBoundaryProps({
+  children
+}) {
+  const props = useErrorBoundaryProps();
+  return React3.cloneElement(children, props);
+}
+function withErrorBoundaryProps(ErrorBoundary) {
+  return function WithErrorBoundaryProps2() {
+    const props = useErrorBoundaryProps();
+    return React3.createElement(ErrorBoundary, props);
+  };
+}
+
+// lib/dom/dom.ts
+var defaultMethod = "get";
+var defaultEncType = "application/x-www-form-urlencoded";
+function isHtmlElement(object) {
+  return object != null && typeof object.tagName === "string";
+}
+function isButtonElement(object) {
+  return isHtmlElement(object) && object.tagName.toLowerCase() === "button";
+}
+function isFormElement(object) {
+  return isHtmlElement(object) && object.tagName.toLowerCase() === "form";
+}
+function isInputElement(object) {
+  return isHtmlElement(object) && object.tagName.toLowerCase() === "input";
+}
+function isModifiedEvent(event) {
+  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
+}
+function shouldProcessLinkClick(event, target) {
+  return event.button === 0 && // Ignore everything but left clicks
+  (!target || target === "_self") && // Let browser handle "target=_blank" etc.
+  !isModifiedEvent(event);
+}
+function createSearchParams(init = "") {
+  return new URLSearchParams(
+    typeof init === "string" || Array.isArray(init) || init instanceof URLSearchParams ? init : Object.keys(init).reduce((memo2, key) => {
+      let value = init[key];
+      return memo2.concat(
+        Array.isArray(value) ? value.map((v) => [key, v]) : [[key, value]]
+      );
+    }, [])
+  );
+}
+function getSearchParamsForLocation(locationSearch, defaultSearchParams) {
+  let searchParams = createSearchParams(locationSearch);
+  if (defaultSearchParams) {
+    defaultSearchParams.forEach((_, key) => {
+      if (!searchParams.has(key)) {
+        defaultSearchParams.getAll(key).forEach((value) => {
+          searchParams.append(key, value);
+        });
+      }
+    });
+  }
+  return searchParams;
+}
+var _formDataSupportsSubmitter = null;
+function isFormDataSubmitterSupported() {
+  if (_formDataSupportsSubmitter === null) {
+    try {
+      new FormData(
+        document.createElement("form"),
+        // @ts-expect-error if FormData supports the submitter parameter, this will throw
+        0
+      );
+      _formDataSupportsSubmitter = false;
+    } catch (e) {
+      _formDataSupportsSubmitter = true;
+    }
+  }
+  return _formDataSupportsSubmitter;
+}
+var supportedFormEncTypes = /* @__PURE__ */ new Set([
+  "application/x-www-form-urlencoded",
+  "multipart/form-data",
+  "text/plain"
+]);
+function getFormEncType(encType) {
+  if (encType != null && !supportedFormEncTypes.has(encType)) {
+    warning(
+      false,
+      `"${encType}" is not a valid \`encType\` for \`<Form>\`/\`<fetcher.Form>\` and will default to "${defaultEncType}"`
+    );
+    return null;
+  }
+  return encType;
+}
+function getFormSubmissionInfo(target, basename) {
+  let method;
+  let action;
+  let encType;
+  let formData;
+  let body;
+  if (isFormElement(target)) {
+    let attr = target.getAttribute("action");
+    action = attr ? stripBasename(attr, basename) : null;
+    method = target.getAttribute("method") || defaultMethod;
+    encType = getFormEncType(target.getAttribute("enctype")) || defaultEncType;
+    formData = new FormData(target);
+  } else if (isButtonElement(target) || isInputElement(target) && (target.type === "submit" || target.type === "image")) {
+    let form = target.form;
+    if (form == null) {
+      throw new Error(
+        `Cannot submit a <button> or <input type="submit"> without a <form>`
+      );
+    }
+    let attr = target.getAttribute("formaction") || form.getAttribute("action");
+    action = attr ? stripBasename(attr, basename) : null;
+    method = target.getAttribute("formmethod") || form.getAttribute("method") || defaultMethod;
+    encType = getFormEncType(target.getAttribute("formenctype")) || getFormEncType(form.getAttribute("enctype")) || defaultEncType;
+    formData = new FormData(form, target);
+    if (!isFormDataSubmitterSupported()) {
+      let { name, type, value } = target;
+      if (type === "image") {
+        let prefix = name ? `${name}.` : "";
+        formData.append(`${prefix}x`, "0");
+        formData.append(`${prefix}y`, "0");
+      } else if (name) {
+        formData.append(name, value);
+      }
+    }
+  } else if (isHtmlElement(target)) {
+    throw new Error(
+      `Cannot submit element that is not <form>, <button>, or <input type="submit|image">`
+    );
+  } else {
+    method = defaultMethod;
+    action = null;
+    encType = defaultEncType;
+    body = target;
+  }
+  if (formData && encType === "text/plain") {
+    body = formData;
+    formData = void 0;
+  }
+  return { action, method: method.toLowerCase(), encType, formData, body };
+}
+
+// lib/dom/ssr/single-fetch.tsx
+
+
+// vendor/turbo-stream-v2/utils.ts
+var HOLE = (/* unused pure expression or super */ null && (-1));
+var NAN = (/* unused pure expression or super */ null && (-2));
+var NEGATIVE_INFINITY = (/* unused pure expression or super */ null && (-3));
+var NEGATIVE_ZERO = (/* unused pure expression or super */ null && (-4));
+var NULL = (/* unused pure expression or super */ null && (-5));
+var POSITIVE_INFINITY = (/* unused pure expression or super */ null && (-6));
+var UNDEFINED = (/* unused pure expression or super */ null && (-7));
+var TYPE_BIGINT = "B";
+var TYPE_DATE = "D";
+var TYPE_ERROR = "E";
+var TYPE_MAP = "M";
+var TYPE_NULL_OBJECT = "N";
+var TYPE_PROMISE = "P";
+var TYPE_REGEXP = "R";
+var TYPE_SET = "S";
+var TYPE_SYMBOL = "Y";
+var TYPE_URL = "U";
+var TYPE_PREVIOUS_RESOLVED = "Z";
+var Deferred2 = class {
+  constructor() {
+    this.promise = new Promise((resolve, reject) => {
+      this.resolve = resolve;
+      this.reject = reject;
+    });
+  }
+};
+function createLineSplittingTransform() {
+  const decoder = new TextDecoder();
+  let leftover = "";
+  return new TransformStream({
+    transform(chunk, controller) {
+      const str = decoder.decode(chunk, { stream: true });
+      const parts = (leftover + str).split("\n");
+      leftover = parts.pop() || "";
+      for (const part of parts) {
+        controller.enqueue(part);
+      }
+    },
+    flush(controller) {
+      if (leftover) {
+        controller.enqueue(leftover);
+      }
+    }
+  });
+}
+
+// vendor/turbo-stream-v2/flatten.ts
+function flatten(input) {
+  const { indices } = this;
+  const existing = indices.get(input);
+  if (existing) return [existing];
+  if (input === void 0) return UNDEFINED;
+  if (input === null) return NULL;
+  if (Number.isNaN(input)) return NAN;
+  if (input === Number.POSITIVE_INFINITY) return POSITIVE_INFINITY;
+  if (input === Number.NEGATIVE_INFINITY) return NEGATIVE_INFINITY;
+  if (input === 0 && 1 / input < 0) return NEGATIVE_ZERO;
+  const index = this.index++;
+  indices.set(input, index);
+  stringify.call(this, input, index);
+  return index;
+}
+function stringify(input, index) {
+  const { deferred, plugins, postPlugins } = this;
+  const str = this.stringified;
+  const stack = [[input, index]];
+  while (stack.length > 0) {
+    const [input2, index2] = stack.pop();
+    const partsForObj = (obj) => Object.keys(obj).map((k) => `"_${flatten.call(this, k)}":${flatten.call(this, obj[k])}`).join(",");
+    let error = null;
+    switch (typeof input2) {
+      case "boolean":
+      case "number":
+      case "string":
+        str[index2] = JSON.stringify(input2);
+        break;
+      case "bigint":
+        str[index2] = `["${TYPE_BIGINT}","${input2}"]`;
+        break;
+      case "symbol": {
+        const keyFor = Symbol.keyFor(input2);
+        if (!keyFor) {
+          error = new Error(
+            "Cannot encode symbol unless created with Symbol.for()"
+          );
+        } else {
+          str[index2] = `["${TYPE_SYMBOL}",${JSON.stringify(keyFor)}]`;
+        }
+        break;
+      }
+      case "object": {
+        if (!input2) {
+          str[index2] = `${NULL}`;
+          break;
+        }
+        const isArray = Array.isArray(input2);
+        let pluginHandled = false;
+        if (!isArray && plugins) {
+          for (const plugin of plugins) {
+            const pluginResult = plugin(input2);
+            if (Array.isArray(pluginResult)) {
+              pluginHandled = true;
+              const [pluginIdentifier, ...rest] = pluginResult;
+              str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+              if (rest.length > 0) {
+                str[index2] += `,${rest.map((v) => flatten.call(this, v)).join(",")}`;
+              }
+              str[index2] += "]";
+              break;
+            }
+          }
+        }
+        if (!pluginHandled) {
+          let result = isArray ? "[" : "{";
+          if (isArray) {
+            for (let i = 0; i < input2.length; i++)
+              result += (i ? "," : "") + (i in input2 ? flatten.call(this, input2[i]) : HOLE);
+            str[index2] = `${result}]`;
+          } else if (input2 instanceof Date) {
+            const dateTime = input2.getTime();
+            str[index2] = `["${TYPE_DATE}",${Number.isNaN(dateTime) ? JSON.stringify("invalid") : dateTime}]`;
+          } else if (input2 instanceof URL) {
+            str[index2] = `["${TYPE_URL}",${JSON.stringify(input2.href)}]`;
+          } else if (input2 instanceof RegExp) {
+            str[index2] = `["${TYPE_REGEXP}",${JSON.stringify(
+              input2.source
+            )},${JSON.stringify(input2.flags)}]`;
+          } else if (input2 instanceof Set) {
+            if (input2.size > 0) {
+              str[index2] = `["${TYPE_SET}",${[...input2].map((val) => flatten.call(this, val)).join(",")}]`;
+            } else {
+              str[index2] = `["${TYPE_SET}"]`;
+            }
+          } else if (input2 instanceof Map) {
+            if (input2.size > 0) {
+              str[index2] = `["${TYPE_MAP}",${[...input2].flatMap(([k, v]) => [
+                flatten.call(this, k),
+                flatten.call(this, v)
+              ]).join(",")}]`;
+            } else {
+              str[index2] = `["${TYPE_MAP}"]`;
+            }
+          } else if (input2 instanceof Promise) {
+            str[index2] = `["${TYPE_PROMISE}",${index2}]`;
+            deferred[index2] = input2;
+          } else if (input2 instanceof Error) {
+            str[index2] = `["${TYPE_ERROR}",${JSON.stringify(input2.message)}`;
+            if (input2.name !== "Error") {
+              str[index2] += `,${JSON.stringify(input2.name)}`;
+            }
+            str[index2] += "]";
+          } else if (Object.getPrototypeOf(input2) === null) {
+            str[index2] = `["${TYPE_NULL_OBJECT}",{${partsForObj(input2)}}]`;
+          } else if (isPlainObject(input2)) {
+            str[index2] = `{${partsForObj(input2)}}`;
+          } else {
+            error = new Error("Cannot encode object with prototype");
+          }
+        }
+        break;
+      }
+      default: {
+        const isArray = Array.isArray(input2);
+        let pluginHandled = false;
+        if (!isArray && plugins) {
+          for (const plugin of plugins) {
+            const pluginResult = plugin(input2);
+            if (Array.isArray(pluginResult)) {
+              pluginHandled = true;
+              const [pluginIdentifier, ...rest] = pluginResult;
+              str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+              if (rest.length > 0) {
+                str[index2] += `,${rest.map((v) => flatten.call(this, v)).join(",")}`;
+              }
+              str[index2] += "]";
+              break;
+            }
+          }
+        }
+        if (!pluginHandled) {
+          error = new Error("Cannot encode function or unexpected type");
+        }
+      }
+    }
+    if (error) {
+      let pluginHandled = false;
+      if (postPlugins) {
+        for (const plugin of postPlugins) {
+          const pluginResult = plugin(input2);
+          if (Array.isArray(pluginResult)) {
+            pluginHandled = true;
+            const [pluginIdentifier, ...rest] = pluginResult;
+            str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+            if (rest.length > 0) {
+              str[index2] += `,${rest.map((v) => flatten.call(this, v)).join(",")}`;
+            }
+            str[index2] += "]";
+            break;
+          }
+        }
+      }
+      if (!pluginHandled) {
+        throw error;
+      }
+    }
+  }
+}
+var objectProtoNames = Object.getOwnPropertyNames(Object.prototype).sort().join("\0");
+function isPlainObject(thing) {
+  const proto = Object.getPrototypeOf(thing);
+  return proto === Object.prototype || proto === null || Object.getOwnPropertyNames(proto).sort().join("\0") === objectProtoNames;
+}
+
+// vendor/turbo-stream-v2/unflatten.ts
+var globalObj = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : void 0;
+function unflatten(parsed) {
+  const { hydrated, values } = this;
+  if (typeof parsed === "number") return hydrate.call(this, parsed);
+  if (!Array.isArray(parsed) || !parsed.length) throw new SyntaxError();
+  const startIndex = values.length;
+  for (const value of parsed) {
+    values.push(value);
+  }
+  hydrated.length = values.length;
+  return hydrate.call(this, startIndex);
+}
+function hydrate(index) {
+  const { hydrated, values, deferred, plugins } = this;
+  let result;
+  const stack = [
+    [
+      index,
+      (v) => {
+        result = v;
+      }
+    ]
+  ];
+  let postRun = [];
+  while (stack.length > 0) {
+    const [index2, set] = stack.pop();
+    switch (index2) {
+      case UNDEFINED:
+        set(void 0);
+        continue;
+      case NULL:
+        set(null);
+        continue;
+      case NAN:
+        set(NaN);
+        continue;
+      case POSITIVE_INFINITY:
+        set(Infinity);
+        continue;
+      case NEGATIVE_INFINITY:
+        set(-Infinity);
+        continue;
+      case NEGATIVE_ZERO:
+        set(-0);
+        continue;
+    }
+    if (hydrated[index2]) {
+      set(hydrated[index2]);
+      continue;
+    }
+    const value = values[index2];
+    if (!value || typeof value !== "object") {
+      hydrated[index2] = value;
+      set(value);
+      continue;
+    }
+    if (Array.isArray(value)) {
+      if (typeof value[0] === "string") {
+        const [type, b, c] = value;
+        switch (type) {
+          case TYPE_DATE:
+            set(hydrated[index2] = new Date(b));
+            continue;
+          case TYPE_URL:
+            set(hydrated[index2] = new URL(b));
+            continue;
+          case TYPE_BIGINT:
+            set(hydrated[index2] = BigInt(b));
+            continue;
+          case TYPE_REGEXP:
+            set(hydrated[index2] = new RegExp(b, c));
+            continue;
+          case TYPE_SYMBOL:
+            set(hydrated[index2] = Symbol.for(b));
+            continue;
+          case TYPE_SET:
+            const newSet = /* @__PURE__ */ new Set();
+            hydrated[index2] = newSet;
+            for (let i = value.length - 1; i > 0; i--)
+              stack.push([
+                value[i],
+                (v) => {
+                  newSet.add(v);
+                }
+              ]);
+            set(newSet);
+            continue;
+          case TYPE_MAP:
+            const map = /* @__PURE__ */ new Map();
+            hydrated[index2] = map;
+            for (let i = value.length - 2; i > 0; i -= 2) {
+              const r = [];
+              stack.push([
+                value[i + 1],
+                (v) => {
+                  r[1] = v;
+                }
+              ]);
+              stack.push([
+                value[i],
+                (k) => {
+                  r[0] = k;
+                }
+              ]);
+              postRun.push(() => {
+                map.set(r[0], r[1]);
+              });
+            }
+            set(map);
+            continue;
+          case TYPE_NULL_OBJECT:
+            const obj = /* @__PURE__ */ Object.create(null);
+            hydrated[index2] = obj;
+            for (const key of Object.keys(b).reverse()) {
+              const r = [];
+              stack.push([
+                b[key],
+                (v) => {
+                  r[1] = v;
+                }
+              ]);
+              stack.push([
+                Number(key.slice(1)),
+                (k) => {
+                  r[0] = k;
+                }
+              ]);
+              postRun.push(() => {
+                obj[r[0]] = r[1];
+              });
+            }
+            set(obj);
+            continue;
+          case TYPE_PROMISE:
+            if (hydrated[b]) {
+              set(hydrated[index2] = hydrated[b]);
+            } else {
+              const d = new Deferred2();
+              deferred[b] = d;
+              set(hydrated[index2] = d.promise);
+            }
+            continue;
+          case TYPE_ERROR:
+            const [, message, errorType] = value;
+            let error = errorType && globalObj && globalObj[errorType] ? new globalObj[errorType](message) : new Error(message);
+            hydrated[index2] = error;
+            set(error);
+            continue;
+          case TYPE_PREVIOUS_RESOLVED:
+            set(hydrated[index2] = hydrated[b]);
+            continue;
+          default:
+            if (Array.isArray(plugins)) {
+              const r = [];
+              const vals = value.slice(1);
+              for (let i = 0; i < vals.length; i++) {
+                const v = vals[i];
+                stack.push([
+                  v,
+                  (v2) => {
+                    r[i] = v2;
+                  }
+                ]);
+              }
+              postRun.push(() => {
+                for (const plugin of plugins) {
+                  const result2 = plugin(value[0], ...r);
+                  if (result2) {
+                    set(hydrated[index2] = result2.value);
+                    return;
+                  }
+                }
+                throw new SyntaxError();
+              });
+              continue;
+            }
+            throw new SyntaxError();
+        }
+      } else {
+        const array = [];
+        hydrated[index2] = array;
+        for (let i = 0; i < value.length; i++) {
+          const n = value[i];
+          if (n !== HOLE) {
+            stack.push([
+              n,
+              (v) => {
+                array[i] = v;
+              }
+            ]);
+          }
+        }
+        set(array);
+        continue;
+      }
+    } else {
+      const object = {};
+      hydrated[index2] = object;
+      for (const key of Object.keys(value).reverse()) {
+        const r = [];
+        stack.push([
+          value[key],
+          (v) => {
+            r[1] = v;
+          }
+        ]);
+        stack.push([
+          Number(key.slice(1)),
+          (k) => {
+            r[0] = k;
+          }
+        ]);
+        postRun.push(() => {
+          object[r[0]] = r[1];
+        });
+      }
+      set(object);
+      continue;
+    }
+  }
+  while (postRun.length > 0) {
+    postRun.pop()();
+  }
+  return result;
+}
+
+// vendor/turbo-stream-v2/turbo-stream.ts
+async function decode(readable, options) {
+  const { plugins } = options ?? {};
+  const done = new Deferred2();
+  const reader = readable.pipeThrough(createLineSplittingTransform()).getReader();
+  const decoder = {
+    values: [],
+    hydrated: [],
+    deferred: {},
+    plugins
+  };
+  const decoded = await decodeInitial.call(decoder, reader);
+  let donePromise = done.promise;
+  if (decoded.done) {
+    done.resolve();
+  } else {
+    donePromise = decodeDeferred.call(decoder, reader).then(done.resolve).catch((reason) => {
+      for (const deferred of Object.values(decoder.deferred)) {
+        deferred.reject(reason);
+      }
+      done.reject(reason);
+    });
+  }
+  return {
+    done: donePromise.then(() => reader.closed),
+    value: decoded.value
+  };
+}
+async function decodeInitial(reader) {
+  const read = await reader.read();
+  if (!read.value) {
+    throw new SyntaxError();
+  }
+  let line;
+  try {
+    line = JSON.parse(read.value);
+  } catch (reason) {
+    throw new SyntaxError();
+  }
+  return {
+    done: read.done,
+    value: unflatten.call(this, line)
+  };
+}
+async function decodeDeferred(reader) {
+  let read = await reader.read();
+  while (!read.done) {
+    if (!read.value) continue;
+    const line = read.value;
+    switch (line[0]) {
+      case TYPE_PROMISE: {
+        const colonIndex = line.indexOf(":");
+        const deferredId = Number(line.slice(1, colonIndex));
+        const deferred = this.deferred[deferredId];
+        if (!deferred) {
+          throw new Error(`Deferred ID ${deferredId} not found in stream`);
+        }
+        const lineData = line.slice(colonIndex + 1);
+        let jsonLine;
+        try {
+          jsonLine = JSON.parse(lineData);
+        } catch (reason) {
+          throw new SyntaxError();
+        }
+        const value = unflatten.call(this, jsonLine);
+        deferred.resolve(value);
+        break;
+      }
+      case TYPE_ERROR: {
+        const colonIndex = line.indexOf(":");
+        const deferredId = Number(line.slice(1, colonIndex));
+        const deferred = this.deferred[deferredId];
+        if (!deferred) {
+          throw new Error(`Deferred ID ${deferredId} not found in stream`);
+        }
+        const lineData = line.slice(colonIndex + 1);
+        let jsonLine;
+        try {
+          jsonLine = JSON.parse(lineData);
+        } catch (reason) {
+          throw new SyntaxError();
+        }
+        const value = unflatten.call(this, jsonLine);
+        deferred.reject(value);
+        break;
+      }
+      default:
+        throw new SyntaxError();
+    }
+    read = await reader.read();
+  }
+}
+function encode(input, options) {
+  const { plugins, postPlugins, signal } = options ?? {};
+  const encoder = {
+    deferred: {},
+    index: 0,
+    indices: /* @__PURE__ */ new Map(),
+    stringified: [],
+    plugins,
+    postPlugins,
+    signal
+  };
+  const textEncoder = new TextEncoder();
+  let lastSentIndex = 0;
+  const readable = new ReadableStream({
+    async start(controller) {
+      const id = flatten.call(encoder, input);
+      if (Array.isArray(id)) {
+        throw new Error("This should never happen");
+      }
+      if (id < 0) {
+        controller.enqueue(textEncoder.encode(`${id}
+`));
+      } else {
+        controller.enqueue(
+          textEncoder.encode(`[${encoder.stringified.join(",")}]
+`)
+        );
+        lastSentIndex = encoder.stringified.length - 1;
+      }
+      const seenPromises = /* @__PURE__ */ new WeakSet();
+      if (Object.keys(encoder.deferred).length) {
+        let raceDone;
+        const racePromise = new Promise((resolve, reject) => {
+          raceDone = resolve;
+          if (signal) {
+            const rejectPromise = () => reject(signal.reason || new Error("Signal was aborted."));
+            if (signal.aborted) {
+              rejectPromise();
+            } else {
+              signal.addEventListener("abort", (event) => {
+                rejectPromise();
+              });
+            }
+          }
+        });
+        while (Object.keys(encoder.deferred).length > 0) {
+          for (const [deferredId, deferred] of Object.entries(
+            encoder.deferred
+          )) {
+            if (seenPromises.has(deferred)) continue;
+            seenPromises.add(
+              // biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
+              encoder.deferred[Number(deferredId)] = Promise.race([
+                racePromise,
+                deferred
+              ]).then(
+                (resolved) => {
+                  const id2 = flatten.call(encoder, resolved);
+                  if (Array.isArray(id2)) {
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_PROMISE}${deferredId}:[["${TYPE_PREVIOUS_RESOLVED}",${id2[0]}]]
+`
+                      )
+                    );
+                    encoder.index++;
+                    lastSentIndex++;
+                  } else if (id2 < 0) {
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_PROMISE}${deferredId}:${id2}
+`
+                      )
+                    );
+                  } else {
+                    const values = encoder.stringified.slice(lastSentIndex + 1).join(",");
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_PROMISE}${deferredId}:[${values}]
+`
+                      )
+                    );
+                    lastSentIndex = encoder.stringified.length - 1;
+                  }
+                },
+                (reason) => {
+                  if (!reason || typeof reason !== "object" || !(reason instanceof Error)) {
+                    reason = new Error("An unknown error occurred");
+                  }
+                  const id2 = flatten.call(encoder, reason);
+                  if (Array.isArray(id2)) {
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_ERROR}${deferredId}:[["${TYPE_PREVIOUS_RESOLVED}",${id2[0]}]]
+`
+                      )
+                    );
+                    encoder.index++;
+                    lastSentIndex++;
+                  } else if (id2 < 0) {
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_ERROR}${deferredId}:${id2}
+`
+                      )
+                    );
+                  } else {
+                    const values = encoder.stringified.slice(lastSentIndex + 1).join(",");
+                    controller.enqueue(
+                      textEncoder.encode(
+                        `${TYPE_ERROR}${deferredId}:[${values}]
+`
+                      )
+                    );
+                    lastSentIndex = encoder.stringified.length - 1;
+                  }
+                }
+              ).finally(() => {
+                delete encoder.deferred[Number(deferredId)];
+              })
+            );
+          }
+          await Promise.race(Object.values(encoder.deferred));
+        }
+        raceDone();
+      }
+      await Promise.all(Object.values(encoder.deferred));
+      controller.close();
+    }
+  });
+  return readable;
+}
+
+// lib/dom/ssr/data.ts
+async function createRequestInit(request) {
+  let init = { signal: request.signal };
+  if (request.method !== "GET") {
+    init.method = request.method;
+    let contentType = request.headers.get("Content-Type");
+    if (contentType && /\bapplication\/json\b/.test(contentType)) {
+      init.headers = { "Content-Type": contentType };
+      init.body = JSON.stringify(await request.json());
+    } else if (contentType && /\btext\/plain\b/.test(contentType)) {
+      init.headers = { "Content-Type": contentType };
+      init.body = await request.text();
+    } else if (contentType && /\bapplication\/x-www-form-urlencoded\b/.test(contentType)) {
+      init.body = new URLSearchParams(await request.text());
+    } else {
+      init.body = await request.formData();
+    }
+  }
+  return init;
+}
+
+// lib/dom/ssr/markup.ts
+var ESCAPE_LOOKUP = {
+  "&": "\\u0026",
+  ">": "\\u003e",
+  "<": "\\u003c",
+  "\u2028": "\\u2028",
+  "\u2029": "\\u2029"
+};
+var ESCAPE_REGEX = /[&><\u2028\u2029]/g;
+function escapeHtml(html) {
+  return html.replace(ESCAPE_REGEX, (match) => ESCAPE_LOOKUP[match]);
+}
+
+// lib/dom/ssr/invariant.ts
+function invariant2(value, message) {
+  if (value === false || value === null || typeof value === "undefined") {
+    throw new Error(message);
+  }
+}
+
+// lib/dom/ssr/single-fetch.tsx
+var SingleFetchRedirectSymbol = Symbol("SingleFetchRedirect");
+var SingleFetchNoResultError = class extends (/* unused pure expression or super */ null && (Error)) {
+};
+var SINGLE_FETCH_REDIRECT_STATUS = 202;
+var NO_BODY_STATUS_CODES = /* @__PURE__ */ new Set([100, 101, 204, 205]);
+function StreamTransfer({
+  context,
+  identifier,
+  reader,
+  textDecoder,
+  nonce
+}) {
+  if (!context.renderMeta || !context.renderMeta.didRenderScripts) {
+    return null;
+  }
+  if (!context.renderMeta.streamCache) {
+    context.renderMeta.streamCache = {};
+  }
+  let { streamCache } = context.renderMeta;
+  let promise = streamCache[identifier];
+  if (!promise) {
+    promise = streamCache[identifier] = reader.read().then((result) => {
+      streamCache[identifier].result = {
+        done: result.done,
+        value: textDecoder.decode(result.value, { stream: true })
+      };
+    }).catch((e) => {
+      streamCache[identifier].error = e;
+    });
+  }
+  if (promise.error) {
+    throw promise.error;
+  }
+  if (promise.result === void 0) {
+    throw promise;
+  }
+  let { done, value } = promise.result;
+  let scriptTag = value ? /* @__PURE__ */ React4.createElement(
+    "script",
+    {
+      nonce,
+      dangerouslySetInnerHTML: {
+        __html: `window.__reactRouterContext.streamController.enqueue(${escapeHtml(
+          JSON.stringify(value)
+        )});`
+      }
+    }
+  ) : null;
+  if (done) {
+    return /* @__PURE__ */ React4.createElement(React4.Fragment, null, scriptTag, /* @__PURE__ */ React4.createElement(
+      "script",
+      {
+        nonce,
+        dangerouslySetInnerHTML: {
+          __html: `window.__reactRouterContext.streamController.close();`
+        }
+      }
+    ));
+  } else {
+    return /* @__PURE__ */ React4.createElement(React4.Fragment, null, scriptTag, /* @__PURE__ */ React4.createElement(React4.Suspense, null, /* @__PURE__ */ React4.createElement(
+      StreamTransfer,
+      {
+        context,
+        identifier: identifier + 1,
+        reader,
+        textDecoder,
+        nonce
+      }
+    )));
+  }
+}
+function getTurboStreamSingleFetchDataStrategy(getRouter, manifest, routeModules, ssr, basename) {
+  let dataStrategy = getSingleFetchDataStrategyImpl(
+    getRouter,
+    (match) => {
+      let manifestRoute = manifest.routes[match.route.id];
+      invariant2(manifestRoute, "Route not found in manifest");
+      let routeModule = routeModules[match.route.id];
+      return {
+        hasLoader: manifestRoute.hasLoader,
+        hasClientLoader: manifestRoute.hasClientLoader,
+        hasShouldRevalidate: Boolean(routeModule?.shouldRevalidate)
+      };
+    },
+    fetchAndDecodeViaTurboStream,
+    ssr,
+    basename
+  );
+  return async (args) => args.runClientMiddleware(dataStrategy);
+}
+function getSingleFetchDataStrategyImpl(getRouter, getRouteInfo, fetchAndDecode, ssr, basename, shouldAllowOptOut = () => true) {
+  return async (args) => {
+    let { request, matches, fetcherKey } = args;
+    let router = getRouter();
+    if (request.method !== "GET") {
+      return singleFetchActionStrategy(args, fetchAndDecode, basename);
+    }
+    let foundRevalidatingServerLoader = matches.some((m) => {
+      let { hasLoader, hasClientLoader } = getRouteInfo(m);
+      return m.unstable_shouldCallHandler() && hasLoader && !hasClientLoader;
+    });
+    if (!ssr && !foundRevalidatingServerLoader) {
+      return nonSsrStrategy(args, getRouteInfo, fetchAndDecode, basename);
+    }
+    if (fetcherKey) {
+      return singleFetchLoaderFetcherStrategy(args, fetchAndDecode, basename);
+    }
+    return singleFetchLoaderNavigationStrategy(
+      args,
+      router,
+      getRouteInfo,
+      fetchAndDecode,
+      ssr,
+      basename,
+      shouldAllowOptOut
+    );
+  };
+}
+async function singleFetchActionStrategy(args, fetchAndDecode, basename) {
+  let actionMatch = args.matches.find((m) => m.unstable_shouldCallHandler());
+  invariant2(actionMatch, "No action match found");
+  let actionStatus = void 0;
+  let result = await actionMatch.resolve(async (handler) => {
+    let result2 = await handler(async () => {
+      let { data: data2, status } = await fetchAndDecode(args, basename, [
+        actionMatch.route.id
+      ]);
+      actionStatus = status;
+      return unwrapSingleFetchResult(data2, actionMatch.route.id);
+    });
+    return result2;
+  });
+  if (isResponse(result.result) || isRouteErrorResponse(result.result) || isDataWithResponseInit(result.result)) {
+    return { [actionMatch.route.id]: result };
+  }
+  return {
+    [actionMatch.route.id]: {
+      type: result.type,
+      result: data(result.result, actionStatus)
+    }
+  };
+}
+async function nonSsrStrategy(args, getRouteInfo, fetchAndDecode, basename) {
+  let matchesToLoad = args.matches.filter(
+    (m) => m.unstable_shouldCallHandler()
+  );
+  let results = {};
+  await Promise.all(
+    matchesToLoad.map(
+      (m) => m.resolve(async (handler) => {
+        try {
+          let { hasClientLoader } = getRouteInfo(m);
+          let routeId = m.route.id;
+          let result = hasClientLoader ? await handler(async () => {
+            let { data: data2 } = await fetchAndDecode(args, basename, [routeId]);
+            return unwrapSingleFetchResult(data2, routeId);
+          }) : await handler();
+          results[m.route.id] = { type: "data", result };
+        } catch (e) {
+          results[m.route.id] = { type: "error", result: e };
+        }
+      })
+    )
+  );
+  return results;
+}
+async function singleFetchLoaderNavigationStrategy(args, router, getRouteInfo, fetchAndDecode, ssr, basename, shouldAllowOptOut = () => true) {
+  let routesParams = /* @__PURE__ */ new Set();
+  let foundOptOutRoute = false;
+  let routeDfds = args.matches.map(() => createDeferred2());
+  let singleFetchDfd = createDeferred2();
+  let results = {};
+  let resolvePromise = Promise.all(
+    args.matches.map(
+      async (m, i) => m.resolve(async (handler) => {
+        routeDfds[i].resolve();
+        let routeId = m.route.id;
+        let { hasLoader, hasClientLoader, hasShouldRevalidate } = getRouteInfo(m);
+        let defaultShouldRevalidate = !m.unstable_shouldRevalidateArgs || m.unstable_shouldRevalidateArgs.actionStatus == null || m.unstable_shouldRevalidateArgs.actionStatus < 400;
+        let shouldCall = m.unstable_shouldCallHandler(defaultShouldRevalidate);
+        if (!shouldCall) {
+          foundOptOutRoute || (foundOptOutRoute = m.unstable_shouldRevalidateArgs != null && // This is a revalidation,
+          hasLoader && // for a route with a server loader,
+          hasShouldRevalidate === true);
+          return;
+        }
+        if (shouldAllowOptOut(m) && hasClientLoader) {
+          if (hasLoader) {
+            foundOptOutRoute = true;
+          }
+          try {
+            let result = await handler(async () => {
+              let { data: data2 } = await fetchAndDecode(args, basename, [routeId]);
+              return unwrapSingleFetchResult(data2, routeId);
+            });
+            results[routeId] = { type: "data", result };
+          } catch (e) {
+            results[routeId] = { type: "error", result: e };
+          }
+          return;
+        }
+        if (hasLoader) {
+          routesParams.add(routeId);
+        }
+        try {
+          let result = await handler(async () => {
+            let data2 = await singleFetchDfd.promise;
+            return unwrapSingleFetchResult(data2, routeId);
+          });
+          results[routeId] = { type: "data", result };
+        } catch (e) {
+          results[routeId] = { type: "error", result: e };
+        }
+      })
+    )
+  );
+  await Promise.all(routeDfds.map((d) => d.promise));
+  let isInitialLoad = !router.state.initialized && router.state.navigation.state === "idle";
+  if ((isInitialLoad || routesParams.size === 0) && !window.__reactRouterHdrActive) {
+    singleFetchDfd.resolve({ routes: {} });
+  } else {
+    let targetRoutes = ssr && foundOptOutRoute && routesParams.size > 0 ? [...routesParams.keys()] : void 0;
+    try {
+      let data2 = await fetchAndDecode(args, basename, targetRoutes);
+      singleFetchDfd.resolve(data2.data);
+    } catch (e) {
+      singleFetchDfd.reject(e);
+    }
+  }
+  await resolvePromise;
+  await bubbleMiddlewareErrors(
+    singleFetchDfd.promise,
+    args.matches,
+    routesParams,
+    results
+  );
+  return results;
+}
+async function bubbleMiddlewareErrors(singleFetchPromise, matches, routesParams, results) {
+  try {
+    let middlewareError;
+    let fetchedData = await singleFetchPromise;
+    if ("routes" in fetchedData) {
+      for (let match of matches) {
+        if (match.route.id in fetchedData.routes) {
+          let routeResult = fetchedData.routes[match.route.id];
+          if ("error" in routeResult) {
+            middlewareError = routeResult.error;
+            if (results[match.route.id]?.result == null) {
+              results[match.route.id] = {
+                type: "error",
+                result: middlewareError
+              };
+            }
+            break;
+          }
+        }
+      }
+    }
+    if (middlewareError !== void 0) {
+      Array.from(routesParams.values()).forEach((routeId) => {
+        if (results[routeId].result instanceof SingleFetchNoResultError) {
+          results[routeId].result = middlewareError;
+        }
+      });
+    }
+  } catch (e) {
+  }
+}
+async function singleFetchLoaderFetcherStrategy(args, fetchAndDecode, basename) {
+  let fetcherMatch = args.matches.find((m) => m.unstable_shouldCallHandler());
+  invariant2(fetcherMatch, "No fetcher match found");
+  let routeId = fetcherMatch.route.id;
+  let result = await fetcherMatch.resolve(
+    async (handler) => handler(async () => {
+      let { data: data2 } = await fetchAndDecode(args, basename, [routeId]);
+      return unwrapSingleFetchResult(data2, routeId);
+    })
+  );
+  return { [fetcherMatch.route.id]: result };
+}
+function stripIndexParam(url) {
+  let indexValues = url.searchParams.getAll("index");
+  url.searchParams.delete("index");
+  let indexValuesToKeep = [];
+  for (let indexValue of indexValues) {
+    if (indexValue) {
+      indexValuesToKeep.push(indexValue);
+    }
+  }
+  for (let toKeep of indexValuesToKeep) {
+    url.searchParams.append("index", toKeep);
+  }
+  return url;
+}
+function singleFetchUrl(reqUrl, basename, extension) {
+  let url = typeof reqUrl === "string" ? new URL(
+    reqUrl,
+    // This can be called during the SSR flow via PrefetchPageLinksImpl so
+    // don't assume window is available
+    typeof window === "undefined" ? "server://singlefetch/" : window.location.origin
+  ) : reqUrl;
+  if (url.pathname === "/") {
+    url.pathname = `_root.${extension}`;
+  } else if (basename && stripBasename(url.pathname, basename) === "/") {
+    url.pathname = `${basename.replace(/\/$/, "")}/_root.${extension}`;
+  } else {
+    url.pathname = `${url.pathname.replace(/\/$/, "")}.${extension}`;
+  }
+  return url;
+}
+async function fetchAndDecodeViaTurboStream(args, basename, targetRoutes) {
+  let { request } = args;
+  let url = singleFetchUrl(request.url, basename, "data");
+  if (request.method === "GET") {
+    url = stripIndexParam(url);
+    if (targetRoutes) {
+      url.searchParams.set("_routes", targetRoutes.join(","));
+    }
+  }
+  let res = await fetch(url, await createRequestInit(request));
+  if (res.status >= 400 && !res.headers.has("X-Remix-Response")) {
+    throw new ErrorResponseImpl(res.status, res.statusText, await res.text());
+  }
+  if (res.status === 204 && res.headers.has("X-Remix-Redirect")) {
+    return {
+      status: SINGLE_FETCH_REDIRECT_STATUS,
+      data: {
+        redirect: {
+          redirect: res.headers.get("X-Remix-Redirect"),
+          status: Number(res.headers.get("X-Remix-Status") || "302"),
+          revalidate: res.headers.get("X-Remix-Revalidate") === "true",
+          reload: res.headers.get("X-Remix-Reload-Document") === "true",
+          replace: res.headers.get("X-Remix-Replace") === "true"
+        }
+      }
+    };
+  }
+  if (NO_BODY_STATUS_CODES.has(res.status)) {
+    let routes = {};
+    if (targetRoutes && request.method !== "GET") {
+      routes[targetRoutes[0]] = { data: void 0 };
+    }
+    return {
+      status: res.status,
+      data: { routes }
+    };
+  }
+  invariant2(res.body, "No response body to decode");
+  try {
+    let decoded = await decodeViaTurboStream(res.body, window);
+    let data2;
+    if (request.method === "GET") {
+      let typed = decoded.value;
+      if (SingleFetchRedirectSymbol in typed) {
+        data2 = { redirect: typed[SingleFetchRedirectSymbol] };
+      } else {
+        data2 = { routes: typed };
+      }
+    } else {
+      let typed = decoded.value;
+      let routeId = targetRoutes?.[0];
+      invariant2(routeId, "No routeId found for single fetch call decoding");
+      if ("redirect" in typed) {
+        data2 = { redirect: typed };
+      } else {
+        data2 = { routes: { [routeId]: typed } };
+      }
+    }
+    return { status: res.status, data: data2 };
+  } catch (e) {
+    throw new Error("Unable to decode turbo-stream response");
+  }
+}
+function decodeViaTurboStream(body, global) {
+  return decode(body, {
+    plugins: [
+      (type, ...rest) => {
+        if (type === "SanitizedError") {
+          let [name, message, stack] = rest;
+          let Constructor = Error;
+          if (name && name in global && typeof global[name] === "function") {
+            Constructor = global[name];
+          }
+          let error = new Constructor(message);
+          error.stack = stack;
+          return { value: error };
+        }
+        if (type === "ErrorResponse") {
+          let [data2, status, statusText] = rest;
+          return {
+            value: new ErrorResponseImpl(status, statusText, data2)
+          };
+        }
+        if (type === "SingleFetchRedirect") {
+          return { value: { [SingleFetchRedirectSymbol]: rest[0] } };
+        }
+        if (type === "SingleFetchClassInstance") {
+          return { value: rest[0] };
+        }
+        if (type === "SingleFetchFallback") {
+          return { value: void 0 };
+        }
+      }
+    ]
+  });
+}
+function unwrapSingleFetchResult(result, routeId) {
+  if ("redirect" in result) {
+    let {
+      redirect: location,
+      revalidate,
+      reload,
+      replace: replace2,
+      status
+    } = result.redirect;
+    throw redirect(location, {
+      status,
+      headers: {
+        // Three R's of redirecting (lol Veep)
+        ...revalidate ? { "X-Remix-Revalidate": "yes" } : null,
+        ...reload ? { "X-Remix-Reload-Document": "yes" } : null,
+        ...replace2 ? { "X-Remix-Replace": "yes" } : null
+      }
+    });
+  }
+  let routeResult = result.routes[routeId];
+  if (routeResult == null) {
+    throw new SingleFetchNoResultError(
+      `No result found for routeId "${routeId}"`
+    );
+  } else if ("error" in routeResult) {
+    throw routeResult.error;
+  } else if ("data" in routeResult) {
+    return routeResult.data;
+  } else {
+    throw new Error(`Invalid response found for routeId "${routeId}"`);
+  }
+}
+function createDeferred2() {
+  let resolve;
+  let reject;
+  let promise = new Promise((res, rej) => {
+    resolve = async (val) => {
+      res(val);
+      try {
+        await promise;
+      } catch (e) {
+      }
+    };
+    reject = async (error) => {
+      rej(error);
+      try {
+        await promise;
+      } catch (e) {
+      }
+    };
+  });
+  return {
+    promise,
+    //@ts-ignore
+    resolve,
+    //@ts-ignore
+    reject
+  };
+}
+
+// lib/dom/ssr/errorBoundaries.tsx
+
+
+// lib/dom/ssr/components.tsx
+
+
+// lib/dom/ssr/routeModules.ts
+async function loadRouteModule(route, routeModulesCache) {
+  if (route.id in routeModulesCache) {
+    return routeModulesCache[route.id];
+  }
+  try {
+    let routeModule = await import(
+      /* @vite-ignore */
+      /* webpackIgnore: true */
+      route.module
+    );
+    routeModulesCache[route.id] = routeModule;
+    return routeModule;
+  } catch (error) {
+    console.error(
+      `Error loading route module \`${route.module}\`, reloading page...`
+    );
+    console.error(error);
+    if (window.__reactRouterContext && window.__reactRouterContext.isSpaMode && // @ts-expect-error
+    /* unsupported import.meta.hot */ undefined) {}
+    window.location.reload();
+    return new Promise(() => {
+    });
+  }
+}
+
+// lib/dom/ssr/links.ts
+function getKeyedLinksForMatches(matches, routeModules, manifest) {
+  let descriptors = matches.map((match) => {
+    let module = routeModules[match.route.id];
+    let route = manifest.routes[match.route.id];
+    return [
+      route && route.css ? route.css.map((href) => ({ rel: "stylesheet", href })) : [],
+      module?.links?.() || []
+    ];
+  }).flat(2);
+  let preloads = getModuleLinkHrefs(matches, manifest);
+  return dedupeLinkDescriptors(descriptors, preloads);
+}
+function getRouteCssDescriptors(route) {
+  if (!route.css) return [];
+  return route.css.map((href) => ({ rel: "stylesheet", href }));
+}
+async function prefetchRouteCss(route) {
+  if (!route.css) return;
+  let descriptors = getRouteCssDescriptors(route);
+  await Promise.all(descriptors.map(prefetchStyleLink));
+}
+async function prefetchStyleLinks(route, routeModule) {
+  if (!route.css && !routeModule.links || !isPreloadSupported()) return;
+  let descriptors = [];
+  if (route.css) {
+    descriptors.push(...getRouteCssDescriptors(route));
+  }
+  if (routeModule.links) {
+    descriptors.push(...routeModule.links());
+  }
+  if (descriptors.length === 0) return;
+  let styleLinks = [];
+  for (let descriptor of descriptors) {
+    if (!isPageLinkDescriptor(descriptor) && descriptor.rel === "stylesheet") {
+      styleLinks.push({
+        ...descriptor,
+        rel: "preload",
+        as: "style"
+      });
+    }
+  }
+  await Promise.all(styleLinks.map(prefetchStyleLink));
+}
+async function prefetchStyleLink(descriptor) {
+  return new Promise((resolve) => {
+    if (descriptor.media && !window.matchMedia(descriptor.media).matches || document.querySelector(
+      `link[rel="stylesheet"][href="${descriptor.href}"]`
+    )) {
+      return resolve();
+    }
+    let link = document.createElement("link");
+    Object.assign(link, descriptor);
+    function removeLink() {
+      if (document.head.contains(link)) {
+        document.head.removeChild(link);
+      }
+    }
+    link.onload = () => {
+      removeLink();
+      resolve();
+    };
+    link.onerror = () => {
+      removeLink();
+      resolve();
+    };
+    document.head.appendChild(link);
+  });
+}
+function isPageLinkDescriptor(object) {
+  return object != null && typeof object.page === "string";
+}
+function isHtmlLinkDescriptor(object) {
+  if (object == null) {
+    return false;
+  }
+  if (object.href == null) {
+    return object.rel === "preload" && typeof object.imageSrcSet === "string" && typeof object.imageSizes === "string";
+  }
+  return typeof object.rel === "string" && typeof object.href === "string";
+}
+async function getKeyedPrefetchLinks(matches, manifest, routeModules) {
+  let links = await Promise.all(
+    matches.map(async (match) => {
+      let route = manifest.routes[match.route.id];
+      if (route) {
+        let mod = await loadRouteModule(route, routeModules);
+        return mod.links ? mod.links() : [];
+      }
+      return [];
+    })
+  );
+  return dedupeLinkDescriptors(
+    links.flat(1).filter(isHtmlLinkDescriptor).filter((link) => link.rel === "stylesheet" || link.rel === "preload").map(
+      (link) => link.rel === "stylesheet" ? { ...link, rel: "prefetch", as: "style" } : { ...link, rel: "prefetch" }
+    )
+  );
+}
+function getNewMatchesForLinks(page, nextMatches, currentMatches, manifest, location, mode) {
+  let isNew = (match, index) => {
+    if (!currentMatches[index]) return true;
+    return match.route.id !== currentMatches[index].route.id;
+  };
+  let matchPathChanged = (match, index) => {
+    return (
+      // param change, /users/123 -> /users/456
+      currentMatches[index].pathname !== match.pathname || // splat param changed, which is not present in match.path
+      // e.g. /files/images/avatar.jpg -> files/finances.xls
+      currentMatches[index].route.path?.endsWith("*") && currentMatches[index].params["*"] !== match.params["*"]
+    );
+  };
+  if (mode === "assets") {
+    return nextMatches.filter(
+      (match, index) => isNew(match, index) || matchPathChanged(match, index)
+    );
+  }
+  if (mode === "data") {
+    return nextMatches.filter((match, index) => {
+      let manifestRoute = manifest.routes[match.route.id];
+      if (!manifestRoute || !manifestRoute.hasLoader) {
+        return false;
+      }
+      if (isNew(match, index) || matchPathChanged(match, index)) {
+        return true;
+      }
+      if (match.route.shouldRevalidate) {
+        let routeChoice = match.route.shouldRevalidate({
+          currentUrl: new URL(
+            location.pathname + location.search + location.hash,
+            window.origin
+          ),
+          currentParams: currentMatches[0]?.params || {},
+          nextUrl: new URL(page, window.origin),
+          nextParams: match.params,
+          defaultShouldRevalidate: true
+        });
+        if (typeof routeChoice === "boolean") {
+          return routeChoice;
+        }
+      }
+      return true;
+    });
+  }
+  return [];
+}
+function getModuleLinkHrefs(matches, manifest, { includeHydrateFallback } = {}) {
+  return dedupeHrefs(
+    matches.map((match) => {
+      let route = manifest.routes[match.route.id];
+      if (!route) return [];
+      let hrefs = [route.module];
+      if (route.clientActionModule) {
+        hrefs = hrefs.concat(route.clientActionModule);
+      }
+      if (route.clientLoaderModule) {
+        hrefs = hrefs.concat(route.clientLoaderModule);
+      }
+      if (includeHydrateFallback && route.hydrateFallbackModule) {
+        hrefs = hrefs.concat(route.hydrateFallbackModule);
+      }
+      if (route.imports) {
+        hrefs = hrefs.concat(route.imports);
+      }
+      return hrefs;
+    }).flat(1)
+  );
+}
+function dedupeHrefs(hrefs) {
+  return [...new Set(hrefs)];
+}
+function sortKeys(obj) {
+  let sorted = {};
+  let keys = Object.keys(obj).sort();
+  for (let key of keys) {
+    sorted[key] = obj[key];
+  }
+  return sorted;
+}
+function dedupeLinkDescriptors(descriptors, preloads) {
+  let set = /* @__PURE__ */ new Set();
+  let preloadsSet = new Set(preloads);
+  return descriptors.reduce((deduped, descriptor) => {
+    let alreadyModulePreload = preloads && !isPageLinkDescriptor(descriptor) && descriptor.as === "script" && descriptor.href && preloadsSet.has(descriptor.href);
+    if (alreadyModulePreload) {
+      return deduped;
+    }
+    let key = JSON.stringify(sortKeys(descriptor));
+    if (!set.has(key)) {
+      set.add(key);
+      deduped.push({ key, link: descriptor });
+    }
+    return deduped;
+  }, []);
+}
+var _isPreloadSupported;
+function isPreloadSupported() {
+  if (_isPreloadSupported !== void 0) {
+    return _isPreloadSupported;
+  }
+  let el = document.createElement("link");
+  _isPreloadSupported = el.relList.supports("preload");
+  el = null;
+  return _isPreloadSupported;
+}
+
+// lib/dom/ssr/fog-of-war.ts
+
+
+// lib/dom/ssr/routes.tsx
+
+
+// lib/dom/ssr/fallback.tsx
+
+function RemixRootDefaultHydrateFallback() {
+  return /* @__PURE__ */ React5.createElement(BoundaryShell, { title: "Loading...", renderScripts: true }, ENABLE_DEV_WARNINGS ? /* @__PURE__ */ React5.createElement(
+    "script",
+    {
+      dangerouslySetInnerHTML: {
+        __html: `
+              console.log(
+                "\u{1F4BF} Hey developer \u{1F44B}. You can provide a way better UX than this " +
+                "when your app is loading JS modules and/or running \`clientLoader\` " +
+                "functions. Check out https://reactrouter.com/start/framework/route-module#hydratefallback " +
+                "for more information."
+              );
+            `
+      }
+    }
+  ) : null);
+}
+
+// lib/dom/ssr/routes.tsx
+function groupRoutesByParentId(manifest) {
+  let routes = {};
+  Object.values(manifest).forEach((route) => {
+    if (route) {
+      let parentId = route.parentId || "";
+      if (!routes[parentId]) {
+        routes[parentId] = [];
+      }
+      routes[parentId].push(route);
+    }
+  });
+  return routes;
+}
+function getRouteComponents(route, routeModule, isSpaMode) {
+  let Component4 = getRouteModuleComponent(routeModule);
+  let HydrateFallback = routeModule.HydrateFallback && (!isSpaMode || route.id === "root") ? routeModule.HydrateFallback : route.id === "root" ? RemixRootDefaultHydrateFallback : void 0;
+  let ErrorBoundary = routeModule.ErrorBoundary ? routeModule.ErrorBoundary : route.id === "root" ? () => /* @__PURE__ */ React6.createElement(RemixRootDefaultErrorBoundary, { error: useRouteError() }) : void 0;
+  if (route.id === "root" && routeModule.Layout) {
+    return {
+      ...Component4 ? {
+        element: /* @__PURE__ */ React6.createElement(routeModule.Layout, null, /* @__PURE__ */ React6.createElement(Component4, null))
+      } : { Component: Component4 },
+      ...ErrorBoundary ? {
+        errorElement: /* @__PURE__ */ React6.createElement(routeModule.Layout, null, /* @__PURE__ */ React6.createElement(ErrorBoundary, null))
+      } : { ErrorBoundary },
+      ...HydrateFallback ? {
+        hydrateFallbackElement: /* @__PURE__ */ React6.createElement(routeModule.Layout, null, /* @__PURE__ */ React6.createElement(HydrateFallback, null))
+      } : { HydrateFallback }
+    };
+  }
+  return { Component: Component4, ErrorBoundary, HydrateFallback };
+}
+function createServerRoutes(manifest, routeModules, future, isSpaMode, parentId = "", routesByParentId = groupRoutesByParentId(manifest), spaModeLazyPromise = Promise.resolve({ Component: () => null })) {
+  return (routesByParentId[parentId] || []).map((route) => {
+    let routeModule = routeModules[route.id];
+    invariant2(
+      routeModule,
+      "No `routeModule` available to create server routes"
+    );
+    let dataRoute = {
+      ...getRouteComponents(route, routeModule, isSpaMode),
+      caseSensitive: route.caseSensitive,
+      id: route.id,
+      index: route.index,
+      path: route.path,
+      handle: routeModule.handle,
+      // For SPA Mode, all routes are lazy except root.  However we tell the
+      // router root is also lazy here too since we don't need a full
+      // implementation - we just need a `lazy` prop to tell the RR rendering
+      // where to stop which is always at the root route in SPA mode
+      lazy: isSpaMode ? () => spaModeLazyPromise : void 0,
+      // For partial hydration rendering, we need to indicate when the route
+      // has a loader/clientLoader, but it won't ever be called during the static
+      // render, so just give it a no-op function so we can render down to the
+      // proper fallback
+      loader: route.hasLoader || route.hasClientLoader ? () => null : void 0
+      // We don't need middleware/action/shouldRevalidate on these routes since
+      // they're for a static render
+    };
+    let children = createServerRoutes(
+      manifest,
+      routeModules,
+      future,
+      isSpaMode,
+      route.id,
+      routesByParentId,
+      spaModeLazyPromise
+    );
+    if (children.length > 0) dataRoute.children = children;
+    return dataRoute;
+  });
+}
+function createClientRoutesWithHMRRevalidationOptOut(needsRevalidation, manifest, routeModulesCache, initialState, ssr, isSpaMode) {
+  return createClientRoutes(
+    manifest,
+    routeModulesCache,
+    initialState,
+    ssr,
+    isSpaMode,
+    "",
+    groupRoutesByParentId(manifest),
+    needsRevalidation
+  );
+}
+function preventInvalidServerHandlerCall(type, route) {
+  if (type === "loader" && !route.hasLoader || type === "action" && !route.hasAction) {
+    let fn = type === "action" ? "serverAction()" : "serverLoader()";
+    let msg = `You are trying to call ${fn} on a route that does not have a server ${type} (routeId: "${route.id}")`;
+    console.error(msg);
+    throw new ErrorResponseImpl(400, "Bad Request", new Error(msg), true);
+  }
+}
+function noActionDefinedError(type, routeId) {
+  let article = type === "clientAction" ? "a" : "an";
+  let msg = `Route "${routeId}" does not have ${article} ${type}, but you are trying to submit to it. To fix this, please add ${article} \`${type}\` function to the route`;
+  console.error(msg);
+  throw new ErrorResponseImpl(405, "Method Not Allowed", new Error(msg), true);
+}
+function createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSpaMode, parentId = "", routesByParentId = groupRoutesByParentId(manifest), needsRevalidation) {
+  return (routesByParentId[parentId] || []).map((route) => {
+    let routeModule = routeModulesCache[route.id];
+    function fetchServerHandler(singleFetch) {
+      invariant2(
+        typeof singleFetch === "function",
+        "No single fetch function available for route handler"
+      );
+      return singleFetch();
+    }
+    function fetchServerLoader(singleFetch) {
+      if (!route.hasLoader) return Promise.resolve(null);
+      return fetchServerHandler(singleFetch);
+    }
+    function fetchServerAction(singleFetch) {
+      if (!route.hasAction) {
+        throw noActionDefinedError("action", route.id);
+      }
+      return fetchServerHandler(singleFetch);
+    }
+    function prefetchModule(modulePath) {
+      import(
+        /* @vite-ignore */
+        /* webpackIgnore: true */
+        modulePath
+      );
+    }
+    function prefetchRouteModuleChunks(route2) {
+      if (route2.clientActionModule) {
+        prefetchModule(route2.clientActionModule);
+      }
+      if (route2.clientLoaderModule) {
+        prefetchModule(route2.clientLoaderModule);
+      }
+    }
+    async function prefetchStylesAndCallHandler(handler) {
+      let cachedModule = routeModulesCache[route.id];
+      let linkPrefetchPromise = cachedModule ? prefetchStyleLinks(route, cachedModule) : Promise.resolve();
+      try {
+        return handler();
+      } finally {
+        await linkPrefetchPromise;
+      }
+    }
+    let dataRoute = {
+      id: route.id,
+      index: route.index,
+      path: route.path
+    };
+    if (routeModule) {
+      Object.assign(dataRoute, {
+        ...dataRoute,
+        ...getRouteComponents(route, routeModule, isSpaMode),
+        middleware: routeModule.clientMiddleware,
+        handle: routeModule.handle,
+        shouldRevalidate: getShouldRevalidateFunction(
+          dataRoute.path,
+          routeModule,
+          route,
+          ssr,
+          needsRevalidation
+        )
+      });
+      let hasInitialData = initialState && initialState.loaderData && route.id in initialState.loaderData;
+      let initialData = hasInitialData ? initialState?.loaderData?.[route.id] : void 0;
+      let hasInitialError = initialState && initialState.errors && route.id in initialState.errors;
+      let initialError = hasInitialError ? initialState?.errors?.[route.id] : void 0;
+      let isHydrationRequest = needsRevalidation == null && (routeModule.clientLoader?.hydrate === true || !route.hasLoader);
+      dataRoute.loader = async ({ request, params, context }, singleFetch) => {
+        try {
+          let result = await prefetchStylesAndCallHandler(async () => {
+            invariant2(
+              routeModule,
+              "No `routeModule` available for critical-route loader"
+            );
+            if (!routeModule.clientLoader) {
+              return fetchServerLoader(singleFetch);
+            }
+            return routeModule.clientLoader({
+              request,
+              params,
+              context,
+              async serverLoader() {
+                preventInvalidServerHandlerCall("loader", route);
+                if (isHydrationRequest) {
+                  if (hasInitialData) {
+                    return initialData;
+                  }
+                  if (hasInitialError) {
+                    throw initialError;
+                  }
+                }
+                return fetchServerLoader(singleFetch);
+              }
+            });
+          });
+          return result;
+        } finally {
+          isHydrationRequest = false;
+        }
+      };
+      dataRoute.loader.hydrate = shouldHydrateRouteLoader(
+        route.id,
+        routeModule.clientLoader,
+        route.hasLoader,
+        isSpaMode
+      );
+      dataRoute.action = ({ request, params, context }, singleFetch) => {
+        return prefetchStylesAndCallHandler(async () => {
+          invariant2(
+            routeModule,
+            "No `routeModule` available for critical-route action"
+          );
+          if (!routeModule.clientAction) {
+            if (isSpaMode) {
+              throw noActionDefinedError("clientAction", route.id);
+            }
+            return fetchServerAction(singleFetch);
+          }
+          return routeModule.clientAction({
+            request,
+            params,
+            context,
+            async serverAction() {
+              preventInvalidServerHandlerCall("action", route);
+              return fetchServerAction(singleFetch);
+            }
+          });
+        });
+      };
+    } else {
+      if (!route.hasClientLoader) {
+        dataRoute.loader = (_, singleFetch) => prefetchStylesAndCallHandler(() => {
+          return fetchServerLoader(singleFetch);
+        });
+      }
+      if (!route.hasClientAction) {
+        dataRoute.action = (_, singleFetch) => prefetchStylesAndCallHandler(() => {
+          if (isSpaMode) {
+            throw noActionDefinedError("clientAction", route.id);
+          }
+          return fetchServerAction(singleFetch);
+        });
+      }
+      let lazyRoutePromise;
+      async function getLazyRoute() {
+        if (lazyRoutePromise) {
+          return await lazyRoutePromise;
+        }
+        lazyRoutePromise = (async () => {
+          if (route.clientLoaderModule || route.clientActionModule) {
+            await new Promise((resolve) => setTimeout(resolve, 0));
+          }
+          let routeModulePromise = loadRouteModuleWithBlockingLinks(
+            route,
+            routeModulesCache
+          );
+          prefetchRouteModuleChunks(route);
+          return await routeModulePromise;
+        })();
+        return await lazyRoutePromise;
+      }
+      dataRoute.lazy = {
+        loader: route.hasClientLoader ? async () => {
+          let { clientLoader } = route.clientLoaderModule ? await import(
+            /* @vite-ignore */
+            /* webpackIgnore: true */
+            route.clientLoaderModule
+          ) : await getLazyRoute();
+          invariant2(clientLoader, "No `clientLoader` export found");
+          return (args, singleFetch) => clientLoader({
+            ...args,
+            async serverLoader() {
+              preventInvalidServerHandlerCall("loader", route);
+              return fetchServerLoader(singleFetch);
+            }
+          });
+        } : void 0,
+        action: route.hasClientAction ? async () => {
+          let clientActionPromise = route.clientActionModule ? import(
+            /* @vite-ignore */
+            /* webpackIgnore: true */
+            route.clientActionModule
+          ) : getLazyRoute();
+          prefetchRouteModuleChunks(route);
+          let { clientAction } = await clientActionPromise;
+          invariant2(clientAction, "No `clientAction` export found");
+          return (args, singleFetch) => clientAction({
+            ...args,
+            async serverAction() {
+              preventInvalidServerHandlerCall("action", route);
+              return fetchServerAction(singleFetch);
+            }
+          });
+        } : void 0,
+        middleware: route.hasClientMiddleware ? async () => {
+          let { clientMiddleware } = route.clientMiddlewareModule ? await import(
+            /* @vite-ignore */
+            /* webpackIgnore: true */
+            route.clientMiddlewareModule
+          ) : await getLazyRoute();
+          invariant2(clientMiddleware, "No `clientMiddleware` export found");
+          return clientMiddleware;
+        } : void 0,
+        shouldRevalidate: async () => {
+          let lazyRoute = await getLazyRoute();
+          return getShouldRevalidateFunction(
+            dataRoute.path,
+            lazyRoute,
+            route,
+            ssr,
+            needsRevalidation
+          );
+        },
+        handle: async () => (await getLazyRoute()).handle,
+        // No need to wrap these in layout since the root route is never
+        // loaded via route.lazy()
+        Component: async () => (await getLazyRoute()).Component,
+        ErrorBoundary: route.hasErrorBoundary ? async () => (await getLazyRoute()).ErrorBoundary : void 0
+      };
+    }
+    let children = createClientRoutes(
+      manifest,
+      routeModulesCache,
+      initialState,
+      ssr,
+      isSpaMode,
+      route.id,
+      routesByParentId,
+      needsRevalidation
+    );
+    if (children.length > 0) dataRoute.children = children;
+    return dataRoute;
+  });
+}
+function getShouldRevalidateFunction(path, route, manifestRoute, ssr, needsRevalidation) {
+  if (needsRevalidation) {
+    return wrapShouldRevalidateForHdr(
+      manifestRoute.id,
+      route.shouldRevalidate,
+      needsRevalidation
+    );
+  }
+  if (!ssr && manifestRoute.hasLoader && !manifestRoute.hasClientLoader) {
+    let myParams = path ? compilePath(path)[1].map((p) => p.paramName) : [];
+    const didParamsChange = (opts) => myParams.some((p) => opts.currentParams[p] !== opts.nextParams[p]);
+    if (route.shouldRevalidate) {
+      let fn = route.shouldRevalidate;
+      return (opts) => fn({
+        ...opts,
+        defaultShouldRevalidate: didParamsChange(opts)
+      });
+    } else {
+      return (opts) => didParamsChange(opts);
+    }
+  }
+  if (ssr && route.shouldRevalidate) {
+    let fn = route.shouldRevalidate;
+    return (opts) => fn({ ...opts, defaultShouldRevalidate: true });
+  }
+  return route.shouldRevalidate;
+}
+function wrapShouldRevalidateForHdr(routeId, routeShouldRevalidate, needsRevalidation) {
+  let handledRevalidation = false;
+  return (arg) => {
+    if (!handledRevalidation) {
+      handledRevalidation = true;
+      return needsRevalidation.has(routeId);
+    }
+    return routeShouldRevalidate ? routeShouldRevalidate(arg) : arg.defaultShouldRevalidate;
+  };
+}
+async function loadRouteModuleWithBlockingLinks(route, routeModules) {
+  let routeModulePromise = loadRouteModule(route, routeModules);
+  let prefetchRouteCssPromise = prefetchRouteCss(route);
+  let routeModule = await routeModulePromise;
+  await Promise.all([
+    prefetchRouteCssPromise,
+    prefetchStyleLinks(route, routeModule)
+  ]);
+  return {
+    Component: getRouteModuleComponent(routeModule),
+    ErrorBoundary: routeModule.ErrorBoundary,
+    clientMiddleware: routeModule.clientMiddleware,
+    clientAction: routeModule.clientAction,
+    clientLoader: routeModule.clientLoader,
+    handle: routeModule.handle,
+    links: routeModule.links,
+    meta: routeModule.meta,
+    shouldRevalidate: routeModule.shouldRevalidate
+  };
+}
+function getRouteModuleComponent(routeModule) {
+  if (routeModule.default == null) return void 0;
+  let isEmptyObject = typeof routeModule.default === "object" && Object.keys(routeModule.default).length === 0;
+  if (!isEmptyObject) {
+    return routeModule.default;
+  }
+}
+function shouldHydrateRouteLoader(routeId, clientLoader, hasLoader, isSpaMode) {
+  return isSpaMode && routeId !== "root" || clientLoader != null && (clientLoader.hydrate === true || hasLoader !== true);
+}
+
+// lib/dom/ssr/fog-of-war.ts
+var nextPaths = /* @__PURE__ */ new Set();
+var discoveredPathsMaxSize = 1e3;
+var discoveredPaths = /* @__PURE__ */ new Set();
+var URL_LIMIT = 7680;
+function isFogOfWarEnabled(routeDiscovery, ssr) {
+  return routeDiscovery.mode === "lazy" && ssr === true;
+}
+function getPartialManifest({ sri, ...manifest }, router) {
+  let routeIds = new Set(router.state.matches.map((m) => m.route.id));
+  let segments = router.state.location.pathname.split("/").filter(Boolean);
+  let paths = ["/"];
+  segments.pop();
+  while (segments.length > 0) {
+    paths.push(`/${segments.join("/")}`);
+    segments.pop();
+  }
+  paths.forEach((path) => {
+    let matches = matchRoutes(router.routes, path, router.basename);
+    if (matches) {
+      matches.forEach((m) => routeIds.add(m.route.id));
+    }
+  });
+  let initialRoutes = [...routeIds].reduce(
+    (acc, id) => Object.assign(acc, { [id]: manifest.routes[id] }),
+    {}
+  );
+  return {
+    ...manifest,
+    routes: initialRoutes,
+    sri: sri ? true : void 0
+  };
+}
+function getPatchRoutesOnNavigationFunction(manifest, routeModules, ssr, routeDiscovery, isSpaMode, basename) {
+  if (!isFogOfWarEnabled(routeDiscovery, ssr)) {
+    return void 0;
+  }
+  return async ({ path, patch, signal, fetcherKey }) => {
+    if (discoveredPaths.has(path)) {
+      return;
+    }
+    await fetchAndApplyManifestPatches(
+      [path],
+      fetcherKey ? window.location.href : path,
+      manifest,
+      routeModules,
+      ssr,
+      isSpaMode,
+      basename,
+      routeDiscovery.manifestPath,
+      patch,
+      signal
+    );
+  };
+}
+function useFogOFWarDiscovery(router, manifest, routeModules, ssr, routeDiscovery, isSpaMode) {
+  React7.useEffect(() => {
+    if (!isFogOfWarEnabled(routeDiscovery, ssr) || // @ts-expect-error - TS doesn't know about this yet
+    window.navigator?.connection?.saveData === true) {
+      return;
+    }
+    function registerElement(el) {
+      let path = el.tagName === "FORM" ? el.getAttribute("action") : el.getAttribute("href");
+      if (!path) {
+        return;
+      }
+      let pathname = el.tagName === "A" ? el.pathname : new URL(path, window.location.origin).pathname;
+      if (!discoveredPaths.has(pathname)) {
+        nextPaths.add(pathname);
+      }
+    }
+    async function fetchPatches() {
+      document.querySelectorAll("a[data-discover], form[data-discover]").forEach(registerElement);
+      let lazyPaths = Array.from(nextPaths.keys()).filter((path) => {
+        if (discoveredPaths.has(path)) {
+          nextPaths.delete(path);
+          return false;
+        }
+        return true;
+      });
+      if (lazyPaths.length === 0) {
+        return;
+      }
+      try {
+        await fetchAndApplyManifestPatches(
+          lazyPaths,
+          null,
+          manifest,
+          routeModules,
+          ssr,
+          isSpaMode,
+          router.basename,
+          routeDiscovery.manifestPath,
+          router.patchRoutes
+        );
+      } catch (e) {
+        console.error("Failed to fetch manifest patches", e);
+      }
+    }
+    let debouncedFetchPatches = debounce(fetchPatches, 100);
+    fetchPatches();
+    let observer = new MutationObserver(() => debouncedFetchPatches());
+    observer.observe(document.documentElement, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ["data-discover", "href", "action"]
+    });
+    return () => observer.disconnect();
+  }, [ssr, isSpaMode, manifest, routeModules, router, routeDiscovery]);
+}
+function getManifestPath(_manifestPath, basename) {
+  let manifestPath = _manifestPath || "/__manifest";
+  if (basename == null) {
+    return manifestPath;
+  }
+  return `${basename}${manifestPath}`.replace(/\/+/g, "/");
+}
+var MANIFEST_VERSION_STORAGE_KEY = "react-router-manifest-version";
+async function fetchAndApplyManifestPatches(paths, errorReloadPath, manifest, routeModules, ssr, isSpaMode, basename, manifestPath, patchRoutes, signal) {
+  const searchParams = new URLSearchParams();
+  searchParams.set("paths", paths.sort().join(","));
+  searchParams.set("version", manifest.version);
+  let url = new URL(
+    getManifestPath(manifestPath, basename),
+    window.location.origin
+  );
+  url.search = searchParams.toString();
+  if (url.toString().length > URL_LIMIT) {
+    nextPaths.clear();
+    return;
+  }
+  let serverPatches;
+  try {
+    let res = await fetch(url, { signal });
+    if (!res.ok) {
+      throw new Error(`${res.status} ${res.statusText}`);
+    } else if (res.status === 204 && res.headers.has("X-Remix-Reload-Document")) {
+      if (!errorReloadPath) {
+        console.warn(
+          "Detected a manifest version mismatch during eager route discovery. The next navigation/fetch to an undiscovered route will result in a new document navigation to sync up with the latest manifest."
+        );
+        return;
+      }
+      try {
+        if (sessionStorage.getItem(MANIFEST_VERSION_STORAGE_KEY) === manifest.version) {
+          console.error(
+            "Unable to discover routes due to manifest version mismatch."
+          );
+          return;
+        }
+        sessionStorage.setItem(MANIFEST_VERSION_STORAGE_KEY, manifest.version);
+      } catch {
+      }
+      window.location.href = errorReloadPath;
+      console.warn("Detected manifest version mismatch, reloading...");
+      await new Promise(() => {
+      });
+    } else if (res.status >= 400) {
+      throw new Error(await res.text());
+    }
+    try {
+      sessionStorage.removeItem(MANIFEST_VERSION_STORAGE_KEY);
+    } catch {
+    }
+    serverPatches = await res.json();
+  } catch (e) {
+    if (signal?.aborted) return;
+    throw e;
+  }
+  let knownRoutes = new Set(Object.keys(manifest.routes));
+  let patches = Object.values(serverPatches).reduce((acc, route) => {
+    if (route && !knownRoutes.has(route.id)) {
+      acc[route.id] = route;
+    }
+    return acc;
+  }, {});
+  Object.assign(manifest.routes, patches);
+  paths.forEach((p) => addToFifoQueue(p, discoveredPaths));
+  let parentIds = /* @__PURE__ */ new Set();
+  Object.values(patches).forEach((patch) => {
+    if (patch && (!patch.parentId || !patches[patch.parentId])) {
+      parentIds.add(patch.parentId);
+    }
+  });
+  parentIds.forEach(
+    (parentId) => patchRoutes(
+      parentId || null,
+      createClientRoutes(patches, routeModules, null, ssr, isSpaMode, parentId)
+    )
+  );
+}
+function addToFifoQueue(path, queue) {
+  if (queue.size >= discoveredPathsMaxSize) {
+    let first = queue.values().next().value;
+    queue.delete(first);
+  }
+  queue.add(path);
+}
+function debounce(callback, wait) {
+  let timeoutId;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => callback(...args), wait);
+  };
+}
+
+// lib/dom/ssr/components.tsx
+function useDataRouterContext2() {
+  let context = react.useContext(DataRouterContext);
+  invariant2(
+    context,
+    "You must render this element inside a <DataRouterContext.Provider> element"
+  );
+  return context;
+}
+function useDataRouterStateContext() {
+  let context = react.useContext(DataRouterStateContext);
+  invariant2(
+    context,
+    "You must render this element inside a <DataRouterStateContext.Provider> element"
+  );
+  return context;
+}
+var FrameworkContext = react.createContext(void 0);
+FrameworkContext.displayName = "FrameworkContext";
+function useFrameworkContext() {
+  let context = react.useContext(FrameworkContext);
+  invariant2(
+    context,
+    "You must render this element inside a <HydratedRouter> element"
+  );
+  return context;
+}
+function usePrefetchBehavior(prefetch, theirElementProps) {
+  let frameworkContext = react.useContext(FrameworkContext);
+  let [maybePrefetch, setMaybePrefetch] = react.useState(false);
+  let [shouldPrefetch, setShouldPrefetch] = react.useState(false);
+  let { onFocus, onBlur, onMouseEnter, onMouseLeave, onTouchStart } = theirElementProps;
+  let ref = react.useRef(null);
+  react.useEffect(() => {
+    if (prefetch === "render") {
+      setShouldPrefetch(true);
+    }
+    if (prefetch === "viewport") {
+      let callback = (entries) => {
+        entries.forEach((entry) => {
+          setShouldPrefetch(entry.isIntersecting);
+        });
+      };
+      let observer = new IntersectionObserver(callback, { threshold: 0.5 });
+      if (ref.current) observer.observe(ref.current);
+      return () => {
+        observer.disconnect();
+      };
+    }
+  }, [prefetch]);
+  react.useEffect(() => {
+    if (maybePrefetch) {
+      let id = setTimeout(() => {
+        setShouldPrefetch(true);
+      }, 100);
+      return () => {
+        clearTimeout(id);
+      };
+    }
+  }, [maybePrefetch]);
+  let setIntent = () => {
+    setMaybePrefetch(true);
+  };
+  let cancelIntent = () => {
+    setMaybePrefetch(false);
+    setShouldPrefetch(false);
+  };
+  if (!frameworkContext) {
+    return [false, ref, {}];
+  }
+  if (prefetch !== "intent") {
+    return [shouldPrefetch, ref, {}];
+  }
+  return [
+    shouldPrefetch,
+    ref,
+    {
+      onFocus: composeEventHandlers(onFocus, setIntent),
+      onBlur: composeEventHandlers(onBlur, cancelIntent),
+      onMouseEnter: composeEventHandlers(onMouseEnter, setIntent),
+      onMouseLeave: composeEventHandlers(onMouseLeave, cancelIntent),
+      onTouchStart: composeEventHandlers(onTouchStart, setIntent)
+    }
+  ];
+}
+function composeEventHandlers(theirHandler, ourHandler) {
+  return (event) => {
+    theirHandler && theirHandler(event);
+    if (!event.defaultPrevented) {
+      ourHandler(event);
+    }
+  };
+}
+function getActiveMatches(matches, errors, isSpaMode) {
+  if (isSpaMode && !isHydrated) {
+    return [matches[0]];
+  }
+  if (errors) {
+    let errorIdx = matches.findIndex((m) => errors[m.route.id] !== void 0);
+    return matches.slice(0, errorIdx + 1);
+  }
+  return matches;
+}
+var CRITICAL_CSS_DATA_ATTRIBUTE = "data-react-router-critical-css";
+function Links({ nonce }) {
+  let { isSpaMode, manifest, routeModules, criticalCss } = useFrameworkContext();
+  let { errors, matches: routerMatches } = useDataRouterStateContext();
+  let matches = getActiveMatches(routerMatches, errors, isSpaMode);
+  let keyedLinks = React8.useMemo(
+    () => getKeyedLinksForMatches(matches, routeModules, manifest),
+    [matches, routeModules, manifest]
+  );
+  return /* @__PURE__ */ React8.createElement(React8.Fragment, null, typeof criticalCss === "string" ? /* @__PURE__ */ React8.createElement(
+    "style",
+    {
+      ...{ [CRITICAL_CSS_DATA_ATTRIBUTE]: "" },
+      dangerouslySetInnerHTML: { __html: criticalCss }
+    }
+  ) : null, typeof criticalCss === "object" ? /* @__PURE__ */ React8.createElement(
+    "link",
+    {
+      ...{ [CRITICAL_CSS_DATA_ATTRIBUTE]: "" },
+      rel: "stylesheet",
+      href: criticalCss.href,
+      nonce
+    }
+  ) : null, keyedLinks.map(
+    ({ key, link }) => isPageLinkDescriptor(link) ? /* @__PURE__ */ React8.createElement(PrefetchPageLinks, { key, nonce, ...link }) : /* @__PURE__ */ React8.createElement("link", { key, nonce, ...link })
+  ));
+}
+function PrefetchPageLinks({ page, ...linkProps }) {
+  let { router } = useDataRouterContext2();
+  let matches = react.useMemo(
+    () => matchRoutes(router.routes, page, router.basename),
+    [router.routes, page, router.basename]
+  );
+  if (!matches) {
+    return null;
+  }
+  return /* @__PURE__ */ react.createElement(PrefetchPageLinksImpl, { page, matches, ...linkProps });
+}
+function useKeyedPrefetchLinks(matches) {
+  let { manifest, routeModules } = useFrameworkContext();
+  let [keyedPrefetchLinks, setKeyedPrefetchLinks] = react.useState([]);
+  react.useEffect(() => {
+    let interrupted = false;
+    void getKeyedPrefetchLinks(matches, manifest, routeModules).then(
+      (links) => {
+        if (!interrupted) {
+          setKeyedPrefetchLinks(links);
+        }
+      }
+    );
+    return () => {
+      interrupted = true;
+    };
+  }, [matches, manifest, routeModules]);
+  return keyedPrefetchLinks;
+}
+function PrefetchPageLinksImpl({
+  page,
+  matches: nextMatches,
+  ...linkProps
+}) {
+  let location = useLocation();
+  let { manifest, routeModules } = useFrameworkContext();
+  let { basename } = useDataRouterContext2();
+  let { loaderData, matches } = useDataRouterStateContext();
+  let newMatchesForData = react.useMemo(
+    () => getNewMatchesForLinks(
+      page,
+      nextMatches,
+      matches,
+      manifest,
+      location,
+      "data"
+    ),
+    [page, nextMatches, matches, manifest, location]
+  );
+  let newMatchesForAssets = react.useMemo(
+    () => getNewMatchesForLinks(
+      page,
+      nextMatches,
+      matches,
+      manifest,
+      location,
+      "assets"
+    ),
+    [page, nextMatches, matches, manifest, location]
+  );
+  let dataHrefs = react.useMemo(() => {
+    if (page === location.pathname + location.search + location.hash) {
+      return [];
+    }
+    let routesParams = /* @__PURE__ */ new Set();
+    let foundOptOutRoute = false;
+    nextMatches.forEach((m) => {
+      let manifestRoute = manifest.routes[m.route.id];
+      if (!manifestRoute || !manifestRoute.hasLoader) {
+        return;
+      }
+      if (!newMatchesForData.some((m2) => m2.route.id === m.route.id) && m.route.id in loaderData && routeModules[m.route.id]?.shouldRevalidate) {
+        foundOptOutRoute = true;
+      } else if (manifestRoute.hasClientLoader) {
+        foundOptOutRoute = true;
+      } else {
+        routesParams.add(m.route.id);
+      }
+    });
+    if (routesParams.size === 0) {
+      return [];
+    }
+    let url = singleFetchUrl(page, basename, "data");
+    if (foundOptOutRoute && routesParams.size > 0) {
+      url.searchParams.set(
+        "_routes",
+        nextMatches.filter((m) => routesParams.has(m.route.id)).map((m) => m.route.id).join(",")
+      );
+    }
+    return [url.pathname + url.search];
+  }, [
+    basename,
+    loaderData,
+    location,
+    manifest,
+    newMatchesForData,
+    nextMatches,
+    page,
+    routeModules
+  ]);
+  let moduleHrefs = react.useMemo(
+    () => getModuleLinkHrefs(newMatchesForAssets, manifest),
+    [newMatchesForAssets, manifest]
+  );
+  let keyedPrefetchLinks = useKeyedPrefetchLinks(newMatchesForAssets);
+  return /* @__PURE__ */ react.createElement(react.Fragment, null, dataHrefs.map((href) => /* @__PURE__ */ react.createElement("link", { key: href, rel: "prefetch", as: "fetch", href, ...linkProps })), moduleHrefs.map((href) => /* @__PURE__ */ react.createElement("link", { key: href, rel: "modulepreload", href, ...linkProps })), keyedPrefetchLinks.map(({ key, link }) => (
+    // these don't spread `linkProps` because they are full link descriptors
+    // already with their own props
+    /* @__PURE__ */ react.createElement("link", { key, nonce: linkProps.nonce, ...link })
+  )));
+}
+function Meta() {
+  let { isSpaMode, routeModules } = useFrameworkContext();
+  let {
+    errors,
+    matches: routerMatches,
+    loaderData
+  } = useDataRouterStateContext();
+  let location = useLocation();
+  let _matches = getActiveMatches(routerMatches, errors, isSpaMode);
+  let error = null;
+  if (errors) {
+    error = errors[_matches[_matches.length - 1].route.id];
+  }
+  let meta = [];
+  let leafMeta = null;
+  let matches = [];
+  for (let i = 0; i < _matches.length; i++) {
+    let _match = _matches[i];
+    let routeId = _match.route.id;
+    let data2 = loaderData[routeId];
+    let params = _match.params;
+    let routeModule = routeModules[routeId];
+    let routeMeta = [];
+    let match = {
+      id: routeId,
+      data: data2,
+      loaderData: data2,
+      meta: [],
+      params: _match.params,
+      pathname: _match.pathname,
+      handle: _match.route.handle,
+      error
+    };
+    matches[i] = match;
+    if (routeModule?.meta) {
+      routeMeta = typeof routeModule.meta === "function" ? routeModule.meta({
+        data: data2,
+        loaderData: data2,
+        params,
+        location,
+        matches,
+        error
+      }) : Array.isArray(routeModule.meta) ? [...routeModule.meta] : routeModule.meta;
+    } else if (leafMeta) {
+      routeMeta = [...leafMeta];
+    }
+    routeMeta = routeMeta || [];
+    if (!Array.isArray(routeMeta)) {
+      throw new Error(
+        "The route at " + _match.route.path + " returns an invalid value. All route meta functions must return an array of meta objects.\n\nTo reference the meta function API, see https://remix.run/route/meta"
+      );
+    }
+    match.meta = routeMeta;
+    matches[i] = match;
+    meta = [...routeMeta];
+    leafMeta = meta;
+  }
+  return /* @__PURE__ */ React8.createElement(React8.Fragment, null, meta.flat().map((metaProps) => {
+    if (!metaProps) {
+      return null;
+    }
+    if ("tagName" in metaProps) {
+      let { tagName, ...rest } = metaProps;
+      if (!isValidMetaTag(tagName)) {
+        console.warn(
+          `A meta object uses an invalid tagName: ${tagName}. Expected either 'link' or 'meta'`
+        );
+        return null;
+      }
+      let Comp = tagName;
+      return /* @__PURE__ */ React8.createElement(Comp, { key: JSON.stringify(rest), ...rest });
+    }
+    if ("title" in metaProps) {
+      return /* @__PURE__ */ React8.createElement("title", { key: "title" }, String(metaProps.title));
+    }
+    if ("charset" in metaProps) {
+      metaProps.charSet ?? (metaProps.charSet = metaProps.charset);
+      delete metaProps.charset;
+    }
+    if ("charSet" in metaProps && metaProps.charSet != null) {
+      return typeof metaProps.charSet === "string" ? /* @__PURE__ */ React8.createElement("meta", { key: "charSet", charSet: metaProps.charSet }) : null;
+    }
+    if ("script:ld+json" in metaProps) {
+      try {
+        let json = JSON.stringify(metaProps["script:ld+json"]);
+        return /* @__PURE__ */ React8.createElement(
+          "script",
+          {
+            key: `script:ld+json:${json}`,
+            type: "application/ld+json",
+            dangerouslySetInnerHTML: { __html: escapeHtml(json) }
+          }
+        );
+      } catch (err) {
+        return null;
+      }
+    }
+    return /* @__PURE__ */ React8.createElement("meta", { key: JSON.stringify(metaProps), ...metaProps });
+  }));
+}
+function isValidMetaTag(tagName) {
+  return typeof tagName === "string" && /^(meta|link)$/.test(tagName);
+}
+var isHydrated = false;
+function setIsHydrated() {
+  isHydrated = true;
+}
+function Scripts(scriptProps) {
+  let {
+    manifest,
+    serverHandoffString,
+    isSpaMode,
+    renderMeta,
+    routeDiscovery,
+    ssr
+  } = useFrameworkContext();
+  let { router, static: isStatic, staticContext } = useDataRouterContext2();
+  let { matches: routerMatches } = useDataRouterStateContext();
+  let isRSCRouterContext = useIsRSCRouterContext();
+  let enableFogOfWar = isFogOfWarEnabled(routeDiscovery, ssr);
+  if (renderMeta) {
+    renderMeta.didRenderScripts = true;
+  }
+  let matches = getActiveMatches(routerMatches, null, isSpaMode);
+  react.useEffect(() => {
+    setIsHydrated();
+  }, []);
+  let initialScripts = react.useMemo(() => {
+    if (isRSCRouterContext) {
+      return null;
+    }
+    let streamScript = "window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());";
+    let contextScript = staticContext ? `window.__reactRouterContext = ${serverHandoffString};${streamScript}` : " ";
+    let routeModulesScript = !isStatic ? " " : `${manifest.hmr?.runtime ? `import ${JSON.stringify(manifest.hmr.runtime)};` : ""}${!enableFogOfWar ? `import ${JSON.stringify(manifest.url)}` : ""};
+${matches.map((match, routeIndex) => {
+      let routeVarName = `route${routeIndex}`;
+      let manifestEntry = manifest.routes[match.route.id];
+      invariant2(manifestEntry, `Route ${match.route.id} not found in manifest`);
+      let {
+        clientActionModule,
+        clientLoaderModule,
+        clientMiddlewareModule,
+        hydrateFallbackModule,
+        module
+      } = manifestEntry;
+      let chunks = [
+        ...clientActionModule ? [
+          {
+            module: clientActionModule,
+            varName: `${routeVarName}_clientAction`
+          }
+        ] : [],
+        ...clientLoaderModule ? [
+          {
+            module: clientLoaderModule,
+            varName: `${routeVarName}_clientLoader`
+          }
+        ] : [],
+        ...clientMiddlewareModule ? [
+          {
+            module: clientMiddlewareModule,
+            varName: `${routeVarName}_clientMiddleware`
+          }
+        ] : [],
+        ...hydrateFallbackModule ? [
+          {
+            module: hydrateFallbackModule,
+            varName: `${routeVarName}_HydrateFallback`
+          }
+        ] : [],
+        { module, varName: `${routeVarName}_main` }
+      ];
+      if (chunks.length === 1) {
+        return `import * as ${routeVarName} from ${JSON.stringify(module)};`;
+      }
+      let chunkImportsSnippet = chunks.map((chunk) => `import * as ${chunk.varName} from "${chunk.module}";`).join("\n");
+      let mergedChunksSnippet = `const ${routeVarName} = {${chunks.map((chunk) => `...${chunk.varName}`).join(",")}};`;
+      return [chunkImportsSnippet, mergedChunksSnippet].join("\n");
+    }).join("\n")}
+  ${enableFogOfWar ? (
+      // Inline a minimal manifest with the SSR matches
+      `window.__reactRouterManifest = ${JSON.stringify(
+        getPartialManifest(manifest, router),
+        null,
+        2
+      )};`
+    ) : ""}
+  window.__reactRouterRouteModules = {${matches.map((match, index) => `${JSON.stringify(match.route.id)}:route${index}`).join(",")}};
+
+import(${JSON.stringify(manifest.entry.module)});`;
+    return /* @__PURE__ */ react.createElement(react.Fragment, null, /* @__PURE__ */ react.createElement(
+      "script",
+      {
+        ...scriptProps,
+        suppressHydrationWarning: true,
+        dangerouslySetInnerHTML: { __html: contextScript },
+        type: void 0
+      }
+    ), /* @__PURE__ */ react.createElement(
+      "script",
+      {
+        ...scriptProps,
+        suppressHydrationWarning: true,
+        dangerouslySetInnerHTML: { __html: routeModulesScript },
+        type: "module",
+        async: true
+      }
+    ));
+  }, []);
+  let preloads = isHydrated || isRSCRouterContext ? [] : dedupe(
+    manifest.entry.imports.concat(
+      getModuleLinkHrefs(matches, manifest, {
+        includeHydrateFallback: true
+      })
+    )
+  );
+  let sri = typeof manifest.sri === "object" ? manifest.sri : {};
+  warnOnce(
+    !isRSCRouterContext,
+    "The <Scripts /> element is a no-op when using RSC and can be safely removed."
+  );
+  return isHydrated || isRSCRouterContext ? null : /* @__PURE__ */ react.createElement(react.Fragment, null, typeof manifest.sri === "object" ? /* @__PURE__ */ react.createElement(
+    "script",
+    {
+      "rr-importmap": "",
+      type: "importmap",
+      suppressHydrationWarning: true,
+      dangerouslySetInnerHTML: {
+        __html: JSON.stringify({
+          integrity: sri
+        })
+      }
+    }
+  ) : null, !enableFogOfWar ? /* @__PURE__ */ react.createElement(
+    "link",
+    {
+      rel: "modulepreload",
+      href: manifest.url,
+      crossOrigin: scriptProps.crossOrigin,
+      integrity: sri[manifest.url],
+      suppressHydrationWarning: true
+    }
+  ) : null, /* @__PURE__ */ react.createElement(
+    "link",
+    {
+      rel: "modulepreload",
+      href: manifest.entry.module,
+      crossOrigin: scriptProps.crossOrigin,
+      integrity: sri[manifest.entry.module],
+      suppressHydrationWarning: true
+    }
+  ), preloads.map((path) => /* @__PURE__ */ react.createElement(
+    "link",
+    {
+      key: path,
+      rel: "modulepreload",
+      href: path,
+      crossOrigin: scriptProps.crossOrigin,
+      integrity: sri[path],
+      suppressHydrationWarning: true
+    }
+  )), initialScripts);
+}
+function dedupe(array) {
+  return [...new Set(array)];
+}
+function mergeRefs(...refs) {
+  return (value) => {
+    refs.forEach((ref) => {
+      if (typeof ref === "function") {
+        ref(value);
+      } else if (ref != null) {
+        ref.current = value;
+      }
+    });
+  };
+}
+
+// lib/dom/ssr/errorBoundaries.tsx
+var RemixErrorBoundary = class extends react.Component {
+  constructor(props) {
+    super(props);
+    this.state = { error: props.error || null, location: props.location };
+  }
+  static getDerivedStateFromError(error) {
+    return { error };
+  }
+  static getDerivedStateFromProps(props, state) {
+    if (state.location !== props.location) {
+      return { error: props.error || null, location: props.location };
+    }
+    return { error: props.error || state.error, location: state.location };
+  }
+  render() {
+    if (this.state.error) {
+      return /* @__PURE__ */ react.createElement(
+        RemixRootDefaultErrorBoundary,
+        {
+          error: this.state.error,
+          isOutsideRemixApp: true
+        }
+      );
+    } else {
+      return this.props.children;
+    }
+  }
+};
+function RemixRootDefaultErrorBoundary({
+  error,
+  isOutsideRemixApp
+}) {
+  console.error(error);
+  let heyDeveloper = /* @__PURE__ */ react.createElement(
+    "script",
+    {
+      dangerouslySetInnerHTML: {
+        __html: `
+        console.log(
+          "\u{1F4BF} Hey developer \u{1F44B}. You can provide a way better UX than this when your app throws errors. Check out https://reactrouter.com/how-to/error-boundary for more information."
+        );
+      `
+      }
+    }
+  );
+  if (isRouteErrorResponse(error)) {
+    return /* @__PURE__ */ react.createElement(BoundaryShell, { title: "Unhandled Thrown Response!" }, /* @__PURE__ */ react.createElement("h1", { style: { fontSize: "24px" } }, error.status, " ", error.statusText), ENABLE_DEV_WARNINGS ? heyDeveloper : null);
+  }
+  let errorInstance;
+  if (error instanceof Error) {
+    errorInstance = error;
+  } else {
+    let errorString = error == null ? "Unknown Error" : typeof error === "object" && "toString" in error ? error.toString() : JSON.stringify(error);
+    errorInstance = new Error(errorString);
+  }
+  return /* @__PURE__ */ react.createElement(
+    BoundaryShell,
+    {
+      title: "Application Error!",
+      isOutsideRemixApp
+    },
+    /* @__PURE__ */ react.createElement("h1", { style: { fontSize: "24px" } }, "Application Error"),
+    /* @__PURE__ */ react.createElement(
+      "pre",
+      {
+        style: {
+          padding: "2rem",
+          background: "hsla(10, 50%, 50%, 0.1)",
+          color: "red",
+          overflow: "auto"
+        }
+      },
+      errorInstance.stack
+    ),
+    heyDeveloper
+  );
+}
+function BoundaryShell({
+  title,
+  renderScripts,
+  isOutsideRemixApp,
+  children
+}) {
+  let { routeModules } = useFrameworkContext();
+  if (routeModules.root?.Layout && !isOutsideRemixApp) {
+    return children;
+  }
+  return /* @__PURE__ */ react.createElement("html", { lang: "en" }, /* @__PURE__ */ react.createElement("head", null, /* @__PURE__ */ react.createElement("meta", { charSet: "utf-8" }), /* @__PURE__ */ react.createElement(
+    "meta",
+    {
+      name: "viewport",
+      content: "width=device-width,initial-scale=1,viewport-fit=cover"
+    }
+  ), /* @__PURE__ */ react.createElement("title", null, title)), /* @__PURE__ */ react.createElement("body", null, /* @__PURE__ */ react.createElement("main", { style: { fontFamily: "system-ui, sans-serif", padding: "2rem" } }, children, renderScripts ? /* @__PURE__ */ react.createElement(Scripts, null) : null)));
+}
+
+// lib/dom/lib.tsx
+
+var chunk_OIYGIGL5_isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+try {
+  if (chunk_OIYGIGL5_isBrowser) {
+    window.__reactRouterVersion = // @ts-expect-error
+    "7.9.4";
+  }
+} catch (e) {
+}
+function createBrowserRouter(routes, opts) {
+  return createRouter({
+    basename: opts?.basename,
+    getContext: opts?.getContext,
+    future: opts?.future,
+    history: createBrowserHistory({ window: opts?.window }),
+    hydrationData: opts?.hydrationData || parseHydrationData(),
+    routes,
+    mapRouteProperties,
+    hydrationRouteProperties,
+    dataStrategy: opts?.dataStrategy,
+    patchRoutesOnNavigation: opts?.patchRoutesOnNavigation,
+    window: opts?.window
+  }).initialize();
+}
+function createHashRouter(routes, opts) {
+  return createRouter({
+    basename: opts?.basename,
+    getContext: opts?.getContext,
+    future: opts?.future,
+    history: createHashHistory({ window: opts?.window }),
+    hydrationData: opts?.hydrationData || parseHydrationData(),
+    routes,
+    mapRouteProperties,
+    hydrationRouteProperties,
+    dataStrategy: opts?.dataStrategy,
+    patchRoutesOnNavigation: opts?.patchRoutesOnNavigation,
+    window: opts?.window
+  }).initialize();
+}
+function parseHydrationData() {
+  let state = window?.__staticRouterHydrationData;
+  if (state && state.errors) {
+    state = {
+      ...state,
+      errors: deserializeErrors(state.errors)
+    };
+  }
+  return state;
+}
+function deserializeErrors(errors) {
+  if (!errors) return null;
+  let entries = Object.entries(errors);
+  let serialized = {};
+  for (let [key, val] of entries) {
+    if (val && val.__type === "RouteErrorResponse") {
+      serialized[key] = new ErrorResponseImpl(
+        val.status,
+        val.statusText,
+        val.data,
+        val.internal === true
+      );
+    } else if (val && val.__type === "Error") {
+      if (val.__subType) {
+        let ErrorConstructor = window[val.__subType];
+        if (typeof ErrorConstructor === "function") {
+          try {
+            let error = new ErrorConstructor(val.message);
+            error.stack = "";
+            serialized[key] = error;
+          } catch (e) {
+          }
+        }
+      }
+      if (serialized[key] == null) {
+        let error = new Error(val.message);
+        error.stack = "";
+        serialized[key] = error;
+      }
+    } else {
+      serialized[key] = val;
+    }
+  }
+  return serialized;
+}
+function BrowserRouter({
+  basename,
+  children,
+  window: window2
+}) {
+  let historyRef = react.useRef();
+  if (historyRef.current == null) {
+    historyRef.current = createBrowserHistory({ window: window2, v5Compat: true });
+  }
+  let history = historyRef.current;
+  let [state, setStateImpl] = react.useState({
+    action: history.action,
+    location: history.location
+  });
+  let setState = react.useCallback(
+    (newState) => {
+      react.startTransition(() => setStateImpl(newState));
+    },
+    [setStateImpl]
+  );
+  react.useLayoutEffect(() => history.listen(setState), [history, setState]);
+  return /* @__PURE__ */ react.createElement(
+    Router,
+    {
+      basename,
+      children,
+      location: state.location,
+      navigationType: state.action,
+      navigator: history
+    }
+  );
+}
+function HashRouter({ basename, children, window: window2 }) {
+  let historyRef = React10.useRef();
+  if (historyRef.current == null) {
+    historyRef.current = createHashHistory({ window: window2, v5Compat: true });
+  }
+  let history = historyRef.current;
+  let [state, setStateImpl] = React10.useState({
+    action: history.action,
+    location: history.location
+  });
+  let setState = React10.useCallback(
+    (newState) => {
+      React10.startTransition(() => setStateImpl(newState));
+    },
+    [setStateImpl]
+  );
+  React10.useLayoutEffect(() => history.listen(setState), [history, setState]);
+  return /* @__PURE__ */ React10.createElement(
+    Router,
+    {
+      basename,
+      children,
+      location: state.location,
+      navigationType: state.action,
+      navigator: history
+    }
+  );
+}
+function HistoryRouter({
+  basename,
+  children,
+  history
+}) {
+  let [state, setStateImpl] = react.useState({
+    action: history.action,
+    location: history.location
+  });
+  let setState = react.useCallback(
+    (newState) => {
+      react.startTransition(() => setStateImpl(newState));
+    },
+    [setStateImpl]
+  );
+  react.useLayoutEffect(() => history.listen(setState), [history, setState]);
+  return /* @__PURE__ */ react.createElement(
+    Router,
+    {
+      basename,
+      children,
+      location: state.location,
+      navigationType: state.action,
+      navigator: history
+    }
+  );
+}
+HistoryRouter.displayName = "unstable_HistoryRouter";
+var ABSOLUTE_URL_REGEX2 = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+var Link = react.forwardRef(
+  function LinkWithRef({
+    onClick,
+    discover = "render",
+    prefetch = "none",
+    relative,
+    reloadDocument,
+    replace: replace2,
+    state,
+    target,
+    to,
+    preventScrollReset,
+    viewTransition,
+    ...rest
+  }, forwardedRef) {
+    let { basename } = react.useContext(NavigationContext);
+    let isAbsolute = typeof to === "string" && ABSOLUTE_URL_REGEX2.test(to);
+    let absoluteHref;
+    let isExternal = false;
+    if (typeof to === "string" && isAbsolute) {
+      absoluteHref = to;
+      if (chunk_OIYGIGL5_isBrowser) {
+        try {
+          let currentUrl = new URL(window.location.href);
+          let targetUrl = to.startsWith("//") ? new URL(currentUrl.protocol + to) : new URL(to);
+          let path = stripBasename(targetUrl.pathname, basename);
+          if (targetUrl.origin === currentUrl.origin && path != null) {
+            to = path + targetUrl.search + targetUrl.hash;
+          } else {
+            isExternal = true;
+          }
+        } catch (e) {
+          warning(
+            false,
+            `<Link to="${to}"> contains an invalid URL which will probably break when clicked - please update to a valid URL path.`
+          );
+        }
+      }
+    }
+    let href = useHref(to, { relative });
+    let [shouldPrefetch, prefetchRef, prefetchHandlers] = usePrefetchBehavior(
+      prefetch,
+      rest
+    );
+    let internalOnClick = useLinkClickHandler(to, {
+      replace: replace2,
+      state,
+      target,
+      preventScrollReset,
+      relative,
+      viewTransition
+    });
+    function handleClick(event) {
+      if (onClick) onClick(event);
+      if (!event.defaultPrevented) {
+        internalOnClick(event);
+      }
+    }
+    let link = (
+      // eslint-disable-next-line jsx-a11y/anchor-has-content
+      /* @__PURE__ */ react.createElement(
+        "a",
+        {
+          ...rest,
+          ...prefetchHandlers,
+          href: absoluteHref || href,
+          onClick: isExternal || reloadDocument ? onClick : handleClick,
+          ref: mergeRefs(forwardedRef, prefetchRef),
+          target,
+          "data-discover": !isAbsolute && discover === "render" ? "true" : void 0
+        }
+      )
+    );
+    return shouldPrefetch && !isAbsolute ? /* @__PURE__ */ react.createElement(react.Fragment, null, link, /* @__PURE__ */ react.createElement(PrefetchPageLinks, { page: href })) : link;
+  }
+);
+Link.displayName = "Link";
+var NavLink = react.forwardRef(
+  function NavLinkWithRef({
+    "aria-current": ariaCurrentProp = "page",
+    caseSensitive = false,
+    className: classNameProp = "",
+    end = false,
+    style: styleProp,
+    to,
+    viewTransition,
+    children,
+    ...rest
+  }, ref) {
+    let path = useResolvedPath(to, { relative: rest.relative });
+    let location = useLocation();
+    let routerState = react.useContext(DataRouterStateContext);
+    let { navigator, basename } = react.useContext(NavigationContext);
+    let isTransitioning = routerState != null && // Conditional usage is OK here because the usage of a data router is static
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    useViewTransitionState(path) && viewTransition === true;
+    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
+    let locationPathname = location.pathname;
+    let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
+    if (!caseSensitive) {
+      locationPathname = locationPathname.toLowerCase();
+      nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
+      toPathname = toPathname.toLowerCase();
+    }
+    if (nextLocationPathname && basename) {
+      nextLocationPathname = stripBasename(nextLocationPathname, basename) || nextLocationPathname;
+    }
+    const endSlashPosition = toPathname !== "/" && toPathname.endsWith("/") ? toPathname.length - 1 : toPathname.length;
+    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(endSlashPosition) === "/";
+    let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
+    let renderProps = {
+      isActive,
+      isPending,
+      isTransitioning
+    };
+    let ariaCurrent = isActive ? ariaCurrentProp : void 0;
+    let className;
+    if (typeof classNameProp === "function") {
+      className = classNameProp(renderProps);
+    } else {
+      className = [
+        classNameProp,
+        isActive ? "active" : null,
+        isPending ? "pending" : null,
+        isTransitioning ? "transitioning" : null
+      ].filter(Boolean).join(" ");
+    }
+    let style = typeof styleProp === "function" ? styleProp(renderProps) : styleProp;
+    return /* @__PURE__ */ react.createElement(
+      Link,
+      {
+        ...rest,
+        "aria-current": ariaCurrent,
+        className,
+        ref,
+        style,
+        to,
+        viewTransition
+      },
+      typeof children === "function" ? children(renderProps) : children
+    );
+  }
+);
+NavLink.displayName = "NavLink";
+var Form = react.forwardRef(
+  ({
+    discover = "render",
+    fetcherKey,
+    navigate,
+    reloadDocument,
+    replace: replace2,
+    state,
+    method = defaultMethod,
+    action,
+    onSubmit,
+    relative,
+    preventScrollReset,
+    viewTransition,
+    ...props
+  }, forwardedRef) => {
+    let submit = useSubmit();
+    let formAction = useFormAction(action, { relative });
+    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
+    let isAbsolute = typeof action === "string" && ABSOLUTE_URL_REGEX2.test(action);
+    let submitHandler = (event) => {
+      onSubmit && onSubmit(event);
+      if (event.defaultPrevented) return;
+      event.preventDefault();
+      let submitter = event.nativeEvent.submitter;
+      let submitMethod = submitter?.getAttribute("formmethod") || method;
+      submit(submitter || event.currentTarget, {
+        fetcherKey,
+        method: submitMethod,
+        navigate,
+        replace: replace2,
+        state,
+        relative,
+        preventScrollReset,
+        viewTransition
+      });
+    };
+    return /* @__PURE__ */ react.createElement(
+      "form",
+      {
+        ref: forwardedRef,
+        method: formMethod,
+        action: formAction,
+        onSubmit: reloadDocument ? onSubmit : submitHandler,
+        ...props,
+        "data-discover": !isAbsolute && discover === "render" ? "true" : void 0
+      }
+    );
+  }
+);
+Form.displayName = "Form";
+function ScrollRestoration({
+  getKey,
+  storageKey,
+  ...props
+}) {
+  let remixContext = react.useContext(FrameworkContext);
+  let { basename } = react.useContext(NavigationContext);
+  let location = useLocation();
+  let matches = useMatches();
+  useScrollRestoration({ getKey, storageKey });
+  let ssrKey = react.useMemo(
+    () => {
+      if (!remixContext || !getKey) return null;
+      let userKey = getScrollRestorationKey(
+        location,
+        matches,
+        basename,
+        getKey
+      );
+      return userKey !== location.key ? userKey : null;
+    },
+    // Nah, we only need this the first time for the SSR render
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
+  if (!remixContext || remixContext.isSpaMode) {
+    return null;
+  }
+  let restoreScroll = ((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
+    }
+  }).toString();
+  return /* @__PURE__ */ react.createElement(
+    "script",
+    {
+      ...props,
+      suppressHydrationWarning: true,
+      dangerouslySetInnerHTML: {
+        __html: `(${restoreScroll})(${JSON.stringify(
+          storageKey || SCROLL_RESTORATION_STORAGE_KEY
+        )}, ${JSON.stringify(ssrKey)})`
+      }
+    }
+  );
+}
+ScrollRestoration.displayName = "ScrollRestoration";
+function getDataRouterConsoleError2(hookName) {
+  return `${hookName} must be used within a data router.  See https://reactrouter.com/en/main/routers/picking-a-router.`;
+}
+function useDataRouterContext3(hookName) {
+  let ctx = react.useContext(DataRouterContext);
+  invariant(ctx, getDataRouterConsoleError2(hookName));
+  return ctx;
+}
+function useDataRouterState2(hookName) {
+  let state = react.useContext(DataRouterStateContext);
+  invariant(state, getDataRouterConsoleError2(hookName));
+  return state;
+}
+function useLinkClickHandler(to, {
+  target,
+  replace: replaceProp,
+  state,
+  preventScrollReset,
+  relative,
+  viewTransition
+} = {}) {
+  let navigate = useNavigate();
+  let location = useLocation();
+  let path = useResolvedPath(to, { relative });
+  return react.useCallback(
+    (event) => {
+      if (shouldProcessLinkClick(event, target)) {
+        event.preventDefault();
+        let replace2 = replaceProp !== void 0 ? replaceProp : createPath(location) === createPath(path);
+        navigate(to, {
+          replace: replace2,
+          state,
+          preventScrollReset,
+          relative,
+          viewTransition
+        });
+      }
+    },
+    [
+      location,
+      navigate,
+      path,
+      replaceProp,
+      state,
+      target,
+      to,
+      preventScrollReset,
+      relative,
+      viewTransition
+    ]
+  );
+}
+function useSearchParams(defaultInit) {
+  warning(
+    typeof URLSearchParams !== "undefined",
+    `You cannot use the \`useSearchParams\` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params.`
+  );
+  let defaultSearchParamsRef = React10.useRef(createSearchParams(defaultInit));
+  let hasSetSearchParamsRef = React10.useRef(false);
+  let location = useLocation();
+  let searchParams = React10.useMemo(
+    () => (
+      // Only merge in the defaults if we haven't yet called setSearchParams.
+      // Once we call that we want those to take precedence, otherwise you can't
+      // remove a param with setSearchParams({}) if it has an initial value
+      getSearchParamsForLocation(
+        location.search,
+        hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current
+      )
+    ),
+    [location.search]
+  );
+  let navigate = useNavigate();
+  let setSearchParams = React10.useCallback(
+    (nextInit, navigateOptions) => {
+      const newSearchParams = createSearchParams(
+        typeof nextInit === "function" ? nextInit(new URLSearchParams(searchParams)) : nextInit
+      );
+      hasSetSearchParamsRef.current = true;
+      navigate("?" + newSearchParams, navigateOptions);
+    },
+    [navigate, searchParams]
+  );
+  return [searchParams, setSearchParams];
+}
+var fetcherId = 0;
+var getUniqueFetcherId = () => `__${String(++fetcherId)}__`;
+function useSubmit() {
+  let { router } = useDataRouterContext3("useSubmit" /* UseSubmit */);
+  let { basename } = react.useContext(NavigationContext);
+  let currentRouteId = useRouteId();
+  return react.useCallback(
+    async (target, options = {}) => {
+      let { action, method, encType, formData, body } = getFormSubmissionInfo(
+        target,
+        basename
+      );
+      if (options.navigate === false) {
+        let key = options.fetcherKey || getUniqueFetcherId();
+        await router.fetch(key, currentRouteId, options.action || action, {
+          preventScrollReset: options.preventScrollReset,
+          formData,
+          body,
+          formMethod: options.method || method,
+          formEncType: options.encType || encType,
+          flushSync: options.flushSync
+        });
+      } else {
+        await router.navigate(options.action || action, {
+          preventScrollReset: options.preventScrollReset,
+          formData,
+          body,
+          formMethod: options.method || method,
+          formEncType: options.encType || encType,
+          replace: options.replace,
+          state: options.state,
+          fromRouteId: currentRouteId,
+          flushSync: options.flushSync,
+          viewTransition: options.viewTransition
+        });
+      }
+    },
+    [router, basename, currentRouteId]
+  );
+}
+function useFormAction(action, { relative } = {}) {
+  let { basename } = react.useContext(NavigationContext);
+  let routeContext = react.useContext(RouteContext);
+  invariant(routeContext, "useFormAction must be used inside a RouteContext");
+  let [match] = routeContext.matches.slice(-1);
+  let path = { ...useResolvedPath(action ? action : ".", { relative }) };
+  let location = useLocation();
+  if (action == null) {
+    path.search = location.search;
+    let params = new URLSearchParams(path.search);
+    let indexValues = params.getAll("index");
+    let hasNakedIndexParam = indexValues.some((v) => v === "");
+    if (hasNakedIndexParam) {
+      params.delete("index");
+      indexValues.filter((v) => v).forEach((v) => params.append("index", v));
+      let qs = params.toString();
+      path.search = qs ? `?${qs}` : "";
+    }
+  }
+  if ((!action || action === ".") && match.route.index) {
+    path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+  }
+  if (basename !== "/") {
+    path.pathname = path.pathname === "/" ? basename : joinPaths([basename, path.pathname]);
+  }
+  return createPath(path);
+}
+function useFetcher({
+  key
+} = {}) {
+  let { router } = useDataRouterContext3("useFetcher" /* UseFetcher */);
+  let state = useDataRouterState2("useFetcher" /* UseFetcher */);
+  let fetcherData = React10.useContext(FetchersContext);
+  let route = React10.useContext(RouteContext);
+  let routeId = route.matches[route.matches.length - 1]?.route.id;
+  invariant(fetcherData, `useFetcher must be used inside a FetchersContext`);
+  invariant(route, `useFetcher must be used inside a RouteContext`);
+  invariant(
+    routeId != null,
+    `useFetcher can only be used on routes that contain a unique "id"`
+  );
+  let defaultKey = React10.useId();
+  let [fetcherKey, setFetcherKey] = React10.useState(key || defaultKey);
+  if (key && key !== fetcherKey) {
+    setFetcherKey(key);
+  }
+  React10.useEffect(() => {
+    router.getFetcher(fetcherKey);
+    return () => router.deleteFetcher(fetcherKey);
+  }, [router, fetcherKey]);
+  let load = React10.useCallback(
+    async (href, opts) => {
+      invariant(routeId, "No routeId available for fetcher.load()");
+      await router.fetch(fetcherKey, routeId, href, opts);
+    },
+    [fetcherKey, routeId, router]
+  );
+  let submitImpl = useSubmit();
+  let submit = React10.useCallback(
+    async (target, opts) => {
+      await submitImpl(target, {
+        ...opts,
+        navigate: false,
+        fetcherKey
+      });
+    },
+    [fetcherKey, submitImpl]
+  );
+  let unstable_reset = React10.useCallback((opts) => router.resetFetcher(fetcherKey, opts), [router, fetcherKey]);
+  let FetcherForm = React10.useMemo(() => {
+    let FetcherForm2 = React10.forwardRef(
+      (props, ref) => {
+        return /* @__PURE__ */ React10.createElement(Form, { ...props, navigate: false, fetcherKey, ref });
+      }
+    );
+    FetcherForm2.displayName = "fetcher.Form";
+    return FetcherForm2;
+  }, [fetcherKey]);
+  let fetcher = state.fetchers.get(fetcherKey) || IDLE_FETCHER;
+  let data2 = fetcherData.get(fetcherKey);
+  let fetcherWithComponents = React10.useMemo(
+    () => ({
+      Form: FetcherForm,
+      submit,
+      load,
+      unstable_reset,
+      ...fetcher,
+      data: data2
+    }),
+    [FetcherForm, submit, load, unstable_reset, fetcher, data2]
+  );
+  return fetcherWithComponents;
+}
+function useFetchers() {
+  let state = useDataRouterState2("useFetchers" /* UseFetchers */);
+  return Array.from(state.fetchers.entries()).map(([key, fetcher]) => ({
+    ...fetcher,
+    key
+  }));
+}
+var SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
+var savedScrollPositions = {};
+function getScrollRestorationKey(location, matches, basename, getKey) {
+  let key = null;
+  if (getKey) {
+    if (basename !== "/") {
+      key = getKey(
+        {
+          ...location,
+          pathname: stripBasename(location.pathname, basename) || location.pathname
+        },
+        matches
+      );
+    } else {
+      key = getKey(location, matches);
+    }
+  }
+  if (key == null) {
+    key = location.key;
+  }
+  return key;
+}
+function useScrollRestoration({
+  getKey,
+  storageKey
+} = {}) {
+  let { router } = useDataRouterContext3("useScrollRestoration" /* UseScrollRestoration */);
+  let { restoreScrollPosition, preventScrollReset } = useDataRouterState2(
+    "useScrollRestoration" /* UseScrollRestoration */
+  );
+  let { basename } = react.useContext(NavigationContext);
+  let location = useLocation();
+  let matches = useMatches();
+  let navigation = useNavigation();
+  react.useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    return () => {
+      window.history.scrollRestoration = "auto";
+    };
+  }, []);
+  usePageHide(
+    react.useCallback(() => {
+      if (navigation.state === "idle") {
+        let key = getScrollRestorationKey(location, matches, basename, getKey);
+        savedScrollPositions[key] = window.scrollY;
+      }
+      try {
+        sessionStorage.setItem(
+          storageKey || SCROLL_RESTORATION_STORAGE_KEY,
+          JSON.stringify(savedScrollPositions)
+        );
+      } catch (error) {
+        warning(
+          false,
+          `Failed to save scroll positions in sessionStorage, <ScrollRestoration /> will not work properly (${error}).`
+        );
+      }
+      window.history.scrollRestoration = "auto";
+    }, [navigation.state, getKey, basename, location, matches, storageKey])
+  );
+  if (typeof document !== "undefined") {
+    react.useLayoutEffect(() => {
+      try {
+        let sessionPositions = sessionStorage.getItem(
+          storageKey || SCROLL_RESTORATION_STORAGE_KEY
+        );
+        if (sessionPositions) {
+          savedScrollPositions = JSON.parse(sessionPositions);
+        }
+      } catch (e) {
+      }
+    }, [storageKey]);
+    react.useLayoutEffect(() => {
+      let disableScrollRestoration = router?.enableScrollRestoration(
+        savedScrollPositions,
+        () => window.scrollY,
+        getKey ? (location2, matches2) => getScrollRestorationKey(location2, matches2, basename, getKey) : void 0
+      );
+      return () => disableScrollRestoration && disableScrollRestoration();
+    }, [router, basename, getKey]);
+    react.useLayoutEffect(() => {
+      if (restoreScrollPosition === false) {
+        return;
+      }
+      if (typeof restoreScrollPosition === "number") {
+        window.scrollTo(0, restoreScrollPosition);
+        return;
+      }
+      try {
+        if (location.hash) {
+          let el = document.getElementById(
+            decodeURIComponent(location.hash.slice(1))
+          );
+          if (el) {
+            el.scrollIntoView();
+            return;
+          }
+        }
+      } catch {
+        warning(
+          false,
+          `"${location.hash.slice(
+            1
+          )}" is not a decodable element ID. The view will not scroll to it.`
+        );
+      }
+      if (preventScrollReset === true) {
+        return;
+      }
+      window.scrollTo(0, 0);
+    }, [location, restoreScrollPosition, preventScrollReset]);
+  }
+}
+function useBeforeUnload(callback, options) {
+  let { capture } = options || {};
+  React10.useEffect(() => {
+    let opts = capture != null ? { capture } : void 0;
+    window.addEventListener("beforeunload", callback, opts);
+    return () => {
+      window.removeEventListener("beforeunload", callback, opts);
+    };
+  }, [callback, capture]);
+}
+function usePageHide(callback, options) {
+  let { capture } = options || {};
+  react.useEffect(() => {
+    let opts = capture != null ? { capture } : void 0;
+    window.addEventListener("pagehide", callback, opts);
+    return () => {
+      window.removeEventListener("pagehide", callback, opts);
+    };
+  }, [callback, capture]);
+}
+function usePrompt({
+  when,
+  message
+}) {
+  let blocker = useBlocker(when);
+  React10.useEffect(() => {
+    if (blocker.state === "blocked") {
+      let proceed = window.confirm(message);
+      if (proceed) {
+        setTimeout(blocker.proceed, 0);
+      } else {
+        blocker.reset();
+      }
+    }
+  }, [blocker, message]);
+  React10.useEffect(() => {
+    if (blocker.state === "blocked" && !when) {
+      blocker.reset();
+    }
+  }, [blocker, when]);
+}
+function useViewTransitionState(to, { relative } = {}) {
+  let vtContext = react.useContext(ViewTransitionContext);
+  invariant(
+    vtContext != null,
+    "`useViewTransitionState` must be used within `react-router-dom`'s `RouterProvider`.  Did you accidentally import `RouterProvider` from `react-router`?"
+  );
+  let { basename } = useDataRouterContext3(
+    "useViewTransitionState" /* useViewTransitionState */
+  );
+  let path = useResolvedPath(to, { relative });
+  if (!vtContext.isTransitioning) {
+    return false;
+  }
+  let currentPath = stripBasename(vtContext.currentLocation.pathname, basename) || vtContext.currentLocation.pathname;
+  let nextPath = stripBasename(vtContext.nextLocation.pathname, basename) || vtContext.nextLocation.pathname;
+  return matchPath(path.pathname, nextPath) != null || matchPath(path.pathname, currentPath) != null;
+}
+
+// lib/dom/server.tsx
+
+function StaticRouter({
+  basename,
+  children,
+  location: locationProp = "/"
+}) {
+  if (typeof locationProp === "string") {
+    locationProp = parsePath(locationProp);
+  }
+  let action = "POP" /* Pop */;
+  let location = {
+    pathname: locationProp.pathname || "/",
+    search: locationProp.search || "",
+    hash: locationProp.hash || "",
+    state: locationProp.state != null ? locationProp.state : null,
+    key: locationProp.key || "default"
+  };
+  let staticNavigator = getStatelessNavigator();
+  return /* @__PURE__ */ React11.createElement(
+    Router,
+    {
+      basename,
+      children,
+      location,
+      navigationType: action,
+      navigator: staticNavigator,
+      static: true
+    }
+  );
+}
+function StaticRouterProvider({
+  context,
+  router,
+  hydrate: hydrate2 = true,
+  nonce
+}) {
+  invariant(
+    router && context,
+    "You must provide `router` and `context` to <StaticRouterProvider>"
+  );
+  let dataRouterContext = {
+    router,
+    navigator: getStatelessNavigator(),
+    static: true,
+    staticContext: context,
+    basename: context.basename || "/"
+  };
+  let fetchersContext = /* @__PURE__ */ new Map();
+  let hydrateScript = "";
+  if (hydrate2 !== false) {
+    let data2 = {
+      loaderData: context.loaderData,
+      actionData: context.actionData,
+      errors: serializeErrors(context.errors)
+    };
+    let json = htmlEscape(JSON.stringify(JSON.stringify(data2)));
+    hydrateScript = `window.__staticRouterHydrationData = JSON.parse(${json});`;
+  }
+  let { state } = dataRouterContext.router;
+  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(DataRouterContext.Provider, { value: dataRouterContext }, /* @__PURE__ */ React11.createElement(DataRouterStateContext.Provider, { value: state }, /* @__PURE__ */ React11.createElement(FetchersContext.Provider, { value: fetchersContext }, /* @__PURE__ */ React11.createElement(ViewTransitionContext.Provider, { value: { isTransitioning: false } }, /* @__PURE__ */ React11.createElement(
+    Router,
+    {
+      basename: dataRouterContext.basename,
+      location: state.location,
+      navigationType: state.historyAction,
+      navigator: dataRouterContext.navigator,
+      static: dataRouterContext.static
+    },
+    /* @__PURE__ */ React11.createElement(
+      DataRoutes2,
+      {
+        routes: router.routes,
+        future: router.future,
+        state
+      }
+    )
+  ))))), hydrateScript ? /* @__PURE__ */ React11.createElement(
+    "script",
+    {
+      suppressHydrationWarning: true,
+      nonce,
+      dangerouslySetInnerHTML: { __html: hydrateScript }
+    }
+  ) : null);
+}
+function DataRoutes2({
+  routes,
+  future,
+  state
+}) {
+  return useRoutesImpl(routes, void 0, state, void 0, future);
+}
+function serializeErrors(errors) {
+  if (!errors) return null;
+  let entries = Object.entries(errors);
+  let serialized = {};
+  for (let [key, val] of entries) {
+    if (isRouteErrorResponse(val)) {
+      serialized[key] = { ...val, __type: "RouteErrorResponse" };
+    } else if (val instanceof Error) {
+      serialized[key] = {
+        message: val.message,
+        __type: "Error",
+        // If this is a subclass (i.e., ReferenceError), send up the type so we
+        // can re-create the same type during hydration.
+        ...val.name !== "Error" ? {
+          __subType: val.name
+        } : {}
+      };
+    } else {
+      serialized[key] = val;
+    }
+  }
+  return serialized;
+}
+function getStatelessNavigator() {
+  return {
+    createHref,
+    encodeLocation,
+    push(to) {
+      throw new Error(
+        `You cannot use navigator.push() on the server because it is a stateless environment. This error was probably triggered when you did a \`navigate(${JSON.stringify(to)})\` somewhere in your app.`
+      );
+    },
+    replace(to) {
+      throw new Error(
+        `You cannot use navigator.replace() on the server because it is a stateless environment. This error was probably triggered when you did a \`navigate(${JSON.stringify(to)}, { replace: true })\` somewhere in your app.`
+      );
+    },
+    go(delta) {
+      throw new Error(
+        `You cannot use navigator.go() on the server because it is a stateless environment. This error was probably triggered when you did a \`navigate(${delta})\` somewhere in your app.`
+      );
+    },
+    back() {
+      throw new Error(
+        `You cannot use navigator.back() on the server because it is a stateless environment.`
+      );
+    },
+    forward() {
+      throw new Error(
+        `You cannot use navigator.forward() on the server because it is a stateless environment.`
+      );
+    }
+  };
+}
+function createStaticHandler2(routes, opts) {
+  return createStaticHandler(routes, {
+    ...opts,
+    mapRouteProperties
+  });
+}
+function createStaticRouter(routes, context, opts = {}) {
+  let manifest = {};
+  let dataRoutes = convertRoutesToDataRoutes(
+    routes,
+    mapRouteProperties,
+    void 0,
+    manifest
+  );
+  let matches = context.matches.map((match) => {
+    let route = manifest[match.route.id] || match.route;
+    return {
+      ...match,
+      route
+    };
+  });
+  let msg = (method) => `You cannot use router.${method}() on the server because it is a stateless environment`;
+  return {
+    get basename() {
+      return context.basename;
+    },
+    get future() {
+      return {
+        v8_middleware: false,
+        ...opts?.future
+      };
+    },
+    get state() {
+      return {
+        historyAction: "POP" /* Pop */,
+        location: context.location,
+        matches,
+        loaderData: context.loaderData,
+        actionData: context.actionData,
+        errors: context.errors,
+        initialized: true,
+        navigation: IDLE_NAVIGATION,
+        restoreScrollPosition: null,
+        preventScrollReset: false,
+        revalidation: "idle",
+        fetchers: /* @__PURE__ */ new Map(),
+        blockers: /* @__PURE__ */ new Map()
+      };
+    },
+    get routes() {
+      return dataRoutes;
+    },
+    get window() {
+      return void 0;
+    },
+    initialize() {
+      throw msg("initialize");
+    },
+    subscribe() {
+      throw msg("subscribe");
+    },
+    enableScrollRestoration() {
+      throw msg("enableScrollRestoration");
+    },
+    navigate() {
+      throw msg("navigate");
+    },
+    fetch() {
+      throw msg("fetch");
+    },
+    revalidate() {
+      throw msg("revalidate");
+    },
+    createHref,
+    encodeLocation,
+    getFetcher() {
+      return IDLE_FETCHER;
+    },
+    deleteFetcher() {
+      throw msg("deleteFetcher");
+    },
+    resetFetcher() {
+      throw msg("resetFetcher");
+    },
+    dispose() {
+      throw msg("dispose");
+    },
+    getBlocker() {
+      return IDLE_BLOCKER;
+    },
+    deleteBlocker() {
+      throw msg("deleteBlocker");
+    },
+    patchRoutes() {
+      throw msg("patchRoutes");
+    },
+    _internalFetchControllers: /* @__PURE__ */ new Map(),
+    _internalSetRoutes() {
+      throw msg("_internalSetRoutes");
+    },
+    _internalSetStateDoNotUseOrYouWillBreakYourApp() {
+      throw msg("_internalSetStateDoNotUseOrYouWillBreakYourApp");
+    }
+  };
+}
+function createHref(to) {
+  return typeof to === "string" ? to : createPath(to);
+}
+function encodeLocation(to) {
+  let href = typeof to === "string" ? to : createPath(to);
+  href = href.replace(/ $/, "%20");
+  let encoded = ABSOLUTE_URL_REGEX3.test(href) ? new URL(href) : new URL(href, "http://localhost");
+  return {
+    pathname: encoded.pathname,
+    search: encoded.search,
+    hash: encoded.hash
+  };
+}
+var ABSOLUTE_URL_REGEX3 = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+var ESCAPE_LOOKUP2 = {
+  "&": "\\u0026",
+  ">": "\\u003e",
+  "<": "\\u003c",
+  "\u2028": "\\u2028",
+  "\u2029": "\\u2029"
+};
+var ESCAPE_REGEX2 = /[&><\u2028\u2029]/g;
+function htmlEscape(str) {
+  return str.replace(ESCAPE_REGEX2, (match) => ESCAPE_LOOKUP2[match]);
+}
+
+
+
 ;// ./src/index.js
+
 
 
 
 
 var rootElement = document.getElementById('root');
 var root = (0,client.createRoot)(rootElement);
-root.render(/*#__PURE__*/react.createElement(react.StrictMode, null, /*#__PURE__*/react.createElement(app, null)));
+root.render(/*#__PURE__*/react.createElement(react.StrictMode, null, /*#__PURE__*/react.createElement(BrowserRouter, null, /*#__PURE__*/react.createElement(app, null))));
 })();
 
 /******/ })()
