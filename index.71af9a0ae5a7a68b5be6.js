@@ -31766,7 +31766,7 @@ var SliderCert = function SliderCert(props) {
   var slidesDefault = function slidesDefault() {
     var slides = document.querySelectorAll(".".concat(sliderSlideCertificatesClass));
     for (var i = 0; i < slides.length; i++) {
-      if (media1728 === true || media1133 === true) {
+      if (media1728 === true || media1300 === true || media1133 === true) {
         slides[i].classList.remove(sliderSlideCertificatesMobileClass);
         slides[i].classList.remove(sliderSlideCertificatesActiveClass);
       }
