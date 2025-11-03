@@ -30639,7 +30639,7 @@ module.exports = /*#__PURE__*/JSON.parse('[{"id":"popup-close-0","className":"po
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"0000000000"}]');
+module.exports = /*#__PURE__*/JSON.parse('[{"code":"+7","number":"XXXXXXXXXX"}]');
 
 /***/ })
 
@@ -33228,7 +33228,12 @@ var HeaderPhone = function HeaderPhone(props) {
       }, 20000);
     }
   }, [isHeaderPhone]);
+  var widthHeaderPhone = '';
+  queryNumber === "--1728" || queryNumber === "--1300" || queryNumber === "--1133" ? widthHeaderPhone = '160px' : '';
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
+    style: {
+      width: "".concat(widthHeaderPhone)
+    },
     className: headerPhoneClass
   }, /*#__PURE__*/react.createElement("a", {
     href: (0,funcHrefPhone/* default */.A)(props),
