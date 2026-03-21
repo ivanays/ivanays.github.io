@@ -1,0 +1,14 @@
+[
+  {
+    "id": "main-sidibar-link-sub-0",
+    "href": "#popup-b",
+    "className": "sidebar__link sidebar__link-sub popup-link",
+    "children": "Окна"
+  },
+  {
+    "id": "main-sidibar-link-sub-1",
+    "href": "#popup-f",
+    "className": "sidebar__link sidebar__link-sub popup-link",
+    "children": "Акции"
+  }
+]

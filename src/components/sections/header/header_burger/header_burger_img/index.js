@@ -1,0 +1,1 @@
+export { HeaderBurgerImg } from './HeaderBurgerImg';

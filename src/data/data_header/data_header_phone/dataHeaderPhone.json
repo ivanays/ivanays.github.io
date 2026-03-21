@@ -1,0 +1,57 @@
+[
+    {
+        "id": "header-span-phone-0",
+        "className": "header__span header__span-block",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-1",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-2",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-3",
+        "className": "header__span header__span-block",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-4",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-5",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-6",
+        "className": "header__span header__span-block",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-7",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-8",
+        "className": "header__span header__span-block",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-9",
+        "className": "header__span",
+        "children": ""
+    },
+    {
+        "id": "header-span-phone-10",
+        "className": "header__span header__span-block",
+        "children": ""
+    }
+]

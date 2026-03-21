@@ -1,0 +1,22 @@
+[
+    {
+      "href": {
+        "values": ["#", "#popup-d"],
+        "keys": [0, 0, 1]
+      },
+      "className": {
+        "values": [
+          "icons__link icons__link-main",
+          "icons__link icons__link-main popup-link"
+        ],
+        "keys": [0, 0, 1]
+      },
+      "id": {
+        "values": [
+          "main-icons-link"
+        ],
+        "keys": [0]
+      }
+    }
+]
+

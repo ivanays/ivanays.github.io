@@ -1,0 +1,32 @@
+[
+  {
+    "id": "header-menu-link-0",
+    "href": "#popup-g",
+    "dataBlock": "",
+    "children": "Выезд на дом"
+  },
+  {
+    "id": "header-menu-link-1",
+    "href": "#",
+    "dataBlock": "#procedures",
+    "children": "Услуги"
+  },
+  {
+    "id": "header-menu-link-2",
+    "href": "#popup-f",
+    "dataBlock": "",
+    "children": "Акции"
+  },
+  {
+    "id": "header-menu-link-3",
+    "href": "#popup-b",
+    "dataBlock": "",
+    "children": "Окна"
+  },
+  {
+    "id": "header-menu-link-4",
+    "href": "#popup-h",
+    "dataBlock": "",
+    "children": "Отзывы"
+  }
+]

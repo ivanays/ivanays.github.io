@@ -1,0 +1,1 @@
+export { useLoadImageBg } from './useLoadImageBg';

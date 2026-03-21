@@ -1,0 +1,27 @@
+[
+    {
+        "id": {
+        "values": ["header-menu-link"],
+        "keys": [0]
+      },
+      "href": {
+        "values": ["#popup-g", "#", "#popup-f", "#popup-b", "#popup-h"],
+        "keys": [0, 1, 2, 3, 4]
+      },
+      "className": {
+        "values": [
+          "menu__link menu__link-header popup-link",
+          "menu__link menu__link-header menu__link-block"
+        ],
+        "keys": [0, 1, 0, 0, 0]
+      },
+      "dataBlock": {
+        "values": ["", "#procedures"],
+        "keys": [0, 1, 0, 0, 0]
+      },
+      "children": {
+        "values": ["Выезд на дом", "Услуги", "Акции", "Окна", "Отзывы"],
+        "keys": [0, 1, 2, 3, 4]
+      }
+    }
+]

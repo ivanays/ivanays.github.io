@@ -1,0 +1,38 @@
+[
+    {
+      "href": {
+        "values": ["#popup-b", "#popup-f"],
+        "keys": [0, 1]
+      },
+      "className": {
+        "values": ["sidebar__link sidebar__link-sub popup-link"],
+        "keys": [0, 0]
+      },
+      "id": {
+        "values": ["main-sidibar-link-sub"],
+        "keys": [0]
+      },
+      "children": {
+        "values": ["Окна", "Акции"],
+        "keys": [0, 1]
+      }
+    },
+    {
+      "href": {
+        "values": ["#popup-c"],
+        "keys": [0]
+      },
+      "className": {
+        "values": ["sidebar__link sidebar__link-main popup-link"],
+        "keys": [0]
+      },
+      "id": {
+        "values": ["main-sidibar-link-main"],
+        "keys": [0]
+      },
+      "children": {
+        "values": ["Позвонить"],
+        "keys": [0]
+      }
+    }
+]

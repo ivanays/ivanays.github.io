@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "id": "footer-icon-whatsapp"
+    },
+    {
+      "id": "footer-icon-telegram"
+    },
+    {
+      "id": "footer-icon-checkmark"
+    }
+  ],
+  [
+    {
+      "id": "footer-link-whatsapp"
+    },
+    {
+      "id": "footer-link-telegram"
+    },
+    {
+      "id": "footer-link-checkmark"
+    }
+  ],
+  [
+    {
+      "id": "icon-line-whatsapp"
+    },
+    {
+      "id": "icon-line-telegram"
+    },
+    {
+      "id": "icon-line-checkmark"
+    }
+  ]
+]

@@ -1,0 +1,1 @@
+export { InfoSvg440Group1 } from './InfoSvg440Group1';

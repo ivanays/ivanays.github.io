@@ -1,0 +1,16 @@
+[
+    {
+      "alt": {
+        "values": ["burger"],
+        "keys": [0]
+      },
+      "className": {
+        "values": ["burger burger-header"],
+        "keys": [0]
+      },
+      "id": {
+        "values": ["header-burger-img"],
+        "keys": [0]
+      }
+    }
+]

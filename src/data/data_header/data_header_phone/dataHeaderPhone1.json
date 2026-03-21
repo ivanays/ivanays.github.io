@@ -1,0 +1,9 @@
+{
+    "span1": {
+        "className": "header__span header__span-block"
+    },
+    "span2": {
+        "className": "header__span"
+    },
+    "keys": [1, 2, 2, 1, 2, 2, 1, 2, 1, 2, 1]
+}

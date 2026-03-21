@@ -1,0 +1,1 @@
+export { InfoSvg440 } from './InfoSvg440';

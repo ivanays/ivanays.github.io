@@ -1,0 +1,23 @@
+.slider--275__svg-info {
+  width: 265px;
+  height: 177px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider--275__svg-title {
+  fill: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  transition: all 0.8s ease;
+}
+.slider--275__svg-text {
+  fill: #3d0751;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  transition: all 0.8s ease;
+}/*# sourceMappingURL=InfoSvg230l.css.map */

@@ -1,0 +1,16 @@
+[
+    {
+      "alt": {
+        "values": ["SNV"],
+        "keys": [0]
+      },
+      "className": {
+        "values": ["logo logo-header"],
+        "keys": [0]
+      },
+      "id": {
+        "values": ["header-logo-img"],
+        "keys": [0]
+      }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+      "idSvg": "info-svg-0",
+      "xlinkHref": "#svg-group-0",
+      "idTitle1": "title1-1",
+      "idText1": "text1-1",
+      "idTitle2": "title1-2",
+      "idText2": "text1-2",
+      "childrenTitle1": "Продолжительность",
+      "childrenText1": "от 25 до 60 мин",
+      "childrenTitle2": "Рекомендуемый курс",
+      "childrenText2": "12-16 сеансов"
+    },
+    {
+      "idSvg": "info-svg-1",
+      "xlinkHref": "#svg-group-1",
+      "idTitle1": "title2-1",
+      "idText1": "text2-1",
+      "idTitle2": "title2-2",
+      "idText2": "text2-2",
+      "childrenTitle1": "Анестезия",
+      "childrenText1": "Не требуется",
+      "childrenTitle2": "Препараты",
+      "childrenText2": "Не используются"
+    },
+    {
+      "idSvg": "info-svg-2",
+      "xlinkHref": "#svg-group-2",
+      "idTitle1": "title3-1",
+      "idText1": "text3-1",
+      "idTitle2": "title3-2",
+      "idText2": "text3-2",
+      "childrenTitle1": "Периодичность",
+      "childrenText1": "4 раза в неделю",
+      "childrenTitle2": "Эффект наступает",
+      "childrenText2": "в течении курса"
+    }
+]

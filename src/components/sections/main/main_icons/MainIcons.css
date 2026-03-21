@@ -1,0 +1,420 @@
+.main--1728__icons {
+  margin-right: 106px;
+  margin-bottom: 57px;
+}
+
+.icons--1728 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--1728__item {
+  list-style-type: none;
+}
+.icons--1728__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--1728__whatsapp-main {
+  width: 80px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.icons--1728__telegram-main {
+  width: 80px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.icons--1728__checkmark-main {
+  width: 80px;
+  height: 84px;
+  flex-shrink: 0;
+}
+
+.icons-main--1728 {
+  width: 300px;
+  height: 84px;
+}
+
+.main--1300__icons {
+  margin-right: 110px;
+  margin-bottom: 29px;
+}
+
+.icons--1300 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--1300__item {
+  list-style-type: none;
+}
+.icons--1300__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--1300__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--1300__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--1300__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--1300 {
+  width: 255px;
+  height: 65px;
+}
+
+.main--1133__icons {
+  margin-right: 26px;
+  margin-bottom: 29px;
+}
+
+.icons--1133 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--1133__item {
+  list-style-type: none;
+}
+.icons--1133__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--1133__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--1133__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--1133__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--1133 {
+  width: 255px;
+  height: 65px;
+}
+
+.main--900__icons {
+  margin-right: 101px;
+  margin-bottom: 14px;
+}
+
+.icons--900 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--900__item {
+  list-style-type: none;
+}
+.icons--900__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--900__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--900__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--900__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--900 {
+  width: 225px;
+  height: 65px;
+}
+
+.main--744__icons {
+  margin-right: 24px;
+  margin-bottom: 14px;
+}
+
+.icons--744 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--744__item {
+  list-style-type: none;
+}
+.icons--744__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--744__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--744__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--744__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--744 {
+  width: 225px;
+  height: 65px;
+}
+
+.main--744l__icons {
+  margin-right: 24px;
+  margin-bottom: 14px;
+}
+
+.icons--744l {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--744l__item {
+  list-style-type: none;
+}
+.icons--744l__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--744l__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--744l__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--744l__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--744l {
+  width: 225px;
+  height: 65px;
+}
+
+.main--600__icons {
+  margin-right: 44px;
+  margin-bottom: 19px;
+}
+
+.icons--600 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--600__item {
+  list-style-type: none;
+}
+.icons--600__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--600__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--600__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--600__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--600 {
+  width: 225px;
+  height: 65px;
+}
+
+.main--600l__icons {
+  margin-right: 44px;
+  margin-bottom: 19px;
+}
+
+.icons--600l {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--600l__item {
+  list-style-type: none;
+}
+.icons--600l__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--600l__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--600l__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--600l__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--600l {
+  width: 225px;
+  height: 65px;
+}
+
+.main--375__icons {
+  margin-right: 24px;
+  margin-bottom: 19px;
+}
+
+.icons--375 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--375__item {
+  list-style-type: none;
+}
+.icons--375__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--375__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--375__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--375__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--375 {
+  width: 225px;
+  height: 65px;
+}
+
+.main--275__icons {
+  margin-right: 0px;
+  margin-bottom: 19px;
+  align-self: center;
+}
+
+.icons--275 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons--275__item {
+  list-style-type: none;
+}
+.icons--275__link-main {
+  position: relative;
+  width: 80px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.icons--275__whatsapp-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--275__telegram-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.icons--275__checkmark-main {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.icons-main--275 {
+  width: 225px;
+  height: 65px;
+}/*# sourceMappingURL=MainIcons.css.map */

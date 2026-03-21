@@ -1,0 +1,159 @@
+.button-viewport--1728 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--1728 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--1300 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--1300 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--1133 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--1133 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--900 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--900 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--744 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--744 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--744l {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--744l {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--600 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--600 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--600l {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--600l {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--375 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--375 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}
+
+.button-viewport--275 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.3) inset;
+  transform: scaleX(0.75);
+}
+
+.button-viewport-hover--275 {
+  width: 50px;
+  height: 5px;
+  background-color: #efd2f9;
+  box-shadow: 1px 1px 2px 0px rgba(126, 11, 146, 0.2) inset;
+  transform: scaleX(0.8);
+}/*# sourceMappingURL=SliderProcButtonsButton.css.map */

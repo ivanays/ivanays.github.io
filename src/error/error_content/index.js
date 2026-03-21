@@ -1,0 +1,1 @@
+export { ErrorContentProc } from './ErrorContentProc';
