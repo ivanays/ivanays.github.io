@@ -1,1 +1,0 @@
-export { InfoSvg330Group1 } from './InfoSvg330Group1';

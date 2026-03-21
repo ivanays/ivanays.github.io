@@ -1,1 +1,0 @@
-export { ModalContentC } from './ModalContentC';

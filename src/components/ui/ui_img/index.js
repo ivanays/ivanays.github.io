@@ -1,1 +1,0 @@
-export { UiImg } from './UiImg';

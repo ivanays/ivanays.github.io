@@ -1,1 +1,0 @@
-export { ModalContentG } from './ModalContentG';

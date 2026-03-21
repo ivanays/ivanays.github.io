@@ -1,1 +1,0 @@
-export { UiP } from './UiP';

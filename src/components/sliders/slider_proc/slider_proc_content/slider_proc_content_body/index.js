@@ -1,1 +1,0 @@
-export {SliderProcContentBody} from './SliderProcContentBody';

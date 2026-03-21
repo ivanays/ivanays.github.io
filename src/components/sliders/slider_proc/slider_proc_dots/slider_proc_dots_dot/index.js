@@ -1,1 +1,0 @@
-export { SliderProcDotsDot } from './SliderProcDotsDot';
