@@ -27528,6 +27528,22 @@ h1, h2, h3, h4, h5, h6 {
   font-stretch: normal;
   font-variant: normal;
 }
+@font-face {
+  font-family: "Actor";
+  src: url(fonts/Actor-Regular..eot);
+  src: url(fonts/Actor-Regular..eot?#iefix) format("embedded-opentype"), url(fonts/Actor-Regular..otf) format("otf"), url(fonts/Actor-Regular..woff2) format("woff2"), url(fonts/Actor-Regular..woff) format("woff"), url(fonts/Actor-Regular..ttf) format("truetype"), url(fonts/Actor-Regular..svg#Actor-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Birthstone";
+  src: url(fonts/Birthstone-Regular..eot);
+  src: url(fonts/Birthstone-Regular..eot?#iefix) format("embedded-opentype"), url(fonts/Birthstone-Regular..otf) format("otf"), url(fonts/Birthstone-Regular..woff2) format("woff2"), url(fonts/Birthstone-Regular..woff) format("woff"), url(fonts/Birthstone-Regular..ttf) format("truetype"), url(fonts/Birthstone-Regular..svg#Birthstone-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 html,
 body {
   font-family: "Roboto", sans-serif;
